@@ -1,0 +1,153 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1604-1612"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "The increase in available microbial genome sequences has resulted in an increase in the size of the pangenomes being analyzed. Current pangenome visualizations are not intended for the pangenome sizes possible today and new approaches are necessary in order to convert the increase in available information to increase in knowledge. As the pangenome data structure is essentially a collection of sets we explore the potential for scalable set visualization as a tool for pangenome analysis."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "We present a new hierarchical clustering algorithm based on set arithmetics that optimizes the intersection sizes along the branches. The intersection and union sizes along the hierarchy are visualized using a composite dendrogram and icicle plot, which, in pangenome context, shows the evolution of pangenome and core size along the evolutionary hierarchy. Outlying elements, i.e. elements whose presence pattern do not correspond with the hierarchy, can be visualized using hierarchical edge bundles. When applied to pangenome data this plot shows putative horizontal gene transfers between the genomes and can highlight relationships between genomes that is not represented by the hierarchy. We illustrate the utility of hierarchical sets by applying it to a pangenome based on 113 Escherichia and Shigella genomes and find it provides a powerful addition to pangenome analysis."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability and Implementation",
+          "content": "The described clustering algorithm and visualizations are implemented in the hierarchicalSets R package available from CRAN ( https://cran.r-project.org/web/packages/hierarchicalSets )."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "thomasp85@gmail.com."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "ForeName": "Thomas Lin",
+          "LastName": "Pedersen",
+          "Initials": "TL",
+          "AffiliationInfo": [
+            {"Affiliation": "Department of Systems Biology, Center for Biological Sequence Analysis, The Technical University of Denmark, Building 208, DK-2800 Lyngby, Denmark."},
+            {"Affiliation": "Assays, Culture and Enzymes Division, Chr. Hansen A/S, DK-2970\u2009Hørsholm, Denmark."}
+          ]
+        }
+      },
+      "ArticleTitle": "Hierarchical sets: analyzing pangenome structure through scalable set visualizations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx034"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 33,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28130242
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28130242,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btx034",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx034",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5447240",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

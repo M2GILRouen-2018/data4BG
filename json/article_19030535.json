@@ -1,0 +1,341 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9806569,
+      "Country": "Germany",
+      "ISSNLinking": "0948-5023",
+      "MedlineTA": "J Mol Model"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 348},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Atoms in molecules methods that rely on reference promolecular densities typically require that one define, or otherwise determine, the densities of unbound atomic anions. Whereas the isolated atomic polyanions are always physically and computationally unbound, monoanions can be either physically bound but computationally unbound (like the oxygen anion at the Hartree-Fock level of theory), or physically unbound but computationally bound (like the nitrogen anion using many DFT methods with a basis set including diffuse functions). Depending on the level of theory and basis set used, the densities of negatively charged atomic ions can decay very slowly and even be nonmonotonically decreasing. These delocalized anionic densities induce ill-behaved atomic properties for compounds containing highly reduced atoms. To treat the problem of unphysical proatom densities in iterative Hirshfeld methods, we compute the smallest (typically fractional) nuclear charge to bind all electrons, called the effective nuclear charge [Formula: see text] of an atom A. When [Formula: see text] at a given level of theory, the scaled density corresponding to the effective nuclear charge is used as the negatively charged proatom density. This novel approach dramatically improves the computational robustness of the iterative Hirshfeld partitioning scheme."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Farnaz",
+            "LastName": "Heidar-Zadeh",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Chemistry, Ghent University, Krijgslaan 281 (S3), 9000, Ghent, Belgium."},
+              {"Affiliation": "Center for Molecular Modeling, Ghent University, Technologiepark 903, 9052, Zwijnaarde, Belgium."},
+              {"Affiliation": "Department of Chemistry and Chemical Biology, McMaster University, Hamilton, ON, L8S 4M1, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-2605-3883"
+            },
+            "ForeName": "Paul W",
+            "LastName": "Ayers",
+            "Initials": "PW",
+            "AffiliationInfo": {"Affiliation": "Department of Chemistry and Chemical Biology, McMaster University, Hamilton, ON, L8S 4M1, Canada. ayers@mcmaster.ca."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patrick",
+            "LastName": "Bultinck",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Chemistry, Ghent University, Krijgslaan 281 (S3), 9000, Ghent, Belgium. patrick.bultinck@ugent.be."}
+          }
+        ]
+      },
+      "ArticleTitle": "Fractional nuclear charge approach to isolated anion densities for Hirshfeld partitioning methods.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s00894-017-3514-6"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 23,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Mol Model",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "0948-5023"
+        },
+        "Title": "Journal of molecular modeling"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Atoms in molecules"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Bound anion density"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Critical charge"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Electron density"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hirshfeld partitioning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hirshfeld-I"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Iterative Hirshfeld"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Stockholder population analysis"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2011 Jun;32(8):1561-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21328400
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2007 Apr 14;126(14):144111",
+        "PMID": {
+          "Version": 1,
+          "content": 17444705
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem A. 2007 Dec 6;111(48):12146-51",
+        "PMID": {
+          "Version": 1,
+          "content": 17990857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2011 May 10;7(5):1328-35",
+        "PMID": {
+          "Version": 1,
+          "content": 26610127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2009 Feb 10;5(2):334-40",
+        "PMID": {
+          "Version": 1,
+          "content": 26610109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Chem Chem Phys. 2016 Sep 14;18(36):25721-25734",
+        "PMID": {
+          "Version": 1,
+          "content": 27711480
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2013 May 14;9(5):2221-5",
+        "PMID": {
+          "Version": 1,
+          "content": 26583716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2009 Jul 28;131(4):044127",
+        "PMID": {
+          "Version": 1,
+          "content": 19655857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2012 Feb 14;8(2):661-76",
+        "PMID": {
+          "Version": 1,
+          "content": 26596614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev B Condens Matter. 1988 Jan 15;37(2):785-789",
+        "PMID": {
+          "Version": 1,
+          "content": 9944570
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2015 Jan 28;142(4):044107",
+        "PMID": {
+          "Version": 1,
+          "content": 25637969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev A Gen Phys. 1985 Oct;32(4):2010-2021",
+        "PMID": {
+          "Version": 1,
+          "content": 9896312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Chem Chem Phys. 2008 Nov 28;10(44):6615-20",
+        "PMID": {
+          "Version": 1,
+          "content": 18989472
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2014 Sep 7;141(9):094103",
+        "PMID": {
+          "Version": 1,
+          "content": 25194360
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2000 May 29;84(22):5172-5",
+        "PMID": {
+          "Version": 1,
+          "content": 10990895
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2000 Aug 1;97(16):8879-82",
+        "PMID": {
+          "Version": 1,
+          "content": 10922049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev A Gen Phys. 1988 Sep 15;38(6):3098-3100",
+        "PMID": {
+          "Version": 1,
+          "content": 9900728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2016 Aug 9;12(8):3894-912",
+        "PMID": {
+          "Version": 1,
+          "content": 27385073
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Commun (Camb). 2008 Dec 7;(45):5909-11",
+        "PMID": {
+          "Version": 1,
+          "content": 19030535
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29164339
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29164339,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s00894-017-3514-6",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s00894-017-3514-6",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

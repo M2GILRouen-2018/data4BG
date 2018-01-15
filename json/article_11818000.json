@@ -1,0 +1,434 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "6589-6602"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NHLBI NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 HL109711",
+          "Acronym": "HL"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Metal-oxide-semiconductor field-effect transistors (MOSFETs) serve as a helpful tool for organ radiation dosimetry and their use has grown in computed tomography (CT). While different approaches have been used for MOSFET calibration, those using the commonly available 100 mm pencil ionization chamber have not incorporated measurements performed throughout its length, and moreover, no previous work has rigorously evaluated the multiple sources of error involved in MOSFET calibration. In this paper, we propose a new MOSFET calibration approach to translate MOSFET voltage measurements into absorbed dose from CT, based on serial measurements performed throughout the length of a 100-mm ionization chamber, and perform an analysis of the errors of MOSFET voltage measurements and four sources of error in calibration."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "MOSFET calibration was performed at two sites, to determine single calibration factors for tube potentials of 80, 100, and 120 kVp, using a 100-mm-long pencil ion chamber and a cylindrical computed tomography dose index (CTDI) phantom of 32 cm diameter. The dose profile along the 100-mm ion chamber axis was sampled in 5 mm intervals by nine MOSFETs in the nine holes of the CTDI phantom. Variance of the absorbed dose was modeled as a sum of the MOSFET voltage measurement variance and the calibration factor variance, the latter being comprised of three main subcomponents: ionization chamber reading variance, MOSFET-to-MOSFET variation and a contribution related to the fact that the average calibration factor of a few MOSFETs was used as an estimate for the average value of all MOSFETs. MOSFET voltage measurement error was estimated based on sets of repeated measurements. The calibration factor overall voltage measurement error was calculated from the above analysis."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Calibration factors determined were close to those reported in the literature and by the manufacturer (~3 mV/mGy), ranging from 2.87 to 3.13 mV/mGy. The error σV of a MOSFET voltage measurement was shown to be proportional to the square root of the voltage V: σV=cV where c = 0.11 mV. A main contributor to the error in the calibration factor was the ionization chamber reading error with 5% error. The usage of a single calibration factor for all MOSFETs introduced an additional error of about 5-7%, depending on the number of MOSFETs that were used to determine the single calibration factor. The expected overall error in a high-dose region (~30 mGy) was estimated to be about 8%, compared to 6% when an individual MOSFET calibration was performed. For a low-dose region (~3 mGy), these values were 13% and 12%."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "A MOSFET calibration method was developed using a 100-mm pencil ion chamber and a CTDI phantom, accompanied by an absorbed dose error analysis reflecting multiple sources of measurement error. When using a single calibration factor, per tube potential, for different MOSFETs, only a small error was introduced into absorbed dose determinations, thus supporting the use of a single calibration factor for experiments involving many MOSFETs, such as those required to accurately estimate radiation effective dose."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sigal",
+            "LastName": "Trattner",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Medicine, Division of Cardiology, Columbia University Medical Center and New York-Presbyterian Hospital, New York, NY, 10032, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter",
+            "LastName": "Prinsen",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Philips Research, Eindhoven, 5656AE, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jens",
+            "LastName": "Wiegert",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Philips Research, Eindhoven, 5656AE, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elazar-Lars",
+            "LastName": "Gerland",
+            "Initials": "EL",
+            "AffiliationInfo": {"Affiliation": "Philips Healthcare, Haifa, 31004, Israel."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Efrat",
+            "LastName": "Shefer",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Philips Healthcare, Haifa, 31004, Israel."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tom",
+            "LastName": "Morton",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Philips Healthcare, Cleveland, OH, 44143, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Carla M",
+            "LastName": "Thompson",
+            "Initials": "CM",
+            "AffiliationInfo": [
+              {"Affiliation": "Division of Radiology, Imaging Institute, Cleveland Clinic, Cleveland, OH, USA."},
+              {"Affiliation": "Department of Biomedical Engineering, Lerner Research Institute, Cleveland Clinic, Cleveland, OH, 44195, USA."},
+              {"Affiliation": "Department of Chemical and Biomedical Engineering, Cleveland State University, Cleveland, OH, 44195, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yoad",
+            "LastName": "Yagil",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Philips Healthcare, Haifa, 31004, Israel."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bin",
+            "LastName": "Cheng",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Columbia University Mailman School of Public Health, New York, NY, 10032, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sachin",
+            "LastName": "Jambawalikar",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Columbia University Medical Center and New York-Presbyterian Hospital, New York, NY, 10032, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rani",
+            "LastName": "Al-Senan",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Columbia University Medical Center and New York-Presbyterian Hospital, New York, NY, 10032, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maxwell",
+            "LastName": "Amurao",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Columbia University Medical Center and New York-Presbyterian Hospital, New York, NY, 10032, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sandra S",
+            "LastName": "Halliburton",
+            "Initials": "SS",
+            "AffiliationInfo": [
+              {"Affiliation": "Philips Healthcare, Cleveland, OH, 44143, USA."},
+              {"Affiliation": "Division of Radiology, Imaging Institute, Cleveland Clinic, Cleveland, OH, USA."},
+              {"Affiliation": "Department of Biomedical Engineering, Lerner Research Institute, Cleveland Clinic, Cleveland, OH, 44195, USA."},
+              {"Affiliation": "Department of Chemical and Biomedical Engineering, Cleveland State University, Cleveland, OH, 44195, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew J",
+            "LastName": "Einstein",
+            "Initials": "AJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Medicine, Division of Cardiology, Columbia University Medical Center and New York-Presbyterian Hospital, New York, NY, 10032, USA."},
+              {"Affiliation": "Department of Radiology, Columbia University Medical Center and New York-Presbyterian Hospital, New York, NY, 10032, USA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Calibration and error analysis of metal-oxide-semiconductor field-effect transistor dosimeters for computed tomography radiation dosimetry.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12592"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "MOSFET"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "calibration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "dosimetry"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ion chamber"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "measurement error"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Jun;39(6):3031-40",
+        "PMID": {
+          "Version": 1,
+          "content": 22755688
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2005 Jan 21;50(2):289-303",
+        "PMID": {
+          "Version": 1,
+          "content": 15742945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiographics. 2008 Jan-Feb;28(1):245-53",
+        "PMID": {
+          "Version": 1,
+          "content": 18203941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 2007 May;188(5):1332-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17449779
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Prot Dosimetry. 2013 Jul;155(2):161-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23222552
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Radiol. 1999 Jun;72(858):562-8",
+        "PMID": {
+          "Version": 1,
+          "content": 10560338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 2006 Jun;186(6):1718-22",
+        "PMID": {
+          "Version": 1,
+          "content": 16714665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Dosim. 2012 Winter;37(4):436-41",
+        "PMID": {
+          "Version": 1,
+          "content": 22626968
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2007 Dec;245(3):742-50",
+        "PMID": {
+          "Version": 1,
+          "content": 17923509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2011 Jul;38(7):4251-64",
+        "PMID": {
+          "Version": 1,
+          "content": 21859027
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2004 May;31(5):1003-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15191284
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Assist Tomogr. 2007 Jul-Aug;31(4):544-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17882029
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 2010 Dec;195(6):1347-54",
+        "PMID": {
+          "Version": 1,
+          "content": 21098194
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Clin Med Phys. 2015 Jul 08;16(4):266\u2013278",
+        "PMID": {
+          "Version": 1,
+          "content": 26219008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Radiol. 2012 Mar;85(1011):237-48",
+        "PMID": {
+          "Version": 1,
+          "content": 21896660
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Clin Med Phys. 2002 Winter;3(1):12-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11818000
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28940306
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28940306,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12592",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5734630",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS907677",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

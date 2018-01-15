@@ -1,0 +1,581 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100967800,
+      "Country": "England",
+      "ISSNLinking": "1471-2407",
+      "MedlineTA": "BMC Cancer"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 77},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "microRNAs are single-stranded non-coding RNA sequences of 18 - 24 nucleotides in length. They play an important role in post-transcriptional regulation of gene expression. Evidences of microRNA acting as promoter/suppressor of several diseases including cancer are being unveiled. Recent studies have shown that microRNAs are differentially expressed in disease states when compared with that of normal states. Profiling of microRNA is a good measure to estimate the differences in expression levels, which can be further utilized to understand the progression of any associated disease."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "Machine learning techniques, when applied to microRNA expression values obtained from NGS data, could be utilized for the development of effective disease prediction system. This paper discusses an approach for microRNA expression profiling, its normalization and a Support Vector based machine learning technique to develop a Cancer Prediction System. Presently, the system has been trained with data samples of hepatocellular carcinoma, carcinomas of the bladder and lung cancer. microRNAs related to specific types of cancer were used to build the classifier."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "When the system is trained and tested with 10 fold cross validation, the prediction accuracy obtained is 97.56% for lung cancer, 97.82% for hepatocellular carcinoma and 95.0% for carcinomas of the bladder. The system is further validated with separate test sets, which show accuracies higher than 90%. A ranking based on differential expression marks the relative significance of each microRNA in the prediction process."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Results from experiments proved that microRNA expression profiling is an effective mechanism for disease identification, provided sufficiently large database is available."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-2953-0972"
+            },
+            "ForeName": "A",
+            "LastName": "Salim",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, College of Engineering Trivandrum, Sreekaryam, Thiruvananthapuram, India. salim.mangad@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "R",
+            "LastName": "Amjesh",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Computational Biology and BioInformatics, University of Kerala, Karyavattom, Thiruvananthapuram, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "S S Vinod",
+            "LastName": "Chandra",
+            "Initials": "SS",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computational Biology and BioInformatics, University of Kerala, Karyavattom, Thiruvananthapuram, India."},
+              {"Affiliation": "Computer Center, University of Kerala, Thiruvananthapuram, India."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "An approach to forecast human cancer by profiling microRNA expressions from NGS data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12885-016-3042-2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Cancer",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2407"
+        },
+        "Title": "BMC cancer"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Expression profiling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MicroRNA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SVM classifiers"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Sequence mapping"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Chem. 2013 Jun;44:15-21",
+        "PMID": {
+          "Version": 1,
+          "content": 23499870
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Sep;38(17):5919-28",
+        "PMID": {
+          "Version": 1,
+          "content": 20466808
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2013 Oct 10;13:469",
+        "PMID": {
+          "Version": 1,
+          "content": 24112539
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Cell. 2006 Mar;9(3):189-98",
+        "PMID": {
+          "Version": 1,
+          "content": 16530703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Aug 1;25(15):1966-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19497933
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2013 Nov-Dec;102(5-6):500-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23912058
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Jan 18;11 Suppl 1:S2",
+        "PMID": {
+          "Version": 1,
+          "content": 20122191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Liver Int. 2012 May;32(5):752-60",
+        "PMID": {
+          "Version": 1,
+          "content": 22276989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lab Invest. 2014 Mar;94(3):350-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24445778
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2015 Jul 15;83:3-17",
+        "PMID": {
+          "Version": 1,
+          "content": 25980368
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Jun 23;11:341",
+        "PMID": {
+          "Version": 1,
+          "content": 20573248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004 Jan 1;32(Database issue):D109-11",
+        "PMID": {
+          "Version": 1,
+          "content": 14681370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D68-73",
+        "PMID": {
+          "Version": 1,
+          "content": 24275495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Sep 16;431(7006):350-5",
+        "PMID": {
+          "Version": 1,
+          "content": 15372042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Cancer Res. 2010 Jan 15;16(2):430-41",
+        "PMID": {
+          "Version": 1,
+          "content": 20068076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jul;42(Web Server issue):W494-500",
+        "PMID": {
+          "Version": 1,
+          "content": 24810850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Aug 1;30(15):2114-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24695404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Med Rep. 2015 May;11(5):3647-51",
+        "PMID": {
+          "Version": 1,
+          "content": 25544258
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Aug 15;25(16):2078-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19505943
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2002 Nov 26;99(24):15524-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12434020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2011 Aug;98(2):152-3",
+        "PMID": {
+          "Version": 1,
+          "content": 21651976
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Cancer. 2014 Jun 1;134(11):2646-55",
+        "PMID": {
+          "Version": 1,
+          "content": 24615168
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Res Notes. 2012 Jul 02;5:337",
+        "PMID": {
+          "Version": 1,
+          "content": 22748135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Jan 20;11:38",
+        "PMID": {
+          "Version": 1,
+          "content": 20089148
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2012;13 Suppl 7:S18",
+        "PMID": {
+          "Version": 1,
+          "content": 23281739
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2012 Apr 18;13(5):358-69",
+        "PMID": {
+          "Version": 1,
+          "content": 22510765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2003 May 13;13(10):807-18",
+        "PMID": {
+          "Version": 1,
+          "content": 12747828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Mar 1;29(5):638-44",
+        "PMID": {
+          "Version": 1,
+          "content": 23325619
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2009;10(3):R25",
+        "PMID": {
+          "Version": 1,
+          "content": 19261174
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Jun 07;14:184",
+        "PMID": {
+          "Version": 1,
+          "content": 23758764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Cancer. 2006 Nov;6(11):857-66",
+        "PMID": {
+          "Version": 1,
+          "content": 17060945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010 Jan 20;11(1):R6",
+        "PMID": {
+          "Version": 1,
+          "content": 20089154
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Jun 08;5:10775",
+        "PMID": {
+          "Version": 1,
+          "content": 26053859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2014 Sep 24;14 :703",
+        "PMID": {
+          "Version": 1,
+          "content": 25249344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Mol Med. 2008 Dec;12(6A):2189-204",
+        "PMID": {
+          "Version": 1,
+          "content": 19120703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Jul 15;25(14):1754-60",
+        "PMID": {
+          "Version": 1,
+          "content": 19451168
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2009 Jan 23;136(2):215-33",
+        "PMID": {
+          "Version": 1,
+          "content": 19167326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Mar 1;24(5):713-4",
+        "PMID": {
+          "Version": 1,
+          "content": 18227114
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomark Res. 2014 Oct 22;2:19",
+        "PMID": {
+          "Version": 1,
+          "content": 25356314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Cancer. 2013 Oct 29;109(9):2404-11",
+        "PMID": {
+          "Version": 1,
+          "content": 24113142
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Jun 18;8(6):e66165",
+        "PMID": {
+          "Version": 1,
+          "content": 23824282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Ther Med. 2011 Sep;2(5):963-967",
+        "PMID": {
+          "Version": 1,
+          "content": 22977606
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2011 Jun;97(6):333-40",
+        "PMID": {
+          "Version": 1,
+          "content": 21377523
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Carcinogenesis. 2015 May;36(5):528-37",
+        "PMID": {
+          "Version": 1,
+          "content": 25804644
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Jun 12;15:182",
+        "PMID": {
+          "Version": 1,
+          "content": 24925680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Oct 15;31(20):3330-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26092859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Med (Lausanne). 2015 Jul 22;2:47",
+        "PMID": {
+          "Version": 1,
+          "content": 26258125
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009 Jun 25;4(6):e6045",
+        "PMID": {
+          "Version": 1,
+          "content": 19557174
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28122525
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 28,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28122525,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12885-016-3042-2",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12885-016-3042-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5267436",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

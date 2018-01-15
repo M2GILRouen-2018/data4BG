@@ -1,0 +1,163 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9878362,
+      "Country": "United States",
+      "ISSNLinking": "0192-8651",
+      "MedlineTA": "J Comput Chem"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "489-507"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 Wiley Periodicals, Inc.",
+        "AbstractText": "A massively parallel algorithm of the analytical energy gradient calculations based the resolution of identity Møller-Plesset perturbation (RI-MP2) method from the restricted Hartree-Fock reference is presented for geometry optimization calculations and one-electron property calculations of large molecules. This algorithm is designed for massively parallel computation on multicore supercomputers applying the Message Passing Interface (MPI) and Open Multi-Processing (OpenMP) hybrid parallel programming model. In this algorithm, the two-dimensional hierarchical MP2 parallelization scheme is applied using a huge number of MPI processes (more than 1000 MPI processes) for acceleration of the computationally demanding O(N5 ) step such as calculations of occupied-occupied and virtual-virtual blocks of MP2 one-particle density matrix and MP2 two-particle density matrices. The new parallel algorithm performance is assessed using test calculations of several large molecules such as buckycatcher C60 @C60 H28 (144 atoms, 1820 atomic orbitals (AOs) for def2-SVP basis set, and 3888 AOs for def2-TZVP), nanographene dimer (C96 H24 )2 (240 atoms, 2928 AOs for def2-SVP, and 6432 AOs for cc-pVTZ), and trp-cage protein 1L2Y (304 atoms and 2906 AOs for def2-SVP) using up to 32,768 nodes and 262,144 central processing unit (CPU) cores of the K computer. The results of geometry optimization calculations of trp-cage protein 1L2Y at the RI-MP2/def2-SVP level using the 3072 nodes and 24,576 cores of the K computer are presented and discussed to assess the efficiency of the proposed algorithm. © 2017 Wiley Periodicals, Inc."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michio",
+            "LastName": "Katouda",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Computational Molecular Science Research Team, RIKEN Advanced Institute for Computational Science, 7-1-26 Minatojima-minami-machi, Chuo-ku, Kobe, 650-0047, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Takahito",
+            "LastName": "Nakajima",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Computational Molecular Science Research Team, RIKEN Advanced Institute for Computational Science, 7-1-26 Minatojima-minami-machi, Chuo-ku, Kobe, 650-0047, Japan."}
+          }
+        ]
+      },
+      "ArticleTitle": "MPI/OpenMP hybrid parallel algorithm for resolution of identity second-order Møller-Plesset perturbation calculation of analytical energy gradient for massively parallel multicore supercomputers.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/jcc.24701"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 38,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017,
+            "Day": 30
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Comput Chem",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1096-987X"
+        },
+        "Title": "Journal of computational chemistry"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "K computer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "NTChem"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "RI-MP2"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "analytical energy gradient"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "geometry optimization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "massively parallel algorithm"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 30
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28133838
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 16,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28133838,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/jcc.24701",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

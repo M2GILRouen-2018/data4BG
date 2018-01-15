@@ -1,0 +1,961 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101528555,
+      "Country": "England",
+      "ISSNLinking": "2041-1723",
+      "MedlineTA": "Nat Commun"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 1749},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 CA016672",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R37 CA016303",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R00 CA172700",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM114160",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "K99 CA207865",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R00 CA175290",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIH HHS",
+            "Country": "United States",
+            "GrantID": "S10 OD012304",
+            "Acronym": "OD"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA016303",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U24 CA143883",
+            "Acronym": "CA"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Translation is principally regulated at the initiation stage. The development of the translation initiation (TI) sequencing (TI-seq) technique has enabled the global mapping of TIs and revealed unanticipated complex translational landscapes in metazoans. Despite the wide adoption of TI-seq, there is no computational tool currently available for analyzing TI-seq data. To fill this gap, we develop a comprehensive toolkit named Ribo-TISH, which allows for detecting and quantitatively comparing TIs across conditions from TI-seq data. Ribo-TISH can also predict novel open reading frames (ORFs) from regular ribosome profiling (rRibo-seq) data and outperform several established methods in both computational efficiency and prediction accuracy. Applied to published TI-seq/rRibo-seq data sets, Ribo-TISH uncovers a novel signature of elevated mitochondrial translation during amino-acid deprivation and predicts novel ORFs in 5'UTRs, long noncoding RNAs, and introns. These successful applications demonstrate the power of Ribo-TISH in extracting biological insights from TI-seq/rRibo-seq data."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9303-1639"
+            },
+            "ForeName": "Peng",
+            "LastName": "Zhang",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dandan",
+            "LastName": "He",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yi",
+            "LastName": "Xu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiakai",
+            "LastName": "Hou",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bih-Fang",
+            "LastName": "Pan",
+            "Initials": "BF",
+            "AffiliationInfo": {"Affiliation": "Proteomics and Metabolomics Facility, and Department of Systems Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3030-1851"
+            },
+            "ForeName": "Yunfei",
+            "LastName": "Wang",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8818-8313"
+            },
+            "ForeName": "Tao",
+            "LastName": "Liu",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Biochemistry, State University of New York at Buffalo, Buffalo, NY, 14203, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christel M",
+            "LastName": "Davis",
+            "Initials": "CM",
+            "AffiliationInfo": {"Affiliation": "Avera Institute for Human Genetics, Sioux Falls, SD, 57108, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7865-3015"
+            },
+            "ForeName": "Erik A",
+            "LastName": "Ehli",
+            "Initials": "EA",
+            "AffiliationInfo": {"Affiliation": "Avera Institute for Human Genetics, Sioux Falls, SD, 57108, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lin",
+            "LastName": "Tan",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Feng",
+            "LastName": "Zhou",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Liver Cancer Institute, Zhongshan Hospital, Key Laboratory of Carcinogenesis and Cancer Invasion, Minister of Education, and Institutes of Biomedical Sciences, Fudan University, Shanghai, 200032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jian",
+            "LastName": "Hu",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Cancer Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77054, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yonghao",
+            "LastName": "Yu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Biochemistry, The University of Texas Southwestern Medical Center, Dallas, TX, 75390, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xi",
+            "LastName": "Chen",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tuan M",
+            "LastName": "Nguyen",
+            "Initials": "TM",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX, 77030, USA."},
+              {"Affiliation": "Program in Translational Biology and Molecular Medicine, Baylor College of Medicine, Houston, TX, 77030, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeffrey M",
+            "LastName": "Rosen",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-6102-7843"
+            },
+            "ForeName": "David H",
+            "LastName": "Hawke",
+            "Initials": "DH",
+            "AffiliationInfo": {"Affiliation": "Proteomics and Metabolomics Facility, and Department of Systems Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhe",
+            "LastName": "Ji",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biological Chemistry and Molecular and Pharmacology, Harvard Medical School, Boston, MA, 02115, USA."},
+              {"Affiliation": "Broad Institute of MIT and Harvard, Cambridge, MA, 02142, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yiwen",
+            "LastName": "Chen",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA. ychen26@mdanderson.org."}
+          }
+        ]
+      },
+      "ArticleTitle": "Genome-wide identification and differential analysis of translational initiation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1038/s41467-017-01981-8"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 8,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Nat Commun",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2041-1723"
+        },
+        "Title": "Nature communications"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Feb;12(2):147-53",
+        "PMID": {
+          "Version": 1,
+          "content": 25486063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2014 May;13(5):1245-61",
+        "PMID": {
+          "Version": 1,
+          "content": 24623590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2015 Dec 3;60(5):816-827",
+        "PMID": {
+          "Version": 1,
+          "content": 26638175
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Dec 1;29(23):2995-3002",
+        "PMID": {
+          "Version": 1,
+          "content": 24048356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D845-50",
+        "PMID": {
+          "Version": 1,
+          "content": 24203712
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 1995 Apr 21;81(2):171-8",
+        "PMID": {
+          "Version": 1,
+          "content": 7736569
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2016 Feb;13(2):165-70",
+        "PMID": {
+          "Version": 1,
+          "content": 26657557
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2012 Nov;22(11):2219-29",
+        "PMID": {
+          "Version": 1,
+          "content": 22593554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2011 Jul 25;12(7):R67",
+        "PMID": {
+          "Version": 1,
+          "content": 21787385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Dec 1;28(23):3013-20",
+        "PMID": {
+          "Version": 1,
+          "content": 23024010
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioessays. 2015 Jan;37(1):103-12",
+        "PMID": {
+          "Version": 1,
+          "content": 25345765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Mar 11;43(5):e29",
+        "PMID": {
+          "Version": 1,
+          "content": 25510491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Jan 1;26(1):139-40",
+        "PMID": {
+          "Version": 1,
+          "content": 19910308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 2015 Apr;21(4):652-4",
+        "PMID": {
+          "Version": 1,
+          "content": 25780177
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Res. 2010 Apr;20(4):445-57",
+        "PMID": {
+          "Version": 1,
+          "content": 20157333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Aug 04;12:323",
+        "PMID": {
+          "Version": 1,
+          "content": 21816040
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Nov 15;28(22):2914-21",
+        "PMID": {
+          "Version": 1,
+          "content": 23060617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 2015 Oct;21(10):1731-45",
+        "PMID": {
+          "Version": 1,
+          "content": 26286745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2016 Apr 04;7:11194",
+        "PMID": {
+          "Version": 1,
+          "content": 27041671
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2016 Oct 04;7:12915",
+        "PMID": {
+          "Version": 1,
+          "content": 27698342
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2015 Nov;16(11):651-64",
+        "PMID": {
+          "Version": 1,
+          "content": 26465719
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2014 Apr;24(4):616-28",
+        "PMID": {
+          "Version": 1,
+          "content": 24429298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2012 Nov;22(11):2208-18",
+        "PMID": {
+          "Version": 1,
+          "content": 22879431
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2010 Feb;11(2):113-27",
+        "PMID": {
+          "Version": 1,
+          "content": 20094052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Dec 14;107(50):21487-92",
+        "PMID": {
+          "Version": 1,
+          "content": 21115840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Jan 1;29(1):15-21",
+        "PMID": {
+          "Version": 1,
+          "content": 23104886
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Apr 15;25(8):1026-32",
+        "PMID": {
+          "Version": 1,
+          "content": 19244387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2010 May;28(5):511-5",
+        "PMID": {
+          "Version": 1,
+          "content": 20436464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2007 Apr 15;109(8):3152-4",
+        "PMID": {
+          "Version": 1,
+          "content": 17164339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Development. 2013 Jul;140(13):2828-34",
+        "PMID": {
+          "Version": 1,
+          "content": 23698349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2016 Jan 29;351(6272):aad3867",
+        "PMID": {
+          "Version": 1,
+          "content": 26823435
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2016 Mar 24;165(1):22-33",
+        "PMID": {
+          "Version": 1,
+          "content": 27015305
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2007 Sep;8(9):711-23",
+        "PMID": {
+          "Version": 1,
+          "content": 17680008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Neurosci. 2014;37:17-38",
+        "PMID": {
+          "Version": 1,
+          "content": 25032491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Chem Biol. 2013 Jan;9(1):59-64",
+        "PMID": {
+          "Version": 1,
+          "content": 23160002
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(3):R25",
+        "PMID": {
+          "Version": 1,
+          "content": 20196867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2007 Jun;6(6):1000-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17317662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2014 Sep 11;8(5):1365-79",
+        "PMID": {
+          "Version": 1,
+          "content": 25159147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014;15(10):476",
+        "PMID": {
+          "Version": 1,
+          "content": 25273840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Nov 21;15:380",
+        "PMID": {
+          "Version": 1,
+          "content": 25413677
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(3):R29",
+        "PMID": {
+          "Version": 1,
+          "content": 20222956
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2016 Jan 06;5:null",
+        "PMID": {
+          "Version": 1,
+          "content": 26735365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Algorithms Mol Biol. 2011 Apr 19;6(1):9",
+        "PMID": {
+          "Version": 1,
+          "content": 21504602
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2015 Dec 19;4:e08890",
+        "PMID": {
+          "Version": 1,
+          "content": 26687005
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2009 Feb 20;136(4):731-45",
+        "PMID": {
+          "Version": 1,
+          "content": 19239892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014;42(17):e134",
+        "PMID": {
+          "Version": 1,
+          "content": 25056308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 May 15;27(10):1440-1",
+        "PMID": {
+          "Version": 1,
+          "content": 21422072
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2014 Aug 21;3:e03528",
+        "PMID": {
+          "Version": 1,
+          "content": 25144939
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D60-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24163100
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Genet Genomics. 2005 Jul;273(6):491-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15959805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Feb 12;160(4):595-606",
+        "PMID": {
+          "Version": 1,
+          "content": 25640239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 2014 May 2;33(9):981-93",
+        "PMID": {
+          "Version": 1,
+          "content": 24705786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioessays. 2012 Dec;34(12):1025-34",
+        "PMID": {
+          "Version": 1,
+          "content": 23108796
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2011 Nov 11;147(4):789-802",
+        "PMID": {
+          "Version": 1,
+          "content": 22056041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 1989 Mar 25;264(9):5031-5",
+        "PMID": {
+          "Version": 1,
+          "content": 2538469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Aug 1;31(15):2586-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25812744
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2010 Oct 22;40(2):228-37",
+        "PMID": {
+          "Version": 1,
+          "content": 20965418
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2013 Nov 21;52(4):574-82",
+        "PMID": {
+          "Version": 1,
+          "content": 24120665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2010 May;28(5):503-10",
+        "PMID": {
+          "Version": 1,
+          "content": 20436462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Cancer. 2010 Apr;10(4):254-66",
+        "PMID": {
+          "Version": 1,
+          "content": 20332778
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2011 Apr;7(4):e1001366",
+        "PMID": {
+          "Version": 1,
+          "content": 21533221
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Apr 09;9(4):e93597",
+        "PMID": {
+          "Version": 1,
+          "content": 24718614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biochem. 2012;81:145-66",
+        "PMID": {
+          "Version": 1,
+          "content": 22663078
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2015 May 19;11(7):1110-22",
+        "PMID": {
+          "Version": 1,
+          "content": 25959816
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Jan 30;505(7485):635-40",
+        "PMID": {
+          "Version": 1,
+          "content": 24463510
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2016 Jan 15;351(6270):271-5",
+        "PMID": {
+          "Version": 1,
+          "content": 26816378
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Jan 1;33(1):139-141",
+        "PMID": {
+          "Version": 1,
+          "content": 27634950
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Sep 11;109(37):E2424-32",
+        "PMID": {
+          "Version": 1,
+          "content": 22927429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 Feb 14;343(6172):1248636",
+        "PMID": {
+          "Version": 1,
+          "content": 24407481
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2000 May;25(1):25-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10802651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2016 Jul 18;12 (7):875",
+        "PMID": {
+          "Version": 1,
+          "content": 27430939
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2016 May 27;5:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27232982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(1):e55684",
+        "PMID": {
+          "Version": 1,
+          "content": 23383264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014 Jan 13;15(1):R15",
+        "PMID": {
+          "Version": 1,
+          "content": 24417896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2013 Sep 6;341(6150):1116-20",
+        "PMID": {
+          "Version": 1,
+          "content": 23970561
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014;15(12):550",
+        "PMID": {
+          "Version": 1,
+          "content": 25516281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2017 Jan 25;45(2):513-526",
+        "PMID": {
+          "Version": 1,
+          "content": 27923997
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29170441
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29170441,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1038/s41467-017-01981-8",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1038/s41467-017-01981-8",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5701008",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,238 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA193603",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR001857",
+            "Acronym": "TR"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Mammographic breast density is an established risk marker for breast cancer and is visually assessed by radiologists in routine mammogram image reading, using four qualitative Breast Imaging and Reporting Data System (BI-RADS) breast density categories. It is particularly difficult for radiologists to consistently distinguish the two most common and most variably assigned BI-RADS categories, i.e., \"scattered density\" and \"heterogeneously dense\". The aim of this work was to investigate a deep learning-based breast density classifier to consistently distinguish these two categories, aiming at providing a potential computerized tool to assist radiologists in assigning a BI-RADS category in current clinical workflow."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "In this study, we constructed a convolutional neural network (CNN)-based model coupled with a large (i.e., 22,000 images) digital mammogram imaging dataset to evaluate the classification performance between the two aforementioned breast density categories. All images were collected from a cohort of 1,427 women who underwent standard digital mammography screening from 2005 to 2016 at our institution. The truths of the density categories were based on standard clinical assessment made by board-certified breast imaging radiologists. Effects of direct training from scratch solely using digital mammogram images and transfer learning of a pretrained model on a large nonmedical imaging dataset were evaluated for the specific task of breast density classification. In order to measure the classification performance, the CNN classifier was also tested on a refined version of the mammogram image dataset by removing some potentially inaccurately labeled images. Receiver operating characteristic (ROC) curves and the area under the curve (AUC) were used to measure the accuracy of the classifier."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The AUC was 0.9421 when the CNN-model was trained from scratch on our own mammogram images, and the accuracy increased gradually along with an increased size of training samples. Using the pretrained model followed by a fine-tuning process with as few as 500 mammogram images led to an AUC of 0.9265. After removing the potentially inaccurately labeled images, AUC was increased to 0.9882 and 0.9857 for without and with the pretrained model, respectively, both significantly higher (P < 0.001) than when using the full imaging dataset."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Our study demonstrated high classification accuracies between two difficult to distinguish breast density categories that are routinely assessed by radiologists. We anticipate that our approach will help enhance current clinical assessment of breast density and better support consistent density notification to patients in breast cancer screening."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aly A",
+            "LastName": "Mohamed",
+            "Initials": "AA",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Pittsburgh School of Medicine, 4200 Fifth Ave, Pittsburgh, PA, 15260, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wendie A",
+            "LastName": "Berg",
+            "Initials": "WA",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiology, University of Pittsburgh School of Medicine, 4200 Fifth Ave, Pittsburgh, PA, 15260, USA."},
+              {"Affiliation": "Magee-Womens Hospital of University of Pittsburgh Medical Center, 300 Halket St, Pittsburgh, PA, 15213, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hong",
+            "LastName": "Peng",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Chinese PLA General Hospital, 28 Fuxing Rd, Haidian District, Beijing, 100853, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yahong",
+            "LastName": "Luo",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Liaoning Cancer Hospital & Institute, 44 Xiaoheyan Rd, Dadong District, Shenyang City, Liaoning, 110042, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rachel C",
+            "LastName": "Jankowitz",
+            "Initials": "RC",
+            "AffiliationInfo": [
+              {"Affiliation": "Magee-Womens Hospital of University of Pittsburgh Medical Center, 300 Halket St, Pittsburgh, PA, 15213, USA."},
+              {"Affiliation": "Department of Medicine, School of Medicine, University of Pittsburgh, 4200 Fifth Ave, Pittsburgh, PA, 15260, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shandong",
+            "LastName": "Wu",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Departments of Radiology, Biomedical Informatics, Bioengineering, and Computer Science, University of Pittsburgh, 4200 Fifth Ave, Pittsburgh, PA, 15260, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "A deep learning method for classifying mammographic breast density categories.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12683"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "BI-RADS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "breast density"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "convolutional neural network (CNN)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "deep learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "digital mammography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "transfer learning"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 22
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29159811
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29159811,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12683",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

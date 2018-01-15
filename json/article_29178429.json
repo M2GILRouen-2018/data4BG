@@ -1,0 +1,194 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 The Authors. Medical Physics published by Wiley Periodicals, Inc. on behalf of American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Cyclotron-based pencil beam scanning (PBS) proton machines represent nowadays the majority and most affordable choice for proton therapy facilities, however, their representation in Monte Carlo (MC) codes is more complex than passively scattered proton system- or synchrotron-based PBS machines. This is because degraders are used to decrease the energy from the cyclotron maximum energy to the desired energy, resulting in a unique spot size, divergence, and energy spread depending on the amount of degradation. This manuscript outlines a generalized methodology to characterize a cyclotron-based PBS machine in a general-purpose MC code. The code can then be used to generate clinically relevant plans starting from commercial TPS plans."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The described beam is produced at the Provision Proton Therapy Center (Knoxville, TN, USA) using a cyclotron-based IBA Proteus Plus equipment. We characterized the Provision beam in the MC FLUKA using the experimental commissioning data. The code was then validated using experimental data in water phantoms for single pencil beams and larger irregular fields. Comparisons with RayStation TPS plans are also presented."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Comparisons of experimental, simulated, and planned dose depositions in water plans show that same doses are calculated by both programs inside the target areas, while penumbrae differences are found at the field edges. These differences are lower for the MC, with a γ(3%-3 mm) index never below 95%."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Extensive explanations on how MC codes can be adapted to simulate cyclotron-based scanning proton machines are given with the aim of using the MC as a TPS verification tool to check and improve clinical plans. For all the tested cases, we showed that dose differences with experimental data are lower for the MC than TPS, implying that the created FLUKA beam model is better able to describe the experimental beam."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Francesca",
+            "LastName": "Fiorini",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "CRUK - MRC Oxford Institute for Radiation Oncology University of Oxford, Oxford, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Niek",
+            "LastName": "Schreuder",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Provision Proton Therapy Center, Knoxville, TN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Frank",
+            "LastName": "Van den Heuvel",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "CRUK - MRC Oxford Institute for Radiation Oncology University of Oxford, Oxford, UK."}
+          }
+        ]
+      },
+      "ArticleTitle": "Technical Note: Defining cyclotron-based clinical scanning proton machines in a FLUKA Monte Carlo system.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12701"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "FLUKA simulations"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Monte Carlo treatment verification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "RayStation TPS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "cyclotron accelerated beams"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "proton therapy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "treatment planning"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 22
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29178429
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": "05",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29178429,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12701",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

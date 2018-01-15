@@ -1,0 +1,293 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401220",
+      "Country": "England",
+      "ISSNLinking": "0031-9155",
+      "MedlineTA": "Phys Med Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2016,
+      "Day": "04"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "7847-64"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Computational medicine aims at employing personalised computational models in diagnosis and treatment planning. The use of such models to help physicians in finding the best treatment for low back pain (LBP) is becoming popular. One of the challenges of creating such models is to derive patient-specific anatomical and tissue models of the lumbar intervertebral discs (IVDs), as a prior step. This article presents a segmentation scheme that obtains accurate results irrespective of the degree of IVD degeneration, including pathological discs with protrusion or herniation. The segmentation algorithm, employing a novel feature selector, iteratively deforms an initial shape, which is projected into a statistical shape model space at first and then, into a B-Spline space to improve accuracy.The method was tested on a MR dataset of 59 patients suffering from LBP. The images follow a standard T2-weighted protocol in coronal and sagittal acquisitions. These two image volumes were fused in order to overcome large inter-slice spacing. The agreement between expert-delineated structures, used here as gold-standard, and our automatic segmentation was evaluated using Dice Similarity Index and surface-to-surface distances, obtaining a mean error of 0.68 mm in the annulus segmentation and 1.88 mm in the nucleus, which are the best results with respect to the image resolution in the current literature."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Isaac",
+            "LastName": "Castro-Mateos",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Center for Computational Imaging and Simulation Technologies in Biomedicine (CISTIB), The University of Sheffield, Western Bank, Sheffield, South Yorkshire S10 2TN, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jose M",
+            "LastName": "Pozo",
+            "Initials": "JM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter E",
+            "LastName": "Eltes",
+            "Initials": "PE"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luis Del",
+            "LastName": "Rio",
+            "Initials": "LD"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aron",
+            "LastName": "Lazary",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alejandro F",
+            "LastName": "Frangi",
+            "Initials": "AF"
+          }
+        ]
+      },
+      "ArticleTitle": "3D segmentation of annulus fibrosus and nucleus pulposus from T2-weighted magnetic resonance images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/0031-9155/59/24/7847"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 24,
+          "Volume": 59,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2014,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-6560"
+        },
+        "Title": "Physics in medicine and biology"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "05",
+      "Year": 2015,
+      "Day": 30
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007089",
+          "MajorTopicYN": "N",
+          "content": "Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "Y",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D007403",
+          "MajorTopicYN": "N",
+          "content": "Intervertebral Disc"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "Y",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D055959",
+          "MajorTopicYN": "N",
+          "content": "Intervertebral Disc Degeneration"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000209",
+            "MajorTopicYN": "N",
+            "content": "etiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D017116",
+          "MajorTopicYN": "N",
+          "content": "Low Back Pain"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "Y",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D008159",
+          "MajorTopicYN": "N",
+          "content": "Lumbar Vertebrae"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008279",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D015588",
+        "MajorTopicYN": "N",
+        "content": "Observer Variation"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2015,
+      "Day": 30
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 25419725
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25419725,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/0031-9155/59/24/7847",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

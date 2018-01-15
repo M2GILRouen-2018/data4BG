@@ -1,0 +1,221 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "72-85"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": "In patients with coronary artery stenoses of intermediate severity, the functional significance needs to be determined. Fractional flow reserve (FFR) measurement, performed during invasive coronary angiography (ICA), is most often used in clinical practice. To reduce the number of ICA procedures, we present a method for automatic identification of patients with functionally significant coronary artery stenoses, employing deep learning analysis of the left ventricle (LV) myocardium in rest coronary CT angiography (CCTA). The study includes consecutively acquired CCTA scans of 166 patients who underwent invasive FFR measurements. To identify patients with a functionally significant coronary artery stenosis, analysis is performed in several stages. First, the LV myocardium is segmented using a multiscale convolutional neural network (CNN). To characterize the segmented LV myocardium, it is subsequently encoded using unsupervised convolutional autoencoder (CAE). As ischemic changes are expected to appear locally, the LV myocardium is divided into a number of spatially connected clusters, and statistics of the encodings are computed as features. Thereafter, patients are classified according to the presence of functionally significant stenosis using an SVM classifier based on the extracted features. Quantitative evaluation of LV myocardium segmentation in 20 images resulted in an average Dice coefficient of 0.91 and an average mean absolute distance between the segmented and reference LV boundaries of 0.7 mm. Twenty CCTA images were used to train the LV myocardium encoder. Classification of patients was evaluated in the remaining 126 CCTA scans in 50 10-fold cross-validation experiments and resulted in an area under the receiver operating characteristic curve of 0.74\u202f±\u202f0.02. At sensitivity levels 0.60, 0.70 and 0.80, the corresponding specificity was 0.77, 0.71 and 0.59, respectively. The results demonstrate that automatic analysis of the LV myocardium in a single CCTA scan acquired at rest, without assessment of the anatomy of the coronary arteries, can be used to identify patients with functionally significant coronary artery stenosis. This might reduce the number of patients undergoing unnecessary invasive FFR measurements."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Majd",
+            "LastName": "Zreik",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: M.Zreik@umcutrecht.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nikolas",
+            "LastName": "Lessmann",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: N.Lessmann@umcutrecht.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robbert W",
+            "LastName": "van Hamersvelt",
+            "Initials": "RW",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: R.W.vanHamersvelt-3@umcutrecht.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jelmer M",
+            "LastName": "Wolterink",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: J.M.Wolterink@umcutrecht.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michiel",
+            "LastName": "Voskuil",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Cardiology, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: Mvoskuil@umcutrecht.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Max A",
+            "LastName": "Viergever",
+            "Initials": "MA",
+            "AffiliationInfo": {"Affiliation": "Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: M.Viergever@umcutrecht.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tim",
+            "LastName": "Leiner",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: T.Leiner@umcutrecht.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ivana",
+            "LastName": "Išgum",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Image Sciences Institute, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands. Electronic address: I.Isgum@umcutrecht.nl."}
+          }
+        ]
+      },
+      "ArticleTitle": "Deep learning analysis of the myocardium in coronary CT angiography for identification of patients with functionally significant coronary artery stenosis.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1361-8415(17)30177-9"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.media.2017.11.008"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 26
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Convolutional autoencoder"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Convolutional neural network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Coronary CT angiography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Deep learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Fractional flow reserve"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Functionally significant coronary artery stenosis"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 31
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29197253
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29197253,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(17)30177-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2017.11.008",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

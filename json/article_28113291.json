@@ -1,0 +1,241 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1906-1913"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Electrooculogram (EOG) artifact contamination is a common critical issue in general electroencephalogram (EEG) studies as well as in brain-computer interface (BCI) research. It is especially challenging when dedicated EOG channels are unavailable or when there are very few EEG channels available for independent component analysis based ocular artifact removal. It is even more challenging to avoid loss of the signal of interest during the artifact correction process, where the signal of interest can be multiple magnitudes weaker than the artifact. To address these issues, we propose a novel discriminative ocular artifact correction approach for feature learning in EEG analysis. Without extra ocular movement measurements, the artifact is extracted from raw EEG data, which is totally automatic and requires no visual inspection of artifacts. Then, artifact correction is optimized jointly with feature extraction by maximizing oscillatory correlations between trials from the same class and minimizing them between trials from different classes. We evaluate this approach on a real-world EEG dataset comprising 68 subjects performing cognitive tasks. The results showed that the approach is capable of not only suppressing the artifact components but also improving the discriminative power of a classifier with statistical significance. We also demonstrate that the proposed method addresses the confounding issues induced by ocular movements in cognitive EEG study."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "LastName": "Xinyang Li"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Cuntai Guan"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Haihong Zhang"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Kai Keng Ang"
+          }
+        ]
+      },
+      "ArticleTitle": "Discriminative Ocular Artifact Correction for Feature Learning in EEG Analysis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2628958"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "Y",
+        "content": "Artifacts"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D003071",
+          "MajorTopicYN": "N",
+          "content": "Cognition"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016002",
+        "MajorTopicYN": "N",
+        "content": "Discriminant Analysis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D004569",
+          "MajorTopicYN": "N",
+          "content": "Electroencephalography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D004585",
+          "MajorTopicYN": "N",
+          "content": "Electrooculography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D005133",
+          "MajorTopicYN": "N",
+          "content": "Eye Movements"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113291
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113291,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2628958",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,283 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e188-e201"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Dynamic myocardial perfusion computed tomography (DM-PCT) imaging offers benefits over quantitative assessment of myocardial blood flow (MBF) for diagnosis and risk stratification of coronary artery disease. However, one major drawback of DM-PCT imaging is that a high radiation level is imparted by repeated scanning. To address this issue, in this work, we developed a statistical iterative reconstruction algorithm based on the penalized weighted least-squares (PWLS) scheme by incorporating a motion adaptive sparsity prior (MASP) model to achieve high-quality DM-PCT imaging with low tube current dynamic data acquisition. For simplicity, we refer to the proposed algorithm as \"PWLS-MASP''."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The MASP models both the spatial and temporal structured sparsity of DM-PCT sequence images with the assumption that the differences between adjacent frames after motion correction are sparse in the gradient image domain. To validate and evaluate the effectiveness of the present PWLS-MASP algorithm thoroughly, a modified XCAT phantom and preclinical porcine DM-PCT dataset were used in the study."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The present PWLS-MASP algorithm can obtain high-quality DM-PCT images in both phantom and porcine cases, and outperforms the existing filtered back-projection algorithm and PWLS-based algorithms with total variation regularization (PWLS-TV) and robust principal component analysis regularization (PWLS-RPCA) in terms of noise reduction, streak artifacts mitigation, and time density curve estimation. Moreover, the PWLS-MASP algorithm can yield more accurate diagnostic hemodynamic parametric maps than the PWLS-TV and PWLS-RPCA algorithms."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The study indicates that there is a substantial advantage in using the present PWLS-MASP algorithm for low-dose DM-PCT, and potentially in other dynamic tomography areas."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhaoying",
+            "LastName": "Bian",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong, 510515, China."},
+              {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, Southern Medical University, Guangzhou, Guangdong, 510515, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dong",
+            "LastName": "Zeng",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong, 510515, China."},
+              {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, Southern Medical University, Guangzhou, Guangdong, 510515, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhang",
+            "LastName": "Zhang",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Tianjin Medical University General Hospital, Tianjin, 300052, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Changfei",
+            "LastName": "Gong",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong, 510515, China."},
+              {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, Southern Medical University, Guangzhou, Guangdong, 510515, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiumei",
+            "LastName": "Tian",
+            "Initials": "X",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong, 510515, China."},
+              {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, Southern Medical University, Guangzhou, Guangdong, 510515, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gang",
+            "LastName": "Yan",
+            "Initials": "G",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong, 510515, China."},
+              {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, Southern Medical University, Guangzhou, Guangdong, 510515, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jing",
+            "LastName": "Huang",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong, 510515, China."},
+              {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, Southern Medical University, Guangzhou, Guangdong, 510515, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hong",
+            "LastName": "Guo",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Tianjin Medical University General Hospital, Tianjin, 300052, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bo",
+            "LastName": "Chen",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "College of Mathematics and Statistics, Shenzhen University, Shenzhen, 518060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jing",
+            "LastName": "Zhang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Tianjin Medical University General Hospital, Tianjin, 300052, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qianjin",
+            "LastName": "Feng",
+            "Initials": "Q",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong, 510515, China."},
+              {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, Southern Medical University, Guangzhou, Guangdong, 510515, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wufan",
+            "LastName": "Chen",
+            "Initials": "W",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong, 510515, China."},
+              {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, Southern Medical University, Guangzhou, Guangdong, 510515, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jianhua",
+            "LastName": "Ma",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong, 510515, China."},
+              {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, Southern Medical University, Guangzhou, Guangdong, 510515, China."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Low-dose dynamic myocardial perfusion CT imaging using a motion adaptive sparsity prior.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12285"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "dynamic myocardial perfusion computed tomography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "low tube current"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "motion adaptive sparsity prior"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "regularization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "total variation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28901610
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28901610,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12285",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

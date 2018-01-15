@@ -1,0 +1,260 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 20
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "570-580"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2016 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "To develop a new model-based method with spatial and parametric constraints (MB-SPC) aimed at accelerating diffusion tensor imaging (DTI) by directly estimating the diffusion tensor from highly undersampled k-space data."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The MB-SPC method effectively incorporates the prior information on the joint sparsity of different diffusion-weighted images using an L1-L2 norm and the smoothness of the diffusion tensor using a total variation seminorm. The undersampled k-space datasets were obtained from fully sampled DTI datasets of a simulated phantom and an ex-vivo experimental rat heart with acceleration factors ranging from 2 to 4. The diffusion tensor was directly reconstructed by solving a minimization problem with a nonlinear conjugate gradient descent algorithm. The reconstruction performance was quantitatively assessed using the normalized root mean square error (nRMSE) of the DTI indices."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The MB-SPC method achieves acceptable DTI measures at an acceleration factor up to 4. Experimental results demonstrate that the proposed method can estimate the diffusion tensor more accurately than most existing methods operating at higher net acceleration factors."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The proposed method can significantly reduce artifact, particularly at higher acceleration factors or lower SNRs. This method can easily be adapted to MR relaxometry parameter mapping and is thus useful in the characterization of biological tissue such as nerves, muscle, and heart tissue."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yanjie",
+            "LastName": "Zhu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Paul C. Lauterbur Research Centre for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Shenzhen, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xi",
+            "LastName": "Peng",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Paul C. Lauterbur Research Centre for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Shenzhen, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yin",
+            "LastName": "Wu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Paul C. Lauterbur Research Centre for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Shenzhen, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ed X",
+            "LastName": "Wu",
+            "Initials": "EX",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Electronic Engineering, The University of Hong Kong, Pokfulam, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Leslie",
+            "LastName": "Ying",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Department of Biomedical Engineering, University at Buffalo, The State University of New York, Buffalo, NY, 14260, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xin",
+            "LastName": "Liu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Paul C. Lauterbur Research Centre for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Shenzhen, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hairong",
+            "LastName": "Zheng",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Paul C. Lauterbur Research Centre for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Shenzhen, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dong",
+            "LastName": "Liang",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Paul C. Lauterbur Research Centre for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Shenzhen, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Direct diffusion tensor estimation using a model-based method with spatial and parametric constraints.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12054"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "diffusion tensor imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "distributed compressed sensing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "joint sparsity constraint"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "model-based method"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "smoothing constraint"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D056324",
+        "MajorTopicYN": "Y",
+        "content": "Diffusion Tensor Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D051381",
+        "MajorTopicYN": "N",
+        "content": "Rats"
+      }},
+      {"DescriptorName": {
+        "UI": "D059629",
+        "MajorTopicYN": "N",
+        "content": "Signal-To-Noise Ratio"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28138975
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 25,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28138975,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12054",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

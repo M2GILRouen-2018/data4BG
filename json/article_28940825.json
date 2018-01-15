@@ -1,0 +1,212 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9102705,
+      "Country": "United States",
+      "ISSNLinking": "1051-2284",
+      "MedlineTA": "J Neuroimaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "64-69"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 by the American Society of Neuroimaging.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "BACKGROUND",
+            "content": "Diffusion-weighted magnetic resonance imaging tractography can be used to create models of white matter fascicles. Anatomical and pathological variability between subjects can drastically alter the tractography output, so standardizing results across a cohort is nontrivial. Furthermore, tractography methods have inherently low reproducibility due to stochasticity (for probabilistic methods) and subjective decisions, since the final fascicle model often requires a manual intervention step performed by an expert human operator to control both outliers and systematic false-positive pathways, as defined by prior knowledge of anatomy."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We present an approach that computationally assigns a cluster confidence index (CCI) reflecting the reproducibility of that pathway in the context of a streamline dataset. This metric is a tractography algorithm-agnostic tool that can be applied to any dataset of streamlines."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Applications of this metric include systematic elimination of outlier streamlines using a CCI threshold and interactive filtering by CCI to facilitate manual segmentation of fascicle models."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "This method is intended to replace the application of a streamline density threshold so that outliers are eliminated based on low pathway density instead of voxel-wise density."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kesshi M",
+            "LastName": "Jordan",
+            "Initials": "KM",
+            "AffiliationInfo": [
+              {"Affiliation": "UCSF-UC Berkeley Graduate Group in Bioengineering, San Francisco and Berkeley, CA."},
+              {"Affiliation": "Departments of Neurology, University of California, San Francisco, CA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bagrat",
+            "LastName": "Amirbekian",
+            "Initials": "B",
+            "AffiliationInfo": [
+              {"Affiliation": "UCSF-UC Berkeley Graduate Group in Bioengineering, San Francisco and Berkeley, CA."},
+              {"Affiliation": "Departments of Neurology, University of California, San Francisco, CA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anisha",
+            "LastName": "Keshavan",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "UCSF-UC Berkeley Graduate Group in Bioengineering, San Francisco and Berkeley, CA."},
+              {"Affiliation": "Departments of Neurology, University of California, San Francisco, CA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Roland G",
+            "LastName": "Henry",
+            "Initials": "RG",
+            "AffiliationInfo": [
+              {"Affiliation": "UCSF-UC Berkeley Graduate Group in Bioengineering, San Francisco and Berkeley, CA."},
+              {"Affiliation": "Departments of Neurology, University of California, San Francisco, CA."},
+              {"Affiliation": "Radiology and Biomedical Imaging, University of California, San Francisco, CA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Cluster Confidence Index: A Streamline-Wise Pathway Reproducibility Metric for Diffusion-Weighted MRI Tractography.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1111/jon.12467"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 28,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Neuroimaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1552-6569"
+        },
+        "Title": "Journal of neuroimaging : official journal of the American Society of Neuroimaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Reproducibility of results"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "diffusion-weighted magnetic resonance imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "open-source software"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "probabilistic tractography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "white matter fascicle model"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "09"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28940825
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28940825,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1111/jon.12467",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

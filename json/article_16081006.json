@@ -1,0 +1,502 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1896-1905"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIA NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 AG036424",
+          "Acronym": "AG"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D059040",
+          "content": "Video-Audio Media"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "A central problem in computational neuroscience is to characterize brain function using neural activity recorded from the brain in response to sensory inputs with statistical confidence. Most of existing estimation techniques, such as those based on reverse correlation, exhibit two main limitations: first, they are unable to produce dynamic estimates of the neural activity at a resolution comparable with that of the recorded data, and second, they often require heavy averaging across time as well as multiple trials in order to construct statistical confidence intervals for a precise interpretation of data. In this paper, we address the above-mentioned issues for estimating auditory temporal response function (TRF) as a parametric computational model for selective auditory attention in competing-speaker environments."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The TRF is a sparse kernel which regresses auditory MEG data with respect to the envelopes of the speech streams. We develop an efficient estimation technique by exploiting the sparsity of the TRF and adopting an ℓ1-regularized least squares estimator which is capable of producing dynamic TRF estimates as well as confidence intervals at sampling resolution from single-trial MEG data."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We evaluate the performance of our proposed estimator using evoked MEG responses from the human brain in an auditory attention experiment with two competing speakers. The TRFs are estimated dynamically over time using the proposed technique with multisecond resolution, which is a significant improvement over previous results with a temporal resolution of the order of a minute."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Application of our method to MEG data reveals a precise characterization of the modulation of M50 and M100 evoked responses with respect to the attentional state of the subject at multisecond resolution."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "SIGNIFICANCE",
+          "content": "Our proposed estimation technique provides a high resolution real-time attention decoding framework in multispeaker environments with potential application in smart hearing aid technology."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sahar",
+            "LastName": "Akram",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonathan Z",
+            "LastName": "Simon",
+            "Initials": "JZ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Behtash",
+            "LastName": "Babadi",
+            "Initials": "B"
+          }
+        ]
+      },
+      "ArticleTitle": "Dynamic Estimation of the Auditory Temporal Response Function From MEG in Competing-Speaker Environments.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2628884"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D001288",
+          "MajorTopicYN": "N",
+          "content": "Attention"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D001303",
+          "MajorTopicYN": "N",
+          "content": "Auditory Cortex"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D056667",
+          "MajorTopicYN": "N",
+          "content": "Biometric Identification"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D001931",
+          "MajorTopicYN": "N",
+          "content": "Brain Mapping"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D005072",
+          "MajorTopicYN": "N",
+          "content": "Evoked Potentials, Auditory"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D015225",
+          "MajorTopicYN": "N",
+          "content": "Magnetoencephalography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D013067",
+          "MajorTopicYN": "N",
+          "content": "Speech Perception"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D055815",
+        "MajorTopicYN": "N",
+        "content": "Young Adult"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 12
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroreport. 2004 Nov 15;15(16):2455-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15538173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2012 Jan;10(1):e1001251",
+        "PMID": {
+          "Version": 1,
+          "content": 22303281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2016 Jan 1;124(Pt A):906-17",
+        "PMID": {
+          "Version": 1,
+          "content": 26436490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2003 Nov;6(11):1216-23",
+        "PMID": {
+          "Version": 1,
+          "content": 14583754
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cereb Cortex. 2015 Jul;25(7):1697-706",
+        "PMID": {
+          "Version": 1,
+          "content": 24429136
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychophysiology. 2003 Sep;40(5):806-17",
+        "PMID": {
+          "Version": 1,
+          "content": 14696734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2009 Feb 12;61(3):467-80",
+        "PMID": {
+          "Version": 1,
+          "content": 19217382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Feb 14;54(4):2994-3003",
+        "PMID": {
+          "Version": 1,
+          "content": 21095231
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2007 Oct 25;56(2):356-65",
+        "PMID": {
+          "Version": 1,
+          "content": 17964251
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2012 Jan;107(1):78-89",
+        "PMID": {
+          "Version": 1,
+          "content": 21975452
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2007 Sep 30;165(2):297-305",
+        "PMID": {
+          "Version": 1,
+          "content": 17624443
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hear Res. 2002 Dec;174(1-2):19-31",
+        "PMID": {
+          "Version": 1,
+          "content": 12433393
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuropsychologia. 2010 Sep;48(11):3262-71",
+        "PMID": {
+          "Version": 1,
+          "content": 20633569
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 Mar 8;108(10):4182-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21368107
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Jul 17;109(29):11854-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22753470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroreport. 2004 Aug 26;15(12):1867-70",
+        "PMID": {
+          "Version": 1,
+          "content": 15305126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Network. 2001 Aug;12(3):289-316",
+        "PMID": {
+          "Version": 1,
+          "content": 11563531
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2003 Jun 1;23(11):4746-59",
+        "PMID": {
+          "Version": 1,
+          "content": 12805314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2004 Feb 4;24(5):1089-100",
+        "PMID": {
+          "Version": 1,
+          "content": 14762127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Network. 2007 Sep;18(3):191-212",
+        "PMID": {
+          "Version": 1,
+          "content": 17852750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 May 10;485(7397):233-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22522927
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2008 Jun 30;171(2):331-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18471892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hear Res. 2005 Aug;206(1-2):159-76",
+        "PMID": {
+          "Version": 1,
+          "content": 16081006
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28113290
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113290,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2628884",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5568457",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS830267",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

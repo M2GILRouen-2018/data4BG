@@ -1,0 +1,288 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101548977,
+      "Country": "Switzerland",
+      "ISSNLinking": "1664-302X",
+      "MedlineTA": "Front Microbiol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 2114},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIEHS NIH HHS",
+          "Country": "United States",
+          "GrantID": "Z01 ES101744",
+          "Acronym": "ES"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Motivation: An important feature of microbiome count data is the presence of a large number of zeros. A common strategy to handle these excess zeros is to add a small number called pseudo-count (e.g., 1). Other strategies include using various probability models to model the excess zero counts. Although adding a pseudo-count is simple and widely used, as demonstrated in this paper, it is not ideal. On the other hand, methods that model excess zeros using a probability model often make an implicit assumption that all zeros can be explained by a common probability models. As described in this article, this is not always recommended as there are potentially three types/sources of zeros in a microbiome data. The purpose of this paper is to develop a simple methodology to identify and accomodate three different types of zeros and to test hypotheses regarding the relative abundance of taxa in two or more experimental groups. Another major contribution of this paper is to perform constrained (directional or ordered) inference when there are more than two ordered experimental groups (e.g., subjects ordered by diet or age groups or environmental exposure groups). As far as we know this is the first paper that addresses such problems in the analysis of microbiome data. Results: Using extensive simulation studies, we demonstrate that the proposed methodology not only controls the false discovery rate at a desired level of significance while competing well in terms of power with DESeq2, a popular procedure derived from RNASeq literature. As expected, the method using pseudo-counts tends to be very conservative and the classical t-test that ignores the underlying simplex structure in the data has an inflated FDR."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Abhishek",
+            "LastName": "Kaul",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Biostatistics and Computational Biology Branch, National Institute of Environmental Health Sciences (NIH), Durham, NC, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Siddhartha",
+            "LastName": "Mandal",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Public Health Foundation of India, Gurgaon, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ori",
+            "LastName": "Davidov",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, University of Haifa, Haifa, Israel."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shyamal D",
+            "LastName": "Peddada",
+            "Initials": "SD",
+            "AffiliationInfo": {"Affiliation": "Biostatistics and Computational Biology Branch, National Institute of Environmental Health Sciences (NIH), Durham, NC, United States."}
+          }
+        ]
+      },
+      "ArticleTitle": "Analysis of Microbiome Data in the Presence of Excess Zeros.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fmicb.2017.02114"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 8,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Microbiol",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1664-302X"
+        },
+        "Title": "Frontiers in microbiology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Aitchisons log-ratio"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Microbiome data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "bootstrap"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "covariates"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "cross-sectional data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "false discovery rate (FDR)"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Sep 1;32(17 ):2611-7",
+        "PMID": {
+          "Version": 1,
+          "content": 27187200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISME J. 2009 Aug;3(8):944-54",
+        "PMID": {
+          "Version": 1,
+          "content": 19369970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2016 Feb 25;17 :104",
+        "PMID": {
+          "Version": 1,
+          "content": 26917217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 May 09;486(7402):222-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22699611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Lipid Res. 2013 Sep;54(9):2325-40",
+        "PMID": {
+          "Version": 1,
+          "content": 23821742
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2010 Jun;66(2):485-92",
+        "PMID": {
+          "Version": 1,
+          "content": 19645703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 21;9(1):e84778",
+        "PMID": {
+          "Version": 1,
+          "content": 24465432
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microb Ecol Health Dis. 2015 May 29;26:27663",
+        "PMID": {
+          "Version": 1,
+          "content": 26028277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(6):e20647",
+        "PMID": {
+          "Version": 1,
+          "content": 21674011
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2013 Dec;69(4):1053-63",
+        "PMID": {
+          "Version": 1,
+          "content": 24128059
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2012 Mar 16;148(6):1258-70",
+        "PMID": {
+          "Version": 1,
+          "content": 22424233
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Dec;10(12):1200-2",
+        "PMID": {
+          "Version": 1,
+          "content": 24076764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2003 May 1;19(7):834-41",
+        "PMID": {
+          "Version": 1,
+          "content": 12724293
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29163406
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29163406,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fmicb.2017.02114",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5682008",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

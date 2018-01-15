@@ -1,0 +1,301 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 510},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Whole-genome sequencing (WGS) projects provide short read nucleotide sequences from nuclear and possibly organelle DNA depending on the source of origin. Mitochondrial DNA is present in animals and fungi, while plants contain DNA from both mitochondria and chloroplasts. Current techniques for separating organelle reads from nuclear reads in WGS data require full reference or partial seed sequences for assembling."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Norgal (de Novo ORGAneLle extractor) avoids this requirement by identifying a high frequency subset of k-mers that are predominantly of mitochondrial origin and performing a de novo assembly on a subset of reads that contains these k-mers. The method was applied to WGS data from a panda, brown algae seaweed, butterfly and filamentous fungus. We were able to extract full circular mitochondrial genomes and obtained sequence identities to the reference sequences in the range from 98.5 to 99.5%. We also assembled the chloroplasts of grape vines and cucumbers using Norgal together with seed-based de novo assemblers."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Norgal is a pipeline that can extract and assemble full or partial mitochondrial and chloroplast genomes from WGS short reads without prior knowledge. The program is available at: https://bitbucket.org/kosaidtu/norgal ."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3432-3628"
+            },
+            "ForeName": "Kosai",
+            "LastName": "Al-Nakeeb",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Bio and Health Informatics, Technical University of Denmark, Kemitorvet, Building 208, Kgs Lyngby, 2800, Denmark. kosai@bioinformatics.dtu.dk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thomas Nordahl",
+            "LastName": "Petersen",
+            "Initials": "TN",
+            "AffiliationInfo": {"Affiliation": "Department of Bio and Health Informatics, Technical University of Denmark, Kemitorvet, Building 208, Kgs Lyngby, 2800, Denmark."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thomas",
+            "LastName": "Sicheritz-Pontén",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Bio and Health Informatics, Technical University of Denmark, Kemitorvet, Building 208, Kgs Lyngby, 2800, Denmark."}
+          }
+        ]
+      },
+      "ArticleTitle": "Norgal: extraction and de novo assembly of mitochondrial DNA from whole-genome sequencing data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1927-y"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "De novo assembly"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "K-mer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Mitochondrial dna"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Next-generation sequencing"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(11):R116",
+        "PMID": {
+          "Version": 1,
+          "content": 21114842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 1966 May 19;119(2):437-9",
+        "PMID": {
+          "Version": 1,
+          "content": 5961638
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Evol. 1994 Aug;39(2):174-90",
+        "PMID": {
+          "Version": 1,
+          "content": 7932781
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Jun 1;28(11):1420-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22495754
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Mar 1;26(5):589-95",
+        "PMID": {
+          "Version": 1,
+          "content": 20080505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2017 Feb 28;45(4):e18",
+        "PMID": {
+          "Version": 1,
+          "content": 28204566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 1981 Sep;25(3):793-803",
+        "PMID": {
+          "Version": 1,
+          "content": 6269758
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 May 15;31(10):1674-6",
+        "PMID": {
+          "Version": 1,
+          "content": 25609793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 1990 Oct 5;215(3):403-10",
+        "PMID": {
+          "Version": 1,
+          "content": 2231712
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Res Notes. 2016 Feb 12;9:88",
+        "PMID": {
+          "Version": 1,
+          "content": 26868221
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jul;41(13):e129",
+        "PMID": {
+          "Version": 1,
+          "content": 23661685
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 1983 Feb;103(2):287-312",
+        "PMID": {
+          "Version": 1,
+          "content": 6299878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009 Dec 15;10:421",
+        "PMID": {
+          "Version": 1,
+          "content": 20003500
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Physiol. 1988 Sep;136(3):507-13",
+        "PMID": {
+          "Version": 1,
+          "content": 3170646
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29162031
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29162031,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1927-y",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1927-y",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5699183",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

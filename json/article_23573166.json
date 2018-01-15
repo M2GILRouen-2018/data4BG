@@ -1,0 +1,610 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101319628,
+      "Country": "England",
+      "ISSNLinking": "1755-8794",
+      "MedlineTA": "BMC Med Genomics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "03",
+      "Year": 2015,
+      "Day": 30
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "S7"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "Medical Research Council",
+            "Country": "United Kingdom",
+            "GrantID": "MC_PC_13042"
+          },
+          {
+            "Agency": "Medical Research Council",
+            "Country": "United Kingdom",
+            "GrantID": "MR/K002449/1"
+          },
+          {
+            "Agency": "Medical Research Council",
+            "Country": "United Kingdom",
+            "GrantID": "MR/K006665/1"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "There is increasing recognition that asthma and eczema are heterogeneous diseases. We investigated the predictive ability of a spectrum of machine learning methods to disambiguate clinical sub-groups of asthma, wheeze and eczema, using a large heterogeneous set of attributes in an unselected population. The aim was to identify to what extent such heterogeneous information can be combined to reveal specific clinical manifestations."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The study population comprised a cross-sectional sample of adults, and included representatives of the general population enriched by subjects with asthma. Linear and non-linear machine learning methods, from logistic regression to random forests, were fit on a large attribute set including demographic, clinical and laboratory features, genetic profiles and environmental exposures. Outcome of interest were asthma, wheeze and eczema encoded by different operational definitions. Model validation was performed via bootstrapping."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The study population included 554 adults, 42% male, 38% previous or current smokers. Proportion of asthma, wheeze, and eczema diagnoses was 16.7%, 12.3%, and 21.7%, respectively. Models were fit on 223 non-genetic variables plus 215 single nucleotide polymorphisms. In general, non-linear models achieved higher sensitivity and specificity than other methods, especially for asthma and wheeze, less for eczema, with areas under receiver operating characteristic curve of 84%, 76% and 64%, respectively. Our findings confirm that allergen sensitisation and lung function characterise asthma better in combination than separately. The predictive ability of genetic markers alone is limited. For eczema, new predictors such as bio-impedance were discovered."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "More usefully-complex modelling is the key to a better understanding of disease mechanisms and personalised healthcare: further advances are likely with the incorporation of more factors/attributes and longitudinal measures."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mattia Cf",
+            "LastName": "Prosperi",
+            "Initials": "MC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Susana",
+            "LastName": "Marinho",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Angela",
+            "LastName": "Simpson",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adnan",
+            "LastName": "Custovic",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Iain E",
+            "LastName": "Buchan",
+            "Initials": "IE"
+          }
+        ]
+      },
+      "ArticleTitle": "Predicting phenotypes of asthma and eczema with machine learning.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1755-8794-7-S1-S7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": "7 Suppl 1",
+          "PubDate": {"Year": 2014},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Med Genomics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1755-8794"
+        },
+        "Title": "BMC medical genomics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2014,
+      "Day": "01"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001249",
+          "MajorTopicYN": "N",
+          "content": "Asthma"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D004485",
+          "MajorTopicYN": "N",
+          "content": "Eczema"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D004777",
+        "MajorTopicYN": "N",
+        "content": "Environment"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016014",
+        "MajorTopicYN": "N",
+        "content": "Linear Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D017711",
+        "MajorTopicYN": "N",
+        "content": "Nonlinear Dynamics"
+      }},
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "Y",
+        "content": "Phenotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D057285",
+        "MajorTopicYN": "N",
+        "content": "Precision Medicine"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Respir J. 2000 Oct;16(4):609-14",
+        "PMID": {
+          "Version": 1,
+          "content": 11106200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Hum Biol. 2004 May-Jun;31(3):333-41",
+        "PMID": {
+          "Version": 1,
+          "content": 15204348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2000 Oct;162(4 Pt 1):1403-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11029352
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann N Y Acad Sci. 1999 Apr 20;873:214-20",
+        "PMID": {
+          "Version": 1,
+          "content": 10372170
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010;11:110",
+        "PMID": {
+          "Version": 1,
+          "content": 20187966
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Res. 2009 Aug;109(6):768-74",
+        "PMID": {
+          "Version": 1,
+          "content": 19473655
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Exp Allergy. 2001 Mar;31(3):391-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11260150
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Allergy. 2013 Apr;68(4):531-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23414302
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2011 May;127(5):1165-72.e5",
+        "PMID": {
+          "Version": 1,
+          "content": 21463890
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2007;8:25",
+        "PMID": {
+          "Version": 1,
+          "content": 17254353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2003 Aug;112(2):362-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12897743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Res. 2013 Apr;73(4 Pt 2):543-52",
+        "PMID": {
+          "Version": 1,
+          "content": 23314293
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Ther. 2013 Jan;20(1):79-103",
+        "PMID": {
+          "Version": 1,
+          "content": 23299231
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Allergy Immunol. 2011 Mar;22(2):202-10",
+        "PMID": {
+          "Version": 1,
+          "content": 21332797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Gen Med. 2012;5:693-705",
+        "PMID": {
+          "Version": 1,
+          "content": 22973117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2011 Oct;128(4):834-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21872304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Allergy. 2008 May;63(5):547-54",
+        "PMID": {
+          "Version": 1,
+          "content": 18394129
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2002 Jun 21;296(5576):2225-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12029063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Allergy Clin Immunol. 2013 Jun;13(3):225-36",
+        "PMID": {
+          "Version": 1,
+          "content": 23635528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Allergy. 2007 Dec;62(12):1379-86",
+        "PMID": {
+          "Version": 1,
+          "content": 17822449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int Arch Allergy Immunol. 2007;144(2):162-70",
+        "PMID": {
+          "Version": 1,
+          "content": 17536216
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Invest Dermatol. 2009 Mar;129(3):682-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18818676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2012 Aug;130(2):325-31",
+        "PMID": {
+          "Version": 1,
+          "content": 22704537
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2006 Jun;117(6):1249-56",
+        "PMID": {
+          "Version": 1,
+          "content": 16750983
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Allergy Asthma Immunol. 2003 Oct;91(4):398-404",
+        "PMID": {
+          "Version": 1,
+          "content": 14582820
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Jan 15;21(2):263-5",
+        "PMID": {
+          "Version": 1,
+          "content": 15297300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Asthma. 2011 Dec;48(10):1015-21",
+        "PMID": {
+          "Version": 1,
+          "content": 22022892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2012 Aug;130(2):503-9.e7",
+        "PMID": {
+          "Version": 1,
+          "content": 22846752
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2011 Feb;127(2):355-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21281866
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Occup Environ Med. 2013 Jan;70(1):70",
+        "PMID": {
+          "Version": 1,
+          "content": 23085559
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Allergy Asthma Immunol. 2012 Jun;108(6):402-411.e9",
+        "PMID": {
+          "Version": 1,
+          "content": 22626592
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 May 15;26(10):1340-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20385727
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2012 Aug;130(2):287-96; quiz 297-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22664162
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Respir J. 2005 Jul;26(1):28-35",
+        "PMID": {
+          "Version": 1,
+          "content": 15994386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Allergy Immunol. 2002;13 Suppl 15:32-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12688622
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Transl Allergy. 2011 Dec 12;1(1):16",
+        "PMID": {
+          "Version": 1,
+          "content": 22410099
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Allergy Asthma Rep. 2013 Feb;13(1):118-29",
+        "PMID": {
+          "Version": 1,
+          "content": 23212666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 1989 Feb 2;320(5):271-7",
+        "PMID": {
+          "Version": 1,
+          "content": 2911321
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Math Methods Med. 2013;2013:240182",
+        "PMID": {
+          "Version": 1,
+          "content": 23573166
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4101570"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 25077568
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25077568,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1755-8794-7-S1-S7",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1755-8794-7-S1-S7",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4101570",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

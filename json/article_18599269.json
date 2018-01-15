@@ -1,0 +1,255 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8806104,
+      "Country": "United States",
+      "ISSNLinking": "0895-6111",
+      "MedlineTA": "Comput Med Imaging Graph"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2009,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "476-87"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2008,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A novel method is presented for 3D reconstruction of the coronary arteries. The algorithm refines the point correspondences between the arteries visible in a pair of monoplane X-ray fluoroscopy images acquired at different incidences. Traditional computer vision techniques use the RANSAC methods to discard outliers in a list of corresponding points. However, as these methods work for rigid motion primarily, we introduce a curvature constraint that relates the 2D and 3D Frenet information of the coronary artery centerlines. This constraint takes into account non-rigid movement of the arteries and also serves as a refinement tool to discard potential outlier points. Results show that for synthetic experiments with left-right anterior oblique (LAO/RAO) and posterior-left lateral (PA/LAT) viewing angles, the average 3D RMS errors are respectively 3.1mm and 1.9mm for the RANSAC method, and decrease to 2.8mm and 1.1mm by using our curvature constraint methodology. Similarly, clinical validation is performed on two datasets and the average 2D retroprojection errors are 3.34pixels and 2.24pixels, respectively."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pascal",
+            "LastName": "Fallavollita",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Institute of Biomedical Engineering, Ecole Polytechnique de Montréal, Montréal, QC, Canada H3C 3A7. pascal.fallavollita@polymtl.ca"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Farida",
+            "LastName": "Cheriet",
+            "Initials": "F"
+          }
+        ]
+      },
+      "ArticleTitle": "Optimal 3D reconstruction of coronary arteries for 3D clinical assessment.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1016/j.compmedimag.2008.05.001"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 32,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2008
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Comput Med Imaging Graph",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0895-6111"
+        },
+        "Title": "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2008,
+      "Day": 21
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 24
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 18599269
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2007,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2008,
+        "Day": 13,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "05",
+        "Year": 2008,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 7,
+        "Year": 2008,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 5,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2009,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 9,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 7,
+        "Year": 2008,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 5,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 18599269,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0895-6111(08)00052-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.compmedimag.2008.05.001",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,293 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In modern manufacturing systems and industries, more and more research efforts have been made in developing effective machine health monitoring systems. Among various machine health monitoring approaches, data-driven methods are gaining in popularity due to the development of advanced sensing and data analytic techniques. However, considering the noise, varying length and irregular sampling behind sensory data, this kind of sequential data cannot be fed into classiﬁcation and regression models directly. Therefore, previous work focuses on feature extraction/fusion methods requiring expensive human labor and high quality expert knowledge. With the development of deep learning methods in the last few years, which redeﬁne representation learning from raw data, a deep neural network structure named Convolutional Bi-directional Long Short-Term Memory networks (CBLSTM) has been designed here to address raw sensory data. CBLSTM ﬁrstly uses CNN to extract local features that are robust and informative from the sequential input. Then, bi-directional LSTM is introduced to encode temporal information. Long Short-Term Memory networks(LSTMs) are able to capture long-term dependencies and model sequential data, and the bi-directional structure enables the capture of past and future contexts. Stacked, fully-connected layers and the linear regression layer are built on top of bi-directional LSTMs to predict the target value. Here, a real-life tool wear test is introduced, and our proposed CBLSTM is able to predict the actual tool wear based on raw sensory data. The experimental results have shown that our model is able to outperform several state-of-the-art baseline methods."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rui",
+            "LastName": "Zhao",
+            "Initials": "R",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Instrument Science and Engineering, Southeast University, Nanjing 210009, China. ekzmao@ntu.edu.sg."},
+              {"Affiliation": "School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore 639798, Singapore. ekzmao@ntu.edu.sg."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ruqiang",
+            "LastName": "Yan",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "School of Instrument Science and Engineering, Southeast University, Nanjing 210009, China. ruqiang@seu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinjiang",
+            "LastName": "Wang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Mechanical and Transportation Engineering, China University of Petroleum, Beijing 102249, China. jwang@cup.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kezhi",
+            "LastName": "Mao",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore 639798, Singapore. ekzmao@ntu.edu.sg."}
+          }
+        ]
+      },
+      "ArticleTitle": "Learning to Monitor Machine Health with Convolutional Bi-Directional LSTM Networks.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E273"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17020273"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 30
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "bi-directional long-short term memory network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "convolutional neural network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "machine health monitoring"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "recurrent neural network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "tool wear prediction"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cogn Sci. 2007 Oct;11(10):428-34",
+        "PMID": {
+          "Version": 1,
+          "content": 17921042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Mar 23;15(3):7062-83",
+        "PMID": {
+          "Version": 1,
+          "content": 25806876
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2016 Sep 15;16(9):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27649193
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2012;12(5):5919-39",
+        "PMID": {
+          "Version": 1,
+          "content": 22778622
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2009 May;31(5):855-68",
+        "PMID": {
+          "Version": 1,
+          "content": 19299860
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2016 Feb 11;16(2):226",
+        "PMID": {
+          "Version": 1,
+          "content": 26875983
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2011;11(2):1641-56",
+        "PMID": {
+          "Version": 1,
+          "content": 22319373
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2014 Dec 24;15(1):135-47",
+        "PMID": {
+          "Version": 1,
+          "content": 25609039
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2010;10(1):241-53",
+        "PMID": {
+          "Version": 1,
+          "content": 22315537
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2000 Oct;12(10):2451-71",
+        "PMID": {
+          "Version": 1,
+          "content": 11032042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2016 May 31;16(6):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27258277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Sep 23;15(9):24514-29",
+        "PMID": {
+          "Version": 1,
+          "content": 26404309
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Sep 18;15(9):23903-26",
+        "PMID": {
+          "Version": 1,
+          "content": 26393603
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28146106
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28146106,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17020273",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17020273",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5336098",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

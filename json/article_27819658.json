@@ -1,0 +1,809 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100888160,
+      "Country": "England",
+      "ISSNLinking": "1463-9076",
+      "MedlineTA": "Phys Chem Chem Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "32421-32432"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIGMS NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 GM114300",
+          "Acronym": "GM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Efficient coarse-grained (CG) models can be coupled with atomistic force fields to accelerate the sampling of atomistic energy landscapes in the multi-scale enhanced sampling (MSES) framework. This approach may be particularly suitable for generating atomistic conformational ensembles of intrinsically disordered proteins (IDPs). While MSES is relatively robust to inherent CG artifacts, achieving optimal sampling efficiency requires CG modeling to generate the local and long-range fluctuations that are largely consistent with those at the atomistic level. Here, we describe a new hybrid resolution CG model (HyRes) for MSES simulations of disordered protein states, which is specifically designed to provide semi-quantitative secondary structure propensities together with a qualitative description of long-range nonspecific interactions. The HyRes model contains an atomistic description of the backbone with intermediate resolution side chains. The secondary structure propensities are tuned by adjusting the backbone hydrogen-bonding strength and the ϕ/ψ torsion profile. The sizes and covalent geometries of the side chains are parameterized to reproduce distributions derived from atomistic simulations. Lennard-Jones parameters for sidechain beads are assigned to reproduce statistical potentials derived from the protein structural database, and then globally parameterized with nonspecific electrostatic interactions to reproduce the free energy profiles of pair wise interactions and the key conformational properties of model peptides. Application of HyRes to MSES simulations of small IDPs suggests that it is capable of driving faster structural transitions at the atomistic level and increasing the convergence rate compared to the Cα-only Gō-like models previously utilized. With further optimization, we believe that the new CG model could greatly improve the efficiency of MSES simulations of the larger and more complex IDPs frequently involved in cellular signalling and regulation."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaorong",
+            "LastName": "Liu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Chemistry, University of Massachusetts Amherst, Amherst, MA 01003, USA. jianhanc@umass.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jianhan",
+            "LastName": "Chen",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "HyRes: a coarse-grained model for multi-scale enhanced sampling of disordered protein conformations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1039/c7cp06736d"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 48,
+          "Volume": 19,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": 13
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Chem Chem Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1463-9084"
+        },
+        "Title": "Physical chemistry chemical physics : PCCP"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 2004 Jan;13(1):203-10",
+        "PMID": {
+          "Version": 1,
+          "content": 14691235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Soc Rev. 2013 Aug 21;42(16):6801-22",
+        "PMID": {
+          "Version": 1,
+          "content": 23708257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2010 Jun;78(8):1950-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20408171
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2006 Feb 15;128(6):1890-901",
+        "PMID": {
+          "Version": 1,
+          "content": 16464090
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2004 Jun 16;126(23):7238-43",
+        "PMID": {
+          "Version": 1,
+          "content": 15186161
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Wiley Interdiscip Rev Comput Mol Sci. 2014 May;4(3):225-248",
+        "PMID": {
+          "Version": 1,
+          "content": 25309628
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Nov 16;101(46):16180-5",
+        "PMID": {
+          "Version": 1,
+          "content": 15534217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2013 Jan 8;9(1):687-97",
+        "PMID": {
+          "Version": 1,
+          "content": 26589065
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2014 Nov 19;136(46):16201-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25331250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem B. 2004 Sep 30;108(39):null",
+        "PMID": {
+          "Version": 1,
+          "content": 24307864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 1997 Dec 12;91(6):741-52",
+        "PMID": {
+          "Version": 1,
+          "content": 9413984
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Rev. 2014 Jul 9;114(13):6844-79",
+        "PMID": {
+          "Version": 1,
+          "content": 24830552
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012 Jan;8(1):e1002353",
+        "PMID": {
+          "Version": 1,
+          "content": 22253588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 May 24;102(21):7547-52",
+        "PMID": {
+          "Version": 1,
+          "content": 15894609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 Jan 31;415(6871):549-53",
+        "PMID": {
+          "Version": 1,
+          "content": 11823864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2015 Apr 14;11(4):1843-53",
+        "PMID": {
+          "Version": 1,
+          "content": 26574390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2005 Nov 15;123(19):194904",
+        "PMID": {
+          "Version": 1,
+          "content": 16321110
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Soc Rev. 2014 Jul 7;43(13):4871-93",
+        "PMID": {
+          "Version": 1,
+          "content": 24759934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Mol Biosci. 2015 Aug 12;2:47",
+        "PMID": {
+          "Version": 1,
+          "content": 26322316
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2012 Nov 13;8(11):4413-4424",
+        "PMID": {
+          "Version": 1,
+          "content": 23204949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Biochem Biophys. 2012 Aug 15;524(2):123-31",
+        "PMID": {
+          "Version": 1,
+          "content": 22579883
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 1994 May;3(5):843-52",
+        "PMID": {
+          "Version": 1,
+          "content": 8061613
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2008 Feb 1;375(5):1416-33",
+        "PMID": {
+          "Version": 1,
+          "content": 18083189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2013 Aug 13;9(8):3769-3788",
+        "PMID": {
+          "Version": 1,
+          "content": 23997693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 1998 Jul 3;430(3):317-22",
+        "PMID": {
+          "Version": 1,
+          "content": 9688563
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Jul 13;107(28):12535-40",
+        "PMID": {
+          "Version": 1,
+          "content": 20616042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2009 Jul 30;30(10):1545-614",
+        "PMID": {
+          "Version": 1,
+          "content": 19444816
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2013 Apr 17;587(8):1081-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23454209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2015 Jan;16(1):18-29",
+        "PMID": {
+          "Version": 1,
+          "content": 25531225
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2016 Jul 5;37(18):1725-33",
+        "PMID": {
+          "Version": 1,
+          "content": 27130454
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 May 4;107(18):8183-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20404210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2004 Jan 28;126(3):698-9",
+        "PMID": {
+          "Version": 1,
+          "content": 14733527
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Biophys. 2016 Apr 21;9:4",
+        "PMID": {
+          "Version": 1,
+          "content": 27103992
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem B. 2012 Aug 2;116(30):8741-52",
+        "PMID": {
+          "Version": 1,
+          "content": 22742737
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochemistry. 2008 Feb 5;47(5):1299-308",
+        "PMID": {
+          "Version": 1,
+          "content": 18177052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2008 Sep 21;129(11):114103",
+        "PMID": {
+          "Version": 1,
+          "content": 19044946
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Structure. 2013 Dec 3;21(12):2162-74",
+        "PMID": {
+          "Version": 1,
+          "content": 24183573
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2010 Dec 14;133(22):224105",
+        "PMID": {
+          "Version": 1,
+          "content": 21171681
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2003 Feb 21;326(3):933-54",
+        "PMID": {
+          "Version": 1,
+          "content": 12581651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2001 Jan 1;42(1):38-48",
+        "PMID": {
+          "Version": 1,
+          "content": 11093259
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2015 Nov 10;11(11):5513-24",
+        "PMID": {
+          "Version": 1,
+          "content": 26574339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Feb 15;102(7):2362-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15677316
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Recognit. 2005 Sep-Oct;18(5):343-84",
+        "PMID": {
+          "Version": 1,
+          "content": 16094605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Mol Sci. 2010;11(12):5292-309",
+        "PMID": {
+          "Version": 1,
+          "content": 21614208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2002 Oct 25;323(3):573-84",
+        "PMID": {
+          "Version": 1,
+          "content": 12381310
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem A. 2010 Apr 8;114(13):4471-85",
+        "PMID": {
+          "Version": 1,
+          "content": 20166738
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2009 May 1;75(2):442-52",
+        "PMID": {
+          "Version": 1,
+          "content": 18837034
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Struct Biol. 2011 Jun;21(3):432-40",
+        "PMID": {
+          "Version": 1,
+          "content": 21514144
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2009 Apr 10;324(5924):198-203",
+        "PMID": {
+          "Version": 1,
+          "content": 19359576
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem B. 1998 Apr 30;102(18):3586-616",
+        "PMID": {
+          "Version": 1,
+          "content": 24889800
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2017 Jun 15;38(16):1332-1341",
+        "PMID": {
+          "Version": 1,
+          "content": 28397268
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2006 Mar 22;128(11):3728-36",
+        "PMID": {
+          "Version": 1,
+          "content": 16536547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2016 Jul 21;145(3):035102",
+        "PMID": {
+          "Version": 1,
+          "content": 27448906
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2006 May;2(3):656-66",
+        "PMID": {
+          "Version": 1,
+          "content": 26626672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2015 Jun 30;36(17):1275-85",
+        "PMID": {
+          "Version": 1,
+          "content": 25952623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Struct Biol. 2008 Feb;18(1):16-26",
+        "PMID": {
+          "Version": 1,
+          "content": 18221865
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2009 Apr 15;30(5):673-99",
+        "PMID": {
+          "Version": 1,
+          "content": 18506808
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2008 Nov 28;322(5906):1365-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19039133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Struct Biol. 2015 Jun;32:102-12",
+        "PMID": {
+          "Version": 1,
+          "content": 25863585
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2009 Apr 15;131(14):5214-23",
+        "PMID": {
+          "Version": 1,
+          "content": 19278259
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Aug 13;110(33):13392-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23901099
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Graph Model. 2004 May;22(5):377-95",
+        "PMID": {
+          "Version": 1,
+          "content": 15099834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2007 Nov 1;69(2):394-408",
+        "PMID": {
+          "Version": 1,
+          "content": 17600832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 2010 Aug;19(8):1555-64",
+        "PMID": {
+          "Version": 1,
+          "content": 20556825
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2009 Jun 21;130(23):235106",
+        "PMID": {
+          "Version": 1,
+          "content": 19548767
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Struct Biol. 2011 Jun;21(3):426-31",
+        "PMID": {
+          "Version": 1,
+          "content": 21530234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2010 Nov 1;78(14):2950-60",
+        "PMID": {
+          "Version": 1,
+          "content": 20740494
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2013 Feb 27;135(8):3186-92",
+        "PMID": {
+          "Version": 1,
+          "content": 23373819
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2010 Sep 14;6(9):2790-803",
+        "PMID": {
+          "Version": 1,
+          "content": 26616080
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Struct Biol. 2012 Feb;22(1):52-61",
+        "PMID": {
+          "Version": 1,
+          "content": 22257762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Rev. 2016 Jul 27;116(14 ):7898-936",
+        "PMID": {
+          "Version": 1,
+          "content": 27333362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 1998 Jul;75(1):422-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9649402
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2004 Aug;25(11):1400-15",
+        "PMID": {
+          "Version": 1,
+          "content": 15185334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2001 Aug 15;44(3):344-60",
+        "PMID": {
+          "Version": 1,
+          "content": 11455608
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(10):e1002709",
+        "PMID": {
+          "Version": 1,
+          "content": 23055912
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2014 Mar 11;10(3):918-23",
+        "PMID": {
+          "Version": 1,
+          "content": 26580171
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2005 Mar;6(3):197-208",
+        "PMID": {
+          "Version": 1,
+          "content": 15738986
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2009 Dec;5(12):1606-16",
+        "PMID": {
+          "Version": 1,
+          "content": 20023721
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2008 May;4(5):819-34",
+        "PMID": {
+          "Version": 1,
+          "content": 26621095
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem B. 2007 Jan 11;111(1):260-85",
+        "PMID": {
+          "Version": 1,
+          "content": 17201450
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Chem Biol. 2009 Nov;5(11):789-96",
+        "PMID": {
+          "Version": 1,
+          "content": 19841628
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 1996 Mar 1;256(3):623-44",
+        "PMID": {
+          "Version": 1,
+          "content": 8604144
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2008 Mar;77(3 Pt 1):031908",
+        "PMID": {
+          "Version": 1,
+          "content": 18517423
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2017 Jan;14 (1):71-73",
+        "PMID": {
+          "Version": 1,
+          "content": 27819658
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29186229
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2018,
+        "Day": 13,
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186229,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1039/c7cp06736d",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5729119",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS923774",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,306 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7706761,
+      "Country": "Netherlands",
+      "ISSNLinking": "0378-1119",
+      "MedlineTA": "Gene"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "C561518",
+          "content": "ANRIL long non-coding RNA, human"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "C541874",
+          "content": "MIRN92 microRNA, human"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D035683",
+          "content": "MicroRNAs"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D062085",
+          "content": "RNA, Long Noncoding"
+        },
+        "RegistryNumber": 0
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 28
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "101-107"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "Coronary artery disease (CAD) has a high mortality rate and consists of multiple condition, including stable/unstable angina, sudden cardiac death, and myocardial infarction. This study is aimed to explore the pathogenesis of CAD."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Datasets of GSE20680 (including 87 CAD samples and 52 normal samples) and GSE20681 (including 99 CAD samples and 99 normal samples) were obtained from Gene Expression Omnibus database. The differentially expressed genes (DEGs) were identified by MetaDE. Effect Sizes in MetaDE package, and then were hierarchical clustered using pheatmap package in R. Subsequently, CAD-associated microRNAs (miRNAs) and their targets were obtained separately by miR2Disease and miRTarBase databases, and then used to construct an associated-miRNA-DEG regulatory network based on BioGRID, HPRD and DIP databases. Enrichment analysis was conducted for the involved DEGs using Fisher's exact test, and a support vector machine (SVM) classifier was constructed to optimize the feature genes. After CAD-associated long non-coding RNAs (lncRNAs) were predicted by lncRNA Disease database and their target miRNAs were predicted using miRcode and starBase databases, lncRNA-miRNA-DEG regulatory network was constructed."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Total 1208 DEGs were screened, and 5 CAD-associated miRNAs (including miR-92a) were predicted associated with CAD. The SVM classifier was constructed based on the 41 featured genes and had high recognition efficiency. Only one lncRNA CDKN2B-AS targeting miR-92a was obtained. Finally, GATA2, MAP1B and ARG1 were involved in the CDKN2B-AS-miR-92a-feature gene regulatory network."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "GATA2, MAP1B and ARG1 indirectly regulated by CDKN2B-AS through miR-92a might be involved in CAD."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ming",
+            "LastName": "Cheng",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Cardiac Surgery, The Second Affiliated Hospital of Harbin Medical University, Nangang, Harbin 150086, Heilongjiang, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shoukuan",
+            "LastName": "An",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Cardiac Surgery, The Second Affiliated Hospital of Harbin Medical University, Nangang, Harbin 150086, Heilongjiang, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Junquan",
+            "LastName": "Li",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Cardiac Surgery, The Second Affiliated Hospital of Harbin Medical University, Nangang, Harbin 150086, Heilongjiang, People's Republic of China.. Electronic address: LiJQ666@163.com."}
+          }
+        ]
+      },
+      "ArticleTitle": "CDKN2B-AS may indirectly regulate coronary artery disease-associated genes via targeting miR-92a.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0378-1119(17)30605-4"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.gene.2017.07.070"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 629,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Gene",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1879-0038"
+        },
+        "Title": "Gene"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Coronary artery disease"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Differentially expressed genes"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Long non-coding RNA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MicroRNA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Regulatory network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Support vector machine"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": "01"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D053263",
+        "MajorTopicYN": "Y",
+        "content": "Gene Regulatory Networks"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D035683",
+          "MajorTopicYN": "N",
+          "content": "MicroRNAs"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "Y",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D062085",
+          "MajorTopicYN": "N",
+          "content": "RNA, Long Noncoding"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28760552
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28760552,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0378-1119(17)30605-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.gene.2017.07.070",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

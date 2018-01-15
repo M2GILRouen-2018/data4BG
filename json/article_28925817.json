@@ -1,0 +1,192 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8908934,
+      "Country": "England",
+      "ISSNLinking": "0954-4119",
+      "MedlineTA": "Proc Inst Mech Eng H"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1048-1063"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Feature selection is essential in medical area; however, its process becomes complicated with the presence of censoring which is the unique character of survival analysis. Most survival feature selection methods are based on Cox's proportional hazard model, though machine learning classifiers are preferred. They are less employed in survival analysis due to censoring which prevents them from directly being used to survival data. Among the few work that employed machine learning classifiers, partial logistic artificial neural network with auto-relevance determination is a well-known method that deals with censoring and perform feature selection for survival data. However, it depends on data replication to handle censoring which leads to unbalanced and biased prediction results especially in highly censored data. Other methods cannot deal with high censoring. Therefore, in this article, a new hybrid feature selection method is proposed which presents a solution to high level censoring. It combines support vector machine, neural network, and K-nearest neighbor classifiers using simple majority voting and a new weighted majority voting method based on survival metric to construct a multiple classifier system. The new hybrid feature selection process uses multiple classifier system as a wrapper method and merges it with iterated feature ranking filter method to further reduce features. Two endovascular aortic repair datasets containing 91% censored patients collected from two centers were used to construct a multicenter study to evaluate the performance of the proposed approach. The results showed the proposed technique outperformed individual classifiers and variable selection methods based on Cox's model such as Akaike and Bayesian information criterions and least absolute shrinkage and selector operator in p values of the log-rank test, sensitivity, and concordance index. This indicates that the proposed classifier is more powerful in correctly predicting the risk of re-intervention enabling doctor in selecting patients' future follow-up plan."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Omneya",
+            "LastName": "Attallah",
+            "Initials": "O",
+            "AffiliationInfo": [
+              {"Affiliation": "1 Department of Electronics and Communications, College of Engineering and Technology, Arab Academy for Science and Technology, Alexandria, Egypt."},
+              {"Affiliation": "2 School of Engineering and Applied Science, Aston University, Birmingham, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alan",
+            "LastName": "Karthikesalingam",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "3 St George's Vascular Institute, St George's University Hospitals NHS Foundation Trust, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter Je",
+            "LastName": "Holt",
+            "Initials": "PJ",
+            "AffiliationInfo": {"Affiliation": "3 St George's Vascular Institute, St George's University Hospitals NHS Foundation Trust, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew M",
+            "LastName": "Thompson",
+            "Initials": "MM",
+            "AffiliationInfo": {"Affiliation": "3 St George's Vascular Institute, St George's University Hospitals NHS Foundation Trust, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rob",
+            "LastName": "Sayers",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "4 NIHR Leicester Cardiovascular Biomedical Research Unit and Department of Cardiovascular Sciences, University of Leicester, Leicester, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew J",
+            "LastName": "Bown",
+            "Initials": "MJ",
+            "AffiliationInfo": {"Affiliation": "4 NIHR Leicester Cardiovascular Biomedical Research Unit and Department of Cardiovascular Sciences, University of Leicester, Leicester, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eddie C",
+            "LastName": "Choke",
+            "Initials": "EC",
+            "AffiliationInfo": {"Affiliation": "4 NIHR Leicester Cardiovascular Biomedical Research Unit and Department of Cardiovascular Sciences, University of Leicester, Leicester, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xianghong",
+            "LastName": "Ma",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "2 School of Engineering and Applied Science, Aston University, Birmingham, UK."}
+          }
+        ]
+      },
+      "ArticleTitle": "Using multiple classifiers for predicting the risk of endovascular aortic aneurysm repair re-intervention through hybrid feature selection.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1177/0954411917731592"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 231,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Proc Inst Mech Eng H",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2041-3033"
+        },
+        "Title": "Proceedings of the Institution of Mechanical Engineers. Part H, Journal of engineering in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Cox\u2019s proportional hazard model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multiple classifier system"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "censoring"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "endovascular aortic repair"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "hybrid feature selection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "survival analysis"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28925817
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28925817,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1177/0954411917731592",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

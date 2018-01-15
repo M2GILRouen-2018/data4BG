@@ -1,0 +1,385 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101552874,
+      "Country": "England",
+      "ISSNLinking": "2044-6055",
+      "MedlineTA": "BMJ Open"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "Competing interests: TD, JC and RD are employees or contractors of Dascena Inc, developers of the AutoTriage system.",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e017199"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NINR NIH HHS",
+          "Country": "United States",
+          "GrantID": "R43 NR015945",
+          "Acronym": "NR"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© Article author(s) (or their employer(s) unless otherwise stated in the text of the article) 2017. All rights reserved. No commercial use is permitted unless otherwise expressly granted.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVES",
+            "content": "Unplanned readmissions to the intensive care unit (ICU) are highly undesirable, increasing variance in care, making resource planning difficult and potentially increasing length of stay and mortality in some settings. Identifying patients who are likely to suffer unplanned ICU readmission could reduce the frequency of this adverse event."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "SETTING",
+            "content": "A single academic, tertiary care hospital in the UK."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "PARTICIPANTS",
+            "content": "A set of 3326 ICU episodes collected between October 2014 and August 2016. All records were of patients who visited an ICU at some point during their stay. We excluded patients who were ≤16 years of age; visited ICUs other than the general and neurosciences ICU; were missing crucial electronic patient record measurements; or had indeterminate ICU discharge outcomes or very early or extremely late discharge times. After exclusion, 2018 outcome-labelled episodes remained."
+          },
+          {
+            "NlmCategory": "UNASSIGNED",
+            "Label": "PRIMARY AND SECONDARY OUTCOME MEASURES",
+            "content": "Area under the receiver operating characteristic curve (AUROC) for prediction of unplanned ICU readmission or in-hospital death within 48\u2009hours of first ICU discharge."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "In 10-fold cross-validation, an ensemble predictor was trained on data from both the target hospital and the Medical Information Mart for Intensive Care (MIMIC-III) database and tested on the target hospital's data. This predictor discriminated between patients with the unplanned ICU readmission or death outcome and those without this outcome, attaining mean AUROC of 0.7095 (SE 0.0260), superior to the purpose-built Stability and Workload Index for Transfer (SWIFT) score (AUROC=0.6082, SE 0.0249; p=0.014, pairwise t-test)."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Despite the inherent difficulties, we demonstrate that a novel machine learning algorithm based on transfer learning could achieve good discrimination, over and above that of the treating clinicians or the value added by the SWIFT score. Accurate prediction of unplanned readmission could be used to target resources more efficiently."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thomas",
+            "LastName": "Desautels",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Dascena Inc., Hayward, California, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ritankar",
+            "LastName": "Das",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Dascena Inc., Hayward, California, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jacob",
+            "LastName": "Calvert",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Dascena Inc., Hayward, California, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Monica",
+            "LastName": "Trivedi",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "John V Farman Intensive Care Unit, Addenbrooke's Hospital, Cambridge, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Charlotte",
+            "LastName": "Summers",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Division of Anaesthesia, University of Cambridge, Addenbrooke's Hospital, Cambridge, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David J",
+            "LastName": "Wales",
+            "Initials": "DJ",
+            "AffiliationInfo": {"Affiliation": "Department of Chemistry, University of Cambridge, Cambridge, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ari",
+            "LastName": "Ercole",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Division of Anaesthesia, University of Cambridge, Addenbrooke's Hospital, Cambridge, UK."}
+          }
+        ]
+      },
+      "ArticleTitle": "Prediction of early unplanned intensive care unit readmission in a UK tertiary care hospital: a cross-sectional machine learning approach.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1136/bmjopen-2017-017199"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 7,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMJ Open",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2044-6055"
+        },
+        "Title": "BMJ open"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "prediction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "unplanned readmission"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 21
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Med Inform. 2016 Sep 30;4(3):e28",
+        "PMID": {
+          "Version": 1,
+          "content": 27694098
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care Med. 2008 Mar;36(3):676-82",
+        "PMID": {
+          "Version": 1,
+          "content": 18431260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Care. 2013 Aug;51(8):706-14",
+        "PMID": {
+          "Version": 1,
+          "content": 23698182
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Med Surg (Lond). 2016 May 10;8:50-5",
+        "PMID": {
+          "Version": 1,
+          "content": 27489621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2017 Jan;24(1):24-29",
+        "PMID": {
+          "Version": 1,
+          "content": 27026611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Intensive Care Med. 2011 Nov;37(11):1800-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21845504
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care Med. 2017 Feb;45(2):290-297",
+        "PMID": {
+          "Version": 1,
+          "content": 27632681
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anaesthesia. 2003 Apr;58(4):328-32",
+        "PMID": {
+          "Version": 1,
+          "content": 12648113
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care Med. 2001 Mar;29(3):511-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11373413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Intensive Care Med. 2004 Jul;30(7):1398-404",
+        "PMID": {
+          "Version": 1,
+          "content": 15112033
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care. 2013 Jun 29;17(3):R102",
+        "PMID": {
+          "Version": 1,
+          "content": 23718698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care Med. 2012 Jan;40(1):3-10",
+        "PMID": {
+          "Version": 1,
+          "content": 21926603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Data. 2016 May 24;3:160035",
+        "PMID": {
+          "Version": 1,
+          "content": 27219127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2011 Oct 25;11:64",
+        "PMID": {
+          "Version": 1,
+          "content": 22027016
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2016 Jul 1;74:69-73",
+        "PMID": {
+          "Version": 1,
+          "content": 27208704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Inform Insights. 2017 Jun 12;9:1178222617712994",
+        "PMID": {
+          "Version": 1,
+          "content": 28638239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Care. 1999 Apr;37(4):399-408",
+        "PMID": {
+          "Version": 1,
+          "content": 10213020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anaesthesia. 2003 Sep;58(9):882-5",
+        "PMID": {
+          "Version": 1,
+          "content": 12911362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Intensive Crit Care Nurs. 2004 Jun;20(3):133-43",
+        "PMID": {
+          "Version": 1,
+          "content": 15157931
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2003 Nov 1;327(7422):1014",
+        "PMID": {
+          "Version": 1,
+          "content": 14593033
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28918412
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28918412,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "bmjopen-2017-017199",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1136/bmjopen-2017-017199",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5640090",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

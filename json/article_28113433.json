@@ -1,0 +1,126 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9891704,
+      "Country": "United States",
+      "ISSNLinking": "1077-2626",
+      "MedlineTA": "IEEE Trans Vis Comput Graph"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1782-1795"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Isosurfaces are fundamental geometrical objects for the analysis and visualization of volumetric scalar fields. Recent work has generalized them to bivariate volumetric fields with fiber surfaces, the pre-image of polygons in range space. However, the existing algorithm for their computation is approximate, and is limited to closed polygons. Moreover, its runtime performance does not allow instantaneous updates of the fiber surfaces upon user edits of the polygons. Overall, these limitations prevent a reliable and interactive exploration of the space of fiber surfaces. This paper introduces the first algorithm for the exact computation of fiber surfaces in tetrahedral meshes. It assumes no restriction on the topology of the input polygon, handles degenerate cases and better captures sharp features induced by polygon bends. The algorithm also allows visualization of individual fibers on the output surface, better illustrating their relationship with data features in range space. To enable truly interactive exploration sessions, we further improve the runtime performance of this algorithm. In particular, we show that it is trivially parallelizable and that it scales nearly linearly with the number of cores. Further, we study acceleration data-structures both in geometrical domain and range space and we show how to generalize interval trees used in isosurface extraction to fiber surface extraction. Experiments demonstrate the superiority of our algorithm over previous work, both in terms of accuracy and running time, with up to two orders of magnitude speedups. This improvement enables interactive edits of range polygons with instantaneous updates of the fiber surface for exploration purpose. A VTK-based reference implementation is provided as additional material to reproduce our results."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pavol",
+            "LastName": "Klacansky",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Julien",
+            "LastName": "Tierny",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hamish",
+            "LastName": "Carr",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Zhao Geng"
+          }
+        ]
+      },
+      "ArticleTitle": "Fast and Exact Fiber Surfaces for Tetrahedral Meshes.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TVCG.2016.2570215"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 23,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Vis Comput Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0506"
+        },
+        "Title": "IEEE transactions on visualization and computer graphics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113433
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113433,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TVCG.2016.2570215",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

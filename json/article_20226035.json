@@ -1,0 +1,161 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101231284,
+      "Country": "United States",
+      "ISSNLinking": "1545-5971",
+      "MedlineTA": "IEEE Trans Dependable Secure Comput"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "463-477"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIGMS NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 GM114612",
+          "Acronym": "GM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper considers the problem of secure data aggregation (mainly summation) in a distributed setting, while ensuring differential privacy of the result. We study secure multiparty addition protocols using well known security schemes: Shamir's secret sharing, perturbation-based, and various encryptions. We supplement our study with our new enhanced encryption scheme EFT, which is efficient and fault tolerant. Differential privacy of the final result is achieved by either distributed Laplace or Geometric mechanism (respectively DLPA or DGPA), while approximated differential privacy is achieved by diluted mechanisms. Distributed random noise is generated collectively by all participants, which draw random variables from one of several distributions: Gamma, Gauss, Geometric, or their diluted versions. We introduce a new distributed privacy mechanism with noise drawn from the Laplace distribution, which achieves smaller redundant noise with efficiency. We compare complexity and security characteristics of the protocols with different differential privacy mechanisms and security schemes. More importantly, we implemented all protocols and present an experimental comparison on their performance and scalability in a real distributed environment. Based on the evaluations, we identify our security scheme and Laplace DLPA as the most efficient for secure distributed data aggregation with privacy."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Slawomir",
+            "LastName": "Goryczka",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematics & Computer Science, Emory University, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Li",
+            "LastName": "Xiong",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematics & Computer Science, Emory University, Atlanta, GA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "A Comprehensive Comparison of Multiparty Secure Additions with Differential Privacy.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TDSC.2015.2484326"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 14,
+          "PubDate": {"MedlineDate": "2017 Sep-Oct"},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "IEEE Trans Dependable Secure Comput",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1545-5971"
+        },
+        "Title": "IEEE transactions on dependable and secure computing"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Distributed differential privacy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "decentralized noise generation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "redundant noise"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "secure multiparty computations"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": {
+      "RefType": "Cites",
+      "RefSource": "BMC Med Inform Decis Mak. 2010 Mar 12;10:14",
+      "PMID": {
+        "Version": 1,
+        "content": 20226035
+      }
+    }},
+    "PMID": {
+      "Version": 1,
+      "content": 28919841
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28919841,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TDSC.2015.2484326",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5598559",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS760496",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,470 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101560621,
+      "Country": "Switzerland",
+      "ISSNLinking": "1664-8021",
+      "MedlineTA": "Front Genet"
+    },
+    "Owner": "NLM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2014,
+      "Day": 29
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 354},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NHLBI NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 HL093093",
+          "Acronym": "HL"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Batch effects in DNA methylation microarray experiments can lead to spurious results if not properly handled during the plating of samples."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "Two pilot studies examining the association of DNA methylation patterns across the genome with obesity in Samoan men were investigated for chip- and row-specific batch effects. For each study, the DNA of 46 obese men and 46 lean men were assayed using Illumina's Infinium HumanMethylation450 BeadChip. In the first study (Sample One), samples from obese and lean subjects were examined on separate chips. In the second study (Sample Two), the samples were balanced on the chips by lean/obese status, age group, and census region. We used methylumi, watermelon, and limma R packages, as well as ComBat, to analyze the data. Principal component analysis and linear regression were, respectively, employed to identify the top principal components and to test for their association with the batches and lean/obese status. To identify differentially methylated positions (DMPs) between obese and lean males at each locus, we used a moderated t-test."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Chip effects were effectively removed from Sample Two but not Sample One. In addition, dramatic differences were observed between the two sets of DMP results. After \"removing\" batch effects with ComBat, Sample One had 94,191 probes differentially methylated at a q-value threshold of 0.05 while Sample Two had zero differentially methylated probes. The disparate results from Sample One and Sample Two likely arise due to the confounding of lean/obese status with chip and row batch effects."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Even the best possible statistical adjustments for batch effects may not completely remove them. Proper study design is vital for guarding against spurious findings due to such effects."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Olive D",
+            "LastName": "Buhule",
+            "Initials": "OD",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Graduate School of Public Health, University of Pittsburgh Pittsburgh, PA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ryan L",
+            "LastName": "Minster",
+            "Initials": "RL",
+            "AffiliationInfo": {"Affiliation": "Department of Human Genetics, Graduate School of Public Health, University of Pittsburgh Pittsburgh, PA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicola L",
+            "LastName": "Hawley",
+            "Initials": "NL",
+            "AffiliationInfo": {"Affiliation": "Department of Chronic Disease Epidemiology, School of Public Health, Yale University New Haven, CT, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mario",
+            "LastName": "Medvedovic",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Environmental Health, University of Cincinnati College of Medicine Cincinnati, OH, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guangyun",
+            "LastName": "Sun",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Environmental Health, University of Cincinnati College of Medicine Cincinnati, OH, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Satupaitea",
+            "LastName": "Viali",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Faculty of Medicine, National University of Samoa Apia, Samoa."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ranjan",
+            "LastName": "Deka",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Environmental Health, University of Cincinnati College of Medicine Cincinnati, OH, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephen T",
+            "LastName": "McGarvey",
+            "Initials": "ST",
+            "AffiliationInfo": {"Affiliation": "Department of Epidemiology, International Health Institute, Brown University School of Public Health Providence, RI, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel E",
+            "LastName": "Weeks",
+            "Initials": "DE",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Graduate School of Public Health, University of Pittsburgh Pittsburgh, PA, USA ; Department of Human Genetics, Graduate School of Public Health, University of Pittsburgh Pittsburgh, PA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Stratified randomization controls better for batch effects in 450K methylation analysis: a cautionary tale.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fgene.2014.00354"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 5,
+          "PubDate": {"Year": 2014},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Genet",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1664-8021"
+        },
+        "Title": "Frontiers in genetics"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "DNA methylation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "array data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "batch effects"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "epigenetics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "obesity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "study design"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": 10,
+      "Year": 2014,
+      "Day": 29
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 Jun 26;43(8):768-75",
+        "PMID": {
+          "Version": 1,
+          "content": 21706001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Genet. 2008;49(1):1-10",
+        "PMID": {
+          "Version": 1,
+          "content": 18263964
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epigenomics. 2012 Jun;4(3):325-41",
+        "PMID": {
+          "Version": 1,
+          "content": 22690668
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epigenetics. 2013 May;8(5):522-33",
+        "PMID": {
+          "Version": 1,
+          "content": 23644594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2012 Dec 10;13:689",
+        "PMID": {
+          "Version": 1,
+          "content": 23228338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Biol. 2014 Jul-Aug;26(4):491-501",
+        "PMID": {
+          "Version": 1,
+          "content": 24799123
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Bull. 1992 Jul;112(1):155-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19565683
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Carcinogenesis. 2010 Jan;31(1):27-36",
+        "PMID": {
+          "Version": 1,
+          "content": 19752007
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Funct Genomic Proteomic. 2005 Feb;3(4):322-31",
+        "PMID": {
+          "Version": 1,
+          "content": 15814023
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Genomics. 2011 Dec 16;4:84",
+        "PMID": {
+          "Version": 1,
+          "content": 22171553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2013 May 01;14:293",
+        "PMID": {
+          "Version": 1,
+          "content": 23631413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2010 Sep 15;2(49):49ra67",
+        "PMID": {
+          "Version": 1,
+          "content": 20844285
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Nov 30;11:587",
+        "PMID": {
+          "Version": 1,
+          "content": 21118553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Appl Genet Mol Biol. 2004;3:Article3",
+        "PMID": {
+          "Version": 1,
+          "content": 16646809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2008 Mar 1;26(7):1186-7; author reply 1187-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18309960
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2007 Jan;8(1):118-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16632515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2014 Jun 7;383(9933):1990-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24630777
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Gastroenterol. 2009 Aug;104(8):1910-2",
+        "PMID": {
+          "Version": 1,
+          "content": 19661933
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Control Clin Trials. 1988 Dec;9(4):365-74",
+        "PMID": {
+          "Version": 1,
+          "content": 3203526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2007 Jul;39(7):807-8; author reply 808-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17597765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2007 Sep;3(9):1724-35",
+        "PMID": {
+          "Version": 1,
+          "content": 17907809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2010 Oct;11(10 ):733-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20838408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med. 2010 Dec 21;8:87",
+        "PMID": {
+          "Version": 1,
+          "content": 21176133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Jan 26;107 Suppl 1:1757-64",
+        "PMID": {
+          "Version": 1,
+          "content": 20080672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2013 Feb;31(2):142-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23334450
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Endocr Relat Cancer. 2004 Dec;11(4):583-4; author reply 585-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15613439
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Epidemiol Biomarkers Prev. 2013 Jun;22(6):1052-60",
+        "PMID": {
+          "Version": 1,
+          "content": 23629520
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4195366"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 25352862
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2014,
+        "Day": 28,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2014,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 10,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2014,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25352862,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fgene.2014.00354",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4195366",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

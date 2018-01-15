@@ -1,0 +1,748 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101532965,
+      "Country": "United States",
+      "ISSNLinking": "1949-2553",
+      "MedlineTA": "Oncotarget"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "CONFLICTS OF INTEREST The authors declare no conflicts of interest.",
+    "Article": {
+      "Pagination": {"MedlinePgn": "60429-60446"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Increasing efforts have been done to figure out the association between lncRNAs and complex diseases. Many computational models construct various lncRNA similarity networks, disease similarity networks, along with known lncRNA-disease associations to infer novel associations. However, most of them neglect the structural difference between lncRNAs network and diseases network, hierarchical relationships between diseases and pattern of newly discovered associations. In this study, we developed a model that performs Bi-Random Walks to predict novel LncRNA-Disease Associations (BRWLDA in short). This model utilizes multiple heterogeneous data to construct the lncRNA functional similarity network, and Disease Ontology to construct a disease network. It then constructs a directed bi-relational network based on these two networks and available lncRNAs-disease associations. Next, it applies bi-random walks on the network to predict potential associations. BRWLDA achieves reliable and better performance than other comparing methods not only on experiment verified associations, but also on the simulated experiments with masked associations. Case studies further demonstrate the feasibility of BRWLDA in identifying new lncRNA-disease associations."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guoxian",
+            "LastName": "Yu",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "College of Computer and Information Sciences, Southwest University, Chongqing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guangyuan",
+            "LastName": "Fu",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "College of Computer and Information Sciences, Southwest University, Chongqing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chang",
+            "LastName": "Lu",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "College of Computer and Information Sciences, Southwest University, Chongqing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yazhou",
+            "LastName": "Ren",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Big Data Research Center, School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jun",
+            "LastName": "Wang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "College of Computer and Information Sciences, Southwest University, Chongqing, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "BRWLDA: bi-random walks for predicting lncRNA-disease associations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.18632/oncotarget.19588"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 36,
+          "Volume": 8,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Oncotarget",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1949-2553"
+        },
+        "Title": "Oncotarget"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "bi-random walk"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "bi-relational network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "diseases"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "lncRNA-disease associations"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "lncRNAs"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Jul 19;7(29):45948-45958",
+        "PMID": {
+          "Version": 1,
+          "content": 27322210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Jul 15;31(14):2241-51",
+        "PMID": {
+          "Version": 1,
+          "content": 25777523
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2016 Apr 05;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27076459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2007 Jun;8(6):413-23",
+        "PMID": {
+          "Version": 1,
+          "content": 17486121
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Clin Cancer Res. 2014 Oct 06;33:84",
+        "PMID": {
+          "Version": 1,
+          "content": 25288503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D92-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24297251
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2016 Apr;12 (4):1324-32",
+        "PMID": {
+          "Version": 1,
+          "content": 26912333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2011 Sep 16;43(6):904-14",
+        "PMID": {
+          "Version": 1,
+          "content": 21925379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2007 Jun 14;447(7146):799-816",
+        "PMID": {
+          "Version": 1,
+          "content": 17571346
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D940-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22080554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pac Symp Biocomput. 2007;:269-80",
+        "PMID": {
+          "Version": 1,
+          "content": 17990498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D1070-4",
+        "PMID": {
+          "Version": 1,
+          "content": 24194601
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2014 Aug 15;4:6088",
+        "PMID": {
+          "Version": 1,
+          "content": 25124853
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2014 Aug;30(8):340-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24951248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Dec 20;7(51):85613-85623",
+        "PMID": {
+          "Version": 1,
+          "content": 27784000
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2008 Dec 19;322(5909):1845-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19056941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 May 3;7(18):25902-14",
+        "PMID": {
+          "Version": 1,
+          "content": 27028993
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2010 Aug 6;329(5992):689-93",
+        "PMID": {
+          "Version": 1,
+          "content": 20616235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Jan;37(Database issue):D122-6",
+        "PMID": {
+          "Version": 1,
+          "content": 18829717
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Res. 2014 May;24(5):513-31",
+        "PMID": {
+          "Version": 1,
+          "content": 24662484
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2017 Mar 24;13(3):e1005455",
+        "PMID": {
+          "Version": 1,
+          "content": 28339468
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2017 Jan;18(1):98-104",
+        "PMID": {
+          "Version": 1,
+          "content": 26851225
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Funct Genomics. 2013 Sep;12(5):391-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23788797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2017 May 04;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28489543
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2016 Mar;17 (2):193-203",
+        "PMID": {
+          "Version": 1,
+          "content": 26059461
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jan 4;44(D1):D980-5",
+        "PMID": {
+          "Version": 1,
+          "content": 26481356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2007 Nov 16;318(5853):1108-13",
+        "PMID": {
+          "Version": 1,
+          "content": 17932254
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Oncol. 2014 May;31(5):914",
+        "PMID": {
+          "Version": 1,
+          "content": 24671855
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2013 Oct 08;13:464",
+        "PMID": {
+          "Version": 1,
+          "content": 24103700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Aug 17;5:13186",
+        "PMID": {
+          "Version": 1,
+          "content": 26278472
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Jun 16;7(1):3664",
+        "PMID": {
+          "Version": 1,
+          "content": 28623317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2014 Aug;10(8):2074-81",
+        "PMID": {
+          "Version": 1,
+          "content": 24850297
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2005 Jan 1;33(Database issue):D514-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15608251
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Nov 18;12(12):861-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22094949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Nov 16;44(20):e152",
+        "PMID": {
+          "Version": 1,
+          "content": 27484480
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 31;9(1):e87797",
+        "PMID": {
+          "Version": 1,
+          "content": 24498199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jan;41(Database issue):D983-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23175614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "OMICS. 2015 Feb;19(2):115-30",
+        "PMID": {
+          "Version": 1,
+          "content": 25611337
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2006 May 15;66(10):5330-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16707459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Feb 16;6:21106",
+        "PMID": {
+          "Version": 1,
+          "content": 26880032
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Feb 1;33(3):458-460",
+        "PMID": {
+          "Version": 1,
+          "content": 28172495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Summit Transl Bioinform. 2009 Mar 01;2009:56-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21347171
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2015;2015:810514",
+        "PMID": {
+          "Version": 1,
+          "content": 26273645
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2017 May 16;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28534780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Jul 1;26(13):1644-50",
+        "PMID": {
+          "Version": 1,
+          "content": 20439255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2016 Mar-Apr;13(2):220-32",
+        "PMID": {
+          "Version": 1,
+          "content": 26800544
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci China Life Sci. 2014 Aug;57(8):852-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25104459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2004 Dec 24;306(5705):2242-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15539566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2007 Jun 8;316(5830):1484-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17510325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1961 Dec 30;192:1227-32",
+        "PMID": {
+          "Version": 1,
+          "content": 13882203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Oct 15;29(20):2617-24",
+        "PMID": {
+          "Version": 1,
+          "content": 24002109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014 Aug 13;15(8):429",
+        "PMID": {
+          "Version": 1,
+          "content": 25116943
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2012 Oct;8(10):2792-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22875290
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D210-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22135294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 2011 Jan 14;404(2):728-34",
+        "PMID": {
+          "Version": 1,
+          "content": 21163252
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biol. 1990 Jan;10(1):28-36",
+        "PMID": {
+          "Version": 1,
+          "content": 1688465
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2015 Mar;11(3):760-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25502053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2016;2016:4130861",
+        "PMID": {
+          "Version": 1,
+          "content": 27635398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Jul 1;30(13):1850-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24590441
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2013 Feb 1;73(3):1180-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23243023
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Sep 6;7(36):57919-57931",
+        "PMID": {
+          "Version": 1,
+          "content": 27517318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2000 May;25(1):25-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10802651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Jan;39(Database issue):D146-51",
+        "PMID": {
+          "Version": 1,
+          "content": 21112873
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Jan 1;30(1):94-103",
+        "PMID": {
+          "Version": 1,
+          "content": 24149053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2017 Jul 1;18(4):558-576",
+        "PMID": {
+          "Version": 1,
+          "content": 27345524
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cell Biol. 2011 Jun;21(6):354-61",
+        "PMID": {
+          "Version": 1,
+          "content": 21550244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Pathol. 2000 Dec;53(6):320-3",
+        "PMID": {
+          "Version": 1,
+          "content": 11193051
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Apr 15;464(7291):1071-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20393566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Nov 18;5:16840",
+        "PMID": {
+          "Version": 1,
+          "content": 26577439
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 02;9(1):e84408",
+        "PMID": {
+          "Version": 1,
+          "content": 24392133
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28947982
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28947982,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.18632/oncotarget.19588",
+        "IdType": "doi"
+      },
+      {
+        "content": 19588,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5601150",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

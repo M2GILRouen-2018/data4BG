@@ -1,0 +1,231 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101603758,
+      "Country": "United States",
+      "ISSNLinking": "2324-9269",
+      "MedlineTA": "Mol Genet Genomic Med"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "15-20"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The hg19 assembly of the human genome is the most heavily annotated and most commonly used reference to make variant calls for individual genomes. Based on the phase 3 report of the 1000 genomes project (1000G), it is now well known that many positions in the hg19 genome represent minor alleles. Since commonly used variant call methods are developed under the assumption that hg19 reference harbors major alleles at all the ~3 billion positions, these methods mask the calls whenever an individual is homozygous to the minor allele at the respective positions. Hence, it is important to address the extent and impact of these minor alleles in hg19 from the point of view of individual genomes."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHOD",
+          "content": "We have created a reference genome, hg19K, in which all the positions in hg19 reference harboring minor allele were replaced by those from the phase 3 report of the 1000 genomes project. The genomes of five individuals, downloaded from the public repository, were analyzed using both hg19 and hg19K and compared."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Out of the 81 million SNPs in phase 3 report from the 1000 genomes project, 1.9 million positions were found to be major alleles compared to hg19 with many having an allele frequency of >0.9. We observed that ~30% of the SNVs found in individual genomes are confined to the 1.9 million positions. Also, there are ~8% unique SNVs predicted using hg19K-based approach, which are also confined to the 1.9 million positions."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "We report that the presence of minor alleles in hg19 alone results in ~8% false negatives and ~30% false positives during variant calls. Also, among the variant calls unique to hg19K-based methods, which are missed in individuals homozygous to the minor alleles in hg19-based prediction, some are deleterious missense mutations at sites conserved across diverse species."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Savita",
+            "LastName": "Karthikeyan",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Institute of Bioinformatics and Applied Biotechnology Biotech Park, Electronic City Phase I Bangalore 560100 India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pushpinder S",
+            "LastName": "Bawa",
+            "Initials": "PS",
+            "AffiliationInfo": {"Affiliation": "Institute of Bioinformatics and Applied Biotechnology Biotech Park, Electronic City Phase I Bangalore 560100 India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Subhashini",
+            "LastName": "Srinivasan",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Institute of Bioinformatics and Applied Biotechnology Biotech Park, Electronic City Phase I Bangalore 560100 India."}
+          }
+        ]
+      },
+      "ArticleTitle": "hg19K: addressing a significant lacuna in hg19-based variant calling.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mgg3.251"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 5,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Mol Genet Genomic Med",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2324-9269"
+        },
+        "Title": "Molecular genetics & genomic medicine"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "1000 genomes project"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "alternate reference"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "hg19"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "major allele"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "minor allele"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2001 Feb 16;291(5507):1304-51",
+        "PMID": {
+          "Version": 1,
+          "content": 11181995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2011 Sep;7(9):e1002280",
+        "PMID": {
+          "Version": 1,
+          "content": 21935354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Fly (Austin). 2012 Apr-Jun;6(2):80-92",
+        "PMID": {
+          "Version": 1,
+          "content": 22728672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Oct 1;526(7571):68-74",
+        "PMID": {
+          "Version": 1,
+          "content": 26432245
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28116326
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": "01",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 29,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28116326,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mgg3.251",
+        "IdType": "doi"
+      },
+      {
+        "content": "MGG3251",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5241214",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

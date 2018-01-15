@@ -1,0 +1,233 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9302888,
+      "Country": "Italy",
+      "ISSNLinking": "1120-1797",
+      "MedlineTA": "Phys Med"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "108-111"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Associazione Italiana di Fisica Medica. Published by Elsevier Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "We assessed the deformable image registration (DIR) accuracy of thoracic images under different regularization weights using commercially available DIR software."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The thoracic 4-dimensional (4D) CT images of 10 patients were used. The datasets for these patients were provided by DIR-lab (www.dir-lab.com) and included a coordinate list of 300 anatomic landmarks that had been manually identified. The ANAtomically CONstrained Deformation Algorithm (ANACONDA) of RayStation (RaySearch Laboratories, Stockholm, Sweden) was used to deform the peak-inhale to peak-exhale images under different regularization weights (4, 40, 400-default setting, 1500, 4000, 10,000, 15,000, 20,000, 30,000, and 40,000). The regularization weights were changed using a script. The registration error (RE) was determined by calculating the difference at each landmark point between the displacement calculated by the DIR software and that calculated by the landmark. We measured the computation time for each regularization weight setting."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "High regularization weights resulted in a smaller RE than that observed with lower regularization weights. The RE decreases rapidly with increase in regularization weight before reaching a plateau. No significant difference was found between a regularization weight of 400 and regularization weights of 4, 40, 4000 or 40,000 (P value >0.05). The range of the average time was 8.4-12.2s."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "We concluded that the default setting for ANACONDA is stable with respect to regularization weight in the thoracic region."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hideharu",
+            "LastName": "Miura",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan; Department of Radiation Oncology, Institute of Biomedical & Health Science, Hiroshima University, 1-2-3, Kasumi, Minami-ku, Hiroshima 734-8551, Japan. Electronic address: miura@hiprac.jp."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shuichi",
+            "LastName": "Ozawa",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan; Department of Radiation Oncology, Institute of Biomedical & Health Science, Hiroshima University, 1-2-3, Kasumi, Minami-ku, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Minoru",
+            "LastName": "Nakao",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kengo",
+            "LastName": "Furukawa",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yoshiko",
+            "LastName": "Doi",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hideo",
+            "LastName": "Kawabata",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Masahiro",
+            "LastName": "Kenjou",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yasushi",
+            "LastName": "Nagata",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Hiroshima High-Precision Radiotherapy Cancer Center, 3-2-2, Futabanosato, Higashi-ku, Hiroshima 732-0057, Japan; Department of Radiation Oncology, Institute of Biomedical & Health Science, Hiroshima University, 1-2-3, Kasumi, Minami-ku, Hiroshima 734-8551, Japan."}
+          }
+        ]
+      },
+      "ArticleTitle": "Impact of deformable image registration accuracy on thoracic images with different regularization weight parameter settings.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1120-1797(17)30445-3"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.ejmp.2017.09.122"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 42,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1724-191X"
+        },
+        "Title": "Physica medica : PM : an international journal devoted to the applications of physics to medicine and biology : official journal of the Italian Association of Biomedical Physics (AIFB)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "4D CT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Deformable image registration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Lung"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Regularization weight"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 27
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29173902
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29173902,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1120-1797(17)30445-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.ejmp.2017.09.122",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

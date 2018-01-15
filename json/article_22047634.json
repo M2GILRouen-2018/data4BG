@@ -1,0 +1,420 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101477957,
+      "Country": "Switzerland",
+      "ISSNLinking": "1662-5196",
+      "MedlineTA": "Front Neuroinform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 65},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The rise of neuroimaging in research and clinical practice, together with the development of new machine learning techniques has strongly encouraged the Computer Aided Diagnosis (CAD) of different diseases and disorders. However, these algorithms are often tested in proprietary datasets to which the access is limited and, therefore, a direct comparison between CAD procedures is not possible. Furthermore, the sample size is often small for developing accurate machine learning methods. Multi-center initiatives are currently a very useful, although limited, tool in the recruitment of large populations and standardization of CAD evaluation. Conversely, we propose a brain image synthesis procedure intended to generate a new image set that share characteristics with an original one. Our system focuses on nuclear imaging modalities such as PET or SPECT brain images. We analyze the dataset by applying PCA to the original dataset, and then model the distribution of samples in the projected eigenbrain space using a Probability Density Function (PDF) estimator. Once the model has been built, we can generate new coordinates on the eigenbrain space belonging to the same class, which can be then projected back to the image space. The system has been evaluated on different functional neuroimaging datasets assessing the: resemblance of the synthetic images with the original ones, the differences between them, their generalization ability and the independence of the synthetic dataset with respect to the original. The synthetic images maintain the differences between groups found at the original dataset, with no significant differences when comparing them to real-world samples. Furthermore, they featured a similar performance and generalization capability to that of the original dataset. These results prove that these images are suitable for standardizing the evaluation of CAD pipelines, and providing data augmentation in machine learning systems -e.g. in deep learning-, or even to train future professionals at medical school."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Francisco J",
+            "LastName": "Martinez-Murcia",
+            "Initials": "FJ",
+            "AffiliationInfo": {"Affiliation": "Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Juan M",
+            "LastName": "Górriz",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Javier",
+            "LastName": "Ramírez",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ignacio A",
+            "LastName": "Illán",
+            "Initials": "IA",
+            "AffiliationInfo": {"Affiliation": "Department of Scientific Computing, Florida State University, Tallahassee, FL, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fermín",
+            "LastName": "Segovia",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Diego",
+            "LastName": "Castillo-Barnes",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Diego",
+            "LastName": "Salas-Gonzalez",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Signal Processing and Biomedical Application, Department of Signal Theory, Networking and Communication, University of Granada, Granada, Spain."}
+          }
+        ]
+      },
+      "ArticleTitle": "Functional Brain Imaging Synthesis Based on Image Decomposition and Kernel Modeling: Application to Neurodegenerative Diseases.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fninf.2017.00065"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 11,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Neuroinform",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1662-5196"
+        },
+        "Title": "Frontiers in neuroinformatics"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Alzheimer's Disease (AD)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Neuroimaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Parkinson's Disease (PD)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Synthesis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "data augmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "density estimation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "evaluation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "validation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Jun 26;8(8):665-70",
+        "PMID": {
+          "Version": 1,
+          "content": 21706013
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2015 Oct;13(4):391-402",
+        "PMID": {
+          "Version": 1,
+          "content": 25749984
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Psychiatry. 2014 Jun;19(6):659-67",
+        "PMID": {
+          "Version": 1,
+          "content": 23774715
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Oct;39(10 ):5971-80",
+        "PMID": {
+          "Version": 1,
+          "content": 23039635
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2014 Jan;41(1):012502",
+        "PMID": {
+          "Version": 1,
+          "content": 24387526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Feb 15;59(4):4160-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22178299
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2006 Nov 15;33(3):855-66",
+        "PMID": {
+          "Version": 1,
+          "content": 16997578
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Sep;37(9):4902-15",
+        "PMID": {
+          "Version": 1,
+          "content": 20964209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 1993 Jul-Oct;17 (4-5):365-71",
+        "PMID": {
+          "Version": 1,
+          "content": 8306311
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2017 Jul 15;155:530-548",
+        "PMID": {
+          "Version": 1,
+          "content": 28414186
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2014 Nov;17(11):1442-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25349910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Rev Esp Med Nucl. 2010 Sep-Oct;29(5):246-50",
+        "PMID": {
+          "Version": 1,
+          "content": 20655624
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2014 Nov;17(11):1510-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25349916
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2004 Oct 7;49(19):4543-61",
+        "PMID": {
+          "Version": 1,
+          "content": 15552416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucl Med Commun. 2011 Aug;32(8):699-707",
+        "PMID": {
+          "Version": 1,
+          "content": 21659911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurol. 2010 Feb;6(2):67-77",
+        "PMID": {
+          "Version": 1,
+          "content": 20139996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2015 May 1;111:562-79",
+        "PMID": {
+          "Version": 1,
+          "content": 25652394
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurol. 2009 Aug;22(4):370-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19506479
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2011 Oct 7;56(19):6441-57",
+        "PMID": {
+          "Version": 1,
+          "content": 21934192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Radiol. 1994 Oct;67(802):976-82",
+        "PMID": {
+          "Version": 1,
+          "content": 8000842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 May 1;45(4):1241-52",
+        "PMID": {
+          "Version": 1,
+          "content": 19349238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2017 Feb;18(2):115-126",
+        "PMID": {
+          "Version": 1,
+          "content": 28053326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1999 Nov;18(11):1085-97",
+        "PMID": {
+          "Version": 1,
+          "content": 10661326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Alzheimers Res Ther. 2016 Feb 22;8:9",
+        "PMID": {
+          "Version": 1,
+          "content": 26899835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Schizophr Bull. 2009 Jan;35(1):1-2",
+        "PMID": {
+          "Version": 1,
+          "content": 19023121
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Jun;46(2):472-85",
+        "PMID": {
+          "Version": 1,
+          "content": 19385015
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Alzheimers Dement. 2012 Feb;8(1 Suppl):S1-68",
+        "PMID": {
+          "Version": 1,
+          "content": 22047634
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29184492
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29184492,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fninf.2017.00065",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5694626",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,189 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9878362,
+      "Country": "United States",
+      "ISSNLinking": "0192-8651",
+      "MedlineTA": "J Comput Chem"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "704-713"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 Wiley Periodicals, Inc.",
+        "AbstractText": "In molecular dynamics (MD) calculations, reduction in calculation time per MD loop is essential. A multiple time-step (MTS) integration algorithm, the RESPA (Tuckerman and Berne, J. Chem. Phys. 1992, 97, 1990-2001), enables reductions in calculation time by decreasing the frequency of time-consuming long-range interaction calculations. However, the RESPA MTS algorithm involves uncertainties in evaluating the atomic interaction-based pressure (i.e., atomic pressure) of systems with and without holonomic constraints. It is not clear which intermediate forces and constraint forces in the MTS integration procedure should be used to calculate the atomic pressure. In this article, we propose a series of equations to evaluate the atomic pressure in the RESPA MTS integration procedure on the basis of its equivalence to the Velocity-Verlet integration procedure with a single time step (STS). The equations guarantee time-reversibility even for the system with holonomic constrants. Furthermore, we generalize the equations to both (i) arbitrary number of inner time steps and (ii) arbitrary number of force components (RESPA levels). The atomic pressure calculated by our equations with the MTS integration shows excellent agreement with the reference value with the STS, whereas pressures calculated using the conventional ad hoc equations deviated from it. Our equations can be extended straightforwardly to the MTS integration algorithm for the isothermal NVT and isothermal-isobaric NPT ensembles. © 2017 Wiley Periodicals, Inc."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-5027-4120"
+            },
+            "ForeName": "Yoshimichi",
+            "LastName": "Andoh",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Center of Computational Science, Graduate School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya, 464-8603, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Noriyuki",
+            "LastName": "Yoshii",
+            "Initials": "N",
+            "AffiliationInfo": [
+              {"Affiliation": "Center of Computational Science, Graduate School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya, 464-8603, Japan."},
+              {"Affiliation": "Department of Applied Chemistry, Nagoya University, Center of Computational Science, Graduate School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya, 464-8603, Japan."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Atsushi",
+            "LastName": "Yamada",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Applied Chemistry, Nagoya University, Center of Computational Science, Graduate School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya, 464-8603, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Susumu",
+            "LastName": "Okazaki",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Center of Computational Science, Graduate School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya, 464-8603, Japan."},
+              {"Affiliation": "Department of Applied Chemistry, Nagoya University, Center of Computational Science, Graduate School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya, 464-8603, Japan."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Evaluation of atomic pressure in the multiple time-step integration algorithm.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/jcc.24731"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 10,
+          "Volume": 38,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Comput Chem",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1096-987X"
+        },
+        "Title": "Journal of computational chemistry"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "RESPA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SHAKE/RATTLE"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "atomic pressure"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "molecular dynamics calculation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "multiple time-step"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 22
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28106256
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 20,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28106256,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/jcc.24731",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

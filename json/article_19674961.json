@@ -1,0 +1,376 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0210453",
+      "Country": "Germany",
+      "ISSNLinking": "0026-1270",
+      "MedlineTA": "Methods Inf Med"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e74-e83"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCATS NIH HHS",
+          "Country": "United States",
+          "GrantID": "UL1 TR001105",
+          "Acronym": "TR"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Creation of a new electronic health record (EHR)-based registry often can be a \"one-off\" complex endeavor: first developing new EHR data collection and clinical decision support tools, followed by developing registry-specific data extractions from the EHR for analysis. Each development phase typically has its own long development and testing time, leading to a prolonged overall cycle time for delivering one functioning registry with companion reporting into production. The next registry request then starts from scratch. Such an approach will not scale to meet the emerging demand for specialty registries to support population health and value-based care."
+        },
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "To determine if the creation of EHR-based specialty registries could be markedly accelerated by employing (a) a finite core set of EHR data collection principles and methods, (b) concurrent engineering of data extraction and data warehouse design using a common dimensional data model for all registries, and (c) agile development methods commonly employed in new product development."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We adopted as guiding principles to (a) capture data as a byproduct of care of the patient, (b) reinforce optimal EHR use by clinicians, (c) employ a finite but robust set of EHR data capture tool types, and (d) leverage our existing technology toolkit. Registries were defined by a shared condition (recorded on the Problem List) or a shared exposure to a procedure (recorded on the Surgical History) or to a medication (recorded on the Medication List). Any EHR fields needed - either to determine registry membership or to calculate a registry-associated clinical quality measure (CQM) - were included in the enterprise data warehouse (EDW) shared dimensional data model. Extract-transform-load (ETL) code was written to pull data at defined \"grains\" from the EHR into the EDW model. All calculated CQM values were stored in a single Fact table in the EDW crossing all registries. Registry-specific dashboards were created in the EHR to display both (a) real-time patient lists of registry patients and (b) EDW-generated CQM data. Agile project management methods were employed, including co-development, lightweight requirements documentation with User Stories and acceptance criteria, and time-boxed iterative development of EHR features in 2-week \"sprints\" for rapid-cycle feedback and refinement."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Using this approach, in calendar year 2015 we developed a total of 43 specialty chronic disease registries, with 111 new EHR data collection and clinical decision support tools, 163 new clinical quality measures, and 30 clinic-specific dashboards reporting on both real-time patient care gaps and summarized and vetted CQM measure performance trends."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "This study suggests concurrent design of EHR data collection tools and reporting can quickly yield useful EHR structured data for chronic disease registries, and bodes well for efforts to migrate away from manual abstraction. This work also supports the view that in new EHR-based registry development, as in new product development, adopting agile principles and practices can help deliver valued, high-quality features early and often."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vaishnavi",
+            "LastName": "Kannan",
+            "Initials": "V"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jason S",
+            "LastName": "Fish",
+            "Initials": "JS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jacqueline M",
+            "LastName": "Mutz",
+            "Initials": "JM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Angela R",
+            "LastName": "Carrington",
+            "Initials": "AR"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ki",
+            "LastName": "Lai",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lisa S",
+            "LastName": "Davis",
+            "Initials": "LS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Josh E",
+            "LastName": "Youngblood",
+            "Initials": "JE"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mark R",
+            "LastName": "Rauschuber",
+            "Initials": "MR"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kathryn A",
+            "LastName": "Flores",
+            "Initials": "KA"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Evan J",
+            "LastName": "Sara",
+            "Initials": "EJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Deepa G",
+            "LastName": "Bhat",
+            "Initials": "DG"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "DuWayne L",
+            "LastName": "Willett",
+            "Initials": "DL",
+            "AffiliationInfo": {"Affiliation": "DuWayne L. Willett, MD, MS, Professor, Department of Internal Medicine, Chief Medical Informatics Officer, University of Texas Southwestern Health System, 5323 Harry Hines Blvd., Dallas, TX 75390-9047, USA, E-mail: Duwayne.Willett@UTSouthwestern.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Rapid Development of Specialty Population Registries and Quality Measures from Electronic Health Record Data*. An Agile Framework.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3414/ME16-02-0031"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 99,
+          "Volume": 56,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017,
+            "Day": 14
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Methods Inf Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2511-705X"
+        },
+        "Title": "Methods of information in medicine"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Registries"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "agile development"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "data collection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "data warehouse"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "electronic health records"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "information storage and retrieval"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "outcome and process assessment (health care)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "population health"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "quality indicators"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 23
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Intern Med. 2015 Jan;277(1):94-136",
+        "PMID": {
+          "Version": 1,
+          "content": 25174800
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2013 Jan 1;20(1):134-40",
+        "PMID": {
+          "Version": 1,
+          "content": 22962195
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2010 Dec 23;363(26):2477-81",
+        "PMID": {
+          "Version": 1,
+          "content": 21142528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Health Aff (Millwood). 2012 Jan;31(1):220-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22155485
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Inf Med. 2015 ;54(6):479-87",
+        "PMID": {
+          "Version": 1,
+          "content": 26395036
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2009 Nov-Dec;16(6):775-83",
+        "PMID": {
+          "Version": 1,
+          "content": 19717794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2016 May;23 (3):635-43",
+        "PMID": {
+          "Version": 1,
+          "content": 26721732
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Clin Inform. 2014 Aug 20;5(3):757-72",
+        "PMID": {
+          "Version": 1,
+          "content": 25298815
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Med Inform. 2015 Oct;84(10 ):784-90",
+        "PMID": {
+          "Version": 1,
+          "content": 26228650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2016 Sep 8;375(10):909-11",
+        "PMID": {
+          "Version": 1,
+          "content": 27602661
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2016 Sep;23 (5):859-65",
+        "PMID": {
+          "Version": 1,
+          "content": 27002075
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2009 Aug 10;11(3):e31",
+        "PMID": {
+          "Version": 1,
+          "content": 19674961
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28930362
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28930362,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "16-02-0031",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3414/ME16-02-0031",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5608102",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS902657",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

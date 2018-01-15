@@ -1,0 +1,488 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101478481,
+      "Country": "Switzerland",
+      "ISSNLinking": "1662-453X",
+      "MedlineTA": "Front Neurosci"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 615},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Purpose: The purpose of this paper is discriminating between tumor progression and response to treatment based on follow-up multi-parametric magnetic resonance imaging (MRI) data retrieved from glioblastoma multiforme (GBM) patients. Materials and Methods: Multi-parametric MRI data consisting of conventional MRI (cMRI) and advanced MRI [i.e., perfusion weighted MRI (PWI) and diffusion kurtosis MRI (DKI)] were acquired from 29 GBM patients treated with adjuvant therapy after surgery. We propose an automatic pipeline for processing advanced MRI data and extracting intensity-based histogram features and 3-D texture features using manually and semi-manually delineated regions of interest (ROIs). Classifiers are trained using a leave-one-patient-out cross validation scheme on complete MRI data. Balanced accuracy rate (BAR)-values are computed and compared between different ROIs, MR modalities, and classifiers, using non-parametric multiple comparison tests. Results: Maximum BAR-values using manual delineations are 0.956, 0.85, 0.879, and 0.932, for cMRI, PWI, DKI, and all three MRI modalities combined, respectively. Maximum BAR-values using semi-manual delineations are 0.932, 0.894, 0.885, and 0.947, for cMRI, PWI, DKI, and all three MR modalities combined, respectively. After statistical testing using Kruskal-Wallis and post-hoc Dunn-Šidák analysis we conclude that training a RUSBoost classifier on features extracted using semi-manual delineations on cMRI or on all MRI modalities combined performs best. Conclusions: We present two main conclusions: (1) using T1 post-contrast (T1pc) features extracted from manual total delineations, AdaBoost achieves the highest BAR-value, 0.956; (2) using T1pc-average, T1pc-90th percentile, and Cerebral Blood Volume (CBV) 90th percentile extracted from semi-manually delineated contrast enhancing ROIs, SVM-rbf, and RUSBoost achieve BAR-values of 0.947 and 0.932, respectively. Our findings show that AdaBoost, SVM-rbf, and RUSBoost trained on T1pc and CBV features can differentiate progressive from responsive GBM patients with very high accuracy."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adrian",
+            "LastName": "Ion-Mărgineanu",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering (ESAT), Signal Processing and Data Analytics, STADIUS Center for Dynamical Systems, KU LeuvenLeuven, Belgium; imecLeuven, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sofie",
+            "LastName": "Van Cauter",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University Hospitals of Leuven Leuven, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Diana M",
+            "LastName": "Sima",
+            "Initials": "DM",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering (ESAT), Signal Processing and Data Analytics, STADIUS Center for Dynamical Systems, KU LeuvenLeuven, Belgium; imecLeuven, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Frederik",
+            "LastName": "Maes",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering (ESAT), PSI Center for Processing Speech and Images, KU Leuven Leuven, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stefan",
+            "LastName": "Sunaert",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University Hospitals of Leuven Leuven, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Uwe",
+            "LastName": "Himmelreich",
+            "Initials": "U",
+            "AffiliationInfo": {"Affiliation": "Department of Imaging and Pathology, Biomedical MRI/MoSAIC, KU Leuven Leuven, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sabine",
+            "LastName": "Van Huffel",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering (ESAT), Signal Processing and Data Analytics, STADIUS Center for Dynamical Systems, KU LeuvenLeuven, Belgium; imecLeuven, Belgium."}
+          }
+        ]
+      },
+      "ArticleTitle": "Classifying Glioblastoma Multiforme Follow-Up Progressive vs. Responsive Forms Using Multi-Parametric MRI Features.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fnins.2016.00615"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 10,
+          "PubDate": {"Year": 2016},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Neurosci",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1662-4548"
+        },
+        "Title": "Frontiers in neuroscience"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "boosting classifiers"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "follow-up"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "glioblastoma multiforme"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "magnetic resonance imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "multi-parametric"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2015;2015:842923",
+        "PMID": {
+          "Version": 1,
+          "content": 26413548
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2011 Feb;33(2):296-305",
+        "PMID": {
+          "Version": 1,
+          "content": 21274970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2005 Jun;53(6):1432-40",
+        "PMID": {
+          "Version": 1,
+          "content": 15906300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2008 Aug 1;42(1):122-34",
+        "PMID": {
+          "Version": 1,
+          "content": 18524628
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroradiology. 2011 Oct;53(10):721-31",
+        "PMID": {
+          "Version": 1,
+          "content": 21107549
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Radiol. 2013 Jun;23(6):1467-77",
+        "PMID": {
+          "Version": 1,
+          "content": 23314599
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Apr 15;21(8):1509-15",
+        "PMID": {
+          "Version": 1,
+          "content": 15572470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Cancer. 2004 Nov 1;91(9):1656-62",
+        "PMID": {
+          "Version": 1,
+          "content": 15477864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurooncol. 2015 May;122(3):549-58",
+        "PMID": {
+          "Version": 1,
+          "content": 25700835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJNR Am J Neuroradiol. 2010 Jan;31(1):40-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19749223
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Cancer Res. 2008 May 15;14(10):3098-104",
+        "PMID": {
+          "Version": 1,
+          "content": 18483377
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2010 Apr 10;28(11):1963-72",
+        "PMID": {
+          "Version": 1,
+          "content": 20231676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuro Oncol. 2014 Jul;16(7):1010-21",
+        "PMID": {
+          "Version": 1,
+          "content": 24470551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 1988 Mar;166(3):823-7",
+        "PMID": {
+          "Version": 1,
+          "content": 2829270
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2004 Aug 27;573(1-3):83-92",
+        "PMID": {
+          "Version": 1,
+          "content": 15327980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Surg Neurol Int. 2011;2:176",
+        "PMID": {
+          "Version": 1,
+          "content": 22276231
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2012 May;263(2):492-501",
+        "PMID": {
+          "Version": 1,
+          "content": 22403168
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer. 1985 Sep 1;56(5):1106-11",
+        "PMID": {
+          "Version": 1,
+          "content": 2990664
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosurg. 2004 May;100(5 Suppl Pediatrics):492-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15287461
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurol. 2003 Dec;16(6):643-50",
+        "PMID": {
+          "Version": 1,
+          "content": 14624071
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2016 Jun 1;73:94-101",
+        "PMID": {
+          "Version": 1,
+          "content": 27100835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2015 ;2015 :641023",
+        "PMID": {
+          "Version": 1,
+          "content": 26448943
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer J. 2003 Mar-Apr;9(2):134-45",
+        "PMID": {
+          "Version": 1,
+          "content": 12784879
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 1990 Feb;174(2):411-5",
+        "PMID": {
+          "Version": 1,
+          "content": 2153310
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain Pathol. 2009 Oct;19(4):694-712",
+        "PMID": {
+          "Version": 1,
+          "content": 19744041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2009 Nov;253(2):486-96",
+        "PMID": {
+          "Version": 1,
+          "content": 19789240
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bioinform Comput Biol. 2005 Apr;3(2):185-205",
+        "PMID": {
+          "Version": 1,
+          "content": 15852500
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2002 Nov;17(3):143-55",
+        "PMID": {
+          "Version": 1,
+          "content": 12391568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuro Oncol. 2012 Jul;14(7):919-30",
+        "PMID": {
+          "Version": 1,
+          "content": 22561797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2011 Jan;12(1):86-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20360022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Radiol. 2016 Nov;26(11):4194-4203",
+        "PMID": {
+          "Version": 1,
+          "content": 26843012
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJNR Am J Neuroradiol. 2006 Apr;27(4):859-67",
+        "PMID": {
+          "Version": 1,
+          "content": 16611779
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "World J Surg Oncol. 2012 Oct 24;10:220",
+        "PMID": {
+          "Version": 1,
+          "content": 23095807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2005 Mar 10;352(10 ):987-96",
+        "PMID": {
+          "Version": 1,
+          "content": 15758009
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurooncol. 2010 Sep;99(2):261-72",
+        "PMID": {
+          "Version": 1,
+          "content": 20146084
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiol Med. 2014 Aug;119(8):616-24",
+        "PMID": {
+          "Version": 1,
+          "content": 24408041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Mar;29(3):819-29",
+        "PMID": {
+          "Version": 1,
+          "content": 20199917
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28123355
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28123355,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fnins.2016.00615",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5225114",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,615 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 529},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "Wellcome Trust",
+            "Country": "United Kingdom",
+            "GrantID": "095931"
+          },
+          {
+            "Agency": "Wellcome Trust",
+            "Country": "United Kingdom"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "RC2 GM092519",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "National Science Foundation",
+            "Country": "United States",
+            "GrantID": 1148362
+          },
+          {
+            "Agency": "National Institute of General Medical Sciences",
+            "Country": "United States",
+            "GrantID": "RC2 GM092519-01"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "ImageJ is an image analysis program extensively used in the biological sciences and beyond. Due to its ease of use, recordable macro language, and extensible plug-in architecture, ImageJ enjoys contributions from non-programmers, amateur programmers, and professional developers alike. Enabling such a diversity of contributors has resulted in a large community that spans the biological and physical sciences. However, a rapidly growing user base, diverging plugin suites, and technical limitations have revealed a clear need for a concerted software engineering effort to support emerging imaging paradigms, to ensure the software's ability to handle the requirements of modern science."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We rewrote the entire ImageJ codebase, engineering a redesigned plugin mechanism intended to facilitate extensibility at every level, with the goal of creating a more powerful tool that continues to serve the existing community while addressing a wider range of scientific requirements. This next-generation ImageJ, called \"ImageJ2\" in places where the distinction matters, provides a host of new functionality. It separates concerns, fully decoupling the data model from the user interface. It emphasizes integration with external applications to maximize interoperability. Its robust new plugin framework allows everything from image formats, to scripting languages, to visualization to be extended by the community. The redesigned data model supports arbitrarily large, N-dimensional datasets, which are increasingly common in modern image acquisition. Despite the scope of these changes, backwards compatibility is maintained such that this new functionality can be seamlessly integrated with the classic ImageJ interface, allowing users and developers to migrate to these new methods at their own pace."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Scientific imaging benefits from open-source programs that advance new method development and deployment to a diverse audience. ImageJ has continuously evolved with this idea in mind; however, new and emerging scientific requirements have posed corresponding challenges for ImageJ's development. The described improvements provide a framework engineered for flexibility, intended to support these requirements as well as accommodate future needs. Future efforts will focus on implementing new algorithms in this framework and expanding collaborations with other popular scientific software suites."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Curtis T",
+            "LastName": "Rueden",
+            "Initials": "CT",
+            "AffiliationInfo": {"Affiliation": "Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Johannes",
+            "LastName": "Schindelin",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA."},
+              {"Affiliation": "Morgridge Institute for Research, Madison, Wisconsin, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mark C",
+            "LastName": "Hiner",
+            "Initials": "MC",
+            "AffiliationInfo": {"Affiliation": "Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Barry E",
+            "LastName": "DeZonia",
+            "Initials": "BE",
+            "AffiliationInfo": {"Affiliation": "Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alison E",
+            "LastName": "Walter",
+            "Initials": "AE",
+            "AffiliationInfo": [
+              {"Affiliation": "Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA."},
+              {"Affiliation": "Morgridge Institute for Research, Madison, Wisconsin, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ellen T",
+            "LastName": "Arena",
+            "Initials": "ET",
+            "AffiliationInfo": [
+              {"Affiliation": "Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA."},
+              {"Affiliation": "Morgridge Institute for Research, Madison, Wisconsin, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8678-670X"
+            },
+            "ForeName": "Kevin W",
+            "LastName": "Eliceiri",
+            "Initials": "KW",
+            "AffiliationInfo": [
+              {"Affiliation": "Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, Wisconsin, USA. eliceiri@wisc.edu."},
+              {"Affiliation": "Morgridge Institute for Research, Madison, Wisconsin, USA. eliceiri@wisc.edu."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "ImageJ2: ImageJ for the next generation of scientific image data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1934-z"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 29
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Extensibility"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ImageJ"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ImageJ2"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Interoperability"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "N-dimensional"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Open development"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Open source"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Reproducibility"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jun 28;9(7):666-70",
+        "PMID": {
+          "Version": 1,
+          "content": 22743771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Sep 1;24(17):1827-36",
+        "PMID": {
+          "Version": 1,
+          "content": 18603566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Neurosci. 2016 Nov;44(9):2654-2666",
+        "PMID": {
+          "Version": 1,
+          "content": 27256072
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Feb 15;26(4):544-52",
+        "PMID": {
+          "Version": 1,
+          "content": 20031971
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Sep 1;27(17):2453-4",
+        "PMID": {
+          "Version": 1,
+          "content": 21727141
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 2002;85:586-92",
+        "PMID": {
+          "Version": 1,
+          "content": 15458157
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Feb 28;9(3):245-53",
+        "PMID": {
+          "Version": 1,
+          "content": 22373911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 Oct;11(10):982-4",
+        "PMID": {
+          "Version": 1,
+          "content": 25264773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis Exp. 2016 Apr 10;(110):e53966",
+        "PMID": {
+          "Version": 1,
+          "content": 27167079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Jun 1;25(11):1463-5",
+        "PMID": {
+          "Version": 1,
+          "content": 19346324
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2006;7(10):R100",
+        "PMID": {
+          "Version": 1,
+          "content": 17076895
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Feb 15;33(4):629-630",
+        "PMID": {
+          "Version": 1,
+          "content": 27797782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2014 Jan;9(1):193-208",
+        "PMID": {
+          "Version": 1,
+          "content": 24385149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Reprod Dev. 2015 Jul-Aug;82(7-8):518-29",
+        "PMID": {
+          "Version": 1,
+          "content": 26153368
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jul;9(7):671-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22930834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2017 May 1;84:189-194",
+        "PMID": {
+          "Version": 1,
+          "content": 28390286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2010 Jun;7(6):418-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20508634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Fluids Barriers CNS. 2016 Jun 21;13(1):11",
+        "PMID": {
+          "Version": 1,
+          "content": 27329482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Wiley Interdiscip Rev Dev Biol. 2017 Mar;6(2):",
+        "PMID": {
+          "Version": 1,
+          "content": 27911038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Aug 1;33(15):2424-2426",
+        "PMID": {
+          "Version": 1,
+          "content": 28369169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jun 28;9(7):683-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22743773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jun 28;9(7):676-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22743772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Nov 15;32(22):3532-3534",
+        "PMID": {
+          "Version": 1,
+          "content": 27412086
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Biol. 2010 May 31;189(5):777-82",
+        "PMID": {
+          "Version": 1,
+          "content": 20513764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2005;6(5):R47",
+        "PMID": {
+          "Version": 1,
+          "content": 15892875
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Jun;12(6):481-3",
+        "PMID": {
+          "Version": 1,
+          "content": 26020499
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microsc Res Tech. 2006 Apr;69(4):260-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16586486
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2016 Dec 7;17 (1):521",
+        "PMID": {
+          "Version": 1,
+          "content": 27927161
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jun 28;9(7):697-710",
+        "PMID": {
+          "Version": 1,
+          "content": 22743775
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Biomater. 2017 May;54:117-127",
+        "PMID": {
+          "Version": 1,
+          "content": 28216299
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2017 Feb 15;115:80-90",
+        "PMID": {
+          "Version": 1,
+          "content": 27713081
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Nov 15;28(22):3009-11",
+        "PMID": {
+          "Version": 1,
+          "content": 22962343
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Methods. 2014;1(2):null",
+        "PMID": {
+          "Version": 1,
+          "content": 25606571
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 Jun;11(6):645-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24747812
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Protoc Mol Biol. 2010 Oct;Chapter 14:Unit14.20",
+        "PMID": {
+          "Version": 1,
+          "content": 20890901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cell Biol. 2009 Nov;19(11):656-60",
+        "PMID": {
+          "Version": 1,
+          "content": 19833518
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Pac Vis Symp. 2012;:201-208",
+        "PMID": {
+          "Version": 1,
+          "content": 23584131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Apr 15;27(8):1179-80",
+        "PMID": {
+          "Version": 1,
+          "content": 21349861
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jun 28;9(7):690-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22743774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2017 Feb 1;114:54-59",
+        "PMID": {
+          "Version": 1,
+          "content": 27491801
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Neurosci. 2016 Sep;75:14-26",
+        "PMID": {
+          "Version": 1,
+          "content": 27297944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2012 Jul;26(7):801-4",
+        "PMID": {
+          "Version": 1,
+          "content": 22644661
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29187165
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29187165,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1934-z",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1934-z",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5708080",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,328 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101250756,
+      "Country": "United States",
+      "ISSNLinking": "1687-4188",
+      "MedlineTA": "Int J Biomed Imaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 3457189},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Purpose",
+          "content": "To perform lung image registration for reducing misregistration artifacts on three-dimensional (3D) temporal subtraction of chest computed tomography (CT) images, in order to enhance temporal changes in lung lesions and evaluate these changes after deformable image registration (DIR)."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Methods",
+          "content": "In 10 cases, mutual information (MI) lung mask affine mapping combined with cross-correlation (CC) lung diffeomorphic mapping was used to implement lung volume registration. With advanced normalization tools (ANTs), we used greedy symmetric normalization (greedy SyN) as a transformation model, which involved MI-CC-SyN implementation. The resulting displacement fields were applied to warp the previous (moving) image, which was subsequently subtracted from the current (fixed) image to obtain the lung subtraction image."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "The average minimum and maximum log-Jacobians were 0.31 and 3.74, respectively. When considering 3D landmark distance, the root-mean-square error changed from an average of 20.82\u2009mm for Pfixed to Pmoving to 0.5\u2009mm for Pwarped to Pfixed. Clear shadows were observed as enhanced lung nodules and lesions in subtraction images. The lesion shadows showed lesion shrinkage changes over time. Lesion tissue morphology was maintained after DIR."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Conclusions",
+          "content": "DIR (greedy SyN) effectively and accurately enhanced temporal changes in chest CT images and decreased misregistration artifacts in temporal subtraction images."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0001-7467-636X"
+            },
+            "ForeName": "Ping",
+            "LastName": "Yan",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Radiological and Medical Laboratory Sciences, Graduate School of Medicine, Nagoya University, 1-1-20 Daiko-Minami, Higashi-ku, Nagoya 461-8673, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yoshie",
+            "LastName": "Kodera",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiological and Medical Laboratory Sciences, Graduate School of Medicine, Nagoya University, 1-1-20 Daiko-Minami, Higashi-ku, Nagoya 461-8673, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-6863-4451"
+            },
+            "ForeName": "Kazuhiro",
+            "LastName": "Shimamoto",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Radiological and Medical Laboratory Sciences, Graduate School of Medicine, Nagoya University, 1-1-20 Daiko-Minami, Higashi-ku, Nagoya 461-8673, Japan."}
+          }
+        ]
+      },
+      "ArticleTitle": "Evaluation of Deformable Image Registration for Three-Dimensional Temporal Subtraction of Chest Computed Tomography Images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1155/2017/3457189"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 2017,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Int J Biomed Imaging",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1687-4188"
+        },
+        "Title": "International journal of biomedical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2006 Jan;13(1):14-23",
+        "PMID": {
+          "Version": 1,
+          "content": 16399029
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Mar;45(1 Suppl):S61-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19041946
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Digit Imaging. 2010 Feb;23(1):31-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19020936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2003 Mar;10 (3):249-54",
+        "PMID": {
+          "Version": 1,
+          "content": 12643551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2006 Jun;10(3):397-412",
+        "PMID": {
+          "Version": 1,
+          "content": 15948659
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 1998 Mar;2(1):1-36",
+        "PMID": {
+          "Version": 1,
+          "content": 10638851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2011 Nov;30(11):1901-20",
+        "PMID": {
+          "Version": 1,
+          "content": 21632295
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Assist Tomogr. 2006 Mar-Apr;30(2):283-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16628049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2002 Jul;122(1):15-20",
+        "PMID": {
+          "Version": 1,
+          "content": 12114333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007 Oct 15;38(1):95-113",
+        "PMID": {
+          "Version": 1,
+          "content": 17761438
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Jul;32(7):1153-90",
+        "PMID": {
+          "Version": 1,
+          "content": 23739795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2008 Feb;12(1):26-41",
+        "PMID": {
+          "Version": 1,
+          "content": 17659998
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2002 Jun;6(2):163-79",
+        "PMID": {
+          "Version": 1,
+          "content": 12045002
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2001 Mar;46(3):R1-45",
+        "PMID": {
+          "Version": 1,
+          "content": 11277237
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Feb 1;54(3):2033-44",
+        "PMID": {
+          "Version": 1,
+          "content": 20851191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2001 Jul;20(7):568-82",
+        "PMID": {
+          "Version": 1,
+          "content": 11465464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Dec 7;52(23):6879-92",
+        "PMID": {
+          "Version": 1,
+          "content": 18029981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2003 Aug;22(8):986-1004",
+        "PMID": {
+          "Version": 1,
+          "content": 12906253
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2014 Apr;271(1):255-61",
+        "PMID": {
+          "Version": 1,
+          "content": 24475812
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2016 Oct;33:140-144",
+        "PMID": {
+          "Version": 1,
+          "content": 27427472
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29158729
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29158729,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1155/2017/3457189",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5660793",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

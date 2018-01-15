@@ -1,0 +1,234 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "167-175"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVES",
+            "content": "The equivalence of a survival model with a piecewise constant baseline hazard function and a Poisson regression model has been known since decades. As shown in recent studies, this equivalence carries over to clustered survival data: A frailty model with a log-normal frailty term can be interpreted and estimated as a generalized linear mixed model with a binary response, a Poisson likelihood, and a specific offset. Proceeding this way, statistical theory and software for generalized linear mixed models are readily available for fitting frailty models. This gain in flexibility comes at the small price of (1) having to fix the number of pieces for the baseline hazard in advance and (2) having to \"explode\" the data set by the number of pieces."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "In this paper we extend the simulations of former studies by using a more realistic baseline hazard (Gompertz) and by comparing the model under consideration with competing models. Furthermore, the SAS macro %PCFrailty is introduced to apply the Poisson generalized linear mixed approach to frailty models."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The simulations show good results for the shared frailty model. Our new %PCFrailty macro provides proper estimates, especially in case of 4 events per piece."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The suggested Poisson generalized linear mixed approach for log-normal frailty models based on the %PCFrailty macro provides several advantages in the analysis of clustered survival data with respect to more flexible modelling of fixed and random effects, exact (in the sense of non-approximate) maximum likelihood estimation, and standard errors and different types of confidence intervals for all variance parameters."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Katharina",
+            "LastName": "Hirsch",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Institute of Medical Epidemiology, Biostatistics, and Informatics, Faculty of Medicine, Martin-Luther-University Halle-Wittenberg, D-06097 Halle (Saale), Germany. Electronic address: katharina.hirsch@medizin.uni-halle.de."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andreas",
+            "LastName": "Wienke",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Institute of Medical Epidemiology, Biostatistics, and Informatics, Faculty of Medicine, Martin-Luther-University Halle-Wittenberg, D-06097 Halle (Saale), Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Oliver",
+            "LastName": "Kuss",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Institute for Biometry and Epidemiology, Leibniz Institute for Diabetes Research, Heinrich Heine University Düsseldorf, D-40225 Duesseldorf, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Log-normal frailty models fitted as Poisson generalized linear mixed models.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30527-2"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.09.009"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Frailty"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "GLMM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Piecewise constant baseline hazard"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Poisson"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SAS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Survival"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016014",
+        "MajorTopicYN": "Y",
+        "content": "Linear Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "Y",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D016012",
+        "MajorTopicYN": "Y",
+        "content": "Poisson Distribution"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28110722
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 26,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110722,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30527-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.09.009",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

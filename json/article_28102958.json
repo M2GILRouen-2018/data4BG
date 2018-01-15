@@ -1,0 +1,271 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 15
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "84-98"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2016 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Hybrid magnetic resonance imaging and radiation therapy devices are capable of imaging in real-time to track intrafractional lung tumor motion during radiotherapy. Highly accelerated magnetic resonance (MR) imaging methods can potentially reduce system delay time and/or improves imaging spatial resolution, and provide flexibility in imaging parameters. Prior Data Assisted Compressed Sensing (PDACS) has previously been proposed as an acceleration method that combines the advantages of 2D compressed sensing and the KEYHOLE view-sharing technique. However, as PDACS relies on prior data acquired at the beginning of a dynamic imaging sequence, decline in image quality occurs for longer duration scans due to drifts in MR signal. Novel sliding window-based techniques for refreshing prior data are proposed as a solution to this problem."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "MR acceleration is performed by retrospective removal of data from the fully sampled sets. Six patients with lung tumors are scanned with a clinical 3 T MRI using a balanced steady-state free precession (bSSFP) sequence for 3 min at approximately 4 frames per second, for a total of 650 dynamics. A series of distinct pseudo-random patterns of partial k-space acquisition is generated such that, when combined with other dynamics within a sliding window of 100 dynamics, covers the entire k-space. The prior data in the sliding window are continuously refreshed to reduce the impact of MR signal drifts. We intended to demonstrate two different ways to utilize the sliding window data: a simple averaging method and a navigator-based method. These two sliding window methods are quantitatively compared against the original PDACS method using three metrics: artifact power, centroid displacement error, and Dice's coefficient. The study is repeated with pseudo 0.5 T images by adding complex, normally distributed noise with a standard deviation that reduces image SNR, relative to original 3 T images, by a factor of 6."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Without sliding window implemented, PDACS-reconstructed dynamic datasets showed progressive increases in image artifact power as the 3 min scan progresses. With sliding windows implemented, this increase in artifact power is eliminated. Near the end of a 3 min scan at 3 T SNR and 5× acceleration, implementation of an averaging (navigator) sliding window method improves our metrics by the following ways: artifact power decreases from 0.065 without sliding window to 0.030 (0.031), centroid error decreases from 2.64 to 1.41 mm (1.28 mm), and Dice coefficient agreement increases from 0.860 to 0.912 (0.915). At pseudo 0.5 T SNR, the improvements in metrics are as follows: artifact power decreases from 0.110 without sliding window to 0.0897 (0.0985), centroid error decreases from 2.92 mm to 1.36 mm (1.32 mm), and Dice coefficient agreements increases from 0.851 to 0.894 (0.896)."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "In this work we demonstrated the negative impact of slow changes in MR signal for longer duration PDACS dynamic scans, namely increases in image artifact power and reductions of tumor tracking accuracy. We have also demonstrated sliding window implementations (i.e., refreshing of prior data) of PDACS are effective solutions to this problem at both 3 T and simulated 0.5 T bSSFP images."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eugene",
+            "LastName": "Yip",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Oncology, Medical Physics Division, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jihyun",
+            "LastName": "Yun",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Oncology, Medical Physics Division, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Department of Physics, University of Alberta, 11322 - 89 Avenue, Edmonton, AB, T6G 2G7, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Keith",
+            "LastName": "Wachowicz",
+            "Initials": "K",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Oncology, Medical Physics Division, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zsolt",
+            "LastName": "Gabos",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiation Oncology, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Department of Oncology, Radiation Oncology Division, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Satyapal",
+            "LastName": "Rathee",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Oncology, Medical Physics Division, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "B G",
+            "LastName": "Fallone",
+            "Initials": "BG",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Oncology, Medical Physics Division, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Department of Physics, University of Alberta, 11322 - 89 Avenue, Edmonton, AB, T6G 2G7, Canada."},
+              {"Affiliation": "Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "MagnetTx Oncology Solutions, Ltd, PO Box 52112, Edmonton, AB, Canada."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Sliding window prior data assisted compressed sensing for MRI tracking of lung tumors.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12027"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "MRI acceleration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "compressed sensing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "dynamic MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "linac-MR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "tumor tracking"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D008175",
+          "MajorTopicYN": "N",
+          "content": "Lung Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D059629",
+        "MajorTopicYN": "N",
+        "content": "Signal-To-Noise Ratio"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 15
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28102958
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2016,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "07",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28102958,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12027",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,575 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 425},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIGMS NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 GM120624",
+          "Acronym": "GM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Metagenomics sequencing provides deep insights into microbial communities. To investigate their taxonomic structure, binning assembled contigs into discrete clusters is critical. Many binning algorithms have been developed, but their performance is not always satisfactory, especially for complex microbial communities, calling for further development."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "According to previous studies, relative sequence compositions are similar across different regions of the same genome, but they differ between distinct genomes. Generally, current tools have used the normalized frequency of k-tuples directly, but this represents an absolute, not relative, sequence composition. Therefore, we attempted to model contigs using relative k-tuple composition, followed by measuring dissimilarity between contigs using [Formula: see text]. The [Formula: see text] was designed to measure the dissimilarity between two long sequences or Next-Generation Sequencing data with the Markov models of the background genomes. This method was effective in revealing group and gradient relationships between genomes, metagenomes and metatranscriptomes. With many binning tools available, we do not try to bin contigs from scratch. Instead, we developed [Formula: see text] to adjust contigs among bins based on the output of existing binning tools for a single metagenomic sample. The tool is taxonomy-free and depends only on k-tuples. To evaluate the performance of [Formula: see text], five widely used binning tools with different strategies of sequence composition or the hybrid of sequence composition and abundance were selected to bin six synthetic and real datasets, after which [Formula: see text] was applied to adjust the binning results. Our experiments showed that [Formula: see text] consistently achieves the best performance with tuple length k\u2009=\u20096 under the independent identically distributed (i.i.d.) background model. Using the metrics of recall, precision and ARI (Adjusted Rand Index), [Formula: see text] improves the binning performance in 28 out of 30 testing experiments (6 datasets with 5 binning tools). The [Formula: see text] is available at https://github.com/kunWangkun/d2SBin ."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Experiments showed that [Formula: see text] accurately measures the dissimilarity between contigs of metagenomic reads and that relative sequence composition is more reasonable to bin the contigs. The [Formula: see text] can be applied to any existing contig-binning tools for single metagenomic samples to obtain better binning results."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8766-5950"
+            },
+            "ForeName": "Ying",
+            "LastName": "Wang",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Automation, Xiamen University, Xiamen, Fujian, 361005, China. wangying@xmu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kun",
+            "LastName": "Wang",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Automation, Xiamen University, Xiamen, Fujian, 361005, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yang Young",
+            "LastName": "Lu",
+            "Initials": "YY",
+            "AffiliationInfo": {"Affiliation": "Molecular and Computational Biology Program, University of Southern California, Los Angeles, California, CA, 90089, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fengzhu",
+            "LastName": "Sun",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "Molecular and Computational Biology Program, University of Southern California, Los Angeles, California, CA, 90089, USA. fsun@usc.edu."},
+              {"Affiliation": "Center for Computational Systems Biology, Fudan University, Shanghai, 200433, China. fsun@usc.edu."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Improving contig binning of metagenomic data using [Formula: see text] oligonucleotide frequency dissimilarity.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1835-1"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Contig binning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Metagenomics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Taxonomy-independent"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "dissimilarity, k-tuple"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D005787",
+        "MajorTopicYN": "N",
+        "content": "Gene Frequency"
+      }},
+      {"DescriptorName": {
+        "UI": "D016678",
+        "MajorTopicYN": "N",
+        "content": "Genome"
+      }},
+      {"DescriptorName": {
+        "UI": "D059014",
+        "MajorTopicYN": "N",
+        "content": "High-Throughput Nucleotide Sequencing"
+      }},
+      {"DescriptorName": {
+        "UI": "D020407",
+        "MajorTopicYN": "N",
+        "content": "Internet"
+      }},
+      {"DescriptorName": {
+        "UI": "D008390",
+        "MajorTopicYN": "N",
+        "content": "Markov Chains"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D056186",
+          "MajorTopicYN": "N",
+          "content": "Metagenomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D014584",
+        "MajorTopicYN": "N",
+        "content": "User-Computer Interface"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": 10
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2014 Sep 30;2:e603",
+        "PMID": {
+          "Version": 1,
+          "content": 25289188
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Feb 15;32(4):605-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26515820
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Struct Biotechnol J. 2016 Dec 05;15:48-55",
+        "PMID": {
+          "Version": 1,
+          "content": 27980708
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2008 Oct 08;3(10):e3373",
+        "PMID": {
+          "Version": 1,
+          "content": 18841204
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Apr 12;6:24175",
+        "PMID": {
+          "Version": 1,
+          "content": 27067514
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2012 Nov;13(6):669-81",
+        "PMID": {
+          "Version": 1,
+          "content": 22962338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jan 1;27(1):127-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21062764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2008 May;18(5):821-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18349386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2017 Jan 9;45(1):39-53",
+        "PMID": {
+          "Version": 1,
+          "content": 27899557
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jan 4;44(D1):D279-85",
+        "PMID": {
+          "Version": 1,
+          "content": 26673716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2011 Mar;18(3):523-34",
+        "PMID": {
+          "Version": 1,
+          "content": 21385052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2009;10(8):R85",
+        "PMID": {
+          "Version": 1,
+          "content": 19698104
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009 Oct 02;10:316",
+        "PMID": {
+          "Version": 1,
+          "content": 19799776
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Sep 15;28(18):i356-i362",
+        "PMID": {
+          "Version": 1,
+          "content": 22962452
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Microbiol. 2012 Dec 05;3:410",
+        "PMID": {
+          "Version": 1,
+          "content": 23227024
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2013 Feb;20(2):64-79",
+        "PMID": {
+          "Version": 1,
+          "content": 23383994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Nov 02;11:544",
+        "PMID": {
+          "Version": 1,
+          "content": 21044341
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bacteriol. 1997 Jun;179(12):3899-913",
+        "PMID": {
+          "Version": 1,
+          "content": 9190805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiome. 2014 Aug 01;2:26",
+        "PMID": {
+          "Version": 1,
+          "content": 25136443
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Mar 4;428(6978):37-43",
+        "PMID": {
+          "Version": 1,
+          "content": 14961025
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Mar 15;33(6):791-798",
+        "PMID": {
+          "Version": 1,
+          "content": 27256312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Nov 23;6:37243",
+        "PMID": {
+          "Version": 1,
+          "content": 27876823
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2007 Mar;17(3):377-86",
+        "PMID": {
+          "Version": 1,
+          "content": 17255551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 Nov 28;103(48):18296-301",
+        "PMID": {
+          "Version": 1,
+          "content": 17114289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2006 Oct 26;443(7114):950-5",
+        "PMID": {
+          "Version": 1,
+          "content": 16980956
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2012 Feb;19(2):241-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22300323
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 02;9(1):e84348",
+        "PMID": {
+          "Version": 1,
+          "content": 24392128
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2012 Dec 27;13:730",
+        "PMID": {
+          "Version": 1,
+          "content": 23268604
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2013 Jan;23(1):111-20",
+        "PMID": {
+          "Version": 1,
+          "content": 22936250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014 Mar 03;15(3):R46",
+        "PMID": {
+          "Version": 1,
+          "content": 24580807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jun 1;27(11):1489-95",
+        "PMID": {
+          "Version": 1,
+          "content": 21493653
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2005 Apr 22;308(5721):554-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15845853
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiome. 2015 Jan 20;3(1):1",
+        "PMID": {
+          "Version": 1,
+          "content": 25621171
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2015 Jul;25(7):1043-55",
+        "PMID": {
+          "Version": 1,
+          "content": 25977477
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2010 Nov;17(11):1467-90",
+        "PMID": {
+          "Version": 1,
+          "content": 20973742
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 Nov;11(11):1144-6",
+        "PMID": {
+          "Version": 1,
+          "content": 25218180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Genet. 2004;38:525-52",
+        "PMID": {
+          "Version": 1,
+          "content": 15568985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2007 Jun;4(6):495-500",
+        "PMID": {
+          "Version": 1,
+          "content": 17468765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Feb 05;16:36",
+        "PMID": {
+          "Version": 1,
+          "content": 25652152
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28931373
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28931373,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1835-1",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1835-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5607646",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

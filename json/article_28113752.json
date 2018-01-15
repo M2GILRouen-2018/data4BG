@@ -1,0 +1,120 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Depth map sensed by low-cost active sensors are often limited in resolution, whereas depth information achieved from structure from motion or sparse depth scanning techniques may result in a sparse point cloud. Achieving a high resolution (HR) depth map from a low resolution (LR) depth map or densely reconstructing a sparse non-uniformly sampled depth map are fundamentally similar problems with dierent types of up-sampling requirements. The first problem involves upsampling in a uniform grid, whereas the second type of problem requires an up-sampling in a non-uniform grid. In this paper, we propose a new approach to address such issues in a unified framework, based on sparse representation. Unlike, most of the approaches of depth map restoration, our approach does not require an HR intensity image. Based on example depth maps, a dictionary of exemplars is constructed, and is used to restore HR/dense depth map. In case of uniform up-sampling of LR depth map, an edge preserving constraint is used for preserving the discontinuity present in the depth map, and a pyramidal reconstruction strategy is applied in order to deal with higher up-sampling factors. For up-sampling of non-uniformly sampled sparse depth maps, we compute the missing information in local patches from that from similar exemplars. Furthermore, we also suggest an alternative method of reconstructing dense depth map from very sparse non-uniformly sampled depth data by sequential cascading of uniform and non-uniform up-sampling techniques. We provide a variety of qualitative and quantitative results to demonstrate the ecacy of our approach for depth map restoration."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Srimanta",
+            "LastName": "Mandal",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arnav",
+            "LastName": "Bhavsar",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anil",
+            "LastName": "Sao",
+            "Initials": "A"
+          }
+        ]
+      },
+      "ArticleTitle": "Depth Map Restoration from Under-sampled Data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2621410"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2016,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113752
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113752,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2621410",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

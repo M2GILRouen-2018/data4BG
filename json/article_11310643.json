@@ -1,0 +1,421 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 24
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0185110"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this paper we address the problem of automated grading of invasive breast carcinoma through the encoding of histological images as VLAD (Vector of Locally Aggregated Descriptors) representations on the Grassmann manifold. The proposed method considers each image as a set of multidimensional spatially-evolving signals that can be efficiently modeled through a higher-order linear dynamical systems analysis. Subsequently, each H&E (Hematoxylin and Eosin) stained breast cancer histological image is represented as a cloud of points on the Grassmann manifold, while a vector representation approach is applied aiming to aggregate the Grassmannian points based on a locality criterion on the manifold. To evaluate the efficiency of the proposed methodology, two datasets with different characteristics were used. More specifically, we created a new medium-sized dataset consisting of 300 annotated images (collected from 21 patients) of grades 1, 2 and 3, while we also provide experimental results using a large dataset, namely BreaKHis, containing 7,909 breast cancer histological images, collected from 82 patients, of both benign and malignant cases. Experimental results have shown that the proposed method outperforms a number of state of the art approaches providing average classification rates of 95.8% and 91.38% with our dataset and the BreaKHis dataset, respectively."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kosmas",
+            "LastName": "Dimitropoulos",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Information Technologies Institute, Centre for Research and Technology Hellas, Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Panagiotis",
+            "LastName": "Barmpoutis",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Information Technologies Institute, Centre for Research and Technology Hellas, Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christina",
+            "LastName": "Zioga",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Pathology, Agios Pavlos General Hospital of Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Athanasios",
+            "LastName": "Kamas",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Pathology, Agios Pavlos General Hospital of Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kalliopi",
+            "LastName": "Patsiaoura",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Pathology, Agios Pavlos General Hospital of Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8465-6258"
+            },
+            "ForeName": "Nikos",
+            "LastName": "Grammalidis",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Information Technologies Institute, Centre for Research and Technology Hellas, Thessaloniki, Greece."}
+          }
+        ]
+      },
+      "ArticleTitle": "Grading of invasive breast carcinoma through Grassmannian VLAD encoding.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0185110"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "Y",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "Y",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001943",
+          "MajorTopicYN": "N",
+          "content": "Breast Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D066264",
+        "MajorTopicYN": "N",
+        "content": "Datasets as Topic"
+      }},
+      {"DescriptorName": {
+        "UI": "D006652",
+        "MajorTopicYN": "Y",
+        "content": "Histological Techniques"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016014",
+        "MajorTopicYN": "N",
+        "content": "Linear Models"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D060787",
+          "MajorTopicYN": "N",
+          "content": "Neoplasm Grading"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009361",
+          "MajorTopicYN": "N",
+          "content": "Neoplasm Invasiveness"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 24
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Cancer. 2015 Mar 1;136(5):E359-86",
+        "PMID": {
+          "Version": 1,
+          "content": 25220842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Pathol. 1995 Aug;26(8):873-9",
+        "PMID": {
+          "Version": 1,
+          "content": 7635449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Inform. 2008;6:99-109",
+        "PMID": {
+          "Version": 1,
+          "content": 18779878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Breast Cancer. 2006;13(3):249-53",
+        "PMID": {
+          "Version": 1,
+          "content": 16929117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2014;2014:3374-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25570714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Histopathology. 1991 Nov;19(5):403-10",
+        "PMID": {
+          "Version": 1,
+          "content": 1757079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2008 Jan;17(1):42-52",
+        "PMID": {
+          "Version": 1,
+          "content": 18229803
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2013 Oct;43(10):1563-72",
+        "PMID": {
+          "Version": 1,
+          "content": 24034748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Dec;32(12 ):2169-78",
+        "PMID": {
+          "Version": 1,
+          "content": 23912498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2010 Jun;19(6):1657-63",
+        "PMID": {
+          "Version": 1,
+          "content": 20215079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2011 Nov;33(11):2273-86",
+        "PMID": {
+          "Version": 1,
+          "content": 21422487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2016 Jul;63(7):1455-62",
+        "PMID": {
+          "Version": 1,
+          "content": 26540668
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 May 23;6:26286",
+        "PMID": {
+          "Version": 1,
+          "content": 27212078
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Imaging. 2007 Mar 09;7:2",
+        "PMID": {
+          "Version": 1,
+          "content": 17349041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Imaging. 2006 Oct 27;6:14",
+        "PMID": {
+          "Version": 1,
+          "content": 17069651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Sep 20;11(9):e0162053",
+        "PMID": {
+          "Version": 1,
+          "content": 27649496
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2013 Feb;35(2):342-53",
+        "PMID": {
+          "Version": 1,
+          "content": 23257470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2014 May;61(5):1400-11",
+        "PMID": {
+          "Version": 1,
+          "content": 24759275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Cell Pathol. 2000;21(2):71-86",
+        "PMID": {
+          "Version": 1,
+          "content": 11310643
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28934283
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28934283,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0185110",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-14111",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5608317",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,653 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9114088,
+      "Country": "France",
+      "ISSNLinking": "0999-193X",
+      "MedlineTA": "Genet Sel Evol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D005819",
+        "content": "Genetic Markers"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 16},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "Label": "BACKGROUND",
+          "content": "Genomic selection has been successfully implemented in plant and animal breeding programs to shorten generation intervals and accelerate genetic progress per unit of time. In practice, genomic selection can be used to improve several correlated traits simultaneously via multiple-trait prediction, which exploits correlations between traits. However, few studies have explored multiple-trait genomic selection. Our aim was to infer genetic correlations between three traits measured in broiler chickens by exploring kinship matrices based on a linear combination of measures of pedigree and marker-based relatedness. A predictive assessment was used to gauge genetic correlations."
+        },
+        {
+          "Label": "METHODS",
+          "content": "A multivariate genomic best linear unbiased prediction model was designed to combine information from pedigree and genome-wide markers in order to assess genetic correlations between three complex traits in chickens, i.e. body weight at 35 days of age (BW), ultrasound area of breast meat (BM) and hen-house egg production (HHP). A dataset with 1351 birds that were genotyped with the 600 K Affymetrix platform was used. A kinship kernel (K) was constructed as K = λ G + (1 - λ)A, where A is the numerator relationship matrix, measuring pedigree-based relatedness, and G is a genomic relationship matrix. The weight (λ) assigned to each source of information varied over the grid λ = (0, 0.2, 0.4, 0.6, 0.8, 1). Maximum likelihood estimates of heritability and genetic correlations were obtained at each λ, and the \"optimum\" λ was determined using cross-validation."
+        },
+        {
+          "Label": "RESULTS",
+          "content": "Estimates of genetic correlations were affected by the weight placed on the source of information used to build K. For example, the genetic correlation between BW-HHP and BM-HHP changed markedly when λ varied from 0 (only A used for measuring relatedness) to 1 (only genomic information used). As λ increased, predictive correlations (correlation between observed phenotypes and predicted breeding values) increased and mean-squared predictive error decreased. However, the improvement in predictive ability was not monotonic, with an optimum found at some 0 < λ < 1, i.e., when both sources of information were used together."
+        },
+        {
+          "Label": "CONCLUSIONS",
+          "content": "Our findings indicate that multiple-trait prediction may benefit from combining pedigree and marker information. Also, it appeared that expected correlated responses to selection computed from standard theory may differ from realized responses. The predictive assessment provided a metric for performance evaluation as well as a means for expressing uncertainty of outcomes of multiple-trait selection."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mehdi",
+            "LastName": "Momen",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Animal Science, Faculty of Agriculture, Shahid Bahonar University of Kerman (SBUK), Kerman, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ahmad Ayatollahi",
+            "LastName": "Mehrgardi",
+            "Initials": "AA",
+            "AffiliationInfo": {"Affiliation": "Department of Animal Science, Faculty of Agriculture, Shahid Bahonar University of Kerman (SBUK), Kerman, Iran. mehrgardi@uk.ac.ir."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ayoub",
+            "LastName": "Sheikhy",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Statistical, Faculty of Mathematic and Computer Science, Shahid Bahonar University of Kerman (SBUK), Kerman, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ali",
+            "LastName": "Esmailizadeh",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Animal Science, Faculty of Agriculture, Shahid Bahonar University of Kerman (SBUK), Kerman, Iran."},
+              {"Affiliation": "State Key Laboratory of Genetic Resources and Evolution, Yunnan Laboratory of Molecular Biology of Domestic Animals, Kunming Institute of Zoology, Chinese Academy of Sciences, Kunming, 650223, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Masood Asadi",
+            "LastName": "Fozi",
+            "Initials": "MA",
+            "AffiliationInfo": {"Affiliation": "Department of Animal Science, Faculty of Agriculture, Shahid Bahonar University of Kerman (SBUK), Kerman, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andreas",
+            "LastName": "Kranis",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Roslin Institute, University of Edinburgh, Midlothian, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bruno D",
+            "LastName": "Valente",
+            "Initials": "BD",
+            "AffiliationInfo": {"Affiliation": "Department of Animal Sciences, University of Wisconsin, Madison, WI, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guilherme J M",
+            "LastName": "Rosa",
+            "Initials": "GJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Animal Sciences, University of Wisconsin, Madison, WI, USA."},
+              {"Affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin, Madison, WI, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel",
+            "LastName": "Gianola",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Animal Sciences, University of Wisconsin, Madison, WI, USA."},
+              {"Affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin, Madison, WI, USA."},
+              {"Affiliation": "Department of Dairy Science, University of Wisconsin, Madison, WI, USA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "A predictive assessment of genetic correlations between traits in chickens using markers.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12711-017-0290-9"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 49,
+          "PubDate": {
+            "Month": "02",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Genet. Sel. Evol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1297-9686"
+        },
+        "Title": "Genetics, selection, evolution : GSE"
+      },
+      "PubModel": "Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D001835",
+          "MajorTopicYN": "N",
+          "content": "Body Weight"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D002645",
+          "MajorTopicYN": "N",
+          "content": "Chickens"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D056726",
+        "MajorTopicYN": "Y",
+        "content": "Genetic Association Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D005819",
+        "MajorTopicYN": "Y",
+        "content": "Genetic Markers"
+      }},
+      {"DescriptorName": {
+        "UI": "D055106",
+        "MajorTopicYN": "N",
+        "content": "Genome-Wide Association Study"
+      }},
+      {"DescriptorName": {
+        "UI": "D005838",
+        "MajorTopicYN": "N",
+        "content": "Genotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D008957",
+        "MajorTopicYN": "N",
+        "content": "Models, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "N",
+        "content": "Phenotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D040641",
+        "MajorTopicYN": "Y",
+        "content": "Quantitative Trait Loci"
+      }},
+      {"DescriptorName": {
+        "UI": "D019655",
+        "MajorTopicYN": "Y",
+        "content": "Quantitative Trait, Heritable"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 23
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Breed. 2015;35(6):128",
+        "PMID": {
+          "Version": 1,
+          "content": 25999779
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2013 Oct;195(2):573-87",
+        "PMID": {
+          "Version": 1,
+          "content": 23934883
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 Nov 10;112(45):13892-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26504198
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Dairy Sci. 2009 Sep;92(9):4656-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19700729
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Res (Camb). 2010 Aug;92(4):295-308",
+        "PMID": {
+          "Version": 1,
+          "content": 20943010
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2010 Oct;186(2):713-24",
+        "PMID": {
+          "Version": 1,
+          "content": 20813882
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Jan 31;14:34",
+        "PMID": {
+          "Version": 1,
+          "content": 23363272
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Dairy Sci. 2011 Aug;94(8):4198-204",
+        "PMID": {
+          "Version": 1,
+          "content": 21787955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Dairy Sci. 2008 Nov;91(11):4414-23",
+        "PMID": {
+          "Version": 1,
+          "content": 18946147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2013 Feb;193(2):621-31",
+        "PMID": {
+          "Version": 1,
+          "content": 23267052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Dairy Sci. 2009 Feb;92(2):433-43",
+        "PMID": {
+          "Version": 1,
+          "content": 19164653
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2011 Jan 05;43:1",
+        "PMID": {
+          "Version": 1,
+          "content": 21208445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2007 Dec;177(4):2389-97",
+        "PMID": {
+          "Version": 1,
+          "content": 18073436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2016 Feb 03;48:10",
+        "PMID": {
+          "Version": 1,
+          "content": 26842494
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2012 Dec;192(4):1513-22",
+        "PMID": {
+          "Version": 1,
+          "content": 23086217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2014 Jun 04;46:36",
+        "PMID": {
+          "Version": 1,
+          "content": 24898214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2015 Sep;201(1):23-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26205989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Theor Appl Genet. 2008 Oct;117(6):947-54",
+        "PMID": {
+          "Version": 1,
+          "content": 18651127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Funct Genomics. 2010 Mar;9(2):166-77",
+        "PMID": {
+          "Version": 1,
+          "content": 20156985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Poult Sci. 2012 Dec;91(12):3032-43",
+        "PMID": {
+          "Version": 1,
+          "content": 23155010
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2013 Jul;194(3):597-607",
+        "PMID": {
+          "Version": 1,
+          "content": 23640517
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2011 Jul 05;43:26",
+        "PMID": {
+          "Version": 1,
+          "content": 21729282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2015 Jun;200(2):455-68",
+        "PMID": {
+          "Version": 1,
+          "content": 25873631
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Zhejiang Univ Sci B. 2007 Nov;8(11):815-21",
+        "PMID": {
+          "Version": 1,
+          "content": 17973343
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Mar 26;9(3):e93424",
+        "PMID": {
+          "Version": 1,
+          "content": 24671175
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2015 May 05;11(5):e1005048",
+        "PMID": {
+          "Version": 1,
+          "content": 25942577
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2013 Feb;193(2):327-45",
+        "PMID": {
+          "Version": 1,
+          "content": 22745228
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2014 Feb 07;15:109",
+        "PMID": {
+          "Version": 1,
+          "content": 24502227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2006 Jul;173(3):1761-76",
+        "PMID": {
+          "Version": 1,
+          "content": 16648593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2012;8(3):e1002637",
+        "PMID": {
+          "Version": 1,
+          "content": 22479213
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Genet. 2014 Oct 16;5:363",
+        "PMID": {
+          "Version": 1,
+          "content": 25360145
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genet. 2014 Mar 04;15:30",
+        "PMID": {
+          "Version": 1,
+          "content": 24593261
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Nov;81(5):1084-97",
+        "PMID": {
+          "Version": 1,
+          "content": 17924348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genet. 2011 Oct 07;12:87",
+        "PMID": {
+          "Version": 1,
+          "content": 21981731
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2010 Nov;11(11):800-5",
+        "PMID": {
+          "Version": 1,
+          "content": 20877324
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Theor Appl Genet. 2016 Feb;129(2):273-87",
+        "PMID": {
+          "Version": 1,
+          "content": 26561306
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2001 Apr;157(4):1819-29",
+        "PMID": {
+          "Version": 1,
+          "content": 11290733
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Anim Biosci. 2015;3:19-56",
+        "PMID": {
+          "Version": 1,
+          "content": 25387231
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Dairy Sci. 2011 May;94(5):2621-4",
+        "PMID": {
+          "Version": 1,
+          "content": 21524554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2015 Feb 5;96(2):283-94",
+        "PMID": {
+          "Version": 1,
+          "content": 25640677
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2012 Feb 09;44:4",
+        "PMID": {
+          "Version": 1,
+          "content": 22321529
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2012 Sep;44(9):1066-71",
+        "PMID": {
+          "Version": 1,
+          "content": 22902788
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Anim Breed Genet. 2016 Dec;133(6):452-462",
+        "PMID": {
+          "Version": 1,
+          "content": 27135179
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Poult Sci. 2012 Mar;91(3):565-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22334731
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28148241
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 16,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28148241,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12711-017-0290-9",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12711-017-0290-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5286905",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

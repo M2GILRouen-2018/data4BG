@@ -1,0 +1,550 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2010,
+      "Day": 22
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1205-10"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCRR NIH HHS",
+            "Country": "United States",
+            "GrantID": "1 UL1 RR024975",
+            "Acronym": "RR"
+          },
+          {
+            "Agency": "NLM NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 LM010685",
+            "Acronym": "LM"
+          },
+          {
+            "Agency": "NHGRI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 HG004603",
+            "Acronym": "HG"
+          },
+          {
+            "Agency": "NCRR NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 RR024975",
+            "Acronym": "RR"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "K23 HL102069",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2010,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "MOTIVATION",
+          "content": "Emergence of genetic data coupled to longitudinal electronic medical records (EMRs) offers the possibility of phenome-wide association scans (PheWAS) for disease-gene associations. We propose a novel method to scan phenomic data for genetic associations using International Classification of Disease (ICD9) billing codes, which are available in most EMR systems. We have developed a code translation table to automatically define 776 different disease populations and their controls using prevalent ICD9 codes derived from EMR data. As a proof of concept of this algorithm, we genotyped the first 6005 European-Americans accrued into BioVU, Vanderbilt's DNA biobank, at five single nucleotide polymorphisms (SNPs) with previously reported disease associations: atrial fibrillation, Crohn's disease, carotid artery stenosis, coronary artery disease, multiple sclerosis, systemic lupus erythematosus and rheumatoid arthritis. The PheWAS software generated cases and control populations across all ICD9 code groups for each of these five SNPs, and disease-SNP associations were analyzed. The primary outcome of this study was replication of seven previously known SNP-disease associations for these SNPs."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Four of seven known SNP-disease associations using the PheWAS algorithm were replicated with P-values between 2.8 x 10(-6) and 0.011. The PheWAS algorithm also identified 19 previously unknown statistical associations between these SNPs and diseases at P < 0.01. This study indicates that PheWAS analysis is a feasible method to investigate SNP-disease associations. Further evaluation is needed to determine the validity of these associations and the appropriate statistical thresholds for clinical significance."
+        },
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "AVAILABILITY",
+          "content": "The PheWAS software and code translation table are freely available at http://knowledgemap.mc.vanderbilt.edu/research."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joshua C",
+            "LastName": "Denny",
+            "Initials": "JC",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Informatics, Vanderbilt University, Nashville, TN, USA. josh.denny@vanderbilt.edu"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marylyn D",
+            "LastName": "Ritchie",
+            "Initials": "MD"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Melissa A",
+            "LastName": "Basford",
+            "Initials": "MA"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jill M",
+            "LastName": "Pulley",
+            "Initials": "JM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lisa",
+            "LastName": "Bastarache",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kristin",
+            "LastName": "Brown-Gentry",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Deede",
+            "LastName": "Wang",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dan R",
+            "LastName": "Masys",
+            "Initials": "DR"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dan M",
+            "LastName": "Roden",
+            "Initials": "DM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dana C",
+            "LastName": "Crawford",
+            "Initials": "DC"
+          }
+        ]
+      },
+      "ArticleTitle": "PheWAS: demonstrating the feasibility of a phenome-wide scan to discover gene-disease associations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btq126"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 26,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2010,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "04",
+      "Year": 2010,
+      "Day": 26
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D001172",
+          "MajorTopicYN": "N",
+          "content": "Arthritis, Rheumatoid"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D001281",
+          "MajorTopicYN": "N",
+          "content": "Atrial Fibrillation"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D016893",
+          "MajorTopicYN": "N",
+          "content": "Carotid Stenosis"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D003424",
+          "MajorTopicYN": "N",
+          "content": "Crohn Disease"
+        }
+      },
+      {"DescriptorName": {
+        "Type": "Geographic",
+        "UI": "D005060",
+        "MajorTopicYN": "N",
+        "content": "Europe"
+      }},
+      {"DescriptorName": {
+        "UI": "D005838",
+        "MajorTopicYN": "N",
+        "content": "Genotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D008180",
+          "MajorTopicYN": "N",
+          "content": "Lupus Erythematosus, Systemic"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D009103",
+          "MajorTopicYN": "N",
+          "content": "Multiple Sclerosis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D020641",
+        "MajorTopicYN": "N",
+        "content": "Polymorphism, Single Nucleotide"
+      }},
+      {"DescriptorName": {
+        "UI": "D012307",
+        "MajorTopicYN": "N",
+        "content": "Risk Factors"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2016,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2007 Aug 22;298(8):874-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17712071
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Jul 10;104(28):11694-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17609372
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Genet. 2007;8 Suppl 1:S11",
+        "PMID": {
+          "Version": 1,
+          "content": 17903293
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Med. 2008 Mar;121(3):239-45",
+        "PMID": {
+          "Version": 1,
+          "content": 18328309
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2008;3(7):e2626",
+        "PMID": {
+          "Version": 1,
+          "content": 18612462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2008 Jul 29;52(5):378-84",
+        "PMID": {
+          "Version": 1,
+          "content": 18652946
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Pharmacol Ther. 2008 Sep;84(3):362-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18500243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2009 Jan;123(1):e153-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19117837
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacogenomics. 2009 Feb;10(2):235-41",
+        "PMID": {
+          "Version": 1,
+          "content": 19207024
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arterioscler Thromb Vasc Biol. 2009 May;29(5):774-80",
+        "PMID": {
+          "Version": 1,
+          "content": 19164808
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2009 May-Jun;16(3):328-37",
+        "PMID": {
+          "Version": 1,
+          "content": 19261932
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2009 May 27;301(20):2120-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19470989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lupus. 2009 Jul;18(8):698-704",
+        "PMID": {
+          "Version": 1,
+          "content": 19502265
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Jun 9;106(23):9362-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19474294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroscience. 2009 Nov 24;164(1):30-42",
+        "PMID": {
+          "Version": 1,
+          "content": 19344640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2007 Jul 19;448(7151):353-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17603472
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am Heart J. 2004 Jul;148(1):99-104",
+        "PMID": {
+          "Version": 1,
+          "content": 15215798
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Paediatr Perinat Epidemiol. 2005 Jul;19(4):264-75",
+        "PMID": {
+          "Version": 1,
+          "content": 15958149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2005;:196-200",
+        "PMID": {
+          "Version": 1,
+          "content": 16779029
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2007 Jun 7;447(7145):661-78",
+        "PMID": {
+          "Version": 1,
+          "content": 17554300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2007 Aug 30;357(9):851-62",
+        "PMID": {
+          "Version": 1,
+          "content": 17660530
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC2859132"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 20335276
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 3,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 3,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 20335276,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btq126",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btq126",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC2859132",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

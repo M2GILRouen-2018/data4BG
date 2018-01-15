@@ -1,0 +1,240 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101642264,
+      "Country": "Switzerland",
+      "ISSNLinking": "2296-861X",
+      "MedlineTA": "Front Nutr"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "00016"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIDDK NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 DK056336",
+            "Acronym": "DK"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 HL079888",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper details the design, evaluation, and implementation of a framework for detecting and modeling nonlinearity between a binary outcome and a continuous predictor variable adjusted for covariates in complex samples. The framework provides familiar-looking parameterizations of output in terms of linear slope coefficients and odds ratios. Estimation methods focus on maximum likelihood optimization of piecewise linear free-knot splines formulated as B-splines. Correctly specifying the optimal number and positions of the knots improves the model, but is marked by computational intensity and numerical instability. Our inference methods utilize both parametric and nonparametric bootstrapping. Unlike other nonlinear modeling packages, this framework is designed to incorporate multistage survey sample designs common to nationally representative datasets. We illustrate the approach and evaluate its performance in specifying the correct number of knots under various conditions with an example using body mass index (BMI; kg/m(2)) and the complex multi-stage sampling design from the Third National Health and Nutrition Examination Survey to simulate binary mortality outcomes data having realistic nonlinear sample-weighted risk associations with BMI. BMI and mortality data provide a particularly apt example and area of application since BMI is commonly recorded in large health surveys with complex designs, often categorized for modeling, and nonlinearly related to mortality. When complex sample design considerations were ignored, our method was generally similar to or more accurate than two common model selection procedures, Schwarz's Bayesian Information Criterion (BIC) and Akaike's Information Criterion (AIC), in terms of correctly selecting the correct number of knots. Our approach provided accurate knot selections when complex sampling weights were incorporated, while AIC and BIC were not effective under these conditions."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Scott W",
+            "LastName": "Keith",
+            "Initials": "SW",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, Department of Pharmacology and Experimental Therapeutics, Thomas Jefferson University, Philadelphia, PA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David B",
+            "LastName": "Allison",
+            "Initials": "DB",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Office of Energetics & Nutrition Obesity Research Center, University of Alabama at Birmingham, Birmingham, AL, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "A free-knot spline modeling framework for piecewise linear logistic regression in complex samples with body mass index and mortality as an example.",
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 2014,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2014,
+            "Day": 29
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Nutr",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2296-861X"
+        },
+        "Title": "Frontiers in nutrition"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Free-knot splines"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "body mass index"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "bootstrap"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "complex samples"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "logistic regression"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "nonlinear modeling"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "01",
+      "Year": 2015,
+      "Day": 22
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Epidemiol. 2007 Nov;60(11):1132-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17938055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2003 Jan 8;289(2):187-93",
+        "PMID": {
+          "Version": 1,
+          "content": 12517229
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1995 Sep;51(3):874-87",
+        "PMID": {
+          "Version": 1,
+          "content": 7548706
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2005 Jan;77(1):1-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15639705
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Obesity (Silver Spring). 2008 Feb;16(2):377-83",
+        "PMID": {
+          "Version": 1,
+          "content": 18239647
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Methods Med Res. 1996 Sep;5(3):283-310",
+        "PMID": {
+          "Version": 1,
+          "content": 8931197
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1994 Sep;50(3):640-52",
+        "PMID": {
+          "Version": 1,
+          "content": 7981391
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2001 Jan 30;20(2):237-47",
+        "PMID": {
+          "Version": 1,
+          "content": 11169599
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Stat Data Anal. 2009 Mar 15;53(5):1755-1766",
+        "PMID": {
+          "Version": 1,
+          "content": 20161321
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 25610831
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25610831,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fnut.2014.00016",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4297674",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS629043",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

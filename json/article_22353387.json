@@ -1,0 +1,688 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401220",
+      "Country": "England",
+      "ISSNLinking": "0031-9155",
+      "MedlineTA": "Phys Med Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": "06"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2658-2674"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCI NIH HHS",
+          "Country": "United States",
+          "GrantID": "P30 CA008748",
+          "Acronym": "CA"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Radiobiological models of tumour control probability (TCP) can be personalized using imaging data. We propose an extension to a voxel-level radiobiological TCP model in order to describe patient-specific differences and intra-tumour heterogeneity. In the proposed model, tumour shrinkage is described by means of a novel kinetic Monte Carlo method for inter-voxel cell migration and tumour deformation. The model captures the spatiotemporal evolution of the tumour at the voxel level, and is designed to take imaging data as input. To test the performance of the model, three image-derived variables found to be predictive of outcome in the literature have been identified and calculated using the model's own parameters. Simulating multiple tumours with different initial conditions makes it possible to perform an in silico study of the correlation of these variables with the dose for 50% tumour control ([Formula: see text]) calculated by the model. We find that the three simulated variables correlate with the calculated [Formula: see text]. In addition, we find that different variables have different levels of sensitivity to the spatial distribution of hypoxia within the tumour, as well as to the dynamics of the migration mechanism. Finally, based on our results, we observe that an adequate combination of the variables may potentially result in higher predictive power."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mireia",
+            "LastName": "Crispin-Ortuzar",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeho",
+            "LastName": "Jeong",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew N",
+            "LastName": "Fontanella",
+            "Initials": "AN"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joseph O",
+            "LastName": "Deasy",
+            "Initials": "JO"
+          }
+        ]
+      },
+      "ArticleTitle": "A radiobiological model of radiotherapy response and its correlation with prognostic imaging variables.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1361-6560/aa5d42"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 62,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017,
+            "Day": "07"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-6560"
+        },
+        "Title": "Physics in medicine and biology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000528",
+          "MajorTopicYN": "N",
+          "content": "radiation effects"
+        },
+        "DescriptorName": {
+          "UI": "D002453",
+          "MajorTopicYN": "N",
+          "content": "Cell Cycle"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000528",
+          "MajorTopicYN": "N",
+          "content": "radiation effects"
+        },
+        "DescriptorName": {
+          "UI": "D015687",
+          "MajorTopicYN": "N",
+          "content": "Cell Hypoxia"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000528",
+          "MajorTopicYN": "N",
+          "content": "radiation effects"
+        },
+        "DescriptorName": {
+          "UI": "D002465",
+          "MajorTopicYN": "N",
+          "content": "Cell Movement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000528",
+          "MajorTopicYN": "N",
+          "content": "radiation effects"
+        },
+        "DescriptorName": {
+          "UI": "D049109",
+          "MajorTopicYN": "N",
+          "content": "Cell Proliferation"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "N",
+        "content": "Monte Carlo Method"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "Y",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000532",
+            "MajorTopicYN": "N",
+            "content": "radiotherapy"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009369",
+          "MajorTopicYN": "N",
+          "content": "Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011379",
+        "MajorTopicYN": "N",
+        "content": "Prognosis"
+      }},
+      {"DescriptorName": {
+        "UI": "D011853",
+        "MajorTopicYN": "Y",
+        "content": "Radiobiology"
+      }},
+      {"DescriptorName": {
+        "UI": "D011879",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy Dosage"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011880",
+          "MajorTopicYN": "N",
+          "content": "Radiotherapy Planning, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000528",
+          "MajorTopicYN": "N",
+          "content": "radiation effects"
+        },
+        "DescriptorName": {
+          "UI": "D017154",
+          "MajorTopicYN": "N",
+          "content": "Stromal Cells"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000528",
+          "MajorTopicYN": "Y",
+          "content": "radiation effects"
+        },
+        "DescriptorName": {
+          "UI": "D047368",
+          "MajorTopicYN": "N",
+          "content": "Tumor Burden"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 Jan;42(1):90-102",
+        "PMID": {
+          "Version": 1,
+          "content": 25563250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Res. 2012 Mar;177(3):311-27",
+        "PMID": {
+          "Version": 1,
+          "content": 22229487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2005 Dec 01;5:152",
+        "PMID": {
+          "Version": 1,
+          "content": 16321146
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gynecol Oncol. 2014 Mar;132(3):669-76",
+        "PMID": {
+          "Version": 1,
+          "content": 24472411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pathology. 2010 Feb;42(2):105-12",
+        "PMID": {
+          "Version": 1,
+          "content": 20085510
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Sep 7;53(17):4471-88",
+        "PMID": {
+          "Version": 1,
+          "content": 18677042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2012 Feb;102(2):251-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21885145
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2008 Jan 15;68(2):605-14",
+        "PMID": {
+          "Version": 1,
+          "content": 18199558
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Rev. 2013 Dec 11;113(12):8840-71",
+        "PMID": {
+          "Version": 1,
+          "content": 24187949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 1993 Dec;189(3):807-12",
+        "PMID": {
+          "Version": 1,
+          "content": 8234708
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Tumori. 2009 Mar-Apr;95(2):177-84",
+        "PMID": {
+          "Version": 1,
+          "content": 19579863
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Nucl Med. 2000 Jul;27(7):861-6",
+        "PMID": {
+          "Version": 1,
+          "content": 10952499
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2014 Jan 30;156(3):603-16",
+        "PMID": {
+          "Version": 1,
+          "content": 24485463
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2007 Jul 20;25(21):3116-23",
+        "PMID": {
+          "Version": 1,
+          "content": 17634490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2015 Mar 15;91(4):866-75",
+        "PMID": {
+          "Version": 1,
+          "content": 25752402
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2013 Jul 21;58(14):4897-919",
+        "PMID": {
+          "Version": 1,
+          "content": 23787766
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cancer Res Clin Oncol. 2011 Jul;137(7):1085-93",
+        "PMID": {
+          "Version": 1,
+          "content": 21229262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2012 Oct;53(10 ):1514-20",
+        "PMID": {
+          "Version": 1,
+          "content": 22879081
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 1995 Sep;36(9):1625-32",
+        "PMID": {
+          "Version": 1,
+          "content": 7658223
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Radiol. 1989 Aug;62(740):679-94",
+        "PMID": {
+          "Version": 1,
+          "content": 2670032
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Oncol. 2012 Jul 10;7:106",
+        "PMID": {
+          "Version": 1,
+          "content": 22781363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007;37 Suppl 1:S120-34",
+        "PMID": {
+          "Version": 1,
+          "content": 17629503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Math Methods Med. 2015 ;2015 :571351",
+        "PMID": {
+          "Version": 1,
+          "content": 25838837
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2004 Apr 21;49(8):1485-504",
+        "PMID": {
+          "Version": 1,
+          "content": 15152687
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Res. 1998 Jul;150(1):83-91",
+        "PMID": {
+          "Version": 1,
+          "content": 9650605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cancer Res Clin Oncol. 1997;123(9):469-77",
+        "PMID": {
+          "Version": 1,
+          "content": 9341895
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Treat Rev. 2012 May;38(3):185-93",
+        "PMID": {
+          "Version": 1,
+          "content": 21742439
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neoplasia. 1999 Aug;1(3):197-207",
+        "PMID": {
+          "Version": 1,
+          "content": 10935474
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2016 Apr;119(1):111-6",
+        "PMID": {
+          "Version": 1,
+          "content": 26987473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2002 Feb;15(1):6-17",
+        "PMID": {
+          "Version": 1,
+          "content": 11840548
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2010 Jun 1;77(2):502-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19775824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Math Methods Med. 2015 ;2015 :415923",
+        "PMID": {
+          "Version": 1,
+          "content": 25788973
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "World J Gastroenterol. 2013 Aug 7;19(29):4808-17",
+        "PMID": {
+          "Version": 1,
+          "content": 23922481
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Biol. 1997 Sep;72(3):325-39",
+        "PMID": {
+          "Version": 1,
+          "content": 9298113
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2001 Mar 15;49(4):1109-18",
+        "PMID": {
+          "Version": 1,
+          "content": 11240253
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Oncol. 2011 Dec 15;6:171",
+        "PMID": {
+          "Version": 1,
+          "content": 22172079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Aug 21;52(16):4775-89",
+        "PMID": {
+          "Version": 1,
+          "content": 17671335
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2004 Sep 7;230(1):1-20",
+        "PMID": {
+          "Version": 1,
+          "content": 15275995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2006 May;36(5):448-64",
+        "PMID": {
+          "Version": 1,
+          "content": 15916755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2007 Feb;82(2):145-52",
+        "PMID": {
+          "Version": 1,
+          "content": 17258339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Inf Technol Biomed. 2001 Dec;5(4):279-89",
+        "PMID": {
+          "Version": 1,
+          "content": 11759834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2012 Jul 1;83(3):972-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22208967
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2007 Mar 7;245(1):83-97",
+        "PMID": {
+          "Version": 1,
+          "content": 17092522
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Radiol. 2009 Jun;44(6):343-50",
+        "PMID": {
+          "Version": 1,
+          "content": 19661844
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2007 Jun 1;68(2):515-21",
+        "PMID": {
+          "Version": 1,
+          "content": 17398015
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Math Methods Med. 2014;2014:847162",
+        "PMID": {
+          "Version": 1,
+          "content": 25276223
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Condens Matter. 2012 Mar 14;24(10):104012",
+        "PMID": {
+          "Version": 1,
+          "content": 22353387
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28140359
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2018,
+        "Day": "07",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28140359,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1361-6560/aa5d42",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5512557",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS857819",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

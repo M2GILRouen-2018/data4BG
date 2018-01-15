@@ -1,0 +1,122 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9891704,
+      "Country": "United States",
+      "ISSNLinking": "1077-2626",
+      "MedlineTA": "IEEE Trans Vis Comput Graph"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1167-1178"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We present a framework to design inverse rig-functions-functions that map low level representations of a character's pose such as joint positions or surface geometry to the representation used by animators called the animation rig. Animators design scenes using an animation rig, a framework widely adopted in animation production which allows animators to design character poses and geometry via intuitive parameters and interfaces. Yet most state-of-the-art computer animation techniques control characters through raw, low level representations such as joint angles, joint positions, or vertex coordinates. This difference often stops the adoption of state-of-the-art techniques in animation production. Our framework solves this issue by learning a mapping between the low level representations of the pose and the animation rig. We use nonlinear regression techniques, learning from example animation sequences designed by the animators. When new motions are provided in the skeleton space, the learned mapping is used to estimate the rig controls that reproduce such a motion. We introduce two nonlinear functions for producing such a mapping: Gaussian process regression and feedforward neural networks. The appropriate solution depends on the nature of the rig and the amount of data available for training. We show our framework applied to various examples including articulated biped characters, quadruped characters, facial animation rigs, and deformable characters. With our system, animators have the freedom to apply any motion synthesis algorithm to arbitrary rigging and animation pipelines for immediate editing. This greatly improves the productivity of 3D animation, while retaining the flexibility and creativity of artistic input."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel",
+            "LastName": "Holden",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jun",
+            "LastName": "Saito",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Taku",
+            "LastName": "Komura",
+            "Initials": "T"
+          }
+        ]
+      },
+      "ArticleTitle": "Learning Inverse Rig Mappings by Nonlinear Regression.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TVCG.2016.2628036"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 23,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Vis Comput Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0506"
+        },
+        "Title": "IEEE transactions on visualization and computer graphics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "08"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113940
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113940,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TVCG.2016.2628036",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

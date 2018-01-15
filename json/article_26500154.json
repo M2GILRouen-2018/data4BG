@@ -1,0 +1,564 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0411011",
+      "Country": "England",
+      "ISSNLinking": "0305-1048",
+      "MedlineTA": "Nucleic Acids Res"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 29
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e75"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author(s) 2017. Published by Oxford University Press on behalf of Nucleic Acids Research.",
+        "AbstractText": "Whole genome sequencing (WGS) is a promising strategy to unravel variants or genes responsible for human diseases and traits. However, there is a lack of robust platforms for a comprehensive downstream analysis. In the present study, we first proposed three novel algorithms, sequence gap-filled gene feature annotation, bit-block encoded genotypes and sectional fast access to text lines to address three fundamental problems. The three algorithms then formed the infrastructure of a robust parallel computing framework, KGGSeq, for integrating downstream analysis functions for whole genome sequencing data. KGGSeq has been equipped with a comprehensive set of analysis functions for quality control, filtration, annotation, pathogenic prediction and statistical tests. In the tests with whole genome sequencing data from 1000 Genomes Project, KGGSeq annotated several thousand more reliable non-synonymous variants than other widely used tools (e.g. ANNOVAR and SNPEff). It took only around half an hour on a small server with 10 CPUs to access genotypes of ∼60 million variants of 2504 subjects, while a popular alternative tool required around one day. KGGSeq's bit-block genotype format used 1.5% or less space to flexibly represent phased or unphased genotypes with multiple alleles and achieved a speed of over 1000 times faster to calculate genotypic correlation."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Miaoxin",
+            "LastName": "Li",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Medical Genetics, Center for Genome Research, Center for Precision Medicine, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, 510080, China."},
+              {"Affiliation": "The Centre for Genomic Sciences, the University of Hong Kong, Pokfulam, Hong Kong."},
+              {"Affiliation": "Department of Psychiatry, the University of Hong Kong, Pokfulam, Hong Kong."},
+              {"Affiliation": "State Key Laboratory for Cognitive and Brain Sciences, the University of Hong Kong, Pokfulam, Hong Kong."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiang",
+            "LastName": "Li",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Sciences, the University of Hong Kong, Pokfulam, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mulin Jun",
+            "LastName": "Li",
+            "Initials": "MJ",
+            "AffiliationInfo": {"Affiliation": "The Centre for Genomic Sciences, the University of Hong Kong, Pokfulam, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhicheng",
+            "LastName": "Pan",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Department of Psychiatry, the University of Hong Kong, Pokfulam, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jacob Shujui",
+            "LastName": "Hsu",
+            "Initials": "JS",
+            "AffiliationInfo": {"Affiliation": "Department of Psychiatry, the University of Hong Kong, Pokfulam, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dajiang J",
+            "LastName": "Liu",
+            "Initials": "DJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Division of Biostatistics and Bioinformatics, Department of Public Health Sciences, Penn State College of Medicine, Hershey, PA 17033, USA."},
+              {"Affiliation": "Institute for Personalized Medicine, Penn State College of Medicine, Hershey, PA 17033, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaowei",
+            "LastName": "Zhan",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Quantitative Biomedical Research Center, Department of Clinical Science, Center for the Genetics of Host Defense, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Junwen",
+            "LastName": "Wang",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "The Centre for Genomic Sciences, the University of Hong Kong, Pokfulam, Hong Kong."},
+              {"Affiliation": "Department of Health Sciences Research and Center for Individualized Medicine, Mayo Clinic, Scottsdale, AZ 85259, USA."},
+              {"Affiliation": "Department of Biomedical Informatics, Arizona State University, Scottsdale, AZ 85259, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Youqiang",
+            "LastName": "Song",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "The Centre for Genomic Sciences, the University of Hong Kong, Pokfulam, Hong Kong."},
+              {"Affiliation": "School of Biomedical Sciences, the University of Hong Kong, Pokfulam, Hong Kong."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pak Chung",
+            "LastName": "Sham",
+            "Initials": "PC",
+            "AffiliationInfo": [
+              {"Affiliation": "The Centre for Genomic Sciences, the University of Hong Kong, Pokfulam, Hong Kong."},
+              {"Affiliation": "Department of Psychiatry, the University of Hong Kong, Pokfulam, Hong Kong."},
+              {"Affiliation": "State Key Laboratory for Cognitive and Brain Sciences, the University of Hong Kong, Pokfulam, Hong Kong."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Robust and rapid algorithms facilitate large-scale whole genome sequencing downstream analysis in an integrative framework.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/nar/gkx019"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 45,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017,
+            "Day": 19
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Nucleic Acids Res.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1362-4962"
+        },
+        "Title": "Nucleic acids research"
+      },
+      "PubModel": "Print"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D015894",
+        "MajorTopicYN": "Y",
+        "content": "Genome, Human"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D059014",
+          "MajorTopicYN": "N",
+          "content": "High-Throughput Nucleotide Sequencing"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017422",
+          "MajorTopicYN": "N",
+          "content": "Sequence Analysis, DNA"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 29
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Genet. 2016 May;53(5):330-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26769062
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2013 Jun 27;14:425",
+        "PMID": {
+          "Version": 1,
+          "content": 23802613
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Oct 1;526(7571):68-74",
+        "PMID": {
+          "Version": 1,
+          "content": 26432245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013;9(7):e1003153",
+        "PMID": {
+          "Version": 1,
+          "content": 23874191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2014 Aug;46(8):818-25",
+        "PMID": {
+          "Version": 1,
+          "content": 24974849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Sep 15;32(18):2729-36",
+        "PMID": {
+          "Version": 1,
+          "content": 27273672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 May 1;32(9):1423-6",
+        "PMID": {
+          "Version": 1,
+          "content": 27153000
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Oct 21;431(7011):931-45",
+        "PMID": {
+          "Version": 1,
+          "content": 15496913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2013;9(1):e1003143",
+        "PMID": {
+          "Version": 1,
+          "content": 23341771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Immun. 2012 Jul;13(5):437-42",
+        "PMID": {
+          "Version": 1,
+          "content": 22476154
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mutat. 2016 Mar;37(3):235-41",
+        "PMID": {
+          "Version": 1,
+          "content": 26555599
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Oct 15;32(20):3065-3071",
+        "PMID": {
+          "Version": 1,
+          "content": 27354691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Med. 2012 Aug;14(8):759-61",
+        "PMID": {
+          "Version": 1,
+          "content": 22863877
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2016 Oct 6;99(4):877-885",
+        "PMID": {
+          "Version": 1,
+          "content": 27666373
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2012 Sep;22(9):1760-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22955987
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2016 Jan;13(1):63-5",
+        "PMID": {
+          "Version": 1,
+          "content": 26550772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2010 Jun;11(6):415-25",
+        "PMID": {
+          "Version": 1,
+          "content": 20479773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 May;43(5):491-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21478889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 May 1;22(9):1036-46",
+        "PMID": {
+          "Version": 1,
+          "content": 16500937
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet Respir Med. 2015 May;3(5):377-87",
+        "PMID": {
+          "Version": 1,
+          "content": 25937001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2011 Feb 10;470(7333):187-97",
+        "PMID": {
+          "Version": 1,
+          "content": 21307931
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Fly (Austin). 2012 Apr-Jun;6(2):80-92",
+        "PMID": {
+          "Version": 1,
+          "content": 22728672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Jul 1;31(13):2202-4",
+        "PMID": {
+          "Version": 1,
+          "content": 25701572
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2011 Jul 15;89(1):82-93",
+        "PMID": {
+          "Version": 1,
+          "content": 21737059
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Sep;81(3):559-75",
+        "PMID": {
+          "Version": 1,
+          "content": 17701901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Mar 1;27(5):718-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21208982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Med. 2014 Mar 31;6(3):26",
+        "PMID": {
+          "Version": 1,
+          "content": 24944579
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2016 Dec;48(12 ):1581-1586",
+        "PMID": {
+          "Version": 1,
+          "content": 27776117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mutat. 2015 May;36(5):496-503",
+        "PMID": {
+          "Version": 1,
+          "content": 25676918
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mutat. 2016 Mar;37(3):231-4",
+        "PMID": {
+          "Version": 1,
+          "content": 26670213
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Apr;40(7):e53",
+        "PMID": {
+          "Version": 1,
+          "content": 22241780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2014 Mar;15(2):256-78",
+        "PMID": {
+          "Version": 1,
+          "content": 23341494
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Aug 15;26(16):2069-70",
+        "PMID": {
+          "Version": 1,
+          "content": 20562413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2008 Sep;83(3):311-21",
+        "PMID": {
+          "Version": 1,
+          "content": 18691683
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2013 Jun 6;92(6):841-53",
+        "PMID": {
+          "Version": 1,
+          "content": 23684009
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Sep;38(16):e164",
+        "PMID": {
+          "Version": 1,
+          "content": 20601685
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 May 8;348(6235):648-60",
+        "PMID": {
+          "Version": 1,
+          "content": 25954001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Feb 15;32(4):590-2",
+        "PMID": {
+          "Version": 1,
+          "content": 26500154
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28115622
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28115622,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "gkx019",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/nar/gkx019",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5435951",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,206 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The author declares no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Both three-dimensional (3D) object recognition and pose estimation are open topics in the research community. These tasks are required for a wide range of applications, sometimes separately, sometimes concurrently. Many different algorithms have been presented in the literature to solve these problems separately, and some to solve them jointly. In this paper, an algorithm to solve them simultaneously is introduced. It is based on the definition of a four-dimensional (4D) tensor that gathers and organizes the projections of a 3D object from different points of view. This 4D tensor is then represented by a set of 4D orthonormal moments. Once these moments are arranged in a matrix that can be computed off-line, recognition and pose estimation is reduced to the solution of a linear least squares problem, involving that matrix and the 2D moments of the observed projection of an unknown object. The abilities of this method for 3D object recognition and pose estimation is analytically proved, demonstrating that it does not rely on experimental work to apply a generic technique to these problems. An additional strength of the algorithm is that the required projection is textureless and defined at a very low resolution. This method is computationally simple and shows very good performance in both tasks, allowing its use in applications where real-time constraints have to be fulfilled. Three different kinds of experiments have been conducted in order to perform a thorough validation of the proposed approach: recognition and pose estimation under z axis (yaw) rotations, the same estimation but with the addition of y axis rotations (pitch), and estimation of the pose of objects in real images downloaded from the Internet. In all these cases, results are encouraging, at a similar level to those of state-of-the art algorithms."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "Identifier": {
+            "Source": "ORCID",
+            "content": "0000-0002-9498-5407"
+          },
+          "ForeName": "Sergio",
+          "LastName": "Dominguez",
+          "Initials": "S",
+          "AffiliationInfo": {"Affiliation": "Centre for Automation and Robotics UPM-CSIC, Universidad Politécnica de Madrid, Jose Gutierrez Abascal, 2, 28006 Madrid, Spain. sergio.dominguez@upm.es."}
+        }
+      },
+      "ArticleTitle": "Simultaneous Recognition and Relative Pose Estimation of 3D Objects Using 4D Orthonormal Moments.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2122"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17092122"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "3D object recognition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "orthonormal moments"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "relative pose estimation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Vis Comput Graph. 2016 Dec;22(12 ):2633-2651",
+        "PMID": {
+          "Version": 1,
+          "content": 26731768
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 1985 Jun;7(6):662-73",
+        "PMID": {
+          "Version": 1,
+          "content": 21869304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2005 Dec;27(12):1996-2002",
+        "PMID": {
+          "Version": 1,
+          "content": 16355666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2017 Feb 24;17 (3):null",
+        "PMID": {
+          "Version": 1,
+          "content": 28245553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Cybern. 2014 Feb;44(2):199-207",
+        "PMID": {
+          "Version": 1,
+          "content": 23757543
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28914779
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "05",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28914779,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17092122",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17092122",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5620957",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

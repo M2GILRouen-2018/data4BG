@@ -1,0 +1,617 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D001426",
+          "content": "Bacterial Proteins"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D049408",
+          "content": "Luminescent Agents"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D008156",
+          "content": "Luciferases"
+        },
+        "RegistryNumber": "EC 1.13.12.-"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005731"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The bacterial Lux system is used as a gene expression reporter. It is fast, sensitive and non-destructive, enabling high frequency measurements. Originally developed for bacterial cells, it has also been adapted for eukaryotic cells, and can be used for whole cell biosensors, or in real time with live animals without the need for euthanasia. However, correct interpretation of bioluminescent data is limited: the bioluminescence is different from gene expression because of nonlinear molecular and enzyme dynamics of the Lux system. We have developed a computational approach that, for the first time, allows users of Lux assays to infer gene transcription levels from the light output. This approach is based upon a new mathematical model for Lux activity, that includes the actions of LuxAB, LuxEC and Fre, with improved mechanisms for all reactions, as well as synthesis and turn-over of Lux proteins. The model is calibrated with new experimental data for the LuxAB and Fre reactions from Photorhabdus luminescens-the source of modern Lux reporters-while literature data has been used for LuxEC. Importantly, the data show clear evidence for previously unreported product inhibition for the LuxAB reaction. Model simulations show that predicted bioluminescent profiles can be very different from changes in gene expression, with transient peaks of light output, very similar to light output seen in some experimental data sets. By incorporating the calibrated model into a Bayesian inference scheme, we can reverse engineer promoter activity from the bioluminescence. We show examples where a decrease in bioluminescence would be better interpreted as a switching off of the promoter, or where an increase in bioluminescence would be better interpreted as a longer period of gene expression. This approach could benefit all users of Lux technology."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mudassar",
+            "LastName": "Iqbal",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Agricultural and Environmental Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Loughborough, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Neil",
+            "LastName": "Doherty",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Food Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Loughborough, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-1300-3871"
+            },
+            "ForeName": "Anna M L",
+            "LastName": "Page",
+            "Initials": "AML",
+            "AffiliationInfo": {"Affiliation": "Food Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Loughborough, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Saara N A",
+            "LastName": "Qazi",
+            "Initials": "SNA",
+            "AffiliationInfo": {"Affiliation": "Food Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Loughborough, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8770-5235"
+            },
+            "ForeName": "Ishan",
+            "LastName": "Ajmera",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Plant and Crop Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Loughborough, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-6381-8526"
+            },
+            "ForeName": "Peter A",
+            "LastName": "Lund",
+            "Initials": "PA",
+            "AffiliationInfo": {"Affiliation": "School of Biosciences, University of Birmingham, Birmingham, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Theodore",
+            "LastName": "Kypraios",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "School of Mathematical Sciences, University of Nottingham, Nottingham, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David J",
+            "LastName": "Scott",
+            "Initials": "DJ",
+            "AffiliationInfo": {"Affiliation": "Food Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Loughborough, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Philip J",
+            "LastName": "Hill",
+            "Initials": "PJ",
+            "AffiliationInfo": {"Affiliation": "Food Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Loughborough, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-2492-8079"
+            },
+            "ForeName": "Dov J",
+            "LastName": "Stekel",
+            "Initials": "DJ",
+            "AffiliationInfo": {"Affiliation": "Agricultural and Environmental Sciences, School of Biosciences, University of Nottingham, Sutton Bonington Campus, Loughborough, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "Reconstructing promoter activity from Lux bioluminescent reporters.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005731"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000032",
+            "MajorTopicYN": "Y",
+            "content": "analysis"
+          },
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001426",
+          "MajorTopicYN": "N",
+          "content": "Bacterial Proteins"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "N",
+        "content": "Computational Biology"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D004926",
+          "MajorTopicYN": "N",
+          "content": "Escherichia coli"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D015870",
+          "MajorTopicYN": "N",
+          "content": "Gene Expression"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D017930",
+          "MajorTopicYN": "N",
+          "content": "Genes, Reporter"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000032",
+            "MajorTopicYN": "N",
+            "content": "analysis"
+          },
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D008156",
+          "MajorTopicYN": "N",
+          "content": "Luciferases"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000032",
+            "MajorTopicYN": "Y",
+            "content": "analysis"
+          },
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D049408",
+          "MajorTopicYN": "N",
+          "content": "Luminescent Agents"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017711",
+        "MajorTopicYN": "N",
+        "content": "Nonlinear Dynamics"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D011401",
+          "MajorTopicYN": "N",
+          "content": "Promoter Regions, Genetic"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D013050",
+        "MajorTopicYN": "N",
+        "content": "Spectrometry, Fluorescence"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 18
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Mol Biol. 2016;1409:69-77",
+        "PMID": {
+          "Version": 1,
+          "content": 26846803
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1990 Aug 17;249(4970):778-81",
+        "PMID": {
+          "Version": 1,
+          "content": 17756791
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2015 May 6;12(106):null",
+        "PMID": {
+          "Version": 1,
+          "content": 25808337
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2010 Sep 3;401(5):726-42",
+        "PMID": {
+          "Version": 1,
+          "content": 20603130
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bacteriol. 2004 Feb;186(4):1065-77",
+        "PMID": {
+          "Version": 1,
+          "content": 14762001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 1990 Sep 25;265(27):16581-7",
+        "PMID": {
+          "Version": 1,
+          "content": 2204626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biotechnol Bioeng. 2006 Jan 5;93(1):40-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16187336
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Infect Immun. 2001 Nov;69(11):7074-82",
+        "PMID": {
+          "Version": 1,
+          "content": 11598083
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Antimicrob Agents Chemother. 2015 Jul;59(7):4012-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25896710
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Adv Biochem Eng Biotechnol. 2014;144:37-64",
+        "PMID": {
+          "Version": 1,
+          "content": 25084994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Biotechnol. 2009 May 08;9:41",
+        "PMID": {
+          "Version": 1,
+          "content": 19426479
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bacteriol. 2000 Aug;182(16):4394-400",
+        "PMID": {
+          "Version": 1,
+          "content": 10913070
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2004 May;36(5):486-91",
+        "PMID": {
+          "Version": 1,
+          "content": 15107854
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Mol Biol. 2007 Sep 19;8:80",
+        "PMID": {
+          "Version": 1,
+          "content": 17880697
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Aug 27;5(8):e12441",
+        "PMID": {
+          "Version": 1,
+          "content": 20805991
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Microbiol Biotechnol. 2016 Apr;100(7):3197-206",
+        "PMID": {
+          "Version": 1,
+          "content": 26685857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2009 Jan;5(1):68-76",
+        "PMID": {
+          "Version": 1,
+          "content": 19081933
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microb Biotechnol. 2012 Jul;5(4):536-48",
+        "PMID": {
+          "Version": 1,
+          "content": 22385678
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochemistry. 2009 Jul 7;48(26):6085-94",
+        "PMID": {
+          "Version": 1,
+          "content": 19435287
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ecotoxicol Environ Saf. 2013 Oct;96:61-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23867093
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2016 Jul 29;82(16):4931-43",
+        "PMID": {
+          "Version": 1,
+          "content": 27260360
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 1983 Apr 25;258(8):5233-7",
+        "PMID": {
+          "Version": 1,
+          "content": 6833298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Genet. 1994;28:117-39",
+        "PMID": {
+          "Version": 1,
+          "content": 7893120
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Syst Synth Biol. 2007 Mar;1(1):3-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19003433
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Infect Immun. 2006 Feb;74(2):910-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16428734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2012;12 (1):732-52",
+        "PMID": {
+          "Version": 1,
+          "content": 22368493
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Nov 25;9(11):e111176",
+        "PMID": {
+          "Version": 1,
+          "content": 25422932
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28922354
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28922354,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005731",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-00443",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5619816",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

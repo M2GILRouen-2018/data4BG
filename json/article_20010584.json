@@ -1,0 +1,359 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 47},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Visualizing data by dimensionality reduction is an important strategy in Bioinformatics, which could help to discover hidden data properties and detect data quality issues, e.g. data noise, inappropriately labeled data, etc. As crowdsourcing-based synthetic biology databases face similar data quality issues, we propose to visualize biobricks to tackle them. However, existing dimensionality reduction methods could not be directly applied on biobricks datasets. Hereby, we use normalized edit distance to enhance dimensionality reduction methods, including Isomap and Laplacian Eigenmaps."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "By extracting biobricks from synthetic biology database Registry of Standard Biological Parts, six combinations of various types of biobricks are tested. The visualization graphs illustrate discriminated biobricks and inappropriately labeled biobricks. Clustering algorithm K-means is adopted to quantify the reduction results. The average clustering accuracy for Isomap and Laplacian Eigenmaps are 0.857 and 0.844, respectively. Besides, Laplacian Eigenmaps is 5 times faster than Isomap, and its visualization graph is more concentrated to discriminate biobricks."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "By combining normalized edit distance with Isomap and Laplacian Eigenmaps, synthetic biology biobircks are successfully visualized in two dimensional space. Various types of biobricks could be discriminated and inappropriately labeled biobricks could be determined, which could help to assess crowdsourcing-based synthetic biology databases' quality, and make biobricks selection."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiaoyun",
+            "LastName": "Yang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Computer and Information, Hefei University of Technology, Tunxi Road, Hefei, 230009, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haipeng",
+            "LastName": "Wang",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "School of Computer and Information, Hefei University of Technology, Tunxi Road, Hefei, 230009, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Huitong",
+            "LastName": "Ding",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "School of Computer and Information, Hefei University of Technology, Tunxi Road, Hefei, 230009, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ning",
+            "LastName": "An",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "School of Computer and Information, Hefei University of Technology, Tunxi Road, Hefei, 230009, China. ning.g.an@acm.org."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gil",
+            "LastName": "Alterovitz",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Harvard Medical School, Boston Children's Hospital, Boston, 02115, MA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Nonlinear dimensionality reduction methods for synthetic biology biobricks' visualization.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1484-4"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 19
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Biobricks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Dimensionality reduction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Edit distance"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Synthetic biology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Visualization"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016208",
+        "MajorTopicYN": "N",
+        "content": "Databases, Factual"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "Y",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D017711",
+        "MajorTopicYN": "Y",
+        "content": "Nonlinear Dynamics"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D017422",
+        "MajorTopicYN": "Y",
+        "content": "Sequence Analysis, DNA"
+      }},
+      {"DescriptorName": {
+        "UI": "D058615",
+        "MajorTopicYN": "Y",
+        "content": "Synthetic Biology"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2005 Jul;6(7):533-43",
+        "PMID": {
+          "Version": 1,
+          "content": 15995697
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Oct 1;23(19):2507-17",
+        "PMID": {
+          "Version": 1,
+          "content": 17720704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2003 May 13;100(10):5591-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16576753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 Jan 15;22(2):127-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16443636
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2000 Dec 22;290(5500):2319-23",
+        "PMID": {
+          "Version": 1,
+          "content": 11125149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2012 Jul-Aug;9(4):1106-19",
+        "PMID": {
+          "Version": 1,
+          "content": 22350210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 Nov 22;20(17):3185-95",
+        "PMID": {
+          "Version": 1,
+          "content": 15231531
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2001 Sep;17(9):763-74",
+        "PMID": {
+          "Version": 1,
+          "content": 11590094
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Nov 18;11:567",
+        "PMID": {
+          "Version": 1,
+          "content": 21087509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2000 Dec 22;290(5500):2323-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11125150
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2005 Nov 24;438(7067):449-53",
+        "PMID": {
+          "Version": 1,
+          "content": 16306983
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2009 Dec;27(12):1099-102",
+        "PMID": {
+          "Version": 1,
+          "content": 20010584
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28103789
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28103789,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1484-4",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1484-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5248484",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

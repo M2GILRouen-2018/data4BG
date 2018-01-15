@@ -1,0 +1,277 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this paper, we present a novel method for 3D pedestrian navigation of foot-mounted inertial systems by integrating a MEMS-IMU, barometer, and permanent magnet. Zero-velocity update (ZUPT) is a well-known algorithm to eliminate the accumulated error of foot-mounted inertial systems. However, the ZUPT stance phase detector using acceleration and angular rate is threshold-based, which may cause incorrect stance phase estimation in the running gait pattern. A permanent magnet-based ZUPT detector is introduced to solve this problem. Peaks extracted from the magnetic field strength waveform are mid-stances of stance phases. A model of peak-peak information and stance phase duration is developed to have a quantitative calculation method of stance phase duration in different movement patterns. Height estimation using barometer is susceptible to the environment. A height difference information aided barometer (HDIB) algorithm integrating MEMS-IMU and barometer is raised to have a better height estimation. The first stage of HDIB is to distinguish level ground/upstairs/downstairs and the second stage is to calculate height using reference atmospheric pressure obtained from the first stage. At last, a ZUPT-based adaptive average window length algorithm (ZUPT-AAWL) is proposed to calculate the true total travelled distance to have a more accurate percentage error (TTDE). This proposed method is verified via multiple experiments. Numerical results show that TTDE ranges from 0.32% to 1.04% in both walking and running gait patterns, and the height estimation error is from 0 m to 2.35 m."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Yang",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Beihang University, Beijing 100083, China. yangwei89@buaa.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chundi",
+            "LastName": "Xiu",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Beihang University, Beijing 100083, China. xcd@buaa.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jianmin",
+            "LastName": "Zhang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Beihang University, Beijing 100083, China. zhangjm@buaa.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dongkai",
+            "LastName": "Yang",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Beihang University, Beijing 100083, China. edkyang@buaa.edu.cn."}
+          }
+        ]
+      },
+      "ArticleTitle": "A Novel 3D Pedestrian Navigation Method for a Multiple Sensors-Based Foot-Mounted Inertial System.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2695"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17112695"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "MEMS-IMU"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "barometer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "extended Kalman filter"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "height estimation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "indoor positioning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "magnetic field strength"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "permanent magnet"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "zero-velocity update"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Syst. 2010 Oct;34(5):959-66",
+        "PMID": {
+          "Version": 1,
+          "content": 20703612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Comput Graph Appl. 2005 Nov-Dec;25(6):38-46",
+        "PMID": {
+          "Version": 1,
+          "content": 16315476
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2012 Oct;59(10):2884-92",
+        "PMID": {
+          "Version": 1,
+          "content": 22893370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2010 Nov;57(11):null",
+        "PMID": {
+          "Version": 1,
+          "content": 20667801
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Mar 31;15(4):7857-77",
+        "PMID": {
+          "Version": 1,
+          "content": 25835189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Sep 25;15(10):24862-85",
+        "PMID": {
+          "Version": 1,
+          "content": 26404277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Inf Technol Biomed. 2012 Nov;16(6):1058-69",
+        "PMID": {
+          "Version": 1,
+          "content": 24218700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Apr 10;15(4):8358-81",
+        "PMID": {
+          "Version": 1,
+          "content": 25868078
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2016 Sep 09;16(9):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27618056
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29165377
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29165377,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17112695",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17112695",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5713624",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

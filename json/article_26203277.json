@@ -1,0 +1,438 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 18
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0183608"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "During High Dose Rate Brachytherapy (HDR-BT) the spatial position of the radiation source inside catheters implanted into a female breast is determined via electromagnetic tracking (EMT). Dwell positions and dwell times of the radiation source are established, relative to the patient's anatomy, from an initial X-ray-CT-image. During the irradiation treatment, catheter displacements can occur due to patient movements. The current study develops an automatic analysis tool of EMT data sets recorded with a solenoid sensor to assure concordance of the source movement with the treatment plan. The tool combines machine learning techniques such as multi-dimensional scaling (MDS), ensemble empirical mode decomposition (EEMD), singular spectrum analysis (SSA) and particle filter (PF) to precisely detect and quantify any mismatch between the treatment plan and actual EMT measurements. We demonstrate that movement artifacts as well as technical signal distortions can be removed automatically and reliably, resulting in artifact-free reconstructed signals. This is a prerequisite for a highly accurate determination of any deviations of dwell positions from the treatment plan."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8751-3404"
+            },
+            "ForeName": "Th I",
+            "LastName": "Götz",
+            "Initials": "TI",
+            "AffiliationInfo": [
+              {"Affiliation": "CIML, Biophysics, University of Regensburg, 93040 Regensburg, Germany."},
+              {"Affiliation": "Department of Radiation Oncology, Universitätsklinikum Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054 Erlangen, Germany."},
+              {"Affiliation": "Center for Medical Physics and Engineering, University of Erlangen-Nuremberg, 91052 Erlangen, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "G",
+            "LastName": "Lahmer",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Universitätsklinikum Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054 Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "V",
+            "LastName": "Strnad",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Universitätsklinikum Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054 Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ch",
+            "LastName": "Bert",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Universitätsklinikum Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054 Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "B",
+            "LastName": "Hensel",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Center for Medical Physics and Engineering, University of Erlangen-Nuremberg, 91052 Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "A M",
+            "LastName": "Tomé",
+            "Initials": "AM",
+            "AffiliationInfo": {"Affiliation": "IEETA, DETI, Universidade de Aveiro, 3810-193 Aveiro, Portugal."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "E W",
+            "LastName": "Lang",
+            "Initials": "EW",
+            "AffiliationInfo": {"Affiliation": "CIML, Biophysics, University of Regensburg, 93040 Regensburg, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "A tool to automatically analyze electromagnetic tracking data from high dose rate brachytherapy of breast cancer patients.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0183608"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "N",
+        "content": "Automation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000295",
+          "MajorTopicYN": "Y",
+          "content": "instrumentation"
+        },
+        "DescriptorName": {
+          "UI": "D001918",
+          "MajorTopicYN": "N",
+          "content": "Brachytherapy"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000532",
+            "MajorTopicYN": "Y",
+            "content": "radiotherapy"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001943",
+          "MajorTopicYN": "N",
+          "content": "Breast Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D057785",
+        "MajorTopicYN": "Y",
+        "content": "Catheters"
+      }},
+      {"DescriptorName": {
+        "UI": "D055590",
+        "MajorTopicYN": "Y",
+        "content": "Electromagnetic Phenomena"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "N",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D009038",
+        "MajorTopicYN": "N",
+        "content": "Motion"
+      }},
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D011829",
+        "MajorTopicYN": "Y",
+        "content": "Radiation Dosage"
+      }},
+      {"DescriptorName": {
+        "UI": "D011879",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy Dosage"
+      }},
+      {"DescriptorName": {
+        "UI": "D011880",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy Planning, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D014057",
+        "MajorTopicYN": "N",
+        "content": "Tomography, X-Ray Computed"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 18
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Contemp Brachytherapy. 2016 Oct;8(5):448-453",
+        "PMID": {
+          "Version": 1,
+          "content": 27895688
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brachytherapy. 2016 Jan-Feb;15(1):102-11",
+        "PMID": {
+          "Version": 1,
+          "content": 26561276
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2006 Aug;83(2):125-38",
+        "PMID": {
+          "Version": 1,
+          "content": 16876903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2015 Jun;115(3):342-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26104975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brachytherapy. 2014 Nov-Dec;13(6):640-50",
+        "PMID": {
+          "Version": 1,
+          "content": 24929641
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2016 Aug;63(8):1771-81",
+        "PMID": {
+          "Version": 1,
+          "content": 26595908
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2017 Sep 12;62(19):7617-7640",
+        "PMID": {
+          "Version": 1,
+          "content": 28796645
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2014 Oct;41(10):101702",
+        "PMID": {
+          "Version": 1,
+          "content": 25281941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2015 Sep 30;253:193-205",
+        "PMID": {
+          "Version": 1,
+          "content": 26162614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2010;13(Pt 3):587-94",
+        "PMID": {
+          "Version": 1,
+          "content": 20879448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2014 Aug;33(8):1702-25",
+        "PMID": {
+          "Version": 1,
+          "content": 24816547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2016 Jan 16;387(10015):229-38",
+        "PMID": {
+          "Version": 1,
+          "content": 26494415
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Clin Med Phys. 2017 Jan;18(1):211-222",
+        "PMID": {
+          "Version": 1,
+          "content": 28291934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Apr 24;10(4):e0119489",
+        "PMID": {
+          "Version": 1,
+          "content": 25910061
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Radiat Res. 2014 Jul;55(4):780-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24566719
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2003 Aug;22(8):986-1004",
+        "PMID": {
+          "Version": 1,
+          "content": 12906253
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2010 Dec;32(12):2262-75",
+        "PMID": {
+          "Version": 1,
+          "content": 20975122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Manag Res. 2015 Jul 16;7:199-211",
+        "PMID": {
+          "Version": 1,
+          "content": 26203277
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28934238
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28934238,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0183608",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-17376",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5608198",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

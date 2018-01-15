@@ -1,0 +1,253 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Real-time tracking of lung tumors using magnetic resonance imaging (MRI) has been proposed as a potential strategy to mitigate the ill-effects of breathing motion in radiation therapy. Several autocontouring methods have been evaluated against a \"gold standard\" of a single human expert user. However, contours drawn by experts have inherent intra- and interobserver variations. In this study, we aim to evaluate our user-trained autocontouring algorithm with manually drawn contours from multiple expert users, and to contextualize the accuracy of these autocontours within intra- and interobserver variations."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Six nonsmall cell lung cancer patients were recruited, with institutional ethics approval. Patients were imaged with a clinical 3 T Philips MR scanner using a dynamic 2D balanced SSFP sequence under free breathing. Three radiation oncology experts, each in two separate sessions, contoured 130 dynamic images for each patient. For autocontouring, the first 30 images were used for algorithm training, and the remaining 100 images were autocontoured and evaluated. Autocontours were compared against manual contours in terms of Dice's coefficient (DC) and Hausdorff distances (dH ). Intra- and interobserver variations of the manual contours were also evaluated."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "When compared with the manual contours of the expert user who trained it, the algorithm generates autocontours whose evaluation metrics (same session: DC = 0.90(0.03), dH  = 3.8(1.6) mm; different session DC = 0.88(0.04), dH  = 4.3(1.5) mm) are similar to or better than intraobserver variations (DC = 0.88(0.04), and dH  = 4.3(1.7) mm) between two sessions. The algorithm's autocontours are also compared to the manual contours from different expert users with evaluation metrics (DC = 0.87(0.04), dH  = 4.8(1.7) mm) similar to interobserver variations (DC = 0.87(0.04), dH  = 4.7(1.6) mm)."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Our autocontouring algorithm delineates tumor contours (<20 ms per contour), in dynamic MRI of lung, that are comparable to multiple human experts (several seconds per contour), but at a much faster speed. At the same time, the agreement between autocontours and manual contours is comparable to the intra- and interobserver variations. This algorithm may be a key component of the real time tumor tracking workflow for our hybrid Linac-MR device in the future."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eugene",
+            "LastName": "Yip",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jihyun",
+            "LastName": "Yun",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zsolt",
+            "LastName": "Gabos",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiation Oncology, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Radiation Oncology Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sarah",
+            "LastName": "Baker",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiation Oncology, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Radiation Oncology Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Don",
+            "LastName": "Yee",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiation Oncology, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Radiation Oncology Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Keith",
+            "LastName": "Wachowicz",
+            "Initials": "K",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Satyapal",
+            "LastName": "Rathee",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "B Gino",
+            "LastName": "Fallone",
+            "Initials": "BG",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Medical Physics, Cross Cancer Institute, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."},
+              {"Affiliation": "Medical Physics Division, Department of Oncology, University of Alberta, 11560 University Avenue, Edmonton, AB, T6G 1Z2, Canada."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Evaluating performance of a user-trained MR lung tumor autocontouring algorithm in the context of intra- and interobserver variations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12687"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "MRI guidance"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "autocontouring"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "linac-MRI hybrid"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "observer variability"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "respiratory motion management"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "tumor tracking"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 15
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29159957
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29159957,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12687",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

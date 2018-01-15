@@ -1,0 +1,694 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 52},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The development of large-scale kinetic models is one of the current key issues in computational systems biology and bioinformatics. Here we consider the problem of parameter estimation in nonlinear dynamic models. Global optimization methods can be used to solve this type of problems but the associated computational cost is very large. Moreover, many of these methods need the tuning of a number of adjustable search parameters, requiring a number of initial exploratory runs and therefore further increasing the computation times. Here we present a novel parallel method, self-adaptive cooperative enhanced scatter search (saCeSS), to accelerate the solution of this class of problems. The method is based on the scatter search optimization metaheuristic and incorporates several key new mechanisms: (i) asynchronous cooperation between parallel processes, (ii) coarse and fine-grained parallelism, and (iii) self-tuning strategies."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The performance and robustness of saCeSS is illustrated by solving a set of challenging parameter estimation problems, including medium and large-scale kinetic models of the bacterium E. coli, bakerés yeast S. cerevisiae, the vinegar fly D. melanogaster, Chinese Hamster Ovary cells, and a generic signal transduction network. The results consistently show that saCeSS is a robust and efficient method, allowing very significant reduction of computation times with respect to several previous state of the art methods (from days to minutes, in several cases) even when only a small number of processors is used."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The new parallel cooperative method presented here allows the solution of medium and large scale parameter estimation problems in reasonable computation times and with small hardware requirements. Further, the method includes self-tuning mechanisms which facilitate its use by non-experts. We believe that this new method can play a key role in the development of large-scale and even whole-cell dynamic models."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "David R",
+            "LastName": "Penas",
+            "Initials": "DR",
+            "AffiliationInfo": {"Affiliation": "BioProcess Engineering Group, IIM-CSIC, Eduardo Cabello 6, Vigo, 36208, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patricia",
+            "LastName": "González",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Computer Architecture Group, Universidade da Coruña, Campus de Elviña s/n, Coruña, 15071 A, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jose A",
+            "LastName": "Egea",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Department of Applied Mathematics and Statistics, Universidad Politécnica de Cartagena, c/ Dr. Fleming s/n, Cartagena, 30202, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ramón",
+            "LastName": "Doallo",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Computer Architecture Group, Universidade da Coruña, Campus de Elviña s/n, Coruña, 15071 A, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Julio R",
+            "LastName": "Banga",
+            "Initials": "JR",
+            "AffiliationInfo": {"Affiliation": "BioProcess Engineering Group, IIM-CSIC, Eduardo Cabello 6, Vigo, 36208, Spain. julio@iim.csic.es."}
+          }
+        ]
+      },
+      "ArticleTitle": "Parameter estimation in large-scale systems biology models: a parallel and self-adaptive cooperative strategy.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-016-1452-4"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Dynamic models"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Global optimization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Metaheuristics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Parallelization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Parameter estimation"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D016466",
+        "MajorTopicYN": "N",
+        "content": "CHO Cells"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D003412",
+          "MajorTopicYN": "N",
+          "content": "Cricetulus"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D004331",
+          "MajorTopicYN": "N",
+          "content": "Drosophila melanogaster"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D004926",
+          "MajorTopicYN": "N",
+          "content": "Escherichia coli"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005786",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Regulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "N",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D017711",
+        "MajorTopicYN": "N",
+        "content": "Nonlinear Dynamics"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D012441",
+          "MajorTopicYN": "N",
+          "content": "Saccharomyces cerevisiae"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015398",
+        "MajorTopicYN": "N",
+        "content": "Signal Transduction"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D049490",
+          "MajorTopicYN": "N",
+          "content": "Systems Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D014158",
+        "MajorTopicYN": "N",
+        "content": "Transcription, Genetic"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2006 Nov 02;7:483",
+        "PMID": {
+          "Version": 1,
+          "content": 17081289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Theor Biol Med Model. 2006 Jan 27;3:4",
+        "PMID": {
+          "Version": 1,
+          "content": 16441881
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2012 Jul 20;150(2):389-401",
+        "PMID": {
+          "Version": 1,
+          "content": 22817898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2006 Oct 22;3(10):603-16",
+        "PMID": {
+          "Version": 1,
+          "content": 16971329
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Mar 1;29(5):664-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23329415
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Apr 1;27(7):1028-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21303862
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 Jan 1;22(1):124-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16267082
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 1998;14(10):869-83",
+        "PMID": {
+          "Version": 1,
+          "content": 9927716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Genet Genomics. 2014 Oct;289(5):727-34",
+        "PMID": {
+          "Version": 1,
+          "content": 24728588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Math Biosci. 2013 Dec;246(2):305-14",
+        "PMID": {
+          "Version": 1,
+          "content": 23535194
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IET Syst Biol. 2010 Mar;4(2):119-30",
+        "PMID": {
+          "Version": 1,
+          "content": 20232992
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2015 Nov;16(6):987-99",
+        "PMID": {
+          "Version": 1,
+          "content": 25818863
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2009 May;10(3):278-88",
+        "PMID": {
+          "Version": 1,
+          "content": 19339382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2015 Feb 20;9:8",
+        "PMID": {
+          "Version": 1,
+          "content": 25880925
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IET Syst Biol. 2009 Jan;3(1):1-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19154080
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Mar 15;27(6):874-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21224286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2014 Jan 06;8:1",
+        "PMID": {
+          "Version": 1,
+          "content": 24393148
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2005 Jun 20;6:155",
+        "PMID": {
+          "Version": 1,
+          "content": 15967022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2012 Jan-Feb;9(1):185-202",
+        "PMID": {
+          "Version": 1,
+          "content": 21464505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2014 Jul;24:38-60",
+        "PMID": {
+          "Version": 1,
+          "content": 24747045
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Nov 14;8(11):e79195",
+        "PMID": {
+          "Version": 1,
+          "content": 24324546
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2015 May 28;11(5):e1004096",
+        "PMID": {
+          "Version": 1,
+          "content": 26020786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2014 Nov 18;8:127",
+        "PMID": {
+          "Version": 1,
+          "content": 25403239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013 Oct;9(10):e1003281",
+        "PMID": {
+          "Version": 1,
+          "content": 24204230
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2014 Jan 16;8:5",
+        "PMID": {
+          "Version": 1,
+          "content": 24428926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Sep 15;31(18):2999-3007",
+        "PMID": {
+          "Version": 1,
+          "content": 26002881
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Essays Biochem. 2008;45:195-209",
+        "PMID": {
+          "Version": 1,
+          "content": 18793133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2012 Jul 26;6:91",
+        "PMID": {
+          "Version": 1,
+          "content": 22834945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2010 Mar 02;4:17",
+        "PMID": {
+          "Version": 1,
+          "content": 20196855
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Biotechnol. 2015 Dec;36:146-53",
+        "PMID": {
+          "Version": 1,
+          "content": 26342586
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2014 Feb 07;8:13",
+        "PMID": {
+          "Version": 1,
+          "content": 24507381
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2015 Oct 29;9:74",
+        "PMID": {
+          "Version": 1,
+          "content": 26515482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2012 Nov 21;6:142",
+        "PMID": {
+          "Version": 1,
+          "content": 23171810
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2012 Jun 22;6:75",
+        "PMID": {
+          "Version": 1,
+          "content": 22727112
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2009 Dec 17;583(24):3923-30",
+        "PMID": {
+          "Version": 1,
+          "content": 19879267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2010 May;11(3):323-33",
+        "PMID": {
+          "Version": 1,
+          "content": 20211843
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Dec 15;23(24):3356-63",
+        "PMID": {
+          "Version": 1,
+          "content": 17893088
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2006 May;2(5):e51",
+        "PMID": {
+          "Version": 1,
+          "content": 16710449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biotechnol. 2007 Apr 30;129(2):329-51",
+        "PMID": {
+          "Version": 1,
+          "content": 17400319
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Biotechnol. 2014 Aug;28:111-5",
+        "PMID": {
+          "Version": 1,
+          "content": 24556244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 Nov;13(11):2467-74",
+        "PMID": {
+          "Version": 1,
+          "content": 14559783
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2015 Mar;16(3):146-58",
+        "PMID": {
+          "Version": 1,
+          "content": 25645874
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS J. 2009 Feb;276(4):886-902",
+        "PMID": {
+          "Version": 1,
+          "content": 19215296
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 Oct 23;350(6259):386-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26494748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Biotechnol. 2014 Oct;29:8-14",
+        "PMID": {
+          "Version": 1,
+          "content": 24534671
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2013 Dec 04;11(91):20130505",
+        "PMID": {
+          "Version": 1,
+          "content": 24307566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2012 Jul 16;586(15):2122-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22580058
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28109249
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2016,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 24,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28109249,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-016-1452-4",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-016-1452-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5251293",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

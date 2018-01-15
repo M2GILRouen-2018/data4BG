@@ -1,0 +1,326 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Single-image blind deblurring for imaging sensors in the Internet of Things (IoT) is a challenging ill-conditioned inverse problem, which requires regularization techniques to stabilize the image restoration process. The purpose is to recover the underlying blur kernel and latent sharp image from only one blurred image. Under many degraded imaging conditions, the blur kernel could be considered not only spatially sparse, but also piecewise smooth with the support of a continuous curve. By taking advantage of the hybrid sparse properties of the blur kernel, a hybrid regularization method is proposed in this paper to robustly and accurately estimate the blur kernel. The effectiveness of the proposed blur kernel estimation method is enhanced by incorporating both the L 1 -norm of kernel intensity and the squared L 2 -norm of the intensity derivative. Once the accurate estimation of the blur kernel is obtained, the original blind deblurring can be simplified to the direct deconvolution of blurred images. To guarantee robust non-blind deconvolution, a variational image restoration model is presented based on the L 1 -norm data-fidelity term and the total generalized variation (TGV) regularizer of second-order. All non-smooth optimization problems related to blur kernel estimation and non-blind deconvolution are effectively handled by using the alternating direction method of multipliers (ADMM)-based numerical methods. Comprehensive experiments on both synthetic and realistic datasets have been implemented to compare the proposed method with several state-of-the-art methods. The experimental comparisons have illustrated the satisfactory imaging performance of the proposed method in terms of quantitative and qualitative evaluations."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Naixue",
+            "LastName": "Xiong",
+            "Initials": "N",
+            "AffiliationInfo": [
+              {"Affiliation": "Hubei Key Laboratory of Inland Shipping Technology, School of Navigation, Wuhan University of Technology, Wuhan 430063, China. xiongnaixue@gmail.com."},
+              {"Affiliation": "Department of Business and Computer Science, Southwestern Oklahoma State University, Oklahoma, OK 73096, USA. xiongnaixue@gmail.com."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ryan Wen",
+            "LastName": "Liu",
+            "Initials": "RW",
+            "AffiliationInfo": {"Affiliation": "Hubei Key Laboratory of Inland Shipping Technology, School of Navigation, Wuhan University of Technology, Wuhan 430063, China. wenliu@whut.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maohan",
+            "LastName": "Liang",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Hubei Key Laboratory of Inland Shipping Technology, School of Navigation, Wuhan University of Technology, Wuhan 430063, China. mhliang@whut.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Di",
+            "LastName": "Wu",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "School of Computer, Wuhan University, Wuhan 430072, China. wudi2012@whu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhao",
+            "LastName": "Liu",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Hubei Key Laboratory of Inland Shipping Technology, School of Navigation, Wuhan University of Technology, Wuhan 430063, China. zhaoliu@whut.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Huisi",
+            "LastName": "Wu",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen 518060, China. hswu@szu.edu.cn."}
+          }
+        ]
+      },
+      "ArticleTitle": "Effective Alternating Direction Optimization Methods for Sparsity-Constrained Blind Image Deblurring.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E174"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17010174"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 18
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "alternating direction method of multipliers"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "blind deblurring"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "image restoration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "imaging sensors"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "total generalized variation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "total variation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Jan 06;15(1):880-98",
+        "PMID": {
+          "Version": 1,
+          "content": 25569760
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2011 Dec;33(12):2354-67",
+        "PMID": {
+          "Version": 1,
+          "content": 21788664
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw Learn Syst. 2014 Oct;25(10):1942-50",
+        "PMID": {
+          "Version": 1,
+          "content": 25291746
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2012 Feb;21(2):562-72",
+        "PMID": {
+          "Version": 1,
+          "content": 21843995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 2014 Jul;32(6):702-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24746774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2011 Feb;65(2):480-91",
+        "PMID": {
+          "Version": 1,
+          "content": 21264937
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2016 Jan;25(1):316-30",
+        "PMID": {
+          "Version": 1,
+          "content": 26625414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2010 Dec;19(12):3133-45",
+        "PMID": {
+          "Version": 1,
+          "content": 20833604
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 Sep;42(9):5167-87",
+        "PMID": {
+          "Version": 1,
+          "content": 26328968
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Cybern. 2016 Aug;46(8):1900-13",
+        "PMID": {
+          "Version": 1,
+          "content": 26277014
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2009 Jan;18(1):12-26",
+        "PMID": {
+          "Version": 1,
+          "content": 19095515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2016 Jun 09;16(6):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27294926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 1998;7(3):370-5",
+        "PMID": {
+          "Version": 1,
+          "content": 18276257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2017 Feb;39(2):342-355",
+        "PMID": {
+          "Version": 1,
+          "content": 27071160
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28106764
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "01",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28106764,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17010174",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17010174",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5298747",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

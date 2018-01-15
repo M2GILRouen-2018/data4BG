@@ -1,0 +1,491 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 535},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Fonds Wetenschappelijk Onderzoek",
+          "Country": "United States",
+          "GrantID": "12G9217N"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "In the search for novel causal mutations, public and/or private variant databases are nearly always used to facilitate the search as they result in a massive reduction of putative variants in one step. Practically, variant filtering is often done by either using all variants from the variant database (called the absence-approach, i.e. it is assumed that disease-causing variants do not reside in variant databases) or by using the subset of variants with an allelic frequency\u2009>\u20091% (called the 1%-approach). We investigate the validity of these two approaches in terms of false negatives (the true disease-causing variant does not pass all filters) and false positives (a harmless mutation passes all filters and is erroneously retained in the list of putative disease-causing variants) and compare it with an novel approach which we named the quantile-based approach. This approach applies variable instead of static frequency thresholds and the calculation of these thresholds is based on prior knowledge of disease prevalence, inheritance models, database size and database characteristics."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Based on real-life data, we demonstrate that the quantile-based approach outperforms the absence-approach in terms of false negatives. At the same time, this quantile-based approach deals more appropriately with the variable allele frequencies of disease-causing alleles in variant databases relative to the 1%-approach and as such allows a better control of the number of false positives. We also introduce an alternative application for variant database usage and the quantile-based approach. If disease-causing variants in variant databases deviate substantially from theoretical expectancies calculated with the quantile-based approach, their association between genotype and phenotype had to be reconsidered in 12 out of 13 cases."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We developed a novel method and demonstrated that this so-called quantile-based approach is a highly suitable method for variant filtering. In addition, the quantile-based approach can also be used for variant flagging. For user friendliness, lookup tables and easy-to-use R calculators are provided."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-6742-3911"
+            },
+            "ForeName": "Bart J G",
+            "LastName": "Broeckx",
+            "Initials": "BJG",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Animal Genetics, Faculty of Veterinary Medicine, Ghent University, Heidestraat 19, B-9820, Merelbeke, Belgium. bart.broeckx@ugent.be."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luc",
+            "LastName": "Peelman",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Animal Genetics, Faculty of Veterinary Medicine, Ghent University, Heidestraat 19, B-9820, Merelbeke, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jimmy H",
+            "LastName": "Saunders",
+            "Initials": "JH",
+            "AffiliationInfo": {"Affiliation": "Department of Medical Imaging and Orthopedics, Faculty of Veterinary Medicine, Ghent University, Merelbeke, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dieter",
+            "LastName": "Deforce",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Pharmaceutical Biotechnology, Faculty of Pharmaceutical Sciences, Ghent University, Ghent, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lieven",
+            "LastName": "Clement",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Applied Mathematics, Computer Science and Statistics, Faculty of Sciences, Ghent University, Ghent, Belgium."}
+          }
+        ]
+      },
+      "ArticleTitle": "Using variant databases for variant prioritization and to detect erroneous genotype-phenotype associations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1951-y"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "1000 Genomes project variant database"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Allele frequency"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "HapMap"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Variant database"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Variant filtering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "dbSNP"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2012 Dec 7;91(6):1022-32",
+        "PMID": {
+          "Version": 1,
+          "content": 23217326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Inherit Metab Dis. 2010 Dec;33 Suppl 3:S175-80",
+        "PMID": {
+          "Version": 1,
+          "content": 20224900
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2008 Jun;40(6):695-701",
+        "PMID": {
+          "Version": 1,
+          "content": 18509313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 1998 Jun;7(6):975-80",
+        "PMID": {
+          "Version": 1,
+          "content": 9580661
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2001 Jan 1;29(1):308-11",
+        "PMID": {
+          "Version": 1,
+          "content": 11125122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Int. 2011 Aug;53(4):587-91",
+        "PMID": {
+          "Version": 1,
+          "content": 21851494
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Inherit Metab Dis. 2009 Dec;32 Suppl 1:S169-73",
+        "PMID": {
+          "Version": 1,
+          "content": 19757147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2011 Sep 14;12(9):227",
+        "PMID": {
+          "Version": 1,
+          "content": 21920052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Genet. 2009 Apr;46(4):249-53",
+        "PMID": {
+          "Version": 1,
+          "content": 19028728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Autism Dev Disord. 2008 Jan;38(1):14-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17340203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Genet. 2014 Sep 01;15:96",
+        "PMID": {
+          "Version": 1,
+          "content": 25174816
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cardiology. 2007;108(4):275-81",
+        "PMID": {
+          "Version": 1,
+          "content": 17287605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anim Genet. 2016 Apr;47(2):200-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26689130
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Mol Med. 1997 Jun;61(1):22-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9232193
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Sep 2;467(7311):52-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20811451
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Sep 27;12(11):745-55",
+        "PMID": {
+          "Version": 1,
+          "content": 21946919
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mutat. 2005 Apr;25(4):413",
+        "PMID": {
+          "Version": 1,
+          "content": 15776412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jan 4;44(D1):D862-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26582918
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 1996 Jun;13(2):183-8",
+        "PMID": {
+          "Version": 1,
+          "content": 8640224
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004 Jan 1;32(Database issue):D493-6",
+        "PMID": {
+          "Version": 1,
+          "content": 14681465
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Genet Metab. 2015 Dec;116(4):298-304",
+        "PMID": {
+          "Version": 1,
+          "content": 26643207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Genet. 1991 Oct;28(10):695-700",
+        "PMID": {
+          "Version": 1,
+          "content": 1941965
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Oct 8;461(7265):747-53",
+        "PMID": {
+          "Version": 1,
+          "content": 19812666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2003 May;72(5):1187-99",
+        "PMID": {
+          "Version": 1,
+          "content": 12677556
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mutat. 2008 Jan;29(1):6-13",
+        "PMID": {
+          "Version": 1,
+          "content": 18000842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Nov 19;16:391",
+        "PMID": {
+          "Version": 1,
+          "content": 26597515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Oct 28;467(7319):1061-73",
+        "PMID": {
+          "Version": 1,
+          "content": 20981092
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Med Genet. 1993 Oct 1;47(5):660-78",
+        "PMID": {
+          "Version": 1,
+          "content": 8266994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurogenetics. 2006 May;7(2):105-10",
+        "PMID": {
+          "Version": 1,
+          "content": 16673149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 1999 Aug;9(8):677-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10447503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2010 Jan;42(1):30-5",
+        "PMID": {
+          "Version": 1,
+          "content": 19915526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurogenetics. 2007 Jan;8(1):45-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17096168
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Lipid Res. 1996 Mar;37(3):631-9",
+        "PMID": {
+          "Version": 1,
+          "content": 8728324
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Genet Metab. 2016 Mar;117(3):369-72",
+        "PMID": {
+          "Version": 1,
+          "content": 26810761
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29191167
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29191167,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1951-y",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1951-y",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5710091",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,116 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "262-272"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper presents a method for automatically calibrating and assessing the calibration quality of an externally tracked 2-D ultrasound (US) probe by scanning arbitrary, natural tissues, as opposed a specialized calibration phantom as is the typical practice. A generative topic model quantifies the posterior probability of calibration parameters conditioned on local 2-D image features arising from a generic underlying substrate. Auto-calibration is achieved by identifying the maximum a-posteriori image-to-probe transform, and calibration quality is assessed online in terms of the posterior probability of the current image-to-probe transform. Both are closely linked to the 3-D point reconstruction error (PRE) in aligning feature observations arising from the same underlying physical structure in different US images. The method is of practical importance in that it operates simply by scanning arbitrary textured echogenic structures, e.g., in-vivo tissues in the context of the US-guided procedures, without requiring specialized calibration procedures or equipment. Observed data take the form of local scale-invariant features that can be extracted and fit to the model in near real-time. Experiments demonstrate the method on a public data set of in vivo human brain scans of 14 unique subjects acquired in the context of neurosurgery. Online calibration assessment can be performed at approximately 3 Hz for the US images of pixels. Auto-calibration achieves an internal mean PRE of 1.2 mm and a discrepancy of [2 mm, 6 mm] in comparison to the calibration via a standard phantom-based method."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew",
+            "LastName": "Toews",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "William M",
+            "LastName": "Wells",
+            "Initials": "WM"
+          }
+        ]
+      },
+      "ArticleTitle": "Phantomless Auto-Calibration and Online Calibration Assessment for a Tracked Freehand 2-D Ultrasound Probe.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2017.2750978"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 37,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28910761
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28910761,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2017.2750978",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

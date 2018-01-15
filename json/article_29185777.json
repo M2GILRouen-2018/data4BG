@@ -1,0 +1,130 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101232704,
+      "Country": "United States",
+      "ISSNLinking": "1549-9618",
+      "MedlineTA": "J Chem Theory Comput"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "426-443"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Motivated by the extremely high computing costs associated with estimates of free energies for biological systems using molecular simulations, we further the exploration of existing \"belief propagation\" (BP) algorithms for fixed-backbone peptide and protein systems. The precalculation of pairwise interactions among discretized libraries of side-chain conformations, along with representation of protein side chains as nodes in a graphical model, enables direct application of the BP approach, which requires only ∼1 s of single-processor run time after the precalculation stage. We use a \"loopy BP\" algorithm, which can be seen as an approximate generalization of the transfer-matrix approach to highly connected (i.e., loopy) graphs, and it has previously been applied to protein calculations. We examine the application of loopy BP to several peptides as well as the binding site of the T4 lysozyme L99A mutant. The present study reports on (i) the comparison of the approximate BP results with estimates from unbiased estimators based on the Amber99SB force field; (ii) investigation of the effects of varying library size on BP predictions; and (iii) a theoretical discussion of the discretization effects that can arise in BP calculations. The data suggest that, despite their approximate nature, BP free-energy estimates are highly accurate-indeed, they never fall outside confidence intervals from unbiased estimators for the systems where independent results could be obtained. Furthermore, we find that libraries of sufficiently fine discretization (which diminish library-size sensitivity) can be obtained with standard computing resources in most cases. Altogether, the extremely low computing times and accurate results suggest the BP approach warrants further study."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8080-9771"
+            },
+            "ForeName": "Rory M",
+            "LastName": "Donovan-Maiye",
+            "Initials": "RM",
+            "AffiliationInfo": {"Affiliation": "Allen Institute for Cell Science, Seattle, Washington 98109, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher J",
+            "LastName": "Langmead",
+            "Initials": "CJ",
+            "AffiliationInfo": {"Affiliation": "Computational Biology Department, Carnegie Mellon University , Pittsburgh, Pennsylvania 15213, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel M",
+            "LastName": "Zuckerman",
+            "Initials": "DM",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Oregon Health and Science University , Portland, Oregon 97239, United States."}
+          }
+        ]
+      },
+      "ArticleTitle": "Systematic Testing of Belief-Propagation Estimates for Absolute Free Energies in Atomistic Peptides and Proteins.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1021/acs.jctc.7b00775"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 14,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018,
+            "Day": "09"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Chem Theory Comput",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1549-9626"
+        },
+        "Title": "Journal of chemical theory and computation"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "09"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29185777
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29185777,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1021/acs.jctc.7b00775",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

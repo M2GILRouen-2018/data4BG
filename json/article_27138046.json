@@ -1,0 +1,865 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100960660,
+      "Country": "England",
+      "ISSNLinking": "1474-7596",
+      "MedlineTA": "Genome Biol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 182},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIAID NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 AI125416",
+            "Acronym": "AI"
+          },
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 ES021006",
+            "Acronym": "ES"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R25 EB020393",
+            "Acronym": "EB"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "One of the main challenges in metagenomics is the identification of microorganisms in clinical and environmental samples. While an extensive and heterogeneous set of computational tools is available to classify microorganisms using whole-genome shotgun sequencing data, comprehensive comparisons of these methods are limited."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "In this study, we use the largest-to-date set of laboratory-generated and simulated controls across 846 species to evaluate the performance of 11 metagenomic classifiers. Tools were characterized on the basis of their ability to identify taxa at the genus, species, and strain levels, quantify relative abundances of taxa, and classify individual reads to the species level. Strikingly, the number of species identified by the 11 tools can differ by over three orders of magnitude on the same datasets. Various strategies can ameliorate taxonomic misclassification, including abundance filtering, ensemble approaches, and tool intersection. Nevertheless, these strategies were often insufficient to completely eliminate false positives from environmental samples, which are especially important where they concern medically relevant species. Overall, pairing tools with different classification strategies (k-mer, alignment, marker) can combine their respective advantages."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "This study provides positive and negative controls, titrated standards, and a guide for selecting tools for metagenomic analyses by comparing ranges of precision, accuracy, and recall. We show that proper experimental design and analysis parameters can reduce false positives, provide greater resolution of species in complex metagenomic samples, and improve the interpretation of results."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alexa B R",
+            "LastName": "McIntyre",
+            "Initials": "ABR",
+            "AffiliationInfo": [
+              {"Affiliation": "Tri-Institutional Program in Computational Biology and Medicine, New York, NY, USA."},
+              {"Affiliation": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, 10021, USA."},
+              {"Affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, New York, NY, 10021, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rachid",
+            "LastName": "Ounit",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, University of California, Riverside, CA, 92521, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ebrahim",
+            "LastName": "Afshinnekoo",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, 10021, USA."},
+              {"Affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, New York, NY, 10021, USA."},
+              {"Affiliation": "School of Medicine, New York Medical College, Valhalla, NY, 10595, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert J",
+            "LastName": "Prill",
+            "Initials": "RJ",
+            "AffiliationInfo": {"Affiliation": "Accelerated Discovery Lab, IBM Almaden Research Center, San Jose, CA, 95120, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elizabeth",
+            "LastName": "Hénaff",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, 10021, USA."},
+              {"Affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, New York, NY, 10021, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Noah",
+            "LastName": "Alexander",
+            "Initials": "N",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, 10021, USA."},
+              {"Affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, New York, NY, 10021, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Samuel S",
+            "LastName": "Minot",
+            "Initials": "SS",
+            "AffiliationInfo": {"Affiliation": "One Codex, Reference Genomics, San Francisco, CA, 94103, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Danko",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Tri-Institutional Program in Computational Biology and Medicine, New York, NY, USA."},
+              {"Affiliation": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, 10021, USA."},
+              {"Affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, New York, NY, 10021, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonathan",
+            "LastName": "Foox",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, 10021, USA."},
+              {"Affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, New York, NY, 10021, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sofia",
+            "LastName": "Ahsanuddin",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, 10021, USA."},
+              {"Affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, New York, NY, 10021, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Scott",
+            "LastName": "Tighe",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "University of Vermont, Burlington, VT, 05405, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nur A",
+            "LastName": "Hasan",
+            "Initials": "NA",
+            "AffiliationInfo": [
+              {"Affiliation": "CosmosID, Inc, Rockville, MD, 20850, USA."},
+              {"Affiliation": "Center for Bioinformatics and Computational Biology, University of Maryland Institute for Advanced Computer Studies (UMIACS), College Park, MD, 20742, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Poorani",
+            "LastName": "Subramanian",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "CosmosID, Inc, Rockville, MD, 20850, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kelly",
+            "LastName": "Moffat",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "CosmosID, Inc, Rockville, MD, 20850, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shawn",
+            "LastName": "Levy",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "HudsonAlpha Institute for Biotechnology, Huntsville, AL, 35806, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stefano",
+            "LastName": "Lonardi",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, University of California, Riverside, CA, 92521, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nick",
+            "LastName": "Greenfield",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "One Codex, Reference Genomics, San Francisco, CA, 94103, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rita R",
+            "LastName": "Colwell",
+            "Initials": "RR",
+            "AffiliationInfo": [
+              {"Affiliation": "CosmosID, Inc, Rockville, MD, 20850, USA."},
+              {"Affiliation": "Johns Hopkins University Bloomberg School of Public Health, Baltimore, MD, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gail L",
+            "LastName": "Rosen",
+            "Initials": "GL",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computer Engineering, Drexel University, Philadelphia, PA, 19104, USA. gail.l.rosen@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher E",
+            "LastName": "Mason",
+            "Initials": "CE",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY, 10021, USA. chm2042@med.cornell.edu."},
+              {"Affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, New York, NY, 10021, USA. chm2042@med.cornell.edu."},
+              {"Affiliation": "The Feil Family Brain and Mind Research Institute, New York, NY, 10065, USA. chm2042@med.cornell.edu."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Comprehensive benchmarking and ensemble approaches for metagenomic classifiers.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13059-017-1299-7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Genome Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1474-760X"
+        },
+        "Title": "Genome biology"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Comparison"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ensemble methods"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Meta-classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Metagenomics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pathogen detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Shotgun sequencing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Taxonomy"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 27
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Syst. 2015 Jul 29;1(1):72-87",
+        "PMID": {
+          "Version": 1,
+          "content": 26594662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Dec 11;8(12):e81862",
+        "PMID": {
+          "Version": 1,
+          "content": 24349140
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2014 Jan 09;2:e243",
+        "PMID": {
+          "Version": 1,
+          "content": 24482762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2017 Feb 20;8:14515",
+        "PMID": {
+          "Version": 1,
+          "content": 28218240
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Sep 15;29(18):2253-60",
+        "PMID": {
+          "Version": 1,
+          "content": 23828782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2012 Apr 16;13(9):R79",
+        "PMID": {
+          "Version": 1,
+          "content": 23013615
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Adv Microb Physiol. 2016;69:187-215",
+        "PMID": {
+          "Version": 1,
+          "content": 27720011
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2011 Sep;21(9):1552-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21690186
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Microbiol. 2000 May;49(5):397-401",
+        "PMID": {
+          "Version": 1,
+          "content": 10798550
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Dec 15;32(24):3823-3825",
+        "PMID": {
+          "Version": 1,
+          "content": 27540266
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ecol Resour. 2017 Jul;17 (4):760-769",
+        "PMID": {
+          "Version": 1,
+          "content": 27797448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Jul 07;5:11996",
+        "PMID": {
+          "Version": 1,
+          "content": 26149338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Health Perspect. 2001 May;109 Suppl 2:211-21",
+        "PMID": {
+          "Version": 1,
+          "content": 11359688
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2016 May 24;113(21):5970-5",
+        "PMID": {
+          "Version": 1,
+          "content": 27140646
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jul 15;9(8):796-804",
+        "PMID": {
+          "Version": 1,
+          "content": 22796662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "mSphere. 2017 Feb 22;2(1):",
+        "PMID": {
+          "Version": 1,
+          "content": 28251182
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2015 Oct;84(1):216-27",
+        "PMID": {
+          "Version": 1,
+          "content": 26252423
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2015 Dec 09;16:276",
+        "PMID": {
+          "Version": 1,
+          "content": 26653756
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jan 1;27(1):127-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21062764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Nov 04;16:363",
+        "PMID": {
+          "Version": 1,
+          "content": 26537885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "mSphere. 2016 Nov 16;1(6):",
+        "PMID": {
+          "Version": 1,
+          "content": 27904880
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Biol. 2014 Nov 12;12:87",
+        "PMID": {
+          "Version": 1,
+          "content": 25387460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bacteriol. 1991 Jan;173(2):697-703",
+        "PMID": {
+          "Version": 1,
+          "content": 1987160
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Feb 23;5(2):e9202",
+        "PMID": {
+          "Version": 1,
+          "content": 20186320
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2010 May 21;328(5981):994-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20489017
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "mSystems. 2016 Jun 28;1(3):",
+        "PMID": {
+          "Version": 1,
+          "content": 27832215
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomol Tech. 2017 Apr;28(1):8-18",
+        "PMID": {
+          "Version": 1,
+          "content": 28337071
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2016 May;13(5):435-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26999001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2016 Apr 07;5:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27054412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Syst. 2015 Jul 29;1(1):4-5",
+        "PMID": {
+          "Version": 1,
+          "content": 27135683
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 May 26;43(10):e69",
+        "PMID": {
+          "Version": 1,
+          "content": 25765641
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Sep 1;29(17):2096-102",
+        "PMID": {
+          "Version": 1,
+          "content": 23786768
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2015 Mar 25;16:236",
+        "PMID": {
+          "Version": 1,
+          "content": 25879410
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Jan 18;6:19233",
+        "PMID": {
+          "Version": 1,
+          "content": 26778510
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2007 Mar;17(3):377-86",
+        "PMID": {
+          "Version": 1,
+          "content": 17255551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biotechnol Biofuels. 2015 Feb 08;8:14",
+        "PMID": {
+          "Version": 1,
+          "content": 25688290
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2012 May 10;13:92",
+        "PMID": {
+          "Version": 1,
+          "content": 22574964
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomol Tech. 2017 Apr;28(1):31-39",
+        "PMID": {
+          "Version": 1,
+          "content": 28337070
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2007 Nov;25(11):1281-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17965706
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Mar 4;464(7285):59-65",
+        "PMID": {
+          "Version": 1,
+          "content": 20203603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "mSystems. 2016 Jun 28;1(3):",
+        "PMID": {
+          "Version": 1,
+          "content": 27822528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Jul 31;7(1):6589",
+        "PMID": {
+          "Version": 1,
+          "content": 28761145
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2015 Oct;33(10):1045-52",
+        "PMID": {
+          "Version": 1,
+          "content": 26344404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Oct;12(10):902-3",
+        "PMID": {
+          "Version": 1,
+          "content": 26418763
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Microbiol. 2015 Oct 31;6:1205",
+        "PMID": {
+          "Version": 1,
+          "content": 26583008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2015 Dec 21;6:10063",
+        "PMID": {
+          "Version": 1,
+          "content": 26686880
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2013;14(9):R101",
+        "PMID": {
+          "Version": 1,
+          "content": 24034426
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Sep 28;11(9):e0163527",
+        "PMID": {
+          "Version": 1,
+          "content": 27683082
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Direct. 2015 Jul 09;10:35",
+        "PMID": {
+          "Version": 1,
+          "content": 26156036
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 2017 Mar;23 (3):314-326",
+        "PMID": {
+          "Version": 1,
+          "content": 28112736
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Res Notes. 2012 Jan 31;5:81",
+        "PMID": {
+          "Version": 1,
+          "content": 22293603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2015 Oct;25(10):1411-6",
+        "PMID": {
+          "Version": 1,
+          "content": 26430149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Biol. 2014 Aug 22;12:69",
+        "PMID": {
+          "Version": 1,
+          "content": 25184604
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014 Mar 03;15(3):R46",
+        "PMID": {
+          "Version": 1,
+          "content": 24580807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Jan;12(1):59-60",
+        "PMID": {
+          "Version": 1,
+          "content": 25402007
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISME J. 2007 Aug;1(4):283-90",
+        "PMID": {
+          "Version": 1,
+          "content": 18043639
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Transplant. 2015 Jan;15(1):200-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25403800
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Feb 15;28(4):593-4",
+        "PMID": {
+          "Version": 1,
+          "content": 22199392
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 1997 Sep 1;25(17):3389-402",
+        "PMID": {
+          "Version": 1,
+          "content": 9254694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2014 Jun 19;370(25):2408-17",
+        "PMID": {
+          "Version": 1,
+          "content": 24896819
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiome. 2016 May 03;4(1):18",
+        "PMID": {
+          "Version": 1,
+          "content": 27138046
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28934964
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28934964,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13059-017-1299-7",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s13059-017-1299-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5609029",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

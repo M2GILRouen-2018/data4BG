@@ -1,0 +1,247 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101604520,
+      "Country": "United States",
+      "ISSNLinking": "2168-2194",
+      "MedlineTA": "IEEE J Biomed Health Inform"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1242-1253"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Motion and noise artifacts (MNAs) impose limits on the usability of the photoplethysmogram (PPG), particularly in the context of ambulatory monitoring. MNAs can distort PPG, causing erroneous estimation of physiological parameters such as heart rate (HR) and arterial oxygen saturation (SpO2). In this study, we present a novel approach, \"TifMA,\" based on using the time-frequency spectrum of PPG to first detect the MNA-corrupted data and next discard the nonusable part of the corrupted data. The term \"nonusable\" refers to segments of PPG data from which the HR signal cannot be recovered accurately. Two sequential classification procedures were included in the TifMA algorithm. The first classifier distinguishes between MNA-corrupted and MNA-free PPG data. Once a segment of data is deemed MNA-corrupted, the next classifier determines whether the HR can be recovered from the corrupted segment or not. A support vector machine (SVM) classifier was used to build a decision boundary for the first classification task using data segments from a training dataset. Features from time-frequency spectra of PPG were extracted to build the detection model. Five datasets were considered for evaluating TifMA performance: (1) and (2) were laboratory-controlled PPG recordings from forehead and finger pulse oximeter sensors with subjects making random movements, (3) and (4) were actual patient PPG recordings from UMass Memorial Medical Center with random free movements and (5) was a laboratory-controlled PPG recording dataset measured at the forehead while the subjects ran on a treadmill. The first dataset was used to analyze the noise sensitivity of the algorithm. Datasets 2-4 were used to evaluate the MNA detection phase of the algorithm. The results from the first phase of the algorithm (MNA detection) were compared to results from three existing MNA detection algorithms: the Hjorth, kurtosis-Shannon entropy, and time-domain variability-SVM approaches. This last is an approach recently developed in our laboratory. The proposed TifMA algorithm consistently provided higher detection rates than the other three methods, with accuracies greater than 95% for all data. Moreover, our algorithm was able to pinpoint the start and end times of the MNA with an error of less than 1 s in duration, whereas the next-best algorithm had a detection error of more than 2.2 s. The final, most challenging, dataset was collected to verify the performance of the algorithm in discriminating between corrupted data that were usable for accurate HR estimations and data that were nonusable. It was found that on average 48% of the data segments were found to have MNA, and of these, 38% could be used to provide reliable HR estimation."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Duy",
+            "LastName": "Dao",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "S M A",
+            "LastName": "Salehizadeh",
+            "Initials": "SMA"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yeonsik",
+            "LastName": "Noh",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jo Woon",
+            "LastName": "Chong",
+            "Initials": "JW"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chae Ho",
+            "LastName": "Cho",
+            "Initials": "CH"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dave",
+            "LastName": "McManus",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chad E",
+            "LastName": "Darling",
+            "Initials": "CE"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yitzhak",
+            "LastName": "Mendelson",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ki H",
+            "LastName": "Chon",
+            "Initials": "KH"
+          }
+        ]
+      },
+      "ArticleTitle": "A Robust Motion Artifact Detection Algorithm for Accurate Detection of Heart Rates From Photoplethysmographic Signals Using Time-Frequency Spectral Features.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/JBHI.2016.2612059"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 21,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE J Biomed Health Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2168-2208"
+        },
+        "Title": "IEEE journal of biomedical and health informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "N",
+        "content": "Artifacts"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D006339",
+          "MajorTopicYN": "N",
+          "content": "Heart Rate"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009068",
+          "MajorTopicYN": "N",
+          "content": "Movement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017156",
+          "MajorTopicYN": "N",
+          "content": "Photoplethysmography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012815",
+        "MajorTopicYN": "Y",
+        "content": "Signal Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D055815",
+        "MajorTopicYN": "N",
+        "content": "Young Adult"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113791
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2018,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113791,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/JBHI.2016.2612059",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

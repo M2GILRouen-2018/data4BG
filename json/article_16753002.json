@@ -1,0 +1,291 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100897350,
+      "Country": "England",
+      "ISSNLinking": "1462-2416",
+      "MedlineTA": "Pharmacogenomics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D000970",
+          "content": "Antineoplastic Agents"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D009842",
+          "content": "Oligopeptides"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D019151",
+          "content": "Peptide Library"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D010975",
+          "content": "Platelet Aggregation Inhibitors"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D011480",
+          "content": "Protease Inhibitors"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D061988",
+          "content": "Proteasome Inhibitors"
+        },
+        "RegistryNumber": 0
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2006,
+      "Day": 25
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "543-50"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "INTRODUCTION",
+          "content": "An important goal in machine learning is to assess the degree to which prediction rules are robust and replicable, since these rules are used for decision making and for planning follow-up studies. This requires an estimate of a prediction rule's true error rate, a statistic that can be estimated by resampling data. However, there are many possible approaches depending upon whether we draw observations with or without replacement, or sample once, repeatedly, or not at all, and the pros and cons of each are often unclear. This study illustrates and compares different methods for estimating true error with the aim of providing practical guidance to users of machine learning techniques."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We conducted Monte Carlo simulation studies using four different error estimators: bootstrap, split sample, resubstitution and a direct estimate of true error. Here, 'split sample' refers to a single random partition of the data into a pair of training and test samples, a popular scheme. We used stochastic gradient boosting as a learning algorithm, and considered data from two studies for which the underlying data mechanism was known to be complex: a library of 6000 tripeptide substrates collected for analysis of proteasome inhibition as part of anticancer drug design, and a cardiovascular study involving 600 subjects receiving antiplatelet treatment for acute coronary syndrome."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "There were important differences in the performance of the various error estimators examined. Error estimators for split sample and resubstitution, while being the most transparent in action and the simplest to apply, did not quantify the performance of prediction rules as accurately as the bootstrap. This was true for both types of study data, despite their highly different nature."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The robustness and reliability of decisions based on analysis of genomics data could, in many cases, be improved by following best practices for prediction error estimation. For this, techniques such as bootstrap should be considered."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rory",
+            "LastName": "Martin",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Millennium Pharmaceuticals, Cambridge MA 02139, USA. rory.martin.phd@gmail.com"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kai",
+            "LastName": "Yu",
+            "Initials": "K"
+          }
+        ]
+      },
+      "ArticleTitle": "Assessing performance of prediction rules in machine learning.",
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 7,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2006
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Pharmacogenomics",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1462-2416"
+        },
+        "Title": "Pharmacogenomics"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2006,
+      "Day": "06"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000494",
+          "MajorTopicYN": "N",
+          "content": "pharmacology"
+        },
+        "DescriptorName": {
+          "UI": "D000970",
+          "MajorTopicYN": "N",
+          "content": "Antineoplastic Agents"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000188",
+          "MajorTopicYN": "N",
+          "content": "drug therapy"
+        },
+        "DescriptorName": {
+          "UI": "D003327",
+          "MajorTopicYN": "N",
+          "content": "Coronary Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D066298",
+        "MajorTopicYN": "N",
+        "content": "In Vitro Techniques"
+      }},
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "N",
+        "content": "Monte Carlo Method"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000494",
+          "MajorTopicYN": "N",
+          "content": "pharmacology"
+        },
+        "DescriptorName": {
+          "UI": "D009842",
+          "MajorTopicYN": "N",
+          "content": "Oligopeptides"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019151",
+        "MajorTopicYN": "N",
+        "content": "Peptide Library"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "Y",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D010597",
+          "MajorTopicYN": "N",
+          "content": "Pharmacogenetics"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000627",
+          "MajorTopicYN": "N",
+          "content": "therapeutic use"
+        },
+        "DescriptorName": {
+          "UI": "D010975",
+          "MajorTopicYN": "N",
+          "content": "Platelet Aggregation Inhibitors"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000494",
+          "MajorTopicYN": "N",
+          "content": "pharmacology"
+        },
+        "DescriptorName": {
+          "UI": "D011480",
+          "MajorTopicYN": "N",
+          "content": "Protease Inhibitors"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D061988",
+        "MajorTopicYN": "N",
+        "content": "Proteasome Inhibitors"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2014,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 16753002
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 6,
+        "Year": 2006,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 7,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2006,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 26,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 6,
+        "Year": 2006,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 7,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 16753002,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.2217/14622416.7.4.543",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

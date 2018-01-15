@@ -1,0 +1,242 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "VersionID": 2,
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101594320,
+      "Country": "England",
+      "ISSNLinking": "2046-1402",
+      "MedlineTA": "F1000Res"
+    },
+    "VersionDate": "2017/10/13",
+    "Owner": "NLM",
+    "CoiStatement": "Competing interests: No competing interests were disclosed.",
+    "Article": {
+      "Pagination": {"MedlinePgn": 612},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Biomedical text mining promises to assist biologists in quickly navigating the combined knowledge in their domain. This would allow improved understanding of the complex interactions within biological systems and faster hypothesis generation. New biomedical research articles are published daily and text mining tools are only as good as the corpus from which they work. Many text mining tools are underused because their results are static and do not reflect the constantly expanding knowledge in the field. In order for biomedical text mining to become an indispensable tool used by researchers, this problem must be addressed. To this end, we present PubRunner, a framework for regularly running text mining tools on the latest publications. PubRunner is lightweight, simple to use, and can be integrated with an existing text mining tool. The workflow involves downloading the latest abstracts from PubMed, executing a user-defined tool, pushing the resulting data to a public FTP or Zenodo dataset, and publicizing the location of these results on the public PubRunner website. We illustrate the use of this tool by re-running the commonly used word2vec tool on the latest PubMed abstracts to generate up-to-date word vector representations for the biomedical domain. This shows a proof of concept that we hope will encourage text mining developers to build tools that truly will aid biologists in exploring the latest publications."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "https://orcid.org/0000-0002-8366-5782"
+            },
+            "ForeName": "Kishore R",
+            "LastName": "Anekalla",
+            "Initials": "KR",
+            "AffiliationInfo": {"Affiliation": "Northwestern University, Chicago, IL, 60611, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "https://orcid.org/0000-0001-9014-649X"
+            },
+            "ForeName": "J P",
+            "LastName": "Courneya",
+            "Initials": "JP",
+            "AffiliationInfo": {"Affiliation": "Health Sciences and Human Services Library, University of Maryland, Baltimore, MD, 21201, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "https://orcid.org/0000-0002-9260-1326"
+            },
+            "ForeName": "Nicolas",
+            "LastName": "Fiorini",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "National Center for Biotechnology Information, National Institutes of Health, Bethesda, MD, 20894, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jake",
+            "LastName": "Lever",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Canada's Michael Smith Genome Sciences Centre, University of British Columbia, Vancouver, BC, V5Z 4S6, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Muchow",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "National Institute of Standards and Technology, Gaithersburg, MD, 20899, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "https://orcid.org/0000-0001-5267-4988"
+            },
+            "ForeName": "Ben",
+            "LastName": "Busby",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20894, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "PubRunner: A light-weight framework for updating text mining results.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.12688/f1000research.11389.2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 6,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "F1000Res",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2046-1402"
+        },
+        "Title": "F1000Research"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "BioNLP"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PubMed"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PubRunner"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "biomedical text mining"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "natural language processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "text mining"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2015 Sep 25;11(9):e1004391",
+        "PMID": {
+          "Version": 1,
+          "content": 26407127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2011 Jan 18;2011:baq036",
+        "PMID": {
+          "Version": 1,
+          "content": 21245076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2016 Jul 07;5:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27387362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Nov 15;29(22):2909-17",
+        "PMID": {
+          "Version": 1,
+          "content": 23969135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jul 1;27(13):i111-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21685059
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 2,
+      "content": 29152221
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29152221,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.12688/f1000research.11389.2",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5664974",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,114 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9885960,
+      "Country": "United States",
+      "ISSNLinking": "0098-5589",
+      "MedlineTA": "IEEE Trans Pattern Anal Mach Intell"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "908-921"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "06"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We propose an efficient approach for activity detection in video that unifies activity categorization with space-time localization. The main idea is to pose activity detection as a maximum-weight connected subgraph problem. Offline, we learn a binary classifier for an activity category using positive video exemplars that are \"trimmed\" in time to the activity of interest. Then, given a novel untrimmed video sequence, we decompose it into a 3D array of space-time nodes, which are weighted based on the extent to which their component features support the learned activity model. To perform detection, we then directly localize instances of the activity by solving for the maximum-weight connected subgraph in the test video's space-time graph. We show that this detection strategy permits an efficient branch-and-cut solution for the best-scoring-and possibly non-cubically shaped-portion of the video for a given activity classifier. The upshot is a fast method that can search a broader space of space-time region candidates than was previously practical, which we find often leads to more accurate detection. We demonstrate the proposed algorithm on four datasets, and we show its speed and accuracy advantages over multiple existing search strategies."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "LastName": "Chao Yeh Chen"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kristen",
+            "LastName": "Grauman",
+            "Initials": "K"
+          }
+        ]
+      },
+      "ArticleTitle": "Efficient Activity Detection in Untrimmed Video with Max-Subgraph Search.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TPAMI.2016.2564404"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 39,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Pattern Anal Mach Intell",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1939-3539"
+        },
+        "Title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113697
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113697,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TPAMI.2016.2564404",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

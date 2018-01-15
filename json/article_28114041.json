@@ -1,0 +1,193 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101604520,
+      "Country": "United States",
+      "ISSNLinking": "2168-2194",
+      "MedlineTA": "IEEE J Biomed Health Inform"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 16
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "31-40"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "05"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The availability of medical imaging data from clinical archives, research literature, and clinical manuals, coupled with recent advances in computer vision offer the opportunity for image-based diagnosis, teaching, and biomedical research. However, the content and semantics of an image can vary depending on its modality and as such the identification of image modality is an important preliminary step. The key challenge for automatically classifying the modality of a medical image is due to the visual characteristics of different modalities: some are visually distinct while others may have only subtle differences. This challenge is compounded by variations in the appearance of images based on the diseases depicted and a lack of sufficient training data for some modalities. In this paper, we introduce a new method for classifying medical images that uses an ensemble of different convolutional neural network (CNN) architectures. CNNs are a state-of-the-art image classification technique that learns the optimal image features for a given classification task. We hypothesise that different CNN architectures learn different levels of semantic image representation and thus an ensemble of CNNs will enable higher quality features to be extracted. Our method develops a new feature extractor by fine-tuning CNNs that have been initialized on a large dataset of natural images. The fine-tuning process leverages the generic image features from natural images that are fundamental for all images and optimizes them for the variety of medical imaging modalities. These features are used to train numerous multiclass classifiers whose posterior probabilities are fused to predict the modalities of unseen images. Our experiments on the ImageCLEF 2016 medical image public dataset (30 modalities; 6776 training images, and 4166 test images) show that our ensemble of fine-tuned CNNs achieves a higher accuracy than established CNNs. Our ensemble also achieves a higher accuracy than methods in the literature evaluated on the same benchmark dataset and is only overtaken by those methods that source additional training data."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ashnil",
+            "LastName": "Kumar",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinman",
+            "LastName": "Kim",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Lyndon",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Fulham",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dagan",
+            "LastName": "Feng",
+            "Initials": "D"
+          }
+        ]
+      },
+      "ArticleTitle": "An Ensemble of Fine-Tuned Convolutional Neural Networks for Medical Image Classification.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/JBHI.2016.2635663"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 21,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE J Biomed Health Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2168-2208"
+        },
+        "Title": "IEEE journal of biomedical and health informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000145",
+          "MajorTopicYN": "Y",
+          "content": "classification"
+        },
+        "DescriptorName": {
+          "UI": "D003952",
+          "MajorTopicYN": "N",
+          "content": "Diagnostic Imaging"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000145",
+          "MajorTopicYN": "Y",
+          "content": "classification"
+        },
+        "DescriptorName": {
+          "UI": "D057286",
+          "MajorTopicYN": "N",
+          "content": "Electronic Health Records"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "Y",
+        "content": "Neural Networks (Computer)"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114041
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114041,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/JBHI.2016.2635663",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

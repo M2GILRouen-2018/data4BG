@@ -1,0 +1,433 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101643461,
+      "Country": "United States",
+      "ISSNLinking": "2329-4302",
+      "MedlineTA": "J Med Imaging (Bellingham)"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "034006"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Extraction of blood vessels in retinal images is an important step for computer-aided diagnosis of ophthalmic pathologies. We propose an approach for blood vessel tracking and diameter estimation. We hypothesize that the curvature and the diameter of blood vessels are Gaussian processes (GPs). Local Radon transform, which is robust against noise, is subsequently used to compute the features and train the GPs. By learning the kernelized covariance matrix from training data, vessel direction and its diameter are estimated. In order to detect bifurcations, multiple GPs are used and the difference between their corresponding predicted directions is quantified. The combination of Radon features and GP results in a good performance in the presence of noise. The proposed method successfully deals with typically difficult cases such as bifurcations and central arterial reflex, and also tracks thin vessels with high accuracy. Experiments are conducted on the publicly available DRIVE, STARE, CHASEDB1, and high-resolution fundus databases evaluating sensitivity, specificity, and Matthew's correlation coefficient (MCC). Experimental results on these datasets show that the proposed method reaches an average sensitivity of 75.67%, specificity of 97.46%, and MCC of 72.18% which is comparable to the state-of-the-art."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Masoud Elhami",
+            "LastName": "Asl",
+            "Initials": "ME",
+            "AffiliationInfo": {"Affiliation": "Tarbiat Modares University, Faculty of Electrical and Computer Engineering, Tehran, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Navid Alemi",
+            "LastName": "Koohbanani",
+            "Initials": "NA",
+            "AffiliationInfo": {"Affiliation": "Tarbiat Modares University, Faculty of Electrical and Computer Engineering, Tehran, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alejandro F",
+            "LastName": "Frangi",
+            "Initials": "AF",
+            "AffiliationInfo": {"Affiliation": "University of Sheffield, Centre for Computational Imaging and Simulation Technologies in Biomedicine, Department of Electronic and Electrical Engineering, Sheffield, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ali",
+            "LastName": "Gooya",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "University of Sheffield, Centre for Computational Imaging and Simulation Technologies in Biomedicine, Department of Electronic and Electrical Engineering, Sheffield, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "Tracking and diameter estimation of retinal vessels using Gaussian process and Radon transform.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1117/1.JMI.4.3.034006"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 4,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "J Med Imaging (Bellingham)",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2329-4302"
+        },
+        "Title": "Journal of medical imaging (Bellingham, Wash.)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian process"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Radon transform"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "diameter estimation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "retinal imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "vessel tracking"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 21
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2002 Jan;40(1):2-13",
+        "PMID": {
+          "Version": 1,
+          "content": 11954703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2008 Aug;17(8):1295-312",
+        "PMID": {
+          "Version": 1,
+          "content": 18632340
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1989;8(1):78-88",
+        "PMID": {
+          "Version": 1,
+          "content": 18230503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE J Biomed Health Inform. 2016 Jul;20(4):1129-38",
+        "PMID": {
+          "Version": 1,
+          "content": 26054078
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2000 Mar;19(3):203-10",
+        "PMID": {
+          "Version": 1,
+          "content": 10875704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2011 Jan;30(1):146-58",
+        "PMID": {
+          "Version": 1,
+          "content": 20699207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Apr;17(2):263-73",
+        "PMID": {
+          "Version": 1,
+          "content": 9688158
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2004 Apr;23(4):501-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15084075
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2009 Dec;13(6):819-45",
+        "PMID": {
+          "Version": 1,
+          "content": 19818675
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2015 Jul;62(7):1738-49",
+        "PMID": {
+          "Version": 1,
+          "content": 25700436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2002 Feb;21(2):61-75",
+        "PMID": {
+          "Version": 1,
+          "content": 11929106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2011 May;58(5):1183-92",
+        "PMID": {
+          "Version": 1,
+          "content": 21147592
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Rev Biomed Eng. 2010;3:169-208",
+        "PMID": {
+          "Version": 1,
+          "content": 22275207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2007 Feb;16(2):310-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17269626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2016 Dec;35(12 ):2631-2644",
+        "PMID": {
+          "Version": 1,
+          "content": 27514039
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Ophthalmol Vis Sci. 2009 May;50(5):2004-10",
+        "PMID": {
+          "Version": 1,
+          "content": 19324866
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2007 Nov;88(2):131-43",
+        "PMID": {
+          "Version": 1,
+          "content": 17919766
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Ophthalmol Vis Sci. 2013 May 01;54(5):3546-59",
+        "PMID": {
+          "Version": 1,
+          "content": 23794433
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Ophthalmol. 2001 Mar;85(3):261-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11222327
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2012 Oct;108(1):407-33",
+        "PMID": {
+          "Version": 1,
+          "content": 22525589
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2017 Jan;64(1):16-27",
+        "PMID": {
+          "Version": 1,
+          "content": 26930672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Syst. 2012 Feb;36(1):145-57",
+        "PMID": {
+          "Version": 1,
+          "content": 20703740
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2007 Feb;11(1):47-61",
+        "PMID": {
+          "Version": 1,
+          "content": 17204445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2013 Dec;43(12):2136-55",
+        "PMID": {
+          "Version": 1,
+          "content": 24290931
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2009 Sep;28(9):1488-97",
+        "PMID": {
+          "Version": 1,
+          "content": 19336294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2015 Jan;19(1):46-57",
+        "PMID": {
+          "Version": 1,
+          "content": 25240643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2016 Nov;35(11):2369-2380",
+        "PMID": {
+          "Version": 1,
+          "content": 27046869
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prog Retin Eye Res. 2006 Jan;25(1):99-127",
+        "PMID": {
+          "Version": 1,
+          "content": 16154379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2007 Aug;54(8):1427-35",
+        "PMID": {
+          "Version": 1,
+          "content": 17694863
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ophthalmology. 2010 Jun;117(6):1147-54",
+        "PMID": {
+          "Version": 1,
+          "content": 20399502
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2006 Dec;10(6):815-25",
+        "PMID": {
+          "Version": 1,
+          "content": 16876462
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28924571
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "09",
+        "Year": 2018,
+        "Day": 12,
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28924571,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1117/1.JMI.4.3.034006",
+        "IdType": "doi"
+      },
+      {
+        "content": "17019RR",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5594385",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

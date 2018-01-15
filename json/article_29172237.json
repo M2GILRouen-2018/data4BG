@@ -1,0 +1,207 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Lung diseases are commonly associated with changes in lung tissue's biomechanical properties. Functional imaging techniques, such as elastography, have shown great promise in measuring tissue's biomechanical properties, which could expand the utility and effectiveness of radiotherapy treatment planning. We present a novel methodology for characterizing a key biomechanical property, parenchymal elasticity, derived solely from 4DCT datasets."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Specifically, end-inhalation and end-exhalation breathing phases of the 4DCT datasets were deformably registered and the resulting displacement maps were considered to be ground-truth. A mid-exhalation image was also prepared for verification purposes. A GPU-based biomechanical model was then generated from the patient end-exhalation dataset and used as a forward model to iteratively solve for the elasticity distribution. Displacements at the surface of the lungs were applied as boundary constraints for the model-guided tissue elastography, while the inner voxels were allowed to deform according to the linear elastic forces within the biomechanical model. A convergence criteria of 10% maximum deformation was employed for the iterative process."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The lung tissue elasticity estimation was documented for a set of 15 4DCT patient datasets. Maximum lung deformations were observed to be between 6 and 31 mm. Our results showed that, on average, 89.91 ± 4.85% convergence was observed. A validation study consisting of mid-exhalation breathing phases illustrated an accuracy of 87.13 ± 10.62%. Structural similarity, normalized cross-correlation, and mutual information were used to quantify the degree of similarity between the following image pairs: (a) the model-generated end-exhalation and ground-truth end-exhalation, and (b) model-generated mid-exhalation images and ground-truth mid-exhalation."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Overall, the results suggest that the lung elasticity can be measured with approximately 90% convergence using routinely acquired clinical 4DCT scans, indicating the potential for a lung elastography implementation within the radiotherapy clinical workflow. The regional lung elasticity found here can lead to improved tissue sparing radiotherapy treatment plans, and more precise monitoring of treatment response."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Katelyn",
+            "LastName": "Hasse",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of California, Los Angeles, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dylan",
+            "LastName": "O'Connell",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of California, Los Angeles, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yugang",
+            "LastName": "Min",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of California, Los Angeles, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John",
+            "LastName": "Neylon",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of California, Los Angeles, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel A",
+            "LastName": "Low",
+            "Initials": "DA",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of California, Los Angeles, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anand",
+            "LastName": "Santhanam",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of California, Los Angeles, CA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Estimation and validation of patient-specific high-resolution lung elasticity derived from 4DCT.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12697"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 24
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "4DCT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "biomechanical modeling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "lung elastography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "lung radiotherapy"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 18
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29172237
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29172237,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12697",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

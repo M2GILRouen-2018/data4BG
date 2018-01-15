@@ -1,0 +1,193 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "We have developed a robust tool for performing volumetric and temporal analysis of nodules from respiratory gated four-dimensional (4D) CT. The method could prove useful in IMRT of lung cancer."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We modified the conventional graph-cuts method by adding an adaptive shape prior as well as motion information within a signed distance function representation to permit more accurate and automated segmentation and tracking of lung nodules in 4D CT data. Active shape models (ASM) with signed distance function were used to capture the shape prior information, preventing unwanted surrounding tissues from becoming part of the segmented object. The optical flow method was used to estimate the local motion and to extend three-dimensional (3D) segmentation to 4D by warping a prior shape model through time. The algorithm has been applied to segmentation of well-circumscribed, vascularized, and juxtapleural lung nodules from respiratory gated CT data."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "In all cases, 4D segmentation and tracking for five phases of high-resolution CT data took approximately 10 min on a PC workstation with AMD Phenom II and 32 GB of memory. The method was trained based on 500 breath-held 3D CT data from the LIDC data base and was tested on 17 4D lung nodule CT datasets consisting of 85 volumetric frames. The validation tests resulted in an average Dice Similarity Coefficient (DSC) = 0.68 for all test data. An important by-product of the method is quantitative volume measurement from 4D CT from end-inspiration to end-expiration which will also have important diagnostic value."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The algorithm performs robust segmentation of lung nodules from 4D CT data. Signed distance ASM provides the shape prior information which based on the iterative graph-cuts framework is adaptively refined to best fit the input data, preventing unwanted surrounding tissue from merging with the segmented object."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jungwon",
+            "LastName": "Cha",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Medical Imaging Laboratory, University of Louisville, Louisville, KY, 40292, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mohammad Mehdi",
+            "LastName": "Farhangi",
+            "Initials": "MM",
+            "AffiliationInfo": {"Affiliation": "Medical Imaging Laboratory, University of Louisville, Louisville, KY, 40292, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Neal",
+            "LastName": "Dunlap",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Brown Cancer Center, University of Louisville, Louisville, KY, 40202, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Amir A",
+            "LastName": "Amini",
+            "Initials": "AA",
+            "AffiliationInfo": {"Affiliation": "Medical Imaging Laboratory, University of Louisville, Louisville, KY, 40292, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Segmentation and tracking of lung nodules via graph-cuts incorporating shape prior and motion from 4D CT.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12690"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "graph-cuts"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "image segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "lung imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "motion estimation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 12
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29164630
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29164630,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12690",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

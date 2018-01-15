@@ -1,0 +1,2230 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965258,
+      "Country": "England",
+      "ISSNLinking": "1471-2164",
+      "MedlineTA": "BMC Genomics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 928},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NHGRI NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 HG007644",
+          "Acronym": "HG"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Genomic regions of autozygosity (ROA) arise when an individual is homozygous for haplotypes inherited identical-by-descent from ancestors shared by both parents. Over the past decade, they have gained importance for understanding evolutionary history and the genetic basis of complex diseases and traits. However, methods to infer ROA in dense genotype data have not evolved in step with advances in genome technology that now enable us to rapidly create large high-resolution genotype datasets, limiting our ability to investigate their constituent ROA patterns."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We report a weighted likelihood approach for inferring ROA in dense genotype data that accounts for autocorrelation among genotyped positions and the possibilities of unobserved mutation and recombination events, and variability in the confidence of individual genotype calls in whole genome sequence (WGS) data."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Forward-time genetic simulations under two demographic scenarios that reflect situations where inbreeding and its effect on fitness are of interest suggest this approach is better powered than existing state-of-the-art methods to infer ROA at marker densities consistent with WGS and popular microarray genotyping platforms used in human and non-human studies. Moreover, we present evidence that suggests this approach is able to distinguish ROA arising via consanguinity from ROA arising via endogamy. Using subsets of The 1000 Genomes Project Phase 3 data we show that, relative to WGS, intermediate and long ROA are captured robustly with popular microarray platforms, while detection of short ROA is more variable and improves with marker density. Worldwide ROA patterns inferred from WGS data are found to accord well with those previously reported on the basis of microarray genotype data. Finally, we highlight the potential of this approach to detect genomic regions enriched for autozygosity signals in one group relative to another based upon comparisons of per-individual autozygosity likelihoods instead of inferred ROA frequencies."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "This weighted likelihood ROA inference approach can assist population- and disease-geneticists working with a wide variety of data types and species to explore ROA patterns and to identify genomic regions with differential ROA signals among groups, thereby advancing our understanding of evolutionary history and the role of recessive variation in phenotypic variation and disease."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alexandra",
+            "LastName": "Blant",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Biochemistry and Medical Genetics, University of Manitoba, Winnipeg, MB, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michelle",
+            "LastName": "Kwong",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Biochemistry and Medical Genetics, University of Manitoba, Winnipeg, MB, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zachary A",
+            "LastName": "Szpiech",
+            "Initials": "ZA",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Trevor J",
+            "LastName": "Pemberton",
+            "Initials": "TJ",
+            "AffiliationInfo": {"Affiliation": "Department of Biochemistry and Medical Genetics, University of Manitoba, Winnipeg, MB, Canada. Trevor.Pemberton@umanitoba.ca."}
+          }
+        ]
+      },
+      "ArticleTitle": "Weighted likelihood inference of genomic autozygosity patterns in dense genotype data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12864-017-4312-3"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Genomics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2164"
+        },
+        "Title": "BMC genomics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Autozygosity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Consanguinity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Homozygosity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Human populations"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Identity by descent"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Inbreeding"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Apr 16;10(4):e0124157",
+        "PMID": {
+          "Version": 1,
+          "content": 25880228
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hepatology. 2010 Dec;52(6):2034-43",
+        "PMID": {
+          "Version": 1,
+          "content": 21105107
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 May 27;429(6990):446-52",
+        "PMID": {
+          "Version": 1,
+          "content": 15164069
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genet. 2012 Aug 14;13:70",
+        "PMID": {
+          "Version": 1,
+          "content": 22888858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Biol. 2014 Nov-Dec;26(6):784-95",
+        "PMID": {
+          "Version": 1,
+          "content": 25130378
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Genet Stat Med. 1967;17(1):112-9",
+        "PMID": {
+          "Version": 1,
+          "content": 5633117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Endocrinol Metab. 2010 Aug;95(8):3777-82",
+        "PMID": {
+          "Version": 1,
+          "content": 20466785
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2006 Oct 6;2(10):e150",
+        "PMID": {
+          "Version": 1,
+          "content": 17029559
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mutat. 2006 Nov;27(11):1115-21",
+        "PMID": {
+          "Version": 1,
+          "content": 16955415
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Jan 2;505(7481):43-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24352235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Phys Anthropol. 2012 Sep;149(1):92-103",
+        "PMID": {
+          "Version": 1,
+          "content": 22729696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Oct 1;526(7571):68-74",
+        "PMID": {
+          "Version": 1,
+          "content": 26432245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 1999 Dec;65(6):1493-500",
+        "PMID": {
+          "Version": 1,
+          "content": 10577902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2015 Oct 16;47:81",
+        "PMID": {
+          "Version": 1,
+          "content": 26475049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2006 Dec;2(12):e190",
+        "PMID": {
+          "Version": 1,
+          "content": 17194218
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2013 Jul 25;499(7459):471-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23823723
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2002 Apr 12;296(5566):261-2",
+        "PMID": {
+          "Version": 1,
+          "content": 11954565
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Zhonghua Yi Xue Za Zhi. 1981 Dec;61(12):723-8",
+        "PMID": {
+          "Version": 1,
+          "content": 6805882
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2014 Oct 04;46:64",
+        "PMID": {
+          "Version": 1,
+          "content": 25284459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2012;8(11):e1003100",
+        "PMID": {
+          "Version": 1,
+          "content": 23209444
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heart. 2004 Mar;90(3):259-63",
+        "PMID": {
+          "Version": 1,
+          "content": 14966040
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genet. 2013 Oct 30;14:106",
+        "PMID": {
+          "Version": 1,
+          "content": 24172017
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Animal. 2016 May;10 (5):746-54",
+        "PMID": {
+          "Version": 1,
+          "content": 27076405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2007 Nov;177(3):1725-31",
+        "PMID": {
+          "Version": 1,
+          "content": 17947444
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Genet. 2003 Dec;40(12):925-32",
+        "PMID": {
+          "Version": 1,
+          "content": 14684692
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Nov 1;102(44):15942-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16243969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem J. 2001 Dec 1;360(Pt 2):277-83",
+        "PMID": {
+          "Version": 1,
+          "content": 11716755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2003 Mar;33 Suppl:228-37",
+        "PMID": {
+          "Version": 1,
+          "content": 12610532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heredity (Edinb). 2015 Jul;115(1):63-72",
+        "PMID": {
+          "Version": 1,
+          "content": 26059970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 Jun 12;43(7):712-4",
+        "PMID": {
+          "Version": 1,
+          "content": 21666693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Apr 28;11(4):e0154259",
+        "PMID": {
+          "Version": 1,
+          "content": 27123581
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 May 26;106(21):8611-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19433783
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 May 6;111(18):6666-71",
+        "PMID": {
+          "Version": 1,
+          "content": 24753607
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2015 May 18;25(10):1395-400",
+        "PMID": {
+          "Version": 1,
+          "content": 25913407
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Apr 08;8(4):e60822",
+        "PMID": {
+          "Version": 1,
+          "content": 23593317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genet. 2009 Jan;124(6):579-91",
+        "PMID": {
+          "Version": 1,
+          "content": 19034520
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Genet. 2015 May 13;6:173",
+        "PMID": {
+          "Version": 1,
+          "content": 26074948
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mamm Genome. 2016 Dec;27(11-12):599-609",
+        "PMID": {
+          "Version": 1,
+          "content": 27510710
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2002 Oct 1;11(20):2417-23",
+        "PMID": {
+          "Version": 1,
+          "content": 12351577
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Jul 23;523(7561):459-462",
+        "PMID": {
+          "Version": 1,
+          "content": 26131930
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2016 Nov 24;48(1):91",
+        "PMID": {
+          "Version": 1,
+          "content": 27884108
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Dec 11;104(50):19942-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18077426
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2017 Mar 14;18(1):229",
+        "PMID": {
+          "Version": 1,
+          "content": 28288562
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetologia. 2013 Jun;56(6):1306-16",
+        "PMID": {
+          "Version": 1,
+          "content": 23508304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Med Genet A. 2012 May;158A(5):1236-41",
+        "PMID": {
+          "Version": 1,
+          "content": 22488956
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Coll Antropol. 2004;28 Suppl 2:311-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15571106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2015 Jan 17;47:1",
+        "PMID": {
+          "Version": 1,
+          "content": 25595431
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "G3 (Bethesda). 2013 May 20;3(5):891-907",
+        "PMID": {
+          "Version": 1,
+          "content": 23550135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eugen Q. 1968 Mar;15(1):22-33",
+        "PMID": {
+          "Version": 1,
+          "content": 5699847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "East Mediterr Health J. 2000 Mar-May;6(2-3):333-7",
+        "PMID": {
+          "Version": 1,
+          "content": 11556020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 May 11;107 Suppl 2:8954-61",
+        "PMID": {
+          "Version": 1,
+          "content": 20445096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Phys Anthropol. 1991 Feb;84(2):127-39",
+        "PMID": {
+          "Version": 1,
+          "content": 2021189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2015 Sep 21;6:8329",
+        "PMID": {
+          "Version": 1,
+          "content": 26387913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2007 Oct 18;449(7164):851-61",
+        "PMID": {
+          "Version": 1,
+          "content": 17943122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2017 Mar;205(3):1319-1334",
+        "PMID": {
+          "Version": 1,
+          "content": 28100590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 1969 Nov;21(6):537-46",
+        "PMID": {
+          "Version": 1,
+          "content": 5365755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2008 Mar 21;4(3):e1000037",
+        "PMID": {
+          "Version": 1,
+          "content": 18369456
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Nov 14;8(11):e80813",
+        "PMID": {
+          "Version": 1,
+          "content": 24348915
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2014 May;31(5):1275-91",
+        "PMID": {
+          "Version": 1,
+          "content": 24554778
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Pediatr Dent. 1995 Summer;19(4):305-6",
+        "PMID": {
+          "Version": 1,
+          "content": 7547492
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Behav Brain Sci. 2006 Aug;29(4):385-404; discussion 405-52",
+        "PMID": {
+          "Version": 1,
+          "content": 17094843
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Math Biosci. 2007 Jul;208(1):33-47",
+        "PMID": {
+          "Version": 1,
+          "content": 17157882
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2005 Apr;6(4):333-40",
+        "PMID": {
+          "Version": 1,
+          "content": 15803201
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Mar 20;9(3):e91237",
+        "PMID": {
+          "Version": 1,
+          "content": 24651212
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Hered. 2015;79(1):14-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25720536
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 2002 Jul;8(7):731-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12068289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2015 Apr;105(4):237-41",
+        "PMID": {
+          "Version": 1,
+          "content": 25620680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genet. 2011 May;129(5):521-31",
+        "PMID": {
+          "Version": 1,
+          "content": 21234765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 1993 Oct;5(2):195-200",
+        "PMID": {
+          "Version": 1,
+          "content": 8252047
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anim Genet. 2016 Dec;47(6):727-739",
+        "PMID": {
+          "Version": 1,
+          "content": 27436146
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2002 Feb;30(2):233-7",
+        "PMID": {
+          "Version": 1,
+          "content": 11788828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 1998 Nov;20(3):233-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9806540
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2012;8(4):e1002656",
+        "PMID": {
+          "Version": 1,
+          "content": 22511889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Genet. 1999;42(3):133-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10526655
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Obstet Gynecol. 1981 Nov 15;141(6):629-36",
+        "PMID": {
+          "Version": 1,
+          "content": 7315892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2012 Oct 12;338(6104):222-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22936568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2008 Jun 24;18(12):883-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18571414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2013 Sep;23(9):1514-21",
+        "PMID": {
+          "Version": 1,
+          "content": 23861382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(2):e56001",
+        "PMID": {
+          "Version": 1,
+          "content": 23409110
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Theor Popul Biol. 2008 Aug;74(1):130-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18572214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Forensic Sci Int Genet. 2015 Nov;19:37-38",
+        "PMID": {
+          "Version": 1,
+          "content": 26087347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2012 Aug 30;120(9):1908-15",
+        "PMID": {
+          "Version": 1,
+          "content": 22529292
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genet. 1984;67(1):103-6",
+        "PMID": {
+          "Version": 1,
+          "content": 6235167
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2010 Mar;20(3):393-402",
+        "PMID": {
+          "Version": 1,
+          "content": 20086244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA Neurol. 2015 Nov;72(11):1313-23",
+        "PMID": {
+          "Version": 1,
+          "content": 26366463
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genet. 2017 Jan 21;18(1):6",
+        "PMID": {
+          "Version": 1,
+          "content": 28109261
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2003 Mar 1;12(5):453-61",
+        "PMID": {
+          "Version": 1,
+          "content": 12588793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2001 Feb 15;409(6822):951-3",
+        "PMID": {
+          "Version": 1,
+          "content": 11237020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2011 Aug;21(8):1294-305",
+        "PMID": {
+          "Version": 1,
+          "content": 21566151
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2015 Jul 22;16:542",
+        "PMID": {
+          "Version": 1,
+          "content": 26198692
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Psychiatry. 2016 Jun;21(6):837-43",
+        "PMID": {
+          "Version": 1,
+          "content": 26390830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Animal. 2017 Jul;11(7):1107-1116",
+        "PMID": {
+          "Version": 1,
+          "content": 28077191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 Apr 10;348(6231):242-245",
+        "PMID": {
+          "Version": 1,
+          "content": 25859046
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Epidemiol. 2016 Apr;26(4):283-92",
+        "PMID": {
+          "Version": 1,
+          "content": 27084548
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IMA J Math Appl Med Biol. 1994;11(1):1-16",
+        "PMID": {
+          "Version": 1,
+          "content": 8057038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2010 Apr 9;86(4):526-39",
+        "PMID": {
+          "Version": 1,
+          "content": 20303063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Genet. 2016 Nov;57(4):527-530",
+        "PMID": {
+          "Version": 1,
+          "content": 26803654
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Sep 22;5:14315",
+        "PMID": {
+          "Version": 1,
+          "content": 26391888
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2015 Aug 6;97(2):228-37",
+        "PMID": {
+          "Version": 1,
+          "content": 26166477
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Med Genet. 1997 Feb 11;68(4):472-5",
+        "PMID": {
+          "Version": 1,
+          "content": 9021024
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2015 Mar 15;16:187",
+        "PMID": {
+          "Version": 1,
+          "content": 25879195
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2015 Sep 03;6:8085",
+        "PMID": {
+          "Version": 1,
+          "content": 26333996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2016 Sep;48(9):1071-6",
+        "PMID": {
+          "Version": 1,
+          "content": 27428751
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2006 Mar 1;15(5):789-95",
+        "PMID": {
+          "Version": 1,
+          "content": 16436455
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Jul 08;10(7):e0129967",
+        "PMID": {
+          "Version": 1,
+          "content": 26154171
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2001 Jul;69(1):124-37",
+        "PMID": {
+          "Version": 1,
+          "content": 11404818
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2016 Aug 02;17 :535",
+        "PMID": {
+          "Version": 1,
+          "content": 27485430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2011 Sep 23;12:460",
+        "PMID": {
+          "Version": 1,
+          "content": 21943305
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2017 Jan 19;18(1):102",
+        "PMID": {
+          "Version": 1,
+          "content": 28103797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1987 Jun 19;236(4808):1567-70",
+        "PMID": {
+          "Version": 1,
+          "content": 2884728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2009 Mar;5(3):e1000415",
+        "PMID": {
+          "Version": 1,
+          "content": 19282984
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Hered. 2014;77(1-4):37-48",
+        "PMID": {
+          "Version": 1,
+          "content": 25060268
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Dairy Sci. 2017 Jun;100(6):4721-4730",
+        "PMID": {
+          "Version": 1,
+          "content": 28434751
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2007 Jan 15;16(2):233-41",
+        "PMID": {
+          "Version": 1,
+          "content": 17220173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Evol Biol. 2010 Feb 09;10:36",
+        "PMID": {
+          "Version": 1,
+          "content": 20144208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Sep 22;106(38):16057-62",
+        "PMID": {
+          "Version": 1,
+          "content": 19706453
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2012 Jan;29(1):249-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21836184
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 1999 Dec;65(6):1489-92",
+        "PMID": {
+          "Version": 1,
+          "content": 10577901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dermatology. 1998;196(2):271-2",
+        "PMID": {
+          "Version": 1,
+          "content": 9568426
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2014 Oct;31(10):2824-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25015648
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Nov 15;5(11):e13996",
+        "PMID": {
+          "Version": 1,
+          "content": 21085596
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Genet. 2009 Jun 12;10:55",
+        "PMID": {
+          "Version": 1,
+          "content": 19523202
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 Jan 27;12 (1):e0171088",
+        "PMID": {
+          "Version": 1,
+          "content": 28129396
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2002 Nov 12;99(23):15054-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12409608
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anim Genet. 2017 Aug;48(4):436-446",
+        "PMID": {
+          "Version": 1,
+          "content": 28543827
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol Evol. 2015 Apr 14;7(5):1206-15",
+        "PMID": {
+          "Version": 1,
+          "content": 25877615
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2013 Jun;194(2):459-71",
+        "PMID": {
+          "Version": 1,
+          "content": 23535385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2009 Oct;5(10):e1000686",
+        "PMID": {
+          "Version": 1,
+          "content": 19834557
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2002 Mar;3(3):225-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11972160
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans R Soc Lond B Biol Sci. 2011 Mar 27;366(1566):863-77",
+        "PMID": {
+          "Version": 1,
+          "content": 21320900
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genet. 2011 Jul 28;12:67",
+        "PMID": {
+          "Version": 1,
+          "content": 21798003
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Hum Genet. 2008 Mar;72(Pt 2):279-87",
+        "PMID": {
+          "Version": 1,
+          "content": 18093282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Scand J Gastroenterol Suppl. 1994;202:7-20",
+        "PMID": {
+          "Version": 1,
+          "content": 8042019
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 Sep;19(9):1630-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19570905
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Sep 2;467(7311):52-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20811451
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Hum Genet. 2016 Aug;61(8):721-9",
+        "PMID": {
+          "Version": 1,
+          "content": 27098877
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(4):e34840",
+        "PMID": {
+          "Version": 1,
+          "content": 22536334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 1993 Dec;5(4):392-6",
+        "PMID": {
+          "Version": 1,
+          "content": 8298649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2012 Oct 15;21(20):4530-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22791750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2014 Aug;46(8):919-25",
+        "PMID": {
+          "Version": 1,
+          "content": 24952747
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Otolaryngol. 1992;112(4):622-7",
+        "PMID": {
+          "Version": 1,
+          "content": 1442008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2016 Aug 17;536(7616):285-91",
+        "PMID": {
+          "Version": 1,
+          "content": 27535533
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Hum Genet. 2008 Mar;72(Pt 2):261-78",
+        "PMID": {
+          "Version": 1,
+          "content": 18205893
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2003 Feb;19(2):97-106",
+        "PMID": {
+          "Version": 1,
+          "content": 12547519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2011 Sep;189(1):237-49",
+        "PMID": {
+          "Version": 1,
+          "content": 21705750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2003 Mar 1;12(5):463-71",
+        "PMID": {
+          "Version": 1,
+          "content": 12588794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 1974 Nov;26(6):674-82",
+        "PMID": {
+          "Version": 1,
+          "content": 4474815
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2013;4:1884",
+        "PMID": {
+          "Version": 1,
+          "content": 23695678
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Biol. 1999 Aug;71(4):659-84",
+        "PMID": {
+          "Version": 1,
+          "content": 10453106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 Feb;19(2):318-26",
+        "PMID": {
+          "Version": 1,
+          "content": 18971310
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(9):e25059",
+        "PMID": {
+          "Version": 1,
+          "content": 21949849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2003 Mar;163(3):1011-21",
+        "PMID": {
+          "Version": 1,
+          "content": 12663539
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2009 Feb;33(2):172-80",
+        "PMID": {
+          "Version": 1,
+          "content": 18814273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(3):e28787",
+        "PMID": {
+          "Version": 1,
+          "content": 22427796
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anim Genet. 2015 Apr;46(2):110-21",
+        "PMID": {
+          "Version": 1,
+          "content": 25530322
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2008 Apr 15;68(8):2610-21",
+        "PMID": {
+          "Version": 1,
+          "content": 18375840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2008 Dec;83(6):787-94",
+        "PMID": {
+          "Version": 1,
+          "content": 19061986
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2013 Sep;30(9):2209-23",
+        "PMID": {
+          "Version": 1,
+          "content": 23842528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2017 Aug 14;18(1):609",
+        "PMID": {
+          "Version": 1,
+          "content": 28806925
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2007 Jan 1;16(1):1-14",
+        "PMID": {
+          "Version": 1,
+          "content": 17116639
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 1973 Nov;25(6):581-93",
+        "PMID": {
+          "Version": 1,
+          "content": 4797966
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2008 Sep;83(3):359-72",
+        "PMID": {
+          "Version": 1,
+          "content": 18760389
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Hered. 1980;30(5):278-85",
+        "PMID": {
+          "Version": 1,
+          "content": 6967046
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heredity (Edinb). 2016 Jan;116(1):60-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26243137
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2012 Aug 10;91(2):275-92",
+        "PMID": {
+          "Version": 1,
+          "content": 22883143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2014 Nov 18;46:71",
+        "PMID": {
+          "Version": 1,
+          "content": 25407532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jul 25;9(7):e103102",
+        "PMID": {
+          "Version": 1,
+          "content": 25062308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Ophthalmol Vis Sci. 2011 Apr 06;52(5):2227-39",
+        "PMID": {
+          "Version": 1,
+          "content": 21217109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1978 Aug;75(8):3906-8",
+        "PMID": {
+          "Version": 1,
+          "content": 279005
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2008 Feb 21;451(7181):998-1003",
+        "PMID": {
+          "Version": 1,
+          "content": 18288195
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2015 Mar 5;96(3):377-85",
+        "PMID": {
+          "Version": 1,
+          "content": 25683123
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Genet. 2015 Jan 29;6:5",
+        "PMID": {
+          "Version": 1,
+          "content": 25688258
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2010 Aug 1;19(15):2927-35",
+        "PMID": {
+          "Version": 1,
+          "content": 20462934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2009 Jan;5(1):e1000353",
+        "PMID": {
+          "Version": 1,
+          "content": 19165332
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2016 Mar 30;48:24",
+        "PMID": {
+          "Version": 1,
+          "content": 27029213
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2013 Jul 11;93(1):90-102",
+        "PMID": {
+          "Version": 1,
+          "content": 23746547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Am. 1972 Oct;227(4):71-8",
+        "PMID": {
+          "Version": 1,
+          "content": 4672311
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Dis Child. 2012 Aug;97(8):721-3",
+        "PMID": {
+          "Version": 1,
+          "content": 22859427
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mamm Genome. 2016 Apr;27(3-4):144-55",
+        "PMID": {
+          "Version": 1,
+          "content": 26956354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genet. 2005 Mar;116(4):292-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15660226
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Zhonghua Yi Xue Za Zhi. 1992 Nov;72(11):674-6, 703",
+        "PMID": {
+          "Version": 1,
+          "content": 1338706
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2017 Feb 1;34(2):318-329",
+        "PMID": {
+          "Version": 1,
+          "content": 27744413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Sep;81(3):559-75",
+        "PMID": {
+          "Version": 1,
+          "content": 17701901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2010 Aug 10;8(8):e1000451",
+        "PMID": {
+          "Version": 1,
+          "content": 20711490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Hered. 2001;51(1-2):27-34",
+        "PMID": {
+          "Version": 1,
+          "content": 11096268
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Hum Genet. 2016 Jul;24(7):1063-70",
+        "PMID": {
+          "Version": 1,
+          "content": 26669659
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Anthropogenet. 1982;6(1):45-55",
+        "PMID": {
+          "Version": 1,
+          "content": 7138648
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2006 Nov;38(11):1251-60",
+        "PMID": {
+          "Version": 1,
+          "content": 17057719
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2012;8(7):e1002655",
+        "PMID": {
+          "Version": 1,
+          "content": 22829771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Dig Dis. 1970 Aug;15(8):695-710",
+        "PMID": {
+          "Version": 1,
+          "content": 5468838
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2005 Dec;1(6):e70",
+        "PMID": {
+          "Version": 1,
+          "content": 16355252
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2015 Apr 16;16:302",
+        "PMID": {
+          "Version": 1,
+          "content": 25887761
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2014 Oct 21;5:5257",
+        "PMID": {
+          "Version": 1,
+          "content": 25334030
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Phys Anthropol. 2005 Oct;128(2):415-23",
+        "PMID": {
+          "Version": 1,
+          "content": 15795887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Hum Genet. 2014 Mar;22(3):386-90",
+        "PMID": {
+          "Version": 1,
+          "content": 23860046
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Hum Genet. 2008 Jul;72(Pt 4):535-46",
+        "PMID": {
+          "Version": 1,
+          "content": 18513279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2014 Nov;24(11):1734-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25304867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Appl Genet Mol Biol. 2010;9:Article 13",
+        "PMID": {
+          "Version": 1,
+          "content": 20196748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Jun 1;32(11):1749-51",
+        "PMID": {
+          "Version": 1,
+          "content": 26826718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Jul 1;33(13):2059-2062",
+        "PMID": {
+          "Version": 1,
+          "content": 28205676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2002 Jul;31(3):241-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12053178
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2016 Mar 16;16:227",
+        "PMID": {
+          "Version": 1,
+          "content": 26984635
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Lett. 2009 Aug 23;5(4):574-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19324620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 May;19(5):795-803",
+        "PMID": {
+          "Version": 1,
+          "content": 19218534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Oct 28;467(7319):1061-73",
+        "PMID": {
+          "Version": 1,
+          "content": 20981092
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Genomics. 2015 Dec 1;37(12 ):1007-1016",
+        "PMID": {
+          "Version": 1,
+          "content": 26702338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2011 Apr;7(4):e1001363",
+        "PMID": {
+          "Version": 1,
+          "content": 21490949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2007 Sep;24(9):2049-58",
+        "PMID": {
+          "Version": 1,
+          "content": 17630283
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Soc Biol. 1979 Spring;26(1):55-71",
+        "PMID": {
+          "Version": 1,
+          "content": 538465
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Anim Breed Genet. 2013 Aug;130(4):286-93",
+        "PMID": {
+          "Version": 1,
+          "content": 23855630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Apr 08;9(4):e93828",
+        "PMID": {
+          "Version": 1,
+          "content": 24714198
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2014 Nov 15;23 (22):6088-95",
+        "PMID": {
+          "Version": 1,
+          "content": 24943592
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Hum Genet. 2010 Nov;18(11):1248-54",
+        "PMID": {
+          "Version": 1,
+          "content": 20571510
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Dec 02;5:17453",
+        "PMID": {
+          "Version": 1,
+          "content": 26625947
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Hum Genet. 2012 Feb;57(2):101-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22129560
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Feb 09;7:42187",
+        "PMID": {
+          "Version": 1,
+          "content": 28181990
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Endocrinol. 2003 Mar;148(3):293-300",
+        "PMID": {
+          "Version": 1,
+          "content": 12611609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Anim Sci. 2014 Jun;92(6):2372-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24671594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2007 Jan;39(1):31-40",
+        "PMID": {
+          "Version": 1,
+          "content": 17159977
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Anim Breed Genet. 2013 Oct;130(5):349-60",
+        "PMID": {
+          "Version": 1,
+          "content": 24074172
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Hum Genet. 2011 Jul;56(7):524-33",
+        "PMID": {
+          "Version": 1,
+          "content": 21633363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2003 Jul 8;100(14):8384-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12815107
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2011 Dec;35(8):766-80",
+        "PMID": {
+          "Version": 1,
+          "content": 22125220
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2005 Mar 8;15(5):R159-60",
+        "PMID": {
+          "Version": 1,
+          "content": 15753023
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2012;8(3):e1002559",
+        "PMID": {
+          "Version": 1,
+          "content": 22412388
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA Neurol. 2013 Oct;70(10):1261-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23978990
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Hum Genet. 2015 Oct;23 (10 ):1405-12",
+        "PMID": {
+          "Version": 1,
+          "content": 25604856
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2008 Feb 22;319(5866):1100-4",
+        "PMID": {
+          "Version": 1,
+          "content": 18292342
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Isr J Med Sci. 1978 Sep;14(9):962-9",
+        "PMID": {
+          "Version": 1,
+          "content": 721424
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2009 Apr;33(3):266-74",
+        "PMID": {
+          "Version": 1,
+          "content": 19025785
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bull World Health Organ. 1966;34 Suppl:9-127",
+        "PMID": {
+          "Version": 1,
+          "content": 5296840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Med Genet. 1989 May;33(1):1-6",
+        "PMID": {
+          "Version": 1,
+          "content": 2750776
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2015 Oct 09;16:764",
+        "PMID": {
+          "Version": 1,
+          "content": 26452642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 May 2;12 (5):e0176780",
+        "PMID": {
+          "Version": 1,
+          "content": 28463982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Hum Genet. 2009 Mar;17(3):357-67",
+        "PMID": {
+          "Version": 1,
+          "content": 18797476
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2004 Oct;36(10):1045-51",
+        "PMID": {
+          "Version": 1,
+          "content": 15454942
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Med. 2013 Jan;15(1):36-44",
+        "PMID": {
+          "Version": 1,
+          "content": 22995991
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2001 Sep;17(9):502-10",
+        "PMID": {
+          "Version": 1,
+          "content": 11525833
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Canine Genet Epidemiol. 2016 Jul 29;3:6",
+        "PMID": {
+          "Version": 1,
+          "content": 27478618
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes (Basel). 2017 May 04;8(5):",
+        "PMID": {
+          "Version": 1,
+          "content": 28471380
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2010 Oct 8;87(4):457-64",
+        "PMID": {
+          "Version": 1,
+          "content": 20869033
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2001 Feb 13;98(4):2011-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11172067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 21;9(1):e85925",
+        "PMID": {
+          "Version": 1,
+          "content": 24465792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2002 Feb;18(2):337-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11847089
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mamm Genome. 2017 Apr;28(3-4):114-128",
+        "PMID": {
+          "Version": 1,
+          "content": 28255622
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Biol. 1999 Apr;71(2):173-87",
+        "PMID": {
+          "Version": 1,
+          "content": 10222641
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2007 Dec;17(12):1783-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17989245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 1991 Oct 12;338(8772):954",
+        "PMID": {
+          "Version": 1,
+          "content": 1681304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Clin Nutr. 1976 Jan;29(1):19-24",
+        "PMID": {
+          "Version": 1,
+          "content": 946157
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arctic Med Res. 1992 Jul;51(3):136-42",
+        "PMID": {
+          "Version": 1,
+          "content": 1503580
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Test. 2008 Sep;12(3):367-72",
+        "PMID": {
+          "Version": 1,
+          "content": 18666858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 1993 Oct;5(2):201-4",
+        "PMID": {
+          "Version": 1,
+          "content": 8252048
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29191164
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29191164,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12864-017-4312-3",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12864-017-4312-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5709839",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

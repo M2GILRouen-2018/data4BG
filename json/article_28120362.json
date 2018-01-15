@@ -1,0 +1,211 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 28
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1287-1300"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Iterative image reconstruction is often time-consuming, especially for helical CT. The calculation of X-ray projections and backprojections are computationally expensive. Although they can be significantly accelerated by parallel computing (e.g., via graphics processing unit (GPU)), they have to be calculated numerous times on-the-fly (OTF) during iterative image reconstruction due to insufficient memory storage. In this work, the memory-efficient algorithm for stored system matrix (SSM) is developed for both projections and backprojections to avoid repeated OTF computations of system matrices."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The SSM algorithm is based on the shift-invariance for projection and backprojection under a rotating coordinate. As a result, the size of projection and backprojection matrices can be significantly reduced and fully stored in memory. The proposed method can be readily incorporated into iterative reconstruction algorithm with minor modification, i.e., by replacing OTF for SSM. Rigorous mathematical analysis is carried out to establish the shift-invariance for ray-driven projection and pixel-driven backprojection."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Numerical results via GPU suggest that the proposed SSM method has improved computational efficiency from the OTF method, i.e., by three- to sixfold acceleration for the projection and 3- to 16-fold acceleration for the backprojection respectively for helical CT."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "We propose a memory-efficient SSM algorithm for projections and backprojections so that system matrices can be fully stored on the state-of-the-art GPU to facilitate the rapid iterative helical CT image reconstruction."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Minghao",
+            "LastName": "Guo",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Shanghai Jiao Tong University, Shanghai, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hao",
+            "LastName": "Gao",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Duke University Medical Center, Durham, NC, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Memory-efficient algorithm for stored projection and backprojection matrix in helical CT.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12118"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "helical CT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "image reconstruction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "x-ray transform"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D059629",
+        "MajorTopicYN": "N",
+        "content": "Signal-To-Noise Ratio"
+      }},
+      {"DescriptorName": {
+        "UI": "D036542",
+        "MajorTopicYN": "Y",
+        "content": "Tomography, Spiral Computed"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28120362
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28120362,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12118",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

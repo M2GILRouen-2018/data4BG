@@ -1,0 +1,180 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "41-53"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NINDS NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 NS056307",
+          "Acronym": "NS"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": "Diffusion magnetic resonance imaging (dMRI) has enabled in vivo investigation of white matter tracts. Fiber orientation (FO) estimation is a key step in tract reconstruction and has been a popular research topic in dMRI analysis. In particular, the sparsity assumption has been used in conjunction with a dictionary-based framework to achieve reliable FO estimation with a reduced number of gradient directions. Because image noise can have a deleterious effect on the accuracy of FO estimation, previous works have incorporated spatial consistency of FOs in the dictionary-based framework to improve the estimation. However, because FOs are only indirectly determined from the mixture fractions of dictionary atoms and not modeled as variables in the objective function, these methods do not incorporate FO smoothness directly, and their ability to produce smooth FOs could be limited. In this work, we propose an improvement to Fiber Orientation Reconstruction using Neighborhood Information (FORNI), which we call FORNI+; this method estimates FOs in a dictionary-based framework where FO smoothness is better enforced than in FORNI alone. We describe an objective function that explicitly models the actual FOs and the mixture fractions of dictionary atoms. Specifically, it consists of data fidelity between the observed signals and the signals represented by the dictionary, pairwise FO dissimilarity that encourages FO smoothness, and weighted ℓ1-norm terms that ensure the consistency between the actual FOs and the FO configuration suggested by the dictionary representation. The FOs and mixture fractions are then jointly estimated by minimizing the objective function using an iterative alternating optimization strategy. FORNI+ was evaluated on a simulation phantom, a physical phantom, and real brain dMRI data. In particular, in the real brain dMRI experiment, we have qualitatively and quantitatively evaluated the reproducibility of the proposed method. Results demonstrate that FORNI+ produces FOs with better quality compared with competing methods."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chuyang",
+            "LastName": "Ye",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Brainnetome Center, Institute of Automation, Chinese Academy of Sciences, Beijing, China; National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences, Beijing, China. Electronic address: chuyang.ye@nlpr.ia.ac.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jerry L",
+            "LastName": "Prince",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computer Engineering, Johns Hopkins University, Baltimore, MD, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Dictionary-based fiber orientation estimation with improved spatial consistency.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1361-8415(17)30179-2"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.media.2017.11.010"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Dictionary-based FO estimation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Diffusion MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pairwise FO dissimilarity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Spatial consistency"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29190575
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29190575,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(17)30179-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2017.11.010",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

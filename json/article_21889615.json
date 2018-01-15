@@ -1,0 +1,250 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100970413,
+      "Country": "United States",
+      "ISSNLinking": "1532-0464",
+      "MedlineTA": "J Biomed Inform"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2012,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1093-101"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2011,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Published by Elsevier Inc.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "BACKGROUND",
+            "content": "Automated surveillance systems require statistical methods to recognize increases in visit counts that might indicate an outbreak. In prior work we presented methods to enhance the sensitivity of C2, a commonly used time series method. In this study, we compared the enhanced C2 method with five regression models."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We used emergency department chief complaint data from US CDC BioSense surveillance system, aggregated by city (total of 206 hospitals, 16 cities) during 5/2008-4/2009. Data for six syndromes (asthma, gastrointestinal, nausea and vomiting, rash, respiratory, and influenza-like illness) was used and was stratified by mean count (1-19, 20-49, ≥50 per day) into 14 syndrome-count categories. We compared the sensitivity for detecting single-day artificially-added increases in syndrome counts. Four modifications of the C2 time series method, and five regression models (two linear and three Poisson), were tested. A constant alert rate of 1% was used for all methods."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Among the regression models tested, we found that a Poisson model controlling for the logarithm of total visits (i.e., visits both meeting and not meeting a syndrome definition), day of week, and 14-day time period was best. Among 14 syndrome-count categories, time series and regression methods produced approximately the same sensitivity (<5% difference) in 6; in six categories, the regression method had higher sensitivity (range 6-14% improvement), and in two categories the time series method had higher sensitivity."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "DISCUSSION",
+            "content": "When automated data are aggregated to the city level, a Poisson regression model that controls for total visits produces the best overall sensitivity for detecting artificially added visit counts. This improvement was achieved without increasing the alert rate, which was held constant at 1% for all methods. These findings will improve our ability to detect outbreaks in automated surveillance system data."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jian",
+            "LastName": "Xing",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Centers for Disease Control and Prevention, Atlanta, GA 30333, USA. jxing@cdc.gov"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Howard",
+            "LastName": "Burkom",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jerome",
+            "LastName": "Tokars",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "Method selection and adaptation for distributed monitoring of infectious diseases for syndromic surveillance.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1016/j.jbi.2011.08.012"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2011
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Biomed Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1532-0480"
+        },
+        "Title": "Journal of biomedical informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 11,
+      "Year": 2011,
+      "Day": 29
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000517",
+          "MajorTopicYN": "N",
+          "content": "prevention & control"
+        },
+        "DescriptorName": {
+          "UI": "D023482",
+          "MajorTopicYN": "N",
+          "content": "Bioterrorism"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003141",
+        "MajorTopicYN": "Y",
+        "content": "Communicable Diseases"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000517",
+            "MajorTopicYN": "Y",
+            "content": "prevention & control"
+          },
+          {
+            "UI": "Q000706",
+            "MajorTopicYN": "N",
+            "content": "statistics & numerical data"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D004196",
+          "MajorTopicYN": "N",
+          "content": "Disease Outbreaks"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008490",
+        "MajorTopicYN": "N",
+        "content": "Medical Informatics"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011159",
+          "MajorTopicYN": "N",
+          "content": "Population Surveillance"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012044",
+        "MajorTopicYN": "N",
+        "content": "Regression Analysis"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2011,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 21889615
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2010,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2011,
+        "Day": 15,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2011,
+        "Day": 18,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 21889615,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1532-0464(11)00139-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jbi.2011.08.012",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

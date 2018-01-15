@@ -1,0 +1,913 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0411011",
+      "Country": "England",
+      "ISSNLinking": "0305-1048",
+      "MedlineTA": "Nucleic Acids Res"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "D360-D370"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author(s) 2017. Published by Oxford University Press on behalf of Nucleic Acids Research.",
+        "AbstractText": "MicroRNAs are important regulators of gene expression, achieved by binding to the gene to be regulated. Even with modern high-throughput technologies, it is laborious and expensive to detect all possible microRNA targets. For this reason, several computational microRNA-target prediction tools have been developed, each with its own strengths and limitations. Integration of different tools has been a successful approach to minimize the shortcomings of individual databases. Here, we present mirDIP v4.1, providing nearly 152 million human microRNA-target predictions, which were collected across 30 different resources. We also introduce an integrative score, which was statistically inferred from the obtained predictions, and was assigned to each unique microRNA-target interaction to provide a unified measure of confidence. We demonstrate that integrating predictions across multiple resources does not cumulate prediction bias toward biological processes or pathways. mirDIP v4.1 is freely available at http://ophid.utoronto.ca/mirDIP/."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tomas",
+            "LastName": "Tokar",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Krembil Research Institute, University Health Network, Toronto, Ontario M5T 2S8, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chiara",
+            "LastName": "Pastrello",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Krembil Research Institute, University Health Network, Toronto, Ontario M5T 2S8, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrea E M",
+            "LastName": "Rossos",
+            "Initials": "AEM",
+            "AffiliationInfo": {"Affiliation": "Krembil Research Institute, University Health Network, Toronto, Ontario M5T 2S8, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mark",
+            "LastName": "Abovsky",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Krembil Research Institute, University Health Network, Toronto, Ontario M5T 2S8, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anne-Christin",
+            "LastName": "Hauschild",
+            "Initials": "AC",
+            "AffiliationInfo": {"Affiliation": "Krembil Research Institute, University Health Network, Toronto, Ontario M5T 2S8, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mike",
+            "LastName": "Tsay",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Krembil Research Institute, University Health Network, Toronto, Ontario M5T 2S8, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Richard",
+            "LastName": "Lu",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Krembil Research Institute, University Health Network, Toronto, Ontario M5T 2S8, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Igor",
+            "LastName": "Jurisica",
+            "Initials": "I",
+            "AffiliationInfo": [
+              {"Affiliation": "Krembil Research Institute, University Health Network, Toronto, Ontario M5T 2S8, Canada."},
+              {"Affiliation": "Department of Medical Biophysics, University of Toronto, Toronto, Ontario M5G 1L7, Canada."},
+              {"Affiliation": "Department of Computer Science, University of Toronto, Toronto, Ontario M5S 3G4, Canada."},
+              {"Affiliation": "Institute of Neuroimmunology, Slovak Academy of Sciences, Bratislava, 845 10, Slovakia."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "mirDIP 4.1-integrative database of human microRNA target predictions.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/nar/gkx1144"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "D1",
+          "Volume": 46,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018,
+            "Day": "04"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Nucleic Acids Res.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1362-4962"
+        },
+        "Title": "Nucleic acids research"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": 10
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011 Feb 25;6(2):e17429",
+        "PMID": {
+          "Version": 1,
+          "content": 21364759
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2016 Apr 18;17 :167",
+        "PMID": {
+          "Version": 1,
+          "content": 27091357
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Oct 15;29(20):2657-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24013925
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Dec 15;28(24):3322-3",
+        "PMID": {
+          "Version": 1,
+          "content": 23074262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Jan;39(Database issue):D188-94",
+        "PMID": {
+          "Version": 1,
+          "content": 21149264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Aug 1;26(15):1920-1",
+        "PMID": {
+          "Version": 1,
+          "content": 20529892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2015 Apr 08;2015:bav035",
+        "PMID": {
+          "Version": 1,
+          "content": 25858286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jul;42(Web Server issue):W107-13",
+        "PMID": {
+          "Version": 1,
+          "content": 24829448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Sep 22;11:476",
+        "PMID": {
+          "Version": 1,
+          "content": 20860840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(1):e53685",
+        "PMID": {
+          "Version": 1,
+          "content": 23326485
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2017 Apr;18(4):215-228",
+        "PMID": {
+          "Version": 1,
+          "content": 28196981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jul;42(Web Server issue):W114-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24803672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 2007 May 1;21(9):1025-30",
+        "PMID": {
+          "Version": 1,
+          "content": 17437991
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2016 Apr 17;2016:",
+        "PMID": {
+          "Version": 1,
+          "content": 27087310
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jan;43(Database issue):D160-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25416797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2012 Dec;100(6):352-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22940442
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Nov 1;31(21):3529-36",
+        "PMID": {
+          "Version": 1,
+          "content": 26130578
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Histopathology. 2014 Sep;65(3):408-17",
+        "PMID": {
+          "Version": 1,
+          "content": 24612219
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 May 28;11:292",
+        "PMID": {
+          "Version": 1,
+          "content": 20509939
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Jan;37(Database issue):D105-10",
+        "PMID": {
+          "Version": 1,
+          "content": 18996891
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gene. 2011 Jul 1;480(1-2):51-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21435384
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Jan 23;5:8004",
+        "PMID": {
+          "Version": 1,
+          "content": 25614300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Medicine (Baltimore). 2017 Aug;96(32):e7764",
+        "PMID": {
+          "Version": 1,
+          "content": 28796071
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2017 Jan 25;45(2):556-566",
+        "PMID": {
+          "Version": 1,
+          "content": 27899600
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 2012 Oct;18(10):1760-70",
+        "PMID": {
+          "Version": 1,
+          "content": 22915600
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Jan;39(Database issue):D170-80",
+        "PMID": {
+          "Version": 1,
+          "content": 21177657
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "OMICS. 2012 May;16(5):284-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22455463
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes (Basel). 2014 Dec 24;6(1):1-21",
+        "PMID": {
+          "Version": 1,
+          "content": 25546138
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2016 May 17;17 :364",
+        "PMID": {
+          "Version": 1,
+          "content": 27189211
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2015 Jul;16(7):421-33",
+        "PMID": {
+          "Version": 1,
+          "content": 26077373
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 2012 Nov-Dec;1819(11-12):1113-22",
+        "PMID": {
+          "Version": 1,
+          "content": 22698995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Cell. 2016 Feb;7(2):100-13",
+        "PMID": {
+          "Version": 1,
+          "content": 26399619
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 2007 Nov;13(11):1894-910",
+        "PMID": {
+          "Version": 1,
+          "content": 17872505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D68-73",
+        "PMID": {
+          "Version": 1,
+          "content": 24275495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Pathol. 2014;9:287-314",
+        "PMID": {
+          "Version": 1,
+          "content": 24079833
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 May 13;11:249",
+        "PMID": {
+          "Version": 1,
+          "content": 20465802
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Endocr Relat Cancer. 2010 Jan 29;17(1):F19-36",
+        "PMID": {
+          "Version": 1,
+          "content": 19779035
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Genomics. 2014;2014:970607",
+        "PMID": {
+          "Version": 1,
+          "content": 25180174
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 2006 Feb;12(2):192-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16373484
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2015 Feb;25(2):257-67",
+        "PMID": {
+          "Version": 1,
+          "content": 25378249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2014 Aug;15(8):509-24",
+        "PMID": {
+          "Version": 1,
+          "content": 25027649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2008 Jan;36(Database issue):D165-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18029362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2017 Apr 20;45(7):e51",
+        "PMID": {
+          "Version": 1,
+          "content": 27986855
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Aug 1;28(15):2062-3",
+        "PMID": {
+          "Version": 1,
+          "content": 22718787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2007 Oct;39(10):1278-84",
+        "PMID": {
+          "Version": 1,
+          "content": 17893677
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 2004 Oct;10(10):1507-17",
+        "PMID": {
+          "Version": 1,
+          "content": 15383676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Jul;37(Web Server issue):W356-62",
+        "PMID": {
+          "Version": 1,
+          "content": 19420067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Feb;12(2):99-110",
+        "PMID": {
+          "Version": 1,
+          "content": 21245828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2005 May;37(5):495-500",
+        "PMID": {
+          "Version": 1,
+          "content": 15806104
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(9):e24583",
+        "PMID": {
+          "Version": 1,
+          "content": 21949731
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(8):R90",
+        "PMID": {
+          "Version": 1,
+          "content": 20799968
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jan;43(Database issue):D153-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25416803
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2014;2014:527895",
+        "PMID": {
+          "Version": 1,
+          "content": 24991561
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Nov 15;23(22):2987-92",
+        "PMID": {
+          "Version": 1,
+          "content": 17925304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2007 Mar 01;8:69",
+        "PMID": {
+          "Version": 1,
+          "content": 17331257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2017 Apr 7;45(6):e42",
+        "PMID": {
+          "Version": 1,
+          "content": 27903911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2009;2009:bap008",
+        "PMID": {
+          "Version": 1,
+          "content": 20157481
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2011 Aug 5;146(3):353-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21802130
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Dec 15;26(24):3131-2",
+        "PMID": {
+          "Version": 1,
+          "content": 20959382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2007 Dec;4(12):1045-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18026111
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Nov 24;12:454",
+        "PMID": {
+          "Version": 1,
+          "content": 22115078
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Jan 15;26(2):223-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19933167
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Jul 26;12:300",
+        "PMID": {
+          "Version": 1,
+          "content": 21791068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Apr 20;43(7):3490-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25800743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Feb 18;43(3):1380-91",
+        "PMID": {
+          "Version": 1,
+          "content": 25628353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neural Transm (Vienna). 2015 Jan;122(1):79-97",
+        "PMID": {
+          "Version": 1,
+          "content": 25395183
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2012 Nov 23;13:661",
+        "PMID": {
+          "Version": 1,
+          "content": 23173617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 May 15;31(10):1592-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25609791
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jul;41(Web Server issue):W159-64",
+        "PMID": {
+          "Version": 1,
+          "content": 23703208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2016 Jul 20;12 (7):e1005026",
+        "PMID": {
+          "Version": 1,
+          "content": 27438777
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jan;43(Database issue):D146-52",
+        "PMID": {
+          "Version": 1,
+          "content": 25378301
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W696-700",
+        "PMID": {
+          "Version": 1,
+          "content": 15980566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jan;41(Database issue):D252-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23193297
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2013 Feb;101(2):94-100",
+        "PMID": {
+          "Version": 1,
+          "content": 23174671
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Jul;39(Web Server issue):W416-23",
+        "PMID": {
+          "Version": 1,
+          "content": 21558324
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Dec;40(22):11673-83",
+        "PMID": {
+          "Version": 1,
+          "content": 23034802
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(8):e42390",
+        "PMID": {
+          "Version": 1,
+          "content": 22870325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Renal Physiol. 2014 Dec 15;307(12):F1390-403",
+        "PMID": {
+          "Version": 1,
+          "content": 25354942
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2015 Sep 30;2015:null",
+        "PMID": {
+          "Version": 1,
+          "content": 26424082
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2017 Mar 14;18(Suppl 3):44",
+        "PMID": {
+          "Version": 1,
+          "content": 28361682
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2016 Jan 26;14 (3):520-533",
+        "PMID": {
+          "Version": 1,
+          "content": 26776511
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(2):e30766",
+        "PMID": {
+          "Version": 1,
+          "content": 22348024
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Aug;12(8):697",
+        "PMID": {
+          "Version": 1,
+          "content": 26226356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Oct 15;25(20):2625-31",
+        "PMID": {
+          "Version": 1,
+          "content": 19692556
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2006 Sep 18;7:411",
+        "PMID": {
+          "Version": 1,
+          "content": 16978421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(6):e20622",
+        "PMID": {
+          "Version": 1,
+          "content": 21674004
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Mar 1;30(5):621-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24135265
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Sep 1;32(17 ):2722-4",
+        "PMID": {
+          "Version": 1,
+          "content": 27153626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Lett. 2014 Jan 1;342(1):43-51",
+        "PMID": {
+          "Version": 1,
+          "content": 23981581
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2012 Jun;22(6):1163-72",
+        "PMID": {
+          "Version": 1,
+          "content": 22345618
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2015 Nov 25;16:999",
+        "PMID": {
+          "Version": 1,
+          "content": 26608597
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29194489
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 30,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29194489,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 4670951,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/nar/gkx1144",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5753284",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,759 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101301827,
+      "Country": "England",
+      "ISSNLinking": "1752-0509",
+      "MedlineTA": "BMC Syst Biol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 105},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Agence Nationale de la Recherche",
+          "Country": "United States",
+          "GrantID": "ANR-IABI-3096"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The recent development of single-cell transcriptomics has enabled gene expression to be measured in individual cells instead of being population-averaged. Despite this considerable precision improvement, inferring regulatory networks remains challenging because stochasticity now proves to play a fundamental role in gene expression. In particular, mRNA synthesis is now acknowledged to occur in a highly bursty manner."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We propose to view the inference problem as a fitting procedure for a mechanistic gene network model that is inherently stochastic and takes not only protein, but also mRNA levels into account. We first explain how to build and simulate this network model based upon the coupling of genes that are described as piecewise-deterministic Markov processes. Our model is modular and can be used to implement various biochemical hypotheses including causal interactions between genes. However, a naive fitting procedure would be intractable. By performing a relevant approximation of the stationary distribution, we derive a tractable procedure that corresponds to a statistical hidden Markov model with interpretable parameters. This approximation turns out to be extremely close to the theoretical distribution in the case of a simple toggle-switch, and we show that it can indeed fit real single-cell data. As a first step toward inference, our approach was applied to a number of simple two-gene networks simulated in silico from the mechanistic model and satisfactorily recovered the original networks."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Our results demonstrate that functional interactions between genes can be inferred from the distribution of a mechanistic, dynamical stochastic model that is able to describe gene expression in individual cells. This approach seems promising in relation to the current explosion of single-cell expression data."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-0972-385X"
+            },
+            "ForeName": "Ulysse",
+            "LastName": "Herbach",
+            "Initials": "U",
+            "AffiliationInfo": [
+              {"Affiliation": "Univ Lyon, ENS de Lyon, Univ Claude Bernard, CNRS UMR 5239, INSERM U1210, Laboratory of Biology and Modelling of the Cell, 46 allée d'Italie Site Jacques Monod, Lyon, F-69007, France."},
+              {"Affiliation": "Inria Team Dracula, Inria Center Grenoble Rhône-Alpes, Lyon, France."},
+              {"Affiliation": "Univ Lyon, Université Claude Bernard Lyon 1, CNRS UMR 5208, Institut Camille Jordan, 43 blvd. du 11 novembre 1918, Villeurbanne Cedex, F-6962, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arnaud",
+            "LastName": "Bonnaffoux",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Univ Lyon, ENS de Lyon, Univ Claude Bernard, CNRS UMR 5239, INSERM U1210, Laboratory of Biology and Modelling of the Cell, 46 allée d'Italie Site Jacques Monod, Lyon, F-69007, France."},
+              {"Affiliation": "Inria Team Dracula, Inria Center Grenoble Rhône-Alpes, Lyon, France."},
+              {"Affiliation": "The CoSMo company, 5 passage du Vercors, Lyon, 69007, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thibault",
+            "LastName": "Espinasse",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Univ Lyon, Université Claude Bernard Lyon 1, CNRS UMR 5208, Institut Camille Jordan, 43 blvd. du 11 novembre 1918, Villeurbanne Cedex, F-6962, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Olivier",
+            "LastName": "Gandrillon",
+            "Initials": "O",
+            "AffiliationInfo": [
+              {"Affiliation": "Univ Lyon, ENS de Lyon, Univ Claude Bernard, CNRS UMR 5239, INSERM U1210, Laboratory of Biology and Modelling of the Cell, 46 allée d'Italie Site Jacques Monod, Lyon, F-69007, France. olivier.gandrillon@ens-lyon.fr."},
+              {"Affiliation": "Inria Team Dracula, Inria Center Grenoble Rhône-Alpes, Lyon, France. olivier.gandrillon@ens-lyon.fr."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Inferring gene regulatory networks from single-cell data: a mechanistic approach.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12918-017-0487-0"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 11,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Syst Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1752-0509"
+        },
+        "Title": "BMC systems biology"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Gene network inference"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multiscale modelling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Piecewise-deterministic Markov processes"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Single-cell transcriptomics"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2005 Sep;37(9):937-44",
+        "PMID": {
+          "Version": 1,
+          "content": 16086016
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2012 Jun 22;149(7):1447-60",
+        "PMID": {
+          "Version": 1,
+          "content": 22704655
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Dec 22;9(12):e115574",
+        "PMID": {
+          "Version": 1,
+          "content": 25531401
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2014 Dec 18;159(7):1665-80",
+        "PMID": {
+          "Version": 1,
+          "content": 25497547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2013 Jan 28;14(1):R7",
+        "PMID": {
+          "Version": 1,
+          "content": 23360624
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2009 Mar;79(3 Pt 1):031911",
+        "PMID": {
+          "Version": 1,
+          "content": 19391975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2009 Sep 07;3:89",
+        "PMID": {
+          "Version": 1,
+          "content": 19735554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioessays. 2016 Feb;38(2):172-80",
+        "PMID": {
+          "Version": 1,
+          "content": 26625861
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2016 May 25;7:11729",
+        "PMID": {
+          "Version": 1,
+          "content": 27222432
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2016 Jul 14;166(2):358-368",
+        "PMID": {
+          "Version": 1,
+          "content": 27293191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2009;5:318",
+        "PMID": {
+          "Version": 1,
+          "content": 19888213
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jul 15;9(8):796-804",
+        "PMID": {
+          "Version": 1,
+          "content": 22796662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biosystems. 2009 Apr;96(1):86-103",
+        "PMID": {
+          "Version": 1,
+          "content": 19150482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Dec 17;163(7):1596-610",
+        "PMID": {
+          "Version": 1,
+          "content": 26687353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Math Biosci. 2016 Jun;276:82-100",
+        "PMID": {
+          "Version": 1,
+          "content": 27036626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Sep 9;467(7312):167-73",
+        "PMID": {
+          "Version": 1,
+          "content": 20829787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2004 Jun 18;304(5678):1811-4",
+        "PMID": {
+          "Version": 1,
+          "content": 15166317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 1990 Sep;9(9):2835-42",
+        "PMID": {
+          "Version": 1,
+          "content": 2167833
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2016 Jan;13(114):20150772",
+        "PMID": {
+          "Version": 1,
+          "content": 26763330
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2015 Mar;33(3):269-276",
+        "PMID": {
+          "Version": 1,
+          "content": 25664528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Oct 11;5(10):e12912",
+        "PMID": {
+          "Version": 1,
+          "content": 20949005
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2013 Aug;14(8):572-84",
+        "PMID": {
+          "Version": 1,
+          "content": 23835438
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2015 Apr 16;58(2):339-52",
+        "PMID": {
+          "Version": 1,
+          "content": 25866248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2016 Mar 17;61(6):914-24",
+        "PMID": {
+          "Version": 1,
+          "content": 26990994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2005 Feb;88(2):828-50",
+        "PMID": {
+          "Version": 1,
+          "content": 15542546
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2006 Oct;4(10):e309",
+        "PMID": {
+          "Version": 1,
+          "content": 17048983
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2017 Jan;14 (126):null",
+        "PMID": {
+          "Version": 1,
+          "content": 28053113
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2016 Nov 8;34(11):1145-1160",
+        "PMID": {
+          "Version": 1,
+          "content": 27824854
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2011 May 19;473(7347):337-42",
+        "PMID": {
+          "Version": 1,
+          "content": 21593866
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2009 May;6(5):377-82",
+        "PMID": {
+          "Version": 1,
+          "content": 19349980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2014 Jul 10;8(1):75-83",
+        "PMID": {
+          "Version": 1,
+          "content": 24981864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Oncol. 2015 Mar 10;5:53",
+        "PMID": {
+          "Version": 1,
+          "content": 25806353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2015 Nov 21;143(19):195101",
+        "PMID": {
+          "Version": 1,
+          "content": 26590554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Apr 13;107(15):7107-12",
+        "PMID": {
+          "Version": 1,
+          "content": 20351279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2003 Mar 4;100(5):2374-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12606710
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2016 Jun 2;62(5):788-802",
+        "PMID": {
+          "Version": 1,
+          "content": 27259209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013;9(8):e1003197",
+        "PMID": {
+          "Version": 1,
+          "content": 23990771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2016 Dec 5;10 (Suppl 5):127",
+        "PMID": {
+          "Version": 1,
+          "content": 28105940
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Development. 2009 Dec;136(23):3853-62",
+        "PMID": {
+          "Version": 1,
+          "content": 19906852
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2016 Feb 12;351(6274):720-4",
+        "PMID": {
+          "Version": 1,
+          "content": 26912859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2015;9 Suppl 5:S2",
+        "PMID": {
+          "Version": 1,
+          "content": 26356485
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Genet. 2013;47:275-306",
+        "PMID": {
+          "Version": 1,
+          "content": 24016189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Apr 6;107(14):6286-91",
+        "PMID": {
+          "Version": 1,
+          "content": 20308593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2014 Jul 17;158(2):314-326",
+        "PMID": {
+          "Version": 1,
+          "content": 25036631
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Apr 1;29(7):910-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23407360
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Syst. 2015 Aug 26;1(2):117-129",
+        "PMID": {
+          "Version": 1,
+          "content": 26405695
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2016 Dec 27;14 (12 ):e1002585",
+        "PMID": {
+          "Version": 1,
+          "content": 28027290
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2007 Mar 30;3(3):e60",
+        "PMID": {
+          "Version": 1,
+          "content": 17397255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Biol. 2013 Feb 25;11:15",
+        "PMID": {
+          "Version": 1,
+          "content": 23442824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2015 Oct;25(10):1482-90",
+        "PMID": {
+          "Version": 1,
+          "content": 26430158
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2017 Feb;14 (127):",
+        "PMID": {
+          "Version": 1,
+          "content": 28148769
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2010 Jan 08;4:2",
+        "PMID": {
+          "Version": 1,
+          "content": 20064204
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2017 May 21;421:51-70",
+        "PMID": {
+          "Version": 1,
+          "content": 28341132
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IET Syst Biol. 2015 Apr;9(2):64-73",
+        "PMID": {
+          "Version": 1,
+          "content": 26672148
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2016 May 11;7:11518",
+        "PMID": {
+          "Version": 1,
+          "content": 27167753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 Jul 15;111(28):10185-90",
+        "PMID": {
+          "Version": 1,
+          "content": 24946805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2016 Dec 27;14 (12 ):e2000640",
+        "PMID": {
+          "Version": 1,
+          "content": 28027308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2008 Nov 11;105(45):17256-61",
+        "PMID": {
+          "Version": 1,
+          "content": 18988743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Nov 04;9(11):e111661",
+        "PMID": {
+          "Version": 1,
+          "content": 25369032
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioessays. 2004 May;26(5):523-32",
+        "PMID": {
+          "Version": 1,
+          "content": 15112232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2011 Jul 20;475(7356):308-15",
+        "PMID": {
+          "Version": 1,
+          "content": 21776076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 1991 Nov 21;153(2):181-94",
+        "PMID": {
+          "Version": 1,
+          "content": 1787735
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E. 2016 May;93(5):052119",
+        "PMID": {
+          "Version": 1,
+          "content": 27300842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013;9(5):e1003068",
+        "PMID": {
+          "Version": 1,
+          "content": 23717196
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Aug 1;33(15):2314-2321",
+        "PMID": {
+          "Version": 1,
+          "content": 28379368
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2011 Apr 22;332(6028):472-4",
+        "PMID": {
+          "Version": 1,
+          "content": 21415320
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Genet Dev. 2011 Oct;21(5):591-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21862317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Jun 15;31(12):i89-96",
+        "PMID": {
+          "Version": 1,
+          "content": 26072513
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29157246
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29157246,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12918-017-0487-0",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12918-017-0487-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5697158",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

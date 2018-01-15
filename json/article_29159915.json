@@ -1,0 +1,199 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Analytical algorithms have a limited accuracy when modeling very heterogeneous tumor sites. This work addresses the performance of a hybrid dose optimizer that combines both Monte Carlo (MC) and pencil beam (PB) dose engines to get the best trade-off between speed and accuracy for proton therapy plans."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The hybrid algorithm calculates the optimal spot weights (w) by means of an iterative optimization process where the dose at each iteration is computed by using a precomputed dose influence matrix based on the conventional PB plus a correction term c obtained from a MC simulation. Updates of c can be triggered as often as necessary by calling the MC dose engine with the last corrected values of w as input. In order to analyze the performance of the hybrid algorithm against dose calculation errors, it was applied to a simplistic water phantom for which several test cases with different errors were simulated, including proton range uncertainties. Afterwards, the algorithm was used in three clinical cases (prostate, lung, and brain) and benchmarked against full MC-based optimization. The influence of different stopping criteria in the final results was also investigated."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The hybrid algorithm achieved excellent results provided that the estimated range in a homogeneous material is the same for the two dose engines involved, i.e., PB and MC. For the three patient cases, the hybrid plans were clinically equivalent to those obtained with full MC-based optimization. Only a single update of c was needed in the hybrid algorithm to fulfill the clinical dose constraints, which represents an extra computation time to obtain c that ranged from 1 (brain) to 4 min (lung) with respect to the conventional PB-based optimization, and an estimated average gain factor of 14 with respect to full MC-based optimization."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The hybrid algorithm provides an improved trade-off between accuracy and speed. This algorithm can be immediately considered as an option for improving dose calculation accuracy of commercial analytical treatment planning systems, without a significant increase in the computation time (≪5 min) with respect to current PB-based optimization."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ana María",
+            "LastName": "Barragán Montero",
+            "Initials": "AM",
+            "AffiliationInfo": {"Affiliation": "Université catholique de Louvain, Institut de Recherche Exp érimentale et Clinique (IREC), Center of Molecular Imaging, Radiotherapy and Oncology (MIRO), Brussels, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kevin",
+            "LastName": "Souris",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Université catholique de Louvain, Institut de Recherche Exp érimentale et Clinique (IREC), Center of Molecular Imaging, Radiotherapy and Oncology (MIRO), Brussels, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel",
+            "LastName": "Sanchez-Parcerisa",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Facultad de Ciencias Físicas, Departamento de Física Atómica, UCM - Universidad Complutense de Madrid, Grupo de Física Nuclear, Molecular y Nuclear, CEI Moncloa, Madrid, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Edmond",
+            "LastName": "Sterpin",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "Université catholique de Louvain, Institut de Recherche Exp érimentale et Clinique (IREC), Center of Molecular Imaging, Radiotherapy and Oncology (MIRO), Brussels, Belgium."},
+              {"Affiliation": "KU Leuven, Department of Oncology, Laboratory of Experimental Radiotherapy, Leuven, Belgium."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John Aldo",
+            "LastName": "Lee",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Université catholique de Louvain, Institut de Recherche Exp érimentale et Clinique (IREC), Center of Molecular Imaging, Radiotherapy and Oncology (MIRO), Brussels, Belgium."}
+          }
+        ]
+      },
+      "ArticleTitle": "Performance of a hybrid Monte Carlo-Pencil Beam dose algorithm for proton therapy inverse planning.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12688"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "dose engine"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "inverse planning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "proton therapy"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29159915
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29159915,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12688",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

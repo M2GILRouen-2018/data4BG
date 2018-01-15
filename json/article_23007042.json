@@ -1,0 +1,547 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "349-56"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 ES020337",
+            "Acronym": "ES"
+          },
+          {
+            "Agency": "NICHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "R21 HD066312",
+            "Acronym": "HD"
+          },
+          {
+            "Agency": "NICHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "R24 HD041023",
+            "Acronym": "HD"
+          },
+          {
+            "Agency": "NICHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "1R21HD066312",
+            "Acronym": "HD"
+          },
+          {
+            "Agency": "NIMHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 MD006064",
+            "Acronym": "MD"
+          },
+          {
+            "Agency": "NIAID NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 AI104459",
+            "Acronym": "AI"
+          },
+          {
+            "Agency": "NIMHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "1R01MD006064",
+            "Acronym": "MD"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 17
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author 2015. Published by Oxford University Press on behalf of the Johns Hopkins Bloomberg School of Public Health. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.",
+        "AbstractText": "Despite the recent flourishing of mediation analysis techniques, many modern approaches are difficult to implement or applicable to only a restricted range of regression models. This report provides practical guidance for implementing a new technique utilizing inverse odds ratio weighting (IORW) to estimate natural direct and indirect effects for mediation analyses. IORW takes advantage of the odds ratio's invariance property and condenses information on the odds ratio for the relationship between the exposure (treatment) and multiple mediators, conditional on covariates, by regressing exposure on mediators and covariates. The inverse of the covariate-adjusted exposure-mediator odds ratio association is used to weight the primary analytical regression of the outcome on treatment. The treatment coefficient in such a weighted regression estimates the natural direct effect of treatment on the outcome, and indirect effects are identified by subtracting direct effects from total effects. Weighting renders treatment and mediators independent, thereby deactivating indirect pathways of the mediators. This new mediation technique accommodates multiple discrete or continuous mediators. IORW is easily implemented and is appropriate for any standard regression model, including quantile regression and survival analysis. An empirical example is given using data from the Moving to Opportunity (1994-2002) experiment, testing whether neighborhood context mediated the effects of a housing voucher program on obesity. Relevant Stata code (StataCorp LP, College Station, Texas) is provided."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Quynh C",
+            "LastName": "Nguyen",
+            "Initials": "QC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Theresa L",
+            "LastName": "Osypuk",
+            "Initials": "TL"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicole M",
+            "LastName": "Schmidt",
+            "Initials": "NM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "M Maria",
+            "LastName": "Glymour",
+            "Initials": "MM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric J",
+            "LastName": "Tchetgen Tchetgen",
+            "Initials": "EJ"
+          }
+        ]
+      },
+      "ArticleTitle": "Practical guidance for conducting mediation analysis with multiple mediators using inverse odds ratio weighting.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/aje/kwu278"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 181,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2015,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Am. J. Epidemiol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1476-6256"
+        },
+        "Title": "American journal of epidemiology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2015,
+      "Day": 25
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 11
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2010 Dec 10;29(28):2920-31",
+        "PMID": {
+          "Version": 1,
+          "content": 20842622
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 2002 Feb;31(1):163-5",
+        "PMID": {
+          "Version": 1,
+          "content": 11914314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiology. 2011 Jul;22(4):575-81",
+        "PMID": {
+          "Version": 1,
+          "content": 21552129
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 1997 Oct;26(5):1071-9",
+        "PMID": {
+          "Version": 1,
+          "content": 9363530
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiology. 2014 Mar;25(2):282-91",
+        "PMID": {
+          "Version": 1,
+          "content": 24487211
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Gen Psychiatry. 2012 Dec;69(12):1284-94",
+        "PMID": {
+          "Version": 1,
+          "content": 23045214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiol Methods. 2014 Jan;2(1):95-115",
+        "PMID": {
+          "Version": 1,
+          "content": 25580377
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiology. 2009 Jan;20(1):18-26",
+        "PMID": {
+          "Version": 1,
+          "content": 19234398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrika. 2010 Mar;97(1):171-180",
+        "PMID": {
+          "Version": 1,
+          "content": 23049119
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2004 Apr 1;159(7):702-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15033648
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Methods. 2010 Dec;15(4):309-34",
+        "PMID": {
+          "Version": 1,
+          "content": 20954780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 1983 Apr-Jun;2(2):243-51",
+        "PMID": {
+          "Version": 1,
+          "content": 6359318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2014 Feb 15;179(4):513-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24264291
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiology. 1992 Mar;3(2):143-55",
+        "PMID": {
+          "Version": 1,
+          "content": 1576220
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prev Sci. 2012 Aug;13(4):426-36",
+        "PMID": {
+          "Version": 1,
+          "content": 22419385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2012 Aug 1;176(3):190-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22781427
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2010 Dec 15;172(12):1339-48",
+        "PMID": {
+          "Version": 1,
+          "content": 21036955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Biostat. 2011;7(1):Article 33",
+        "PMID": {
+          "Version": 1,
+          "content": 22049268
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genet. 2012 Oct;131(10):1665-76",
+        "PMID": {
+          "Version": 1,
+          "content": 22864952
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Biostat. 2008;4(1):Article 23",
+        "PMID": {
+          "Version": 1,
+          "content": 22462121
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Methods. 2013 Jun;18(2):137-50",
+        "PMID": {
+          "Version": 1,
+          "content": 23379553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiology. 2010 Jul;21(4):540-51",
+        "PMID": {
+          "Version": 1,
+          "content": 20479643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiol Perspect Innov. 2007 Jun 19;4:4",
+        "PMID": {
+          "Version": 1,
+          "content": 17578572
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2010 Dec 15;172(12):1335-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21098632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Behav Res Methods Instrum Comput. 2004 Nov;36(4):717-31",
+        "PMID": {
+          "Version": 1,
+          "content": 15641418
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pers Soc Psychol. 1986 Dec;51(6):1173-82",
+        "PMID": {
+          "Version": 1,
+          "content": 3806354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiology. 2011 Nov;22(6):753-64",
+        "PMID": {
+          "Version": 1,
+          "content": 20502339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2013 Nov 20;32(26):4567-80",
+        "PMID": {
+          "Version": 1,
+          "content": 23744517
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiology. 2006 May;17(3):276-84",
+        "PMID": {
+          "Version": 1,
+          "content": 16617276
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiology. 2012 Nov;23(6):879-88",
+        "PMID": {
+          "Version": 1,
+          "content": 23007042
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4339385"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7910653,
+      "Country": "United States",
+      "ISSNLinking": "0002-9262",
+      "MedlineTA": "Am J Epidemiol"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2015,
+      "Day": 27
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "direct effects"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "effect decomposition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "indirect effects"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "mediation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "weighted regression"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D015984",
+        "MajorTopicYN": "Y",
+        "content": "Causality"
+      }},
+      {"DescriptorName": {
+        "UI": "D004812",
+        "MajorTopicYN": "Y",
+        "content": "Epidemiologic Methods"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "N",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D006798",
+          "MajorTopicYN": "N",
+          "content": "Housing"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000453",
+          "MajorTopicYN": "N",
+          "content": "epidemiology"
+        },
+        "DescriptorName": {
+          "UI": "D009765",
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016017",
+        "MajorTopicYN": "N",
+        "content": "Odds Ratio"
+      }},
+      {"DescriptorName": {
+        "UI": "D015995",
+        "MajorTopicYN": "N",
+        "content": "Prevalence"
+      }},
+      {"DescriptorName": {
+        "UI": "D016032",
+        "MajorTopicYN": "N",
+        "content": "Randomized Controlled Trials as Topic"
+      }},
+      {"DescriptorName": {
+        "UI": "D012044",
+        "MajorTopicYN": "N",
+        "content": "Regression Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D012111",
+        "MajorTopicYN": "N",
+        "content": "Residence Characteristics"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 25693776
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25693776,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "kwu278",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/aje/kwu278",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4339385",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

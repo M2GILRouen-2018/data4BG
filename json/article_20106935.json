@@ -1,0 +1,531 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100968545,
+      "Country": "England",
+      "ISSNLinking": "1471-2288",
+      "MedlineTA": "BMC Med Res Methodol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 114},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Missing data is a common problem in epidemiological studies, and is particularly prominent in longitudinal data, which involve multiple waves of data collection. Traditional multiple imputation (MI) methods (fully conditional specification (FCS) and multivariate normal imputation (MVNI)) treat repeated measurements of the same time-dependent variable as just another 'distinct' variable for imputation and therefore do not make the most of the longitudinal structure of the data. Only a few studies have explored extensions to the standard approaches to account for the temporal structure of longitudinal data. One suggestion is the two-fold fully conditional specification (two-fold FCS) algorithm, which restricts the imputation of a time-dependent variable to time blocks where the imputation model includes measurements taken at the specified and adjacent times. To date, no study has investigated the performance of two-fold FCS and standard MI methods for handling missing data in a time-varying covariate with a non-linear trajectory over time - a commonly encountered scenario in epidemiological studies."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We simulated 1000 datasets of 5000 individuals based on the Longitudinal Study of Australian Children (LSAC). Three missing data mechanisms: missing completely at random (MCAR), and a weak and a strong missing at random (MAR) scenarios were used to impose missingness on body mass index (BMI) for age z-scores; a continuous time-varying exposure variable with a non-linear trajectory over time. We evaluated the performance of FCS, MVNI, and two-fold FCS for handling up to 50% of missing data when assessing the association between childhood obesity and sleep problems."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The standard two-fold FCS produced slightly more biased and less precise estimates than FCS and MVNI. We observed slight improvements in bias and precision when using a time window width of two for the two-fold FCS algorithm compared to the standard width of one."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "We recommend the use of FCS or MVNI in a similar longitudinal setting, and when encountering convergence issues due to a large number of time points or variables with missing values, the two-fold FCS with exploration of a suitable time window."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anurika Priyanjali",
+            "LastName": "De Silva",
+            "Initials": "AP",
+            "AffiliationInfo": {"Affiliation": "Centre for Epidemiology and Biostatistics, Melbourne School of Population and Global Health, University of Melbourne, Melbourne, VIC, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Margarita",
+            "LastName": "Moreno-Betancur",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Clinical Epidemiology and Biostatistics Unit, Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne, VIC, Australia."},
+              {"Affiliation": "Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alysha Madhu",
+            "LastName": "De Livera",
+            "Initials": "AM",
+            "AffiliationInfo": {"Affiliation": "Centre for Epidemiology and Biostatistics, Melbourne School of Population and Global Health, University of Melbourne, Melbourne, VIC, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Katherine Jane",
+            "LastName": "Lee",
+            "Initials": "KJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Clinical Epidemiology and Biostatistics Unit, Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne, VIC, Australia."},
+              {"Affiliation": "Department of Paediatrics, University of Melbourne, Melbourne, VIC, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Julie Anne",
+            "LastName": "Simpson",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Centre for Epidemiology and Biostatistics, Melbourne School of Population and Global Health, University of Melbourne, Melbourne, VIC, Australia. julieas@unimelb.edu.au."}
+          }
+        ]
+      },
+      "ArticleTitle": "A comparison of multiple imputation methods for handling missing values in longitudinal data in the presence of a time-varying covariate with a non-linear association with time: a simulation study.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12874-017-0372-y"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Med Res Methodol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2288"
+        },
+        "Title": "BMC medical research methodology"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Fully conditional specification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Longitudinal data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Missing data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multiple imputation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multivariate normal imputation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Non-linear trajectory"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Time-dependent covariate"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Child Dev. 2007 Jan-Feb;78(1):309-23",
+        "PMID": {
+          "Version": 1,
+          "content": 17328707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 2005 Feb;34(1):89-99",
+        "PMID": {
+          "Version": 1,
+          "content": 15333619
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2006 Jan 1;163(1):84-96",
+        "PMID": {
+          "Version": 1,
+          "content": 16306313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Methods Med Res. 2007 Jun;16(3):243-58",
+        "PMID": {
+          "Version": 1,
+          "content": 17621470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Methods Med Res. 2016 Aug;25(4):1471-89",
+        "PMID": {
+          "Version": 1,
+          "content": 23698867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Methods Med Res. 2015 Aug;24(4):462-87",
+        "PMID": {
+          "Version": 1,
+          "content": 24525487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Res Methodol. 2015 Apr 07;15:30",
+        "PMID": {
+          "Version": 1,
+          "content": 25880850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2011 Dec 10;30(28):3328-40",
+        "PMID": {
+          "Version": 1,
+          "content": 21965165
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Res Methodol. 2010 Jan 19;10:7",
+        "PMID": {
+          "Version": 1,
+          "content": 20085642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Methods Psychiatr Res. 2011 Mar;20(1):50-61",
+        "PMID": {
+          "Version": 1,
+          "content": 21556290
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Methods Med Res. 2007 Jun;16(3):219-42",
+        "PMID": {
+          "Version": 1,
+          "content": 17621469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Health Commun. 2012;27(4):380-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21932985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Obesity (Silver Spring). 2008 Feb;16(2):265-74",
+        "PMID": {
+          "Version": 1,
+          "content": 18239632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stata J. 2014 Apr 1;14(2):418-431",
+        "PMID": {
+          "Version": 1,
+          "content": 25420071
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Obes Relat Metab Disord. 2001 May;25 Suppl 1:S75-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11466594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Youth Adolesc. 2010 Jul;39(7):816-35",
+        "PMID": {
+          "Version": 1,
+          "content": 20446025
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Matern Child Health J. 2014 Feb;18(2):344-65",
+        "PMID": {
+          "Version": 1,
+          "content": 23975451
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Otolaryngol Head Neck Surg. 2004 Jul;131(1):104-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15243565
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2004 Jul;5(3):445-64",
+        "PMID": {
+          "Version": 1,
+          "content": 15208205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Respirology. 2014 Feb;19(2):162-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24372814
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Emerg Themes Epidemiol. 2013 Aug 19;10(1):6",
+        "PMID": {
+          "Version": 1,
+          "content": 23947681
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Epidemiol. 2010 Jul;63(7):721-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20338724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Respirology. 2014 Apr;19(3):303-11",
+        "PMID": {
+          "Version": 1,
+          "content": 24447391
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biopharm Stat. 2005;15(6):993-1007",
+        "PMID": {
+          "Version": 1,
+          "content": 16279357
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Epidemiol. 2006 Oct;59(10):1092-101",
+        "PMID": {
+          "Version": 1,
+          "content": 16980150
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2011 Sep 26;11:409",
+        "PMID": {
+          "Version": 1,
+          "content": 21943022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2009 Jun 29;338:b2393",
+        "PMID": {
+          "Version": 1,
+          "content": 19564179
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2007 Dec 15;166(12):1368-73",
+        "PMID": {
+          "Version": 1,
+          "content": 17855389
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Trials. 2005;2(5):379-86",
+        "PMID": {
+          "Version": 1,
+          "content": 16315646
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2002 Aug 10;360(9331):473-82",
+        "PMID": {
+          "Version": 1,
+          "content": 12241736
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Addiction. 2012 Mar;107(3):567-77",
+        "PMID": {
+          "Version": 1,
+          "content": 21939461
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2006 Dec 30;25(24):4279-92",
+        "PMID": {
+          "Version": 1,
+          "content": 16947139
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2014 Sep 20;33(21):3725-37",
+        "PMID": {
+          "Version": 1,
+          "content": 24782349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2009 Dec 20;28(29):3657-69",
+        "PMID": {
+          "Version": 1,
+          "content": 19757484
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2003 Feb 28;22(4):545-57",
+        "PMID": {
+          "Version": 1,
+          "content": 12590413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Res Methodol. 2012 Jul 11;12:96",
+        "PMID": {
+          "Version": 1,
+          "content": 22784200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Dis Child. 2011 Aug;96(8):735-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21622998
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2010 Mar 1;171(5):624-32",
+        "PMID": {
+          "Version": 1,
+          "content": 20106935
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28743256
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28743256,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12874-017-0372-y",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12874-017-0372-y",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5526258",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

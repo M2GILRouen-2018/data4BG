@@ -1,0 +1,556 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9214969,
+      "Country": "United States",
+      "ISSNLinking": "1064-3745",
+      "MedlineTA": "Methods Mol Biol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "351-364"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "K02 DA026434",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 DA034049",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM116961",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "R21 MH107053",
+            "Acronym": "MH"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "An increasing number of G protein-coupled receptor (GPCR) crystal structures provide important-albeit static-pictures of how small molecules or peptides interact with their receptors. These high-resolution structures represent a tremendous opportunity to apply molecular dynamics (MD) simulations to capture atomic-level dynamical information that is not easy to obtain experimentally. Understanding ligand binding and unbinding processes, as well as the related responses of the receptor, is crucial to the design of better drugs targeting GPCRs. Here, we discuss possible ways to study the dynamics involved in the binding of small molecules to GPCRs, using long timescale MD simulations or metadynamics-based approaches."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kristen A",
+            "LastName": "Marino",
+            "Initials": "KA",
+            "AffiliationInfo": {"Affiliation": "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, One Gustave L. Levy Place, Box 1677, New York, NY, 10029, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marta",
+            "LastName": "Filizola",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, One Gustave L. Levy Place, Box 1677, New York, NY, 10029, USA. marta.filizola@mssm.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Investigating Small-Molecule Ligand Binding to G Protein-Coupled Receptors with Biased or Unbiased Molecular Dynamics Simulations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/978-1-4939-7465-8_17"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 1705,
+          "PubDate": {"Year": 2018},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Methods Mol. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1940-6029"
+        },
+        "Title": "Methods in molecular biology (Clifton, N.J.)"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Allosteric communication"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Enhanced-sampling methods"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "GPCRs"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Interaction fingerprints"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ligand binding"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Molecular dynamics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Small-molecule drugs"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Jul 2;110(27):10982-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23781107
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2012 Dec 21;52(12):3155-68",
+        "PMID": {
+          "Version": 1,
+          "content": 23145473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2006 Oct 19;49(21):6177-96",
+        "PMID": {
+          "Version": 1,
+          "content": 17034125
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2013 Dec 5;504(7478):101-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24256733
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2016 Jan 12;12 (1):405-13",
+        "PMID": {
+          "Version": 1,
+          "content": 26631602
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 2016 Jul;1858(7 Pt B):1652-62",
+        "PMID": {
+          "Version": 1,
+          "content": 26806157
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2002 Oct 1;99(20):12562-6",
+        "PMID": {
+          "Version": 1,
+          "content": 12271136
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Commun (Camb). 2015 May 21;51(41):8618-21",
+        "PMID": {
+          "Version": 1,
+          "content": 25896577
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2014 Oct 15;35(27):1997-2004",
+        "PMID": {
+          "Version": 1,
+          "content": 25130509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2008 Aug;29(11):1859-65",
+        "PMID": {
+          "Version": 1,
+          "content": 18351591
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2014 Jul 15;107(2):422-434",
+        "PMID": {
+          "Version": 1,
+          "content": 25028884
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Feb 22;482(7386):552-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22358844
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Mar 04;6:22639",
+        "PMID": {
+          "Version": 1,
+          "content": 26940769
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochemistry. 2009 Oct 27;48(42):10020-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19785461
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochemistry. 2016 Nov 22;55(46):6456-6466",
+        "PMID": {
+          "Version": 1,
+          "content": 27778501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Mar 21;485(7398):321-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22437502
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2004 Jun 22;120(24):11919-29",
+        "PMID": {
+          "Version": 1,
+          "content": 15268227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2010 Mar;31(4):671-90",
+        "PMID": {
+          "Version": 1,
+          "content": 19575467
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2014 Nov 12;136(45):16044-54",
+        "PMID": {
+          "Version": 1,
+          "content": 25314362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Mol Life Sci. 2011 Apr;68(7):1227-39",
+        "PMID": {
+          "Version": 1,
+          "content": 20835841
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2013 Aug;12(8):630-44",
+        "PMID": {
+          "Version": 1,
+          "content": 23903222
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2011 Oct 11;7(10):3412-3419",
+        "PMID": {
+          "Version": 1,
+          "content": 22125474
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2015 Nov 10;11(11):5525-42",
+        "PMID": {
+          "Version": 1,
+          "content": 26574340
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Exp Ther. 2013 Mar;344(3):708-17",
+        "PMID": {
+          "Version": 1,
+          "content": 23300227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2005 Dec;26(16):1781-802",
+        "PMID": {
+          "Version": 1,
+          "content": 16222654
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2012 Oct 22;52(10):2657-69",
+        "PMID": {
+          "Version": 1,
+          "content": 22989154
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2016 Dec 15;540(7633):462-465",
+        "PMID": {
+          "Version": 1,
+          "content": 27926729
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2008 Jul;95(2):789-803",
+        "PMID": {
+          "Version": 1,
+          "content": 18390613
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 2000 Sep;9(9):1753-73",
+        "PMID": {
+          "Version": 1,
+          "content": 11045621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2012 Dec 21;52(12):3144-54",
+        "PMID": {
+          "Version": 1,
+          "content": 23146088
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Feb 13;506(7487):191-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24413399
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2016 Dec 15;540(7633):458-461",
+        "PMID": {
+          "Version": 1,
+          "content": 27926736
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem B. 2006 Mar 2;110(8):3533-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16494409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Aug 20;524(7565):315-21",
+        "PMID": {
+          "Version": 1,
+          "content": 26245379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Graph. 1996 Feb;14(1):33-8, 27-8",
+        "PMID": {
+          "Version": 1,
+          "content": 8744570
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Struct Biol. 2014 Apr;25:98-103",
+        "PMID": {
+          "Version": 1,
+          "content": 24667124
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ACS Chem Biol. 2016 May 20;11(5):1220-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26841170
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Structure. 2007 May;15(5):611-23",
+        "PMID": {
+          "Version": 1,
+          "content": 17502106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 Aug 9;108(32):13118-23",
+        "PMID": {
+          "Version": 1,
+          "content": 21778406
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2013 Nov 14;503(7475):295-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24121438
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2004 May 15;55(3):656-77",
+        "PMID": {
+          "Version": 1,
+          "content": 15103629
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Biochem Biophys. 2013 Oct 1;538(1):6-15",
+        "PMID": {
+          "Version": 1,
+          "content": 23933229
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem B. 2015 Jan 22;119(3):736-42",
+        "PMID": {
+          "Version": 1,
+          "content": 25046020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 2011 May;1808(5):1256-66",
+        "PMID": {
+          "Version": 1,
+          "content": 20713020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2016 Dec 22;59(24):11027-11038",
+        "PMID": {
+          "Version": 1,
+          "content": 27958743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Q Rev Biophys. 2015 Nov;48(4):479-87",
+        "PMID": {
+          "Version": 1,
+          "content": 26537408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 May 01;10(5):e1003603",
+        "PMID": {
+          "Version": 1,
+          "content": 24785005
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29188572
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29188572,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/978-1-4939-7465-8_17",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5745006",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS928132",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

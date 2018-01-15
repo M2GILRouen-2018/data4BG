@@ -1,0 +1,143 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101196755,
+      "Country": "United States",
+      "ISSNLinking": "1545-5963",
+      "MedlineTA": "IEEE/ACM Trans Comput Biol Bioinform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1399-1409"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Since proteins are digested into a mixture of peptides in the preprocessing step of tandem mass spectrometry (MS), it is difficult to determine which specific protein a shared peptide belongs to. In recent studies, besides tandem MS data and peptide identification information, some other information is exploited to infer proteins. Different from the methods which first use only tandem MS data to infer proteins and then use network information to refine them, this study proposes a protein inference method named TMSIN, which uses interactome networks directly. As two interacting proteins should co-exist, it is reasonable to assume that if one of the interacting proteins is confidently inferred in a sample, its interacting partners should have a high probability in the same sample, too. Therefore, we can use the neighborhood information of a protein in an interactome network to adjust the probability that the shared peptide belongs to the protein. In TMSIN, a multi-weighted graph is constructed by incorporating the bipartite graph with interactome network information, where the bipartite graph is built with the peptide identification information. Based on multi-weighted graphs, TMSIN adopts an iterative workflow to infer proteins. At each iterative step, the probability that a shared peptide belongs to a specific protein is calculated by using the Bayes' law based on the neighbor protein support scores of each protein which are mapped by the shared peptides. We carried out experiments on yeast data and human data to evaluate the performance of TMSIN in terms of ROC, q-value, and accuracy. The experimental results show that AUC scores yielded by TMSIN are 0.742 and 0.874 in yeast dataset and human dataset, respectively, and TMSIN yields the maximum number of true positives when q-value less than or equal to 0.05. The overlap analysis shows that TMSIN is an effective complementary approach for protein inference."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiancheng",
+            "LastName": "Zhong",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jianxing",
+            "LastName": "Wang",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaojun",
+            "LastName": "Ding",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhen",
+            "LastName": "Zhang",
+            "Initials": "Z"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Min",
+            "LastName": "Li",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fang-Xiang",
+            "LastName": "Wu",
+            "Initials": "FX"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yi",
+            "LastName": "Pan",
+            "Initials": "Y"
+          }
+        ]
+      },
+      "ArticleTitle": "Protein Inference from the Integration of Tandem MS Data and Interactome Networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TCBB.2016.2601618"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 14,
+          "PubDate": {"MedlineDate": "2017 Nov-Dec"},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE/ACM Trans Comput Biol Bioinform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1557-9964"
+        },
+        "Title": "IEEE/ACM transactions on computational biology and bioinformatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "08"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113634
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113634,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TCBB.2016.2601618",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

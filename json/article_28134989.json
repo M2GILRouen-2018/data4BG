@@ -1,0 +1,281 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 28
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1212-1223"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 17
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "To develop a robust and efficient process that detects relevant dose errors (dose errors of ≥5%) in external beam radiation therapy and directly indicates the origin of the error. The process is illustrated in the context of electronic portal imaging device (EPID)-based angle-resolved volumetric-modulated arc therapy (VMAT) quality assurance (QA), particularly as would be implemented in a real-time monitoring program."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "A Swiss cheese error detection (SCED) method was created as a paradigm for a cine EPID-based during-treatment QA. For VMAT, the method compares a treatment plan-based reference set of EPID images with images acquired over each 2° gantry angle interval. The process utilizes a sequence of independent consecutively executed error detection tests: an aperture check that verifies in-field radiation delivery and ensures no out-of-field radiation; output normalization checks at two different stages; global image alignment check to examine if rotation, scaling, and translation are within tolerances; pixel intensity check containing the standard gamma evaluation (3%, 3 mm) and pixel intensity deviation checks including and excluding high dose gradient regions. Tolerances for each check were determined. To test the SCED method, 12 different types of errors were selected to modify the original plan. A series of angle-resolved predicted EPID images were artificially generated for each test case, resulting in a sequence of precalculated frames for each modified treatment plan. The SCED method was applied multiple times for each test case to assess the ability to detect introduced plan variations. To compare the performance of the SCED process with that of a standard gamma analysis, both error detection methods were applied to the generated test cases with realistic noise variations."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Averaged over ten test runs, 95.1% of all plan variations that resulted in relevant patient dose errors were detected within 2° and 100% within 14° (<4% of patient dose delivery). Including cases that led to slightly modified but clinically equivalent plans, 89.1% were detected by the SCED method within 2°. Based on the type of check that detected the error, determination of error sources was achieved. With noise ranging from no random noise to four times the established noise value, the averaged relevant dose error detection rate of the SCED method was between 94.0% and 95.8% and that of gamma between 82.8% and 89.8%."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "An EPID-frame-based error detection process for VMAT deliveries was successfully designed and tested via simulations. The SCED method was inspected for robustness with realistic noise variations, demonstrating that it has the potential to detect a large majority of relevant dose errors. Compared to a typical (3%, 3 mm) gamma analysis, the SCED method produced a higher detection rate for all introduced dose errors, identified errors in an earlier stage, displayed a higher robustness to noise variations, and indicated the error source."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michelle",
+            "LastName": "Passarge",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Division of Medical Radiation Physics and Department of Radiation Oncology, Inselspital Bern University Hospital and University of Bern, Berne, 3010, Switzerland."},
+              {"Affiliation": "Department of Radiation Oncology, University of Virginia Health System, Charlottesville, 22908, Virginia, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael K",
+            "LastName": "Fix",
+            "Initials": "MK",
+            "AffiliationInfo": {"Affiliation": "Division of Medical Radiation Physics and Department of Radiation Oncology, Inselspital Bern University Hospital and University of Bern, Berne, 3010, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter",
+            "LastName": "Manser",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Division of Medical Radiation Physics and Department of Radiation Oncology, Inselspital Bern University Hospital and University of Bern, Berne, 3010, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marco F M",
+            "LastName": "Stampanoni",
+            "Initials": "MF",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute for Biomedical Engineering, Swiss Federal Institute of Technology (ETH), Zurich, 8092, Switzerland."},
+              {"Affiliation": "Paul Scherrer Institute (PSI), Villigen, 5232, Switzerland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeffrey V",
+            "LastName": "Siebers",
+            "Initials": "JV",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Virginia Health System, Charlottesville, 22908, Virginia, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "A Swiss cheese error detection method for real-time EPID-based quality assurance and error prevention.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12142"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "EPID"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "VMAT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "error detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "real-time quality assurance"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "treatment verification"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D055615",
+        "MajorTopicYN": "Y",
+        "content": "Electrical Equipment and Supplies"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000517",
+          "MajorTopicYN": "N",
+          "content": "prevention & control"
+        },
+        "DescriptorName": {
+          "UI": "D019300",
+          "MajorTopicYN": "Y",
+          "content": "Medical Errors"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011785",
+          "MajorTopicYN": "N",
+          "content": "Quality Assurance, Health Care"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011879",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy Dosage"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000295",
+          "MajorTopicYN": "Y",
+          "content": "instrumentation"
+        },
+        "DescriptorName": {
+          "UI": "D050397",
+          "MajorTopicYN": "N",
+          "content": "Radiotherapy, Intensity-Modulated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D013997",
+        "MajorTopicYN": "N",
+        "content": "Time Factors"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28134989
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28134989,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12142",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

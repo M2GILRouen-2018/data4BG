@@ -1,0 +1,690 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "224-231.e5"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "L40 HL133929",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM104303",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NICHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 HD040128",
+            "Acronym": "HD"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 HL121518",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D064888",
+          "content": "Observational Study"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier Inc. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVES",
+            "content": "To compare registry and electronic health record (EHR) data mining approaches for cohort ascertainment in patients with pediatric pulmonary hypertension (PH) in an effort to overcome some of the limitations of registry enrollment alone in identifying patients with particular disease phenotypes."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "STUDY DESIGN",
+            "content": "This study was a single-center retrospective analysis of EHR and registry data at Boston Children's Hospital. The local Informatics for Integrating Biology and the Bedside (i2b2) data warehouse was queried for billing codes, prescriptions, and narrative data related to pediatric PH. Computable phenotype algorithms were developed by fitting penalized logistic regression models to a physician-annotated training set. Algorithms were applied to a candidate patient cohort, and performance was evaluated using a separate set of 136 records and 179 registry patients. We compared clinical and demographic characteristics of patients identified by computable phenotype and the registry."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The computable phenotype had an area under the receiver operating characteristics curve of 90% (95% CI, 85%-95%), a positive predictive value of 85% (95% CI, 77%-93%), and identified 413 patients (an additional 231%) with pediatric PH who were not enrolled in the registry. Patients identified by the computable phenotype were clinically distinct from registry patients, with a greater prevalence of diagnoses related to perinatal distress and left heart disease."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Mining of EHRs using computable phenotypes identified a large cohort of patients not recruited using a classic registry. Fusion of EHR and registry data can improve cohort ascertainment for the study of rare diseases."
+          },
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "TRIAL REGISTRATION",
+            "content": "ClinicalTrials.gov: NCT02249923."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alon",
+            "LastName": "Geva",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Computational Health Informatics Program, Boston Children's Hospital, Boston, MA; Division of Critical Care Medicine, Department of Anesthesiology, Perioperative, and Pain Medicine, Boston Children's Hospital, Boston, MA; Department of Anesthesia, Harvard Medical School, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jessica L",
+            "LastName": "Gronsbell",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Harvard T. H. Chan School of Public Health, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tianxi",
+            "LastName": "Cai",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Harvard T. H. Chan School of Public Health, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tianrun",
+            "LastName": "Cai",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Division of Rheumatology, Immunology and Allergy, Brigham and Women's Hospital, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shawn N",
+            "LastName": "Murphy",
+            "Initials": "SN",
+            "AffiliationInfo": {"Affiliation": "Department of Research Information Services and Computing, Partners Healthcare, Boston, MA; Department of Neurology, Massachusetts General Hospital, Boston, MA; Department of Biomedical Informatics, Harvard Medical School, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jessica C",
+            "LastName": "Lyons",
+            "Initials": "JC",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Informatics, Harvard Medical School, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michelle M",
+            "LastName": "Heinz",
+            "Initials": "MM",
+            "AffiliationInfo": {"Affiliation": "Computational Health Informatics Program, Boston Children's Hospital, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marc D",
+            "LastName": "Natter",
+            "Initials": "MD",
+            "AffiliationInfo": {"Affiliation": "Computational Health Informatics Program, Boston Children's Hospital, Boston, MA; Department of Pediatrics, Harvard Medical School, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nandan",
+            "LastName": "Patibandla",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Information Services Department, Boston Children's Hospital, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonathan",
+            "LastName": "Bickel",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Computational Health Informatics Program, Boston Children's Hospital, Boston, MA; Department of Pediatrics, Harvard Medical School, Boston, MA; Information Services Department, Boston Children's Hospital, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mary P",
+            "LastName": "Mullen",
+            "Initials": "MP",
+            "AffiliationInfo": {"Affiliation": "Department of Pediatrics, Harvard Medical School, Boston, MA; Department of Cardiology, Boston Children's Hospital, Boston, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kenneth D",
+            "LastName": "Mandl",
+            "Initials": "KD",
+            "AffiliationInfo": {"Affiliation": "Computational Health Informatics Program, Boston Children's Hospital, Boston, MA; Department of Biomedical Informatics, Harvard Medical School, Boston, MA; Department of Pediatrics, Harvard Medical School, Boston, MA. Electronic address: kenneth_mandl@harvard.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "CollectiveName": "Pediatric Pulmonary Hypertension Network and National Heart, Lung, and Blood Institute Pediatric Pulmonary Vascular Disease Outcomes Bioinformatics Clinical Coordinating Center Investigators"
+          }
+        ]
+      },
+      "ArticleTitle": "A Computable Phenotype Improves Cohort Ascertainment in a Pediatric Pulmonary Hypertension Registry.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0022-3476(17)30658-3"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jpeds.2017.05.037"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 188,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Pediatr.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1097-6833"
+        },
+        "Title": "The Journal of pediatrics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 19
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 11
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Jul 29;11(7):e0159621",
+        "PMID": {
+          "Version": 1,
+          "content": 27472449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2012 Feb 11;379(9815):537-46",
+        "PMID": {
+          "Version": 1,
+          "content": 22240409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Med. 2015 Apr 30;7(1):41",
+        "PMID": {
+          "Version": 1,
+          "content": 25937834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2015 Sep;22(5):993-1000",
+        "PMID": {
+          "Version": 1,
+          "content": 25929596
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2016 Apr;23 (e1):e20-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26338219
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2015 Dec;58:156-65",
+        "PMID": {
+          "Version": 1,
+          "content": 26464024
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 Sep;19(9):1675-81",
+        "PMID": {
+          "Version": 1,
+          "content": 19602638
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Aug 24;10(8):e0136651",
+        "PMID": {
+          "Version": 1,
+          "content": 26301417
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004 Jan 1;32(Database issue):D267-70",
+        "PMID": {
+          "Version": 1,
+          "content": 14681409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Jun;12(6):417-28",
+        "PMID": {
+          "Version": 1,
+          "content": 21587298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Jt Summits Transl Sci Proc. 2014 Apr 07;2014:96-101",
+        "PMID": {
+          "Version": 1,
+          "content": 25717408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pers Med. 2016 Feb 26;6(1):null",
+        "PMID": {
+          "Version": 1,
+          "content": 26927184
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2016 Sep;23(5):909-15",
+        "PMID": {
+          "Version": 1,
+          "content": 26911824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Pediatr. 2014 Oct;26(5):527-35",
+        "PMID": {
+          "Version": 1,
+          "content": 25136947
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Semin Pediatr Surg. 2015 Feb;24(1):12-6",
+        "PMID": {
+          "Version": 1,
+          "content": 25639804
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2014 Jul-Aug;21(4):615-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24821734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Stat Assoc. 2011 Jan 1;106(496):1371-1382",
+        "PMID": {
+          "Version": 1,
+          "content": 22844171
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Respir Rev. 2012 Mar 1;21(123):8-18",
+        "PMID": {
+          "Version": 1,
+          "content": 22379169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2016 Dec;72 (4):1194-1205",
+        "PMID": {
+          "Version": 1,
+          "content": 26910481
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2016 Nov;23 (6):1046-1052",
+        "PMID": {
+          "Version": 1,
+          "content": 27026615
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2015 Nov;22(6):1220-30",
+        "PMID": {
+          "Version": 1,
+          "content": 26342218
+        }
+      }
+    ]},
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0375410",
+      "Country": "United States",
+      "ISSNLinking": "0022-3476",
+      "MedlineTA": "J Pediatr"
+    },
+    "CitationSubset": [
+      "AIM",
+      "IM"
+    ],
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 11
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "bioinformatics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "computer-based model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pediatrics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pulmonary hypertension"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "registry"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {"DescriptorName": {
+        "UI": "D057225",
+        "MajorTopicYN": "Y",
+        "content": "Data Mining"
+      }},
+      {"DescriptorName": {
+        "UI": "D057286",
+        "MajorTopicYN": "Y",
+        "content": "Electronic Health Records"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "N",
+            "content": "epidemiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D006976",
+          "MajorTopicYN": "N",
+          "content": "Hypertension, Pulmonary"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "N",
+        "content": "Phenotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D011237",
+        "MajorTopicYN": "N",
+        "content": "Predictive Value of Tests"
+      }},
+      {"DescriptorName": {
+        "UI": "D012042",
+        "MajorTopicYN": "Y",
+        "content": "Registries"
+      }},
+      {"DescriptorName": {
+        "UI": "D012189",
+        "MajorTopicYN": "N",
+        "content": "Retrospective Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000453",
+          "MajorTopicYN": "N",
+          "content": "epidemiology"
+        },
+        "DescriptorName": {
+          "UI": "D014481",
+          "MajorTopicYN": "N",
+          "content": "United States"
+        }
+      }
+    ]},
+    "InvestigatorList": {"Investigator": [
+      {
+        "ValidYN": "Y",
+        "ForeName": "Steven",
+        "LastName": "Abman",
+        "Initials": "S",
+        "AffiliationInfo": {"Affiliation": "University of Colorado, Denver, CO."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Ian",
+        "LastName": "Adatia",
+        "Initials": "I",
+        "AffiliationInfo": {"Affiliation": "Stollery Children's Hospital, Mazankowski Alberta Heart Institute, University of Alberta, Edmonton, AB, Canada."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Eric D",
+        "LastName": "Austin",
+        "Initials": "ED",
+        "AffiliationInfo": {"Affiliation": "Monroe Carell Jr. Children's Hospital at Vanderbilt, Nashville, TN."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Jeffrey",
+        "LastName": "Feinstein",
+        "Initials": "J",
+        "AffiliationInfo": {"Affiliation": "Stanford University, Stanford, CA."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Jeff",
+        "LastName": "Fineman",
+        "Initials": "J",
+        "AffiliationInfo": {"Affiliation": "University of California, San Francisco, San Francisco, CA."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Brian",
+        "LastName": "Hanna",
+        "Initials": "B",
+        "AffiliationInfo": {"Affiliation": "Children's Hospital of Philadelphia, Philadelphia, PA."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Rachel",
+        "LastName": "Hopper",
+        "Initials": "R",
+        "AffiliationInfo": {"Affiliation": "Children's Hospital of Philadelphia, Philadelphia, PA."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Dunbar",
+        "LastName": "Ivy",
+        "Initials": "D",
+        "AffiliationInfo": {"Affiliation": "University of Colorado, Denver, CO."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Roberta",
+        "LastName": "Keller",
+        "Initials": "R",
+        "AffiliationInfo": {"Affiliation": "University of California, San Francisco, San Francisco, CA."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Usha",
+        "LastName": "Krishnan",
+        "Initials": "U",
+        "AffiliationInfo": {"Affiliation": "Columbia University, New York-Presbyterian, Morgan Stanley Children's Hospital, New York, NY."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Thomas",
+        "LastName": "Kulik",
+        "Initials": "T",
+        "AffiliationInfo": {"Affiliation": "Boston Children's Hospital, Boston, MA."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Mary",
+        "LastName": "Mullen",
+        "Initials": "M",
+        "AffiliationInfo": {"Affiliation": "Boston Children's Hospital, Boston, MA."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Usha",
+        "LastName": "Raj",
+        "Initials": "U",
+        "AffiliationInfo": {"Affiliation": "University of Illinois, Chicago, Chicago, IL."}
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Erika Berman",
+        "LastName": "Rosenzweig",
+        "Initials": "EB",
+        "AffiliationInfo": {"Affiliation": "Columbia University, New York-Presbyterian, Morgan Stanley Children's Hospital, New York, NY."}
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28625502
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "09",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28625502,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0022-3476(17)30658-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jpeds.2017.05.037",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5572538",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS885513",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

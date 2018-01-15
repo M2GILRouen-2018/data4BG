@@ -1,0 +1,131 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101196755,
+      "Country": "United States",
+      "ISSNLinking": "1545-5963",
+      "MedlineTA": "IEEE/ACM Trans Comput Biol Bioinform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1288-1301"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "De novo protein structure prediction aims to search for low-energy conformations as it follows the thermodynamics hypothesis that places native conformations at the global minimum of the protein energy surface. However, the native conformation is not necessarily located in the lowest-energy regions owing to the inaccuracies of the energy model. This study presents a differential evolution algorithm using distance profile-based selection strategy to sample conformations with reasonable structure effectively. In the proposed algorithm, besides energy, the residue-residue distance is considered another measure of the conformation. The average distance errors of decoys between the distance of each residue pair and the corresponding distance in the distance profiles are first calculated when the trial conformation yields a larger energy value than that of the target. Then, the distance acceptance probability of the trial conformation is designed based on distance profiles if the trial conformation obtains a lower average distance error compared with that of the target conformation. The trial conformation is accepted to the next generation in accordance with its distance acceptance probability. By using the dual constraints of energy and distance in guiding sampling, the algorithm can sample conformations with lower energies and more reasonable structures. Experimental results of 28 benchmark proteins show that the proposed algorithm can effectively predict near-native protein structures."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gui-Jun",
+            "LastName": "Zhang",
+            "Initials": "GJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiao-Gen",
+            "LastName": "Zhou",
+            "Initials": "XG"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xu-Feng",
+            "LastName": "Yu",
+            "Initials": "XF"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiao-Hu",
+            "LastName": "Hao",
+            "Initials": "XH"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Li",
+            "LastName": "Yu",
+            "Initials": "L"
+          }
+        ]
+      },
+      "ArticleTitle": "Enhancing Protein Conformational Space Sampling Using Distance Profile-Guided Differential Evolution.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TCBB.2016.2566617"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 14,
+          "PubDate": {"MedlineDate": "2017 Nov-Dec"},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE/ACM Trans Comput Biol Bioinform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1557-9964"
+        },
+        "Title": "IEEE/ACM transactions on computational biology and bioinformatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113726
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113726,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TCBB.2016.2566617",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

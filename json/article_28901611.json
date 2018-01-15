@@ -1,0 +1,195 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e113-e124"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2016 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Rotational coronary angiography enables 3D reconstruction but suffers from intra-scan cardiac and respiratory motion. While gating handles cardiac motion, respiratory motion requires compensation. State-of-the-art algorithms rely on 3D-2D registration that depends on initial reconstructions of sufficient quality. We propose a compensation method that is applied directly in projection domain. It overcomes the need for reconstruction and thus complements the state-of-the-art."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Virtual single-frame background subtraction based on vessel segmentation and spectral deconvolution yields non-truncated images of the contrasted lumen. This allows motion compensation based on data consistency conditions. We compensate craniocaudal shifts by optimizing epipolar consistency to (a) devise an image-based surrogate for cardiac motion and (b) compensate for respiratory motion. We validate our approach in two numerical phantom studies and three clinical cases."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Correlation of the image-based surrogate for cardiac motion with the ECG-based ground truth was excellent yielding a Pearson correlation of 0.93 ± 0.04. Considering motion compensation, the target error measure decreased by 98% and 69%, respectively, for the phantom experiments while for the clinical cases the same figure of merit improved by 46 ± 21%."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The proposed method is entirely image-based and accurately estimates craniocaudal shifts due to respiration and cardiac contraction. Future work will investigate experimental trajectories and possibilities for simplification of the single-frame subtraction pipeline."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mathias",
+            "LastName": "Unberath",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Pattern Recognition Lab, Computer Science Department, Friedrich-Alexander-University Erlangen-Nuremberg, Erlangen, Germany."},
+              {"Affiliation": "Graduate School in Advanced Optical Technologies (SAOT), Erlangen, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "André",
+            "LastName": "Aichert",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Pattern Recognition Lab, Computer Science Department, Friedrich-Alexander-University Erlangen-Nuremberg, Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephan",
+            "LastName": "Achenbach",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Cardiology, Friedrich-Alexander-University Erlangen-Nuremberg, Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andreas",
+            "LastName": "Maier",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Pattern Recognition Lab, Computer Science Department, Friedrich-Alexander-University Erlangen-Nuremberg, Erlangen, Germany."},
+              {"Affiliation": "Graduate School in Advanced Optical Technologies (SAOT), Erlangen, Germany."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Consistency-based respiratory motion estimation in rotational angiography.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12021"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "cone-beam CT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "inpainting"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "motion correction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "vessel segmentation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28901611
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 18,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28901611,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12021",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

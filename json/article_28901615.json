@@ -1,0 +1,178 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e255-e263"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Our goal is to develop a model-based approach for CT dose estimation. We previously presented a CT dose estimation method that offered good accuracy in soft tissue regions but lower accuracy in bone regions. In this work, we propose an improved physic-based approach to achieve high accuracy for any materials and realistic clinical anatomies."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Like Monte Carlo techniques, we start from a model or image of the patient and we model all relevant x-ray interaction processes. Unlike Monte Carlo techniques, we do not track each individual photon, but we compute the average behavior of the x-ray interactions, combining pencil-beam calculations for the first-order interactions and kernels for the higher order interactions. The new algorithm more accurately models the variation of materials in the human body, especially for higher attenuation materials such as bone, as well as the various x-ray attenuation processes. We performed validation experiments with analytic phantoms and a polychromatic x-ray spectrum, comparing to Monte Carlo simulation (GEANT4) as the ground truth."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The results show that the proposed method has improved accuracy in both soft tissue region and bone region: less than 6% voxel-wise errors and less than 3.2% ROI-based errors in an anthropomorphic phantom. The computational cost is on the order of a low-resolution filtered backprojection reconstruction."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "We introduced improved physics-based models in a fast CT dose reconstruction approach. The improved approach demonstrated quantitatively good correspondence to a Monte Carlo gold standard in both soft tissue and bone regions in a chest phantom with a realistic polychromatic spectrum and could potentially be used for real-time applications such as patient- and organ-specific scan planning and organ dose reporting."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mingye",
+            "LastName": "Wu",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Imaging, GE Global Research, 1 Research Circle, Niskayuna, NY, 12309, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhye",
+            "LastName": "Yin",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Imaging, GE Global Research, 1 Research Circle, Niskayuna, NY, 12309, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bruno",
+            "LastName": "De Man",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Imaging, GE Global Research, 1 Research Circle, Niskayuna, NY, 12309, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Model-based dose reconstruction for CT dose estimation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12409"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Monte Carlo"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "computed tomography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "dosimetry"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28901615
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28901615,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12409",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,589 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 154},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P50 HL107188",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL095021",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The study of circulating biomarkers and their association with disease outcomes has become progressively complex due to advances in the measurement of these biomarkers through multiplex technologies. The Least Absolute Shrinkage and Selection Operator (LASSO) is a data analysis method that may be utilized for biomarker selection in these high dimensional data. However, it is unclear which LASSO-type method is preferable when considering data scenarios that may be present in serum biomarker research, such as high correlation between biomarkers, weak associations with the outcome, and sparse number of true signals. The goal of this study was to compare the LASSO to five LASSO-type methods given these scenarios."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "A simulation study was performed to compare the LASSO, Adaptive LASSO, Elastic Net, Iterated LASSO, Bootstrap-Enhanced LASSO, and Weighted Fusion for the binary logistic regression model. The simulation study was designed to reflect the data structure of the population-based Tucson Epidemiological Study of Airway Obstructive Disease (TESAOD), specifically the sample size (N\u2009=\u20091000 for total population, 500 for sub-analyses), correlation of biomarkers (0.20, 0.50, 0.80), prevalence of overweight (40%) and obese (12%) outcomes, and the association of outcomes with standardized serum biomarker concentrations (log-odds ratio\u2009=\u20090.05-1.75). Each LASSO-type method was then applied to the TESAOD data of 306 overweight, 66 obese, and 463 normal-weight subjects with a panel of 86 serum biomarkers."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Based on the simulation study, no method had an overall superior performance. The Weighted Fusion correctly identified more true signals, but incorrectly included more noise variables. The LASSO and Elastic Net correctly identified many true signals and excluded more noise variables. In the application study, biomarkers of overweight and obesity selected by all methods were Adiponectin, Apolipoprotein H, Calcitonin, CD14, Complement 3, C-reactive protein, Ferritin, Growth Hormone, Immunoglobulin M, Interleukin-18, Leptin, Monocyte Chemotactic Protein-1, Myoglobin, Sex Hormone Binding Globulin, Surfactant Protein D, and YKL-40."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "For the data scenarios examined, choice of optimal LASSO-type method was data structure dependent and should be guided by the research objective. The LASSO-type methods identified biomarkers that have known associations with obesity and obesity related conditions."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Monica M",
+            "LastName": "Vasquez",
+            "Initials": "MM",
+            "AffiliationInfo": [
+              {"Affiliation": "Mel and Enid Zuckerman College of Public Health, The University of Arizona, 1295 North Martin Avenue, P.O. Box 245211, Tucson, AZ, 85724, USA. mmv@email.arizona.edu."},
+              {"Affiliation": "Asthma and Airway Disease Research Center, The University of Arizona, 1501 North Campbell Avenue, P.O. Box 245030, Tucson, AZ, 85724, USA. mmv@email.arizona.edu."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chengcheng",
+            "LastName": "Hu",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Mel and Enid Zuckerman College of Public Health, The University of Arizona, 1295 North Martin Avenue, P.O. Box 245211, Tucson, AZ, 85724, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Denise J",
+            "LastName": "Roe",
+            "Initials": "DJ",
+            "AffiliationInfo": {"Affiliation": "Mel and Enid Zuckerman College of Public Health, The University of Arizona, 1295 North Martin Avenue, P.O. Box 245211, Tucson, AZ, 85724, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhao",
+            "LastName": "Chen",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Mel and Enid Zuckerman College of Public Health, The University of Arizona, 1295 North Martin Avenue, P.O. Box 245211, Tucson, AZ, 85724, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marilyn",
+            "LastName": "Halonen",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Asthma and Airway Disease Research Center, The University of Arizona, 1501 North Campbell Avenue, P.O. Box 245030, Tucson, AZ, 85724, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stefano",
+            "LastName": "Guerra",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Asthma and Airway Disease Research Center, The University of Arizona, 1501 North Campbell Avenue, P.O. Box 245030, Tucson, AZ, 85724, USA."},
+              {"Affiliation": "ISGlobal CREAL Centre, University Pompeu Fabra, Barcelona, Spain."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Least absolute shrinkage and selection operator type methods for the identification of serum biomarkers of overweight and obesity: simulation and application.",
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 16,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2016,
+            "Day": 14
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Med Res Methodol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2288"
+        },
+        "Title": "BMC medical research methodology"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 15
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 31
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Clin Biochem. 2004 Jul;41(Pt 4):330-4",
+        "PMID": {
+          "Version": 1,
+          "content": 15298746
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Endocrinol Metab. 2005 Mar;90(3):1550-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15613437
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Endocrinol Metab. 2002 Aug;87(8):3864-6",
+        "PMID": {
+          "Version": 1,
+          "content": 12161523
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Thromb Haemost. 2006 Jun;95(6):991-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16732378
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetol Metab Syndr. 2014 Oct 26;6(1):114",
+        "PMID": {
+          "Version": 1,
+          "content": 25371712
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Haematol. 1999 Apr;105(1):110-6",
+        "PMID": {
+          "Version": 1,
+          "content": 10233372
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Endocrinol (Oxf). 2013 Mar;78(3):321-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23121642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Stat Softw. 2010;33(1):1-22",
+        "PMID": {
+          "Version": 1,
+          "content": 20808728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arterioscler Thromb. 1993 Dec;13(12 ):1829-36",
+        "PMID": {
+          "Version": 1,
+          "content": 8241104
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2010 Apr;33(4):847-53",
+        "PMID": {
+          "Version": 1,
+          "content": 20086254
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2004 May;27(5):1036-41",
+        "PMID": {
+          "Version": 1,
+          "content": 15111517
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mach Learn Res. 2009;10:2013-2038",
+        "PMID": {
+          "Version": 1,
+          "content": 21603590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 1975 Aug;102(2):137-52",
+        "PMID": {
+          "Version": 1,
+          "content": 1155443
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Oct 15;21(20):3940-1",
+        "PMID": {
+          "Version": 1,
+          "content": 16096348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(2):e55175",
+        "PMID": {
+          "Version": 1,
+          "content": 23408959
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2014 Feb;23(2):140-51",
+        "PMID": {
+          "Version": 1,
+          "content": 24136855
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Endocr Metab Immune Disord Drug Targets. 2013 Dec;13(4):301-5",
+        "PMID": {
+          "Version": 1,
+          "content": 24428680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2007 Apr 24;115(16):2119-27",
+        "PMID": {
+          "Version": 1,
+          "content": 17404162
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Obes Surg. 2009 Nov;19(11):1557-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19633900
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Obes (Lond). 2013 Dec;37(12):1532-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23478426
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Reprod Immunol. 2013 Apr;97(2):232-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23218400
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2007 Jan;8(1):118-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16632515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Stat Soc Series B Stat Methodol. 2008;70(5):849-911",
+        "PMID": {
+          "Version": 1,
+          "content": 19603084
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Endocrinol Metab. 2012 Jan;23(1):32-40",
+        "PMID": {
+          "Version": 1,
+          "content": 22047952
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Thromb Haemost. 2004 Apr;91(4):683-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15045128
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Thromb Haemost. 2015 Mar;113(3):577-84",
+        "PMID": {
+          "Version": 1,
+          "content": 25472874
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Endocrinol Metab. 1977 Dec;45(6):1211-9",
+        "PMID": {
+          "Version": 1,
+          "content": 338622
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Endocrinol (Oxf). 1980 Apr;12(4):363-9",
+        "PMID": {
+          "Version": 1,
+          "content": 6769612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1999 Aug 17;100(7):736-42",
+        "PMID": {
+          "Version": 1,
+          "content": 10449696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Stat. 2008;36(6):2605-2637",
+        "PMID": {
+          "Version": 1,
+          "content": 19169416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Scand J Immunol. 2006 Dec;64(6):633-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17083619
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Obes Relat Metab Disord. 1999 Mar;23(3):260-71",
+        "PMID": {
+          "Version": 1,
+          "content": 10193871
+        }
+      }
+    ]},
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100968545,
+      "Country": "England",
+      "ISSNLinking": "1471-2288",
+      "MedlineTA": "BMC Med Res Methodol"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D015415",
+        "content": "Biomarkers"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 31
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Biomarkers"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "High-Dimensional"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "LASSO"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Overweight"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D019540",
+        "MajorTopicYN": "N",
+        "content": "Area Under Curve"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000097",
+          "MajorTopicYN": "N",
+          "content": "blood"
+        },
+        "DescriptorName": {
+          "UI": "D015415",
+          "MajorTopicYN": "N",
+          "content": "Biomarkers"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016015",
+        "MajorTopicYN": "N",
+        "content": "Logistic Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "N",
+        "content": "Models, Biological"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000097",
+            "MajorTopicYN": "N",
+            "content": "blood"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009765",
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000097",
+            "MajorTopicYN": "N",
+            "content": "blood"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D050177",
+          "MajorTopicYN": "N",
+          "content": "Overweight"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012372",
+        "MajorTopicYN": "N",
+        "content": "ROC Curve"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 27842498
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 29,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27842498,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12874-016-0254-8",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12874-016-0254-8",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5109787",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

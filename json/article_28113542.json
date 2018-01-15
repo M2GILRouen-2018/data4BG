@@ -1,0 +1,120 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9885960,
+      "Country": "United States",
+      "ISSNLinking": "0098-5589",
+      "MedlineTA": "IEEE Trans Pattern Anal Mach Intell"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "803-817"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper presents a novel image descriptor to effectively characterize the local, high-order image statistics. Our work is inspired by the Diffusion Tensor Imaging and the structure tensor method (or covariance descriptor), and motivated by popular distribution-based descriptors such as SIFT and HoG. Our idea is to associate one pixel with a multivariate Gaussian distribution estimated in the neighborhood. The challenge lies in that the space of Gaussians is not a linear space but a Riemannian manifold. We show, for the first time to our knowledge, that the space of Gaussians can be equipped with a Lie group structure by defining a multiplication operation on this manifold, and that it is isomorphic to a subgroup of the upper triangular matrix group. Furthermore, we propose methods to embed this matrix group in the linear space, which enables us to handle Gaussians with Euclidean operations rather than complicated Riemannian operations. The resulting descriptor, called Local Log-Euclidean Multivariate Gaussian (L2EMG) descriptor, works well with low-dimensional and high-dimensional raw features. Moreover, our descriptor is a continuous function of features without quantization, which can model the first- and second-order statistics. Extensive experiments were conducted to evaluate thoroughly L2EMG, and the results showed that L2EMG is very competitive with state-of-the-art descriptors in image classification."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "LastName": "Peihua Li"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Qilong Wang"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Hui Zeng"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Lei Zhang"
+          }
+        ]
+      },
+      "ArticleTitle": "Local Log-Euclidean Multivariate Gaussian Descriptor and Its Application to Image Classification.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TPAMI.2016.2560816"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 39,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Pattern Anal Mach Intell",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1939-3539"
+        },
+        "Title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "08"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113542
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113542,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TPAMI.2016.2560816",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

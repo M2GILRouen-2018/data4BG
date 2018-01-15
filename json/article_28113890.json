@@ -1,0 +1,144 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Optical coherence tomography (OCT) is a micrometer-scale, cross-sectional imaging modality for biological tissue. It has been widely used for retinal imaging in ophthalmology. Speckle noise is problematic in OCT. A raw OCT image/volume usually has very poor image quality due to speckle noise, which often obscures the retinal structures. Overlapping scan is often used for speckle reduction in a 2D line-scan. However, it leads to an increase of the data acquisition time. Therefore, it is unpractical in 3D scan as it requires a much longer data acquisition time. In this paper, we propose a new method for speckle reduction in 3D OCT. The proposed method models each A-scan as the sum of underlying clean A-scan and noise. Based on the assumption that neighboring A-scans are highly similar in the retina, the method reconstructs each A-scan from its neighboring scans. In the method, the neighboring Ascans are aligned/registered to the A-scan to be reconstructed and form a matrix together. Then low rank matrix completion using bilateral random projection is utilized to iteratively estimate the noise and recover the underlying clean A-scan. The proposed method is evaluated through the mean square error, peak signal to noise ratio and the mean structure similarity index using high quality line-scan images as reference. Experimental results show that the proposed method performs better than other methods. In addition, the subsequent retinal layer segmentation also shows that the proposed method makes the automatic retinal layer segmentation more accurate. The technology can be embedded into current OCT machines to enhance the image quality for visualization and subsequent analysis such as retinal layer segmentation."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jun",
+            "LastName": "Cheng",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dacheng",
+            "LastName": "Tao",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ying",
+            "LastName": "Quan",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Damon Wing Kee",
+            "LastName": "Wong",
+            "Initials": "DW"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gemmy Chui Ming",
+            "LastName": "Cheung",
+            "Initials": "GC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Masahiro",
+            "LastName": "Akiba",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiang",
+            "LastName": "Liu",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "Speckle Reduction in 3D Optical Coherence Tomography of Retina by A-Scan Reconstruction.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2016.2556080"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2016,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113890
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113890,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2016.2556080",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

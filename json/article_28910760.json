@@ -1,0 +1,134 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "210-221"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We present a novel method to segment instances of glandular structures from colon histopathology images. We use a structure learning approach which represents local spatial configurations of class labels, capturing structural information normally ignored by sliding-window methods. This allows us to reveal different spatial structures of pixel labels (e.g., locations between adjacent glands, or far from glands), and to identify correctly neighboring glandular structures as separate instances. Exemplars of label structures are obtained via clustering and used to train support vector machine classifiers. The label structures predicted are then combined and post-processed to obtain segmentation maps. We combine hand-crafted, multi-scale image features with features computed by a deep convolutional network trained to map images to segmentation maps. We evaluate the proposed method on the public domain GlaS data set, which allows extensive comparisons with recent, alternative methods. Using the GlaS contest protocol, our method achieves the overall best performance."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Siyamalan",
+            "LastName": "Manivannan",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wenqi",
+            "LastName": "Li",
+            "Initials": "W"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jianguo",
+            "LastName": "Zhang",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emanuele",
+            "LastName": "Trucco",
+            "Initials": "E"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephen J",
+            "LastName": "McKenna",
+            "Initials": "SJ"
+          }
+        ]
+      },
+      "ArticleTitle": "Structure Prediction for Gland Segmentation With Hand-Crafted and Deep Convolutional Features.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2017.2750210"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 37,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28910760
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28910760,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2017.2750210",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

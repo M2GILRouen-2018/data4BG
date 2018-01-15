@@ -1,0 +1,425 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 22
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 49},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIMH NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 MH090611",
+          "Acronym": "MH"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Next Generation Genome sequencing techniques became affordable for massive sequencing efforts devoted to clinical characterization of human diseases. However, the cost of providing cloud-based data analysis of the mounting datasets remains a concerning bottleneck for providing cost-effective clinical services. To address this computational problem, it is important to optimize the variant analysis workflow and the used analysis tools to reduce the overall computational processing time, and concomitantly reduce the processing cost. Furthermore, it is important to capitalize on the use of the recent development in the cloud computing market, which have witnessed more providers competing in terms of products and prices."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "In this paper, we present a new package called MC-GenomeKey (Multi-Cloud GenomeKey) that efficiently executes the variant analysis workflow for detecting and annotating mutations using cloud resources from different commercial cloud providers. Our package supports Amazon, Google, and Azure clouds, as well as, any other cloud platform based on OpenStack. Our package allows different scenarios of execution with different levels of sophistication, up to the one where a workflow can be executed using a cluster whose nodes come from different clouds. MC-GenomeKey also supports scenarios to exploit the spot instance model of Amazon in combination with the use of other cloud platforms to provide significant cost reduction. To the best of our knowledge, this is the first solution that optimizes the execution of the workflow using computational resources from different cloud providers."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "MC-GenomeKey provides an efficient multicloud based solution to detect and annotate mutations. The package can run in different commercial cloud platforms, which enables the user to seize the best offers. The package also provides a reliable means to make use of the low-cost spot instance model of Amazon, as it provides an efficient solution to the sudden termination of spot machines as a result of a sudden price increase. The package has a web-interface and it is available for free for academic use."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hatem",
+            "LastName": "Elshazly",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Center for Informatics Sciences, Nile University, Juhayna Square, Sheikh Zayed, Giza, Egypt."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yassine",
+            "LastName": "Souilmi",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biology, Mohamed Vth University in Rabat, 4 Ibn Battouta Avenue, BP: 1014RP, Rabat, Morocco."},
+              {"Affiliation": "Department of Biomedical Informatics, Harvard Medical School, 10 Shattuck Street, Boston, MA, 02115, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter J",
+            "LastName": "Tonellato",
+            "Initials": "PJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biomedical Informatics, Harvard Medical School, 10 Shattuck Street, Boston, MA, 02115, USA."},
+              {"Affiliation": "Department of Pathology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, 02215, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dennis P",
+            "LastName": "Wall",
+            "Initials": "DP",
+            "AffiliationInfo": {"Affiliation": "Department of Pediatrics and Psychiatry (by courtesy), Division of Systems Medicine & Program in Biomedical Informatics, Stanford University, Stanford, CA, 94305, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mohamed",
+            "LastName": "Abouelhoda",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for Informatics Sciences, Nile University, Juhayna Square, Sheikh Zayed, Giza, Egypt. mabouelhoda@yahoo.com."},
+              {"Affiliation": "Systems and Biomedical Engineering Department, Faculty of Engineering, Cairo University, Giza, Egypt. mabouelhoda@yahoo.com."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "MC-GenomeKey: a multicloud system for the detection and annotation of genomic variants.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-016-1454-2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Cloud computing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multicloud"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Personalized medicine"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Sequence analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Variant analysis"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000067917",
+        "MajorTopicYN": "Y",
+        "content": "Cloud Computing"
+      }},
+      {"DescriptorName": {
+        "UI": "D030541",
+        "MajorTopicYN": "N",
+        "content": "Databases, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D015894",
+        "MajorTopicYN": "N",
+        "content": "Genome, Human"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D023281",
+          "MajorTopicYN": "N",
+          "content": "Genomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D059014",
+        "MajorTopicYN": "Y",
+        "content": "High-Throughput Nucleotide Sequencing"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D020407",
+        "MajorTopicYN": "N",
+        "content": "Internet"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }},
+      {"DescriptorName": {
+        "UI": "D057188",
+        "MajorTopicYN": "N",
+        "content": "Workflow"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2012 May 04;13:77",
+        "PMID": {
+          "Version": 1,
+          "content": 22559942
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(8):e41948",
+        "PMID": {
+          "Version": 1,
+          "content": 22870267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(5):207",
+        "PMID": {
+          "Version": 1,
+          "content": 20441614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013;14 Suppl 7:S11",
+        "PMID": {
+          "Version": 1,
+          "content": 23815231
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2010 Jul;28(7):691-3",
+        "PMID": {
+          "Version": 1,
+          "content": 20622843
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 15;9(1):e84860",
+        "PMID": {
+          "Version": 1,
+          "content": 24454756
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2012;13 Suppl 17:S22",
+        "PMID": {
+          "Version": 1,
+          "content": 23281941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2010 Sep;20(9):1297-303",
+        "PMID": {
+          "Version": 1,
+          "content": 20644199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Mar 1;26(5):589-95",
+        "PMID": {
+          "Version": 1,
+          "content": 20080505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2011 Feb 11;331(6018):666-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21310981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jan 1;27(1):9-13",
+        "PMID": {
+          "Version": 1,
+          "content": 20971986
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 Aug;7(8):e1002147",
+        "PMID": {
+          "Version": 1,
+          "content": 21901085
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2012;13 Suppl 6:S19",
+        "PMID": {
+          "Version": 1,
+          "content": 23134663
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2013;2013:791051",
+        "PMID": {
+          "Version": 1,
+          "content": 23710461
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Genomics. 2015 Oct 15;8:64",
+        "PMID": {
+          "Version": 1,
+          "content": 26470712
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Oct 15;30(20):2956-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24982428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Sep;38(16):e164",
+        "PMID": {
+          "Version": 1,
+          "content": 20601685
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Genet. 2012 Dec 11;3:280",
+        "PMID": {
+          "Version": 1,
+          "content": 23248640
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28107819
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 24,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28107819,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-016-1454-2",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-016-1454-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5248509",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

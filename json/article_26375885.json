@@ -1,0 +1,301 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8915031,
+      "Country": "Netherlands",
+      "ISSNLinking": "0933-3657",
+      "MedlineTA": "Artif Intell Med"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2016,
+      "Day": 29
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "167-77"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2015 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "Anomaly detection, as an imperative task for clinical pathway (CP) analysis and improvement, can provide useful and actionable knowledge of interest to clinical experts to be potentially exploited. Existing studies mainly focused on the detection of global anomalous inpatient traces of CPs using the similarity measures in a structured manner, which brings order in the chaos of CPs, may decline the accuracy of similarity measure between inpatient traces, and may distort the efficiency of anomaly detection. In addition, local anomalies that exist in some subsegments of events or behaviors in inpatient traces are easily overlooked by existing approaches since they are designed for detecting global or large anomalies."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHOD",
+            "content": "In this study, we employ a probabilistic topic model to discover underlying treatment patterns, and assume any significant unexplainable deviations from the normal behaviors surmised by the derived patterns are strongly correlated with anomalous behaviours. In this way, we can figure out the detailed local abnormal behaviors and the associations between these anomalies such that diagnostic information on local anomalies can be provided."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The proposed approach is evaluated via a clinical data-set, including 2954 unstable angina patient traces and 483,349 clinical events, extracted from a Chinese hospital. Using the proposed method, local anomalies are detected from the log. In addition, the identified associations between the detected local anomalies are derived from the log, which lead to clinical concern on the reason resulting in these anomalies in CPs. The correctness of the proposed approach has been evaluated by three experience cardiologists of the hospital. For four types of local anomalies (i.e., unexpected events, early events, delay events, and absent events), the proposed approach achieves 94%, 71% 77%, and 93.2% in terms of recall. This is quite remarkable as we do not use a prior knowledge."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "Substantial experimental results show that the proposed approach can effectively detect local anomalies in CPs, and also provide diagnostic information on the detected anomalies in an informative manner."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhengxing",
+            "LastName": "Huang",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "College of Biomedical Engineering and Instrument Science, Zhejiang University, Zhou Yiqing Building 510, Zheda Road 38#, 310008 Hangzhou, Zhejiang, China. Electronic address: zhengxinghuang@zju.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Dong",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Department of Cardiology, Chinese PLA General Hospital, Fuxing Road 28#, 100853 Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lei",
+            "LastName": "Ji",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "IT Department, Chinese PLA General Hospital, Fuxing Road 28#, 100853 Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Liangying",
+            "LastName": "Yin",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "College of Biomedical Engineering and Instrument Science, Zhejiang University, Zhou Yiqing Building 510, Zheda Road 38#, 310008 Hangzhou, Zhejiang, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Huilong",
+            "LastName": "Duan",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "College of Biomedical Engineering and Instrument Science, Zhejiang University, Zhou Yiqing Building 510, Zheda Road 38#, 310008 Hangzhou, Zhejiang, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "On local anomaly detection and analysis for clinical pathways.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.artmed.2015.09.001"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0933-3657(15)00108-6"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 65,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2015
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Artif Intell Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1873-2860"
+        },
+        "Title": "Artificial intelligence in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Clinical event log"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Clinical pathway analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Local anomaly detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Probabilistic topicmodel"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": 11,
+      "Year": 2015,
+      "Day": 20
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000628",
+          "MajorTopicYN": "N",
+          "content": "therapy"
+        },
+        "DescriptorName": {
+          "UI": "D000789",
+          "MajorTopicYN": "N",
+          "content": "Angina, Unstable"
+        }
+      },
+      {"DescriptorName": {
+        "Type": "Geographic",
+        "UI": "D002681",
+        "MajorTopicYN": "N",
+        "content": "China"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "Y",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D019091",
+          "MajorTopicYN": "N",
+          "content": "Critical Pathways"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D057225",
+          "MajorTopicYN": "N",
+          "content": "Data Mining"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "Y",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D058996",
+          "MajorTopicYN": "N",
+          "content": "Quality Improvement"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2015,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26375885
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2014,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2015,
+        "Day": "02",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2015,
+        "Day": "02",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26375885,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0933-3657(15)00108-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.artmed.2015.09.001",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

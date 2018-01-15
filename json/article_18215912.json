@@ -1,0 +1,581 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2013,
+      "Day": 24
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "283-96"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR000005",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NCRR NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 RR024153",
+            "Acronym": "RR"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P50 CA090440",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "HL096613",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL095397",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P50 HL084948",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "HL095397",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "HL084948",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "CA090440",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL096613",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2012,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2012 Elsevier B.V. All rights reserved.",
+        "AbstractText": "Airway diseases (e.g., asthma, emphysema, and chronic bronchitis) are extremely common worldwide. Any morphological variations (abnormalities) of airways may physically change airflow and ultimately affect the ability of the lungs in gas exchange. In this study, we describe a novel algorithm aimed to automatically identify airway walls depicted on CT images. The underlying idea is to place a three-dimensional (3D) surface model within airway regions and thereafter allow this model to evolve (deform) under predefined external and internal forces automatically to the location where these forces reach a state of balance. By taking advantage of the geometric and the density characteristics of airway walls, the evolution procedure is performed in a distance gradient field and ultimately stops at regions with the highest contrast. The performance of this scheme was quantitatively evaluated from several perspectives. First, we assessed the accuracy of the developed scheme using a dedicated lung phantom in airway wall estimation and compared it with the traditional full-width at half maximum (FWHM) method. The phantom study shows that the developed scheme has an error ranging from 0.04 mm to 0.36 mm, which is much smaller than the FWHM method with an error ranging from 0.16 mm to 0.84 mm. Second, we compared the results obtained by the developed scheme with those manually delineated by an experienced (>30 years) radiologist on clinical chest CT examinations, showing a mean difference of 0.084 mm. In particular, the sensitivity of the scheme to different reconstruction kernels was evaluated on real chest CT examinations. For the 'lung', 'bone' and 'standard' kernels, the average airway wall thicknesses computed by the developed scheme were 1.302 mm, 1.333 mm and 1.339 mm, respectively. Our preliminary experiments showed that the scheme had a reasonable accuracy in airway wall estimation. For a clinical chest CT examination, it took around 4 min for this scheme to identify the inner and outer airway walls on a modern PC."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Suicheng",
+            "LastName": "Gu",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Pittsburgh, Pittsburgh, PA 15213, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Carl",
+            "LastName": "Fuhrman",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xin",
+            "LastName": "Meng",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jill M",
+            "LastName": "Siegfried",
+            "Initials": "JM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Gur",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joseph K",
+            "LastName": "Leader",
+            "Initials": "JK"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Frank C",
+            "LastName": "Sciurba",
+            "Initials": "FC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiantao",
+            "LastName": "Pu",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "Computerized identification of airway wall in CT examinations using a 3D active surface evolution approach.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.media.2012.11.003"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1361-8415(12)00165-X"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2013
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "03",
+      "Year": 2013,
+      "Day": 22
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D008168",
+          "MajorTopicYN": "N",
+          "content": "Lung"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D013902",
+          "MajorTopicYN": "N",
+          "content": "Radiography, Thoracic"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2008;11(Pt 1):219-26",
+        "PMID": {
+          "Version": 1,
+          "content": 18979751
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 1996 Jun;199(3):831-6",
+        "PMID": {
+          "Version": 1,
+          "content": 8638013
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Apr;29(4):982-97",
+        "PMID": {
+          "Version": 1,
+          "content": 20335095
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2003 Aug;22(8):940-50",
+        "PMID": {
+          "Version": 1,
+          "content": 12906248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2007 Feb;242(2):563-72",
+        "PMID": {
+          "Version": 1,
+          "content": 17179398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 1996 Nov;154(5):1557-62",
+        "PMID": {
+          "Version": 1,
+          "content": 8912780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2009 Nov 21;54(22):7009-24",
+        "PMID": {
+          "Version": 1,
+          "content": 19887716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2006;9(Pt 2):125-34",
+        "PMID": {
+          "Version": 1,
+          "content": 17354764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2005 Dec;24(12):1529-39",
+        "PMID": {
+          "Version": 1,
+          "content": 16353370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2008 Jan;27(1):64-74",
+        "PMID": {
+          "Version": 1,
+          "content": 18270063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Radiol. 1984 Sep-Oct;19(5):394-8",
+        "PMID": {
+          "Version": 1,
+          "content": 6511247
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2000 May;161(5):1720-45",
+        "PMID": {
+          "Version": 1,
+          "content": 10806180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 2003 Sep;95(3):1063-75",
+        "PMID": {
+          "Version": 1,
+          "content": 12754180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1997 Dec;16(6):820-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9533582
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2012 Nov;19(11):1395-401",
+        "PMID": {
+          "Version": 1,
+          "content": 22884402
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2005 Jun;235(3):1055-64",
+        "PMID": {
+          "Version": 1,
+          "content": 15833982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2011 Feb;30(2):266-78",
+        "PMID": {
+          "Version": 1,
+          "content": 20851792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Aug;17(4):489-97",
+        "PMID": {
+          "Version": 1,
+          "content": 9845305
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2000 Sep;162(3 Pt 1):1102-8",
+        "PMID": {
+          "Version": 1,
+          "content": 10988137
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1996;15(3):314-26",
+        "PMID": {
+          "Version": 1,
+          "content": 18215912
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS425181"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC3606689"
+      }
+    ],
+    "PMID": {
+      "Version": 1,
+      "content": 23260997
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2012,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2012,
+        "Day": "06",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2012,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23260997,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(12)00165-X",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2012.11.003",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3606689",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS425181",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

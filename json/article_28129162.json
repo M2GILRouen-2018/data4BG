@@ -1,0 +1,116 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9891704,
+      "Country": "United States",
+      "ISSNLinking": "1077-2626",
+      "MedlineTA": "IEEE Trans Vis Comput Graph"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1155-1166"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this paper we present a novel GPU-friendly real-time voxelization technique for rendering homogeneous media that is defined by particles, e.g., fluids obtained from particle-based simulations such as Smoothed Particle Hydrodynamics (SPH). Our method computes view-adaptive binary voxelizations with on-the-fly compression of a tiled perspective voxel grid, achieving higher resolutions than previous approaches. It allows for interactive generation of realistic images, enabling advanced rendering techniques such as ray casting-based refraction and reflection, light scattering and absorption, and ambient occlusion. In contrast to previous methods, it does not rely on preprocessing such as expensive, and often coarse, scalar field conversion or mesh generation steps. Our method directly takes unsorted particle data as input. It can be further accelerated by identifying fully populated simulation cells during simulation. The extracted surface can be filtered to achieve smooth surface appearance. Finally, we provide a new scheme for accelerated ray casting inside the voxelization."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tobias",
+            "LastName": "Zirr",
+            "Initials": "T"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Carsten",
+            "LastName": "Dachsbacher",
+            "Initials": "C"
+          }
+        ]
+      },
+      "ArticleTitle": "Memory-Efficient On-the-Fly Voxelization and Rendering of Particle Data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TVCG.2017.2656897"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 24,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Vis Comput Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0506"
+        },
+        "Title": "IEEE transactions on visualization and computer graphics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28129162
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28129162,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TVCG.2017.2656897",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

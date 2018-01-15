@@ -1,0 +1,128 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9891704,
+      "Country": "United States",
+      "ISSNLinking": "1077-2626",
+      "MedlineTA": "IEEE Trans Vis Comput Graph"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "2108-2119"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Realistic Rendering of thin transparent layers bounded by rough surfaces involves substantial expense of computation time to account for multiple internal reflections. Resorting to Monte Carlo rendering for such material is usually impractical since recursive importance sampling is inevitable. To reduce the burden of sampling for simulating subsurface scattering and hence improve rendering performance, we adapt the microfacet model to the material with a single thin layer by introducing the extended normal distribution function (ENDF), a new representation of this model, to express visually perceived roughness due to multiple bounces of reflections and refractions. With such a representation, both surface reflection and subsurface scattering can be treated in the same microfacet framework, and the sampling process can be reduced to only once for each bounce of scattering. We derive analytical expressions of the ENDF for several cases using joint spherical warping. We also show how to choose proper shadowing-masking and Fresnel terms to make the proposed bidirectional scattering distribution function (BSDF) model energy-conserving. Experiments demonstrate that our model can be easily incorporated into a Monte Carlo path tracer with little extra computational and storage overhead, enabling some real-time applications."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jie",
+            "LastName": "Guo",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinghui",
+            "LastName": "Qian",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yanwen",
+            "LastName": "Guo",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jingui",
+            "LastName": "Pan",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "Rendering Thin Transparent Layers with Extended Normal Distribution Functions.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TVCG.2016.2617872"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 23,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Vis Comput Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0506"
+        },
+        "Title": "IEEE transactions on visualization and computer graphics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113400
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113400,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TVCG.2016.2617872",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

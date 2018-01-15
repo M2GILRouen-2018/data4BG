@@ -1,0 +1,487 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005763"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Advances in multi-unit recordings pave the way for statistical modeling of activity patterns in large neural populations. Recent studies have shown that the summed activity of all neurons strongly shapes the population response. A separate recent finding has been that neural populations also exhibit criticality, an anomalously large dynamic range for the probabilities of different population activity patterns. Motivated by these two observations, we introduce a class of probabilistic models which takes into account the prior knowledge that the neural population could be globally coupled and close to critical. These models consist of an energy function which parametrizes interactions between small groups of neurons, and an arbitrary positive, strictly increasing, and twice differentiable function which maps the energy of a population pattern to its probability. We show that: 1) augmenting a pairwise Ising model with a nonlinearity yields an accurate description of the activity of retinal ganglion cells which outperforms previous models based on the summed activity of neurons; 2) prior knowledge that the population is critical translates to prior expectations about the shape of the nonlinearity; 3) the nonlinearity admits an interpretation in terms of a continuous latent variable globally coupling the system whose distribution we can infer from data. Our method is independent of the underlying system's state space; hence, it can be applied to other systems such as natural scenes or amino acid sequences of proteins which are also known to exhibit criticality."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7573-7635"
+            },
+            "ForeName": "Jan",
+            "LastName": "Humplik",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Institute of Science and Technology Austria, Klosterneuburg, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-6699-1455"
+            },
+            "ForeName": "Gašper",
+            "LastName": "Tkačik",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Institute of Science and Technology Austria, Klosterneuburg, Austria."}
+          }
+        ]
+      },
+      "ArticleTitle": "Probabilistic models for neural populations that naturally capture global coupling and criticality.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005763"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008959",
+        "MajorTopicYN": "Y",
+        "content": "Models, Neurological"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009474",
+          "MajorTopicYN": "N",
+          "content": "Neurons"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D055351",
+          "MajorTopicYN": "N",
+          "content": "Retinal Neurons"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D013816",
+        "MajorTopicYN": "N",
+        "content": "Thermodynamics"
+      }},
+      {"DescriptorName": {
+        "UI": "D014562",
+        "MajorTopicYN": "N",
+        "content": "Urodela"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 18
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2015 Jul 01;11(7):e1004304",
+        "PMID": {
+          "Version": 1,
+          "content": 26132103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 Jun 7;108(23):9679-84",
+        "PMID": {
+          "Version": 1,
+          "content": 21602497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2006 Apr 20;440(7087):1007-12",
+        "PMID": {
+          "Version": 1,
+          "content": 16625187
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurobiol. 2016 Apr;37:133-140",
+        "PMID": {
+          "Version": 1,
+          "content": 27016639
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2016 Dec 20;12 (12 ):e1005110",
+        "PMID": {
+          "Version": 1,
+          "content": 27997544
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2006 Aug 9;26(32):8254-66",
+        "PMID": {
+          "Version": 1,
+          "content": 16899720
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2013 Jan 4;110(1):018701",
+        "PMID": {
+          "Version": 1,
+          "content": 23383852
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Apr 28;5:9821",
+        "PMID": {
+          "Version": 1,
+          "content": 25919985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2014 Sep 12;113(11):117204",
+        "PMID": {
+          "Version": 1,
+          "content": 25260004
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Feb 19;110(8):3071-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23382241
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "eNeuro. 2016 Aug 18;3(4):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27570827
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2008 Aug 21;454(7207):995-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18650810
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2003 Jan;15(1):127-42",
+        "PMID": {
+          "Version": 1,
+          "content": 12590822
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prog Brain Res. 2007;165:493-507",
+        "PMID": {
+          "Version": 1,
+          "content": 17925266
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1991 Jun 28;252(5014):1854-7",
+        "PMID": {
+          "Version": 1,
+          "content": 2063199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2001 Mar 5;86(10):2050-3",
+        "PMID": {
+          "Version": 1,
+          "content": 11289852
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2016 Nov 17;12 (11):e1005148",
+        "PMID": {
+          "Version": 1,
+          "content": 27855154
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(3):e1002385",
+        "PMID": {
+          "Version": 1,
+          "content": 22412358
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Mar 23;107(12):5405-10",
+        "PMID": {
+          "Version": 1,
+          "content": 20212159
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 May 28;521(7553):511-515",
+        "PMID": {
+          "Version": 1,
+          "content": 25849776
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Jul 29;466(7306):617-21",
+        "PMID": {
+          "Version": 1,
+          "content": 20601940
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2017 Jan;29(1):50-93",
+        "PMID": {
+          "Version": 1,
+          "content": 27870612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Jan;10(1):e1003408",
+        "PMID": {
+          "Version": 1,
+          "content": 24391485
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 Sep 15;112(37):11508-13",
+        "PMID": {
+          "Version": 1,
+          "content": 26330611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2003 Dec 3;23(35):11167-77",
+        "PMID": {
+          "Version": 1,
+          "content": 14657176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2011 May 20;106(20):208102",
+        "PMID": {
+          "Version": 1,
+          "content": 21668265
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Jul 03;10(7):e1003684",
+        "PMID": {
+          "Version": 1,
+          "content": 24991969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Adv Neural Inf Process Syst. 2008;2008:1009-1016",
+        "PMID": {
+          "Version": 1,
+          "content": 25328365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2011 Nov 30;31(48):17514-26",
+        "PMID": {
+          "Version": 1,
+          "content": 22131413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2015 Feb 20;114(7):078105",
+        "PMID": {
+          "Version": 1,
+          "content": 25763977
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2017 Jan 17;13(1):e1005309",
+        "PMID": {
+          "Version": 1,
+          "content": 28095421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2012 Nov 28;32(48):17108-19",
+        "PMID": {
+          "Version": 1,
+          "content": 23197704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2014 Aug 8;113(6):068102",
+        "PMID": {
+          "Version": 1,
+          "content": 25148352
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28926564
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 29,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28926564,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005763",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-00432",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5621705",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

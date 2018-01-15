@@ -1,0 +1,711 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "877-84"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL089765",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01HL08976",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": "06"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "We aimed to investigate if early revascularization in patients with suspected coronary artery disease can be effectively predicted by integrating clinical data and quantitative image features derived from perfusion SPECT (MPS) by machine learning (ML) approach."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "713 rest (201)Thallium/stress (99m)Technetium MPS studies with correlating invasive angiography with 372 revascularization events (275 PCI/97 CABG) within 90 days after MPS (91% within 30 days) were considered. Transient ischemic dilation, stress combined supine/prone total perfusion deficit (TPD), supine rest and stress TPD, exercise ejection fraction, and end-systolic volume, along with clinical parameters including patient gender, history of hypertension and diabetes mellitus, ST-depression on baseline ECG, ECG and clinical response during stress, and post-ECG probability by boosted ensemble ML algorithm (LogitBoost) to predict revascularization events. These features were selected using an automated feature selection algorithm from all available clinical and quantitative data (33 parameters). Tenfold cross-validation was utilized to train and test the prediction model. The prediction of revascularization by ML algorithm was compared to standalone measures of perfusion and visual analysis by two experienced readers utilizing all imaging, quantitative, and clinical data."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The sensitivity of machine learning (ML) (73.6% ± 4.3%) for prediction of revascularization was similar to one reader (73.9% ± 4.6%) and standalone measures of perfusion (75.5% ± 4.5%). The specificity of ML (74.7% ± 4.2%) was also better than both expert readers (67.2% ± 4.9% and 66.0% ± 5.0%, P < .05), but was similar to ischemic TPD (68.3% ± 4.9%, P < .05). The receiver operator characteristics areas under curve for ML (0.81 ± 0.02) was similar to reader 1 (0.81 ± 0.02) but superior to reader 2 (0.72 ± 0.02, P < .01) and standalone measure of perfusion (0.77 ± 0.02, P < .01)."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "ML approach is comparable or better than experienced readers in prediction of the early revascularization after MPS, and is significantly better than standalone measures of perfusion derived from MPS."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Reza",
+            "LastName": "Arsanjani",
+            "Initials": "R",
+            "AffiliationInfo": [
+              {"Affiliation": "Departments of Imaging and Medicine, and Cedars-Sinai Heart Institute, Cedars-Sinai Medical Center, 8700 Beverly Blvd, Taper A238, Los Angeles, CA, 90048, USA. Reza.Arsanjani@cshs.org."},
+              {"Affiliation": "David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, USA. Reza.Arsanjani@cshs.org."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Damini",
+            "LastName": "Dey",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Departments of Imaging and Medicine, and Cedars-Sinai Heart Institute, Cedars-Sinai Medical Center, 8700 Beverly Blvd, Taper A238, Los Angeles, CA, 90048, USA."},
+              {"Affiliation": "David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tigran",
+            "LastName": "Khachatryan",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Departments of Imaging and Medicine, and Cedars-Sinai Heart Institute, Cedars-Sinai Medical Center, 8700 Beverly Blvd, Taper A238, Los Angeles, CA, 90048, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aryeh",
+            "LastName": "Shalev",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Departments of Imaging and Medicine, and Cedars-Sinai Heart Institute, Cedars-Sinai Medical Center, 8700 Beverly Blvd, Taper A238, Los Angeles, CA, 90048, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sean W",
+            "LastName": "Hayes",
+            "Initials": "SW",
+            "AffiliationInfo": {"Affiliation": "Departments of Imaging and Medicine, and Cedars-Sinai Heart Institute, Cedars-Sinai Medical Center, 8700 Beverly Blvd, Taper A238, Los Angeles, CA, 90048, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mathews",
+            "LastName": "Fish",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Oregon Heart and Vascular Institute, Sacred Heart Medical Center, Springfield, OR, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rine",
+            "LastName": "Nakanishi",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Departments of Imaging and Medicine, and Cedars-Sinai Heart Institute, Cedars-Sinai Medical Center, 8700 Beverly Blvd, Taper A238, Los Angeles, CA, 90048, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guido",
+            "LastName": "Germano",
+            "Initials": "G",
+            "AffiliationInfo": [
+              {"Affiliation": "Departments of Imaging and Medicine, and Cedars-Sinai Heart Institute, Cedars-Sinai Medical Center, 8700 Beverly Blvd, Taper A238, Los Angeles, CA, 90048, USA."},
+              {"Affiliation": "David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel S",
+            "LastName": "Berman",
+            "Initials": "DS",
+            "AffiliationInfo": [
+              {"Affiliation": "Departments of Imaging and Medicine, and Cedars-Sinai Heart Institute, Cedars-Sinai Medical Center, 8700 Beverly Blvd, Taper A238, Los Angeles, CA, 90048, USA."},
+              {"Affiliation": "David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Piotr",
+            "LastName": "Slomka",
+            "Initials": "P",
+            "AffiliationInfo": [
+              {"Affiliation": "Departments of Imaging and Medicine, and Cedars-Sinai Heart Institute, Cedars-Sinai Medical Center, 8700 Beverly Blvd, Taper A238, Los Angeles, CA, 90048, USA. piotr.slomka@cshs.org."},
+              {"Affiliation": "David Geffen School of Medicine, University of California Los Angeles, Los Angeles, CA, USA. piotr.slomka@cshs.org."},
+              {"Affiliation": "Artificial Intelligence in Medicine Program, 8700 Beverly Blvd, Ste A047N, Los Angeles, CA, 90048, USA. piotr.slomka@cshs.org."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Prediction of revascularization after myocardial perfusion SPECT by machine learning in a large population.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s12350-014-0027-x"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 22,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2015
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Nucl Cardiol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1532-6551"
+        },
+        "Title": "Journal of nuclear cardiology : official publication of the American Society of Nuclear Cardiology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2015,
+      "Day": 19
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": 30
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2003 Jun 17;107(23):2900-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12771008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2001 May;42(5):687-94",
+        "PMID": {
+          "Version": 1,
+          "content": 11337561
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2002 Jan 29;105(4):539-42",
+        "PMID": {
+          "Version": 1,
+          "content": 11815441
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Cardiol. 2002 May-Jun;9(3):263-70",
+        "PMID": {
+          "Version": 1,
+          "content": 12032474
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2003 Sep 16;108(11):1404-18",
+        "PMID": {
+          "Version": 1,
+          "content": 12975245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2003 Oct;44(10):1633-40",
+        "PMID": {
+          "Version": 1,
+          "content": 14530478
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2003 Nov 19;42(10):1818-25",
+        "PMID": {
+          "Version": 1,
+          "content": 14642694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2004 Feb;45(2):183-91",
+        "PMID": {
+          "Version": 1,
+          "content": 14960634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Cardiol. 1974 Jan;33(1):87-94",
+        "PMID": {
+          "Version": 1,
+          "content": 4808557
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 1979 Jun 14;300(24):1350-8",
+        "PMID": {
+          "Version": 1,
+          "content": 440357
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1988 Sep;44(3):837-45",
+        "PMID": {
+          "Version": 1,
+          "content": 3203132
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 1993 Nov 1;22(5):1455-64",
+        "PMID": {
+          "Version": 1,
+          "content": 8227805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 1995 Jun;36(6):1107-14",
+        "PMID": {
+          "Version": 1,
+          "content": 7769436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 1996 Mar 15;27(4):803-9",
+        "PMID": {
+          "Version": 1,
+          "content": 8613606
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Cardiol. 1996 Mar-Apr;3(2):114-8",
+        "PMID": {
+          "Version": 1,
+          "content": 8799236
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Cardiol. 1997 Jul 15;80(2):132-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9230147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 1997 Dec;30(7):1641-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9385888
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Cardiol. 1999 May-Jun;6(3):257-69",
+        "PMID": {
+          "Version": 1,
+          "content": 10385181
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Cardiol. 2005 Jan-Feb;12(1):66-77",
+        "PMID": {
+          "Version": 1,
+          "content": 15682367
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Aug 1;21(15):3301-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15905277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2006 Jan;47(1):51-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16391187
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Cardiol. 2007 Jul;14(4):433-54",
+        "PMID": {
+          "Version": 1,
+          "content": 17679052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2010 Mar 11;362(10):886-95",
+        "PMID": {
+          "Version": 1,
+          "content": 20220183
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Cardiol. 2010 Oct;17(5):941-73",
+        "PMID": {
+          "Version": 1,
+          "content": 20552312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Heart J. 2011 Apr;32(8):1012-24",
+        "PMID": {
+          "Version": 1,
+          "content": 21258084
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Cardiol. 2012 Jun;19(3):465-73",
+        "PMID": {
+          "Version": 1,
+          "content": 22399366
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2013 Feb;54(2):221-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23315665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Cardiol. 2013 Aug;20(4):553-62",
+        "PMID": {
+          "Version": 1,
+          "content": 23703378
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2003 Apr 2;41(7):1125-33",
+        "PMID": {
+          "Version": 1,
+          "content": 12679212
+        }
+      },
+      {
+        "RefType": "CommentIn",
+        "RefSource": "J Nucl Cardiol. 2015 Oct;22(5):885-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25500801
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS680303"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC4859156"
+      }
+    ],
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9423534,
+      "Country": "United States",
+      "ISSNLinking": "1071-3581",
+      "MedlineTA": "J Nucl Cardiol"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D019275",
+          "content": "Radiopharmaceuticals"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D013794",
+          "content": "Thallium Radioisotopes"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D017256",
+          "content": "Technetium Tc 99m Sestamibi"
+        },
+        "RegistryNumber": "971Z4W1S09"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": 14
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "coronary artery disease"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "myocardial perfusion SPECT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "revascularization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "total perfusion deficit"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D017023",
+        "MajorTopicYN": "N",
+        "content": "Coronary Angiography"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D004562",
+        "MajorTopicYN": "N",
+        "content": "Electrocardiography"
+      }},
+      {"DescriptorName": {
+        "UI": "D005080",
+        "MajorTopicYN": "N",
+        "content": "Exercise Test"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D006321",
+          "MajorTopicYN": "N",
+          "content": "Heart"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "N",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D055414",
+        "MajorTopicYN": "Y",
+        "content": "Myocardial Perfusion Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D009204",
+        "MajorTopicYN": "Y",
+        "content": "Myocardial Revascularization"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000737",
+          "MajorTopicYN": "N",
+          "content": "chemistry"
+        },
+        "DescriptorName": {
+          "UI": "D019275",
+          "MajorTopicYN": "N",
+          "content": "Radiopharmaceuticals"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012189",
+        "MajorTopicYN": "N",
+        "content": "Retrospective Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000737",
+          "MajorTopicYN": "N",
+          "content": "chemistry"
+        },
+        "DescriptorName": {
+          "UI": "D017256",
+          "MajorTopicYN": "N",
+          "content": "Technetium Tc 99m Sestamibi"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000737",
+          "MajorTopicYN": "N",
+          "content": "chemistry"
+        },
+        "DescriptorName": {
+          "UI": "D013794",
+          "MajorTopicYN": "N",
+          "content": "Thallium Radioisotopes"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015899",
+        "MajorTopicYN": "Y",
+        "content": "Tomography, Emission-Computed, Single-Photon"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 25480110
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2014,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2014,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25480110,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s12350-014-0027-x",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s12350-014-0027-x",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC4859156",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS680303",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

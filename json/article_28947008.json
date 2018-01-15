@@ -1,0 +1,247 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "79-90"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017. Published by Elsevier B.V.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Both thermal imaging and 3D scanning offer convenient advantages for medical applications, namely, being contactless, non-invasive and fast. Consequently, many approaches have been proposed to combine both sensing modalities in order to acquire 3D thermal models. The predominant approach is to affix a 3D scanner and a thermal camera in the same support and calibrate them together. While this approach allows straightforward projection of thermal images over the 3D mesh, it requires their simultaneous acquisition. In this work, a method for generation of 3D thermal models that allows combination of separately acquired 3D mesh and thermal images is presented. Among the advantages of this decoupled acquisition are increased modularity of acquisition procedures and reuse of legacy equipment and data."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The proposed method is based on the projection of thermal images over a 3D mesh. Unlike previous methods, it is considered that the 3D mesh and the thermal images are acquired separately, so camera pose estimation is required to determine the correct spatial positioning from which to project the images. This is done using Structure from Motion, which requires a series of interest points correspondences between the images, for which the SIFT method was used. As thermal images of human skin are predominantly homogeneous, an intensity transformation is proposed to increase the efficacy of interest point detection and make the approach feasible. Before projection, the adequate alignment of the 3D mesh in space is determined using Particle Swarm Optimization. For validation of the method, the design and implementation of a test object is presented. It can be used to validate other methods and can be reproduced with common printed circuit board manufacturing processes."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The proposed approach is accurate, with an average displacement error of 1.41\u202f mm (s = 0.74\u202f mm) with the validation test object and 4.58 mm (s = 2.12\u202f mm) with human subjects."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The proposed method is able to combine separately a acquired 3D mesh and thermal images into an accurate 3D thermal model. The results with human subjects suggest that the method can be successfully employed in medical applications."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andriy Guilherme",
+            "LastName": "Krefer",
+            "Initials": "AG",
+            "AffiliationInfo": {"Affiliation": "Graduate School on Electrical Engineering - CPGEI, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: andriy.krefer@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maiko Min Ian",
+            "LastName": "Lie",
+            "Initials": "MMI",
+            "AffiliationInfo": {"Affiliation": "Graduate School on Electrical Engineering - CPGEI, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: minian.lie@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gustavo Benvenutti",
+            "LastName": "Borba",
+            "Initials": "GB",
+            "AffiliationInfo": {"Affiliation": "Graduate School on Biomedical Engineering - PPGEB, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: gustavobborba@utfpr.edu.br."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Humberto Remigio",
+            "LastName": "Gamba",
+            "Initials": "HR",
+            "AffiliationInfo": {"Affiliation": "Graduate School on Electrical Engineering - CPGEI, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: humberto@utfpr.edu.br."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marcos Dinís",
+            "LastName": "Lavarda",
+            "Initials": "MD",
+            "AffiliationInfo": {"Affiliation": "Graduate School on Biomedical Engineering - PPGEB, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: marcos.dinis.lavarda@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mauren",
+            "LastName": "Abreu de Souza",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Graduate School on Biomedical Engineering - PPGEB, Department of Electronics - DAELN, Federal University of Technology - Paraná - UTFPR, Av. Sete de Setembro 3165, 80230-901, Curitiba, Paraná, Brazil. Electronic address: mauren.abreu.souza@gmail.com."}
+          }
+        ]
+      },
+      "ArticleTitle": "A method for generating 3D thermal models with decoupled acquisition.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)31419-5"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.08.009"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 151,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "3D thermography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multi-modality imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Scale Invariant Feature Transform"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Structure from Motion"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D021621",
+        "MajorTopicYN": "Y",
+        "content": "Imaging, Three-Dimensional"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "N",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D012881",
+        "MajorTopicYN": "Y",
+        "content": "Skin Temperature"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28947008
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 30,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28947008,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)31419-5",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.08.009",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

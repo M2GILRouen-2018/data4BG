@@ -1,0 +1,535 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8112917,
+      "Country": "Brazil",
+      "ISSNLinking": "0100-879X",
+      "MedlineTA": "Braz J Med Biol Res"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e6698"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Given that the pathogenesis of ankylosing spondylitis (AS) remains unclear, the aim of this study was to detect the potentially functional pathway cross-talk in AS to further reveal the pathogenesis of this disease. Using microarray profile of AS and biological pathways as study objects, Monte Carlo cross-validation method was used to identify the significant pathway cross-talks. In the process of Monte Carlo cross-validation, all steps were iterated 50 times. For each run, detection of differentially expressed genes (DEGs) between two groups was conducted. The extraction of the potential disrupted pathways enriched by DEGs was then implemented. Subsequently, we established a discriminating score (DS) for each pathway pair according to the distribution of gene expression levels. After that, we utilized random forest (RF) classification model to screen out the top 10 paired pathways with the highest area under the curve (AUCs), which was computed using 10-fold cross-validation approach. After 50 bootstrap, the best pairs of pathways were identified. According to their AUC values, the pair of pathways, antigen presentation pathway and fMLP signaling in neutrophils, achieved the best AUC value of 1.000, which indicated that this pathway cross-talk could distinguish AS patients from normal subjects. Moreover, the paired pathways of SAPK/JNK signaling and mitochondrial dysfunction were involved in 5 bootstraps. Two paired pathways (antigen presentation pathway and fMLP signaling in neutrophil, as well as SAPK/JNK signaling and mitochondrial dysfunction) can accurately distinguish AS and control samples. These paired pathways may be helpful to identify patients with AS for early intervention."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiang",
+            "LastName": "Gu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopedics, People's Hospital of Ri Zhao, Ri Zhao, Shandong, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cong-Jian",
+            "LastName": "Liu",
+            "Initials": "CJ",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopedics, People's Hospital of Ri Zhao, Ri Zhao, Shandong, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jian-Jie",
+            "LastName": "Wei",
+            "Initials": "JJ",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopedics, Weihaiwei People's Hospital, Weihai, Shandong, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Predicting pathway cross-talks in ankylosing spondylitis through investigating the interactions among pathways.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0100-879X2018000100607"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1590/1414-431X20176698"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 51,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 13
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Braz. J. Med. Biol. Res.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1414-431X"
+        },
+        "Title": "Brazilian journal of medical and biological research = Revista brasileira de pesquisas medicas e biologicas"
+      },
+      "PubModel": "Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D019540",
+        "MajorTopicYN": "N",
+        "content": "Area Under Curve"
+      }},
+      {"DescriptorName": {
+        "UI": "D030541",
+        "MajorTopicYN": "N",
+        "content": "Databases, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D015870",
+        "MajorTopicYN": "Y",
+        "content": "Gene Expression"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D020869",
+          "MajorTopicYN": "N",
+          "content": "Gene Expression Profiling"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D056726",
+        "MajorTopicYN": "N",
+        "content": "Genetic Association Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D046228",
+          "MajorTopicYN": "N",
+          "content": "Microarray Analysis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "N",
+        "content": "Monte Carlo Method"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D020239",
+          "MajorTopicYN": "N",
+          "content": "Receptor Cross-Talk"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012016",
+        "MajorTopicYN": "N",
+        "content": "Reference Values"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D015398",
+          "MajorTopicYN": "N",
+          "content": "Signal Transduction"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D013167",
+          "MajorTopicYN": "N",
+          "content": "Spondylitis, Ankylosing"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2015 Jan 15;75(2):436-45",
+        "PMID": {
+          "Version": 1,
+          "content": 25388283
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2010 Feb;42(2):123-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20062062
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Mar 8;102(10):3738-43",
+        "PMID": {
+          "Version": 1,
+          "content": 15701700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Cancer. 2015 Jan;15(1):25-41",
+        "PMID": {
+          "Version": 1,
+          "content": 25533674
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Clin Nutr Metab Care. 2008 Jul;11(4):459-64",
+        "PMID": {
+          "Version": 1,
+          "content": 18542007
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Rheumatol. 2008 Jul;20(4):384-91",
+        "PMID": {
+          "Version": 1,
+          "content": 18525349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009;4(2):e4346",
+        "PMID": {
+          "Version": 1,
+          "content": 19194489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Chin Med. 1997;25(3-4):307-15",
+        "PMID": {
+          "Version": 1,
+          "content": 9358904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(2):e1002375",
+        "PMID": {
+          "Version": 1,
+          "content": 22383865
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Rheum. 2001 Aug;44(8):1876-86",
+        "PMID": {
+          "Version": 1,
+          "content": 11508441
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Rheum Dis. 2009 Feb;68(2):175-82",
+        "PMID": {
+          "Version": 1,
+          "content": 18495735
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2013 Nov;23(11):1885-93",
+        "PMID": {
+          "Version": 1,
+          "content": 23934932
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009 Dec 07;4(12):e8161",
+        "PMID": {
+          "Version": 1,
+          "content": 19997592
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2015;2015:831314",
+        "PMID": {
+          "Version": 1,
+          "content": 26240829
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Res Ther. 2011 Apr 07;13(2):R57",
+        "PMID": {
+          "Version": 1,
+          "content": 21470430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FASEB J. 1990 Jun;4(9):2587-97",
+        "PMID": {
+          "Version": 1,
+          "content": 2189775
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2002 Jun;23(1):70-86",
+        "PMID": {
+          "Version": 1,
+          "content": 12112249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 Jul 10;43(8):761-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21743469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Cancer Res. 2010 Apr 1;16(7):1979-87",
+        "PMID": {
+          "Version": 1,
+          "content": 20332324
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 2007 May 18;356(4):1004-10",
+        "PMID": {
+          "Version": 1,
+          "content": 17397798
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2000 Jan 28;287(5453):664-6",
+        "PMID": {
+          "Version": 1,
+          "content": 10650002
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Rheumatol. 2011 Jan;38(1):87-98",
+        "PMID": {
+          "Version": 1,
+          "content": 20952467
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Exp Rheumatol. 1995 Sep-Oct;13(5):623-7",
+        "PMID": {
+          "Version": 1,
+          "content": 8575141
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Immunol. 2007 Oct;8(10):1041-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17878914
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunol Rev. 2005 Oct;207:8-18",
+        "PMID": {
+          "Version": 1,
+          "content": 16181323
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Cancer. 2006 Nov 20;95(10):1439-47",
+        "PMID": {
+          "Version": 1,
+          "content": 17060936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Spinal Disord Tech. 2015 May;28(4):E244-50",
+        "PMID": {
+          "Version": 1,
+          "content": 25756408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chin Med J (Engl). 2011 Oct;124(20):3430-2",
+        "PMID": {
+          "Version": 1,
+          "content": 22088550
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Rheum Dis. 2011 Jan;70(1):47-53",
+        "PMID": {
+          "Version": 1,
+          "content": 21068095
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Immunol. 2010 Jun;10(6):403-14",
+        "PMID": {
+          "Version": 1,
+          "content": 20498667
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Res Ther. 2007;9(5):R96",
+        "PMID": {
+          "Version": 1,
+          "content": 17888176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bone Miner Res. 2007 May;22(5):724-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17295604
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2007 Nov;39(11):1329-37",
+        "PMID": {
+          "Version": 1,
+          "content": 17952073
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Rheumatol Int. 2015 Jun;35(6):973-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25432079
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29160414
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29160414,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0100-879X2018000100607",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1590/1414-431X20176698",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5685062",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

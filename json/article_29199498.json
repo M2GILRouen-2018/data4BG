@@ -1,0 +1,159 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9802899,
+      "Country": "England",
+      "ISSNLinking": "1025-5842",
+      "MedlineTA": "Comput Methods Biomech Biomed Engin"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1643-1657"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Finite element (FE) simulations are increasingly valuable in assessing and improving the performance of biomedical devices and procedures. Due to high computational demands such simulations may become difficult or even infeasible, especially when considering nearly incompressible and anisotropic material models prevalent in analyses of soft tissues. Implementations of GPGPU-based explicit FEs predominantly cover isotropic materials, e.g. the neo-Hookean model. To elucidate the computational expense of anisotropic materials, we implement the Gasser-Ogden-Holzapfel dispersed, fiber-reinforced model and compare solution times against the neo-Hookean model. Implementations of GPGPU-based explicit FEs conventionally rely on single-point (under) integration. To elucidate the expense of full and selective-reduced integration (more reliable) we implement both and compare corresponding solution times against those generated using underintegration. To better understand the advancement of hardware, we compare results generated using representative Nvidia GPGPUs from three recent generations: Fermi (C2075), Kepler (K20c), and Maxwell (GTX980). We explore scaling by solving the same boundary value problem (an extension-inflation test on a segment of human aorta) with progressively larger FE meshes. Our results demonstrate substantial improvements in simulation speeds relative to two benchmark FE codes (up to 300[Formula: see text] while maintaining accuracy), and thus open many avenues to novel applications in biomechanics and medicine."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-1278-4116"
+            },
+            "ForeName": "V",
+            "LastName": "Strbac",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "a Biomechanics Section, Department of Mechanical Engineering , KULeuven , Heverlee , Belgium ."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-9713-1204"
+            },
+            "ForeName": "D M",
+            "LastName": "Pierce",
+            "Initials": "DM",
+            "AffiliationInfo": {"Affiliation": "b Interdisciplinary Mechanics Laboratory, Departments of Mechanical Engineering/Biomedical Engineering/Mathematics , University of Connecticut , Storrs , CT , USA ."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "J",
+            "LastName": "Vander Sloten",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "a Biomechanics Section, Department of Mechanical Engineering , KULeuven , Heverlee , Belgium ."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7374-8912"
+            },
+            "ForeName": "N",
+            "LastName": "Famaey",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "a Biomechanics Section, Department of Mechanical Engineering , KULeuven , Heverlee , Belgium ."}
+          }
+        ]
+      },
+      "ArticleTitle": "GPGPU-based explicit finite element computations for applications in biomechanics: the performance of material models, element technologies, and hardware generations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1080/10255842.2017.1404586"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 16,
+          "Volume": 20,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Biomech Biomed Engin",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1476-8259"
+        },
+        "Title": "Computer methods in biomechanics and biomedical engineering"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Finite element analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian integration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "anisotropic constitutive model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "general purpose graphics processing unit"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "04"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29199498
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29199498,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1080/10255842.2017.1404586",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

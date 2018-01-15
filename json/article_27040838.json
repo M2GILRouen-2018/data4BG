@@ -1,0 +1,435 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": 30
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "137-58"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Percutaneous coronary interventional procedures need advance planning prior to stenting or an endarterectomy. Cardiologists use intravascular ultrasound (IVUS) for screening, risk assessment and stratification of coronary artery disease (CAD). We hypothesize that plaque components are vulnerable to rupture due to plaque progression. Currently, there are no standard grayscale IVUS tools for risk assessment of plaque rupture. This paper presents a novel strategy for risk stratification based on plaque morphology embedded with principal component analysis (PCA) for plaque feature dimensionality reduction and dominant feature selection technique. The risk assessment utilizes 56 grayscale coronary features in a machine learning framework while linking information from carotid and coronary plaque burdens due to their common genetic makeup."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHOD",
+            "content": "This system consists of a machine learning paradigm which uses a support vector machine (SVM) combined with PCA for optimal and dominant coronary artery morphological feature extraction. Carotid artery proven intima-media thickness (cIMT) biomarker is adapted as a gold standard during the training phase of the machine learning system. For the performance evaluation, K-fold cross validation protocol is adapted with 20 trials per fold. For choosing the dominant features out of the 56 grayscale features, a polling strategy of PCA is adapted where the original value of the features is unaltered. Different protocols are designed for establishing the stability and reliability criteria of the coronary risk assessment system (cRAS)."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Using the PCA-based machine learning paradigm and cross-validation protocol, a classification accuracy of 98.43% (AUC 0.98) with K=10 folds using an SVM radial basis function (RBF) kernel was achieved. A reliability index of 97.32% and machine learning stability criteria of 5% were met for the cRAS."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "This is the first Computer aided design (CADx) system of its kind that is able to demonstrate the ability of coronary risk assessment and stratification while demonstrating a successful design of the machine learning system based on our assumptions."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tadashi",
+            "LastName": "Araki",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Division of Cardiovascular Medicine, Toho University Ohashi Medical Center, Tokyo, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nobutaka",
+            "LastName": "Ikeda",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Cardiovascular Medicine, National Center for Global Health and Medicine, Tokyo, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Devarshi",
+            "LastName": "Shukla",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pankaj K",
+            "LastName": "Jain",
+            "Initials": "PK",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Narendra D",
+            "LastName": "Londhe",
+            "Initials": "ND",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vimal K",
+            "LastName": "Shrivastava",
+            "Initials": "VK",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sumit K",
+            "LastName": "Banchhor",
+            "Initials": "SK",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luca",
+            "LastName": "Saba",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Cagliari, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew",
+            "LastName": "Nicolaides",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Vascular Screening and Diagnostic Centre, London, England, United Kingdom; Vascular Diagnostic Center, University of Cyprus, Nicosia, Cyprus."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shoaib",
+            "LastName": "Shafique",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "CorVasc Vascular Laboratory, 8433 Harcourt Rd #100, Indianapolis, IN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John R",
+            "LastName": "Laird",
+            "Initials": "JR",
+            "AffiliationInfo": {"Affiliation": "UC Davis Vascular Center, University of California, Davis, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jasjit S",
+            "LastName": "Suri",
+            "Initials": "JS",
+            "AffiliationInfo": {"Affiliation": "Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA; Point-Of-Care Devices, Global Biomedical Technologies, Inc., Roseville, CA, USA; Department of Electrical Engineering, University of Idaho (Affl.), Pocatello, ID, USA. Electronic address: jasjit.suri@atheropoint.com."}
+          }
+        ]
+      },
+      "ArticleTitle": "PCA-based polling strategy in machine learning framework for coronary artery disease risk assessment in intravascular ultrasound: A link between carotid and coronary grayscale plaque morphology.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.02.004"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(15)30275-3"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 128,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Carotid IMT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Coronary artery"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "IVUS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PCA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Risk assessment"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "04",
+      "Year": 2016,
+      "Day": "04"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000369",
+        "MajorTopicYN": "N",
+        "content": "Aged, 80 and over"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D002339",
+          "MajorTopicYN": "N",
+          "content": "Carotid Arteries"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D059168",
+        "MajorTopicYN": "N",
+        "content": "Carotid Intima-Media Thickness"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017076",
+        "MajorTopicYN": "N",
+        "content": "Computer-Aided Design"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003331",
+          "MajorTopicYN": "N",
+          "content": "Coronary Vessels"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D058226",
+          "MajorTopicYN": "N",
+          "content": "Plaque, Atherosclerotic"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D025341",
+          "MajorTopicYN": "N",
+          "content": "Principal Component Analysis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012189",
+        "MajorTopicYN": "N",
+        "content": "Retrospective Studies"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018570",
+          "MajorTopicYN": "N",
+          "content": "Risk Assessment"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }},
+      {"DescriptorName": {
+        "UI": "D014463",
+        "MajorTopicYN": "Y",
+        "content": "Ultrasonography"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": 31
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 27040838
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2015,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "02",
+        "Year": 2016,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 4,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 4,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27040838,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(15)30275-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.02.004",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

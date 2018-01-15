@@ -1,0 +1,553 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101645109,
+      "Country": "Canada",
+      "MedlineTA": "JMIR Med Inform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e45"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Early warning scores aid in the detection of pediatric clinical deteriorations but include limited data inputs, rarely include data trends over time, and have limited validation."
+        },
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "Machine learning methods that make use of large numbers of predictor variables are now commonplace. This work examines how different types of predictor variables derived from the electronic health record affect the performance of predicting unplanned transfers to the intensive care unit (ICU) at three large children's hospitals."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We trained separate models with data from three different institutions from 2011 through 2013 and evaluated models with 2014 data. Cases consisted of patients who transferred from the floor to the ICU and met one or more of 5 different priori defined criteria for suspected unplanned transfers. Controls were patients who were never transferred to the ICU. Predictor variables for the models were derived from vitals, labs, acuity scores, and nursing assessments. Classification models consisted of L1 and L2 regularized logistic regression and neural network models. We evaluated model performance over prediction horizons ranging from 1 to 16 hours."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Across the three institutions, the c-statistic values for our best models were 0.892 (95% CI 0.875-0.904), 0.902 (95% CI 0.880-0.923), and 0.899 (95% CI 0.879-0.919) for the task of identifying unplanned ICU transfer 6 hours before its occurrence and achieved 0.871 (95% CI 0.855-0.888), 0.872 (95% CI 0.850-0.895), and 0.850 (95% CI 0.825-0.875) for a prediction horizon of 16 hours. For our first model at 80% sensitivity, this resulted in a specificity of 80.5% (95% CI 77.4-83.7) and a positive predictive value of 5.2% (95% CI 4.5-6.2)."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Feature-rich models with many predictor variables allow for patient deterioration to be predicted accurately, even up to 16 hours in advance."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-2689-990X"
+            },
+            "ForeName": "Ben",
+            "LastName": "Wellner",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, Bedford, MA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-3409-4792"
+            },
+            "ForeName": "Joan",
+            "LastName": "Grand",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, Bedford, MA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-6040-4355"
+            },
+            "ForeName": "Elizabeth",
+            "LastName": "Canzone",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, Bedford, MA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-9189-5158"
+            },
+            "ForeName": "Matt",
+            "LastName": "Coarr",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, Bedford, MA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7078-3077"
+            },
+            "ForeName": "Patrick W",
+            "LastName": "Brady",
+            "Initials": "PW",
+            "AffiliationInfo": {"Affiliation": "Cincinnati Children's Hospital, Cincinnati, OH, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-6699-7868"
+            },
+            "ForeName": "Jeffrey",
+            "LastName": "Simmons",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Cincinnati Children's Hospital, Cincinnati, OH, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-6225-8320"
+            },
+            "ForeName": "Eric",
+            "LastName": "Kirkendall",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Cincinnati Children's Hospital, Cincinnati, OH, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-1996-0533"
+            },
+            "ForeName": "Nathan",
+            "LastName": "Dean",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Children's National Health System, Washington, DC, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-4318-4378"
+            },
+            "ForeName": "Monica",
+            "LastName": "Kleinman",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Boston Children's Hospital, Boston, MA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8936-7893"
+            },
+            "ForeName": "Peter",
+            "LastName": "Sylvester",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, Bedford, MA, United States."}
+          }
+        ]
+      },
+      "ArticleTitle": "Predicting Unplanned Transfers to the Intensive Care Unit: A Machine Learning Approach Leveraging Diverse Clinical Elements.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.2196/medinform.8680"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 5,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "JMIR Med Inform",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2291-9694"
+        },
+        "Title": "JMIR medical informatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "clinical deterioration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "clinical laboratory techniques"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "data mining"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "electronic health record"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "nursing assessment"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "patient acuity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "vital signs"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 Apr 6;12 (4):e0174708",
+        "PMID": {
+          "Version": 1,
+          "content": 28384212
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care Med. 2016 Feb;44(2):368-74",
+        "PMID": {
+          "Version": 1,
+          "content": 26771782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Resuscitation. 2014 Aug;85(8):1065-71",
+        "PMID": {
+          "Version": 1,
+          "content": 24813568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2006 Jan 4;295(1):50-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16391216
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc IEEE Inst Electr Electron Eng. 2016 Feb;104(2):444-466",
+        "PMID": {
+          "Version": 1,
+          "content": 27765959
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care. 2015 Aug 13;19:285",
+        "PMID": {
+          "Version": 1,
+          "content": 26268570
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ Open. 2012 Aug 08;2(4):null",
+        "PMID": {
+          "Version": 1,
+          "content": 22874626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2013 Oct;46(5):837-48",
+        "PMID": {
+          "Version": 1,
+          "content": 23831554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Resuscitation. 2004 Sep;62(3):275-82",
+        "PMID": {
+          "Version": 1,
+          "content": 15325446
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Crit Care. 2006 Sep;21(3):271-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16990097
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Intern Med. 2010 Jan 11;170(1):18-26",
+        "PMID": {
+          "Version": 1,
+          "content": 20065195
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Crit Care Med. 2015 Sep;16(7):644-51",
+        "PMID": {
+          "Version": 1,
+          "content": 25901545
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Med Inform. 2014 Aug 22;2(2):e22",
+        "PMID": {
+          "Version": 1,
+          "content": 25600172
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2010 Apr;125(4):e763-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20308222
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2009 Oct;42(5):760-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19683066
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med J Aust. 1999 Jul 5;171(1):22-5",
+        "PMID": {
+          "Version": 1,
+          "content": 10451667
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 2011 Oct;22(10):1517-31",
+        "PMID": {
+          "Version": 1,
+          "content": 21824845
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Crit Care Med. 2007 May;8(3):236-46; quiz 247",
+        "PMID": {
+          "Version": 1,
+          "content": 17417113
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2014 Aug;134(2):235-41",
+        "PMID": {
+          "Version": 1,
+          "content": 25070310
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Hosp Med. 2014 Feb;9(2):116-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24357519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Oct 25;12:412",
+        "PMID": {
+          "Version": 1,
+          "content": 22026913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 1990 Dec;98(6):1388-92",
+        "PMID": {
+          "Version": 1,
+          "content": 2245680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Intensive Care Med. 1996 Jul;22(7):707-10",
+        "PMID": {
+          "Version": 1,
+          "content": 8844239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Otolaryngol Head Neck Surg. 2011 Feb;144(2):135-41",
+        "PMID": {
+          "Version": 1,
+          "content": 21493407
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Health Aff (Millwood). 2013 Jan;32(1):63-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23297272
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 May 28;521(7553):436-44",
+        "PMID": {
+          "Version": 1,
+          "content": 26017442
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2016 Feb 23;315(8):801-10",
+        "PMID": {
+          "Version": 1,
+          "content": 26903338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2010 Sep-Oct;17(5):507-13",
+        "PMID": {
+          "Version": 1,
+          "content": 20819853
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Health Inf Sci Syst. 2016 Mar 08;4:2",
+        "PMID": {
+          "Version": 1,
+          "content": 26958341
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Med Inform. 2015 Feb 24;3(1):e11",
+        "PMID": {
+          "Version": 1,
+          "content": 25710907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2015 Jul;22(4):794-804",
+        "PMID": {
+          "Version": 1,
+          "content": 25725004
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29167089
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29167089,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "v5i4e45",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.2196/medinform.8680",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5719228",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

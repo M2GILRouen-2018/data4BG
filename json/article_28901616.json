@@ -1,0 +1,200 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e174-e187"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Exploiting the x-ray measurements obtained in different energy bins, spectral computed tomography (CT) has the ability to recover the 3-D description of a patient in a material basis. This may be achieved solving two subproblems, namely the material decomposition and the tomographic reconstruction problems. In this work, we address the material decomposition of spectral x-ray projection images, which is a nonlinear ill-posed problem."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Our main contribution is to introduce a material-dependent spatial regularization in the projection domain. The decomposition problem is solved iteratively using a Gauss-Newton algorithm that can benefit from fast linear solvers. A Matlab implementation is available online. The proposed regularized weighted least squares Gauss-Newton algorithm (RWLS-GN) is validated on numerical simulations of a thorax phantom made of up to five materials (soft tissue, bone, lung, adipose tissue, and gadolinium), which is scanned with a 120 kV source and imaged by a 4-bin photon counting detector. To evaluate the method performance of our algorithm, different scenarios are created by varying the number of incident photons, the concentration of the marker and the configuration of the phantom. The RWLS-GN method is compared to the reference maximum likelihood Nelder-Mead algorithm (ML-NM). The convergence of the proposed method and its dependence on the regularization parameter are also studied."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "We show that material decomposition is feasible with the proposed method and that it converges in few iterations. Material decomposition with ML-NM was very sensitive to noise, leading to decomposed images highly affected by noise, and artifacts even for the best case scenario. The proposed method was less sensitive to noise and improved contrast-to-noise ratio of the gadolinium image. Results were superior to those provided by ML-NM in terms of image quality and decomposition was 70 times faster. For the assessed experiments, material decomposition was possible with the proposed method when the number of incident photons was equal or larger than 105 and when the marker concentration was equal or larger than 0.03 g·cm-3 ."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The proposed method efficiently solves the nonlinear decomposition problem for spectral CT, which opens up new possibilities such as material-specific regularization in the projection domain and a parallelization framework, in which projections are solved in parallel."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicolas",
+            "LastName": "Ducros",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Juan Felipe Perez-Juste",
+            "LastName": "Abascal",
+            "Initials": "JFP",
+            "AffiliationInfo": {"Affiliation": "Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bruno",
+            "LastName": "Sixou",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Simon",
+            "LastName": "Rit",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Françoise",
+            "LastName": "Peyrin",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Univ Lyon, INSA-Lyon, Université Claude Bernard Lyon 1, UJM-Saint Etienne, CNRS, Inserm, CREATIS UMR 5220, Lyon, U1206, F69621, France."}
+          }
+        ]
+      },
+      "ArticleTitle": "Regularization of nonlinear decomposition of spectral x-ray projection images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12283"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Gauss-Newton algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "material decomposition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "nonlinear inverse problem"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "regularization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "spectral computed tomography"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28901616
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28901616,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12283",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

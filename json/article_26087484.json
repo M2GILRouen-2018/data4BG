@@ -1,0 +1,215 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2016,
+      "Day": 22
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2562-71"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Patient-specific blood flow modeling combining imaging data and computational fluid dynamics can aid in the assessment of coronary artery disease. Accurate coronary segmentation and realistic physiologic modeling of boundary conditions are important steps to ensure a high diagnostic performance. Segmentation of the coronary arteries can be constructed by a combination of automated algorithms with human review and editing. However, blood pressure and flow are not impacted equally by different local sections of the coronary artery tree. Focusing human review and editing towards regions that will most affect the subsequent simulations can significantly accelerate the review process. We define geometric sensitivity as the standard deviation in hemodynamics-derived metrics due to uncertainty in lumen segmentation. We develop a machine learning framework for estimating the geometric sensitivity in real time. Features used include geometric and clinical variables, and reduced-order models. We develop an anisotropic kernel regression method for assessment of lumen narrowing score, which is used as a feature in the machine learning algorithm. A multi-resolution sensitivity algorithm is introduced to hierarchically refine regions of high sensitivity so that we can quantify sensitivities to a desired spatial resolution. We show that the mean absolute error of the machine learning algorithm compared to 3D simulations is less than 0.01. We further demonstrate that sensitivity is not predicted simply by anatomic reduction but also encodes information about hemodynamics which in turn depends on downstream boundary conditions. This sensitivity approach can be extended to other systems such as cerebral flow, electro-mechanical simulations, etc."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sethuraman",
+            "LastName": "Sankaran",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Leo",
+            "LastName": "Grady",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Charles A",
+            "LastName": "Taylor",
+            "Initials": "CA"
+          }
+        ]
+      },
+      "ArticleTitle": "Fast Computation of Hemodynamic Sensitivity to Lumen Segmentation Uncertainty.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2015.2445777"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 34,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2015
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2015,
+      "Day": "02"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003331",
+          "MajorTopicYN": "N",
+          "content": "Coronary Vessels"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D006439",
+          "MajorTopicYN": "N",
+          "content": "Hemodynamics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D014057",
+        "MajorTopicYN": "N",
+        "content": "Tomography, X-Ray Computed"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26087484
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 6,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 6,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26087484,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2015.2445777",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

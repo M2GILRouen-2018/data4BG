@@ -1,0 +1,503 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 412},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIH HHS",
+          "Country": "United States",
+          "GrantID": "P40 OD010440",
+          "Acronym": "OD"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Aging is characterized by a gradual breakdown of cellular structures. Nuclear abnormality is a hallmark of progeria in human. Analysis of age-dependent nuclear morphological changes in Caenorhabditis elegans is of great value to aging research, and this calls for an automatic image processing method that is suitable for both normal and abnormal structures."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Our image processing method consists of nuclear segmentation, feature extraction and classification. First, taking up the challenges of defining individual nuclei with fuzzy boundaries or in a clump, we developed an accurate nuclear segmentation method using fused two-channel images with seed-based cluster splitting and k-means algorithm, and achieved a high precision against the manual segmentation results. Next, we extracted three groups of nuclear features, among which five features were selected by minimum Redundancy Maximum Relevance (mRMR) for classifiers. After comparing the classification performances of several popular techniques, we identified that Random Forest, which achieved a mean class accuracy (MCA) of 98.69%, was the best classifier for our data set. Lastly, we demonstrated the method with two quantitative analyses of C. elegans nuclei, which led to the discovery of two possible longevity indicators."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We produced an automatic image processing method for two-channel C. elegans nucleus-labeled fluorescence images. It frees biologists from segmenting and classifying the nuclei manually."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mengdi",
+            "LastName": "Zhao",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Yiheyuan Road, Beijing, 100871, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jie",
+            "LastName": "An",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "LMAM, School of Mathematical Sciences, Peking University, Yiheyuan Road, Beijing, 100871, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haiwen",
+            "LastName": "Li",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "LMAM, School of Mathematical Sciences, Peking University, Yiheyuan Road, Beijing, 100871, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiazhi",
+            "LastName": "Zhang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Center for Bioinformatics, National Laboratory of Protein Engineering and Plant Genetic Engineering, School of Life Sciences, Peking University, Yiheyuan Road, Beijing, 100871, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shang-Tong",
+            "LastName": "Li",
+            "Initials": "ST",
+            "AffiliationInfo": {"Affiliation": "National Institute of Biological Sciences, Beijing, Kexueyuan Road, Beijing, 102206, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xue-Mei",
+            "LastName": "Li",
+            "Initials": "XM",
+            "AffiliationInfo": {"Affiliation": "National Institute of Biological Sciences, Beijing, Kexueyuan Road, Beijing, 102206, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Meng-Qiu",
+            "LastName": "Dong",
+            "Initials": "MQ",
+            "AffiliationInfo": {"Affiliation": "National Institute of Biological Sciences, Beijing, Kexueyuan Road, Beijing, 102206, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Heng",
+            "LastName": "Mao",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "LMAM, School of Mathematical Sciences, Peking University, Yiheyuan Road, Beijing, 100871, China. heng.mao@pku.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Louis",
+            "LastName": "Tao",
+            "Initials": "L",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Yiheyuan Road, Beijing, 100871, China. taolt@mail.cbi.pku.edu.cn."},
+              {"Affiliation": "Center for Bioinformatics, National Laboratory of Protein Engineering and Plant Genetic Engineering, School of Life Sciences, Peking University, Yiheyuan Road, Beijing, 100871, China. taolt@mail.cbi.pku.edu.cn."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Segmentation and classification of two-channel C. elegans nucleus-labeled fluorescence images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1817-3"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Aging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "C. elegans"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Morphology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Nucleus"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Two-channel fluorescence image"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D000375",
+          "MajorTopicYN": "N",
+          "content": "Aging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000166",
+          "MajorTopicYN": "Y",
+          "content": "cytology"
+        },
+        "DescriptorName": {
+          "UI": "D017173",
+          "MajorTopicYN": "N",
+          "content": "Caenorhabditis elegans"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "Y",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D002467",
+          "MajorTopicYN": "N",
+          "content": "Cell Nucleus"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005453",
+        "MajorTopicYN": "N",
+        "content": "Fluorescence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D013194",
+        "MajorTopicYN": "Y",
+        "content": "Staining and Labeling"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2015 Feb 3;10(4):471-83",
+        "PMID": {
+          "Version": 1,
+          "content": 25640177
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2010 Apr;57(4):841-52",
+        "PMID": {
+          "Version": 1,
+          "content": 19884070
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Aging Cell. 2011 Aug;10(4):699-710",
+        "PMID": {
+          "Version": 1,
+          "content": 21501374
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Aging Cell. 2007 Apr;6(2):179-88",
+        "PMID": {
+          "Version": 1,
+          "content": 17286610
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cell Biol. 2007 Sep 04;8:40",
+        "PMID": {
+          "Version": 1,
+          "content": 17784958
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2016 Apr;49:46-57",
+        "PMID": {
+          "Version": 1,
+          "content": 26922612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 Oct 24;419(6909):808-14",
+        "PMID": {
+          "Version": 1,
+          "content": 12397350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Biotechnol. 2012;2012:601274",
+        "PMID": {
+          "Version": 1,
+          "content": 22577294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2007 Jun 19;581(15):2794-801",
+        "PMID": {
+          "Version": 1,
+          "content": 17418822
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2005 Aug;27(8):1226-38",
+        "PMID": {
+          "Version": 1,
+          "content": 16119262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleus. 2010 Nov-Dec;1(6):499-505",
+        "PMID": {
+          "Version": 1,
+          "content": 21327093
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2009;12(Pt 2):617-24",
+        "PMID": {
+          "Version": 1,
+          "content": 20426163
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Sep 15;30(18):2644-51",
+        "PMID": {
+          "Version": 1,
+          "content": 24849580
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2012 Mar;59(3):754-65",
+        "PMID": {
+          "Version": 1,
+          "content": 22167559
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Apr 3;508(7494):128-32",
+        "PMID": {
+          "Version": 1,
+          "content": 24522532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Motil Cytoskeleton. 2009 Oct;66(10):791-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19235201
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1993 Dec 2;366(6454):461-4",
+        "PMID": {
+          "Version": 1,
+          "content": 8247153
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Sep 19;15:310",
+        "PMID": {
+          "Version": 1,
+          "content": 25240495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Rev Biomed Eng. 2014;7:97-114",
+        "PMID": {
+          "Version": 1,
+          "content": 24802905
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Nov 15;102(46):16690-5",
+        "PMID": {
+          "Version": 1,
+          "content": 16269543
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Dec 27;102(52):18767-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16365296
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2016 Oct 18;17 (4):987-996",
+        "PMID": {
+          "Version": 1,
+          "content": 27760329
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28915791
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2018,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28915791,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1817-3",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1817-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5602880",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

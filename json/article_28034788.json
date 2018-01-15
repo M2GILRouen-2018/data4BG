@@ -1,0 +1,207 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100970413,
+      "Country": "United States",
+      "ISSNLinking": "1532-0464",
+      "MedlineTA": "J Biomed Inform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "82-94"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright Â© 2016 Elsevier Inc. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "INTRODUCTION",
+            "content": "The authors of this work propose an unsupervised machine learning model that has the ability to identify real-world latent infectious diseases by mining social media data. In this study, a latent infectious disease is defined as a communicable disease that has not yet been formalized by national public health institutes and explicitly communicated to the general public. Most existing approaches to modeling infectious-disease-related knowledge discovery through social media networks are top-down approaches that are based on already known information, such as the names of diseases and their symptoms. In existing top-down approaches, necessary but unknown information, such as disease names and symptoms, is mostly unidentified in social media data until national public health institutes have formalized that disease. Most of the formalizing processes for latent infectious diseases are time consuming. Therefore, this study presents a bottom-up approach for latent infectious disease discovery in a given location without prior information, such as disease names and related symptoms."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Social media messages with user and temporal information are extracted during the data preprocessing stage. An unsupervised sentiment analysis model is then presented. Users' expressions about symptoms, body parts, and pain locations are also identified from social media data. Then, symptom weighting vectors for each individual and time period are created, based on their sentiment and social media expressions. Finally, latent-infectious-disease-related information is retrieved from individuals' symptom weighting vectors."
+          },
+          {
+            "NlmCategory": "UNASSIGNED",
+            "Label": "DATASETS AND RESULTS",
+            "content": "Twitter data from August 2012 to May 2013 are used to validate this study. Real electronic medical records for 104 individuals, who were diagnosed with influenza in the same period, are used to serve as ground truth validation. The results are promising, with the highest precision, recall, and F1 score values of 0.773, 0.680, and 0.724, respectively."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "This work uses individuals' social media messages to identify latent infectious diseases, without prior information, quicker than when the disease(s) is formalized by national public health institutes. In particular, the unsupervised machine learning model using user, textual, and temporal information in social media data, along with sentiment analysis, identifies latent infectious diseases in a given location."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sunghoon",
+            "LastName": "Lim",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Industrial and Manufacturing Engineering, The Pennsylvania State University, University Park, PA 16802, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Conrad S",
+            "LastName": "Tucker",
+            "Initials": "CS",
+            "AffiliationInfo": {"Affiliation": "School of Engineering Design, Technology, and Professional Programs, The Pennsylvania State University, University Park, PA 16802, USA; Department of Industrial and Manufacturing Engineering, The Pennsylvania State University, University Park, PA 16802, USA. Electronic address: ctucker4@psu.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Soundar",
+            "LastName": "Kumara",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Industrial and Manufacturing Engineering, The Pennsylvania State University, University Park, PA 16802, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "An unsupervised machine learning model for discovering latent infectious diseases using social media data.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1532-0464(16)30181-2"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jbi.2016.12.007"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 66,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Biomed Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1532-0480"
+        },
+        "Title": "Journal of biomedical informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Information retrieval"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Latent infectious diseases"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Sentiment analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Social media"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Unsupervised machine learning"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": 30
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 18
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28034788
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28034788,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1532-0464(16)30181-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jbi.2016.12.007",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

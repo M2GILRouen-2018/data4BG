@@ -1,0 +1,202 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "6353-6363"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "This paper studies the feasibility of developing a fast and accurate automatic kidney component segmentation method. The proposed method segments the kidney into four components: renal cortex, renal column, renal medulla, and renal pelvis."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHOD",
+            "content": "In this article, we have proposed a highly efficient approach which strategically combines random forests and random ferns methods to segment the kidney into four components: renal cortex, renal column, renal medulla, and renal pelvis. The proposed method is designed following a coarse-to-fine strategy. The initial segmentation applies random forests and random ferns with a variety of features, and combines their results to obtain a coarse renal cortex region. Then the fine segmentation of four kidney components is achieved using the weighted forests-ferns approach with the well-designed potential energy features which are calculated based on the initial segmentation result. The proposed method was validated on a dataset with 37 contrast-enhanced CT images. Evaluation indices including Dice similarity coefficient (DSC), true positive volume fraction (TPVF), and false positive volume fraction (FPVF) are used to assess the segmentation accuracy. The proposed method was implemented and tested on a 64-bit system computer (Intel Core i7-3770 CPU, 3.4 GHz and 8 GB RAM)."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The experimental results demonstrated the high accuracy and efficiency for segmenting the kidney components: the mean Dice similarity coefficients were 89.85%, 80.60%, 86.63%, and 77.75% for renal cortex, column, medulla, and pelvis, respectively, for right and left kidneys. The computational time of segmenting the whole kidney into four components was about 3 s."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The experimental results showed the feasibility and efficacy of the proposed automatic kidney component segmentation method. The proposed method applied an efficient weighted strategy to combine random forests and ferns, making full use of the advantages of both methods. The novel potential energy features help random forests effectively segment the kidney components and the background. The high accuracy and efficiency of our method make it practicable in clinical applications."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chao",
+            "LastName": "Jin",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fei",
+            "LastName": "Shi",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dehui",
+            "LastName": "Xiang",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lichun",
+            "LastName": "Zhang",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xinjian",
+            "LastName": "Chen",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Soochow University, Suzhou, 215000, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Fast segmentation of kidney components using random forests and ferns.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12594"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "kidney components"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "random ferns"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "random forests"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "segmentation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28940607
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28940607,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12594",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

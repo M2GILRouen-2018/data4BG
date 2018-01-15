@@ -1,0 +1,149 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "Research projects involving population genomics routinely need to store genotyping information, population allele counts, combine files from different samples, query the data and export it to various formats. This is often done using bespoke in-house scripts which cannot be easily adapted to new projects and seldom constitute reproducible workflows."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "We introduce glactools, a set of command-line utilities which can import data from genotypes or population-wide allele counts into an intermediate representation, compute various operations on it and export the data to several file formats used by population genetics software. This intermediate format can take 2 forms, one to store per-individual genotype likelihoods and a second for allele counts from one or more individuals. glactools allows users to perform operations such as intersecting datasets, merging individuals into populations, creating subsets, perform queries (e.g. return sites where a given population does not share an allele with a second one) and compute summary statistics to answer biologically relevant questions."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability",
+          "content": "glactools is freely available for use under the GPL. It requires a C\u2009++ compiler and the htslib library. The source code as well as instructions about how to download test data are available on the website (https://grenaud.github.io/glactools/)."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "gabriel.reno@gmail.com."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary methods and results are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "ForeName": "Gabriel",
+          "LastName": "Renaud",
+          "Initials": "G",
+          "AffiliationInfo": {"Affiliation": "Max Planck Institute For Evolutionary Anthropology, Deutscher Platz 6, Leipzig, Germany."}
+        }
+      },
+      "ArticleTitle": "glactools: a command-line toolset for the management of genotype likelihoods and allele counts.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx749"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29186325
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186325,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 4665419,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx749",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

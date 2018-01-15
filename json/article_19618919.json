@@ -1,0 +1,566 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101516718,
+      "Country": "England",
+      "ISSNLinking": "1758-2946",
+      "MedlineTA": "J Cheminform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 59},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "National Key Research and Development Program of China",
+            "Country": "United States",
+            "GrantID": "2016YFC1305800"
+          },
+          {
+            "Agency": "National Key Research and Development Program of China",
+            "Country": "United States",
+            "GrantID": "2016YFC1305805"
+          },
+          {
+            "Agency": "National Natural Science Foundation of China",
+            "Country": "United States",
+            "GrantID": 31670724
+          },
+          {
+            "Agency": "Huazhong University of Science and Technology",
+            "Country": "United States",
+            "GrantID": 3004012104
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Conformation generation of protein-bound peptides is critical for the determination of protein-peptide complex structures. Despite significant progress in conformer generation of small molecules, few methods have been developed for modeling protein-bound peptide conformations. Here, we have developed a fast de novo peptide modeling algorithm, referred to as MODPEP, for conformational sampling of protein-bound peptides. Given a sequence, MODPEP builds the peptide 3D structure from scratch by assembling amino acids or helix fragments based on constructed rotamer and helix libraries. The MODPEP algorithm was tested on a diverse set of 910 experimentally determined protein-bound peptides with 3-30 amino acids from the PDB and obtained an average accuracy of 1.90 Å when 200 conformations were sampled for each peptide. On average, MODPEP obtained a success rate of 74.3% for all the 910 peptides and ≥ 90% for short peptides with 3-10 amino acids in reproducing experimental protein-bound structures. Comparative evaluations of MODPEP with three other conformer generation methods, PEP-FOLD3, RDKit, and Balloon, have also been performed in both accuracy and success rate. MODPEP is fast and can generate 100 conformations for less than one second. The fast MODPEP will be beneficial for large-scale de novo modeling and docking of peptides. The MODPEP program and libraries are available for download at http://huanglab.phys.hust.edu.cn/ ."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yumeng",
+            "LastName": "Yan",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Physics, Huazhong University of Science and Technology, Wuhan, 430074, Hubei, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Di",
+            "LastName": "Zhang",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "School of Physics, Huazhong University of Science and Technology, Wuhan, 430074, Hubei, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sheng-You",
+            "LastName": "Huang",
+            "Initials": "SY",
+            "AffiliationInfo": {"Affiliation": "School of Physics, Huazhong University of Science and Technology, Wuhan, 430074, Hubei, People's Republic of China. huangsy@hust.edu.cn."}
+          }
+        ]
+      },
+      "ArticleTitle": "Efficient conformational ensemble generation of protein-bound peptides.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13321-017-0246-7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 9,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "J Cheminform",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1758-2946"
+        },
+        "Title": "Journal of cheminformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Conformational sampling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Conformer generation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Molecular docking"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Peptide"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Protein\u2013peptide interactions"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2012 Nov 26;52(11):2919-36",
+        "PMID": {
+          "Version": 1,
+          "content": 23082786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Struct Biol. 2013 Dec;23(6):894-902",
+        "PMID": {
+          "Version": 1,
+          "content": 24138780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Structure. 2010 Feb 10;18(2):188-99",
+        "PMID": {
+          "Version": 1,
+          "content": 20159464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009 Mar 31;10:101",
+        "PMID": {
+          "Version": 1,
+          "content": 19335906
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jul 8;44(W1):W449-54",
+        "PMID": {
+          "Version": 1,
+          "content": 27131374
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2012 Jun 25;52(6):1499-512",
+        "PMID": {
+          "Version": 1,
+          "content": 22670896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Structure. 2015 Aug 4;23(8):1373-4",
+        "PMID": {
+          "Version": 1,
+          "content": 26244840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2000 Jan 1;28(1):235-42",
+        "PMID": {
+          "Version": 1,
+          "content": 10592235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2011 Mar 16;3:8",
+        "PMID": {
+          "Version": 1,
+          "content": 21410983
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(3):e58769",
+        "PMID": {
+          "Version": 1,
+          "content": 23516555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2013 Jul 22;53(7):1689-99",
+        "PMID": {
+          "Version": 1,
+          "content": 23800267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2017 Mar 27;57(3):529-539",
+        "PMID": {
+          "Version": 1,
+          "content": 28206754
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2011 Sep 26;51(9):2107-14",
+        "PMID": {
+          "Version": 1,
+          "content": 21755952
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 1999 Sep 17;292(2):195-202",
+        "PMID": {
+          "Version": 1,
+          "content": 10493868
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2007 Feb 1;66(2):399-421",
+        "PMID": {
+          "Version": 1,
+          "content": 17096427
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2014 Nov 06;2014:null",
+        "PMID": {
+          "Version": 1,
+          "content": 25377257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2015 Jan;20(1):122-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25450771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2015 Nov;16(6):1045-56",
+        "PMID": {
+          "Version": 1,
+          "content": 25900849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 Jul 1;22(13):1658-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16731699
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2014 Aug;19(8):1081-96",
+        "PMID": {
+          "Version": 1,
+          "content": 24594385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2013 Jan 07;5(1):1",
+        "PMID": {
+          "Version": 1,
+          "content": 23289532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biopolymers. 1983 Dec;22(12):2577-637",
+        "PMID": {
+          "Version": 1,
+          "content": 6667333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 2007 Jan;16(1):43-51",
+        "PMID": {
+          "Version": 1,
+          "content": 17123961
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Biol Drug Des. 2013 Jan;81(1):136-47",
+        "PMID": {
+          "Version": 1,
+          "content": 23253135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2016 Jan 25;56(1):188-200",
+        "PMID": {
+          "Version": 1,
+          "content": 26651532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acc Chem Res. 2017 Feb 21;50(2):302-309",
+        "PMID": {
+          "Version": 1,
+          "content": 28182403
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2015 Aug 11;11(8):3696-713",
+        "PMID": {
+          "Version": 1,
+          "content": 26574453
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Amino Acids. 2011 Jan;40(1):15-28",
+        "PMID": {
+          "Version": 1,
+          "content": 20177945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2015 Dec 28;55(12 ):2562-74",
+        "PMID": {
+          "Version": 1,
+          "content": 26575315
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2017 Mar 14;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28334282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Angew Chem Int Ed Engl. 2013 Oct 11;52(42):11059-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24038781
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2015 Sep 30;7:47",
+        "PMID": {
+          "Version": 1,
+          "content": 26473018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 2001 Jul;10(7):1470-3",
+        "PMID": {
+          "Version": 1,
+          "content": 11420449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Mol Sci. 2010 Aug 18;11(8):3016-34",
+        "PMID": {
+          "Version": 1,
+          "content": 21152288
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2009 Nov 13;393(5):1118-28",
+        "PMID": {
+          "Version": 1,
+          "content": 19733177
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2017 May 15;9(1):29",
+        "PMID": {
+          "Version": 1,
+          "content": 29086109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Structure. 2016 Oct 4;24(10 ):1842-1853",
+        "PMID": {
+          "Version": 1,
+          "content": 27642160
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2007 Nov-Dec;47(6):2462-74",
+        "PMID": {
+          "Version": 1,
+          "content": 17892278
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2015 Aug;20(8):969-77",
+        "PMID": {
+          "Version": 1,
+          "content": 25801181
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2017 Mar;85(3):497-512",
+        "PMID": {
+          "Version": 1,
+          "content": 28026062
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Structure. 2015 Aug 4;23(8):1507-15",
+        "PMID": {
+          "Version": 1,
+          "content": 26146186
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2010 Mar;31(4):726-38",
+        "PMID": {
+          "Version": 1,
+          "content": 19569182
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2001 May;15(5):411-28",
+        "PMID": {
+          "Version": 1,
+          "content": 11394736
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Biotechnol. 2008 Aug;19(4):344-50",
+        "PMID": {
+          "Version": 1,
+          "content": 18602004
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Chem Chem Phys. 2010 Oct 28;12(40):12899-908",
+        "PMID": {
+          "Version": 1,
+          "content": 20730182
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2009 Aug;49(8):1889-900",
+        "PMID": {
+          "Version": 1,
+          "content": 19618919
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29168051
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29168051,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13321-017-0246-7",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s13321-017-0246-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5700017",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

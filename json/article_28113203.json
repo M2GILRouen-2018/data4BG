@@ -1,0 +1,266 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 24
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2054-2064"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "Blind source separation (BSS) can be used to decompose complex electroencephalography (EEG) or magnetoencephalography data into simpler components based on statistical assumptions without using a physical model. Applications include brain-computer interfaces, artifact removal, and identifying parallel neural processes. We wish to address the issue of applying BSS to event-related responses, which is challenging because of nonstationary data."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We introduce a new BSS approach called momentary-uncorrelated component analysis (MUCA), which is tailored for event-related multitrial data. The method is based on approximate joint diagonalization of multiple covariance matrices estimated from the data at separate latencies. We further show how to extend the methodology for autocovariance matrices and how to apply BSS methods suitable for piecewise stationary data to event-related responses. We compared several BSS approaches by using simulated EEG as well as measured somatosensory and transcranial magnetic stimulation (TMS) evoked EEG."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Among the compared methods, MUCA was the most tolerant one to noise, TMS artifacts, and other challenges in the data. With measured somatosensory data, over half of the estimated components were found to be similar by MUCA and independent component analysis. MUCA was also stable when tested with several input datasets."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "MUCA is based on simple assumptions, and the results suggest that MUCA is robust with nonideal data."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "SIGNIFICANCE",
+          "content": "Event-related responses and BSS are valuable and popular tools in neuroscience. Correctly designed BSS is an efficient way of identifying artifactual and neural processes from nonstationary event-related data."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Johanna",
+            "LastName": "Metsomaa",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jukka",
+            "LastName": "Sarvas",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Risto Juhani",
+            "LastName": "Ilmoniemi",
+            "Initials": "RJ"
+          }
+        ]
+      },
+      "ArticleTitle": "Blind Source Separation of Event-Related EEG/MEG.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2616389"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "N",
+        "content": "Artifacts"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D001931",
+          "MajorTopicYN": "N",
+          "content": "Brain Mapping"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003627",
+        "MajorTopicYN": "N",
+        "content": "Data Interpretation, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D004569",
+          "MajorTopicYN": "N",
+          "content": "Electroencephalography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D005073",
+          "MajorTopicYN": "N",
+          "content": "Evoked Potentials, Somatosensory"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D015225",
+          "MajorTopicYN": "N",
+          "content": "Magnetoencephalography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D025341",
+        "MajorTopicYN": "N",
+        "content": "Principal Component Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 24
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113203
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113203,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2616389",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

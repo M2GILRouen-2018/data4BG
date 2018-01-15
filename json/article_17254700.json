@@ -1,0 +1,339 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0430773",
+      "Country": "Ireland",
+      "ISSNLinking": "0303-2647",
+      "MedlineTA": "Biosystems"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D003287",
+        "content": "Contrast Media"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2007,
+      "Day": 21
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "456-66"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL71021",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL78667",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2006,
+        "DateType": "Electronic",
+        "Day": 17
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The information contained within multicontrast magnetic resonance images (MRI) promises to improve tissue classification accuracy, once appropriately analyzed. Predictive models capture relationships empirically, from known outcomes thereby combining pattern classification with experience. In this study, we examine the applicability of predictive modeling for atherosclerotic plaque component classification of multicontrast ex vivo MR images using stained, histopathological sections as ground truth. Ten multicontrast images from seven human coronary artery specimens were obtained on a 9.4 T imaging system using multicontrast-weighted fast spin-echo (T1-, proton density-, and T2-weighted) imaging with 39-mum isotropic voxel size. Following initial data transformations, predictive modeling focused on automating the identification of specimen's plaque, lipid, and media. The outputs of these three models were used to calculate statistics such as total plaque burden and the ratio of hard plaque (fibrous tissue) to lipid. Both logistic regression and an artificial neural network model (Relevant Input Processor Network-RIPNet) were used for predictive modeling. When compared against segmentation resulting from cluster analysis, the RIPNet models performed between 25 and 30% better in absolute terms. This translates to a 50% higher true positive rate over given levels of false positives. This work indicates that it is feasible to build an automated system of plaque detection using MRI and data mining."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Russell W",
+            "LastName": "Anderson",
+            "Initials": "RW",
+            "AffiliationInfo": {"Affiliation": "ISCHEM Corporation, La Jolla, CA 92037, USA. russel_wayne_anderson@hotmail.com"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher",
+            "LastName": "Stomberg",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Charles W",
+            "LastName": "Hahm",
+            "Initials": "CW"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Venkatesh",
+            "LastName": "Mani",
+            "Initials": "V"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel D",
+            "LastName": "Samber",
+            "Initials": "DD"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vitalii V",
+            "LastName": "Itskovich",
+            "Initials": "VV"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Laura",
+            "LastName": "Valera-Guallar",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John T",
+            "LastName": "Fallon",
+            "Initials": "JT"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pavel B",
+            "LastName": "Nedanov",
+            "Initials": "PB"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joel",
+            "LastName": "Huizenga",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zahi A",
+            "LastName": "Fayad",
+            "Initials": "ZA"
+          }
+        ]
+      },
+      "ArticleTitle": "Automated classification of atherosclerotic plaque from magnetic resonance images using predictive models.",
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 90,
+          "PubDate": {"MedlineDate": "2007 Sep-Oct"},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "BioSystems",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0303-2647"
+        },
+        "Title": "Bio Systems"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2007,
+      "Day": 10
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "Y",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "Y",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D050197",
+          "MajorTopicYN": "N",
+          "content": "Atherosclerosis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "N",
+        "content": "Automation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000494",
+          "MajorTopicYN": "N",
+          "content": "pharmacology"
+        },
+        "DescriptorName": {
+          "UI": "D003287",
+          "MajorTopicYN": "N",
+          "content": "Contrast Media"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "N",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D003331",
+          "MajorTopicYN": "N",
+          "content": "Coronary Vessels"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005189",
+        "MajorTopicYN": "N",
+        "content": "False Positive Reactions"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "N",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008279",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D011237",
+        "MajorTopicYN": "N",
+        "content": "Predictive Value of Tests"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2007,
+      "Day": 10
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 17254700
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2006,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2006,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2006,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2007,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2007,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 6,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2007,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 27,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 17254700,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0303-2647(06)00272-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.biosystems.2006.11.005",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

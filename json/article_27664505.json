@@ -1,0 +1,218 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8915031,
+      "Country": "Netherlands",
+      "ISSNLinking": "0933-3657",
+      "MedlineTA": "Artif Intell Med"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "12-21"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVES",
+            "content": "Quantification and early identification of unplanned readmission risk have the potential to improve the quality of care during hospitalization and after discharge. However, high dimensionality, sparsity, and class imbalance of electronic health data and the complexity of risk quantification, challenge the development of accurate predictive models. Predictive models require a certain level of interpretability in order to be applicable in real settings and create actionable insights. This paper aims to develop accurate and interpretable predictive models for readmission in a general pediatric patient population, by integrating a data-driven model (sparse logistic regression) and domain knowledge based on the international classification of diseases 9th-revision clinical modification (ICD-9-CM) hierarchy of diseases. Additionally, we propose a way to quantify the interpretability of a model and inspect the stability of alternative solutions."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "MATERIALS AND METHODS",
+            "content": "The analysis was conducted on >66,000 pediatric hospital discharge records from California, State Inpatient Databases, Healthcare Cost and Utilization Project between 2009 and 2011. We incorporated domain knowledge based on the ICD-9-CM hierarchy in a data driven, Tree-Lasso regularized logistic regression model, providing the framework for model interpretation. This approach was compared with traditional Lasso logistic regression resulting in models that are easier to interpret by fewer high-level diagnoses, with comparable prediction accuracy."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The results revealed that the use of a Tree-Lasso model was as competitive in terms of accuracy (measured by area under the receiver operating characteristic curve-AUC) as the traditional Lasso logistic regression, but integration with the ICD-9-CM hierarchy of diseases provided more interpretable models in terms of high-level diagnoses. Additionally, interpretations of models are in accordance with existing medical understanding of pediatric readmission. Best performing models have similar performances reaching AUC values 0.783 and 0.779 for traditional Lasso and Tree-Lasso, respectfully. However, information loss of Lasso models is 0.35 bits higher compared to Tree-Lasso model."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "We propose a method for building predictive models applicable for the detection of readmission risk based on Electronic Health records. Integration of domain knowledge (in the form of ICD-9-CM taxonomy) and a data-driven, sparse predictive algorithm (Tree-Lasso Logistic Regression) resulted in an increase of interpretability of the resulting model. The models are interpreted for the readmission prediction problem in general pediatric population in California, as well as several important subpopulations, and the interpretations of models comply with existing medical understanding of pediatric readmission. Finally, quantitative assessment of the interpretability of the models is given, that is beyond simple counts of selected low-level features."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Milos",
+            "LastName": "Jovanovic",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "University of Belgrade, Faculty of Organizational Sciences, Jove Ilica 154, 11010 Vozdovac, Belgrade, Serbia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sandro",
+            "LastName": "Radovanovic",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "University of Belgrade, Faculty of Organizational Sciences, Jove Ilica 154, 11010 Vozdovac, Belgrade, Serbia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Milan",
+            "LastName": "Vukicevic",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "University of Belgrade, Faculty of Organizational Sciences, Jove Ilica 154, 11010 Vozdovac, Belgrade, Serbia. Electronic address: milan.vukicevic@fon.bg.ac.rs."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sven",
+            "LastName": "Van Poucke",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology, Critical Care, Emergency Medicine and Pain Therapy, Ziekenhuis Oost-Limburg, Schiepse Bos 6, B-3600 Genk, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Boris",
+            "LastName": "Delibasic",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "University of Belgrade, Faculty of Organizational Sciences, Jove Ilica 154, 11010 Vozdovac, Belgrade, Serbia."}
+          }
+        ]
+      },
+      "ArticleTitle": "Building interpretable predictive models for pediatric hospital readmission using Tree-Lasso logistic regression.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.artmed.2016.07.003"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0933-3657(15)30067-1"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 72,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Artif Intell Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1873-2860"
+        },
+        "Title": "Artificial intelligence in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Hospital readmission prediction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Lasso regression"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Model interpretability"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Tree Lasso regression"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2016,
+      "Day": 25
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2016,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 27664505
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2015,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 23,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27664505,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0933-3657(15)30067-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.artmed.2016.07.003",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

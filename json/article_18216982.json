@@ -1,0 +1,528 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101147197,
+      "Country": "United States",
+      "ISSNLinking": "1534-7362",
+      "MedlineTA": "J Vis"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 21
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 13},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NEI NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 EY020958",
+          "Acronym": "EY"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Microsaccades are high-velocity fixational eye movements, with special roles in perception and cognition. The default microsaccade detection method is to determine when the smoothed eye velocity exceeds a threshold. We have developed a new method, Bayesian microsaccade detection (BMD), which performs inference based on a simple statistical model of eye positions. In this model, a hidden state variable changes between drift and microsaccade states at random times. The eye position is a biased random walk with different velocity distributions for each state. BMD generates samples from the posterior probability distribution over the eye state time series given the eye position time series. Applied to simulated data, BMD recovers the \"true\" microsaccades with fewer errors than alternative algorithms, especially at high noise. Applied to EyeLink eye tracker data, BMD detects almost all the microsaccades detected by the default method, but also apparent microsaccades embedded in high noise-although these can also be interpreted as false positives. Next we apply the algorithms to data collected with a Dual Purkinje Image eye tracker, whose higher precision justifies defining the inferred microsaccades as ground truth. When we add artificial measurement noise, the inferences of all algorithms degrade; however, at noise levels comparable to EyeLink data, BMD recovers the \"true\" microsaccades with 54% fewer errors than the default algorithm. Though unsuitable for online detection, BMD has other advantages: It returns probabilities rather than binary judgments, and it can be straightforwardly adapted as the generative model is refined. We make our algorithm available as a software package."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andra",
+            "LastName": "Mihali",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Center for Neural Science, New York University, New York, NY, USAalm652@nyu.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bas",
+            "LastName": "van Opheusden",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Center for Neural Science, New York University, New York, NY, USAsvo213@nyu.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei Ji",
+            "LastName": "Ma",
+            "Initials": "WJ",
+            "AffiliationInfo": {"Affiliation": "Center for Neural Science, New York University, New York, NY, USADepartment of Psychology, New York University, New York, NY, USAweijima@nyu.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Bayesian microsaccade detection.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1167/17.1.13"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "01",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Vis",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1534-7362"
+        },
+        "Title": "Journal of vision"
+      },
+      "PubModel": "Print"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "Y",
+        "content": "Bayes Theorem"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D005403",
+          "MajorTopicYN": "N",
+          "content": "Fixation, Ocular"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D012438",
+          "MajorTopicYN": "N",
+          "content": "Saccades"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D014796",
+          "MajorTopicYN": "N",
+          "content": "Visual Perception"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "05"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2014 Feb 25;14(2):null",
+        "PMID": {
+          "Version": 1,
+          "content": 24569984
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2007 Jun 14;447(7146):851-4",
+        "PMID": {
+          "Version": 1,
+          "content": 17568745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prog Brain Res. 2006;154:177-92",
+        "PMID": {
+          "Version": 1,
+          "content": 17010710
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Sci. 2007 Apr;18(4):356-63",
+        "PMID": {
+          "Version": 1,
+          "content": 17470262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2015 Dec 21;25(24):3253-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26687623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2005 Mar;45(6):721-30",
+        "PMID": {
+          "Version": 1,
+          "content": 15639499
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Spat Vis. 1997;10(4):433-6",
+        "PMID": {
+          "Version": 1,
+          "content": 9176952
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2016 Jan;118:83-97",
+        "PMID": {
+          "Version": 1,
+          "content": 25689315
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2010 Dec;13(12):1549-53",
+        "PMID": {
+          "Version": 1,
+          "content": 21037583
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Chem Chem Phys. 2005 Dec 7;7(23):3910-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19810318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1965 Dec 10;150(3702):1459-60",
+        "PMID": {
+          "Version": 1,
+          "content": 5855207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2008 Dec 18;8(14):20.1-21",
+        "PMID": {
+          "Version": 1,
+          "content": 19146321
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2006 Jan 19;49(2):297-305",
+        "PMID": {
+          "Version": 1,
+          "content": 16423702
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 May 2;103(18):7192-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16632611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2013 Mar 20;33(12):5375-86",
+        "PMID": {
+          "Version": 1,
+          "content": 23516303
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2012 Mar 14;12(3):null",
+        "PMID": {
+          "Version": 1,
+          "content": 22419756
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2009 Oct;49(20):2415-41",
+        "PMID": {
+          "Version": 1,
+          "content": 19683016
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2002 Oct;42(22):2533-45",
+        "PMID": {
+          "Version": 1,
+          "content": 12445847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2011 Oct 26;31(43):15219-30",
+        "PMID": {
+          "Version": 1,
+          "content": 22031868
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2004 Dec 29;4(12):1120-35",
+        "PMID": {
+          "Version": 1,
+          "content": 15669916
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2004 Oct;44(23):2675-90",
+        "PMID": {
+          "Version": 1,
+          "content": 15358063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2016 Jan;118:17-24",
+        "PMID": {
+          "Version": 1,
+          "content": 25481631
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2008 Dec 18;8(14):21.1-18",
+        "PMID": {
+          "Version": 1,
+          "content": 19146322
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 1979;19(6):675-83",
+        "PMID": {
+          "Version": 1,
+          "content": 547477
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Sci. 2004 Oct;15(10):705-7; author reply 708-10",
+        "PMID": {
+          "Version": 1,
+          "content": 15447643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2012 Jun 22;12(6):null",
+        "PMID": {
+          "Version": 1,
+          "content": 22728680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Spat Vis. 1997;10(4):437-42",
+        "PMID": {
+          "Version": 1,
+          "content": 9176953
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Opt Soc Am. 1956 Nov;46(11):987-93",
+        "PMID": {
+          "Version": 1,
+          "content": 13367941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2013 Sep 9;23(17):1691-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23954428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Graefes Arch Clin Exp Ophthalmol. 2005 Aug;243(8):791-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15761761
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2012 Apr;107(7):1904-16",
+        "PMID": {
+          "Version": 1,
+          "content": 22236714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2014 Oct 8;34(41):13693-700",
+        "PMID": {
+          "Version": 1,
+          "content": 25297096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 Sep 27;108(39):E765-70",
+        "PMID": {
+          "Version": 1,
+          "content": 21873243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Psychol. 1950 Dec;40(6):687-701",
+        "PMID": {
+          "Version": 1,
+          "content": 14803643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Behav Res Methods Instrum Comput. 2002 Nov;34(4):613-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12564564
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 1953 Jan;119(1):1-17",
+        "PMID": {
+          "Version": 1,
+          "content": 13035713
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Sci. 2007 Apr;18(4):364-6; discussion 367-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17470263
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2014 Sep 30;235:157-68",
+        "PMID": {
+          "Version": 1,
+          "content": 25043508
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2003 Apr;43(9):1035-45",
+        "PMID": {
+          "Version": 1,
+          "content": 12676246
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Opt. 1985 Feb 15;24(4):527",
+        "PMID": {
+          "Version": 1,
+          "content": 18216982
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28114483
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114483,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 2597868,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1167/17.1.13",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5256468",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

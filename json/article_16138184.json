@@ -1,0 +1,620 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0266262",
+      "Country": "England",
+      "ISSNLinking": "0022-3751",
+      "MedlineTA": "J Physiol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "C568559",
+          "content": "channelrhodopsin 2, human"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D012243",
+          "content": "Rhodopsin"
+        },
+        "RegistryNumber": "9009-81-8"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 18
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "6879-6891"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "DP1 HL123271",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 GM007057",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2016 The Authors. The Journal of Physiology © 2016 The Physiological Society.",
+        "AbstractText": [
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "KEY POINTS",
+            "content": "Optogenetics-based defibrillation, a theoretical alternative to electrotherapy, involves expression of light-sensitive ion channels in the heart (via gene or cell therapy) and illumination of the cardiac surfaces (via implanted LED arrays) to elicit light-induced activations. We used a biophysically detailed human ventricular model to determine whether such a therapy could terminate fibrillation (VF) and identify which combinations of light-sensitive ion channel properties and illumination configurations would be effective. Defibrillation was successful when a large proportion (> 16.6%) of ventricular tissue was directly stimulated by light that was bright enough to induce an action potential in an uncoupled cell. While illumination with blue light never successfully terminated VF, illumination of red light-sensitive ion channels with dense arrays of implanted red light sources resulted in successful defibrillation. Our results suggest that cardiac expression of red light-sensitive ion channels is necessary for the development of effective optogenetics-based defibrillation therapy using LED arrays."
+          },
+          {
+            "NlmCategory": "UNASSIGNED",
+            "Label": "ABSTRACT",
+            "content": "Optogenetics-based defibrillation has been proposed as a novel and potentially pain-free approach to enable cardiomyocyte-selective defibrillation in humans, but the feasibility of such a therapy remains unknown. This study aimed to (1) assess the feasibility of terminating sustained ventricular fibrillation (VF) via light-induced excitation of opsins expressed throughout the myocardium and (2) identify the ideal (theoretically possible) opsin properties and light source configurations that would maximise therapeutic efficacy. We conducted electrophysiological simulations in an MRI-based human ventricular model with VF induced by rapid pacing; light sensitisation via systemic, cardiac-specific gene transfer of channelrhodopsin-2 (ChR2) was simulated. In addition to the widely used blue light-sensitive ChR2-H134R, we also modelled theoretical ChR2 variants with augmented light sensitivity (ChR2+), red-shifted spectral sensitivity (ChR2-RED) or both (ChR2-RED+). Light sources were modelled as synchronously activating LED arrays (LED radius: 1 mm; optical power: 10 mW mm(-2) ; array density: 1.15-4.61 cm(-2) ). For each unique optogenetic configuration, defibrillation was attempted with two different optical pulse durations (25 and 500 ms). VF termination was only successful for configurations involving ChR2-RED and ChR2-RED+ (for LED arrays with density ≥ 2.30 cm(-2) ), suggesting that opsin spectral sensitivity was the most important determinant of optogenetic defibrillation efficacy. This was due to the deeper penetration of red light in cardiac tissue compared with blue light, which resulted in more widespread light-induced propagating wavefronts. Longer pulse duration and higher LED array density were associated with increased optogenetic defibrillation efficacy. In all cases observed, the defibrillation mechanism was light-induced depolarisation of the excitable gap, which led to block of reentrant wavefronts."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thomas V",
+            "LastName": "Karathanos",
+            "Initials": "TV",
+            "AffiliationInfo": {"Affiliation": "Institute for Computational Medicine, Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jason D",
+            "LastName": "Bayer",
+            "Initials": "JD",
+            "AffiliationInfo": {"Affiliation": "LIRYC Electrophysiology and Heart Modelling Institute, University of Bordeaux, Bordeaux, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dafang",
+            "LastName": "Wang",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Institute for Computational Medicine, Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9048-1239"
+            },
+            "ForeName": "Patrick M",
+            "LastName": "Boyle",
+            "Initials": "PM",
+            "AffiliationInfo": {"Affiliation": "Institute for Computational Medicine, Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Natalia A",
+            "LastName": "Trayanova",
+            "Initials": "NA",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute for Computational Medicine, Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA."},
+              {"Affiliation": "Department of Medicine, Johns Hopkins University School of Medicine, Baltimore, MD, USA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Opsin spectral sensitivity determines the effectiveness of optogenetic termination of ventricular fibrillation in the human heart: a simulation study.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1113/JP271739"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 23,
+          "Volume": 594,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Physiol. (Lond.)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1469-7793"
+        },
+        "Title": "The Journal of physiology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "03",
+      "Year": 2016,
+      "Day": "04"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000528",
+          "MajorTopicYN": "Y",
+          "content": "radiation effects"
+        },
+        "DescriptorName": {
+          "UI": "D006321",
+          "MajorTopicYN": "N",
+          "content": "Heart"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008027",
+        "MajorTopicYN": "N",
+        "content": "Light"
+      }},
+      {"DescriptorName": {
+        "UI": "D062308",
+        "MajorTopicYN": "N",
+        "content": "Optogenetics"
+      }},
+      {"DescriptorName": {
+        "UI": "D066230",
+        "MajorTopicYN": "N",
+        "content": "Patient-Specific Modeling"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D012243",
+          "MajorTopicYN": "N",
+          "content": "Rhodopsin"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000628",
+          "MajorTopicYN": "Y",
+          "content": "therapy"
+        },
+        "DescriptorName": {
+          "UI": "D014693",
+          "MajorTopicYN": "N",
+          "content": "Ventricular Fibrillation"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2014 Sep 16;64(11):1143-77",
+        "PMID": {
+          "Version": 1,
+          "content": 24820349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2013;4:2370",
+        "PMID": {
+          "Version": 1,
+          "content": 23982300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2013 Oct;16(10):1499-508",
+        "PMID": {
+          "Version": 1,
+          "content": 23995068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2013 May;304(9):H1179-91",
+        "PMID": {
+          "Version": 1,
+          "content": 23457014
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Dec 18;9(2):159-72",
+        "PMID": {
+          "Version": 1,
+          "content": 22179551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans A Math Phys Eng Sci. 2008 Sep 28;366(1879):3381-409",
+        "PMID": {
+          "Version": 1,
+          "content": 18603526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heart Rhythm. 2010 Jul;7(7):953-61",
+        "PMID": {
+          "Version": 1,
+          "content": 20348028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Wiley Interdiscip Rev Syst Biol Med. 2010 Jul-Aug;2(4):489-506",
+        "PMID": {
+          "Version": 1,
+          "content": 20582162
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2001 Sep 11;104(11):1313-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11551885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2012 Apr 17;125(15):1835-47",
+        "PMID": {
+          "Version": 1,
+          "content": 22412072
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Europace. 2014 Nov;16 Suppl 4:iv69-iv76",
+        "PMID": {
+          "Version": 1,
+          "content": 25362173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cardiovasc Res. 2015 May 1;106(2):338-43",
+        "PMID": {
+          "Version": 1,
+          "content": 25587047
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 2010 Mar 19;106(5):981-91",
+        "PMID": {
+          "Version": 1,
+          "content": 20093630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heart. 2005 May;91(5):674-80",
+        "PMID": {
+          "Version": 1,
+          "content": 15831662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cardiovasc Res. 2004 Jan 1;61(1):39-44",
+        "PMID": {
+          "Version": 1,
+          "content": 14732200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cardiovasc Res. 2014 Oct 1;104(1):194-205",
+        "PMID": {
+          "Version": 1,
+          "content": 25082848
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2001 Oct;48(10):1098-107",
+        "PMID": {
+          "Version": 1,
+          "content": 11585033
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013;9(9):e1003220",
+        "PMID": {
+          "Version": 1,
+          "content": 24068903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2011 Sep 21;101(6):1326-34",
+        "PMID": {
+          "Version": 1,
+          "content": 21943413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2011 Apr;14(4):513-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21399632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heart Rhythm. 2013 Aug;10(8):1209-17",
+        "PMID": {
+          "Version": 1,
+          "content": 23628521
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2006 Sep;291(3):H1088-100",
+        "PMID": {
+          "Version": 1,
+          "content": 16565318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2011 May 3;123(17):1881-90",
+        "PMID": {
+          "Version": 1,
+          "content": 21502574
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Electrocardiol. 2003;36 Suppl:69-74",
+        "PMID": {
+          "Version": 1,
+          "content": 14716595
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Gene Ther. 2006 Apr;17(4):440-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16610931
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2014 Feb 25;5:3329",
+        "PMID": {
+          "Version": 1,
+          "content": 24569383
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Gene Med. 2011 Oct;13(10):557-65",
+        "PMID": {
+          "Version": 1,
+          "content": 21837689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cardiovasc Electrophysiol. 2003 Jan;14(1):65-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12625612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 Mar;11(3):338-46",
+        "PMID": {
+          "Version": 1,
+          "content": 24509633
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Biol Sci. 2011 Sep 22;278(1719):2714-23",
+        "PMID": {
+          "Version": 1,
+          "content": 21697171
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heart Rhythm. 2005 Oct;2(10):1108-13",
+        "PMID": {
+          "Version": 1,
+          "content": 16188591
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Arrhythm Electrophysiol. 2011 Oct;4(5):753-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21828312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Cell Cardiol. 2011 May;50(5):803-12",
+        "PMID": {
+          "Version": 1,
+          "content": 21093451
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2011 Aug 31;3(98):98ra83",
+        "PMID": {
+          "Version": 1,
+          "content": 21885405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2013 Apr 12;340(6129):211-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23580530
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2015 Oct 1;65:200-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26002074
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2006 Apr 15;90(8):2938-45",
+        "PMID": {
+          "Version": 1,
+          "content": 16443665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Nurs Pract. 2002 Apr;8(2):68-74",
+        "PMID": {
+          "Version": 1,
+          "content": 11993579
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2010 Nov;7(11):897-900",
+        "PMID": {
+          "Version": 1,
+          "content": 20881965
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prog Biophys Mol Biol. 2008 Jan-Apr;96(1-3):3-18",
+        "PMID": {
+          "Version": 1,
+          "content": 17900668
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Invest. 2005 Sep;115(9):2305-15",
+        "PMID": {
+          "Version": 1,
+          "content": 16138184
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26941055
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2015,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 3,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 3,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26941055,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1113/JP271739",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5134403",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

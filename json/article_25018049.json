@@ -1,0 +1,551 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101142069,
+      "Country": "United States",
+      "ISSNLinking": "1539-2791",
+      "MedlineTA": "Neuroinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "165-183"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We provide and evaluate an open-source software solution for automatically hippocampal segmentation from T1-weighted (T1w) magnetic resonance imaging (MRI). The method is applied for measuring the hippocampal volume, which allows discriminate between patients with Alzheimer's disease (AD) or mild cognitive impairment (MCI) and elderly controls (NC). The method is based on a fast patch-based label fusion method, whose selected patches and their weights are calculated from a combination of similarity measures between patches using intensity-based distances and labeling-based distances. These combined similarity measures produces better selection of the patches, and their weights are more robust. The algorithm is trained with the Harmonized Hippocampal Protocol (HarP). The proposal is compared with FreeSurfer and other label fusion methods. To evaluate the performance and the robustness of the proposed label fusion method, we employ two databases of T1w MRI of human brains. For AD vs NC, we obtain a high degree of accuracy, approximately 90 %. For MCI vs NC, we obtain accuracies around 75 %. The average time for the hippocampal segmentation from a T1w MRI is less than 17 minutes."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Carlos",
+            "LastName": "Platero",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Health Science Technology Group, Technical University of Madrid, Ronda de Valencia 3, 28012, Madrid, Spain. carlos.platero@upm.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "M Carmen",
+            "LastName": "Tobar",
+            "Initials": "MC",
+            "AffiliationInfo": {"Affiliation": "Health Science Technology Group, Technical University of Madrid, Ronda de Valencia 3, 28012, Madrid, Spain."}
+          }
+        ]
+      },
+      "ArticleTitle": "Combining a Patch-based Approach with a Non-rigid Registration-based Label Fusion Method for the Hippocampal Segmentation in Alzheimer's Disease.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s12021-017-9323-3"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 15,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Neuroinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1559-0089"
+        },
+        "Title": "Neuroinformatics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Atlas-based segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hippocampal segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image registration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Magnetic resonance imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Patch-based label fusion"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "07"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2013 Feb 1;66:50-70",
+        "PMID": {
+          "Version": 1,
+          "content": 23142652
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Feb 1;49(3):2352-65",
+        "PMID": {
+          "Version": 1,
+          "content": 19857578
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2013 Aug 1;76:11-23",
+        "PMID": {
+          "Version": 1,
+          "content": 23523774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2002 Oct;17(2):825-41",
+        "PMID": {
+          "Version": 1,
+          "content": 12377157
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 May 15;56(2):766-81",
+        "PMID": {
+          "Version": 1,
+          "content": 20542124
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1999 Aug;18(8):712-21",
+        "PMID": {
+          "Version": 1,
+          "content": 10534053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Alzheimers Dement. 2015 Feb;11(2):111-25",
+        "PMID": {
+          "Version": 1,
+          "content": 25267715
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2014 Apr 1;89:152-64",
+        "PMID": {
+          "Version": 1,
+          "content": 24291615
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2004 Apr;13(4):600-12",
+        "PMID": {
+          "Version": 1,
+          "content": 15376593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2008 Apr;27(4):425-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18390341
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurobiol Aging. 2013 Aug;34(8):2003-13",
+        "PMID": {
+          "Version": 1,
+          "content": 23540941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Jul 1;46(3):726-38",
+        "PMID": {
+          "Version": 1,
+          "content": 19245840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2015 Jun;64(2):117-29",
+        "PMID": {
+          "Version": 1,
+          "content": 25982908
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2014 Nov 1;101:765-77",
+        "PMID": {
+          "Version": 1,
+          "content": 25111472
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2011 Oct;30(10):1852-62",
+        "PMID": {
+          "Version": 1,
+          "content": 21606021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Jan;29(1):196-205",
+        "PMID": {
+          "Version": 1,
+          "content": 19923044
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Jan 15;54(2):940-54",
+        "PMID": {
+          "Version": 1,
+          "content": 20851199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2012 Apr 15;44(5):552-61",
+        "PMID": {
+          "Version": 1,
+          "content": 22504417
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Alzheimers Dis. 2011;26 Suppl 3:61-75",
+        "PMID": {
+          "Version": 1,
+          "content": 21971451
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Aug 15;62(2):911-22",
+        "PMID": {
+          "Version": 1,
+          "content": 22248580
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain Connect. 2014 Jun;4(5):312-22",
+        "PMID": {
+          "Version": 1,
+          "content": 24617580
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2006;9(Pt 2):955-63",
+        "PMID": {
+          "Version": 1,
+          "content": 17354865
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Alzheimers Dement. 2015 Feb;11(2):175-83",
+        "PMID": {
+          "Version": 1,
+          "content": 25616957
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Jul 1;46(3):786-802",
+        "PMID": {
+          "Version": 1,
+          "content": 19195496
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurol. 2010 Feb;6(2):67-77",
+        "PMID": {
+          "Version": 1,
+          "content": 20139996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet Neurol. 2007 Aug;6(8):734-46",
+        "PMID": {
+          "Version": 1,
+          "content": 17616482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2008 Apr 1;40(2):583-589",
+        "PMID": {
+          "Version": 1,
+          "content": 18255315
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Jul 15;51(4):1345-59",
+        "PMID": {
+          "Version": 1,
+          "content": 20230901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2015 Jul 15;115:117-37",
+        "PMID": {
+          "Version": 1,
+          "content": 25936807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2004 Sep;26(9):1124-37",
+        "PMID": {
+          "Version": 1,
+          "content": 15742889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2007 Dec;16(12):2879-90",
+        "PMID": {
+          "Version": 1,
+          "content": 18092588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1988 Sep;44(3):837-45",
+        "PMID": {
+          "Version": 1,
+          "content": 3203132
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2014;17(Pt 3):105-12",
+        "PMID": {
+          "Version": 1,
+          "content": 25320788
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurology. 2004 Feb 24;62(4):591-600",
+        "PMID": {
+          "Version": 1,
+          "content": 14981176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2004 Oct;23(2):724-38",
+        "PMID": {
+          "Version": 1,
+          "content": 15488422
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Alzheimers Dement. 2015 Feb;11(2):126-38",
+        "PMID": {
+          "Version": 1,
+          "content": 25130658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2006;9(Pt 2):831-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17354850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2013 Mar;35(3):611-23",
+        "PMID": {
+          "Version": 1,
+          "content": 22732662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain Topogr. 2015 Sep;28(5):746-759",
+        "PMID": {
+          "Version": 1,
+          "content": 25370484
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2016 Jan 1;124(Pt A):770-782",
+        "PMID": {
+          "Version": 1,
+          "content": 26244277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2008 Apr;27(4):685-91",
+        "PMID": {
+          "Version": 1,
+          "content": 18302232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2002 Nov;17(3):143-55",
+        "PMID": {
+          "Version": 1,
+          "content": 12391568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2009 Aug;28(8):1266-77",
+        "PMID": {
+          "Version": 1,
+          "content": 19228554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Oct 1;47(4):1185-95",
+        "PMID": {
+          "Version": 1,
+          "content": 19447182
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2000;9(12):2083-99",
+        "PMID": {
+          "Version": 1,
+          "content": 18262946
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Oct;29(10):1714-29",
+        "PMID": {
+          "Version": 1,
+          "content": 20562040
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2013 Feb;17(2):194-208",
+        "PMID": {
+          "Version": 1,
+          "content": 23265798
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2014 Aug;18(6):881-90",
+        "PMID": {
+          "Version": 1,
+          "content": 24315359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2004 Jul;23(7):903-21",
+        "PMID": {
+          "Version": 1,
+          "content": 15250643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Oct 1;52(4):1355-66",
+        "PMID": {
+          "Version": 1,
+          "content": 20441794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med. 2014 Dec;30(8):878-87",
+        "PMID": {
+          "Version": 1,
+          "content": 25018049
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28132187
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28132187,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s12021-017-9323-3",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s12021-017-9323-3",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

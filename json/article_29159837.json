@@ -1,0 +1,267 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8700181,
+      "Country": "United States",
+      "ISSNLinking": "0887-3585",
+      "MedlineTA": "Proteins"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 Wiley Periodicals, Inc.",
+        "AbstractText": "For protein structure modeling in the CASP12 experiment, we have developed a new protocol based on our previous CASP11 approach. The global optimization method of conformational space annealing (CSA) was applied to 3 stages of modeling: multiple sequence-structure alignment, three-dimensional (3D) chain building, and side-chain re-modeling. For better template selection and model selection, we updated our model quality assessment (QA) method with the newly developed SVMQA (support vector machine for quality assessment). For 3D chain building, we updated our energy function by including restraints generated from predicted residue-residue contacts. New energy terms for the predicted secondary structure and predicted solvent accessible surface area were also introduced. For difficult targets, we proposed a new method, LEEab, where the template term played a less significant role than it did in LEE, complemented by increased contributions from other terms such as the predicted contact term. For TBM (template-based modeling) targets, LEE performed better than LEEab, but for FM targets, LEEab was better. For model refinement, we modified our CASP11 molecular dynamics (MD) based protocol by using explicit solvents and tuning down restraint weights. Refinement results from MD simulations that used a new augmented statistical energy term in the force field were quite promising. Finally, when using inaccurate information (such as the predicted contacts), it was important to use the Lorentzian function for which the maximal penalty arising from wrong information is always bounded."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seung Hwan",
+            "LastName": "Hong",
+            "Initials": "SH",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "InSuk",
+            "LastName": "Joung",
+            "Initials": "I",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jose C",
+            "LastName": "Flores-Canales",
+            "Initials": "JC",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Balachandran",
+            "LastName": "Manavalan",
+            "Initials": "B",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qianyi",
+            "LastName": "Cheng",
+            "Initials": "Q",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seungryong",
+            "LastName": "Heo",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jong Yun",
+            "LastName": "Kim",
+            "Initials": "JY",
+            "AffiliationInfo": {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sun Young",
+            "LastName": "Lee",
+            "Initials": "SY",
+            "AffiliationInfo": {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mikyung",
+            "LastName": "Nam",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Keehyoung",
+            "LastName": "Joo",
+            "Initials": "K",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "Center for Advanced Computation, Korea Institute for Advanced Study, Seoul, South Korea."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "In-Ho",
+            "LastName": "Lee",
+            "Initials": "IH",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "Korea Research Institute of Standards and Science (KRISS), Daejeon, South Korea."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sung Jong",
+            "LastName": "Lee",
+            "Initials": "SJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "The Research Institute for Basic Sciences, Changwon National University, Changwon-Si, Gyeongsangnam-do, South Korea."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jooyoung",
+            "LastName": "Lee",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for In Silico Protein Science, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, South Korea."},
+              {"Affiliation": "Center for Advanced Computation, Korea Institute for Advanced Study, Seoul, South Korea."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Protein structure modeling and refinement by global optimization in CASP12.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/prot.25426"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Proteins",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1097-0134"
+        },
+        "Title": "Proteins"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "CASP"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "global optimization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "homology modeling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "protein structure modeling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "protein structure refinement"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29159837
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29159837,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/prot.25426",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

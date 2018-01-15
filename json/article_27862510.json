@@ -1,0 +1,385 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 17
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0185356"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Wellcome Trust",
+          "Country": "United Kingdom"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In vivo magnetic resonance spectroscopy provides insight into metabolism in the human body. New acquisition protocols are often proposed to improve the quality or efficiency of data collection. Processing pipelines must also be developed to use these data optimally. Current fitting software is either targeted at general spectroscopy fitting, or for specific protocols. We therefore introduce the MATLAB-based OXford Spectroscopy Analysis (OXSA) toolbox to allow researchers to rapidly develop their own customised processing pipelines. The toolbox aims to simplify development by: being easy to install and use; seamlessly importing Siemens Digital Imaging and Communications in Medicine (DICOM) standard data; allowing visualisation of spectroscopy data; offering a robust fitting routine; flexibly specifying prior knowledge when fitting; and allowing batch processing of spectra. This article demonstrates how each of these criteria have been fulfilled, and gives technical details about the implementation in MATLAB. The code is freely available to download from https://github.com/oxsatoolbox/oxsa."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-6703-1520"
+            },
+            "ForeName": "Lucian A B",
+            "LastName": "Purvis",
+            "Initials": "LAB",
+            "AffiliationInfo": {"Affiliation": "Oxford Centre for Clinical Magnetic Resonance Research (OCMR), University of Oxford, John Radcliffe Hospital, Oxford, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "William T",
+            "LastName": "Clarke",
+            "Initials": "WT",
+            "AffiliationInfo": {"Affiliation": "Oxford Centre for Clinical Magnetic Resonance Research (OCMR), University of Oxford, John Radcliffe Hospital, Oxford, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luca",
+            "LastName": "Biasiolli",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Oxford Centre for Clinical Magnetic Resonance Research (OCMR), University of Oxford, John Radcliffe Hospital, Oxford, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ladislav",
+            "LastName": "Valkovič",
+            "Initials": "L",
+            "AffiliationInfo": [
+              {"Affiliation": "Oxford Centre for Clinical Magnetic Resonance Research (OCMR), University of Oxford, John Radcliffe Hospital, Oxford, United Kingdom."},
+              {"Affiliation": "Department of Imaging Methods, Institute of Measurement Science, Slovak Academy of Sciences, Bratislava, Slovakia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew D",
+            "LastName": "Robson",
+            "Initials": "MD",
+            "AffiliationInfo": {"Affiliation": "Oxford Centre for Clinical Magnetic Resonance Research (OCMR), University of Oxford, John Radcliffe Hospital, Oxford, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher T",
+            "LastName": "Rodgers",
+            "Initials": "CT",
+            "AffiliationInfo": {"Affiliation": "Oxford Centre for Clinical Magnetic Resonance Research (OCMR), University of Oxford, John Radcliffe Hospital, Oxford, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "OXSA: An open-source magnetic resonance spectroscopy analysis toolbox in MATLAB.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0185356"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D022126",
+        "MajorTopicYN": "N",
+        "content": "Access to Information"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D020407",
+        "MajorTopicYN": "N",
+        "content": "Internet"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D009682",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Spectroscopy"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012815",
+        "MajorTopicYN": "Y",
+        "content": "Signal Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 17
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2016 Oct;76(4):1047-58",
+        "PMID": {
+          "Version": 1,
+          "content": 26509652
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2006 Apr;19(2):255-63",
+        "PMID": {
+          "Version": 1,
+          "content": 16541464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson. 1997 Nov;129(1):35-43",
+        "PMID": {
+          "Version": 1,
+          "content": 9405214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2014 Apr;27(4):478-85",
+        "PMID": {
+          "Version": 1,
+          "content": 24615903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2016 Dec 21;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28000961
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2010 Jun;63(6):1493-501",
+        "PMID": {
+          "Version": 1,
+          "content": 20512852
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2001 Jun;14(4):260-4",
+        "PMID": {
+          "Version": 1,
+          "content": 11410943
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2016 Nov;281(2):409-417",
+        "PMID": {
+          "Version": 1,
+          "content": 27326664
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2001 Jun;14(4):278-83",
+        "PMID": {
+          "Version": 1,
+          "content": 11410946
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2013 Jun;69(6):1512-22",
+        "PMID": {
+          "Version": 1,
+          "content": 22886985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2017 Jul;78(1):20-32",
+        "PMID": {
+          "Version": 1,
+          "content": 27579566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson. 2008 Dec;195(2):134-44",
+        "PMID": {
+          "Version": 1,
+          "content": 18829355
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2017 Feb 28;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28244131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2014 Aug;72(2):304-15",
+        "PMID": {
+          "Version": 1,
+          "content": 24006267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2011 Jan;65(1):1-12",
+        "PMID": {
+          "Version": 1,
+          "content": 20878762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2014 Dec;72(6):1509-15",
+        "PMID": {
+          "Version": 1,
+          "content": 24470429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2004 May;51(5):904-12",
+        "PMID": {
+          "Version": 1,
+          "content": 15122672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2016 Dec;29(12 ):1825-1834",
+        "PMID": {
+          "Version": 1,
+          "content": 27862510
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28938003
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28938003,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0185356",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-26737",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5609763",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

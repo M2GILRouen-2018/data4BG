@@ -1,0 +1,192 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "6314-6328"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Detailed characterization of changes in vessel size is crucial for the diagnosis and management of a variety of vascular diseases. Because clinical measurement of vessel size is typically dependent on the radiologist's subjective interpretation of the vessel borders, it is often prone to high inter- and intra-user variability. Automatic methods of vessel sizing have been developed for two-dimensional images but a fully three-dimensional (3D) method suitable for vessel sizing from volumetric X-ray computed tomography (CT) or magnetic resonance imaging has heretofore not been demonstrated and validated robustly."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "In this paper, we refined and objectively validated Gatortail, a method that creates a mathematical geometric 3D model of each branch in a vascular tree, simulates the appearance of the virtual vascular tree in a 3D CT image, and uses the similarity of the simulated image to a patient's CT scan to drive the optimization of the model parameters, including vessel size, to match that of the patient. The method was validated with a 2-dimensional virtual tree structure under deformation, and with a realistic 3D-printed vascular phantom in which the diameter of 64 branches were manually measured 3 times each. The phantom was then scanned on a conventional clinical CT imaging system and the images processed with the in-house software to automatically segment and mathematically model the vascular tree, label each branch, and perform the Gatortail optimization of branch size and trajectory. Previously proposed methods of vessel sizing using matched Gaussian filters and tubularity metrics were also tested. The Gatortail method was then demonstrated on the pulmonary arterial tree segmented from a human volunteer's CT scan."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The standard deviation of the difference between the manually measured and Gatortail-based radii in the 3D physical phantom was 0.074 mm (0.087 in-plane pixel units for image voxels of dimension 0.85 × 0.85 × 1.0 mm) over the 64 branches, representing vessel diameters ranging from 1.2 to 7 mm. The linear regression fit gave a slope of 1.056 and an R2 value of 0.989. These three metrics reflect superior agreement of the radii estimates relative to previously published results over all sizes tested. Sizing via matched Gaussian filters resulted in size underestimates of >33% over all three test vessels, while the tubularity-metric matching exhibited a sizing uncertainty of >50%. In the human chest CT data set, the vessel voxel intensity profiles with and without branch model optimization showed excellent agreement and improvement in the objective measure of image similarity."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Gatortail has been demonstrated to be an automated, objective, accurate and robust method for sizing of vessels in 3D non-invasively from chest CT scans. We anticipate that Gatortail, an image-based approach to automatically compute estimates of blood vessel radii and trajectories from 3D medical images, will facilitate future quantitative evaluation of vascular response to disease and environmental insult and improve understanding of the biological mechanisms underlying vascular disease processes."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Walter G",
+            "LastName": "O'Dell",
+            "Initials": "WG",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Florida College of Medicine, Gainesville, FL, 32601, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anne K",
+            "LastName": "Gormaley",
+            "Initials": "AK",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Florida College of Medicine, Gainesville, FL, 32601, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David A",
+            "LastName": "Prida",
+            "Initials": "DA",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Florida College of Medicine, Gainesville, FL, 32601, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Validation of the Gatortail method for accurate sizing of pulmonary vessels from 3D medical images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12580"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "3D imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "automated sizing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "chest CT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pulmonary vasculature disease"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "vascular tree morphology"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28905390
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 29,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28905390,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12580",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

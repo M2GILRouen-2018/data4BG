@@ -1,0 +1,842 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9203369,
+      "Country": "United States",
+      "ISSNLinking": "1051-0443",
+      "MedlineTA": "J Vasc Interv Radiol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D014408",
+          "content": "Biomarkers, Tumor"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "C495270",
+          "content": "CTNNB1 protein, human"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "C105373",
+          "content": "MEN1 protein, human"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "C539127",
+          "content": "NCOR1 protein, human"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D056971",
+          "content": "Nuclear Receptor Co-Repressor 1"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D011518",
+          "content": "Proto-Oncogene Proteins"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D051176",
+          "content": "beta Catenin"
+        },
+        "RegistryNumber": 0
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "349-355.e1"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCI NIH HHS",
+          "Country": "United States",
+          "GrantID": "P30 CA008748",
+          "Acronym": "CA"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D064888",
+          "content": "Observational Study"
+        },
+        {
+          "UI": "D023361",
+          "content": "Validation Studies"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 SIR. Published by Elsevier Inc. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "To identify gene mutations in tumors undergoing transarterial embolization and explore the relationship between gene mutations and tumor response to embolization."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "MATERIALS AND METHODS",
+            "content": "This was a retrospective review that included 17 patients with primary or metastatic liver tumors treated with embolization and had specimens analyzed for a 341-gene panel next-generation sequence assay. Pathologic conditions included hepatocellular, carcinoid, pancreatic neuroendocrine, melanoma, medullary thyroid, and liver acinar-cell carcinoma. Disease, procedure data, and tumor response data were collected. Dimensionality reduction was performed by using principal component analysis. A linear support vector machine was used to learn a prediction rule and identify the genes most predictive of objective tumor response (partial or complete) per modified Response Evaluation Criteria In Solid Tumors. Cross-validation was used to test the prediction on the holdout set. Permutation testing was used to determine statistical significance of prediction accuracy. Recursive feature elimination was used to identify the most predictive genes."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "At 4 months after embolization, 9 tumors showed a response and 8 did not. Using the top two principal components, prediction accuracy of the gene mutation signature was 70% (±11%), which was statistically significant (P < .05). The most predictive genes were CTNNB1, MEN1, and NCOR1: three genes associated with the Wnt/β-catenin and hypoxia signaling pathways."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "This study identifies gene mutations in tumors treated with transarterial embolization. A gene-mutation signature obtained from the mutation data suggests that upregulation of the Wnt/β-catenin signaling pathway may be associated with sensitivity to embolization."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Etay",
+            "LastName": "Ziv",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Interventional Radiology Service, Department of Radiology, Memorial Sloan Kettering Cancer Center, Howard-118, 1275 York Ave., New York, NY10065. Electronic address: etay.ziv@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hooman",
+            "LastName": "Yarmohammadi",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Interventional Radiology Service, Department of Radiology, Memorial Sloan Kettering Cancer Center, Howard-118, 1275 York Ave., New York, NY10065."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "F Edward",
+            "LastName": "Boas",
+            "Initials": "FE",
+            "AffiliationInfo": {"Affiliation": "Interventional Radiology Service, Department of Radiology, Memorial Sloan Kettering Cancer Center, Howard-118, 1275 York Ave., New York, NY10065."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elena Nadia",
+            "LastName": "Petre",
+            "Initials": "EN",
+            "AffiliationInfo": {"Affiliation": "Interventional Radiology Service, Department of Radiology, Memorial Sloan Kettering Cancer Center, Howard-118, 1275 York Ave., New York, NY10065."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Karen T",
+            "LastName": "Brown",
+            "Initials": "KT",
+            "AffiliationInfo": {"Affiliation": "Interventional Radiology Service, Department of Radiology, Memorial Sloan Kettering Cancer Center, Howard-118, 1275 York Ave., New York, NY10065."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephen B",
+            "LastName": "Solomon",
+            "Initials": "SB",
+            "AffiliationInfo": {"Affiliation": "Interventional Radiology Service, Department of Radiology, Memorial Sloan Kettering Cancer Center, Howard-118, 1275 York Ave., New York, NY10065."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Solit",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Human Oncology and Pathogenesis Program, Genitourinary Oncology Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, Howard-118, 1275 York Ave., New York, NY10065."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Diane",
+            "LastName": "Reidy",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Division of Solid Tumor Oncology, Department of Medicine, Memorial Sloan Kettering Cancer Center, Howard-118, 1275 York Ave., New York, NY10065."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joseph P",
+            "LastName": "Erinjeri",
+            "Initials": "JP",
+            "AffiliationInfo": {"Affiliation": "Interventional Radiology Service, Department of Radiology, Memorial Sloan Kettering Cancer Center, Howard-118, 1275 York Ave., New York, NY10065."}
+          }
+        ]
+      },
+      "ArticleTitle": "Gene Signature Associated with Upregulation of the Wnt/β-Catenin Signaling Pathway Predicts Tumor Response to Transarterial Embolization.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1051-0443(16)30737-0"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jvir.2016.11.004"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 28,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Vasc Interv Radiol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1535-7732"
+        },
+        "Title": "Journal of vascular and interventional radiology : JVIR"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000369",
+        "MajorTopicYN": "N",
+        "content": "Aged, 80 and over"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D014408",
+          "MajorTopicYN": "N",
+          "content": "Biomarkers, Tumor"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000009",
+          "MajorTopicYN": "N",
+          "content": "adverse effects"
+        },
+        "DescriptorName": {
+          "UI": "D016461",
+          "MajorTopicYN": "Y",
+          "content": "Chemoembolization, Therapeutic"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D020869",
+          "MajorTopicYN": "N",
+          "content": "Gene Expression Profiling"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015972",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Regulation, Neoplastic"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016014",
+        "MajorTopicYN": "N",
+        "content": "Linear Models"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000556",
+            "MajorTopicYN": "N",
+            "content": "secondary"
+          },
+          {
+            "UI": "Q000628",
+            "MajorTopicYN": "Y",
+            "content": "therapy"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D008113",
+          "MajorTopicYN": "N",
+          "content": "Liver Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D009154",
+        "MajorTopicYN": "N",
+        "content": "Mutation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D056971",
+          "MajorTopicYN": "N",
+          "content": "Nuclear Receptor Co-Repressor 1"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011237",
+        "MajorTopicYN": "N",
+        "content": "Predictive Value of Tests"
+      }},
+      {"DescriptorName": {
+        "UI": "D025341",
+        "MajorTopicYN": "N",
+        "content": "Principal Component Analysis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D011518",
+          "MajorTopicYN": "N",
+          "content": "Proto-Oncogene Proteins"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012189",
+        "MajorTopicYN": "N",
+        "content": "Retrospective Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }},
+      {"DescriptorName": {
+        "UI": "D013997",
+        "MajorTopicYN": "N",
+        "content": "Time Factors"
+      }},
+      {"DescriptorName": {
+        "UI": "D059467",
+        "MajorTopicYN": "Y",
+        "content": "Transcriptome"
+      }},
+      {"DescriptorName": {
+        "UI": "D016896",
+        "MajorTopicYN": "N",
+        "content": "Treatment Outcome"
+      }},
+      {"DescriptorName": {
+        "UI": "D015854",
+        "MajorTopicYN": "N",
+        "content": "Up-Regulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D060449",
+          "MajorTopicYN": "N",
+          "content": "Wnt Signaling Pathway"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D051176",
+          "MajorTopicYN": "N",
+          "content": "beta Catenin"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2008 Sep 19;283(38):25988-99",
+        "PMID": {
+          "Version": 1,
+          "content": 18632669
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Oncol. 2014 Feb 03;4:4",
+        "PMID": {
+          "Version": 1,
+          "content": 24551591
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cancer Res. 2008 Dec;6(12):1894-907",
+        "PMID": {
+          "Version": 1,
+          "content": 19074834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Inform. 2005;1:53-77",
+        "PMID": {
+          "Version": 1,
+          "content": 19305632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Biochem. 2007 Apr 15;100(6):1337-45",
+        "PMID": {
+          "Version": 1,
+          "content": 17171641
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hepatology. 2007 Jan;45(1):42-52",
+        "PMID": {
+          "Version": 1,
+          "content": 17187432
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biol. 2009 Oct;29(20):5477-87",
+        "PMID": {
+          "Version": 1,
+          "content": 19651895
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vasc Interv Radiol. 2014 Aug;25(8):1279-1287.e1",
+        "PMID": {
+          "Version": 1,
+          "content": 24935355
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Oncol. 2014 Dec 11;4:358",
+        "PMID": {
+          "Version": 1,
+          "content": 25566498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Tumour Biol. 2014 Nov;35(11):11473-81",
+        "PMID": {
+          "Version": 1,
+          "content": 25123269
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(3):e32653",
+        "PMID": {
+          "Version": 1,
+          "content": 22461886
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2016 Feb;34(2):155-63",
+        "PMID": {
+          "Version": 1,
+          "content": 26619011
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Jan 23;505(7484):495-501",
+        "PMID": {
+          "Version": 1,
+          "content": 24390350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Mol Pathol. 2015 Aug;99(1):163-72",
+        "PMID": {
+          "Version": 1,
+          "content": 26079660
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Angiogenesis. 2008;11(1):63-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18253847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Diagn. 2015 May;17(3):251-64",
+        "PMID": {
+          "Version": 1,
+          "content": 25801821
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2011 Mar 4;331(6021):1199-203",
+        "PMID": {
+          "Version": 1,
+          "content": 21252315
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2014 Jul;13(7):513-32",
+        "PMID": {
+          "Version": 1,
+          "content": 24981364
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Signal. 2013 Apr 02;6(269):pl1",
+        "PMID": {
+          "Version": 1,
+          "content": 23550210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vasc Interv Radiol. 2015 May;26(5):723-32",
+        "PMID": {
+          "Version": 1,
+          "content": 25724086
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biol. 2005 Nov;25(22):9960-72",
+        "PMID": {
+          "Version": 1,
+          "content": 16260610
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Cycle. 2009 May 15;8(10):1567-70",
+        "PMID": {
+          "Version": 1,
+          "content": 19411833
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Traffic. 2009 Mar;10(3):259-67",
+        "PMID": {
+          "Version": 1,
+          "content": 19055694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2009 Dec 1;27(34):5734-42",
+        "PMID": {
+          "Version": 1,
+          "content": 19805671
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2016 Jun 10;34(17):2046-53",
+        "PMID": {
+          "Version": 1,
+          "content": 26834067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cold Spring Harb Perspect Biol. 2012 Sep 01;4(9):a008763",
+        "PMID": {
+          "Version": 1,
+          "content": 22952396
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 2013 Apr 15;27(8):819-35",
+        "PMID": {
+          "Version": 1,
+          "content": 23630073
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Liver Transpl. 2012 Jun;18(6):727-36",
+        "PMID": {
+          "Version": 1,
+          "content": 22344899
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2003 Jun 15;63(12):3145-53",
+        "PMID": {
+          "Version": 1,
+          "content": 12810642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Med. 2016 Jul;5(7):1556-65",
+        "PMID": {
+          "Version": 1,
+          "content": 26992457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hepatology. 2003 Feb;37(2):429-42",
+        "PMID": {
+          "Version": 1,
+          "content": 12540794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vasc Interv Radiol. 2006 Jul;17(7):1209; author reply 1209-10",
+        "PMID": {
+          "Version": 1,
+          "content": 16868176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "HPB (Oxford). 2008;10(6):396-404",
+        "PMID": {
+          "Version": 1,
+          "content": 19088924
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 2014 Jul 1;33(13):1454-73",
+        "PMID": {
+          "Version": 1,
+          "content": 24825347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2002 May 18;359(9319):1734-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12049862
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2013 Mar 09;13:108",
+        "PMID": {
+          "Version": 1,
+          "content": 23496980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2002 Jul 5;297(5578):63-4",
+        "PMID": {
+          "Version": 1,
+          "content": 12098689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Surg Oncol. 2012 Oct;19(11):3540-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22532305
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2012 Jun 29;287(27):22683-90",
+        "PMID": {
+          "Version": 1,
+          "content": 22589536
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Apr 09;9(4):e93416",
+        "PMID": {
+          "Version": 1,
+          "content": 24718422
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28126478
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "05",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "03",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28126478,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1051-0443(16)30737-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jvir.2016.11.004",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5325772",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS830089",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

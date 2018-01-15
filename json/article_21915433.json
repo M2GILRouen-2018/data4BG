@@ -1,0 +1,159 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9881780,
+      "Country": "United States",
+      "ISSNLinking": "0885-6125",
+      "MedlineTA": "Mach Learn"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "75-118"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCI NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 CA163739",
+          "Acronym": "CA"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The effect of a splitting rule on random forests (RF) is systematically studied for regression and classification problems. A class of weighted splitting rules, which includes as special cases CART weighted variance splitting and Gini index splitting, are studied in detail and shown to possess a unique adaptive property to signal and noise. We show for noisy variables that weighted splitting favors end-cut splits. While end-cut splits have traditionally been viewed as undesirable for single trees, we argue for deeply grown trees (a trademark of RF) end-cut splitting is useful because: (a) it maximizes the sample size making it possible for a tree to recover from a bad split, and (b) if a branch repeatedly splits on noise, the tree minimal node size will be reached which promotes termination of the bad branch. For strong variables, weighted variance splitting is shown to possess the desirable property of splitting at points of curvature of the underlying target function. This adaptivity to both noise and signal does not hold for unweighted and heavy weighted splitting rules. These latter rules are either too greedy, making them poor at recognizing noisy scenarios, or they are overly ECP aggressive, making them poor at recognizing signal. These results also shed light on pure random splitting and show that such rules are the least effective. On the other hand, because randomized rules are desirable because of their computational efficiency, we introduce a hybrid method employing random split-point selection which retains the adaptive property of weighted splitting rules while remaining computational efficient."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "ForeName": "Hemant",
+          "LastName": "Ishwaran",
+          "Initials": "H",
+          "AffiliationInfo": {"Affiliation": "University of Miami."}
+        }
+      },
+      "ArticleTitle": "The Effect of Splitting on Random Forests.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10994-014-5451-2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 99,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2015
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Mach Learn",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0885-6125"
+        },
+        "Title": "Machine learning"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "CART"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "end-cut preference"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "law of the iterated logarithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "split-point"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "splitting rule"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": {
+      "RefType": "Cites",
+      "RefSource": "Methods Inf Med. 2012;51(1):74-81",
+      "PMID": {
+        "Version": 1,
+        "content": 21915433
+      }
+    }},
+    "PMID": {
+      "Version": 1,
+      "content": 28919667
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 4,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 0,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2015,
+        "Minute": 1,
+        "Hour": 0,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28919667,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10994-014-5451-2",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5599182",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS902500",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

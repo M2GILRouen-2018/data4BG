@@ -1,0 +1,230 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0410462",
+      "Country": "England",
+      "ISSNLinking": "0028-0836",
+      "MedlineTA": "Nature"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "242-246"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Quantum computers can be used to address electronic-structure problems and problems in materials science and condensed matter physics that can be formulated as interacting fermionic problems, problems which stretch the limits of existing high-performance computers. Finding exact solutions to such problems numerically has a computational cost that scales exponentially with the size of the system, and Monte Carlo methods are unsuitable owing to the fermionic sign problem. These limitations of classical computational methods have made solving even few-atom electronic-structure problems interesting for implementation using medium-sized quantum computers. Yet experimental implementations have so far been restricted to molecules involving only hydrogen and helium. Here we demonstrate the experimental optimization of Hamiltonian problems with up to six qubits and more than one hundred Pauli terms, determining the ground-state energy for molecules of increasing size, up to BeH2. We achieve this result by using a variational quantum eigenvalue solver (eigensolver) with efficiently prepared trial states that are tailored specifically to the interactions that are available in our quantum processor, combined with a compact encoding of fermionic Hamiltonians and a robust stochastic optimization routine. We demonstrate the flexibility of our approach by applying it to a problem of quantum magnetism, an antiferromagnetic Heisenberg model in an external magnetic field. In all cases, we find agreement between our experiments and numerical simulations using a model of the device with noise. Our results help to elucidate the requirements for scaling the method to larger systems and for bridging the gap between key problems in high-performance computing and their implementation on quantum hardware."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Abhinav",
+            "LastName": "Kandala",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Antonio",
+            "LastName": "Mezzacapo",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kristan",
+            "LastName": "Temme",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maika",
+            "LastName": "Takita",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Markus",
+            "LastName": "Brink",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jerry M",
+            "LastName": "Chow",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jay M",
+            "LastName": "Gambetta",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "IBM T.J. Watson Research Center, Yorktown Heights, New York 10598, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1038/nature23879"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7671,
+          "Volume": 549,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 13
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Nature",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1476-4687"
+        },
+        "Title": "Nature"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2005 Sep 9;309(5741):1704-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16151006
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2010 Jan 22;104(3):030502",
+        "PMID": {
+          "Version": 1,
+          "content": 20366636
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Chem. 2010 Feb;2(2):106-11",
+        "PMID": {
+          "Version": 1,
+          "content": 21124400
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ACS Nano. 2015 Aug 25;9(8):7769-74",
+        "PMID": {
+          "Version": 1,
+          "content": 25905564
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2014 Jan 07;4:3589",
+        "PMID": {
+          "Version": 1,
+          "content": 24395054
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2014 Jul 23;5:4213",
+        "PMID": {
+          "Version": 1,
+          "content": 25055053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2011 Oct 7;334(6052):57-61",
+        "PMID": {
+          "Version": 1,
+          "content": 21885735
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2017 Mar 10;118(10 ):100503",
+        "PMID": {
+          "Version": 1,
+          "content": 28339220
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28905916
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28905916,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "nature23879",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1038/nature23879",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

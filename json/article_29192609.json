@@ -1,0 +1,191 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101217933,
+      "Country": "England",
+      "ISSNLinking": "1741-2552",
+      "MedlineTA": "J Neural Eng"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 IOP Publishing Ltd.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "The aim of this work is to improve the state of the art for motor-control with a brain-machine interface (BMI). BMIs use neurological recording devices and a decoding algorithms to transform brain activity directly into real-time control of a machine, archetypically a robotic arm or a cursor. The standard procedure treats neural activity--vectors of spike counts in small temporal windows--as noisy observations of the kinematic state (position, velocity, acceleration) of the fingertip. Inferring the state from the observations then takes the form of a \\emph{dynamical filter}, typically some variant on Kalman's (KF). The KF, however, although fairly robust in practice, is optimal only when the relationships between variables are linear and the noise is Gaussian, conditions usually violated in practice."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "APPROACH",
+            "content": "To overcome these limitations we introduce a new filter, the \"recurrent exponential-family harmonium\" (rEFH), that models the spike counts explicitly as Poisson-distributed, and allows for arbitrary nonlinear dynamics and observation models. Furthermore, the model underlying the filter is acquired through unsupervised learning, which allows temporal correlations in spike counts to be explained by latent dynamics that do not necessarily correspond to the kinematic state of the fingertip."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "MAIN RESULTS",
+            "content": "We test the rEFH on offline reconstruction of the kinematics of reaches in the plane. The rEFH outperforms the standard, as well as three other state-of-the-art, decoders, across three monkeys, two different tasks, most kinematic variables, and a range of bin widths, amounts of training data, and numbers of neurons."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "SIGNIFICANCE",
+            "content": "Our algorithm establishes a new state of the art for offline decoding of reaches---in particular, for fingertip velocities, the variable used for control in most online decoders.&#13."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-0053-7006"
+            },
+            "ForeName": "Joseph Gerard",
+            "LastName": "Makin",
+            "Initials": "JG",
+            "AffiliationInfo": {"Affiliation": "Center for Integrative Neuroscience, UCSF, 675 Nelson Rising Lane (516), San Francisco, California, 94143-0444, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0001-8175-5699"
+            },
+            "ForeName": "Joseph",
+            "LastName": "O'Doherty",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Physiology, University of California San Francisco, San Francisco, California, 94143-0444, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mariana M B",
+            "LastName": "Cardoso",
+            "Initials": "MMB",
+            "AffiliationInfo": {"Affiliation": "Department of Physiology, University of California San Francisco, San Francisco, California, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Philip N",
+            "LastName": "Sabes",
+            "Initials": "PN",
+            "AffiliationInfo": {"Affiliation": "Department of Physiology and Center for Integrative Neuroscience, University of California San Francisco, San Francisco, UNITED STATES."}
+          }
+        ]
+      },
+      "ArticleTitle": "Superior arm-movement decoding from cortex with a new, unsupervised-learning algorithm.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1741-2552/aa9e95"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Neural Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1741-2552"
+        },
+        "Title": "Journal of neural engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "RBM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "brain-machine interface"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "decoding"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "neural networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "neural prosthesis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "unsupervised learning"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "01"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29192609
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29192609,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1741-2552/aa9e95",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,220 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0270707",
+      "Country": "England",
+      "ISSNLinking": "0020-7454",
+      "MedlineTA": "Int J Neurosci"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1-11"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE OF THE STUDY",
+          "content": "Due to the totally different therapeutic regimens needed for primary central nervous system lymphoma (PCNSL) and glioblastoma (GBM), accurate differentiation of the two diseases by noninvasive imaging techniques is important for clinical decision-making."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "MATERIALS AND METHODS",
+          "content": "Thirty cases of PCNSL and 66 cases of GBM with conventional T1-contrast magnetic resonance imaging (MRI) were analyzed in this study. Convolutional neural networks was used to segment tumor automatically. A modified scale invariant feature transform (SIFT) method was utilized to extract three-dimensional local voxel arrangement information from segmented tumors. Fisher vector was proposed to normalize the dimension of SIFT features. An improved genetic algorithm (GA) was used to extract SIFT features with PCNSL and GBM discrimination ability. The data-set was divided into a cross-validation cohort and an independent validation cohort by the ratio of 2:1. Support vector machine with the leave-one-out cross-validation based on 20 cases of PCNSL and 44 cases of GBM was employed to build and validate the differentiation model."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Among 16,384 high-throughput features, 1356 features show significant differences between PCNSL and GBM with p < 0.05 and 420 features with p < 0.001. A total of 496 features were finally chosen by improved GA algorithm. The proposed method produces PCNSL vs. GBM differentiation with an area under the curve (AUC) curve of 99.1% (98.2%), accuracy 95.3% (90.6%), sensitivity 85.0% (80.0%) and specificity 100% (95.5%) on the cross-validation cohort (and independent validation cohort)."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Since the local voxel arrangement characterization provided by SIFT features, proposed method produced more competitive PCNSL and GBM differentiation performance by using conventional MRI than methods based on advanced MRI."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yinsheng",
+            "LastName": "Chen",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "a Department of Neurosurgery/Neuro-oncology , Sun Yat-Sen University Cancer Center , Guangzhou , China."},
+              {"Affiliation": "c State Key Laboratory of Oncology in South China , Guangzhou , China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zeju",
+            "LastName": "Li",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "b Department of Electronic Engineering , Fudan University , Shanghai , China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guoqing",
+            "LastName": "Wu",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "b Department of Electronic Engineering , Fudan University , Shanghai , China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinhua",
+            "LastName": "Yu",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "b Department of Electronic Engineering , Fudan University , Shanghai , China."},
+              {"Affiliation": "d The Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention of Shanghai , Shanghai , China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuanyuan",
+            "LastName": "Wang",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "b Department of Electronic Engineering , Fudan University , Shanghai , China."},
+              {"Affiliation": "d The Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention of Shanghai , Shanghai , China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaofei",
+            "LastName": "Lv",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "a Department of Neurosurgery/Neuro-oncology , Sun Yat-Sen University Cancer Center , Guangzhou , China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xue",
+            "LastName": "Ju",
+            "Initials": "X",
+            "AffiliationInfo": [
+              {"Affiliation": "a Department of Neurosurgery/Neuro-oncology , Sun Yat-Sen University Cancer Center , Guangzhou , China."},
+              {"Affiliation": "c State Key Laboratory of Oncology in South China , Guangzhou , China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhongping",
+            "LastName": "Chen",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "a Department of Neurosurgery/Neuro-oncology , Sun Yat-Sen University Cancer Center , Guangzhou , China."},
+              {"Affiliation": "c State Key Laboratory of Oncology in South China , Guangzhou , China."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Primary central nervous system lymphoma and glioblastoma differentiation based on conventional magnetic resonance imaging by high-throughput SIFT features.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1080/00207454.2017.1408613"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": 12
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Int. J. Neurosci.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1563-5279"
+        },
+        "Title": "The International journal of neuroscience"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Primary central nervous system lymphoma (PCNSL)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SIFT features"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "glioblastoma (GBM)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "magnetic resonance imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "radiomics"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29183170
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29183170,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1080/00207454.2017.1408613",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,299 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101301827,
+      "Country": "England",
+      "ISSNLinking": "1752-0509",
+      "MedlineTA": "BMC Syst Biol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 93},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Predicting protein structure from amino acid sequence is a prominent problem in computational biology. The long range interactions (or non-local interactions) are known as the main source of complexity for protein folding and dynamics and play the dominant role in the compact architecture. Some simple but exact model, such as HP model, captures the pain point for this difficult problem and has important implications to understand the mapping between protein sequence and structure."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "In this paper, we formulate the biological problem into optimization model to study the hydrophobic-hydrophilic model on 3D square lattice. This is a combinatorial optimization problem and known as NP-hard. Particle swarm optimization is utilized as the heuristic framework to solve the hard problem. To avoid premature in computation, we incorporated the Tabu search strategy. In addition, a pulling strategy was designed to accelerate the convergence of algorithm based on the characteristic of native protein structure. Together a novel hybrid method combining particle swarm optimization, Tabu strategy, and pulling strategy can fold the amino acid sequences on 3D square lattice efficiently. Promising results are reported in several examples by comparing with existing methods. This allows us to use this tool to study the protein stability upon amino acid mutation on 3D lattice. In particular, we evaluate the effect of single amino acid mutation and double amino acids mutation via 3D HP lattice model and some useful insights are derived."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "We propose a novel hybrid method to combine several heuristic strategies to study HP model on 3D lattice. The results indicate that our hybrid method can predict protein structure more accurately and efficiently. Furthermore, it serves as a useful tools to probe the protein stability on 3D lattice and provides some biological insights."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuzhen",
+            "LastName": "Guo",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematics, Nanjing University of Aeronautics and Astronautics, Nanjing, 210000, People's Republic of China. guoyuzhen@nuaa.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fengying",
+            "LastName": "Tao",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematics, Nanjing University of Aeronautics and Astronautics, Nanjing, 210000, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zikai",
+            "LastName": "Wu",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "University of Shanghai for Science and Technology, Shanghai, 200433, People's Republic of China."},
+              {"Affiliation": "Shanghai Key Laboratory of Intelligent Information Processing, Fudan University, Shanghai, 200433, People's Republic of China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yong",
+            "LastName": "Wang",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "National Center for Mathematics and Interdisciplinary Sciences, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, 100190, People's Republic of China."},
+              {"Affiliation": "University of Chinese Academy of Sciences, Beijing, 100049, People's Republic of China."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Hybrid method to solve HP model on 3D lattice and to probe protein stability upon amino acid mutations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12918-017-0459-4"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Suppl 4",
+          "Volume": 11,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Syst Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1752-0509"
+        },
+        "Title": "BMC systems biology"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "3D lattice"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "HP model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Particle swarm optimization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Protein stability"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Protein structure prediction"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 27
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Chem. 2012 Jun;38:17-26",
+        "PMID": {
+          "Version": 1,
+          "content": 22551826
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bioinform Comput Biol. 2005 Apr;3(2):385-400",
+        "PMID": {
+          "Version": 1,
+          "content": 15852511
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2006 Jul 1;34(Web Server issue):W239-42",
+        "PMID": {
+          "Version": 1,
+          "content": 16845001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2006 Dec 21;125(23):234703",
+        "PMID": {
+          "Version": 1,
+          "content": 17190566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Struct Biol. 2000 May;7(5):380-3",
+        "PMID": {
+          "Version": 1,
+          "content": 10802734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochemistry. 1990 Sep 4;29(35):8033-41",
+        "PMID": {
+          "Version": 1,
+          "content": 2261461
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2017 Feb 24;355(6327):",
+        "PMID": {
+          "Version": 1,
+          "content": 28232526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteome Sci. 2013 Nov 7;11(Suppl 1):S19",
+        "PMID": {
+          "Version": 1,
+          "content": 24565217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2006 Mar 1;62(4):1125-32",
+        "PMID": {
+          "Version": 1,
+          "content": 16372356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1973 Jul 20;181(4096):223-30",
+        "PMID": {
+          "Version": 1,
+          "content": 4124164
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 1995 Apr;4(4):561-602",
+        "PMID": {
+          "Version": 1,
+          "content": 7613459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IET Syst Biol. 2016 Feb;10(1):30-3",
+        "PMID": {
+          "Version": 1,
+          "content": 26816397
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 1997 Oct;6(10):2166-79",
+        "PMID": {
+          "Version": 1,
+          "content": 9336839
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28950905
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28950905,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12918-017-0459-4",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12918-017-0459-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5615245",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,126 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101609393,
+      "Country": "United States",
+      "ISSNLinking": "2168-2267",
+      "MedlineTA": "IEEE Trans Cybern"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A hand segmentation framework is proposed for 3-D hand gesture interaction for wearable devices. In this framework, all the objects in a scene are regarded as directed trees in a forest, and the problem of the hand segmentation can be converted into finding the target tree (called hand tree) in the forest with proper hand properties including color consistency, space consistency, disparity, and hand shape constraints. The forest grows scan-line by scan-line from high reliable regions to low reliable regions. First, the vertices in each tree are generated through boundary detection. To get rid of the interference of skin-colored objects, an under-segment vertex splitting step is added in. Second, a scan-line-based forest growing method is proposed by constructing the maximum spanning forest (MSF) with the edges weighted by the consistencies of color and space. Meanwhile, the high-order history information of the tree construction propagates along each growing tree to the current scan-line to predict the 3-D location of the growing hand tree, so as to achieve semiglobal optimization. At last, the growing hand tree is trimmed and labeled with the disparity and hand shape constraints to correct the misconnection in the MSF. The vertex's disparity is obtained by our multipriority vertex stereo matching algorithm using the 3-D location prediction to overcome the problem of occlusion and high similarity between fingers. Experimental results demonstrate that by using our method, the hand can be well segmented. The F1 score and accuracy of the hand segmentation result is about 96.3% and 92.9%, respectively."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yiyi",
+            "LastName": "Ren",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiang",
+            "LastName": "Xie",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guolin",
+            "LastName": "Li",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhihua",
+            "LastName": "Wang",
+            "Initials": "Z"
+          }
+        ]
+      },
+      "ArticleTitle": "A Scan-Line Forest Growing-Based Hand Segmentation Framework With Multipriority Vertex Stereo Matching for Wearable Devices.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TCYB.2016.2646701"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 16
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Cybern",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2168-2275"
+        },
+        "Title": "IEEE transactions on cybernetics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 19
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28103565
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28103565,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TCYB.2016.2646701",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

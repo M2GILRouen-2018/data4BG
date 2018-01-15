@@ -1,0 +1,470 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101301827,
+      "Country": "England",
+      "ISSNLinking": "1752-0509",
+      "MedlineTA": "BMC Syst Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 17
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 10},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NHLBI NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 HL110328",
+          "Acronym": "HL"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "Label": "BACKGROUND",
+          "content": "Ensemble modeling is a promising approach for obtaining robust predictions and coarse grained population behavior in deterministic mathematical models. Ensemble approaches address model uncertainty by using parameter or model families instead of single best-fit parameters or fixed model structures. Parameter ensembles can be selected based upon simulation error, along with other criteria such as diversity or steady-state performance. Simulations using parameter ensembles can estimate confidence intervals on model variables, and robustly constrain model predictions, despite having many poorly constrained parameters."
+        },
+        {
+          "Label": "RESULTS",
+          "content": "In this software note, we present a multiobjective based technique to estimate parameter or models ensembles, the Pareto Optimal Ensemble Technique in the Julia programming language (JuPOETs). JuPOETs integrates simulated annealing with Pareto optimality to estimate ensembles on or near the optimal tradeoff surface between competing training objectives. We demonstrate JuPOETs on a suite of multiobjective problems, including test functions with parameter bounds and system constraints as well as for the identification of a proof-of-concept biochemical model with four conflicting training objectives. JuPOETs identified optimal or near optimal solutions approximately six-fold faster than a corresponding implementation in Octave for the suite of test functions. For the proof-of-concept biochemical model, JuPOETs produced an ensemble of parameters that gave both the mean of the training data for conflicting data sets, while simultaneously estimating parameter sets that performed well on each of the individual objective functions."
+        },
+        {
+          "Label": "CONCLUSIONS",
+          "content": "JuPOETs is a promising approach for the estimation of parameter and model ensembles using multiobjective optimization. JuPOETs can be adapted to solve many problem types, including mixed binary and continuous variable types, bilevel optimization problems and constrained problems without altering the base algorithm. JuPOETs is open source, available under an MIT license, and can be installed using the Julia package manager from the JuPOETs GitHub repository."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "David M",
+            "LastName": "Bassen",
+            "Initials": "DM",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Cornell University, Ithaca, 14853, NY, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Vilkhovoy",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Chemical and Biomolecular Engineering, Cornell University, Ithaca, 14853, NY, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mason",
+            "LastName": "Minot",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Chemical and Biomolecular Engineering, Cornell University, Ithaca, 14853, NY, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonathan T",
+            "LastName": "Butcher",
+            "Initials": "JT",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Cornell University, Ithaca, 14853, NY, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-2558-7026"
+            },
+            "ForeName": "Jeffrey D",
+            "LastName": "Varner",
+            "Initials": "JD",
+            "AffiliationInfo": {"Affiliation": "Department of Chemical and Biomolecular Engineering, Cornell University, Ithaca, 14853, NY, USA. jdv27@cornell.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "JuPOETs: a constrained multiobjective optimization approach to estimate biochemical model ensembles in the Julia programming language.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12918-016-0380-2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 11,
+          "PubDate": {
+            "Month": "01",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Syst Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1752-0509"
+        },
+        "Title": "BMC systems biology"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "Y",
+          "content": "Ensemble modeling"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Julia"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Multiobjective optimization"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D011381",
+        "MajorTopicYN": "Y",
+        "content": "Programming Languages"
+      }},
+      {"DescriptorName": {
+        "UI": "D035501",
+        "MajorTopicYN": "N",
+        "content": "Uncertainty"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 23
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biotechnol J. 2012 Mar;7(3):343-53",
+        "PMID": {
+          "Version": 1,
+          "content": 22021171
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2010 Nov;6(11):2272-86",
+        "PMID": {
+          "Version": 1,
+          "content": 20844798
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Mar 15;25(6):780-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19176548
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2007 Jul;3(7):e142",
+        "PMID": {
+          "Version": 1,
+          "content": 17658944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Jan 28;5(1):e8864",
+        "PMID": {
+          "Version": 1,
+          "content": 20126616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Syst Biol (Stevenage). 2005 Mar;2(1):17-30",
+        "PMID": {
+          "Version": 1,
+          "content": 17091579
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2002 Dec 24;99(26):16904-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12477937
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biotechnol J. 2010 Jul;5(7):768-80",
+        "PMID": {
+          "Version": 1,
+          "content": 20665647
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009 Sep 11;4(9):e6758",
+        "PMID": {
+          "Version": 1,
+          "content": 19750220
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 Nov;7(11):e1002263",
+        "PMID": {
+          "Version": 1,
+          "content": 22102801
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Sep 03;16:280",
+        "PMID": {
+          "Version": 1,
+          "content": 26335276
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2007 Oct;3(10):1871-78",
+        "PMID": {
+          "Version": 1,
+          "content": 17922568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2000 Mar;18(3):326-32",
+        "PMID": {
+          "Version": 1,
+          "content": 10700151
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2011 Jan;13(1):60-75",
+        "PMID": {
+          "Version": 1,
+          "content": 21075211
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Oct 20;5:15147",
+        "PMID": {
+          "Version": 1,
+          "content": 26482106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Integr Biol (Camb). 2011 May;3(5):578-91",
+        "PMID": {
+          "Version": 1,
+          "content": 21437295
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2008 Dec 15;95(12):5606-17",
+        "PMID": {
+          "Version": 1,
+          "content": 18820235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2003 Aug;68(2 Pt 1):021904",
+        "PMID": {
+          "Version": 1,
+          "content": 14525003
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2009 Jul-Sep;11(4-5):221-33",
+        "PMID": {
+          "Version": 1,
+          "content": 19379820
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2007 Apr-Jun;4(2):279-92",
+        "PMID": {
+          "Version": 1,
+          "content": 17473320
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1983 May 13;220(4598):671-80",
+        "PMID": {
+          "Version": 1,
+          "content": 17813860
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2016 Jan;33:158-68",
+        "PMID": {
+          "Version": 1,
+          "content": 26474788
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2014 Sep;25:50-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24928774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IET Syst Biol. 2011 Jan;5(1):2",
+        "PMID": {
+          "Version": 1,
+          "content": 21261397
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(3):e1002422",
+        "PMID": {
+          "Version": 1,
+          "content": 22412365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2014 Sep;25:63-71",
+        "PMID": {
+          "Version": 1,
+          "content": 24972370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2014 Sep 24;8:113",
+        "PMID": {
+          "Version": 1,
+          "content": 25248337
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2007 Sep;25(9):1001-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17846631
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biotechnol Prog. 2008 Sep-Oct;24(5):993-1006",
+        "PMID": {
+          "Version": 1,
+          "content": 19194908
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28122561
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": "08",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28122561,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12918-016-0380-2",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12918-016-0380-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5264316",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

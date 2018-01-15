@@ -1,0 +1,301 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 519},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "National Science Foundation (US)",
+          "Country": "United States",
+          "GrantID": "CCF-1320884"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Gene regulatory networks govern the function of key cellular processes, such as control of the cell cycle, response to stress, DNA repair mechanisms, and more. Boolean networks have been used successfully in modeling gene regulatory networks. In the Boolean network model, the transcriptional state of each gene is represented by 0 (inactive) or 1 (active), and the relationship among genes is represented by logical gates updated at discrete time points. However, the Boolean gene states are never observed directly, but only indirectly and incompletely through noisy measurements based on expression technologies such as cDNA microarrays, RNA-Seq, and cell imaging-based assays. The Partially-Observed Boolean Dynamical System (POBDS) signal model is distinct from other deterministic and stochastic Boolean network models in removing the requirement of a directly observable Boolean state vector and allowing uncertainty in the measurement process, addressing the scenario encountered in practice in transcriptomic analysis."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "BoolFilter is an R package that implements the POBDS model and associated algorithms for state and parameter estimation. It allows the user to estimate the Boolean states, network topology, and measurement parameters from time series of transcriptomic data using exact and approximated (particle) filters, as well as simulate the transcriptomic data for a given Boolean network model. Some of its infrastructure, such as the network interface, is the same as in the previously published R package for Boolean Networks BoolNet, which enhances compatibility and user accessibility to the new package."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We introduce the R package BoolFilter for Partially-Observed Boolean Dynamical Systems (POBDS). The BoolFilter package provides a useful toolbox for the bioinformatics community, with state-of-the-art algorithms for simulation of time series transcriptomic data as well as the inverse process of system identification from data obtained with various expression technologies such as cDNA microarrays, RNA-Seq, and cell imaging-based assays."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Levi D",
+            "LastName": "Mcclenny",
+            "Initials": "LD",
+            "AffiliationInfo": {"Affiliation": "Electrical and Computer Engineering Department, College Station, Texas, USA. levimcclenny@tamu.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9570-9909"
+            },
+            "ForeName": "Mahdi",
+            "LastName": "Imani",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Electrical and Computer Engineering Department, College Station, Texas, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ulisses M",
+            "LastName": "Braga-Neto",
+            "Initials": "UM",
+            "AffiliationInfo": {"Affiliation": "Electrical and Computer Engineering Department, College Station, Texas, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "BoolFilter: an R package for estimation and identification of partially-observed Boolean dynamical systems.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1886-3"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Boolean Kalman Filter"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gene expression analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gene regulatory networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Network inference"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Partially-Observed Boolean Dynamical Systems"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Particle filter"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Oct 11;14:307",
+        "PMID": {
+          "Version": 1,
+          "content": 24118904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Opt. 1997 Oct;2(4):364-74",
+        "PMID": {
+          "Version": 1,
+          "content": 23014960
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2008 Jul;5(7):621-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18516045
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 May 15;26(10):1378-80",
+        "PMID": {
+          "Version": 1,
+          "content": 20378558
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Apr 6;101(14):4781-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15037758
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 1974 Mar;44(1):167-90",
+        "PMID": {
+          "Version": 1,
+          "content": 4595774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2011 Mar;7(3):843-51",
+        "PMID": {
+          "Version": 1,
+          "content": 21161088
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 1969 Mar;22(3):437-67",
+        "PMID": {
+          "Version": 1,
+          "content": 5803332
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2003 Jul 7;223(1):1-18",
+        "PMID": {
+          "Version": 1,
+          "content": 12782112
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 Jul 15;22(14):e124-31",
+        "PMID": {
+          "Version": 1,
+          "content": 16873462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1969 Oct 11;224(5215):177-8",
+        "PMID": {
+          "Version": 1,
+          "content": 5343519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Cancer. 2009 May;9(5):371-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19360021
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29178844
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29178844,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1886-3",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1886-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5702079",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,227 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "721-733"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "05"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Brain extraction is an important preprocessing step for further analysis of brain MR images. Significant intensity inhomogeneity can be observed in rodent brain images due to the high-field MRI technique. Unlike most existing brain extraction methods that require bias corrected MRI, we present a high-order and L0 regularized variational model for bias correction and brain extraction. The model is composed of a data fitting term, a piecewise constant regularization and a smooth regularization, which is constructed on a 3-D formulation for medical images with anisotropic voxel sizes. We propose an efficient multi-resolution algorithm for fast computation. At each resolution layer, we solve an alternating direction scheme, all subproblems of which have the closed-form solutions. The method is tested on three T2 weighted acquisition configurations comprising a total of 50 rodent brain volumes, which are with the acquisition field strengths of 4.7 Tesla, 9.4 Tesla and 17.6 Tesla, respectively. On one hand, we compare the results of bias correction with N3 and N4 in terms of the coefficient of variations on 20 different tissues of rodent brain. On the other hand, the results of brain extraction are compared against manually segmented gold standards, BET, BSE and 3-D PCNN based on a number of metrics. With the high accuracy and efficiency, our proposed method can facilitate automatic processing of large-scale brain studies."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Huibin",
+            "LastName": "Chang",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Weimin",
+            "LastName": "Huang",
+            "Initials": "W"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chunlin",
+            "LastName": "Wu",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Su",
+            "LastName": "Huang",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cuntai",
+            "LastName": "Guan",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sakthivel",
+            "LastName": "Sekar",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kishore Kumar",
+            "LastName": "Bhakoo",
+            "Initials": "KK"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuping",
+            "LastName": "Duan",
+            "Initials": "Y"
+          }
+        ]
+      },
+      "ArticleTitle": "A New Variational Method for Bias Correction and Its Applications to Rodent Brain Extraction.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2016.2636026"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 36,
+          "PubDate": {
+            "Month": "03",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008279",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D051379",
+        "MajorTopicYN": "N",
+        "content": "Mice"
+      }},
+      {"DescriptorName": {
+        "UI": "D008810",
+        "MajorTopicYN": "N",
+        "content": "Mice, Inbred C57BL"
+      }},
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "09"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114009
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114009,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2016.2636026",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

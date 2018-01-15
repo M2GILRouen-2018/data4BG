@@ -1,0 +1,518 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101531992,
+      "Country": "England",
+      "MedlineTA": "J Biomed Semantics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "06"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 4},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Ectopic pregnancy is a frequent early complication of pregnancy associated with significant rates of morbidly and mortality. The positive diagnosis of this condition is established through transvaginal ultrasound scanning. The timing of diagnosis depends on the operator expertise in identifying the signs of ectopic pregnancy, which varies dramatically among medical staff with heterogeneous training. Developing decision support systems in this context is expected to improve the identification of these signs and subsequently improve the quality of care. In this article, we present a new knowledge base for ectopic pregnancy, and we demonstrate its use on the annotation of clinical images."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The knowledge base is supported by an application ontology, which provides the taxonomy, the vocabulary and definitions for 24 types and 81 signs of ectopic pregnancy, 484 anatomical structures and 32 technical elements for image acquisition. The knowledge base provides a sign-centric model of the domain, with the relations of signs to ectopic pregnancy types, anatomical structures and the technical elements. The evaluation of the ontology and knowledge base demonstrated a positive feedback from a panel of 17 medical users. Leveraging these semantic resources, we developed an application for the annotation of ultrasound images. Using this application, 6 operators achieved a precision of 0.83 for the identification of signs in 208 ultrasound images corresponding to 35 clinical cases of ectopic pregnancy."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We developed a new ectopic pregnancy knowledge base for the annotation of ultrasound images. The use of this knowledge base for the annotation of ultrasound images of ectopic pregnancy showed promising results from the perspective of clinical decision support system development. Other gynecological disorders and fetal anomalies may benefit from our approach."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ferdinand",
+            "LastName": "Dhombres",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "UPMC Medical Faculty (Paris 6), Department of Fetal Medicine in Armand Trousseau Hospital (APHP), INSERM U1142 (LIMICS), 26 Avenue du Dr Arnold Netter, 75012, Paris, UE, France. ferdinand.dhombres@aphp.fr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul",
+            "LastName": "Maurice",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "UPMC Medical Faculty (Paris 6), Department of Fetal Medicine in Armand Trousseau Hospital (APHP), INSERM U1142 (LIMICS), 26 Avenue du Dr Arnold Netter, 75012, Paris, UE, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stéphanie",
+            "LastName": "Friszer",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "UPMC Medical Faculty (Paris 6), Department of Fetal Medicine in Armand Trousseau Hospital (APHP), INSERM U1142 (LIMICS), 26 Avenue du Dr Arnold Netter, 75012, Paris, UE, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lucie",
+            "LastName": "Guilbaud",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "UPMC Medical Faculty (Paris 6), Department of Fetal Medicine in Armand Trousseau Hospital (APHP), INSERM U1142 (LIMICS), 26 Avenue du Dr Arnold Netter, 75012, Paris, UE, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nathalie",
+            "LastName": "Lelong",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "INSERM U1153 (Obstetrical, Perinatal and Pediatric Epidemiology Research Team, Center for Biostatistics and Epidemiology), Maternité Port Royal, 53 Avenue de l'Observatoire, 75014, Paris, UE, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Babak",
+            "LastName": "Khoshnood",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "INSERM U1153 (Obstetrical, Perinatal and Pediatric Epidemiology Research Team, Center for Biostatistics and Epidemiology), Maternité Port Royal, 53 Avenue de l'Observatoire, 75014, Paris, UE, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jean",
+            "LastName": "Charlet",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "APHP DSI, INSERM U1142 (LIMICS), 15, rue de l'École de Médecine, 75006, Paris, UE, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicolas",
+            "LastName": "Perrot",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Pyramides Medical Imaging Center, 13 av. de l'Opéra, 75001, Paris, UE, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric",
+            "LastName": "Jauniaux",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "University College Hospital (UCLH) Department of Obstetrics and Gynaecology, Academic Department of Obstetrics and Gynaecology, University College London (UCL) Institute for Women's Health, 86-96 Chenies Mews, London, WC1E 6HX, UE, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Davor",
+            "LastName": "Jurkovic",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Obstetrics and Gynaecology, Gynaecology Diagnostic and Outpatient Treatment Unit, University College Hospital (UCLH), 235 Euston Road, London, NW1 2BU, UE, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jean-Marie",
+            "LastName": "Jouannic",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "UPMC Medical Faculty (Paris 6), Department of Fetal Medicine in Armand Trousseau Hospital (APHP), INSERM U1142 (LIMICS), 26 Avenue du Dr Arnold Netter, 75012, Paris, UE, France."}
+          }
+        ]
+      },
+      "ArticleTitle": "Developing a knowledge base to support the annotation of ultrasound images of ectopic pregnancy.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13326-017-0117-1"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 8,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 31
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Biomed Semantics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2041-1480"
+        },
+        "Title": "Journal of biomedical semantics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Application ontology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ectopic pregnancy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Knowledge base"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D064229",
+        "MajorTopicYN": "Y",
+        "content": "Biological Ontologies"
+      }},
+      {"DescriptorName": {
+        "UI": "D057225",
+        "MajorTopicYN": "N",
+        "content": "Data Mining"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D011247",
+        "MajorTopicYN": "N",
+        "content": "Pregnancy"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D011271",
+          "MajorTopicYN": "N",
+          "content": "Pregnancy, Ectopic"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D014463",
+        "MajorTopicYN": "Y",
+        "content": "Ultrasonography"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasound Obstet Gynecol. 2016 Jan;47(1):28-37",
+        "PMID": {
+          "Version": 1,
+          "content": 25766776
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiographics. 2014 Jan-Feb;34(1):254-64",
+        "PMID": {
+          "Version": 1,
+          "content": 24428295
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Ultrasound Med. 2015 Jun;34(6):951-62",
+        "PMID": {
+          "Version": 1,
+          "content": 26014313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BJOG. 2011 Mar;118 Suppl 1:1-203",
+        "PMID": {
+          "Version": 1,
+          "content": 21356004
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "West J Emerg Med. 2014 May;15(3):306-11",
+        "PMID": {
+          "Version": 1,
+          "content": 24868309
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 1991 Jan 26;337(8735):215-8",
+        "PMID": {
+          "Version": 1,
+          "content": 1670851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Best Pract Res Clin Obstet Gynaecol. 2014 Jul;28(5):621-36",
+        "PMID": {
+          "Version": 1,
+          "content": 24841987
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Reprod. 2010 Feb;25(2):328-33",
+        "PMID": {
+          "Version": 1,
+          "content": 19933287
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Emerg Med. 2007 Jul;25(6):591-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17606080
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2005 May-Jun;12(3):296-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15684123
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2006 Jul-Aug;36(7-8):857-70",
+        "PMID": {
+          "Version": 1,
+          "content": 16198328
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2008 Nov 06;:465-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18999035
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004 Jan 1;32(Database issue):D267-70",
+        "PMID": {
+          "Version": 1,
+          "content": 14681409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiographics. 2008 Oct;28(6):1661-71",
+        "PMID": {
+          "Version": 1,
+          "content": 18936028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Emerg Med. 2010 Dec;56(6):674-83",
+        "PMID": {
+          "Version": 1,
+          "content": 20828874
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasound Obstet Gynecol. 2007 Jul;30(1):1-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17587215
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2007 Nov;25(11):1251-5",
+        "PMID": {
+          "Version": 1,
+          "content": 17989687
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2011 Jun 10;342:d3397",
+        "PMID": {
+          "Version": 1,
+          "content": 21665933
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Digit Imaging. 2008 Dec;21(4):355-62",
+        "PMID": {
+          "Version": 1,
+          "content": 17874267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2009 Oct;85(4):457-64",
+        "PMID": {
+          "Version": 1,
+          "content": 19800049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Jul;37(Web Server issue):W170-3",
+        "PMID": {
+          "Version": 1,
+          "content": 19483092
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2009 Jul 23;361(4):379-87",
+        "PMID": {
+          "Version": 1,
+          "content": 19625718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Digit Imaging. 2012 Feb;25(1):50-5",
+        "PMID": {
+          "Version": 1,
+          "content": 21494902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2003 Dec;36(6):478-500",
+        "PMID": {
+          "Version": 1,
+          "content": 14759820
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mil Med. 2014 Nov;179(11):1263-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25373052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 2004;102:20-38",
+        "PMID": {
+          "Version": 1,
+          "content": 15853262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pathol Inform. 2015 Jun 23;6:37",
+        "PMID": {
+          "Version": 1,
+          "content": 26167381
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Med Inform. 2007 Feb-Mar;76(2-3):208-15",
+        "PMID": {
+          "Version": 1,
+          "content": 16797227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Obstet Gynecol. 2012 Jun;55(2):376-86",
+        "PMID": {
+          "Version": 1,
+          "content": 22510618
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28137311
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28137311,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13326-017-0117-1",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s13326-017-0117-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5282861",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

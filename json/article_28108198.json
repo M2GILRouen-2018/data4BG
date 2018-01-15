@@ -1,0 +1,200 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9426302,
+      "Country": "United States",
+      "ISSNLinking": "1046-2023",
+      "MedlineTA": "Methods"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "119-127"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 17
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016. Published by Elsevier Inc.",
+        "AbstractText": "In this paper, we present a novel error measure to compare a computer-generated segmentation of images or volumes against ground truth. This measure, which we call Tolerant Edit Distance (TED), is motivated by two observations that we usually encounter in biomedical image processing: (1) Some errors, like small boundary shifts, are tolerable in practice. Which errors are tolerable is application dependent and should be explicitly expressible in the measure. (2) Non-tolerable errors have to be corrected manually. The effort needed to do so should be reflected by the error measure. Our measure is the minimal weighted sum of split and merge operations to apply to one segmentation such that it resembles another segmentation within specified tolerance bounds. This is in contrast to other commonly used measures like Rand index or variation of information, which integrate small, but tolerable, differences. Additionally, the TED provides intuitive numbers and allows the localization and classification of errors in images or volumes. We demonstrate the applicability of the TED on 3D segmentations of neurons in electron microscopy images where topological correctness is arguable more important than exact boundary locations. Furthermore, we show that the TED is not just limited to evaluation tasks. We use it as the loss function in a max-margin learning framework to find parameters of an automatic neuron segmentation algorithm. We show that training to minimize the TED, i.e., to minimize crucial errors, leads to higher segmentation accuracy compared to other learning methods."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jan",
+            "LastName": "Funke",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Institut de Robòtica i Informàtica Industrial, UPC/CSIC, Barcelona, Spain; Janelia Research Campus, VA, Ashburn, United States; Institute of Neuroinformatics, UZH/ETH, Zurich, Switzerland. Electronic address: jfunke@iri.upc.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonas",
+            "LastName": "Klein",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Institute of Neuroinformatics, UZH/ETH, Zurich, Switzerland. Electronic address: klein@ini.uzh.ch."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Francesc",
+            "LastName": "Moreno-Noguer",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Institut de Robòtica i Informàtica Industrial, UPC/CSIC, Barcelona, Spain. Electronic address: fmoreno@iri.upc.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Albert",
+            "LastName": "Cardona",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Janelia Research Campus, VA, Ashburn, United States. Electronic address: cardonaa@janelia.hhmi.org."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew",
+            "LastName": "Cook",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Institute of Neuroinformatics, UZH/ETH, Zurich, Switzerland. Electronic address: cook@ini.uzh.ch."}
+          }
+        ]
+      },
+      "ArticleTitle": "TED: A Tolerant Edit Distance for segmentation evaluation.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1046-2023(16)30507-2"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.ymeth.2016.12.013"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 115,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Methods",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1095-9130"
+        },
+        "Title": "Methods (San Diego, Calif.)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Computer vision"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Electron microscopy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Evaluation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Neuron segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Segmentation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28108198
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 29,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 30,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28108198,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1046-2023(16)30507-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.ymeth.2016.12.013",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

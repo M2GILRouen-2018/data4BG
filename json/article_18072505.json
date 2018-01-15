@@ -1,0 +1,418 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101671170,
+      "Country": "United States",
+      "MedlineTA": "Tomography"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "421-429"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCI NIH HHS",
+          "Country": "United States",
+          "GrantID": "U01 CA179106",
+          "Acronym": "CA"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "",
+          "content": "Comment"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Assessing the response of bladder cancer to neoadjuvant chemotherapy is crucial for reducing morbidity and increasing quality of life of patients. Changes in tumor volume during treatment is generally used to predict treatment outcome. We are developing a method for bladder cancer segmentation in CT using a pilot data set of 62 cases. 65 000 regions of interests were extracted from pre-treatment CT images to train a deep-learning convolution neural network (DL-CNN) for tumor boundary detection using leave-one-case-out cross-validation. The results were compared to our previous AI-CALS method. For all lesions in the data set, the longest diameter and its perpendicular were measured by two radiologists, and 3D manual segmentation was obtained from one radiologist. The World Health Organization (WHO) criteria and the Response Evaluation Criteria In Solid Tumors (RECIST) were calculated, and the prediction accuracy of complete response to chemotherapy was estimated by the area under the receiver operating characteristic curve (AUC). The AUCs were 0.73 ± 0.06, 0.70 ± 0.07, and 0.70 ± 0.06, respectively, for the volume change calculated using DL-CNN segmentation, the AI-CALS and the manual contours. The differences did not achieve statistical significance. The AUCs using the WHO criteria were 0.63 ± 0.07 and 0.61 ± 0.06, while the AUCs using RECIST were 0.65 ± 007 and 0.63 ± 0.06 for the two radiologists, respectively. Our results indicate that DL-CNN can produce accurate bladder cancer segmentation for calculation of tumor size change in response to treatment. The volume change performed better than the estimations from the WHO criteria and RECIST for the prediction of complete response."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kenny H",
+            "LastName": "Cha",
+            "Initials": "KH",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lubomir M",
+            "LastName": "Hadjiiski",
+            "Initials": "LM",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ravi K",
+            "LastName": "Samala",
+            "Initials": "RK",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Heang-Ping",
+            "LastName": "Chan",
+            "Initials": "HP",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Richard H",
+            "LastName": "Cohan",
+            "Initials": "RH",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elaine M",
+            "LastName": "Caoili",
+            "Initials": "EM",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chintana",
+            "LastName": "Paramagul",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ajjai",
+            "LastName": "Alva",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Internal Medicine, Hematology-Oncology, University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alon Z",
+            "LastName": "Weizer",
+            "Initials": "AZ",
+            "AffiliationInfo": {"Affiliation": "Department of Urology, Comprehensive Cancer Center, University of Michigan, Ann Arbor, Michigan."}
+          }
+        ]
+      },
+      "ArticleTitle": "Bladder Cancer Segmentation in CT for Treatment Response Assessment: Application of Deep-Learning Convolution Neural Network-A Pilot Study.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.18383/j.tom.2016.00184"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 2,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Tomography",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2379-1381"
+        },
+        "Title": "Tomography : a journal for imaging research"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "CT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "bladder cancer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "computer-aided diagnosis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "deep-learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "level set"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "treatment response"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "CommentOn",
+        "RefSource": "JACC Heart Fail. 2014 Aug;2(4):412-21",
+        "PMID": {
+          "Version": 1,
+          "content": 25023820
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 2015 Aug;205(2):348-52",
+        "PMID": {
+          "Version": 1,
+          "content": 26204286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2016 May;35(5):1285-98",
+        "PMID": {
+          "Version": 1,
+          "content": 26886976
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Feb 21;52(4):981-1000",
+        "PMID": {
+          "Version": 1,
+          "content": 17264365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Urol. 1984 Jun;56(3):296-300",
+        "PMID": {
+          "Version": 1,
+          "content": 6544614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med J Aust. 1984 Mar 3;140(5):276-8",
+        "PMID": {
+          "Version": 1,
+          "content": 6538255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2003 Jun 7;361(9373):1927-34",
+        "PMID": {
+          "Version": 1,
+          "content": 12801735
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2001 Sep;28(9):1937-48",
+        "PMID": {
+          "Version": 1,
+          "content": 11585225
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 1990 Oct;19(2):145-57",
+        "PMID": {
+          "Version": 1,
+          "content": 2123987
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2016 Apr;43(4):1882",
+        "PMID": {
+          "Version": 1,
+          "content": 27036584
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Cancer. 2004 Jun 14;90(12):2256-60",
+        "PMID": {
+          "Version": 1,
+          "content": 15150551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1995 Oct;22(10 ):1555-67",
+        "PMID": {
+          "Version": 1,
+          "content": 8551980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1996;15(5):598-610",
+        "PMID": {
+          "Version": 1,
+          "content": 18215941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Urol. 1997;31(4):414-9",
+        "PMID": {
+          "Version": 1,
+          "content": 9187900
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2003 Aug 28;349(9):859-66",
+        "PMID": {
+          "Version": 1,
+          "content": 12944571
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2006 Aug;33(8):2975-88",
+        "PMID": {
+          "Version": 1,
+          "content": 16964876
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2015 Nov 7;60(21):8457-79",
+        "PMID": {
+          "Version": 1,
+          "content": 26464355
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Cancer. 2009 Jan;45(2):228-47",
+        "PMID": {
+          "Version": 1,
+          "content": 19097774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2008 Dec;35(12):5340-50",
+        "PMID": {
+          "Version": 1,
+          "content": 19175093
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Oncol. 1995 Feb;6(2):113-26",
+        "PMID": {
+          "Version": 1,
+          "content": 7786818
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2002 Apr;9(4):420-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11942656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Urol. 2012 Sep;62(3):523-33",
+        "PMID": {
+          "Version": 1,
+          "content": 22677572
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2013 Feb;20(2):148-55",
+        "PMID": {
+          "Version": 1,
+          "content": 23085411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2014 Dec 7;59(23 ):7457-77",
+        "PMID": {
+          "Version": 1,
+          "content": 25393654
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2007 Nov;34(11):4399-408",
+        "PMID": {
+          "Version": 1,
+          "content": 18072505
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28105470
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28105470,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.18383/j.tom.2016.00184",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5241049",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS839240",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

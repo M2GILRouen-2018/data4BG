@@ -1,0 +1,456 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 68},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The Friedman rank sum test is a widely-used nonparametric method in computational biology. In addition to examining the overall null hypothesis of no significant difference among any of the rank sums, it is typically of interest to conduct pairwise comparison tests. Current approaches to such tests rely on large-sample approximations, due to the numerical complexity of computing the exact distribution. These approximate methods lead to inaccurate estimates in the tail of the distribution, which is most relevant for p-value calculation."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We propose an efficient, combinatorial exact approach for calculating the probability mass distribution of the rank sum difference statistic for pairwise comparison of Friedman rank sums, and compare exact results with recommended asymptotic approximations. Whereas the chi-squared approximation performs inferiorly to exact computation overall, others, particularly the normal, perform well, except for the extreme tail. Hence exact calculation offers an improvement when small p-values occur following multiple testing correction. Exact inference also enhances the identification of significant differences whenever the observed values are close to the approximate critical value. We illustrate the proposed method in the context of biological machine learning, were Friedman rank sum difference tests are commonly used for the comparison of classifiers over multiple datasets."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We provide a computationally fast method to determine the exact p-value of the absolute rank sum difference of a pair of Friedman rank sums, making asymptotic tests obsolete. Calculation of exact p-values is easy to implement in statistical software and the implementation in R is provided in one of the Additional files and is also available at http://www.ru.nl/publish/pages/726696/friedmanrsd.zip ."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8349-5226"
+            },
+            "ForeName": "Rob",
+            "LastName": "Eisinga",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Social Science Research Methods, Radboud University Nijmegen, PO Box 9104, , 6500 HE, Nijmegen, The Netherlands. r.eisinga@maw.ru.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tom",
+            "LastName": "Heskes",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Institute for Computing and Information Sciences, Radboud University Nijmegen, Nijmegen, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ben",
+            "LastName": "Pelzer",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Social Science Research Methods, Radboud University Nijmegen, PO Box 9104, , 6500 HE, Nijmegen, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Manfred",
+            "LastName": "Te Grotenhuis",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Social Science Research Methods, Radboud University Nijmegen, PO Box 9104, , 6500 HE, Nijmegen, The Netherlands."}
+          }
+        ]
+      },
+      "ArticleTitle": "Exact p-values for pairwise comparison of Friedman rank sums, with application to comparing classifiers.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1486-2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Classifier comparison"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Exact p-value"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Friedman test"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multiple comparison"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Nonparametric statistics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Rank sum difference"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D020407",
+        "MajorTopicYN": "N",
+        "content": "Internet"
+      }},
+      {"DescriptorName": {
+        "UI": "D018709",
+        "MajorTopicYN": "N",
+        "content": "Statistics, Nonparametric"
+      }},
+      {"DescriptorName": {
+        "UI": "D014584",
+        "MajorTopicYN": "Y",
+        "content": "User-Computer Interface"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 23
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 May 28;10(5):e0127935",
+        "PMID": {
+          "Version": 1,
+          "content": 26020643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 May 15;32(10):1527-35",
+        "PMID": {
+          "Version": 1,
+          "content": 26787667
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015;16 Suppl 19:S5",
+        "PMID": {
+          "Version": 1,
+          "content": 26695879
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Feb 26;16:64",
+        "PMID": {
+          "Version": 1,
+          "content": 25888091
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Jun 26;10(6):e1003680",
+        "PMID": {
+          "Version": 1,
+          "content": 24967627
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1994 Jun;50(2):542-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19405210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2014 Sep;15(5):839-55",
+        "PMID": {
+          "Version": 1,
+          "content": 23543354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2016 Mar 24;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27013645
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2013 Mar 18;587(6):677-82",
+        "PMID": {
+          "Version": 1,
+          "content": 23395607
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Nov 21;15:367",
+        "PMID": {
+          "Version": 1,
+          "content": 25413493
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 May 18;10 (5):e0126843",
+        "PMID": {
+          "Version": 1,
+          "content": 25984721
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2008 Apr 25;9:213",
+        "PMID": {
+          "Version": 1,
+          "content": 18439277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Biochem. 2014 Jan;47(1-2):117-22",
+        "PMID": {
+          "Version": 1,
+          "content": 24183882
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2004 Aug 27;573(1-3):83-92",
+        "PMID": {
+          "Version": 1,
+          "content": 15327980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Algorithms Mol Biol. 2006 Oct 24;1:19",
+        "PMID": {
+          "Version": 1,
+          "content": 17062125
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Jul 30;16:239",
+        "PMID": {
+          "Version": 1,
+          "content": 26224486
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Hum Genet. 2004 Jul;68(Pt 4):376-80",
+        "PMID": {
+          "Version": 1,
+          "content": 15225163
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Oct 15;29(20):2664-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23929033
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Oct 1;28(19):2441-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22833524
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Dec 15;30(24):3467-75",
+        "PMID": {
+          "Version": 1,
+          "content": 25371479
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2013 Jan;59(1):32-46",
+        "PMID": {
+          "Version": 1,
+          "content": 22975077
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Algorithms Mol Biol. 2013 Feb 23;8(1):4",
+        "PMID": {
+          "Version": 1,
+          "content": 23433178
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Dec 10;15:372",
+        "PMID": {
+          "Version": 1,
+          "content": 25492416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2012 May 10;13:89",
+        "PMID": {
+          "Version": 1,
+          "content": 22574904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Sep 15;27(18):2546-53",
+        "PMID": {
+          "Version": 1,
+          "content": 21765096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Nov 15;30(22):3143-51",
+        "PMID": {
+          "Version": 1,
+          "content": 25086003
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28122501
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28122501,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1486-2",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1486-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5267387",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,475 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101499225,
+      "Country": "Germany",
+      "ISSNLinking": "1861-6410",
+      "MedlineTA": "Int J Comput Assist Radiol Surg"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2016,
+      "Day": 27
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1371-81"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE",
+          "content": "Spinal needle injections are widely applied to alleviate back pain and for anesthesia. Current treatment is performed either blindly with palpation or using fluoroscopy or computed tomography (CT). Both fluoroscopy and CT guidance expose patients to ionizing radiation. Ultrasound (US) guidance for spinal needle procedures is becoming more prevalent as an alternative. It is challenging to use US as the sole imaging modality for intraoperative guidance of spine needle injections due to the acoustic shadows created by the bony structures of the vertebra that limit visibility of the target areas for injection. We propose registration of CT and the US images to augment anatomical visualization for the clinician during spinal interventions guided by US."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The proposed method involves automatic global and multi-vertebrae registration to find the closest alignment between CT and US data. This is performed by maximizing the similarity between the two modalities using voxel intensity information as well as features extracted from the input volumes. In our method, the lumbar spine is first globally aligned between the CT and US data using intensity-based registration followed by point-based registration. To account for possible curvature change of the spine between the CT and US volumes, a multi-vertebrae registration step is also performed. Springs are used to constrain the movement of the individually transformed vertebrae to ensure the optimal alignment is a pose of the lumbar spine that is physically possible."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Evaluation of the algorithm is performed on 10 clinical patient datasets. The registration approach was able to align CT and US datasets from initial misalignments of up to 25 mm, with a mean TRE of 1.37 mm. These results suggest that the proposed approach has the potential to offer a sufficiently accurate registration between clinical CT and US data."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Simrin",
+            "LastName": "Nagpal",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "School of Computing, Queen's University, Kingston, ON, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Purang",
+            "LastName": "Abolmaesumi",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Abtin",
+            "LastName": "Rasoulian",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ilker",
+            "LastName": "Hacihaliloglu",
+            "Initials": "I"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tamas",
+            "LastName": "Ungi",
+            "Initials": "T"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jill",
+            "LastName": "Osborn",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Victoria A",
+            "LastName": "Lessoway",
+            "Initials": "VA"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John",
+            "LastName": "Rudan",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Melanie",
+            "LastName": "Jaeger",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert N",
+            "LastName": "Rohling",
+            "Initials": "RN"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dan P",
+            "LastName": "Borschneck",
+            "Initials": "DP"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Parvin",
+            "LastName": "Mousavi",
+            "Initials": "P"
+          }
+        ]
+      },
+      "ArticleTitle": "A multi-vertebrae CT to US registration of the lumbar spine in clinical data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s11548-015-1247-5"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 10,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2015
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Int J Comput Assist Radiol Surg",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1861-6429"
+        },
+        "Title": "International journal of computer assisted radiology and surgery"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2015,
+      "Day": "09"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000369",
+        "MajorTopicYN": "N",
+        "content": "Aged, 80 and over"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D004867",
+        "MajorTopicYN": "N",
+        "content": "Equipment Design"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "N",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D007278",
+        "MajorTopicYN": "N",
+        "content": "Injections, Spinal"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D008159",
+          "MajorTopicYN": "N",
+          "content": "Lumbar Vertebrae"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D064847",
+          "MajorTopicYN": "N",
+          "content": "Multimodal Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D009339",
+        "MajorTopicYN": "N",
+        "content": "Needles"
+      }},
+      {"DescriptorName": {
+        "UI": "D011839",
+        "MajorTopicYN": "N",
+        "content": "Radiation, Ionizing"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D014463",
+          "MajorTopicYN": "N",
+          "content": "Ultrasonography"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "04"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2012 Oct;36(4):987-92",
+        "PMID": {
+          "Version": 1,
+          "content": 22645031
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain Physician. 2012 Nov-Dec;15(6):E909-53",
+        "PMID": {
+          "Version": 1,
+          "content": 23159980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Jun;39(6):3154-66",
+        "PMID": {
+          "Version": 1,
+          "content": 22755700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Oct;32(10):1890-900",
+        "PMID": {
+          "Version": 1,
+          "content": 23771318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesth Analg. 2009 Jun;108(6):1876-81",
+        "PMID": {
+          "Version": 1,
+          "content": 19448216
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2012 Apr;16(3):662-74",
+        "PMID": {
+          "Version": 1,
+          "content": 21126904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2009;12 (Pt 1):516-23",
+        "PMID": {
+          "Version": 1,
+          "content": 20426027
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2013;16(Pt 2):361-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24579161
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesthesiol Res Pract. 2013;2013:525818",
+        "PMID": {
+          "Version": 1,
+          "content": 23365568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Oct;17 (5):743-52",
+        "PMID": {
+          "Version": 1,
+          "content": 9874298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Aided Surg. 2002;7(6):342-52",
+        "PMID": {
+          "Version": 1,
+          "content": 12731097
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Comput Assist Radiol Surg. 2011 Jul;6(4):523-37",
+        "PMID": {
+          "Version": 1,
+          "content": 20976567
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2012 Oct;59(10 ):2766-72",
+        "PMID": {
+          "Version": 1,
+          "content": 22851228
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2010 Dec;32(12):2262-75",
+        "PMID": {
+          "Version": 1,
+          "content": 20975122
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26175271
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2014,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2015,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 7,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26175271,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s11548-015-1247-5",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

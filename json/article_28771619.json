@@ -1,0 +1,386 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D007252",
+        "content": "Influenza Vaccines"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005838"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Public health related decisions often have to balance the cost of intervention strategies with the benefit of the reduction in disease burden. While the cost can often be inferred, forward modelling of the effect of different intervention options is complicated and disease specific. Here we introduce a package that is aimed to simplify this process. The package allows one to infer parameters using a Bayesian approach, perform forward modelling of the likely results of the proposed intervention and finally perform cost effectiveness analysis of the results. The package is based on a method previously used in the United Kingdom to inform vaccination strategies for influenza, with extensions to make it easily adaptable to other diseases and data sources."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-2383-5305"
+            },
+            "ForeName": "Edwin",
+            "LastName": "van Leeuwen",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "Respiratory Diseases Department, Public Health England, London, United Kingdom."},
+              {"Affiliation": "National Heart and Lung Institute, Imperial College London, London, United Kingdom."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-4132-3933"
+            },
+            "ForeName": "Petra",
+            "LastName": "Klepac",
+            "Initials": "P",
+            "AffiliationInfo": [
+              {"Affiliation": "Respiratory Diseases Department, Public Health England, London, United Kingdom."},
+              {"Affiliation": "School of Public Health, Imperial College London, London, United Kingdom."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dominic",
+            "LastName": "Thorrington",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Respiratory Diseases Department, Public Health England, London, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Richard",
+            "LastName": "Pebody",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Respiratory Diseases Department, Public Health England, London, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marc",
+            "LastName": "Baguelin",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Respiratory Diseases Department, Public Health England, London, United Kingdom."},
+              {"Affiliation": "London School of Hygiene and Tropical Medicine, London, United Kingdom."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "fluEvidenceSynthesis: An R package for evidence synthesis based analysis of epidemiological outbreaks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005838"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "Y",
+        "content": "Computational Biology"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "Y",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D004196",
+          "MajorTopicYN": "N",
+          "content": "Disease Outbreaks"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000008",
+          "MajorTopicYN": "N",
+          "content": "administration & dosage"
+        },
+        "DescriptorName": {
+          "UI": "D007252",
+          "MajorTopicYN": "N",
+          "content": "Influenza Vaccines"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "Y",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000517",
+            "MajorTopicYN": "N",
+            "content": "prevention & control"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D007251",
+          "MajorTopicYN": "N",
+          "content": "Influenza, Human"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "N",
+        "content": "Models, Theoretical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000453",
+          "MajorTopicYN": "N",
+          "content": "epidemiology"
+        },
+        "DescriptorName": {
+          "UI": "D006113",
+          "MajorTopicYN": "N",
+          "content": "United Kingdom"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med. 2017 Sep 8;15(1):166",
+        "PMID": {
+          "Version": 1,
+          "content": 28882149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2013 Dec 1;178(11):1655-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24100954
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet Public Health. 2017 Feb;2(2):e74-e81",
+        "PMID": {
+          "Version": 1,
+          "content": 28299371
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Mar 6;507(7490):57-61",
+        "PMID": {
+          "Version": 1,
+          "content": 24572367
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med. 2015 Oct 13;13:236",
+        "PMID": {
+          "Version": 1,
+          "content": 26459265
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vaccine. 2010 Mar 11;28(12):2370-84",
+        "PMID": {
+          "Version": 1,
+          "content": 20096762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2004 Jul 16;305(5682):371-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15218094
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "MMWR Recomm Rep. 2009 Jul 31;58(RR-8):1-52",
+        "PMID": {
+          "Version": 1,
+          "content": 19644442
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2008 Mar 25;5(3):e74",
+        "PMID": {
+          "Version": 1,
+          "content": 18366252
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2013 Jul;14(3):541-55",
+        "PMID": {
+          "Version": 1,
+          "content": 23292757
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(9):e1002673",
+        "PMID": {
+          "Version": 1,
+          "content": 23028275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2013 Oct;10(10):e1001527",
+        "PMID": {
+          "Version": 1,
+          "content": 24115913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2015 Mar 03;13(3):e1002082",
+        "PMID": {
+          "Version": 1,
+          "content": 25734701
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2017 Aug 3;13(8):e1006432",
+        "PMID": {
+          "Version": 1,
+          "content": 28771619
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29155812
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29155812,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005838",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-00810",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5714397",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

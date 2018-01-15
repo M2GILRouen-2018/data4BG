@@ -1,0 +1,319 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2010,
+      "Day": "09"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "885-96"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE",
+          "content": "Coronary CT angiography (CCTA) is a high-resolution three-dimensional imaging technique for the evaluation of coronary arteries in suspected or confirmed coronary artery disease (CAD). Coregistration of serial CCTA scans would allow precise superimposition of images obtained at two different points in time, which could aid in recognition of subtle changes and precise monitoring of coronary plaque progression or regression. To this end, the authors aimed at developing a fully automatic nonlinear volume coregistration for longitudinal CCTA scan pairs."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The algorithm combines global displacement and local deformation using nonlinear volume coregistration with a volume-preserving constraint. Histogram matching of intensities between two serial scans is performed prior to nonlinear coregistration with dense nonparametric local deformation in which sum of squared differences is used as a similarity measure. The approximate segmentation of coronary arteries obtained from commercially available software provides initial anatomical landmarks for the coregistration algorithm that help localize and emphasize the structure of interest. To avoid possible bias caused by incorrect segmentation, the authors convolve the Gaussian kernel with the segmented binary coronary tree mask and define an extended weighted region of interest. A multiresolution approach is employed to represent coarse-to-fine details of both volumes and the energy function is optimized using a gradient descent method. The authors applied the algorithm in ten paired CCTA datasets (20 scans in total) obtained within 10.7 +/- 5.7 months from each other on a dual source CT scanner to monitor progression of CAD."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Serial CCTA coregistration was successful in 9/10 cases as visually confirmed. The global displacement and local deformation of target registration error obtained from four anatomical landmarks were 2.22 +/- 1.15 and 1.56 +/- 0.74 mm, respectively, and the inverse consistency error of local deformation was 0.14 +/- 0.06 mm. The observer variability between two expert observers was 1.31 +/- 0.91 mm."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The proposed coregistration algorithm demonstrates potential to accurately register serial CCTA scans, which may allow direct comparison of calcified and noncalcified atherosclerotic plaque changes between the two scans."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonghye",
+            "LastName": "Woo",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Imaging, Cedars-Sinai Medical Center, Los Angeles, California 90048, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Damini",
+            "LastName": "Dey",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Victor Y",
+            "LastName": "Cheng",
+            "Initials": "VY"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Byung-Woo",
+            "LastName": "Hong",
+            "Initials": "BW"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Amit",
+            "LastName": "Ramesh",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ganesh",
+            "LastName": "Sundaramoorthi",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ryo",
+            "LastName": "Nakazato",
+            "Initials": "R"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel S",
+            "LastName": "Berman",
+            "Initials": "DS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guido",
+            "LastName": "Germano",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C C Jay",
+            "LastName": "Kuo",
+            "Initials": "CC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Piotr J",
+            "LastName": "Slomka",
+            "Initials": "PJ"
+          }
+        ]
+      },
+      "ArticleTitle": "Nonlinear registration of serial coronary CT angiography (CCTA) for assessment of changes in atherosclerotic plaque.",
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 37,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2010
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0094-2405"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "03",
+      "Year": 2010,
+      "Day": 16
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "N",
+        "content": "Artificial Intelligence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D016247",
+          "MajorTopicYN": "N",
+          "content": "Information Storage and Retrieval"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017711",
+        "MajorTopicYN": "N",
+        "content": "Nonlinear Dynamics"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D013382",
+        "MajorTopicYN": "Y",
+        "content": "Subtraction Technique"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 14
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 20229898
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 3,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 3,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 20229898,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1118/1.3284541",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

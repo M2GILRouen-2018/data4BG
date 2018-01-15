@@ -1,0 +1,625 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "S111-9"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NLM NIH HHS",
+            "Country": "United States",
+            "GrantID": "R13 LM011411",
+            "Acronym": "LM"
+          },
+          {
+            "Agency": "Intramural NIH HHS",
+            "Country": "United States",
+            "GrantID": "Z99 LM999999"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2015 Elsevier Inc. All rights reserved.",
+        "AbstractText": "This paper describes a supervised machine learning approach for identifying heart disease risk factors in clinical text, and assessing the impact of annotation granularity and quality on the system's ability to recognize these risk factors. We utilize a series of support vector machine models in conjunction with manually built lexicons to classify triggers specific to each risk factor. The features used for classification were quite simple, utilizing only lexical information and ignoring higher-level linguistic information such as syntax and semantics. Instead, we incorporated high-quality data to train the models by annotating additional information on top of a standard corpus. Despite the relative simplicity of the system, it achieves the highest scores (micro- and macro-F1, and micro- and macro-recall) out of the 20 participants in the 2014 i2b2/UTHealth Shared Task. This system obtains a micro- (macro-) precision of 0.8951 (0.8965), recall of 0.9625 (0.9611), and F1-measure of 0.9276 (0.9277). Additionally, we perform a series of experiments to assess the value of the annotated data we created. These experiments show how manually-labeled negative annotations can improve information extraction performance, demonstrating the importance of high-quality, fine-grained natural language annotations."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kirk",
+            "LastName": "Roberts",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Lister Hill National Center for Biomedical Communications, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA. Electronic address: kirk.roberts@nih.gov."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sonya E",
+            "LastName": "Shooshan",
+            "Initials": "SE",
+            "AffiliationInfo": {"Affiliation": "Lister Hill National Center for Biomedical Communications, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Laritza",
+            "LastName": "Rodriguez",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Lister Hill National Center for Biomedical Communications, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Swapna",
+            "LastName": "Abhyankar",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Lister Hill National Center for Biomedical Communications, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Halil",
+            "LastName": "Kilicoglu",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Lister Hill National Center for Biomedical Communications, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dina",
+            "LastName": "Demner-Fushman",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Lister Hill National Center for Biomedical Communications, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "The role of fine-grained annotations in supervised recognition of risk factors for heart disease from EHRs.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jbi.2015.06.010"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1532-0464(15)00120-3"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": "58 Suppl",
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2015
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Biomed Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1532-0480"
+        },
+        "Title": "Journal of biomedical informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2015,
+      "Day": 15
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Inform Insights. 2012 Jan 30;5(Suppl 1):3-16",
+        "PMID": {
+          "Version": 1,
+          "content": 22419877
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2012;2012:997-1003",
+        "PMID": {
+          "Version": 1,
+          "content": 23304375
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2013 Sep-Oct;20(5):806-13",
+        "PMID": {
+          "Version": 1,
+          "content": 23564629
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2006;:81-5",
+        "PMID": {
+          "Version": 1,
+          "content": 17238307
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2008 Jan-Feb;15(1):14-24",
+        "PMID": {
+          "Version": 1,
+          "content": 17947624
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2008 Nov 06;:247-51",
+        "PMID": {
+          "Version": 1,
+          "content": 18999129
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2015 Dec;58 Suppl:S1-5",
+        "PMID": {
+          "Version": 1,
+          "content": 26515500
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Nov 15;29(22):2909-17",
+        "PMID": {
+          "Version": 1,
+          "content": 23969135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Sep-Oct;19(5):786-91",
+        "PMID": {
+          "Version": 1,
+          "content": 22366294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2014 Nov 19;2014:bau109",
+        "PMID": {
+          "Version": 1,
+          "content": 25414383
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2015 Dec;58 Suppl:S78-91",
+        "PMID": {
+          "Version": 1,
+          "content": 26004790
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2010 May-Jun;17(3):229-36",
+        "PMID": {
+          "Version": 1,
+          "content": 20442139
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2009 Oct;42(5):760-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19683066
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2010 Sep-Oct;17(5):514-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20819854
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2006;:925",
+        "PMID": {
+          "Version": 1,
+          "content": 17238544
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc AMIA Symp. 2000;:270-4",
+        "PMID": {
+          "Version": 1,
+          "content": 11079887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2009 Oct;42(5):839-51",
+        "PMID": {
+          "Version": 1,
+          "content": 19435614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2015 Jan;22(1):143-54",
+        "PMID": {
+          "Version": 1,
+          "content": 25147248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2001 Oct;34(5):301-10",
+        "PMID": {
+          "Version": 1,
+          "content": 12123149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2008 Nov 06;:237-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18999147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2009 Jul-Aug;16(4):561-70",
+        "PMID": {
+          "Version": 1,
+          "content": 19390096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2011 Sep-Oct;18(5):552-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21685143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2010 Sep-Oct;17(5):507-13",
+        "PMID": {
+          "Version": 1,
+          "content": 20819853
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2006 Aug;39(4):424-39",
+        "PMID": {
+          "Version": 1,
+          "content": 16169282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2007 Sep-Oct;14(5):550-63",
+        "PMID": {
+          "Version": 1,
+          "content": 17600094
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 2007;129(Pt 1):679-83",
+        "PMID": {
+          "Version": 1,
+          "content": 17911803
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS806514"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC4988795"
+      }
+    ],
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100970413,
+      "Country": "United States",
+      "ISSNLinking": "1532-0464",
+      "MedlineTA": "J Biomed Inform"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2016,
+      "Day": 20
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Natural language annotation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Natural language processing"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D015331",
+        "MajorTopicYN": "N",
+        "content": "Cohort Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D015897",
+        "MajorTopicYN": "N",
+        "content": "Comorbidity"
+      }},
+      {"DescriptorName": {
+        "UI": "D016494",
+        "MajorTopicYN": "N",
+        "content": "Computer Security"
+      }},
+      {"DescriptorName": {
+        "UI": "D003219",
+        "MajorTopicYN": "N",
+        "content": "Confidentiality"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "Y",
+            "content": "epidemiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D057225",
+          "MajorTopicYN": "N",
+          "content": "Data Mining"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "Y",
+            "content": "epidemiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D048909",
+          "MajorTopicYN": "N",
+          "content": "Diabetes Complications"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000458",
+          "MajorTopicYN": "Y",
+          "content": "organization & administration"
+        },
+        "DescriptorName": {
+          "UI": "D057286",
+          "MajorTopicYN": "N",
+          "content": "Electronic Health Records"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D015994",
+        "MajorTopicYN": "N",
+        "content": "Incidence"
+      }},
+      {"DescriptorName": {
+        "UI": "D008137",
+        "MajorTopicYN": "N",
+        "content": "Longitudinal Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000453",
+          "MajorTopicYN": "N",
+          "content": "epidemiology"
+        },
+        "DescriptorName": {
+          "Type": "Geographic",
+          "UI": "D008396",
+          "MajorTopicYN": "N",
+          "content": "Maryland"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D033262",
+        "MajorTopicYN": "N",
+        "content": "Narration"
+      }},
+      {"DescriptorName": {
+        "UI": "D009323",
+        "MajorTopicYN": "Y",
+        "content": "Natural Language Processing"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018570",
+          "MajorTopicYN": "N",
+          "content": "Risk Assessment"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000069553",
+        "MajorTopicYN": "Y",
+        "content": "Supervised Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D018875",
+        "MajorTopicYN": "N",
+        "content": "Vocabulary, Controlled"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26122527
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2015,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2015,
+        "Day": 29,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "06",
+        "Year": 2015,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 7,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26122527,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1532-0464(15)00120-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jbi.2015.06.010",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4988795",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS806514",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

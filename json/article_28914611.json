@@ -1,0 +1,154 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401220",
+      "Country": "England",
+      "ISSNLinking": "0031-9155",
+      "MedlineTA": "Phys Med Biol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "8246-8263"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Better understanding of the dose-toxicity relationship is critical for safe dose escalation to improve local control in late-stage cervical cancer radiotherapy. In this study, we introduced a convolutional neural network (CNN) model to analyze rectum dose distribution and predict rectum toxicity. Forty-two cervical cancer patients treated with combined external beam radiotherapy (EBRT) and brachytherapy (BT) were retrospectively collected, including twelve toxicity patients and thirty non-toxicity patients. We adopted a transfer learning strategy to overcome the limited patient data issue. A 16-layers CNN developed by the visual geometry group (VGG-16) of the University of Oxford was pre-trained on a large-scale natural image database, ImageNet, and fine-tuned with patient rectum surface dose maps (RSDMs), which were accumulated EBRT\u2009\u2009+\u2009\u2009BT doses on the unfolded rectum surface. We used the adaptive synthetic sampling approach and the data augmentation method to address the two challenges, data imbalance and data scarcity. The gradient-weighted class activation maps (Grad-CAM) were also generated to highlight the discriminative regions on the RSDM along with the prediction model. We compare different CNN coefficients fine-tuning strategies, and compare the predictive performance using the traditional dose volume parameters, e.g. D 0.1/1/2cc, and the texture features extracted from the RSDM. Satisfactory prediction performance was achieved with the proposed scheme, and we found that the mean Grad-CAM over the toxicity patient group has geometric consistence of distribution with the statistical analysis result, which indicates possible rectum toxicity location. The evaluation results have demonstrated the feasibility of building a CNN-based rectum dose-toxicity prediction model with transfer learning for cervical cancer radiotherapy."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xin",
+            "LastName": "Zhen",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, The University of Texas, Southwestern Medical Center, Dallas, TX 75390, United States of America. Department of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong 510515, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiawei",
+            "LastName": "Chen",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zichun",
+            "LastName": "Zhong",
+            "Initials": "Z"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brian",
+            "LastName": "Hrycushko",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Linghong",
+            "LastName": "Zhou",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Steve",
+            "LastName": "Jiang",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kevin",
+            "LastName": "Albuquerque",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xuejun",
+            "LastName": "Gu",
+            "Initials": "X"
+          }
+        ]
+      },
+      "ArticleTitle": "Deep convolutional neural network with transfer learning for rectum toxicity prediction in cervical cancer radiotherapy: a feasibility study.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1361-6560/aa8d09"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 21,
+          "Volume": 62,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017,
+            "Day": 12
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-6560"
+        },
+        "Title": "Physics in medicine and biology"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 12
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28914611
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28914611,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1361-6560/aa8d09",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

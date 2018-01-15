@@ -1,0 +1,588 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2016,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0135180"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D064888",
+          "content": "Observational Study"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Clinical symptoms in children with pulmonary diseases are frequently non-specific. Rare diseases such as primary ciliary dyskinesia (PCD), cystic fibrosis (CF) or protracted bacterial bronchitis (PBB) can be easily missed at the general practitioner (GP)."
+        },
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "To develop and test a questionnaire-based and data mining-supported tool providing diagnostic support for selected pulmonary diseases."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "First, interviews with parents of affected children were conducted and analysed. These parental observations during the pre-diagnostic time formed the basis for a new questionnaire addressing the parents' view on the disease. Secondly, parents with a sick child (e.g. PCD, PBB) answered the questionnaire and a data base was set up. Finally, a computer program consisting of eight different classifiers (support vector machine (SVM), artificial neural network (ANN), fuzzy rule-based, random forest, logistic regression, linear discriminant analysis, naive Bayes and nearest neighbour) and an ensemble classifier was developed and trained to categorise any given new questionnaire and suggest a diagnosis. For estimating the diagnostic accuracy, we applied ten-fold stratified cross validation."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "All questionnaires of patients suffering from CF, asthma (AS), PCD, acute bronchitis (AB) and the healthy control group were correctly diagnosed by the fusion algorithm. For the pneumonia (PM) group 19/21 (90.5%) and for the PBB group 17/18 (94.4%) correct diagnoses could be reached. The program detected the correct diagnoses with an overall sensitivity of 98.8%. Receiver operating characteristics (ROC) analyses confirmed the accuracy of this diagnostic tool. Case studies highlighted the applicability of the tool in the daily work of a GP."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "For children with symptoms of pulmonary diseases a questionnaire-based diagnostic support tool using data mining techniques exhibited good results in arriving at diagnostic suggestions. In the hands of a doctor, this tool could be of value in arousing awareness for rare pulmonary diseases such as PCD or CF."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ann-Katrin",
+            "LastName": "Rother",
+            "Initials": "AK",
+            "AffiliationInfo": {"Affiliation": "Department of Paediatric Haematology and Oncology, University Children's Hospital, Hanover Medical School, Hanover, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicolaus",
+            "LastName": "Schwerk",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Paediatric Pneumology, Allergy and Neonatology, University Children's Hospital, Hanover Medical School, Hanover, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Folke",
+            "LastName": "Brinkmann",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Paediatric Pneumology, University Children's Hospital, Ruhr- University Bochum, Bochum, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Frank",
+            "LastName": "Klawonn",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Helmholtz Centre for Infection Research, Braunschweig, Germany; Ostfalia University of Applied Sciences, Wolfenbuettel, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Werner",
+            "LastName": "Lechner",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Improved Medical Diagnostics, Ptd. Ltd., Singapore."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lorenz",
+            "LastName": "Grigull",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Paediatric Haematology and Oncology, University Children's Hospital, Hanover Medical School, Hanover, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Diagnostic Support for Selected Paediatric Pulmonary Diseases Using Answer-Pattern Recognition in Questionnaires Based on Combined Data Mining Applications--A Monocentric Observational Pilot Study.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0135180"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 10,
+          "PubDate": {"Year": 2015},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2015,
+      "Day": 13
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {"DescriptorName": {
+        "UI": "D002675",
+        "MajorTopicYN": "N",
+        "content": "Child, Preschool"
+      }},
+      {"DescriptorName": {
+        "UI": "D003627",
+        "MajorTopicYN": "N",
+        "content": "Data Interpretation, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D057225",
+        "MajorTopicYN": "N",
+        "content": "Data Mining"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007223",
+        "MajorTopicYN": "N",
+        "content": "Infant"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D008171",
+          "MajorTopicYN": "N",
+          "content": "Lung Diseases"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D010865",
+        "MajorTopicYN": "N",
+        "content": "Pilot Projects"
+      }},
+      {"DescriptorName": {
+        "UI": "D011795",
+        "MajorTopicYN": "Y",
+        "content": "Surveys and Questionnaires"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Hum Genet. 2015 Oct;23(10):1294-300",
+        "PMID": {
+          "Version": 1,
+          "content": 25626706
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Paediatr Child Health. 2008 Oct;13(8):672-4",
+        "PMID": {
+          "Version": 1,
+          "content": 19436519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Respir J. 2013 Apr;41(4):960-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22903970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Res. 2014 Jan;75(1-2):158-64",
+        "PMID": {
+          "Version": 1,
+          "content": 24192704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2006 May;129(5):1132-41",
+        "PMID": {
+          "Version": 1,
+          "content": 16685002
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2006;1:5334-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17946299
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2007 Oct;120(4):855-64",
+        "PMID": {
+          "Version": 1,
+          "content": 17908773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Respir J. 2010 Aug;36(2):255-60",
+        "PMID": {
+          "Version": 1,
+          "content": 20075050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Z Gerontol. 1987 Nov-Dec;20(6):367-76",
+        "PMID": {
+          "Version": 1,
+          "content": 3326319
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Respir J. 2010 Dec;36(6):1248-58",
+        "PMID": {
+          "Version": 1,
+          "content": 20530032
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2013 Dec;132(6):1047-54",
+        "PMID": {
+          "Version": 1,
+          "content": 24218462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Res Med Sci. 2012 Feb;17(2):182-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23264795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cochrane Database Syst Rev. 2014;9:CD006595",
+        "PMID": {
+          "Version": 1,
+          "content": 25242448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Community Pract. 2008 Mar;81(3):24-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18416405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Fam Pract. 2003 Dec;20(6):696-705",
+        "PMID": {
+          "Version": 1,
+          "content": 14701895
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Emerg Care. 2012 Jul;28(7):646-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22743749
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 1982 Sep 2;307(10):588-96",
+        "PMID": {
+          "Version": 1,
+          "content": 7110205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Orphanet J Rare Dis. 2014;9:11",
+        "PMID": {
+          "Version": 1,
+          "content": 24450482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Syst. 2012 Aug;36(4):2431-48",
+        "PMID": {
+          "Version": 1,
+          "content": 21537851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Quant Cytol. 1979 Nov-Dec;1(3):202-6",
+        "PMID": {
+          "Version": 1,
+          "content": 396840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(11):e27913",
+        "PMID": {
+          "Version": 1,
+          "content": 22140482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2012;12:143",
+        "PMID": {
+          "Version": 1,
+          "content": 23216895
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Paediatr Child Health. 2002 Dec;38(6):578-81",
+        "PMID": {
+          "Version": 1,
+          "content": 12410870
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med J Aust. 2006 Apr 17;184(8):398-403",
+        "PMID": {
+          "Version": 1,
+          "content": 16618239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Allergy Asthma Proc. 2014 Mar-Apr;35(2):95-103",
+        "PMID": {
+          "Version": 1,
+          "content": 24717785
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br Med J. 1979 Jan 6;1(6155):29-31",
+        "PMID": {
+          "Version": 1,
+          "content": 760944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Respir J. 1998 Oct;12(4):982-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9817179
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Pharm. 2011 Sep;79(3):493-505",
+        "PMID": {
+          "Version": 1,
+          "content": 21886899
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2005 Mar 15;171(6):621-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15591474
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2008 Apr;121(4):783-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18227192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Orv Hetil. 2012 Jul 29;153(30):1185-90",
+        "PMID": {
+          "Version": 1,
+          "content": 22835635
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Paediatr. 2002;91(6):667-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12162599
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Res. 2012 Jun;71(6):725-31",
+        "PMID": {
+          "Version": 1,
+          "content": 22441377
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Dis Child. 2000 Apr;82(4):327-32",
+        "PMID": {
+          "Version": 1,
+          "content": 10735844
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2002 Jul 15;156(2):165-73",
+        "PMID": {
+          "Version": 1,
+          "content": 12117708
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Dis Child. 1998 Sep;79(3):225-30",
+        "PMID": {
+          "Version": 1,
+          "content": 9875017
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2012 Aug;130(2):403-7.e5",
+        "PMID": {
+          "Version": 1,
+          "content": 22766098
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Thorax. 2007 Jan;62(1):80-4",
+        "PMID": {
+          "Version": 1,
+          "content": 17105776
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Pulm Med. 2011;11:27",
+        "PMID": {
+          "Version": 1,
+          "content": 21605395
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4534438"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26267801
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2015,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2015,
+        "Day": 17,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 8,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26267801,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0135180",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-15-21635",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC4534438",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

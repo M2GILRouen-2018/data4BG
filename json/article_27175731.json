@@ -1,0 +1,569 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101546899,
+      "Country": "Switzerland",
+      "ISSNLinking": "1664-2295",
+      "MedlineTA": "Front Neurol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 607},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Background",
+          "content": "Objective assessments of Parkinson's disease (PD) patients' motor state using motion capture techniques are still rarely used in clinical practice, even though they may improve clinical management. One major obstacle relates to the large dimensionality of motor abnormalities in PD. We aimed to extract global motor performance measures covering different everyday motor tasks, as a function of a clinical intervention, i.e., deep brain stimulation (DBS) of the subthalamic nucleus."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Methods",
+          "content": "We followed a data-driven, machine-learning approach and propose performance measures that employ Random Forests with probability distributions. We applied this method to 14 PD patients with DBS switched-off or -on, and 26 healthy control subjects performing the Timed Up and Go Test (TUG), the Functional Reach Test (FRT), a hand coordination task, walking 10-m straight, and a 90° curve."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "For each motor task, a Random Forest identified a specific set of metrics that optimally separated PD off DBS from healthy subjects. We noted the highest accuracy (94.6%) for standing up. This corresponded to a sensitivity of 91.5% to detect a PD patient off DBS, and a specificity of 97.2% representing the rate of correctly identified healthy subjects. We then calculated performance measures based on these sets of metrics and applied those results to characterize symptom severity in different motor tasks. Task-specific symptom severity measures correlated significantly with each other and with the Unified Parkinson's Disease Rating Scale (UPDRS, part III, correlation of r2\u2009=\u20090.79). Agreement rates between different measures ranged from 79.8 to 89.3%."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Conclusion",
+          "content": "The close correlation of PD patients' various motor abnormalities quantified by different, task-specific severity measures suggests that these abnormalities are only facets of the underlying one-dimensional severity of motor deficits. The identification and characterization of this underlying motor deficit may help to optimize therapeutic interventions, e.g., to \"automatically\" adapt DBS settings in PD patients."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andreas",
+            "LastName": "Kuhner",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computer Science, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "BrainLinks BrainTools, Cluster of Excellence, University of Freiburg, Freiburg, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tobias",
+            "LastName": "Schubert",
+            "Initials": "T",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computer Science, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "BrainLinks BrainTools, Cluster of Excellence, University of Freiburg, Freiburg, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Massimo",
+            "LastName": "Cenciarini",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "BrainLinks BrainTools, Cluster of Excellence, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Department of Neurology and Neuroscience, Medical Center, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Medical Faculty, University of Freiburg, Freiburg, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Isabella Katharina",
+            "LastName": "Wiesmeier",
+            "Initials": "IK",
+            "AffiliationInfo": [
+              {"Affiliation": "BrainLinks BrainTools, Cluster of Excellence, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Department of Neurology and Neuroscience, Medical Center, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Medical Faculty, University of Freiburg, Freiburg, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Volker Arnd",
+            "LastName": "Coenen",
+            "Initials": "VA",
+            "AffiliationInfo": [
+              {"Affiliation": "BrainLinks BrainTools, Cluster of Excellence, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Medical Faculty, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Department of Stereotactic and Functional Neurosurgery, Medical Center, University of Freiburg, Freiburg, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wolfram",
+            "LastName": "Burgard",
+            "Initials": "W",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computer Science, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "BrainLinks BrainTools, Cluster of Excellence, University of Freiburg, Freiburg, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cornelius",
+            "LastName": "Weiller",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "BrainLinks BrainTools, Cluster of Excellence, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Department of Neurology and Neuroscience, Medical Center, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Medical Faculty, University of Freiburg, Freiburg, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christoph",
+            "LastName": "Maurer",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "BrainLinks BrainTools, Cluster of Excellence, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Department of Neurology and Neuroscience, Medical Center, University of Freiburg, Freiburg, Germany."},
+              {"Affiliation": "Medical Faculty, University of Freiburg, Freiburg, Germany."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Correlations between Motor Symptoms across Different Motor Tasks, Quantified via Random Forest Feature Classification in Parkinson's Disease.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fneur.2017.00607"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 8,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Neurol",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1664-2295"
+        },
+        "Title": "Frontiers in neurology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Parkinson\u2019s disease"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "deep brain stimulation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "motion"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "random forest"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "sensor suit"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2013;2013:941-4",
+        "PMID": {
+          "Version": 1,
+          "content": 24109844
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mov Disord. 2016 Sep;31(9):1263-71",
+        "PMID": {
+          "Version": 1,
+          "content": 27273651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Parkinsonism Relat Disord. 2011 May;17(4):277-80",
+        "PMID": {
+          "Version": 1,
+          "content": 20801706
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Apr 30;10(4):e0124522",
+        "PMID": {
+          "Version": 1,
+          "content": 25928634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mov Disord. 2013 Jul;28(8):1080-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23520058
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2016 Nov;136:79-88",
+        "PMID": {
+          "Version": 1,
+          "content": 27686705
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2014 Nov 11;14(11):21329-57",
+        "PMID": {
+          "Version": 1,
+          "content": 25393786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurol. 2016 Aug;263(8):1544-51",
+        "PMID": {
+          "Version": 1,
+          "content": 27216626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2011 Oct;34(4):558-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21764583
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2012 Jan 15;203(1):152-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21978487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2012 Mar 30;205(1):177-81",
+        "PMID": {
+          "Version": 1,
+          "content": 22269595
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NeuroRehabilitation. 2015;37(1):3-10",
+        "PMID": {
+          "Version": 1,
+          "content": 26409689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2016 Dec 15;16(12 ):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27983676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mov Disord. 2008 Nov 15;23(15):2129-70",
+        "PMID": {
+          "Version": 1,
+          "content": 19025984
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2004 Aug;51(8):1434-43",
+        "PMID": {
+          "Version": 1,
+          "content": 15311830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2016 Aug;2016:651-654",
+        "PMID": {
+          "Version": 1,
+          "content": 28268412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurol. 2017 Aug;264(8):1642-1654",
+        "PMID": {
+          "Version": 1,
+          "content": 28251357
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Neurol. 2015 Jun 10;15:89",
+        "PMID": {
+          "Version": 1,
+          "content": 26059091
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2015 Sep;42(3):310-6",
+        "PMID": {
+          "Version": 1,
+          "content": 26163348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(2):e56956",
+        "PMID": {
+          "Version": 1,
+          "content": 23431395
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2016 Jan;43:239-44",
+        "PMID": {
+          "Version": 1,
+          "content": 26526223
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Parkinsons Dis. 2012;2(1):47-55",
+        "PMID": {
+          "Version": 1,
+          "content": 23939408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mov Disord. 2014 Apr 15;29(5):622-33",
+        "PMID": {
+          "Version": 1,
+          "content": 24757111
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Aug 05;11(8):e0157077",
+        "PMID": {
+          "Version": 1,
+          "content": 27494614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2017 Jan;51:218-221",
+        "PMID": {
+          "Version": 1,
+          "content": 27816900
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurol. 2017 Jul 25;8:361",
+        "PMID": {
+          "Version": 1,
+          "content": 28790972
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mov Disord. 2013 Sep 15;28(11):1534-43",
+        "PMID": {
+          "Version": 1,
+          "content": 24132841
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2017 Jul;145:135-145",
+        "PMID": {
+          "Version": 1,
+          "content": 28552119
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2012 Aug;59(8):2126-36",
+        "PMID": {
+          "Version": 1,
+          "content": 22180502
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Aging Neurosci. 2017 Jan 23;9:3",
+        "PMID": {
+          "Version": 1,
+          "content": 28167911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neuroeng Rehabil. 2014 Nov 11;11:152",
+        "PMID": {
+          "Version": 1,
+          "content": 25388296
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2012;2012:3688-91",
+        "PMID": {
+          "Version": 1,
+          "content": 23366728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Neurol. 2013 Dec 03;13:188",
+        "PMID": {
+          "Version": 1,
+          "content": 24299497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mov Disord. 2010 Nov 15;25(15):2649-53",
+        "PMID": {
+          "Version": 1,
+          "content": 21069833
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2016 May;63(5):1016-1024",
+        "PMID": {
+          "Version": 1,
+          "content": 26394414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mov Disord. 2016 Sep;31(9):1342-55",
+        "PMID": {
+          "Version": 1,
+          "content": 26945525
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Can J Aging. 2010 Mar;29(1):119-37",
+        "PMID": {
+          "Version": 1,
+          "content": 20202270
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurol. 2013 Dec;260(12):2964-72",
+        "PMID": {
+          "Version": 1,
+          "content": 23900754
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2013 Dec 27;14(1):356-69",
+        "PMID": {
+          "Version": 1,
+          "content": 24379043
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neuroeng Rehabil. 2016 May 12;13(1):46",
+        "PMID": {
+          "Version": 1,
+          "content": 27175731
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29184533
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29184533,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fneur.2017.00607",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5694559",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

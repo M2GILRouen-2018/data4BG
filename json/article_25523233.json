@@ -1,0 +1,751 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 51},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Quantitative assessment of calcified atherosclerotic volume within the coronary artery wall is vital for cardiac interventional procedures. The goal of this study is to automatically measure the calcium volume, given the borders of coronary vessel wall for all the frames of the intravascular ultrasound (IVUS) video. Three soft computing fuzzy classification techniques were adapted namely Fuzzy c-Means (FCM), K-means, and Hidden Markov Random Field (HMRF) for automated segmentation of calcium regions and volume computation. These methods were benchmarked against previously developed threshold-based method. IVUS image data sets (around 30,600 IVUS frames) from 15 patients were collected using 40 MHz IVUS catheter (Atlantis® SR Pro, Boston Scientific®, pullback speed of 0.5 mm/s). Calcium mean volume for FCM, K-means, HMRF and threshold-based method were 37.84 ± 17.38 mm(3), 27.79 ± 10.94 mm(3), 46.44 ± 19.13 mm(3) and 35.92 ± 16.44 mm(3) respectively. Cross-correlation, Jaccard Index and Dice Similarity were highest between FCM and threshold-based method: 0.99, 0.92 ± 0.02 and 0.95 + 0.02 respectively. Student's t-test, z-test and Wilcoxon-test are also performed to demonstrate consistency, reliability and accuracy of the results. Given the vessel wall region, the system reliably and automatically measures the calcium volume in IVUS videos. Further, we validated our system against a trained expert using scoring: K-means showed the best performance with an accuracy of 92.80%. Out procedure and protocol is along the line with method previously published clinically."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tadashi",
+            "LastName": "Araki",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Division of Cardiovascular Medicine, Toho University Ohashi Medical Center, Tokyo, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sumit K",
+            "LastName": "Banchhor",
+            "Initials": "SK",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India."},
+              {"Affiliation": "Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Narendra D",
+            "LastName": "Londhe",
+            "Initials": "ND",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India."},
+              {"Affiliation": "Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nobutaka",
+            "LastName": "Ikeda",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Cardiovascular Medicine, National Center for Global Health and Medicine, Tokyo, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Petia",
+            "LastName": "Radeva",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department MAIA, Computer Vision Centre, Cerdanyola del Vallés, University of Barcelona, Barcelona, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Devarshi",
+            "LastName": "Shukla",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Electrical Engineering, NIT Raipur, Chhattisgarh, India."},
+              {"Affiliation": "Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luca",
+            "LastName": "Saba",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Cagliari, Cagliari, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Antonella",
+            "LastName": "Balestrieri",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Cagliari, Cagliari, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew",
+            "LastName": "Nicolaides",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Vascular Screening and Diagnostic Centre, London, UK."},
+              {"Affiliation": "Vascular Diagnostic Centre, University of Cyprus, Nicosia, Cyprus."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shoaib",
+            "LastName": "Shafique",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "CorVasc Vascular Laboratory, 8433 Harcourt Rd #100, Indianapolis, IN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John R",
+            "LastName": "Laird",
+            "Initials": "JR",
+            "AffiliationInfo": {"Affiliation": "UC Davis Vascular Centre, University of California, Davis, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jasjit S",
+            "LastName": "Suri",
+            "Initials": "JS",
+            "AffiliationInfo": [
+              {"Affiliation": "Monitoring and Diagnostic Division, AtheroPoint™, Roseville, CA, USA. Jasjit.Suri@atheropoint.com."},
+              {"Affiliation": "Point-of-Care Devices, Global Biomedical Technologies, Inc., Roseville, CA, USA. Jasjit.Suri@atheropoint.com."},
+              {"Affiliation": "Department of Electrical Engineering, University of Idaho (Affl.), Moscow, ID, USA. Jasjit.Suri@atheropoint.com."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Reliable and Accurate Calcium Volume Measurement in Coronary Artery Using Intravascular Ultrasound Videos.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10916-015-0407-z"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 40,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Med Syst",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1573-689X"
+        },
+        "Title": "Journal of medical systems"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2015,
+      "Day": "08"
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 27
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Cleve Clin J Med. 2003 Aug;70(8):713-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12959398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2003 Apr 29;107(16):2072-5",
+        "PMID": {
+          "Version": 1,
+          "content": 12719287
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2001 Jun 19;103(24):3019-41",
+        "PMID": {
+          "Version": 1,
+          "content": 11413094
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Heart J. 2015 Oct 21;36(40):2696-705",
+        "PMID": {
+          "Version": 1,
+          "content": 26306399
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasound Med Biol. 2008 Jan;34(1):160-5",
+        "PMID": {
+          "Version": 1,
+          "content": 17761383
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2000 Oct;19(10 ):996-1011",
+        "PMID": {
+          "Version": 1,
+          "content": 11131497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 May;25(5):590-601",
+        "PMID": {
+          "Version": 1,
+          "content": 16689263
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Syst. 2011 Oct;35(5):905-19",
+        "PMID": {
+          "Version": 1,
+          "content": 20703689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heart. 2002 Jul;88(1):91-6",
+        "PMID": {
+          "Version": 1,
+          "content": 12067962
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2009 Nov;18(11):2385-401",
+        "PMID": {
+          "Version": 1,
+          "content": 19556195
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Catheter Cardiovasc Interv. 2013 Feb;81(3):471-80",
+        "PMID": {
+          "Version": 1,
+          "content": 22422630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Mol Sci. 2015 May 05;16(5):10121-33",
+        "PMID": {
+          "Version": 1,
+          "content": 25950760
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Cardiovasc Genet. 2012 Feb 1;5(1):113-21",
+        "PMID": {
+          "Version": 1,
+          "content": 22235037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasound Med Biol. 2015 May;41(5):1247-62",
+        "PMID": {
+          "Version": 1,
+          "content": 25638311
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1998 May 12;97(18):1837-47",
+        "PMID": {
+          "Version": 1,
+          "content": 9603539
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biomed Eng. 2000;2:315-37",
+        "PMID": {
+          "Version": 1,
+          "content": 11701515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1998 Dec 15;98 (24):2687-94",
+        "PMID": {
+          "Version": 1,
+          "content": 9851954
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Indian J Med Res. 2010 Nov;132:561-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21150008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am Heart J. 1995 Sep;130(3 Pt 1):413-9",
+        "PMID": {
+          "Version": 1,
+          "content": 7661054
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 2005;113:321-59",
+        "PMID": {
+          "Version": 1,
+          "content": 15923747
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2005 May 26;352(21):2174-83",
+        "PMID": {
+          "Version": 1,
+          "content": 15917382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2008 Jan 24;358(4):331-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18216353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Syst. 2011 Apr;35(2):203-13",
+        "PMID": {
+          "Version": 1,
+          "content": 20703569
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Coron Artery Dis. 2014 May;25(3):236-41",
+        "PMID": {
+          "Version": 1,
+          "content": 24441109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int Angiol. 2014 Aug;33(4):392-403",
+        "PMID": {
+          "Version": 1,
+          "content": 25056172
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2007 Mar;31(2):71-80",
+        "PMID": {
+          "Version": 1,
+          "content": 17215103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2002 Mar 5;105(9):1135-43",
+        "PMID": {
+          "Version": 1,
+          "content": 11877368
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasound Med Biol. 2010 Jan;36(1):111-29",
+        "PMID": {
+          "Version": 1,
+          "content": 19900745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Nov 05;9(11):e109997",
+        "PMID": {
+          "Version": 1,
+          "content": 25372784
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Transcult Nurs. 2015 Jan;26(1):57-63",
+        "PMID": {
+          "Version": 1,
+          "content": 24692337
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Heart J. 2007 Feb;28(4):398-406",
+        "PMID": {
+          "Version": 1,
+          "content": 17277033
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2016 Feb;124:161-79",
+        "PMID": {
+          "Version": 1,
+          "content": 26707374
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 2012 Jul 6;111(2):245-59",
+        "PMID": {
+          "Version": 1,
+          "content": 22773427
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasound Med Biol. 2000 May;26(4):527-37",
+        "PMID": {
+          "Version": 1,
+          "content": 10856615
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2015 Jan 27;131(4):e29-322",
+        "PMID": {
+          "Version": 1,
+          "content": 25520374
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2014;2014:621437",
+        "PMID": {
+          "Version": 1,
+          "content": 25170513
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arterioscler Thromb Vasc Biol. 2014 May;34(5):1069-77",
+        "PMID": {
+          "Version": 1,
+          "content": 24558110
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2001 Apr 12;344(15):1117-24",
+        "PMID": {
+          "Version": 1,
+          "content": 11297702
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Ultrasound Med. 2015 Mar;34(3):469-82",
+        "PMID": {
+          "Version": 1,
+          "content": 25715368
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Cardiol. 2000 Jan 1;85(1):37-40",
+        "PMID": {
+          "Version": 1,
+          "content": 11078233
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Inf Technol Biomed. 2012 Sep;16(5):823-34",
+        "PMID": {
+          "Version": 1,
+          "content": 22389156
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2006 Feb 7;113(5):657-63",
+        "PMID": {
+          "Version": 1,
+          "content": 16461838
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2015 Feb;118(2):158-72",
+        "PMID": {
+          "Version": 1,
+          "content": 25523233
+        }
+      }
+    ]},
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7806056,
+      "Country": "United States",
+      "ISSNLinking": "0148-5598",
+      "MedlineTA": "J Med Syst"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D002118",
+        "content": "Calcium"
+      },
+      "RegistryNumber": "SY7Q814VUP"
+    }},
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2016,
+      "Day": 14
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Accuracy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Atherosclerosis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Coronary arteries"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "IVUS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Interventional cardiology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Performance"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Reliability"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Soft computing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "calcium volume"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000369",
+        "MajorTopicYN": "N",
+        "content": "Aged, 80 and over"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000032",
+          "MajorTopicYN": "Y",
+          "content": "analysis"
+        },
+        "DescriptorName": {
+          "UI": "D002118",
+          "MajorTopicYN": "N",
+          "content": "Calcium"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003331",
+          "MajorTopicYN": "N",
+          "content": "Coronary Vessels"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D017143",
+        "MajorTopicYN": "N",
+        "content": "Fuzzy Logic"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D014463",
+        "MajorTopicYN": "N",
+        "content": "Ultrasonography"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D061205",
+          "MajorTopicYN": "N",
+          "content": "Vascular Calcification"
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26643081
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2015,
+        "Day": 26,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2015,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26643081,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10916-015-0407-z",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10916-015-0407-z",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

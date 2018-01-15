@@ -1,0 +1,564 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D035683",
+        "content": "MicroRNAs"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 474},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "MicroRNAs (miRNAs) are key gene expression regulators in plants and animals. Therefore, miRNAs are involved in several biological processes, making the study of these molecules one of the most relevant topics of molecular biology nowadays. However, characterizing miRNAs in vivo is still a complex task. As a consequence, in silico methods have been developed to predict miRNA loci. A common ab initio strategy to find miRNAs in genomic data is to search for sequences that can fold into the typical hairpin structure of miRNA precursors (pre-miRNAs). The current ab initio approaches, however, have selectivity issues, i.e., a high number of false positives is reported, which can lead to laborious and costly attempts to provide biological validation. This study presents an extension of the ab initio method miRNAFold, with the aim of improving selectivity through machine learning techniques, namely, random forest combined with the SMOTE procedure that copes with imbalance datasets."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "By comparing our method, termed Mirnacle, with other important approaches in the literature, we demonstrate that Mirnacle substantially improves selectivity without compromising sensitivity. For the three datasets used in our experiments, our method achieved at least 97% of sensitivity and could deliver a two-fold, 20-fold, and 6-fold increase in selectivity, respectively, compared with the best results of current computational tools."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The extension of miRNAFold by the introduction of machine learning techniques, significantly increases selectivity in pre-miRNA ab initio prediction, which optimally contributes to advanced studies on miRNAs, as the need of biological validations is diminished. Hopefully, new research, such as studies of severe diseases caused by miRNA malfunction, will benefit from the proposed computational tool."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuri Bento",
+            "LastName": "Marques",
+            "Initials": "YB",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Informatics, Universidade Federal de Viçosa, Viçosa, 36570-900, Brazil."},
+              {"Affiliation": "Instituto Federal do Norte de Minas, Rua Mocambi, Teófilo Otoni, 39800-430, Brazil."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alcione",
+            "LastName": "de Paiva Oliveira",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Informatics, Universidade Federal de Viçosa, Viçosa, 36570-900, Brazil."},
+              {"Affiliation": "Department of Computer Science, University of Sheffield, Western Bank S10 2TNSheffield, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ana Tereza",
+            "LastName": "Ribeiro Vasconcelos",
+            "Initials": "AT",
+            "AffiliationInfo": {"Affiliation": "Laboratório Nacional de Computação Científica, Rua Getúlio Vargas 333, Petropólis, 25651-071, Brazil."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fabio Ribeiro",
+            "LastName": "Cerqueira",
+            "Initials": "FR",
+            "AffiliationInfo": {"Affiliation": "Department of Informatics, Universidade Federal de Viçosa, Viçosa, 36570-900, Brazil. fabio.cerqueira@ufv.br."}
+          }
+        ]
+      },
+      "ArticleTitle": "Mirnacle: machine learning with SMOTE and random forest for improving selectivity in pre-miRNA ab initio prediction.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-016-1343-8"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Suppl 18",
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Data mining"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pre-miRNA ab initio prediction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Random forest"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Smote"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "microRNA"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D056890",
+          "MajorTopicYN": "N",
+          "content": "Eukaryota"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016678",
+        "MajorTopicYN": "N",
+        "content": "Genome"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D023281",
+          "MajorTopicYN": "N",
+          "content": "Genomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "Y",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D035683",
+          "MajorTopicYN": "N",
+          "content": "MicroRNAs"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D009690",
+        "MajorTopicYN": "N",
+        "content": "Nucleic Acid Conformation"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D010944",
+          "MajorTopicYN": "N",
+          "content": "Plants"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "ErratumIn",
+        "RefSource": "BMC Bioinformatics. 2017 Feb 17;18(1):113",
+        "PMID": {
+          "Version": 1,
+          "content": 28212605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Cell Biol. 2013 Oct;15(10):1153-63",
+        "PMID": {
+          "Version": 1,
+          "content": 23974039
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2003 Jul 18;301(5631):336-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12869753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 2006 May;12(5):733-50",
+        "PMID": {
+          "Version": 1,
+          "content": 16540699
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Nov 11;432(7014):226-30",
+        "PMID": {
+          "Version": 1,
+          "content": 15538371
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Algorithms Mol Biol. 2011 Nov 24;6:26",
+        "PMID": {
+          "Version": 1,
+          "content": 22115189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D68-73",
+        "PMID": {
+          "Version": 1,
+          "content": 24275495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Sep 16;431(7006):350-5",
+        "PMID": {
+          "Version": 1,
+          "content": 15372042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Virol J. 2009 Aug 20;6:129",
+        "PMID": {
+          "Version": 1,
+          "content": 19691855
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Apr 15;25(8):989-95",
+        "PMID": {
+          "Version": 1,
+          "content": 19233894
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2014 Aug;15(8):509-24",
+        "PMID": {
+          "Version": 1,
+          "content": 25027649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA Biol. 2012 Mar;9(3):274-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22336709
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 2008 Aug 8;372(4):831-4",
+        "PMID": {
+          "Version": 1,
+          "content": 18522801
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dev Biol. 2004 Jun 15;270(2):488-98",
+        "PMID": {
+          "Version": 1,
+          "content": 15183728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Cell Biol. 2009 Jun;21(3):461-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19278845
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bioinform Comput Biol. 2013 Dec;11(6):1343009",
+        "PMID": {
+          "Version": 1,
+          "content": 24372038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(9):e44314",
+        "PMID": {
+          "Version": 1,
+          "content": 22957063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014;42(16):e124",
+        "PMID": {
+          "Version": 1,
+          "content": 25053842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Mol Biol. 2008;453:3-31",
+        "PMID": {
+          "Version": 1,
+          "content": 18712296
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2013 Mar;18(5-6):282-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23064097
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Obes (Lond). 2013 Mar;37(3):325-32",
+        "PMID": {
+          "Version": 1,
+          "content": 22531086
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2013 Feb;101(2):94-100",
+        "PMID": {
+          "Version": 1,
+          "content": 23174671
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2005 Dec 29;6:310",
+        "PMID": {
+          "Version": 1,
+          "content": 16381612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Apr 19;12:107",
+        "PMID": {
+          "Version": 1,
+          "content": 21504621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Mar 05;14:83",
+        "PMID": {
+          "Version": 1,
+          "content": 23497112
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2012 Nov;11(11):860-72",
+        "PMID": {
+          "Version": 1,
+          "content": 23080337
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2006 Dec 1;108(12):3646-53",
+        "PMID": {
+          "Version": 1,
+          "content": 16882713
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jun;40(11):e80",
+        "PMID": {
+          "Version": 1,
+          "content": 22362754
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28105918
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28105918,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-016-1343-8",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-016-1343-8",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5249014",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

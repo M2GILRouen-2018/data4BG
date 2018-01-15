@@ -1,0 +1,251 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "123-138"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVES",
+            "content": "Accurate segmentation of brain tissues from magnetic resonance (MR) images based on the unsupervised statistical models such as Gaussian mixture model (GMM) has been widely studied during last decades. However, most GMM based segmentation methods suffer from limited accuracy due to the influences of noise and intensity inhomogeneity in brain MR images. To further improve the accuracy for brain MR image segmentation, this paper presents a Robust Generative Asymmetric GMM (RGAGMM) for simultaneous brain MR image segmentation and intensity inhomogeneity correction."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHOD",
+            "content": "First, we develop an asymmetric distribution to fit the data shapes, and thus construct a spatial constrained asymmetric model. Then, we incorporate two pseudo-likelihood quantities and bias field estimation into the model's log-likelihood, aiming to exploit the neighboring priors of within-cluster and between-cluster and to alleviate the impact of intensity inhomogeneity, respectively. Finally, an expectation maximization algorithm is derived to iteratively maximize the approximation of the data log-likelihood function to overcome the intensity inhomogeneity in the image and segment the brain MR images simultaneously."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "To demonstrate the performances of the proposed algorithm, we first applied the proposed algorithm to a synthetic brain MR image to show the intermediate illustrations and the estimated distribution of the proposed algorithm. The next group of experiments is carried out in clinical 3T-weighted brain MR images which contain quite serious intensity inhomogeneity and noise. Then we quantitatively compare our algorithm to state-of-the-art segmentation approaches by using Dice coefficient (DC) on benchmark images obtained from IBSR and BrainWeb with different level of noise and intensity inhomogeneity. The comparison results on various brain MR images demonstrate the superior performances of the proposed algorithm in dealing with the noise and intensity inhomogeneity."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "In this paper, the RGAGMM algorithm is proposed which can simply and efficiently incorporate spatial constraints into an EM framework to simultaneously segment brain MR images and estimate the intensity inhomogeneity. The proposed algorithm is flexible to fit the data shapes, and can simultaneously overcome the influence of noise and intensity inhomogeneity, and hence is capable of improving over 5% segmentation accuracy comparing with several state-of-the-art algorithms."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zexuan",
+            "LastName": "Ji",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China. Electronic address: jizexuan@njust.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yong",
+            "LastName": "Xia",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Shaanxi Key Lab of Speech and Image Information Processing (SAIIP), School of Computer Science, Northwestern Polytechnical University, Xi'an, 710072, China; Centre for Multidisciplinary Convergence Computing (CMCC), School of Computer Science, Northwestern Polytechnical University, Xi'an, 710072, China. Electronic address: yxia@nwpu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuhui",
+            "LastName": "Zheng",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Computer and Software, Nanjing University of Information Science and Technology, Nanjing, 210044, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Robust generative asymmetric GMM for brain MR image segmentation.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)31382-7"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.08.017"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 151,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Asymmetric distribution"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Brain MR image segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Expectation-maximization algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian mixture model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Intensity inhomogeneity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Markov random fields"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "Y",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D016011",
+        "MajorTopicYN": "N",
+        "content": "Normal Distribution"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28946994
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": "08",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28946994,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)31382-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.08.017",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

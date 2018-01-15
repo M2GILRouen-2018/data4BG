@@ -1,0 +1,225 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9810948,
+      "Country": "Netherlands",
+      "ISSNLinking": "1386-2073",
+      "MedlineTA": "Comb Chem High Throughput Screen"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright© Bentham Science Publishers; For any queries, please email at epub@benthamscience.org.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "Drug-induced liver injury (DILI) is a major cause of drug withdrawal. The chemical properties of the drug, especially drug metabolites, play key roles in DILI. Our goal is to construct a QSAR model to predict drug hepatotoxicity based on drug metabolites."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "MATERIALS AND METHODS",
+            "content": "64 hepatotoxic drug metabolites and 3,339 non-hepatotoxic drug metabolites were gathered from MDL Metabolite Database. Considering the imbalance of the dataset, we randomly split the negative samples and combined each portion with all the positive samples to construct individually balanced datasets for constructing independent classifiers. Then, we adopted an ensemble approach to make prediction based on the results of all individual classifiers and applied the minimum Redundancy Maximum Relevance (mRMR) feature selection method to select the molecular descriptors. Eventually, for the drugs in the external test set, a Bayesian inference method was used to predict the hepatotoxicity of a drug based on its metabolites."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The model showed the average balanced accuracy=78.47%, sensitivity =74.17%, and specificity=82.77%. Five molecular descriptors characterizing molecular polarity, intramolecular bonding strength, and molecular frontier orbital energy were obtained. When predicting the hepatotoxicity of a drug based on all its metabolites, the sensitivity, specificity and balanced accuracy were 60.38%, 70.00%, and 65.19%, respectively, indicating that this method is useful for identifying the hepatotoxicity of drugs."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "We developed an in silico model to predict hepatotoxicity of drug metabolites. Moreover, Bayesian inference was applied to predict the hepatotoxicity of a drug based on its metabolites which brought out valuable high sensitivity and specificity."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yin",
+            "LastName": "Lu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai, 201203. China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lili",
+            "LastName": "Liu",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai, 201203. China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dong",
+            "LastName": "Lu",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai, 201203. China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yudong",
+            "LastName": "Cai",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Institute of Systems Biology, Shanghai University, Shanghai 200444. China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mingyue",
+            "LastName": "Zheng",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai, 201203. China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaomin",
+            "LastName": "Luo",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai, 201203. China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hualiang",
+            "LastName": "Jiang",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai, 201203. China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kaixian",
+            "LastName": "Chen",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Drug Discovery and Design Center, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, 555 Zuchongzhi Road, Shanghai, 201203. China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Predicting Hepatotoxicity of Drug Metabolites via an Ensemble Approach Based on Support Cector Machine.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.2174/1386207320666171121113255"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comb. Chem. High Throughput Screen.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1875-5402"
+        },
+        "Title": "Combinatorial chemistry & high throughput screening"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Drug metabolites"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Drug-induced liver injury"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hepatotoxicity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Quantitative structure\u2013activity relationship"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 22
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29165069
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29165069,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "CCHTS-EPUB-87014",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.2174/1386207320666171121113255",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

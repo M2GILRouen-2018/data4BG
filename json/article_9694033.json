@@ -1,0 +1,421 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101563288,
+      "Country": "England",
+      "ISSNLinking": "2045-2322",
+      "MedlineTA": "Sci Rep"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 16416},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Wellcome Trust",
+          "Country": "United Kingdom"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Unknown adverse reactions to drugs available on the market present a significant health risk and limit accurate judgement of the cost/benefit trade-off for medications. Machine learning has the potential to predict unknown adverse reactions from current knowledge. We constructed a knowledge graph containing four types of node: drugs, protein targets, indications and adverse reactions. Using this graph, we developed a machine learning algorithm based on a simple enrichment test and first demonstrated this method performs extremely well at classifying known causes of adverse reactions (AUC 0.92). A cross validation scheme in which 10% of drug-adverse reaction edges were systematically deleted per fold showed that the method correctly predicts 68% of the deleted edges on average. Next, a subset of adverse reactions that could be reliably detected in anonymised electronic health records from South London and Maudsley NHS Foundation Trust were used to validate predictions from the model that are not currently known in public databases. High-confidence predictions were validated in electronic records significantly more frequently than random models, and outperformed standard methods (logistic regression, decision trees and support vector machines). This approach has the potential to improve patient safety by predicting adverse reactions that were not observed during randomised trials."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel M",
+            "LastName": "Bean",
+            "Initials": "DM",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics and Health Informatics, Institute of Psychiatry Psychology and Neuroscience, King's College London, 16 De Crespigny Park, London, SE5 8AF, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Honghan",
+            "LastName": "Wu",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics and Health Informatics, Institute of Psychiatry Psychology and Neuroscience, King's College London, 16 De Crespigny Park, London, SE5 8AF, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Olubanke",
+            "LastName": "Dzahini",
+            "Initials": "O",
+            "AffiliationInfo": [
+              {"Affiliation": "South London and Maudsley NHS Foundation Trust, Denmark Hill, London, SE5 8AZ, United Kingdom."},
+              {"Affiliation": "Institute of Pharmaceutical Science, King's College, London, 5th Floor, Franklin-Wilkins Building, 150 Stamford Street, London, SE1 9NH, United Kingdom."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew",
+            "LastName": "Broadbent",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "South London and Maudsley NHS Foundation Trust, Denmark Hill, London, SE5 8AZ, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert",
+            "LastName": "Stewart",
+            "Initials": "R",
+            "AffiliationInfo": [
+              {"Affiliation": "South London and Maudsley NHS Foundation Trust, Denmark Hill, London, SE5 8AZ, United Kingdom."},
+              {"Affiliation": "Institute of Psychiatry, Psychology and Neuroscience, King's College London, 16 De Crespigny Park, London, SE5 8AF, United Kingdom."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-4224-9245"
+            },
+            "ForeName": "Richard J B",
+            "LastName": "Dobson",
+            "Initials": "RJB",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biostatistics and Health Informatics, Institute of Psychiatry Psychology and Neuroscience, King's College London, 16 De Crespigny Park, London, SE5 8AF, United Kingdom. richard.j.dobson@kcl.ac.uk."},
+              {"Affiliation": "Farr Institute of Health Informatics Research, UCL Institute of Health Informatics, University College London, London, WC1E 6BT, United Kingdom. richard.j.dobson@kcl.ac.uk."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Knowledge graph prediction of unknown adverse drug reactions and validation in electronic health records.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1038/s41598-017-16674-x"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 7,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sci Rep",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2045-2322"
+        },
+        "Title": "Scientific reports"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Wiley Interdiscip Rev Syst Biol Med. 2016 Mar-Apr;8(2):104-22",
+        "PMID": {
+          "Version": 1,
+          "content": 26559926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2011 Dec 21;3(114):114ra127",
+        "PMID": {
+          "Version": 1,
+          "content": 22190238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2013 Jul 11;13:71",
+        "PMID": {
+          "Version": 1,
+          "content": 23842533
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2013 May 1;20(3):413-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23118093
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Biol. 2013 Apr 18;20(4):594-603",
+        "PMID": {
+          "Version": 1,
+          "content": 23601648
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2014 Jun 26;57(12):4977-5010",
+        "PMID": {
+          "Version": 1,
+          "content": 24351051
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Saf. 2006;29(5):385-96",
+        "PMID": {
+          "Version": 1,
+          "content": 16689555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2016 Jan 1;68:101-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26638149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Aug 14;10(8):e0134208",
+        "PMID": {
+          "Version": 1,
+          "content": 26273830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2011 Dec 23;12 Suppl 5:S11",
+        "PMID": {
+          "Version": 1,
+          "content": 22369493
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Regul Toxicol Pharmacol. 2010 Apr;56(3):276-89",
+        "PMID": {
+          "Version": 1,
+          "content": 19941924
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Neuropsychopharmacol. 1997 Aug;7(3):207-12",
+        "PMID": {
+          "Version": 1,
+          "content": 9213080
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2005 Nov 1;10(21):1421-33",
+        "PMID": {
+          "Version": 1,
+          "content": 16243262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Jun;19(e1):e28-35",
+        "PMID": {
+          "Version": 1,
+          "content": 22718037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2015 Sep 28;55(9):1804-23",
+        "PMID": {
+          "Version": 1,
+          "content": 26251970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Pharm Des. 2016;22(23):3498-526",
+        "PMID": {
+          "Version": 1,
+          "content": 27157416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2015 Dec 28;55(12 ):2519-27",
+        "PMID": {
+          "Version": 1,
+          "content": 26549421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2004 Jul 3;329(7456):15-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15231615
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Aug 1;32(15):2338-45",
+        "PMID": {
+          "Version": 1,
+          "content": 27153606
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Jun 26;14:207",
+        "PMID": {
+          "Version": 1,
+          "content": 23802887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 May 18;12:169",
+        "PMID": {
+          "Version": 1,
+          "content": 21586169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurol Neurosurg Psychiatry. 1988 Nov;51(11):1461",
+        "PMID": {
+          "Version": 1,
+          "content": 3236028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 1998 Apr 15;279(15):1200-5",
+        "PMID": {
+          "Version": 1,
+          "content": 9555760
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jan 4;44(D1):D1075-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26481350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D1091-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24203711
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Psychopharmacol. 1997 Oct;17(5):377-89",
+        "PMID": {
+          "Version": 1,
+          "content": 9315989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2013 May 1;20(3):420-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23161894
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2012 Dec 21;52(12):3284-92",
+        "PMID": {
+          "Version": 1,
+          "content": 23157436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Psychopharmacol. 1998;12(2):192-214",
+        "PMID": {
+          "Version": 1,
+          "content": 9694033
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29180758
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29180758,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1038/s41598-017-16674-x",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1038/s41598-017-16674-x",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5703951",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,378 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2014,
+      "Day": 16
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 312},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "PHS HHS",
+            "Country": "United States",
+            "GrantID": "HHSN271201300004C"
+          },
+          {
+            "Agency": "NHGRI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HG006465",
+            "Acronym": "HG"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA140561",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 ES016813",
+            "Acronym": "ES"
+          },
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 ES019876",
+            "Acronym": "ES"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Testing for marginal associations between numerous genetic variants and disease may miss complex relationships among variables (e.g., gene-gene interactions). Bayesian approaches can model multiple variables together and offer advantages over conventional model building strategies, including using existing biological evidence as modeling priors and acknowledging that many models may fit the data well. With many candidate variables, Bayesian approaches to variable selection rely on algorithms to approximate the posterior distribution of models, such as Markov-Chain Monte Carlo (MCMC). Unfortunately, MCMC is difficult to parallelize and requires many iterations to adequately sample the posterior. We introduce a scalable algorithm called PEAK that improves the efficiency of MCMC by dividing a large set of variables into related groups using a rooted graph that resembles a mountain peak. Our algorithm takes advantage of parallel computing and existing biological databases when available."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "By using graphs to manage a model space with more than 500,000 candidate variables, we were able to improve MCMC efficiency and uncover the true simulated causal variables, including a gene-gene interaction. We applied PEAK to a case-control study of childhood asthma with 2,521 genetic variants. We used an informative graph for oxidative stress derived from Gene Ontology and identified several variants in ERBB4, OXR1, and BCL2 with strong evidence for associations with childhood asthma."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We introduced an extremely flexible analysis framework capable of efficiently performing Bayesian variable selection on many candidate variables. The PEAK algorithm can be provided with an informative graph, which can be advantageous when considering gene-gene interactions, or a symmetric graph, which simply divides the model space into manageable regions. The PEAK framework is compatible with various model forms, allowing for the algorithm to be configured for different study designs and applications, such as pathway or rare-variant analyses, by simple modifications to the model likelihood and proposal functions."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "James W",
+            "LastName": "Baurley",
+            "Initials": "JW",
+            "AffiliationInfo": {"Affiliation": "Bioinformatics Research Group, Bina Nusantara University, Jakarta, Indonesia. baurley@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David V",
+            "LastName": "Conti",
+            "Initials": "DV"
+          }
+        ]
+      },
+      "ArticleTitle": "A scalable, knowledge-based analysis framework for genetic association studies.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1471-2105-14-312"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 14,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2013,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "01",
+      "Year": 2014,
+      "Day": 17
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D001249",
+          "MajorTopicYN": "N",
+          "content": "Asthma"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {"DescriptorName": {
+        "UI": "D016022",
+        "MajorTopicYN": "N",
+        "content": "Case-Control Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D056726",
+          "MajorTopicYN": "N",
+          "content": "Genetic Association Studies"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D051188",
+        "MajorTopicYN": "Y",
+        "content": "Knowledge Bases"
+      }},
+      {"DescriptorName": {
+        "UI": "D008390",
+        "MajorTopicYN": "N",
+        "content": "Markov Chains"
+      }},
+      {"DescriptorName": {
+        "UI": "D008957",
+        "MajorTopicYN": "Y",
+        "content": "Models, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "N",
+        "content": "Monte Carlo Method"
+      }},
+      {"DescriptorName": {
+        "UI": "D020641",
+        "MajorTopicYN": "N",
+        "content": "Polymorphism, Single Nucleotide"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2016,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2000 Jun;155(2):945-59",
+        "PMID": {
+          "Version": 1,
+          "content": 10835412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Immunol. 2003 Dec;109(3):250-65",
+        "PMID": {
+          "Version": 1,
+          "content": 14697739
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 1999 Jan 1;27(1):29-34",
+        "PMID": {
+          "Version": 1,
+          "content": 9847135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 1999 Mar;159(3):760-7",
+        "PMID": {
+          "Version": 1,
+          "content": 10051248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2011 Nov;35(7):638-49",
+        "PMID": {
+          "Version": 1,
+          "content": 22009789
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Oct 8;461(7265):747-53",
+        "PMID": {
+          "Version": 1,
+          "content": 19812666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2010 Aug 30;29(19):1998-2011",
+        "PMID": {
+          "Version": 1,
+          "content": 20683892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genomics. 2009 Oct;4(1):21-42",
+        "PMID": {
+          "Version": 1,
+          "content": 21072972
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2010 Dec;34(8):816-34",
+        "PMID": {
+          "Version": 1,
+          "content": 21058334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Health Perspect. 1999 Jun;107 Suppl 3:403-7",
+        "PMID": {
+          "Version": 1,
+          "content": 10346989
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4015032"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 24152222
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2013,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2013,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 10,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24152222,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1471-2105-14-312",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1471-2105-14-312",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4015032",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

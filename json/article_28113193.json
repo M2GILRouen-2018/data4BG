@@ -1,0 +1,234 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 18
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "395-407"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "Label": "OBJECTIVE",
+          "content": "To design a Computer-aided diagnosis (CAD) system using an optimized methodology over the P3b wave in order to objectively and accurately discriminate between healthy controls (HC) and schizophrenic subjects (SZ)."
+        },
+        {
+          "Label": "METHODS",
+          "content": "We train, test, analyze, and compare various machine learning classification approaches optimized in terms of the correct classification rate (CCR), the degenerated Youden's index (DYI) and the area under the receiver operating curve (AUC). CAD system comprises five stages: electroencephalography (EEG) preprocessing, feature extraction, seven electrode groupings, discriminant feature selection, and binary classification."
+        },
+        {
+          "Label": "RESULTS",
+          "content": "With two optimal combinations of electrode grouping, filtering, feature selection algorithm, and classification machine, we get either a mean CCR = 93.42%, specificity = 0.9673, sensitivity = 0.8727, DYI = 0.9188, and AUC = 0.9567 (total-15 Hz-J5-MLP), or a mean CCR = 92.23%, specificity = 0.9499, sensitivity = 0.8838, DYI = 0.9162, and AUC = 0.9807 (right hemisphere-35 Hz-J5-SVM), which to our knowledge are higher than those available to date."
+        },
+        {
+          "Label": "CONCLUSIONS",
+          "content": "We have verified that a more restrictive low-pass filtering achieves higher CCR as compared to others at higher frequencies in the P3b wave. In addition, results validate previous hypothesis about the importance of the parietal-temporal region, associated with memory processing, allowing us to identify powerful {feature,electrode} pairs in the diagnosis of schizophrenia, achieving higher CCR and AUC in classification of both right and left Hemispheres, and parietal-temporal EEG signals, like, for instance, the {PSE, P4} pair (J5 and mutual information feature selection)."
+        },
+        {
+          "Label": "SIGNIFICANCE",
+          "content": "Diagnosis of schizophrenia is made thoroughly by psychiatrists but as any human-based decision that has a subjective component. This CAD system provides the human expert with an objective complimentary measure to help him in diagnosing schizophrenia."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lorenzo",
+            "LastName": "Santos-Mayo",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luis M",
+            "LastName": "San-Jose-Revuelta",
+            "Initials": "LM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Juan Ignacio",
+            "LastName": "Arribas",
+            "Initials": "JI"
+          }
+        ]
+      },
+      "ArticleTitle": "A Computer-Aided Diagnosis System With EEG Based on the P3b Wave During an Auditory Odd-Ball Task in Schizophrenia.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2558824"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "02",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D019540",
+        "MajorTopicYN": "N",
+        "content": "Area Under Curve"
+      }},
+      {"DescriptorName": {
+        "UI": "D016022",
+        "MajorTopicYN": "N",
+        "content": "Case-Control Studies"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D003936",
+          "MajorTopicYN": "N",
+          "content": "Diagnosis, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D004569",
+          "MajorTopicYN": "N",
+          "content": "Electroencephalography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D012372",
+        "MajorTopicYN": "N",
+        "content": "ROC Curve"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D012559",
+          "MajorTopicYN": "N",
+          "content": "Schizophrenia"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012815",
+        "MajorTopicYN": "Y",
+        "content": "Signal Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D055815",
+        "MajorTopicYN": "N",
+        "content": "Young Adult"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 24
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113193
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113193,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2558824",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,191 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NHLBI NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 HL095056",
+          "Acronym": "HL"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "Mapping bias causes preferential alignment to the reference allele, forming a major obstacle in allele-specific expression (ASE) analysis. The existing methods, such as simulation and SNP-aware alignment, are either inaccurate or relatively slow. To fast and accurately count allelic reads for ASE analysis, we developed a novel approach, ASElux, which utilizes the personal SNP information and counts allelic reads directly from unmapped RNA-sequence (RNA-seq) data. ASElux significantly reduces runtime by disregarding reads outside single nucleotide polymorphisms (SNPs) during the alignment."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "When compared to other tools on simulated and experimental data, ASElux achieves a higher accuracy on ASE estimation than non-SNP-aware aligners and requires a much shorter time than the benchmark SNP-aware aligner, GSNAP with just a slight loss in performance. ASElux can process 40 million read-pairs from an RNA-sequence (RNA-seq) sample and count allelic reads within 10\u2009minutes, which is comparable to directly counting the allelic reads from alignments based on other tools. Furthermore, processing an RNA-seq sample using ASElux in conjunction with a general aligner, such as STAR, is more accurate and still ∼4X faster than STAR+WASP, and ∼33X faster than the lead SNP-aware aligner, GSNAP, making ASElux ideal for ASE analysis of large-scale transcriptomic studies. We applied ASElux to 273 lung RNA-seq samples from GTEx and identified a splice-QTL rs11078928 in lung which explains the mechanism underlying an asthma GWAS SNP rs11078927. Thus, our analysis demonstrated ASE as a highly powerful complementary tool to cis-expression quantitative trait locus (eQTL) analysis."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability",
+          "content": "The software can be downloaded from https://drive.google.com/open?id=0B7E7HSjQ-SumQmlPc1Z0aUR5Sk0."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "a5ko@ucla.edu (Arthur Ko), zmiao@ucla.edu (Zong Miao)."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zong",
+            "LastName": "Miao",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "Dept. of Human Genetics, UCLA, Los Angeles, CA."},
+              {"Affiliation": "Bioinformatics Interdepartmental Program, UCLA, Los Angeles, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marcus",
+            "LastName": "Alvarez",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Dept. of Human Genetics, UCLA, Los Angeles, CA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Päivi",
+            "LastName": "Pajukanta",
+            "Initials": "P",
+            "AffiliationInfo": [
+              {"Affiliation": "Dept. of Human Genetics, UCLA, Los Angeles, CA."},
+              {"Affiliation": "Bioinformatics Interdepartmental Program, UCLA, Los Angeles, USA."},
+              {"Affiliation": "Molecular Biology Institute at UCLA, Los Angeles, CA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arthur",
+            "LastName": "Ko",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Dept. of Human Genetics, UCLA, Los Angeles, CA."},
+              {"Affiliation": "Molecular Biology Institute at UCLA, Los Angeles, CA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "ASElux: An Ultra-Fast and Accurate Allelic Reads Counter.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx762"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": 10
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29186329
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186329,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 4653700,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx762",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,530 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2014,
+      "Day": 17
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 105},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R25 CA094186",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR000439",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NCRR NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 RR024989",
+            "Acronym": "RR"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Discerning the genetic contributions to complex human diseases is a challenging mandate that demands new types of data and calls for new avenues for advancing the state-of-the-art in computational approaches to uncovering disease etiology. Systems approaches to studying observable phenotypic relationships among diseases are emerging as an active area of research for both novel disease gene discovery and drug repositioning. Currently, systematic study of disease relationships on a phenome-wide scale is limited due to the lack of large-scale machine understandable disease phenotype relationship knowledge bases. Our study innovates a semi-supervised iterative pattern learning approach that is used to build an precise, large-scale disease-disease risk relationship (D1 → D2) knowledge base (dRiskKB) from a vast corpus of free-text published biomedical literature."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "21,354,075 MEDLINE records comprised the text corpus under study. First, we used one typical disease risk-specific syntactic pattern (i.e. \"D1 due to D2\") as a seed to automatically discover other patterns specifying similar semantic relationships among diseases. We then extracted D1 → D2 risk pairs from MEDLINE using the learned patterns. We manually evaluated the precisions of the learned patterns and extracted pairs. Finally, we analyzed the correlations between disease-disease risk pairs and their associated genes and drugs. The newly created dRiskKB consists of a total of 34,448 unique D1 → D2 pairs, representing the risk-specific semantic relationships among 12,981 diseases with each disease linked to its associated genes and drugs. The identified patterns are highly precise (average precision of 0.99) in specifying the risk-specific relationships among diseases. The precisions of extracted pairs are 0.919 for those that are exactly matched and 0.988 for those that are partially matched. By comparing the iterative pattern approach starting from different seeds, we demonstrated that our algorithm is robust in terms of seed choice. We show that diseases and their risk diseases as well as diseases with similar risk profiles tend to share both genes and drugs."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "This unique dRiskKB, when combined with existing phenotypic, genetic, and genomic datasets, can have profound implications in our deeper understanding of disease etiology and in drug repositioning."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rong",
+            "LastName": "Xu",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Medical Informatics Division, Case Western Reserve University, Cleveland, OH, USA. rxx@case.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Li",
+            "LastName": "Li",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Quanqiu",
+            "LastName": "Wang",
+            "Initials": "Q"
+          }
+        ]
+      },
+      "ArticleTitle": "dRiskKB: a large-scale disease-disease risk relationship knowledge base constructed from biomedical text.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1471-2105-15-105"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 15,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2014,
+            "Day": 12
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "04",
+      "Year": 2014,
+      "Day": 25
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000188",
+            "MajorTopicYN": "N",
+            "content": "drug therapy"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003924",
+          "MajorTopicYN": "N",
+          "content": "Diabetes Mellitus, Type 2"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D058492",
+        "MajorTopicYN": "N",
+        "content": "Drug Repositioning"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D051188",
+        "MajorTopicYN": "Y",
+        "content": "Knowledge Bases"
+      }},
+      {"DescriptorName": {
+        "UI": "D016239",
+        "MajorTopicYN": "Y",
+        "content": "MEDLINE"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000150",
+          "MajorTopicYN": "N",
+          "content": "complications"
+        },
+        "DescriptorName": {
+          "UI": "D009765",
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D010363",
+        "MajorTopicYN": "N",
+        "content": "Pattern Recognition, Automated"
+      }},
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "N",
+        "content": "Phenotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D012307",
+        "MajorTopicYN": "N",
+        "content": "Risk Factors"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2016,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2003 May;34(1):15-21",
+        "PMID": {
+          "Version": 1,
+          "content": 12721547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Sep 1;29(17):2186-94",
+        "PMID": {
+          "Version": 1,
+          "content": 23828786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2005 Jan 1;33(Database issue):D514-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15608251
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2006 Mar 3;21(5):589-94",
+        "PMID": {
+          "Version": 1,
+          "content": 16507357
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Hum Genet. 2006 May;14(5):535-42",
+        "PMID": {
+          "Version": 1,
+          "content": 16493445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2007 Mar;25(3):309-16",
+        "PMID": {
+          "Version": 1,
+          "content": 17344885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Jul 10;104(28):11694-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17609372
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bioinform Comput Biol. 2007 Dec;5(6):1233-59",
+        "PMID": {
+          "Version": 1,
+          "content": 18172927
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2008 Jan;4(1):e20",
+        "PMID": {
+          "Version": 1,
+          "content": 18225946
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2008 Mar;24(3):103-6",
+        "PMID": {
+          "Version": 1,
+          "content": 18243400
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2008;4:189",
+        "PMID": {
+          "Version": 1,
+          "content": 18463613
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2008 Jul 22;105(29):9880-5",
+        "PMID": {
+          "Version": 1,
+          "content": 18599447
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2007;:249-53",
+        "PMID": {
+          "Version": 1,
+          "content": 18693836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2008 Sep;26(9):983-4",
+        "PMID": {
+          "Version": 1,
+          "content": 18779805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2008;:820-4",
+        "PMID": {
+          "Version": 1,
+          "content": 18999169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009;10 Suppl 2:S14",
+        "PMID": {
+          "Version": 1,
+          "content": 19208189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2009;5:262",
+        "PMID": {
+          "Version": 1,
+          "content": 19357641
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroscience. 2009 Nov 24;164(1):30-42",
+        "PMID": {
+          "Version": 1,
+          "content": 19344640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2010 Jan;6(1):e1000641",
+        "PMID": {
+          "Version": 1,
+          "content": 20090828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2009;2009:709-13",
+        "PMID": {
+          "Version": 1,
+          "content": 20351945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 May 1;26(9):1219-24",
+        "PMID": {
+          "Version": 1,
+          "content": 20215462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Biotechnol. 2010 Jul;28(7):381-90",
+        "PMID": {
+          "Version": 1,
+          "content": 20570001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2010 Dec;11(12):855-66",
+        "PMID": {
+          "Version": 1,
+          "content": 21085204
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2011;5:79",
+        "PMID": {
+          "Version": 1,
+          "content": 21599985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(7):e21502",
+        "PMID": {
+          "Version": 1,
+          "content": 21799737
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 Aug;7(8):e1002141",
+        "PMID": {
+          "Version": 1,
+          "content": 21901084
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(9):e24171",
+        "PMID": {
+          "Version": 1,
+          "content": 21912671
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Oct 1;27(19):2692-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21824970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Oct;39(18):e119",
+        "PMID": {
+          "Version": 1,
+          "content": 21737429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013;14:181",
+        "PMID": {
+          "Version": 1,
+          "content": 23742147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Res Methodol. 2001;1:7",
+        "PMID": {
+          "Version": 1,
+          "content": 11591220
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3998061"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 24725842
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2013,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2014,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 4,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 4,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24725842,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1471-2105-15-105",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1471-2105-15-105",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3998061",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

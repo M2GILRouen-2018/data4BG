@@ -1,0 +1,486 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101568867,
+      "Country": "Switzerland",
+      "ISSNLinking": "2234-943X",
+      "MedlineTA": "Front Oncol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 259},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA189295",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA190105",
+            "Acronym": "CA"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 10
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Purpose",
+          "content": "To develop a robust and clinically applicable automated method for analyzing Dynamic Contrast Enhanced (DCE-) MRI of the prostate as a guide for targeted biopsies and treatments."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Materials and methods",
+          "content": "An unsupervised pattern recognition (PR) method was used to analyze prostate DCE-MRI from 71 sequential radiotherapy patients. Identified regions of interest (ROIs) with increased perfusion were assigned either to the peripheral (PZ) or transition zone (TZ). Six quantitative features, associated with the washin and washout part of the weighted average DCE curve from the ROI, were calculated. The associations between the assigned DCE-scores and Gleason Score (GS) were investigated. A heatmap of tumor aggressiveness covering the entire prostate was generated and validated with histopathology from MRI-ultrasound fused (MRI-US) targeted biopsies."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "The volumes of the PR-identified ROI's were significantly correlated with the highest GS from the biopsy session for each patient. Following normalization (and only after normalization) with gluteus maximus muscle's DCE signal, the quantitative features in PZ were significantly correlated with GS. These correlations straightened in subset of patients with available MRI-US biopsies when GS from the individual biopsies were used. Area under the receiver operating characteristics curve for discrimination between indolent vs aggressive cancer for the significant quantitative features reached 0.88-0.95. When DCE-scores were calculated in normal appearing tissues, the features were highly discriminative for cancer vs no cancer both in PZ and TZ. The generated heatmap of tumor aggressiveness coincided with the location and GS of the MRI-US biopsies."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Conclusion",
+          "content": "A quantitative approach for DCE-MRI analysis was developed. The resultant map of aggressiveness correlated well with tumor location and GS and is applicable for integration in radiotherapy/radiology imaging software for clinical translation."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nestor Andres",
+            "LastName": "Parra",
+            "Initials": "NA",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alan",
+            "LastName": "Pollack",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Felix M",
+            "LastName": "Chinea",
+            "Initials": "FM",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew C",
+            "LastName": "Abramowitz",
+            "Initials": "MC",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brian",
+            "LastName": "Marples",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Felipe",
+            "LastName": "Munera",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rosa",
+            "LastName": "Castillo",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Oleksandr N",
+            "LastName": "Kryvenko",
+            "Initials": "ON",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Pathology, University of Miami Miller School of Medicine, Miami, FL, United States."},
+              {"Affiliation": "Department of Urology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sanoj",
+            "LastName": "Punnen",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Urology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Radka",
+            "LastName": "Stoyanova",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Miami Miller School of Medicine, Miami, FL, United States."}
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic Detection and Quantitative DCE-MRI Scoring of Prostate Cancer Aggressiveness.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fonc.2017.00259"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 7,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Oncol",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2234-943X"
+        },
+        "Title": "Frontiers in oncology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "DCE-MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "image processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "mpMRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pattern recognition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "prostate cancer"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 1997 Jan-Feb;7(1):91-101",
+        "PMID": {
+          "Version": 1,
+          "content": 9039598
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Radiol. 2012 Mar;81(3):e217-22",
+        "PMID": {
+          "Version": 1,
+          "content": 21349667
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Radiol. 2009 Mar;19(3):770-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18925403
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Radiol. 2016 Feb;51(2):106-12",
+        "PMID": {
+          "Version": 1,
+          "content": 26447494
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2013 Jun;107(3):274-81",
+        "PMID": {
+          "Version": 1,
+          "content": 23791306
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Strahlenther Onkol. 2017 Jan;193(1):13-21",
+        "PMID": {
+          "Version": 1,
+          "content": 27761612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Transl Oncol. 2012 Dec;5(6):437-47",
+        "PMID": {
+          "Version": 1,
+          "content": 23326621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2014 May;33(5):1083-92",
+        "PMID": {
+          "Version": 1,
+          "content": 24770913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Cancer. 2005 May 9;92(9):1599-610",
+        "PMID": {
+          "Version": 1,
+          "content": 15870830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 1999 Sep;10(3):223-32",
+        "PMID": {
+          "Version": 1,
+          "content": 10508281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2003 Jan;22(1):120-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12703765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2011 Sep 7;56(17):5665-78",
+        "PMID": {
+          "Version": 1,
+          "content": 21828909
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "MAGMA. 2016 Dec;29(6):811-822",
+        "PMID": {
+          "Version": 1,
+          "content": 27260664
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2013 Jun;37(6):1392-401",
+        "PMID": {
+          "Version": 1,
+          "content": 23172614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Clin Oncol. 2009 Aug;32(4):342-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19398902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Urol. 2013 Sep;64(3):448-55",
+        "PMID": {
+          "Version": 1,
+          "content": 23751135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Aug 29;7(1):9746",
+        "PMID": {
+          "Version": 1,
+          "content": 28851989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 2007 Oct;189(4):849",
+        "PMID": {
+          "Version": 1,
+          "content": 17885055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Urol. 2006 Dec;176(6 Pt 1):2432-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17085122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trials. 2011 Dec 05;12:255",
+        "PMID": {
+          "Version": 1,
+          "content": 22141598
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2011 Apr 1;79(5):1310-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20493642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Oncol. 2010;2010:null",
+        "PMID": {
+          "Version": 1,
+          "content": 20847945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "CA Cancer J Clin. 2015 Jan-Feb;65(1):5-29",
+        "PMID": {
+          "Version": 1,
+          "content": 25559415
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2001 Apr;13(4):607-14",
+        "PMID": {
+          "Version": 1,
+          "content": 11276106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2012 Oct;36(4):912-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22711415
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Tomography. 2016 Mar;2(1):56-66",
+        "PMID": {
+          "Version": 1,
+          "content": 27200418
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Transl Oncol. 2014 Feb 01;7(1):153-66",
+        "PMID": {
+          "Version": 1,
+          "content": 24772219
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Urol. 2013 May;63(5):892-901",
+        "PMID": {
+          "Version": 1,
+          "content": 23092544
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2017 Jun 1;98 (2):286-295",
+        "PMID": {
+          "Version": 1,
+          "content": 28433432
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29177134
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29177134,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fonc.2017.00259",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5686056",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

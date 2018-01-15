@@ -1,0 +1,116 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9885960,
+      "Country": "United States",
+      "ISSNLinking": "0098-5589",
+      "MedlineTA": "IEEE Trans Pattern Anal Mach Intell"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1783-1796"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Visual search and image retrieval underpin numerous applications, however the task is still challenging predominantly due to the variability of object appearance and ever increasing size of the databases, often exceeding billions of images. Prior art methods rely on aggregation of local scale-invariant descriptors, such as SIFT, via mechanisms including Bag of Visual Words (BoW), Vector of Locally Aggregated Descriptors (VLAD) and Fisher Vectors (FV). However, their performance is still short of what is required. This paper presents a novel method for deriving a compact and distinctive representation of image content called Robust Visual Descriptor with Whitening (RVD-W). It significantly advances the state of the art and delivers world-class performance. In our approach local descriptors are rank-assigned to multiple clusters. Residual vectors are then computed in each cluster, normalized using a direction-preserving normalization function and aggregated based on the neighborhood rank. Importantly, the residual vectors are de-correlated and whitened in each cluster before aggregation, leading to a balanced energy distribution in each dimension and significantly improved performance. We also propose a new post-PCA normalization approach which improves separability between the matching and non-matching global descriptors. This new normalization benefits not only our RVD-W descriptor but also improves existing approaches based on FV and VLAD aggregation. Furthermore, we show that the aggregation framework developed using hand-crafted SIFT features also performs exceptionally well with Convolutional Neural Network (CNN) based features. The RVD-W pipeline outperforms state-of-the-art global descriptors on both the Holidays and Oxford datasets. On the large scale datasets, Holidays1M and Oxford1M, SIFT-based RVD-W representation obtains a mAP of 45.1 and 35.1 percent, while CNN-based RVD-W achieve a mAP of 63.5 and 44.8 percent, all yielding superior performance to the state-of-the-art."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Syed Sameed",
+            "LastName": "Husain",
+            "Initials": "SS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Miroslaw",
+            "LastName": "Bober",
+            "Initials": "M"
+          }
+        ]
+      },
+      "ArticleTitle": "Improving Large-Scale Image Retrieval Through Robust Aggregation of Local Descriptors.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TPAMI.2016.2613873"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 39,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Pattern Anal Mach Intell",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1939-3539"
+        },
+        "Title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": "09"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114059
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114059,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TPAMI.2016.2613873",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

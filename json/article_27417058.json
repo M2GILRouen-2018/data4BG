@@ -1,0 +1,355 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100883319,
+      "Country": "Netherlands",
+      "ISSNLinking": "1388-2457",
+      "MedlineTA": "Clin Neurophysiol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2820-31"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NICHD NIH HHS",
+          "Country": "United States",
+          "GrantID": "U54 HD090255",
+          "Acronym": "HD"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 International Federation of Clinical Neurophysiology. Published by Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "To develop a real-time monitoring system that has the potential to guide the titration of anesthetic agents in the treatment of pediatric status epilepticus (SE)."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We analyzed stored multichannel electroencephalographic (EEG) data collected from 12 pediatric patients with generalized SE. EEG recordings were initially segmented in 500ms time-windows. Features characterizing the power, frequency, and entropy of the signal were extracted from each segment. The segments were annotated as bursts (B), suppressions (S), or artifacts (A) by two electroencephalographers. The EEG features together with the annotations were inputted in a three-layer feed forward neural network (NN). The sensitivity and specificity of NNs with different architectures and training algorithms to classify segments into B, S, or A were estimated."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The maximum sensitivity (95.96% for B, 89.25% for S, and 75% for A) and specificity (89.36 for B, 96.26% for S, and 99.8% for A) was observed for the NN with 10 nodes in the hidden layer. By using this NN, we designed a real-time system that estimates the burst-suppression index (BSI)."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Our system provides a reliable real-time estimate of multichannel BSI requiring minimal memory and computation time."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "SIGNIFICANCE",
+            "content": "The system has the potential to assist intensive care unit attendants in the continuous EEG monitoring."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christos",
+            "LastName": "Papadelis",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Center for Fetal-Neonatal Neuroimaging and Developmental Science, Boston Children's Hospital, Harvard Medical School, 1 Autumn St, Boston, MA 02215, USA; Division of Newborn Medicine, Department of Medicine, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA. Electronic address: christos.papadelis@childrens.harvard.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seyedeh Fatemeh Salimi",
+            "LastName": "Ashkezari",
+            "Initials": "SF",
+            "AffiliationInfo": {"Affiliation": "Center for Fetal-Neonatal Neuroimaging and Developmental Science, Boston Children's Hospital, Harvard Medical School, 1 Autumn St, Boston, MA 02215, USA; Division of Newborn Medicine, Department of Medicine, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chiran",
+            "LastName": "Doshi",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Center for Fetal-Neonatal Neuroimaging and Developmental Science, Boston Children's Hospital, Harvard Medical School, 1 Autumn St, Boston, MA 02215, USA; Division of Newborn Medicine, Department of Medicine, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sigride",
+            "LastName": "Thome-Souza",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Neurology, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Phillip L",
+            "LastName": "Pearl",
+            "Initials": "PL",
+            "AffiliationInfo": {"Affiliation": "Department of Neurology, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "P Ellen",
+            "LastName": "Grant",
+            "Initials": "PE",
+            "AffiliationInfo": {"Affiliation": "Center for Fetal-Neonatal Neuroimaging and Developmental Science, Boston Children's Hospital, Harvard Medical School, 1 Autumn St, Boston, MA 02215, USA; Division of Newborn Medicine, Department of Medicine, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA; Department of Radiology, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert C",
+            "LastName": "Tasker",
+            "Initials": "RC",
+            "AffiliationInfo": {"Affiliation": "Department of Neurology, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA; Department of Anesthesia, Perioperative and Pain Medicine, Division of Critical Care Medicine, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tobias",
+            "LastName": "Loddenkemper",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Neurology, Boston Children's Hospital, Harvard Medical School, 300 Longwood Ave, Boston, MA 02115, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Real-time multi-channel monitoring of burst-suppression using neural network technology during pediatric status epilepticus treatment.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.clinph.2016.05.358"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1388-2457(16)30421-7"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 127,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Clin Neurophysiol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-8952"
+        },
+        "Title": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Burst-suppression"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Electroencephalography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Intensive care unit"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Monitoring"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Neural network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Status epilepticus"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2016,
+      "Day": 20
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000293",
+        "MajorTopicYN": "N",
+        "content": "Adolescent"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000503",
+          "MajorTopicYN": "Y",
+          "content": "physiopathology"
+        },
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {"DescriptorName": {
+        "UI": "D002675",
+        "MajorTopicYN": "N",
+        "content": "Child, Preschool"
+      }},
+      {"DescriptorName": {
+        "UI": "D004569",
+        "MajorTopicYN": "N",
+        "content": "Electroencephalography"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007362",
+        "MajorTopicYN": "N",
+        "content": "Intensive Care Units"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008991",
+          "MajorTopicYN": "N",
+          "content": "Monitoring, Physiologic"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "Y",
+        "content": "Neural Networks (Computer)"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000503",
+          "MajorTopicYN": "Y",
+          "content": "physiopathology"
+        },
+        "DescriptorName": {
+          "UI": "D013226",
+          "MajorTopicYN": "N",
+          "content": "Status Epilepticus"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 27417058
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2015,
+        "Day": 26,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 12,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27417058,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1388-2457(16)30421-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.clinph.2016.05.358",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

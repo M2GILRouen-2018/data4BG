@@ -1,0 +1,125 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101491191,
+      "Country": "United States",
+      "ISSNLinking": "1939-1412",
+      "MedlineTA": "IEEE Trans Haptics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "431-443"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Robotic-assisted minimally invasive surgeries have gained a lot of popularity over conventional procedures as they offer many benefits to both surgeons and patients. Nonetheless, they still suffer from some limitations that affect their outcome. One of them is the lack of force feedback which restricts the surgeon's sense of touch and might reduce precision during a procedure. To overcome this limitation, we propose a novel force estimation approach that combines a vision based solution with supervised learning to estimate the applied force and provide the surgeon with a suitable representation of it. The proposed solution starts with extracting the geometry of motion of the heart's surface by minimizing an energy functional to recover its 3D deformable structure. A deep network, based on a LSTM-RNN architecture, is then used to learn the relationship between the extracted visual-geometric information and the applied force, and to find accurate mapping between the two. Our proposed force estimation solution avoids the drawbacks usually associated with force sensing devices, such as biocompatibility and integration issues. We evaluate our approach on phantom and realistic tissues in which we report an average root-mean square error of 0.02 N."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Angelica I",
+            "LastName": "Aviles",
+            "Initials": "AI"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Samar M",
+            "LastName": "Alsaleh",
+            "Initials": "SM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "James K",
+            "LastName": "Hahn",
+            "Initials": "JK"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alicia",
+            "LastName": "Casals",
+            "Initials": "A"
+          }
+        ]
+      },
+      "ArticleTitle": "Towards Retrieving Force Feedback in Robotic-Assisted Surgery: A Supervised Neuro-Recurrent-Vision Approach.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TOH.2016.2640289"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 10,
+          "PubDate": {"MedlineDate": "2017 Jul-Sep"},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Haptics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2329-4051"
+        },
+        "Title": "IEEE transactions on haptics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 18
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113330
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113330,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TOH.2016.2640289",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

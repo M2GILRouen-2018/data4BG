@@ -1,0 +1,294 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8208130,
+      "Country": "Netherlands",
+      "ISSNLinking": "0158-9938",
+      "MedlineTA": "Australas Phys Eng Sci Med"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 24
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "39-49"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The performance of a support vector machine (SVM) algorithm was investigated to predict prostate tumour location using multi-parametric MRI (mpMRI) data. The purpose was to obtain information of prostate tumour location for the implementation of bio-focused radiotherapy. In vivo mpMRI data were collected from 16 patients prior to radical prostatectomy. Sequences included T2-weighted imaging, diffusion-weighted imaging and dynamic contrast enhanced imaging. In vivo mpMRI was registered with 'ground truth' histology, using ex vivo MRI as an intermediate registration step to improve accuracy. Prostate contours were delineated by a radiation oncologist and tumours were annotated on histology by a pathologist. Five patients with minimal imaging artefacts were selected for this study. A Gaussian kernel SVM was trained and tested on different patient data subsets. Parameters were optimised using leave-oneout cross validation. Signal intensities of mpMRI were used as features and histology annotations as true labels. Prediction accuracy, as well as area under the curve (AUC) of the receiver operating characteristics (ROC) curve, were used to assess performance. Results demonstrated the prediction accuracy ranged from 70.4 to 87.1% and AUC of ROC ranged from 0.81 to 0.94. Additional investigations showed the apparent diffusion coefficient map from diffusion weighted imaging was the most important imaging modality for predicting tumour location. Future work will incorporate additional patient data into the framework to increase the sensitivity and specificity of the model, and will be extended to incorporate predictions of biological characteristics of the tumour which will be used in bio-focused radiotherapy optimisation."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-5206-8782"
+            },
+            "ForeName": "Yu",
+            "LastName": "Sun",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "The Sir Peter MacCallum Department of Oncology, The University of Melbourne, Melbourne, VIC, Australia. yu.sun@petermac.org."},
+              {"Affiliation": "Department of Physical Sciences, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia. yu.sun@petermac.org."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hayley",
+            "LastName": "Reynolds",
+            "Initials": "H",
+            "AffiliationInfo": [
+              {"Affiliation": "The Sir Peter MacCallum Department of Oncology, The University of Melbourne, Melbourne, VIC, Australia."},
+              {"Affiliation": "Department of Physical Sciences, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Darren",
+            "LastName": "Wraith",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Institute of Health and Biomedical Innovation, Queensland University of Technology, Brisbane, QLD, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Scott",
+            "LastName": "Williams",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "The Sir Peter MacCallum Department of Oncology, The University of Melbourne, Melbourne, VIC, Australia."},
+              {"Affiliation": "Division of Radiation Oncology and Cancer Imaging, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mary E",
+            "LastName": "Finnegan",
+            "Initials": "ME",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Imaging, Imperial College Healthcare NHS Trust, London, UK."},
+              {"Affiliation": "Department of Bioengineering, Imperial College London, London, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Catherine",
+            "LastName": "Mitchell",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Pathology, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Declan",
+            "LastName": "Murphy",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Division of Cancer Surgery, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Martin A",
+            "LastName": "Ebert",
+            "Initials": "MA",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiation Oncology, Sir Charles Gairdner Hospital, Perth, WA, Australia."},
+              {"Affiliation": "School of Physics, University of Western Australia, Perth, WA, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Annette",
+            "LastName": "Haworth",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "The Sir Peter MacCallum Department of Oncology, The University of Melbourne, Melbourne, VIC, Australia."},
+              {"Affiliation": "Department of Physical Sciences, Peter MacCallum Cancer Centre, Melbourne, VIC, Australia."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Predicting prostate tumour location from multiparametric MRI using Gaussian kernel support vector machines: a preliminary study.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s13246-016-0515-1"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 40,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Australas Phys Eng Sci Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1879-5447"
+        },
+        "Title": "Australasian physical & engineering sciences in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bio-focused therapy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Focal therapy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multiparametric MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Prostate cancer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Support vector machines"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D019540",
+        "MajorTopicYN": "N",
+        "content": "Area Under Curve"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D011471",
+          "MajorTopicYN": "N",
+          "content": "Prostatic Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012372",
+        "MajorTopicYN": "N",
+        "content": "ROC Curve"
+      }},
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "Y",
+        "content": "Support Vector Machine"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 24
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28120144
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28120144,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s13246-016-0515-1",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s13246-016-0515-1",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

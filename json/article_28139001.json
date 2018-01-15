@@ -1,0 +1,260 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7708048,
+      "Country": "Germany",
+      "ISSNLinking": "0323-3847",
+      "MedlineTA": "Biom J"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 28
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "531-549"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim.",
+        "AbstractText": "The projection of age-stratified cancer incidence and mortality rates is of great interest due to demographic changes, but also therapeutical and diagnostic developments. Bayesian age-period-cohort (APC) models are well suited for the analysis of such data, but are not yet used in routine practice of epidemiologists. Reasons may include that Bayesian APC models have been criticized to produce too wide prediction intervals. Furthermore, the fitting of Bayesian APC models is usually done using Markov chain Monte Carlo (MCMC), which introduces complex convergence concerns and may be subject to additional technical problems. In this paper we address both concerns, developing efficient MCMC-free software for routine use in epidemiological applications. We apply Bayesian APC models to annual lung cancer data for females in five different countries, previously analyzed in the literature. To assess the predictive quality, we omit the observations from the last 10 years and compare the projections with the actual observed data based on the absolute error and the continuous ranked probability score. Further, we assess calibration of the one-step-ahead predictive distributions. In our application, the probabilistic forecasts obtained by the Bayesian APC model are well calibrated and not too wide. A comparison to projections obtained by a generalized Lee-Carter model is also given. The methodology is implemented in the user-friendly R-package BAPC using integrated nested Laplace approximations."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrea",
+            "LastName": "Riebler",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematical Sciences, Norwegian University of Science and Technology, Alfred Getz vei 1, 7th floor, 7491 Trondheim, Norway."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Leonhard",
+            "LastName": "Held",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Epidemiology, Biostatistics and Prevention Institute, University of Zurich, Hirschengraben 84, 8001 Zurich, Switzerland."}
+          }
+        ]
+      },
+      "ArticleTitle": "Projecting the future burden of cancer: Bayesian age-period-cohort analysis with integrated nested Laplace approximations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/bimj.201500263"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 59,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Biom J",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1521-4036"
+        },
+        "Title": "Biometrical journal. Biometrische Zeitschrift"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bayesian age-period-cohort model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Cancer projection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Continuous ranked probability score"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "INLA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Predictive quality"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {"DescriptorName": {
+        "UI": "D015331",
+        "MajorTopicYN": "N",
+        "content": "Cohort Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D004812",
+        "MajorTopicYN": "Y",
+        "content": "Epidemiologic Methods"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "N",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000401",
+            "MajorTopicYN": "N",
+            "content": "mortality"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D008175",
+          "MajorTopicYN": "N",
+          "content": "Lung Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008390",
+        "MajorTopicYN": "N",
+        "content": "Markov Chains"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "N",
+        "content": "Monte Carlo Method"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "Y",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000401",
+            "MajorTopicYN": "N",
+            "content": "mortality"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009369",
+          "MajorTopicYN": "N",
+          "content": "Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28139001
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": "02",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28139001,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/bimj.201500263",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

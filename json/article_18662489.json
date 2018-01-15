@@ -1,0 +1,282 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101123071,
+      "Country": "China",
+      "ISSNLinking": "1609-0985",
+      "MedlineTA": "J Med Biol Eng"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "765-775"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "09"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Self-reported questionnaires are widely used by researchers for analyzing the dietary behavior of overweight and obese individuals. It has been established that questionnaire-based data collection often suffers from high errors due to its reporting subjectivity. Automatic swallow detection, as an alternative to questionnaires, is proposed in this paper to avoid such subjectivity. Existing approaches for swallow detection include the use of surface electromyography and sound to detect individual swallowing events. Many of these methods are generally too complicated and cumbersome for daily usage in a free-living setting. This paper presents a wearable solid food intake monitoring system that analyzes human breathing signals and swallow sequence locality. Food intake is identified by detecting swallow events. The system works based on a key observation that the otherwise continuous breathing process is interrupted by a short apnea during swallowing. A support vector machine (SVM) is first used for detecting such apneas in breathing signals collected from a wearable chest belt. The resulting swallow detection is then refined using a hidden Markov model (HMM)-based mechanism that leverages the known temporal locality in the sequence of human swallows. Temporal locality is based on the fact that people usually do not swallow in consecutive breathing cycles. The HMM model is used to model such temporal locality in order to refine the SVM results. Experiments were carried out on six healthy subjects wearing the proposed system. The proposed SVM method achieved up to 61% precision and 91% recall on average. Utilization of HMM in addition to SVM improved the overall performance to up to 75% precision and 86% recall."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bo",
+            "LastName": "Dong",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computer Engineering, Michigan State University, East Lansing, MI 48824 USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Subir",
+            "LastName": "Biswas",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computer Engineering, Michigan State University, East Lansing, MI 48824 USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Analyzing Breathing Signals and Swallow Sequence Locality for Solid Food Intake Monitoring.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s40846-016-0181-5"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 36,
+          "PubDate": {"Year": 2016},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "J Med Biol Eng",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1609-0985"
+        },
+        "Title": "Journal of medical and biological engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Food intake monitoring"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hidden Markov model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Support vector machine (SVM)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Swallow detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Wearable sensors"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Adolesc Med Health. 2014;26(1):145-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23612631
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2013;2013:1186-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24109905
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int Conf Commun Syst Netw. 2012 Jan;2012:1-6",
+        "PMID": {
+          "Version": 1,
+          "content": 25530911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Obes Rev. 2012 Jun;13(6):528-36",
+        "PMID": {
+          "Version": 1,
+          "content": 22222118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Meas. 2008 May;29(5):525-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18427161
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Clin Nutr. 1992 Mar;55(3):645-51",
+        "PMID": {
+          "Version": 1,
+          "content": 1550038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Meas. 2014 May;35(5):739-51",
+        "PMID": {
+          "Version": 1,
+          "content": 24671094
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2014;2014:5381-4",
+        "PMID": {
+          "Version": 1,
+          "content": 25571210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2011;2011:7075-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22255968
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2008 Feb;42(2):121-36",
+        "PMID": {
+          "Version": 1,
+          "content": 18242066
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2005 Fall;20(4):297-302",
+        "PMID": {
+          "Version": 1,
+          "content": 16633875
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2012;2012:6341-4",
+        "PMID": {
+          "Version": 1,
+          "content": 23367379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 1982 May;20(3):286-92",
+        "PMID": {
+          "Version": 1,
+          "content": 7109723
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nutr Diabetes. 2012 Sep 10;2:e44",
+        "PMID": {
+          "Version": 1,
+          "content": 23446659
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Public Health Nutr. 2009 Feb;12(2):222-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18662489
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28111533
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2015,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28111533,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s40846-016-0181-5",
+        "IdType": "doi"
+      },
+      {
+        "content": 181,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5216113",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,649 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 5},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D016454",
+          "content": "Review"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Chronic musculoskeletal pain condition often shows poor correlations between tissue abnormalities and clinical pain. Therefore, classification of pain conditions like chronic low back pain, osteoarthritis, and fibromyalgia depends mostly on self report and less on objective findings like X-ray or magnetic resonance imaging (MRI) changes. However, recent advances in structural and functional brain imaging have identified brain abnormalities in chronic pain conditions that can be used for illness classification. Because the analysis of complex and multivariate brain imaging data is challenging, machine learning techniques have been increasingly utilized for this purpose. The goal of machine learning is to train specific classifiers to best identify variables of interest on brain MRIs (i.e., biomarkers). This report describes classification techniques capable of separating MRI-based brain biomarkers of chronic pain patients from healthy controls with high accuracy (70-92%) using machine learning, as well as critical scientific, practical, and ethical considerations related to their potential clinical application. Although self-report remains the gold standard for pain assessment, machine learning may aid in the classification of chronic pain disorders like chronic back pain and fibromyalgia as well as provide mechanistic information regarding their neural correlates."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeff",
+            "LastName": "Boissoneault",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical and Health Psychology, University of Florida, Gainesville, FL, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Landrew",
+            "LastName": "Sevel",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical and Health Psychology, University of Florida, Gainesville, FL, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Janelle",
+            "LastName": "Letzen",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical and Health Psychology, University of Florida, Gainesville, FL, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Robinson",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical and Health Psychology, University of Florida, Gainesville, FL, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Roland",
+            "LastName": "Staud",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Medicine, University of Florida, PO Box 100277, Gainesville, FL, 32610, USA. staudr@ufl.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Biomarkers for Musculoskeletal Pain Conditions: Use of Brain Imaging and Machine Learning.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s11926-017-0629-9"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 19,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Curr Rheumatol Rep",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1534-6307"
+        },
+        "Title": "Current rheumatology reports"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": "01"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "07"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2008 Nov 26;60(4):570-81",
+        "PMID": {
+          "Version": 1,
+          "content": 19038215
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Res Ther. 2011 Apr 08;13(2):R58",
+        "PMID": {
+          "Version": 1,
+          "content": 21477308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurosci Biobehav Rev. 2016 Jul;66:143-62",
+        "PMID": {
+          "Version": 1,
+          "content": 27168345
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain Connect. 2015 Nov;5(9):527-42",
+        "PMID": {
+          "Version": 1,
+          "content": 26106930
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2004;23 Suppl 1:S208-19",
+        "PMID": {
+          "Version": 1,
+          "content": 15501092
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2015 Aug;156(8):1379-81",
+        "PMID": {
+          "Version": 1,
+          "content": 25970320
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2013 Jul;14(7):502-11",
+        "PMID": {
+          "Version": 1,
+          "content": 23719569
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cereb Cortex. 2014 Apr;24(4):1037-44",
+        "PMID": {
+          "Version": 1,
+          "content": 23246778
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2002 Jan 31;33(3):341-55",
+        "PMID": {
+          "Version": 1,
+          "content": 11832223
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2001 Aug;23(1):89-109",
+        "PMID": {
+          "Version": 1,
+          "content": 11470218
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2015 Aug;156(8):1545-54",
+        "PMID": {
+          "Version": 1,
+          "content": 25906347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Rheum. 2004 Feb;50(2):613-23",
+        "PMID": {
+          "Version": 1,
+          "content": 14872506
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Rev Bras Fisioter. 2011 Jan-Feb;15(1):52-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21519716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2014 Dec;155(12):2502-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25242566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Pharm. 2016 May 2;13(5):1445-54",
+        "PMID": {
+          "Version": 1,
+          "content": 27007977
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychosom Med. 2009 Jun;71(5):566-73",
+        "PMID": {
+          "Version": 1,
+          "content": 19414621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2004 Nov 17;24(46):10410-5",
+        "PMID": {
+          "Version": 1,
+          "content": 15548656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 2012;180:594-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22874260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2011 Mar;152(3 Suppl):S49-64",
+        "PMID": {
+          "Version": 1,
+          "content": 21146929
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pain. 2013 Apr;14(4):328-31",
+        "PMID": {
+          "Version": 1,
+          "content": 23548485
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Psychiatry. 2016 Mar 31;7:50",
+        "PMID": {
+          "Version": 1,
+          "content": 27064972
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans R Soc Lond B Biol Sci. 1999 Jul 29;354(1387):1179-94",
+        "PMID": {
+          "Version": 1,
+          "content": 10466145
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2001 Jan;20(1):70-80",
+        "PMID": {
+          "Version": 1,
+          "content": 11293693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Discov Med. 2011 Mar;11(58):197-207",
+        "PMID": {
+          "Version": 1,
+          "content": 21447279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pain. 2011 Apr;12(4):436-43",
+        "PMID": {
+          "Version": 1,
+          "content": 21146463
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Syst Rehabil Eng. 2010 Apr;18(2):174-84",
+        "PMID": {
+          "Version": 1,
+          "content": 19775984
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Mar 16;11(3):e0151715",
+        "PMID": {
+          "Version": 1,
+          "content": 26982569
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2007 Nov;132 Suppl 1:S109-16",
+        "PMID": {
+          "Version": 1,
+          "content": 17587497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 1998 May 15;10(4):955-74",
+        "PMID": {
+          "Version": 1,
+          "content": 9573414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(10):e26010",
+        "PMID": {
+          "Version": 1,
+          "content": 22022493
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Int Med Res. 2010 Jul-Aug;38(4):1468-72",
+        "PMID": {
+          "Version": 1,
+          "content": 20926020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Care Res (Hoboken). 2010 May;62(5):600-10",
+        "PMID": {
+          "Version": 1,
+          "content": 20461783
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Imaging (Bellingham). 2015 Jul;2(3):034503",
+        "PMID": {
+          "Version": 1,
+          "content": 27014713
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2013 Apr 11;368(15):1388-97",
+        "PMID": {
+          "Version": 1,
+          "content": 23574118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Assessment. 2002 Dec;9(4):406-14",
+        "PMID": {
+          "Version": 1,
+          "content": 12462761
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011 Mar 30;6(3):e16872",
+        "PMID": {
+          "Version": 1,
+          "content": 21479222
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2009 Feb;56(2):407-15",
+        "PMID": {
+          "Version": 1,
+          "content": 19342330
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2010 Jan;148(1):75-83",
+        "PMID": {
+          "Version": 1,
+          "content": 19962240
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2005 Dec 15;119(1-3):65-74",
+        "PMID": {
+          "Version": 1,
+          "content": 16298065
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ind Health. 2015 ;53(4):340-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25810448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Discov Med. 2011 Mar;11(58):209-19",
+        "PMID": {
+          "Version": 1,
+          "content": 21447280
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2010 Aug;150(2):250-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20488620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2016 Jul 26;113(30):E4367-76",
+        "PMID": {
+          "Version": 1,
+          "content": 27402738
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2015 Nov 17;132(20):1920-30",
+        "PMID": {
+          "Version": 1,
+          "content": 26572668
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain Med. 2010 Aug;11(8):1183-97",
+        "PMID": {
+          "Version": 1,
+          "content": 20609128
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Neurophysiol. 2002 May;113(5):621-34",
+        "PMID": {
+          "Version": 1,
+          "content": 11976042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2014 Mar;21(3):369-77",
+        "PMID": {
+          "Version": 1,
+          "content": 24507423
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2012 Oct 24;32(43):14874-84",
+        "PMID": {
+          "Version": 1,
+          "content": 23100410
+        }
+      }
+    ]},
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100888970,
+      "Country": "United States",
+      "ISSNLinking": "1523-3774",
+      "MedlineTA": "Curr Rheumatol Rep"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D015415",
+        "content": "Biomarkers"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 16
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Chronic pain"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Magnetic resonance imaging (MRI)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Musculoskeletal"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000032",
+          "MajorTopicYN": "N",
+          "content": "analysis"
+        },
+        "DescriptorName": {
+          "UI": "D015415",
+          "MajorTopicYN": "N",
+          "content": "Biomarkers"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D059350",
+          "MajorTopicYN": "N",
+          "content": "Chronic Pain"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008279",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D059352",
+          "MajorTopicYN": "N",
+          "content": "Musculoskeletal Pain"
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28144827
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28144827,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s11926-017-0629-9",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s11926-017-0629-9",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

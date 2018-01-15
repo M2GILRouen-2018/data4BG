@@ -1,0 +1,120 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this paper we solve three problems in action recognition: sub-action, multi-subject, and multi-modality, by reducing the diversity of intra-class samples. The main stage contains canonical temporal alignment and key frames selection. As we know, temporal alignment aims to reduce the diversity of intra-class samples, however, dense frames may yield misalignment or overlapped alignment and decrease recognition performance. To overcome this problem, we propose a Sparse Canonical Temporal Alignment (SCTA) method which selects and aligns key frames from two sequences to reduce diversity. To extract better features from the key frames, we propose a Deep Non-negative Tensor Factorization (DNTF) method to find a tensor subspace integrated with SCTA scheme. First we model an action sequence as a third-order tensor with spatiotemporal structure. Then we design a DNTF scheme to find a tensor subspace in both spatial and temporal directions. Particularly, in the first layer the original tensor is decomposed into two lowrank tensors by Non-negative Tensor Factorization (NTF), and in the second layer each low-rank tensor is further decomposed by Tensor-Train (TT) for time efficiency. Finally, our framework composed of SCTA and DNTF could solve the three problems and extract effective features for action recognition. Experiments on synthetic data, MSRDailyActivity3D and MSRActionPairs datasets show that our method works better than competitive methods in terms of accuracy."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chengcheng",
+            "LastName": "Jia",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ming",
+            "LastName": "Shao",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yun",
+            "LastName": "Fu",
+            "Initials": "Y"
+          }
+        ]
+      },
+      "ArticleTitle": "Sparse Canonical Temporal Alignment with Deep Tensor Decomposition for Action Recognition.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2621664"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2016,
+            "Day": 26
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113759
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113759,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2621664",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

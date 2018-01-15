@@ -1,0 +1,205 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9433358,
+      "Country": "United States",
+      "ISSNLinking": "1066-5277",
+      "MedlineTA": "J Comput Biol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Electron tomography (ET) is an important technique for studying the three-dimensional structures of the biological ultrastructure. Recently, ET has reached sub-nanometer resolution for investigating the native and conformational dynamics of macromolecular complexes by combining with the sub-tomogram averaging approach. Due to the limited sampling angles, ET reconstruction typically suffers from the \"missing wedge\" problem. Using a validation procedure, iterative compressed-sensing optimized nonuniform fast Fourier transform (NUFFT) reconstruction (ICON) demonstrates its power in restoring validated missing information for a low-signal-to-noise ratio biological ET dataset. However, the huge computational demand has become a bottleneck for the application of ICON. In this work, we implemented a parallel acceleration technology ICON-many integrated core (MIC) on Xeon Phi cards to address the huge computational demand of ICON. During this step, we parallelize the element-wise matrix operations and use the efficient summation of a matrix to reduce the cost of matrix computation. We also developed parallel versions of NUFFT on MIC to achieve a high acceleration of ICON by using more efficient fast Fourier transform (FFT) calculation. We then proposed a hybrid task allocation strategy (two-level load balancing) to improve the overall performance of ICON-MIC by making full use of the idle resources on Tianhe-2 supercomputer. Experimental results using two different datasets show that ICON-MIC has high accuracy in biological specimens under different noise levels and a significant acceleration, up to 13.3\u2009×\u2009, compared with the CPU version. Further, ICON-MIC has good scalability efficiency and overall performance on Tianhe-2 supercomputer."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zihao",
+            "LastName": "Wang",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China ."},
+              {"Affiliation": "2 University of Chinese Academy of Sciences , Beijing, China ."},
+              {"Affiliation": "6 These authors contributed equally to this work."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yu",
+            "LastName": "Chen",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China ."},
+              {"Affiliation": "2 University of Chinese Academy of Sciences , Beijing, China ."},
+              {"Affiliation": "6 These authors contributed equally to this work."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jingrong",
+            "LastName": "Zhang",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China ."},
+              {"Affiliation": "2 University of Chinese Academy of Sciences , Beijing, China ."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lun",
+            "LastName": "Li",
+            "Initials": "L",
+            "AffiliationInfo": [
+              {"Affiliation": "1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China ."},
+              {"Affiliation": "3 School of Mathematical Sciences, University of Chinese Academy of Sciences , Beijing, China ."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaohua",
+            "LastName": "Wan",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China ."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhiyong",
+            "LastName": "Liu",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China ."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fei",
+            "LastName": "Sun",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "2 University of Chinese Academy of Sciences , Beijing, China ."},
+              {"Affiliation": "4 National Key Laboratory of Biomacromolecules, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics , Chinese Academy of Sciences, Beijing, China ."},
+              {"Affiliation": "5 Center for Biological Imaging, Institute of Biophysics , Chinese Academy of Sciences, Beijing, China ."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fa",
+            "LastName": "Zhang",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "1 High Performance Computer Research Center, Institute of Computing Technology , Chinese Academy of Sciences, Beijing, China ."}
+          }
+        ]
+      },
+      "ArticleTitle": "ICON-MIC: Implementing a CPU/MIC Collaboration Parallel Framework for ICON on Tianhe-2 Supercomputer.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1089/cmb.2017.0151"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 29
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1557-8666"
+        },
+        "Title": "Journal of computational biology : a journal of computational molecular cell biology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "ICON"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MIC acceleration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Tianhe-2 supercomputer."
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "electron tomography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "hybrid task allocation strategy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "parallel NUFFT"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29185807
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29185807,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1089/cmb.2017.0151",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

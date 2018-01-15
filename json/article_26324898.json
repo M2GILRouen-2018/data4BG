@@ -1,0 +1,247 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101249582,
+      "Country": "Germany",
+      "MedlineTA": "Med Image Comput Comput Assist Interv"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "106-114"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB008374",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB022880",
+            "Acronym": "EB"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Functional magnetic resonance imaging (fMRI) provides a non-invasive way to investigate brain activity. Recently, convergent evidence shows that the correlations of spontaneous fluctuations between two distinct brain regions dynamically change even in resting state, due to the condition-dependent nature of brain activity. Thus, quantifying the patterns of functional connectivity (FC) in a short time period and changes of FC over time can potentially provide valuable insight into both individual-based diagnosis and group comparison. In light of this, we propose a novel computational method to robustly estimate both static and dynamic spatial-temporal connectivity patterns from the observed noisy signals of individual subject. We achieve this goal in two folds: (1) Construct static functional connectivity across brain regions. Due to low signal-to-noise ratio induced by possible non-neural noise, the estimated FC strength is very sensitive and it is hard to define a good threshold to distinguish between real and spurious connections. To alleviate this issue, we propose to optimize FC which is in consensus with not only the low level region-to-region signal correlations but also the similarity of high level principal connection patterns learned from the estimated link-to-link connections. Since brain network is intrinsically sparse, we also encourage sparsity during FC optimization. (2) Characterize dynamic functional connectivity along time. It is hard to synchronize the estimated dynamic FC patterns and the real cognitive state changes, even using learning-based methods. To address these limitations, we further extend above FC optimization method into the spatial-temporal domain by arranging the FC estimations along a set of overlapped sliding windows into a tensor structure as the window slides. Then we employ low rank constraint in the temporal domain assuming there are likely a small number of discrete states that the brain transverses during a short period of time. We applied the learned spatial-temporal patterns from fMRI images to identify autism subjects. Promising classification results have been achieved, suggesting high discrimination power and great potentials in computer assisted diagnosis."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yingying",
+            "LastName": "Zhu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaofeng",
+            "LastName": "Zhu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Han",
+            "LastName": "Zhang",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Gao",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Biomedical Imaging Research Institute, Department of Biomedical Sciences and Imaging, Cedars-Sinai Medical Center, Los Angeles, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dinggang",
+            "LastName": "Shen",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guorong",
+            "LastName": "Wu",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Reveal Consistent Spatial-Temporal Patterns from Dynamic Functional Connectivity for Autism Spectrum Disorder Identification.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/978-3-319-46720-7_13"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 9900,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2016
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Med Image Comput Comput Assist Interv",
+        "Title": "Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": "08"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "CNS Neurosci Ther. 2016 Mar;22(3):212-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26821773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2015 Mar;37(3):529-40",
+        "PMID": {
+          "Version": 1,
+          "content": 26353259
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Neuropsychopharmacol. 2010 Aug;20(8):519-34",
+        "PMID": {
+          "Version": 1,
+          "content": 20471808
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2015 Oct;9349:573-580",
+        "PMID": {
+          "Version": 1,
+          "content": 27054199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2013 Oct 15;80:360-78",
+        "PMID": {
+          "Version": 1,
+          "content": 23707587
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Sep;52(3):1059-69",
+        "PMID": {
+          "Version": 1,
+          "content": 19819337
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2013 Dec;83:937-50",
+        "PMID": {
+          "Version": 1,
+          "content": 23872496
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Mar 30;101(13):4637-42",
+        "PMID": {
+          "Version": 1,
+          "content": 15070770
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Neurosci. 2008 Mar;31(3):137-45",
+        "PMID": {
+          "Version": 1,
+          "content": 18258309
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 Sep 15;112(37):11678-83",
+        "PMID": {
+          "Version": 1,
+          "content": 26324898
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28149963
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28149963,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/978-3-319-46720-7_13",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5278798",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS833406",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

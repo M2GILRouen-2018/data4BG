@@ -1,0 +1,110 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "594-605"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Applying alpha matting to large images is a challenging task because of its computational complexity. This paper provides a divide and conquer strategy for performing closed-form matting. The matting problem, defined for an entire image, is broken down into systems of linear equations defined for very small blocks of the image. The sizes of the small systems are small enough for us to find solutions efficiently using a direct sparse linear equation system solver. The small systems are solved following a sequential order such that the alpha matte grows from a user scribble. With the block sequential application, matting is performed on fan-shaped partitions in parallel on multiple processing cores. Experiments on large test images as well as on standard benchmark test images show that the proposed parallel block sequential matting provides high quality alpha mattes with good scalability."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yongsik",
+            "LastName": "Lee",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seungjoon",
+            "LastName": "Yang",
+            "Initials": "S"
+          }
+        ]
+      },
+      "ArticleTitle": "Parallel Block Sequential Closed-Form Matting With Fan-Shaped Partitions.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2017.2765827"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 27,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29185985
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29185985,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2017.2765827",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

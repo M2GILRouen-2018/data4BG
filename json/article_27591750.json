@@ -1,0 +1,312 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101217269,
+      "Country": "England",
+      "ISSNLinking": "1742-5662",
+      "MedlineTA": "J R Soc Interface"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 The Author(s).",
+        "AbstractText": "The coefficient of determination R2 quantifies the proportion of variance explained by a statistical model and is an important summary statistic of biological interest. However, estimating R2 for generalized linear mixed models (GLMMs) remains challenging. We have previously introduced a version of R2 that we called [Formula: see text] for Poisson and binomial GLMMs, but not for other distributional families. Similarly, we earlier discussed how to estimate intra-class correlation coefficients (ICCs) using Poisson and binomial GLMMs. In this paper, we generalize our methods to all other non-Gaussian distributions, in particular to negative binomial and gamma distributions that are commonly used for modelling biological data. While expanding our approach, we highlight two useful concepts for biologists, Jensen's inequality and the delta method, both of which help us in understanding the properties of GLMMs. Jensen's inequality has important implications for biologically meaningful interpretation of GLMMs, whereas the delta method allows a general derivation of variance associated with non-Gaussian distributions. We also discuss some special considerations for binomial GLMMs with binary or proportion data. We illustrate the implementation of our extension by worked examples from the field of ecology and evolution in the R environment. However, our method can be used across disciplines and regardless of statistical environments."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7765-5182"
+            },
+            "ForeName": "Shinichi",
+            "LastName": "Nakagawa",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Evolution and Ecology Research Centre, and School of Biological, Earth and Environmental Sciences, University of New South Wales, Sydney, New South Wales 2052, Australia s.nakagawa@unsw.edu.au."},
+              {"Affiliation": "Diabetes and Metabolism Division, Garvan Institute of Medical Research, Sydney, New South Wales 2010, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-6663-7520"
+            },
+            "ForeName": "Paul C D",
+            "LastName": "Johnson",
+            "Initials": "PCD",
+            "AffiliationInfo": {"Affiliation": "Institute of Biodiversity, Animal Health and Comparative Medicine, University of Glasgow, Graham Kerr Building, Glasgow G12 8QQ, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-9124-2261"
+            },
+            "ForeName": "Holger",
+            "LastName": "Schielzeth",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Population Ecology Group, Institute of Ecology, Friedrich Schiller University Jena, Dornburger Strasse 159, 07743 Jena, Germany holger.schielzeth@uni-jena.de."}
+          }
+        ]
+      },
+      "ArticleTitle": "The coefficient of determination R2 and intra-class correlation coefficient from generalized linear mixed-effects models revisited and expanded.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": 20170213
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1098/rsif.2017.0213"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 134,
+          "Volume": 14,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J R Soc Interface",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1742-5662"
+        },
+        "Title": "Journal of the Royal Society, Interface"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "goodness of fit"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "heritability"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "model fit"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "reliability analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "repeatability"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "variance decomposition"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 13
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Ecology. 2007 Nov;88(11):2766-72",
+        "PMID": {
+          "Version": 1,
+          "content": 18051645
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Anim Sci. 1997 Jan;75(1):76-87",
+        "PMID": {
+          "Version": 1,
+          "content": 9027551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2010 Sep;66(3):897-904",
+        "PMID": {
+          "Version": 1,
+          "content": 19817740
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2015 Jul 21;3:e1114",
+        "PMID": {
+          "Version": 1,
+          "content": 26244118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Dairy Sci. 1999 Aug;82(8):1834-47",
+        "PMID": {
+          "Version": 1,
+          "content": 10480111
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Ecol Evol. 2014 Sep;5(9):944-946",
+        "PMID": {
+          "Version": 1,
+          "content": 25810896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Ecol Evol. 2009 Mar;24(3):127-35",
+        "PMID": {
+          "Version": 1,
+          "content": 19185386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2014 Oct 09;2:e616",
+        "PMID": {
+          "Version": 1,
+          "content": 25320683
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1988 Dec;44(4):1049-60",
+        "PMID": {
+          "Version": 1,
+          "content": 3233245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ecology. 2007 Sep;88(9):2364-72",
+        "PMID": {
+          "Version": 1,
+          "content": 17918413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Rev Camb Philos Soc. 2010 Nov;85(4):935-56",
+        "PMID": {
+          "Version": 1,
+          "content": 20569253
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Theor Appl Genet. 1987 Apr;73(6):870-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24241297
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2008 Dec 20;27(29):6137-57",
+        "PMID": {
+          "Version": 1,
+          "content": 18816511
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2016 Nov;204(3):1281-1294",
+        "PMID": {
+          "Version": 1,
+          "content": 27591750
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28904005
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28904005,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "rsif.2017.0213",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1098/rsif.2017.0213",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5636267",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,582 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D020537",
+        "content": "RNA, Small Nucleolar"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 464},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "snoReport uses RNA secondary structure prediction combined with machine learning as the basis to identify the two main classes of small nucleolar RNAs, the box H/ACA snoRNAs and the box C/D snoRNAs. Here, we present snoReport 2.0, which substantially improves and extends in the original method by: extracting new features for both box C/D and H/ACA box snoRNAs; developing a more sophisticated technique in the SVM training phase with recent data from vertebrate organisms and a careful choice of the SVM parameters C and γ; and using updated versions of tools and databases used for the construction of the original version of snoReport. To validate the new version and to demonstrate its improved performance, we tested snoReport 2.0 in different organisms."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Results of the training and test phases of boxes H/ACA and C/D snoRNAs, in both versions of snoReport, are discussed. Validation on real data was performed to evaluate the predictions of snoReport 2.0. Our program was applied to a set of previously annotated sequences, some of them experimentally confirmed, of humans, nematodes, drosophilids, platypus, chickens and leishmania. We significantly improved the predictions for vertebrates, since the training phase used information of these organisms, but H/ACA box snoRNAs identification was improved for the other ones."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "We presented snoReport 2.0, to predict H/ACA box and C/D box snoRNAs, an efficient method to find true positives and avoid false positives in vertebrate organisms. H/ACA box snoRNA classifier showed an F-score of 93 % (an improvement of 10 % regarding the previous version), while C/D box snoRNA classifier, an F-Score of 94 % (improvement of 14 %). Besides, both classifiers exhibited performance measures above 90 %. These results show that snoReport 2.0 avoid false positives and false negatives, allowing to predict snoRNAs with high quality. In the validation phase, snoReport 2.0 predicted 67.43 % of vertebrate organisms for both classes. For Nematodes and Drosophilids, 69 % and 76.67 %, for H/ACA box snoRNAs were predicted, respectively, showing that snoReport 2.0 is good to identify snoRNAs in vertebrates and also H/ACA box snoRNAs in invertebrates organisms."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "João Victor",
+            "LastName": "de Araujo Oliveira",
+            "Initials": "JV",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of Brasilia, Brasília, BR-70910-900, Brazil. joaovicers@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fabrizio",
+            "LastName": "Costa",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-University Freiburg, Georges-Köhler-Allee 106, Freiburg, 79110, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rolf",
+            "LastName": "Backofen",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Bioinformatics Group, Department of Computer Science, Albert-Ludwigs-University Freiburg, Georges-Köhler-Allee 106, Freiburg, 79110, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter Florian",
+            "LastName": "Stadler",
+            "Initials": "PF",
+            "AffiliationInfo": [
+              {"Affiliation": "Bioinformatics Group, Department of Computer Science, and Interdisciplinary Center for Bioinformatics, University of Leipzig, Haertelstraße 16-18, Leipzig, D-04107, Germany."},
+              {"Affiliation": "German Centre for Integrative Biodiversity Research (iDiv), Halle-Jena-Leipzig, Germany."},
+              {"Affiliation": "Institute for Theoretical Chemistry, University of Vienna, Währingerstraße 17, Vienna, A-1090, Austria."},
+              {"Affiliation": "Center for non-coding RNA in Technology and Health, University of Copenhagen, Grønnegårdsvej 3, Frederiksberg, DK-1870, Denmark."},
+              {"Affiliation": "Max Planck Institute for Mathematics in the Sciences, Inselstraße 22, Leipzig, D-04103, Germany."},
+              {"Affiliation": "RNomics Group, Fraunhofer Institut for Cell Therapy and Immunology, Perlickstraße 1, Leipzig, D-04103, Germany."},
+              {"Affiliation": "Santa Fe Institute, 1399 Hyde Park Rd., Santa Fe, NM87501, USA."},
+              {"Affiliation": "Young Investigators Group Bioinformatics & Transcriptomics, Helmholtz Centre for Environmental Research - UFZ, Permoserstraße 15, Leipzig, D-04318, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maria Emília",
+            "LastName": "Machado Telles Walter",
+            "Initials": "ME",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of Brasilia, Brasília, BR-70910-900, Brazil."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jana",
+            "LastName": "Hertel",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Bioinformatics Group, Department of Computer Science, and Interdisciplinary Center for Bioinformatics, University of Leipzig, Haertelstraße 16-18, Leipzig, D-04107, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "SnoReport 2.0: new features and a refined Support Vector Machine to improve snoRNA identification.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-016-1345-6"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Suppl 18",
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "C/D box snoRNA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "H/ACA box snoRNA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Non-coding RNA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Support Vector Machine (SVM)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "snoRNA"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D001483",
+        "MajorTopicYN": "N",
+        "content": "Base Sequence"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D056890",
+          "MajorTopicYN": "N",
+          "content": "Eukaryota"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008969",
+        "MajorTopicYN": "N",
+        "content": "Molecular Sequence Data"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "Y",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D020537",
+          "MajorTopicYN": "N",
+          "content": "RNA, Small Nucleolar"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "Y",
+        "content": "Support Vector Machine"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D014714",
+          "MajorTopicYN": "N",
+          "content": "Vertebrates"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2006;34(18):5112-23",
+        "PMID": {
+          "Version": 1,
+          "content": 16990247
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jul;41(Web Server issue):W597-600",
+        "PMID": {
+          "Version": 1,
+          "content": 23671338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 1987 Jul;4(4):406-25",
+        "PMID": {
+          "Version": 1,
+          "content": 3447015
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 1997 Jan;3(1):17-26",
+        "PMID": {
+          "Version": 1,
+          "content": 8990395
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2015 Jan 21;11(1):780",
+        "PMID": {
+          "Version": 1,
+          "content": 25609650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Math Biol. 2008 Jan;56(1-2):15-49",
+        "PMID": {
+          "Version": 1,
+          "content": 17786447
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2000 Oct 27;103(3):457-66",
+        "PMID": {
+          "Version": 1,
+          "content": 11081632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2008 Jun;18(6):1005-10",
+        "PMID": {
+          "Version": 1,
+          "content": 18463303
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2015;2015:206849",
+        "PMID": {
+          "Version": 1,
+          "content": 26060813
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Mar 12;458(7235):223-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19182780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2007 Jun;17(6):852-64",
+        "PMID": {
+          "Version": 1,
+          "content": 17568003
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Biol. 2005 Jun 6;169(5):745-53",
+        "PMID": {
+          "Version": 1,
+          "content": 15939761
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jan;41(Database issue):D226-32",
+        "PMID": {
+          "Version": 1,
+          "content": 23125362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 2001 Aug 1;20(15):4214-21",
+        "PMID": {
+          "Version": 1,
+          "content": 11483524
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Nov 18;12(12):861-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22094949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2006 May 19;34(9):2676-85",
+        "PMID": {
+          "Version": 1,
+          "content": 16714446
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Mar 05;5:8790",
+        "PMID": {
+          "Version": 1,
+          "content": 25739977
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2000 Jun;16(6):276-7",
+        "PMID": {
+          "Version": 1,
+          "content": 10827456
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2009 Feb 22;10:86",
+        "PMID": {
+          "Version": 1,
+          "content": 19232134
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Jan 1;30(1):115-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24174566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2003 Jul 1;31(13):3429-31",
+        "PMID": {
+          "Version": 1,
+          "content": 12824340
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioessays. 2013 Jan;35(1):46-54",
+        "PMID": {
+          "Version": 1,
+          "content": 23180440
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2006 Jan 1;34(Database issue):D158-62",
+        "PMID": {
+          "Version": 1,
+          "content": 16381836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 2005 Aug;11(8):1303-16",
+        "PMID": {
+          "Version": 1,
+          "content": 15987805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eukaryot Cell. 2007 Mar;6(3):361-77",
+        "PMID": {
+          "Version": 1,
+          "content": 17189491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Genet. 2011 Dec 27;2:96",
+        "PMID": {
+          "Version": 1,
+          "content": 22303390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 1998 Apr 1;58(7):1515-20",
+        "PMID": {
+          "Version": 1,
+          "content": 9537257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Jan 15;24(2):158-64",
+        "PMID": {
+          "Version": 1,
+          "content": 17895272
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pac Symp Biocomput. 2010;:69-79",
+        "PMID": {
+          "Version": 1,
+          "content": 19908359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 1994 Nov 11;22(22):4673-80",
+        "PMID": {
+          "Version": 1,
+          "content": 7984417
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2006 Jan 13;311(5758):230-2",
+        "PMID": {
+          "Version": 1,
+          "content": 16357227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 May;38(9):3054-67",
+        "PMID": {
+          "Version": 1,
+          "content": 20081206
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28105919
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28105919,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-016-1345-6",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-016-1345-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5249026",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

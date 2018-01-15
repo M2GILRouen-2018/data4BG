@@ -1,0 +1,269 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1513-1523"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "The aim of this study was to reconstruct low-quality High-density surface EMG (HDsEMG) signals, recorded with 2-D electrode arrays, using image inpainting and surface reconstruction methods."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "It is common that some fraction of the electrodes may provide low-quality signals. We used variety of image inpainting methods, based on partial differential equations (PDEs), and surface reconstruction methods to reconstruct the time-averaged or instantaneous muscle activity maps of those outlier channels. Two novel reconstruction algorithms were also proposed. HDsEMG signals were recorded from the biceps femoris and brachial biceps muscles during low-to-moderate-level isometric contractions, and some of the channels (5-25%) were randomly marked as outliers. The root-mean-square error (RMSE) between the original and reconstructed maps was then calculated."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Overall, the proposed Poisson and wave PDE outperformed the other methods (average RMSE 8.7 μVrms ± 6.1 μVrms and 7.5 μVrms ± 5.9 μVrms) for the time-averaged single-differential and monopolar map reconstruction, respectively. Biharmonic Spline, the discrete cosine transform, and the Poisson PDE outperformed the other methods for the instantaneous map reconstruction. The running time of the proposed Poisson and wave PDE methods, implemented using a Vectorization package, was 4.6 ± 5.7 ms and 0.6 ± 0.5 ms, respectively, for each signal epoch or time sample in each channel."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The proposed reconstruction algorithms could be promising new tools for reconstructing muscle activity maps in real-time applications."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "SIGNIFICANCE",
+          "content": "Proper reconstruction methods could recover the information of low-quality recorded channels in HDsEMG signals."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Parviz",
+            "LastName": "Ghaderi",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hamid R",
+            "LastName": "Marateb",
+            "Initials": "HR"
+          }
+        ]
+      },
+      "ArticleTitle": "Muscle Activity Map Reconstruction from High Density Surface EMG Signals With Missing Channels Using Image Inpainting and Surface Reconstruction Methods.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2603463"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D000200",
+          "MajorTopicYN": "N",
+          "content": "Action Potentials"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "N",
+        "content": "Artifacts"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D004576",
+          "MajorTopicYN": "N",
+          "content": "Electromyography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D007537",
+          "MajorTopicYN": "N",
+          "content": "Isometric Contraction"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009046",
+          "MajorTopicYN": "N",
+          "content": "Motor Neurons"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D018482",
+          "MajorTopicYN": "N",
+          "content": "Muscle, Skeletal"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D046888",
+        "MajorTopicYN": "N",
+        "content": "Tissue Array Analysis"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113298
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113298,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2603463",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

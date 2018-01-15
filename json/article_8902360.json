@@ -1,0 +1,470 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2012,
+      "Day": 24
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e30126"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM076705",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-GM076705",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2012,
+        "DateType": "Electronic",
+        "Day": "03"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We introduce Dirichlet multinomial mixtures (DMM) for the probabilistic modelling of microbial metagenomics data. This data can be represented as a frequency matrix giving the number of times each taxa is observed in each sample. The samples have different size, and the matrix is sparse, as communities are diverse and skewed to rare taxa. Most methods used previously to classify or cluster samples have ignored these features. We describe each community by a vector of taxa probabilities. These vectors are generated from one of a finite number of Dirichlet mixture components each with different hyperparameters. Observed samples are generated through multinomial sampling. The mixture components cluster communities into distinct 'metacommunities', and, hence, determine envirotypes or enterotypes, groups of communities with a similar composition. The model can also deduce the impact of a treatment and be used for classification. We wrote software for the fitting of DMM models using the 'evidence framework' (http://code.google.com/p/microbedmm/). This includes the Laplace approximation of the model evidence. We applied the DMM model to human gut microbe genera frequencies from Obese and Lean twins. From the model evidence four clusters fit this data best. Two clusters were dominated by Bacteroides and were homogenous; two had a more variable community composition. We could not find a significant impact of body mass on community structure. However, Obese twins were more likely to derive from the high variance clusters. We propose that obesity is not associated with a distinct microbiota but increases the chance that an individual derives from a disturbed enterotype. This is an example of the 'Anna Karenina principle (AKP)' applied to microbial communities: disturbed states having many more configurations than undisturbed. We verify this by showing that in a study of inflammatory bowel disease (IBD) phenotypes, ileal Crohn's disease (ICD) is associated with a more variable community."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ian",
+            "LastName": "Holmes",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering, University of California, Berkeley, California, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Keith",
+            "LastName": "Harris",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher",
+            "LastName": "Quince",
+            "Initials": "C"
+          }
+        ]
+      },
+      "ArticleTitle": "Dirichlet multinomial mixtures: generative models for microbial metagenomics.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0030126"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 7,
+          "PubDate": {"Year": 2012},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2012,
+      "Day": "09"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000382",
+          "MajorTopicYN": "N",
+          "content": "microbiology"
+        },
+        "DescriptorName": {
+          "UI": "D003424",
+          "MajorTopicYN": "N",
+          "content": "Crohn Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000382",
+          "MajorTopicYN": "N",
+          "content": "microbiology"
+        },
+        "DescriptorName": {
+          "UI": "D041981",
+          "MajorTopicYN": "N",
+          "content": "Gastrointestinal Tract"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000382",
+          "MajorTopicYN": "Y",
+          "content": "microbiology"
+        },
+        "DescriptorName": {
+          "UI": "D015212",
+          "MajorTopicYN": "N",
+          "content": "Inflammatory Bowel Diseases"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D056186",
+          "MajorTopicYN": "N",
+          "content": "Metagenomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "N",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2016,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Microbiol. 2004 Oct;7(5):492-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15451504
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Sep;8(9):761-3",
+        "PMID": {
+          "Version": 1,
+          "content": 21765408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2005 Mar;71(3):1501-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15746353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Water Res. 2005 Jun;39(11):2207-18",
+        "PMID": {
+          "Version": 1,
+          "content": 15935436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2005 Sep 15;437(7057):376-80",
+        "PMID": {
+          "Version": 1,
+          "content": 16056220
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2005 Dec;71(12):8228-35",
+        "PMID": {
+          "Version": 1,
+          "content": 16332807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 Aug 8;103(32):12115-20",
+        "PMID": {
+          "Version": 1,
+          "content": 16880384
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2007 Aug;73(16):5261-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17586664
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2007 Oct 5;318(5847):97-100",
+        "PMID": {
+          "Version": 1,
+          "content": 17916733
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEMS Microbiol Ecol. 2007 Nov;62(2):142-60",
+        "PMID": {
+          "Version": 1,
+          "content": 17892477
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2008;9:34",
+        "PMID": {
+          "Version": 1,
+          "content": 18215273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2008 Mar;5(3):235-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18264105
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISME J. 2008 Oct;2(10):997-1006",
+        "PMID": {
+          "Version": 1,
+          "content": 18650928
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Jan 22;457(7228):480-4",
+        "PMID": {
+          "Version": 1,
+          "content": 19043404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2009 Sep;6(9):639-41",
+        "PMID": {
+          "Version": 1,
+          "content": 19668203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 Dec;19(12):2317-23",
+        "PMID": {
+          "Version": 1,
+          "content": 19819907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Apr 20;107(16):7503-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20363958
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2010 May;7(5):335-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20383131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastroenterology. 2010 Dec;139(6):1844-1854.e1",
+        "PMID": {
+          "Version": 1,
+          "content": 20816835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2010 Dec;17(12):1607-20",
+        "PMID": {
+          "Version": 1,
+          "content": 21128852
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Dec;38(22):e205",
+        "PMID": {
+          "Version": 1,
+          "content": 20929878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEMS Microbiol Rev. 2011 Mar;35(2):343-59",
+        "PMID": {
+          "Version": 1,
+          "content": 21039646
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 2011 Feb;22(2):186-98",
+        "PMID": {
+          "Version": 1,
+          "content": 21095862
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011;12:38",
+        "PMID": {
+          "Version": 1,
+          "content": 21276213
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 Mar 15;108 Suppl 1:4516-22",
+        "PMID": {
+          "Version": 1,
+          "content": 20534432
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2011 May 12;473(7346):174-80",
+        "PMID": {
+          "Version": 1,
+          "content": 21508958
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Appl Biosci. 1996 Aug;12(4):327-45",
+        "PMID": {
+          "Version": 1,
+          "content": 8902360
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3272020"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 22319561
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2011,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2011,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 22319561,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0030126",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-11-15801",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC3272020",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

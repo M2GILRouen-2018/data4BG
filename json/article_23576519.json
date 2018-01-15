@@ -1,0 +1,416 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101603425,
+      "Country": "United States",
+      "MedlineTA": "PeerJ"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare there are no competing interests.",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e2942"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIH HHS",
+          "Country": "United States",
+          "GrantID": "S10 OD016290",
+          "Acronym": "OD"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Transposable element (TE) polymorphisms are important components of population genetic variation. The functional impacts of TEs in gene regulation and generating genetic diversity have been observed in multiple species, but the frequency and magnitude of TE variation is under appreciated. Inexpensive and deep sequencing technology has made it affordable to apply population genetic methods to whole genomes with methods that identify single nucleotide and insertion/deletion polymorphisms. However, identifying TE polymorphisms, particularly transposition events or non-reference insertion sites can be challenging due to the repetitive nature of these sequences, which hamper both the sensitivity and specificity of analysis tools."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We have developed the tool RelocaTE2 for identification of TE insertion sites at high sensitivity and specificity. RelocaTE2 searches for known TE sequences in whole genome sequencing reads from second generation sequencing platforms such as Illumina. These sequence reads are used as seeds to pinpoint chromosome locations where TEs have transposed. RelocaTE2 detects target site duplication (TSD) of TE insertions allowing it to report TE polymorphism loci with single base pair precision."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "RESULTS AND DISCUSSION",
+          "content": "The performance of RelocaTE2 is evaluated using both simulated and real sequence data. RelocaTE2 demonstrate high level of sensitivity and specificity, particularly when the sequence coverage is not shallow. In comparison to other tools tested, RelocaTE2 achieves the best balance between sensitivity and specificity. In particular, RelocaTE2 performs best in prediction of TSDs for TE insertions. Even in highly repetitive regions, such as those tested on rice chromosome 4, RelocaTE2 is able to report up to 95% of simulated TE insertions with less than 0.1% false positive rate using 10-fold genome coverage resequencing data. RelocaTE2 provides a robust solution to identify TE insertion sites and can be incorporated into analysis workflows in support of describing the complete genotype from light coverage genome sequencing."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinfeng",
+            "LastName": "Chen",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Plant Pathology & Microbiology, University of California, Riverside, CA, United States; Institute for Integrative Genome Biology, University of California, Riverside, CA, United States; Department of Botany and Plant Sciences, University of California, Riverside, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Travis R",
+            "LastName": "Wrightsman",
+            "Initials": "TR",
+            "AffiliationInfo": {"Affiliation": "Department of Botany and Plant Sciences, University of California , Riverside , CA , United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Susan R",
+            "LastName": "Wessler",
+            "Initials": "SR",
+            "AffiliationInfo": {"Affiliation": "Institute for Integrative Genome Biology, University of California, Riverside, CA, United States; Department of Botany and Plant Sciences, University of California, Riverside, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jason E",
+            "LastName": "Stajich",
+            "Initials": "JE",
+            "AffiliationInfo": {"Affiliation": "Department of Plant Pathology & Microbiology, University of California, Riverside, CA, United States; Institute for Integrative Genome Biology, University of California, Riverside, CA, United States."}
+          }
+        ]
+      },
+      "ArticleTitle": "RelocaTE2: a high resolution transposable element insertion site mapping tool for population resequencing.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.7717/peerj.2942"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 5,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "PeerJ",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2167-8359"
+        },
+        "Title": "PeerJ"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Annotation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Bioinformatics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Diversity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Parallel processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Population genomics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Resequencing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Rice"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Short read"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Transposons"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2011 Dec 11;30(1):105-11",
+        "PMID": {
+          "Version": 1,
+          "content": 22158310
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2002 Apr;12(4):656-64",
+        "PMID": {
+          "Version": 1,
+          "content": 11932250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Feb 1;29(3):389-90",
+        "PMID": {
+          "Version": 1,
+          "content": 23233656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Jun 1;28(11):1533-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22508794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2008 May;9(5):397-405",
+        "PMID": {
+          "Version": 1,
+          "content": 18368054
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2007 Sep 4;5(10):e254",
+        "PMID": {
+          "Version": 1,
+          "content": 17803354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Plant Biol. 2014;65:505-30",
+        "PMID": {
+          "Version": 1,
+          "content": 24579996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2011 Aug;7(8):e1002236",
+        "PMID": {
+          "Version": 1,
+          "content": 21876680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 Sep;19(9):1516-26",
+        "PMID": {
+          "Version": 1,
+          "content": 19439515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 Sep 25;43(11):1154-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21946353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014;15(11):506",
+        "PMID": {
+          "Version": 1,
+          "content": 25468217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2008 Jun;40(6):722-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18438408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jun;42(11):6826-38",
+        "PMID": {
+          "Version": 1,
+          "content": 24753423
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2013;9(1):e1003234",
+        "PMID": {
+          "Version": 1,
+          "content": 23358118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2013 Jan;14(1):49-61",
+        "PMID": {
+          "Version": 1,
+          "content": 23247435
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2002 May;12(5):817-23",
+        "PMID": {
+          "Version": 1,
+          "content": 11997348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2016 Jun 03;5:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27258693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2007 Oct 19;318(5849):420-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17901297
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Jun 15;26(12):i350-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20529927
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2009 Oct;10(10):691-703",
+        "PMID": {
+          "Version": 1,
+          "content": 19763152
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2014 Dec;24(12):1963-76",
+        "PMID": {
+          "Version": 1,
+          "content": 25319995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2010 Jul;42(7):631-4",
+        "PMID": {
+          "Version": 1,
+          "content": 20526341
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Mar 05;16:72",
+        "PMID": {
+          "Version": 1,
+          "content": 25887332
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Jul 15;25(14):1754-60",
+        "PMID": {
+          "Version": 1,
+          "content": 19451168
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "G3 (Bethesda). 2013 Jun 21;3(6):949-57",
+        "PMID": {
+          "Version": 1,
+          "content": 23576519
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28149701
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28149701,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.7717/peerj.2942",
+        "IdType": "doi"
+      },
+      {
+        "content": 2942,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5274521",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

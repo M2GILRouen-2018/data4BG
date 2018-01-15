@@ -1,0 +1,482 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "764-74"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "Wellcome Trust",
+            "Country": "United Kingdom",
+            "GrantID": "086091"
+          },
+          {
+            "Agency": "Medical Research Council",
+            "Country": "United Kingdom",
+            "GrantID": "MC_EX_G0800814"
+          },
+          {
+            "Agency": "Department of Health",
+            "Country": "United Kingdom",
+            "GrantID": "RP-PG-0407-10314"
+          },
+          {
+            "Agency": "Wellcome Trust",
+            "Country": "United Kingdom",
+            "GrantID": "0938/30/Z/10/Z"
+          },
+          {
+            "Agency": "Wellcome Trust",
+            "Country": "United Kingdom",
+            "GrantID": "093830"
+          },
+          {
+            "Agency": "Medical Research Council",
+            "Country": "United Kingdom",
+            "GrantID": "MR/K006584/1"
+          },
+          {
+            "Agency": "Medical Research Council",
+            "Country": "United Kingdom",
+            "GrantID": "MR/K02180X/1"
+          },
+          {
+            "Agency": "Medical Research Council",
+            "Country": "United Kingdom",
+            "GrantID": "G0900724"
+          },
+          {
+            "Agency": "Medical Research Council",
+            "Country": "United Kingdom",
+            "GrantID": "G0902393"
+          },
+          {
+            "Agency": "Wellcome Trust",
+            "Country": "United Kingdom",
+            "GrantID": "086091/Z/08/Z"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Multivariate imputation by chained equations (MICE) is commonly used for imputing missing data in epidemiologic research. The \"true\" imputation model may contain nonlinearities which are not included in default imputation models. Random forest imputation is a machine learning technique which can accommodate nonlinearities and interactions and does not require a particular regression model to be specified. We compared parametric MICE with a random forest-based MICE algorithm in 2 simulation studies. The first study used 1,000 random samples of 2,000 persons drawn from the 10,128 stable angina patients in the CALIBER database (Cardiovascular Disease Research using Linked Bespoke Studies and Electronic Records; 2001-2010) with complete data on all covariates. Variables were artificially made \"missing at random,\" and the bias and efficiency of parameter estimates obtained using different imputation methods were compared. Both MICE methods produced unbiased estimates of (log) hazard ratios, but random forest was more efficient and produced narrower confidence intervals. The second study used simulated data in which the partially observed variable depended on the fully observed variables in a nonlinear way. Parameter estimates were less biased using random forest MICE, and confidence interval coverage was better. This suggests that random forest imputation may be useful for imputing complex epidemiologic data sets in which some patients have missing data."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anoop D",
+            "LastName": "Shah",
+            "Initials": "AD"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonathan W",
+            "LastName": "Bartlett",
+            "Initials": "JW"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "James",
+            "LastName": "Carpenter",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Owen",
+            "LastName": "Nicholas",
+            "Initials": "O"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Harry",
+            "LastName": "Hemingway",
+            "Initials": "H"
+          }
+        ]
+      },
+      "ArticleTitle": "Comparison of random forest and parametric imputation models for imputing missing data using MICE: a CALIBER study.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/aje/kwt312"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 179,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2014,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Am. J. Epidemiol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1476-6256"
+        },
+        "Title": "American journal of epidemiology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "03",
+      "Year": 2014,
+      "Day": "04"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Res Methodol. 2012;12:46",
+        "PMID": {
+          "Version": 1,
+          "content": 22489953
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 2012 Dec;41(6):1625-38",
+        "PMID": {
+          "Version": 1,
+          "content": 23220717
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Res Methodol. 2012;12:184",
+        "PMID": {
+          "Version": 1,
+          "content": 23216665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Methods Med Res. 2015 Aug;24(4):462-87",
+        "PMID": {
+          "Version": 1,
+          "content": 24525487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1997 Sep;53(3):1151-6",
+        "PMID": {
+          "Version": 1,
+          "content": 9333345
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2009 Jul 10;28(15):1982-98",
+        "PMID": {
+          "Version": 1,
+          "content": 19452569
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Clin Pharmacol. 2010 Jan;69(1):4-14",
+        "PMID": {
+          "Version": 1,
+          "content": 20078607
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2010 Jun;19(6):618-26",
+        "PMID": {
+          "Version": 1,
+          "content": 20306452
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heart. 2010 Aug;96(16):1264-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20659944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2010 Nov 1;172(9):1070-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20841346
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Res Methodol. 2010;10:112",
+        "PMID": {
+          "Version": 1,
+          "content": 21194416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2011 May;8(5):e1000439",
+        "PMID": {
+          "Version": 1,
+          "content": 21655315
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Med Chem. 2011;18(21):3226-33",
+        "PMID": {
+          "Version": 1,
+          "content": 21671854
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Thromb Haemost. 2011 Oct;106(4):591-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21866299
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Res Methodol. 2011;11:129",
+        "PMID": {
+          "Version": 1,
+          "content": 21929796
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2011;35 Suppl 1:S5-11",
+        "PMID": {
+          "Version": 1,
+          "content": 22128059
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Jan 1;28(1):112-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22039212
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Cancer. 2012 Jan 3;106(1):126-32",
+        "PMID": {
+          "Version": 1,
+          "content": 22095227
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "EMS56368"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC3939843"
+      }
+    ],
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7910653,
+      "Country": "United States",
+      "ISSNLinking": "0002-9262",
+      "MedlineTA": "Am J Epidemiol"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2014,
+      "Day": 29
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "angina, stable"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "imputation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "missing data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "missingness at random"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "regression trees"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "simulation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "survival"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000367",
+        "MajorTopicYN": "N",
+        "content": "Age Factors"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000453",
+          "MajorTopicYN": "N",
+          "content": "epidemiology"
+        },
+        "DescriptorName": {
+          "UI": "D060050",
+          "MajorTopicYN": "N",
+          "content": "Angina, Stable"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {"DescriptorName": {
+        "UI": "D015982",
+        "MajorTopicYN": "N",
+        "content": "Bias (Epidemiology)"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "Y",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D016001",
+        "MajorTopicYN": "N",
+        "content": "Confidence Intervals"
+      }},
+      {"DescriptorName": {
+        "UI": "D004812",
+        "MajorTopicYN": "Y",
+        "content": "Epidemiologic Methods"
+      }},
+      {"DescriptorName": {
+        "UI": "D015438",
+        "MajorTopicYN": "N",
+        "content": "Health Behavior"
+      }},
+      {"DescriptorName": {
+        "UI": "D006304",
+        "MajorTopicYN": "N",
+        "content": "Health Status"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016016",
+        "MajorTopicYN": "N",
+        "content": "Proportional Hazards Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D011897",
+        "MajorTopicYN": "N",
+        "content": "Random Allocation"
+      }},
+      {"DescriptorName": {
+        "UI": "D012737",
+        "MajorTopicYN": "N",
+        "content": "Sex Factors"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 24589914
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 3,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 3,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24589914,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "kwt312",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/aje/kwt312",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3939843",
+        "IdType": "pmc"
+      },
+      {
+        "content": "EMS56368",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

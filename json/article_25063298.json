@@ -1,0 +1,615 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101462768,
+      "Country": "England",
+      "ISSNLinking": "1756-0500",
+      "MedlineTA": "BMC Res Notes"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D035683",
+        "content": "MicroRNAs"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": "06"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 54},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NLM NIH HHS",
+          "Country": "United States",
+          "GrantID": "T15 LM009451",
+          "Acronym": "LM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Several methods have been developed to identify differential correlation (DC) between pairs of molecular features from -omics studies. Most DC methods have only been tested with microarrays and other platforms producing continuous and Gaussian-like data. Sequencing data is in the form of counts, often modeled with a negative binomial distribution making it difficult to apply standard correlation metrics. We have developed an R package for identifying DC called Discordant which uses mixture models for correlations between features and the Expectation Maximization (EM) algorithm for fitting parameters of the mixture model. Several correlation metrics for sequencing data are provided and tested using simulations. Other extensions in the Discordant package include additional modeling for different types of differential correlation, and faster implementation, using a subsampling routine to reduce run-time and address the assumption of independence between molecular feature pairs."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "With simulations and breast cancer miRNA-Seq and RNA-Seq data, we find that Spearman's correlation has the best performance among the tested correlation methods for identifying differential correlation. Application of Spearman's correlation in the Discordant method demonstrated the most power in ROC curves and sensitivity/specificity plots, and improved ability to identify experimentally validated breast cancer miRNA. We also considered including additional types of differential correlation, which showed a slight reduction in power due to the additional parameters that need to be estimated, but more versatility in applications. Finally, subsampling within the EM algorithm considerably decreased run-time with negligible effect on performance."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "A new method and R package called Discordant is presented for identifying differential correlation with sequencing data. Based on comparisons with different correlation metrics, this study suggests Spearman's correlation is appropriate for sequencing data, but other correlation metrics are available to the user depending on the application and data type. The Discordant method can also be extended to investigate additional DC types and subsampling with the EM algorithm is now available for reduced run-time. These extensions to the R package make Discordant more robust and versatile for multiple -omics studies."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7595-4322"
+            },
+            "ForeName": "Charlotte",
+            "LastName": "Siska",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Computational Bioscience Program, Department of Pharmacology, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO, USA. charlotte.siska@ucdenver.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Katerina",
+            "LastName": "Kechris",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics and Informatics, Colorado School of Public Health, University of Colorado Anschutz Medical Campus, Aurora, CO, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Differential correlation for sequencing data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13104-016-2331-9"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 10,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 19
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Res Notes",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1756-0500"
+        },
+        "Title": "BMC research notes"
+      },
+      "PubModel": "Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D001943",
+          "MajorTopicYN": "N",
+          "content": "Breast Neoplasms"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D020869",
+          "MajorTopicYN": "N",
+          "content": "Gene Expression Profiling"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015894",
+        "MajorTopicYN": "N",
+        "content": "Genome, Human"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D059014",
+          "MajorTopicYN": "N",
+          "content": "High-Throughput Nucleotide Sequencing"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000032",
+          "MajorTopicYN": "N",
+          "content": "analysis"
+        },
+        "DescriptorName": {
+          "UI": "D035683",
+          "MajorTopicYN": "N",
+          "content": "MicroRNAs"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D009369",
+          "MajorTopicYN": "N",
+          "content": "Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016011",
+        "MajorTopicYN": "N",
+        "content": "Normal Distribution"
+      }},
+      {"DescriptorName": {
+        "UI": "D012372",
+        "MajorTopicYN": "N",
+        "content": "ROC Curve"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017423",
+          "MajorTopicYN": "N",
+          "content": "Sequence Analysis, RNA"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }},
+      {"DescriptorName": {
+        "UI": "D059467",
+        "MajorTopicYN": "N",
+        "content": "Transcriptome"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 27
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Gene. 2013 Apr 10;518(1):209-14",
+        "PMID": {
+          "Version": 1,
+          "content": 23246976
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Biotechnol. 2013 Feb;24(1):22-30",
+        "PMID": {
+          "Version": 1,
+          "content": 23020966
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pac Symp Biocomput. 2010;:145-56",
+        "PMID": {
+          "Version": 1,
+          "content": 19908367
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 Aug 4;20 Suppl 1:i194-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15262799
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Jan 1;26(1):139-40",
+        "PMID": {
+          "Version": 1,
+          "content": 19910308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Exp Immunol. 1995 Aug;101(2):314-20",
+        "PMID": {
+          "Version": 1,
+          "content": 7648715
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2012 Jun;68(2):455-65",
+        "PMID": {
+          "Version": 1,
+          "content": 22004327
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 Nov;7(11):e1002255",
+        "PMID": {
+          "Version": 1,
+          "content": 22072954
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013;9(3):e1002955",
+        "PMID": {
+          "Version": 1,
+          "content": 23505361
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2010 Jul;26(7):326-33",
+        "PMID": {
+          "Version": 1,
+          "content": 20570387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(10):R106",
+        "PMID": {
+          "Version": 1,
+          "content": 20979621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 Nov;13(11):2498-504",
+        "PMID": {
+          "Version": 1,
+          "content": 14597658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014 Feb 03;15(2):R29",
+        "PMID": {
+          "Version": 1,
+          "content": 24485249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2014 Nov;15(6):906-18",
+        "PMID": {
+          "Version": 1,
+          "content": 23962479
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Genet. 2012 Jan 06;2:105",
+        "PMID": {
+          "Version": 1,
+          "content": 22303399
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Sep 1;29(17):2146-52",
+        "PMID": {
+          "Version": 1,
+          "content": 23821648
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2012 Dec 09;13:328",
+        "PMID": {
+          "Version": 1,
+          "content": 23217028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Derm Venereol. 2000 Jul-Aug;80(4):277-80",
+        "PMID": {
+          "Version": 1,
+          "content": 11028861
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(3):R25",
+        "PMID": {
+          "Version": 1,
+          "content": 20196867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2006 Nov 20;7:509",
+        "PMID": {
+          "Version": 1,
+          "content": 17116249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Oct 06;11:497",
+        "PMID": {
+          "Version": 1,
+          "content": 20925918
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2014;15 Suppl 1:S6",
+        "PMID": {
+          "Version": 1,
+          "content": 24564564
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Apr 20;43(7):e47",
+        "PMID": {
+          "Version": 1,
+          "content": 25605792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Mar 1;29(5):638-44",
+        "PMID": {
+          "Version": 1,
+          "content": 23325619
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncogene. 2004 Mar 25;23(13):2330-8",
+        "PMID": {
+          "Version": 1,
+          "content": 14743206
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Feb 1;30(3):360-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24292935
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Biol. 2011 May 31;9:34",
+        "PMID": {
+          "Version": 1,
+          "content": 21627854
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 May 15;23(10):1243-50",
+        "PMID": {
+          "Version": 1,
+          "content": 17384018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2012 Mar 01;7(3):562-78",
+        "PMID": {
+          "Version": 1,
+          "content": 22383036
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(9):e1002687",
+        "PMID": {
+          "Version": 1,
+          "content": 23028285
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Reprod Immunol. 2004 Jul;52(1):1-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15214936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Jul 15;28(14):1939-40",
+        "PMID": {
+          "Version": 1,
+          "content": 22595207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Stat Softw. 2012 Mar;46(11):null",
+        "PMID": {
+          "Version": 1,
+          "content": 23050260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Obes (Lond). 2012 Jan;36(1):137-47",
+        "PMID": {
+          "Version": 1,
+          "content": 21427694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Mar 1;32(5):690-6",
+        "PMID": {
+          "Version": 1,
+          "content": 26520855
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Jun;39(11):e74",
+        "PMID": {
+          "Version": 1,
+          "content": 21459849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014;42(17):e133",
+        "PMID": {
+          "Version": 1,
+          "content": 25063298
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28103954
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28103954,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13104-016-2331-9",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s13104-016-2331-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5244536",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

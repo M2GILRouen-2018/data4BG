@@ -1,0 +1,530 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 20
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0185082"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "Various methods for radiation-dose calculation have been investigated over previous decades, focusing on the use of magnetic resonance imaging (MRI) only. The bulk-density-assignment method based on manual segmentation has exhibited promising results compared to dose-calculation with computed tomography (CT). However, this method cannot be easily implemented in clinical practice due to its time-consuming nature. Therefore, we investigated an automatic anatomy segmentation method with the intention of providing the proper methodology to evaluate synthetic CT images for a radiation-dose calculation based on MR images."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "CT images of 20 brain cancer patients were selected, and their MR images including T1-weighted, T2-weighted, and PETRA were retrospectively collected. Eight anatomies of the patients, such as the body, air, eyeball, lens, cavity, ventricle, brainstem, and bone, were segmented for bulk-density-assigned CT image (BCT) generation. In addition, water-equivalent CT images (WCT) with only two anatomies-body and air-were generated for a comparison with BCT. Histogram comparison and gamma analysis were performed by comparison with the original CT images, after the evaluation of automatic segmentation performance with the dice similarity coefficient (DSC), false negative dice (FND) coefficient, and false positive dice (FPD) coefficient."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The highest DSC value was 99.34 for air segmentation, and the lowest DSC value was 73.50 for bone segmentation. For lens segmentation, relatively high FND and FPD values were measured. The cavity and bone were measured as over-segmented anatomies having higher FPD values than FND. The measured histogram comparison results of BCT were better than those of WCT in all cases. In gamma analysis, the averaged improvement of BCT compared to WCT was measured. All the measured results of BCT were better than those of WCT. Therefore, the results of this study show that the introduced methods, such as histogram comparison and gamma analysis, are valid for the evaluation of the synthetic CT generation from MR images."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The image similarity results showed that BCT has superior results compared to WCT for all measurements performed in this study. Consequently, more accurate radiation treatment for the intracranial regions can be expected when the proper image similarity evaluation introduced in this study is performed."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3736-349X"
+            },
+            "ForeName": "Shin-Wook",
+            "LastName": "Kim",
+            "Initials": "SW",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Incheon St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hun-Joo",
+            "LastName": "Shin",
+            "Initials": "HJ",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Incheon St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jin-Ho",
+            "LastName": "Hwang",
+            "Initials": "JH",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, College of Medicine, The Catholic University of Korea, Seoul, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jin-Sol",
+            "LastName": "Shin",
+            "Initials": "JS",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, College of Medicine, The Catholic University of Korea, Seoul, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sung-Kwang",
+            "LastName": "Park",
+            "Initials": "SK",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Busan Paik Hospital, Inje University, Busan, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jin-Young",
+            "LastName": "Kim",
+            "Initials": "JY",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Haeundae Paik Hospital, Inje University, Busan, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ki-Jun",
+            "LastName": "Kim",
+            "Initials": "KJ",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Incheon St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chul-Seung",
+            "LastName": "Kay",
+            "Initials": "CS",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Incheon St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-3547-8157"
+            },
+            "ForeName": "Young-Nam",
+            "LastName": "Kang",
+            "Initials": "YN",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Seoul St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea."}
+          }
+        ]
+      },
+      "ArticleTitle": "Image similarity evaluation of the bulk-density-assigned synthetic CT derived from MRI of intracranial regions for radiation treatment.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0185082"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000033",
+            "MajorTopicYN": "N",
+            "content": "anatomy & histology"
+          },
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001842",
+          "MajorTopicYN": "N",
+          "content": "Bone and Bones"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000033",
+            "MajorTopicYN": "N",
+            "content": "anatomy & histology"
+          },
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000532",
+            "MajorTopicYN": "Y",
+            "content": "radiotherapy"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001932",
+          "MajorTopicYN": "N",
+          "content": "Brain Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000592",
+          "MajorTopicYN": "N",
+          "content": "standards"
+        },
+        "DescriptorName": {
+          "UI": "D008279",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000592",
+          "MajorTopicYN": "Y",
+          "content": "standards"
+        },
+        "DescriptorName": {
+          "UI": "D011880",
+          "MajorTopicYN": "N",
+          "content": "Radiotherapy Planning, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012189",
+        "MajorTopicYN": "N",
+        "content": "Retrospective Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D014057",
+        "MajorTopicYN": "N",
+        "content": "Tomography, X-Ray Computed"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Oncol. 2009 Nov 17;4:54",
+        "PMID": {
+          "Version": 1,
+          "content": 19919713
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2014 Jan;41(1):011704",
+        "PMID": {
+          "Version": 1,
+          "content": 24387496
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Oncol. 2008;47(7):1294-302",
+        "PMID": {
+          "Version": 1,
+          "content": 18663645
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2013 Jul;70(1):127-35",
+        "PMID": {
+          "Version": 1,
+          "content": 22886780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Oncol. 2014 Jan 09;9:16",
+        "PMID": {
+          "Version": 1,
+          "content": 24405515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2003 Feb;66(2):203-16",
+        "PMID": {
+          "Version": 1,
+          "content": 12648793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2014 May;41(5):051711",
+        "PMID": {
+          "Version": 1,
+          "content": 24784377
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2011 May;38(5):2708-14",
+        "PMID": {
+          "Version": 1,
+          "content": 21776807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2014;2014:231090",
+        "PMID": {
+          "Version": 1,
+          "content": 24812609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2015 Nov 21;60(22):R323-61",
+        "PMID": {
+          "Version": 1,
+          "content": 26509844
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2011 Mar;98 (3):330-4",
+        "PMID": {
+          "Version": 1,
+          "content": 21339009
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2009 Jun 1;74(2):644-51",
+        "PMID": {
+          "Version": 1,
+          "content": 19427564
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Jun;39(6):3283-90",
+        "PMID": {
+          "Version": 1,
+          "content": 22755711
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Jul 7;53(13):3579-93",
+        "PMID": {
+          "Version": 1,
+          "content": 18560047
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Clin Med Phys. 2009 Apr 30;10(2):2847",
+        "PMID": {
+          "Version": 1,
+          "content": 19458588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Oncol. 2010 Jun 30;5:62",
+        "PMID": {
+          "Version": 1,
+          "content": 20591179
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Jun 21;53(12):R151-91",
+        "PMID": {
+          "Version": 1,
+          "content": 18495981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2004 Nov 21;49(22):5157-70",
+        "PMID": {
+          "Version": 1,
+          "content": 15609565
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Phys. 2008 Oct;33(4):136-40",
+        "PMID": {
+          "Version": 1,
+          "content": 19893706
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1994;13(4):716-24",
+        "PMID": {
+          "Version": 1,
+          "content": 18218550
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Radiol. 2012 Jan;85(1009):61-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22190750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1998 May;25(5):656-61",
+        "PMID": {
+          "Version": 1,
+          "content": 9608475
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2005 Feb;32(2):473-82",
+        "PMID": {
+          "Version": 1,
+          "content": 15789594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 Jan;42(1):28-39",
+        "PMID": {
+          "Version": 1,
+          "content": 25563245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2012 May 1;83(1):e5-11",
+        "PMID": {
+          "Version": 1,
+          "content": 22330995
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28926610
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28926610,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0185082",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-03342",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5605009",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

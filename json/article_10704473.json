@@ -1,0 +1,476 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101263720,
+      "Country": "Germany",
+      "ISSNLinking": "1687-4145",
+      "MedlineTA": "EURASIP J Bioinform Syst Biol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 2},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 10
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Gene expression time series data are usually in the form of high-dimensional arrays. Unfortunately, the data may sometimes contain missing values: for either the expression values of some genes at some time points or the entire expression values of a single time point or some sets of consecutive time points. This significantly affects the performance of many algorithms for gene expression analysis that take as an input, the complete matrix of gene expression measurement. For instance, previous works have shown that gene regulatory interactions can be estimated from the complete matrix of gene expression measurement. Yet, till date, few algorithms have been proposed for the inference of gene regulatory network from gene expression data with missing values."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We describe a nonlinear dynamic stochastic model for the evolution of gene expression. The model captures the structural, dynamical, and the nonlinear natures of the underlying biomolecular systems. We present point-based Gaussian approximation (PBGA) filters for joint state and parameter estimation of the system with one-step or two-step missing measurements. The PBGA filters use Gaussian approximation and various quadrature rules, such as the unscented transform (UT), the third-degree cubature rule and the central difference rule for computing the related posteriors. The proposed algorithm is evaluated with satisfying results for synthetic networks, in silico networks released as a part of the DREAM project, and the real biological network, the in vivo reverse engineering and modeling assessment (IRMA) network of yeast Saccharomyces cerevisiae."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "PBGA filters are proposed to elucidate the underlying gene regulatory network (GRN) from time series gene expression data that contain missing values. In our state-space model, we proposed a measurement model that incorporates the effect of the missing data points into the sequential algorithm. This approach produces a better inference of the model parameters and hence, more accurate prediction of the underlying GRN compared to when using the conventional Gaussian approximation (GA) filters ignoring the missing data points."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Oyetunji E",
+            "LastName": "Ogundijo",
+            "Initials": "OE",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Columbia University, 500 W 120th Street, New York, 10027 NY USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Abdulkadir",
+            "LastName": "Elmas",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Columbia University, 500 W 120th Street, New York, 10027 NY USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaodong",
+            "LastName": "Wang",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Columbia University, 500 W 120th Street, New York, 10027 NY USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Reverse engineering gene regulatory networks from measurement with missing values.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13637-016-0055-8"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 2017,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "EURASIP J Bioinform Syst Biol",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1687-4145"
+        },
+        "Title": "EURASIP journal on bioinformatics & systems biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bayesian inference"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian filters"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gene expression"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Missing data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Network inference"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2012 Feb;19(2):175-87",
+        "PMID": {
+          "Version": 1,
+          "content": 22300319
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Condens Matter. 2010 Oct 20;22(41):414105",
+        "PMID": {
+          "Version": 1,
+          "content": 21386588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Jul 23;8(7):e68358",
+        "PMID": {
+          "Version": 1,
+          "content": 23935862
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann N Y Acad Sci. 2009 Mar;1158:159-95",
+        "PMID": {
+          "Version": 1,
+          "content": 19348640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacogenomics. 2009 May;10(5):895-914",
+        "PMID": {
+          "Version": 1,
+          "content": 19450135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EURASIP J Bioinform Syst Biol. 2009;:717136",
+        "PMID": {
+          "Version": 1,
+          "content": 19223972
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Cell Dev Biol. 2014 Aug 19;2:38",
+        "PMID": {
+          "Version": 1,
+          "content": 25364745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2003 Dec 9;100(25):14796-9",
+        "PMID": {
+          "Version": 1,
+          "content": 14657375
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biosystems. 2009 Apr;96(1):86-103",
+        "PMID": {
+          "Version": 1,
+          "content": 19150482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann N Y Acad Sci. 2007 Dec;1115:1-22",
+        "PMID": {
+          "Version": 1,
+          "content": 17925349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Feb 1;29(3):338-46",
+        "PMID": {
+          "Version": 1,
+          "content": 23271269
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Apr 1;24(7):932-42",
+        "PMID": {
+          "Version": 1,
+          "content": 18292116
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Jan;12(1):56-68",
+        "PMID": {
+          "Version": 1,
+          "content": 21164525
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biol. 1994 Jun;14(6):3834-41",
+        "PMID": {
+          "Version": 1,
+          "content": 8196626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Nov 12;462(7270):182-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19907488
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Nov 15;25(22):2937-44",
+        "PMID": {
+          "Version": 1,
+          "content": 19706742
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2014 May;48:55-65",
+        "PMID": {
+          "Version": 1,
+          "content": 24637147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Feb 23;5(2):e9202",
+        "PMID": {
+          "Version": 1,
+          "content": 20186320
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Mol Biol. 2011 Jul;34(3):363-70",
+        "PMID": {
+          "Version": 1,
+          "content": 21931505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2004;11(4):660-82",
+        "PMID": {
+          "Version": 1,
+          "content": 15579237
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EURASIP J Bioinform Syst Biol. 2008;:482090",
+        "PMID": {
+          "Version": 1,
+          "content": 18437238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2008 Apr-Jun;5(2):262-74",
+        "PMID": {
+          "Version": 1,
+          "content": 18451435
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Adv Bioinformatics. 2013;2013:205763",
+        "PMID": {
+          "Version": 1,
+          "content": 23737768
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Feb 15;23(4):480-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17038344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2008 Sep 4;455(7209):64-71",
+        "PMID": {
+          "Version": 1,
+          "content": 18668037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2009 Apr 3;137(1):172-81",
+        "PMID": {
+          "Version": 1,
+          "content": 19327819
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2009 Feb;16(2):229-39",
+        "PMID": {
+          "Version": 1,
+          "content": 19183003
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Apr 6;107(14):6286-91",
+        "PMID": {
+          "Version": 1,
+          "content": 20308593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FASEB J. 1995 Jun;9(9):777-87",
+        "PMID": {
+          "Version": 1,
+          "content": 7601342
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2011 Nov;189(3):825-36",
+        "PMID": {
+          "Version": 1,
+          "content": 21890741
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2015 Jul;32(7):1767-73",
+        "PMID": {
+          "Version": 1,
+          "content": 25750178
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 16;9(1):e78644",
+        "PMID": {
+          "Version": 1,
+          "content": 24454679
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Aug 15;27(16):2263-70",
+        "PMID": {
+          "Version": 1,
+          "content": 21697125
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2009 Jul-Sep;6(3):410-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19644169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2012 Nov 15;13:629",
+        "PMID": {
+          "Version": 1,
+          "content": 23153100
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiol Mol Biol Rev. 2000 Mar;64(1):34-50",
+        "PMID": {
+          "Version": 1,
+          "content": 10704473
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28127303
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28127303,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13637-016-0055-8",
+        "IdType": "doi"
+      },
+      {
+        "content": 55,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5225239",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,144 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper proposes a new image denoising algorithm based on adaptive signal modeling and regularization. It improves the quality of images by regularizing each image patch using bandwise distribution modeling in transform domain. Instead of using a global model for all the patches in an image, it employs content-dependent adaptive models to address the non-stationarity of image signals and also the diversity among different transform bands. The distribution model is adaptively estimated for each patch individually. It varies from one patch location to another and also varies for different bands. In particular, we consider the estimated distribution to have non-zero expectation. To estimate the expectation and variance parameters for every band of a particular patch, we exploit the nonlocal correlation in image to collect a set of highly similar patches as the data samples to form the distribution. Irrelevant patches are excluded so that such adaptively-learned model is more accurate than a global one. The image is ultimately restored via bandwise adaptive soft-thresholding, based on a Laplacian approximation of the distribution of similar-patch group transform coefficients. Experimental results demonstrate that the proposed scheme outperforms several state-of-the-art denoising methods in both the objective and the perceptual qualities."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ruiqin",
+            "LastName": "Xiong",
+            "Initials": "R"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hangfan",
+            "LastName": "Liu",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xinfeng",
+            "LastName": "Zhang",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jian",
+            "LastName": "Zhang",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Siwei",
+            "LastName": "Ma",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Feng",
+            "LastName": "Wu",
+            "Initials": "F"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wen",
+            "LastName": "Gao",
+            "Initials": "W"
+          }
+        ]
+      },
+      "ArticleTitle": "Image Denoising via Bandwise Adaptive Modeling and Regularization Exploiting Nonlocal Similarity.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2614160"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2016,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114070
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114070,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2614160",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

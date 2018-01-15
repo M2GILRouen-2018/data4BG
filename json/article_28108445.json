@@ -1,0 +1,203 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1630-1638"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "In recent years, molecular species delimitation has become a routine approach for quantifying and classifying biodiversity. Barcoding methods are of particular importance in large-scale surveys as they promote fast species discovery and biodiversity estimates. Among those, distance-based methods are the most common choice as they scale well with large datasets; however, they are sensitive to similarity threshold parameters and they ignore evolutionary relationships. The recently introduced \"Poisson Tree Processes\" (PTP) method is a phylogeny-aware approach that does not rely on such thresholds. Yet, two weaknesses of PTP impact its accuracy and practicality when applied to large datasets; it does not account for divergent intraspecific variation and is slow for a large number of sequences."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "We introduce the multi-rate PTP (mPTP), an improved method that alleviates the theoretical and technical shortcomings of PTP. It incorporates different levels of intraspecific genetic diversity deriving from differences in either the evolutionary history or sampling of each species. Results on empirical data suggest that mPTP is superior to PTP and popular distance-based methods as it, consistently yields more accurate delimitations with respect to the taxonomy (i.e., identifies more taxonomic species, infers species numbers closer to the taxonomy). Moreover, mPTP does not require any similarity threshold as input. The novel dynamic programming algorithm attains a speedup of at least five orders of magnitude compared to PTP, allowing it to delimit species in large (meta-) barcoding data. In addition, Markov Chain Monte Carlo sampling provides a comprehensive evaluation of the inferred delimitation in just a few seconds for millions of steps, independently of tree size."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability and Implementation",
+          "content": "mPTP is implemented in C and is available for download at http://github.com/Pas-Kapli/mptp under the GNU Affero 3 license. A web-service is available at http://mptp.h-its.org ."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": ": paschalia.kapli@h-its.org or alexandros.stamatakis@h-its.org or tomas.flouri@h-its.org."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "P",
+            "LastName": "Kapli",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "The Exelixis Lab, Scientific Computing Group, Heidelberg Institute for Theoretical Studies, Heidelberg D-68159, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "S",
+            "LastName": "Lutteropp",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "The Exelixis Lab, Scientific Computing Group, Heidelberg Institute for Theoretical Studies, Heidelberg D-68159, Germany."},
+              {"Affiliation": "Department of Informatics, Institute of Theoretical Informatics, Karlsruhe Institute of Technology, 76128 Karlsruhe, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "J",
+            "LastName": "Zhang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "The Exelixis Lab, Scientific Computing Group, Heidelberg Institute for Theoretical Studies, Heidelberg D-68159, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "K",
+            "LastName": "Kobert",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "The Exelixis Lab, Scientific Computing Group, Heidelberg Institute for Theoretical Studies, Heidelberg D-68159, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "P",
+            "LastName": "Pavlidis",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Foundation for Research and Technology, Hellas Institute of Computer Science GR, 711 10 Heraklion, Crete, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "A",
+            "LastName": "Stamatakis",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "The Exelixis Lab, Scientific Computing Group, Heidelberg Institute for Theoretical Studies, Heidelberg D-68159, Germany."},
+              {"Affiliation": "Department of Informatics, Institute of Theoretical Informatics, Karlsruhe Institute of Technology, 76128 Karlsruhe, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "T",
+            "LastName": "Flouri",
+            "Initials": "T",
+            "AffiliationInfo": [
+              {"Affiliation": "The Exelixis Lab, Scientific Computing Group, Heidelberg Institute for Theoretical Studies, Heidelberg D-68159, Germany."},
+              {"Affiliation": "Department of Informatics, Institute of Theoretical Informatics, Karlsruhe Institute of Technology, 76128 Karlsruhe, Germany."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Multi-rate Poisson tree processes for single-locus species delimitation under maximum likelihood and Markov chain Monte Carlo.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx025"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 33,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28108445
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 28,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28108445,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btx025",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx025",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5447239",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,120 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9885960,
+      "Country": "United States",
+      "ISSNLinking": "0098-5589",
+      "MedlineTA": "IEEE Trans Pattern Anal Mach Intell"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "09"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Semi-supervised clustering seeks to augment traditional clustering methods by incorporating side information provided via human expertise in order to increase the semantic meaningfulness of the resulting clusters. However, most current methods are passive in the sense that the side information is provided beforehand and selected randomly. This may require a large number of constraints, some of which could be redundant, unnecessary, or even detrimental to the clustering results. Thus in order to scale such semi-supervised algorithms to larger problems it is desirable to pursue an active clustering method- i.e. an algorithm that maximizes the effectiveness of the available human labor by only requesting human input where it will have the greatest impact. Here, we propose a novel online framework for active semi-supervised spectral clustering that selects pairwise constraints as clustering proceeds, based on the principle of uncertainty reduction. Using a first-order Taylor expansion, we decompose the expected uncertainty reduction problem into a gradient and a step-scale, computed via an application of matrix perturbation theory and cluster-assignment entropy, respectively. The resulting model is used to estimate the uncertainty reduction potential of each sample in the dataset. We then present the human user with pairwise queries with respect to only the best candidate sample. We evaluate our method using three different image datasets (faces, leaves and dogs), a set of common UCI machine learning datasets and a gene dataset. The results validate our decomposition formulation and show that our method is consistently superior to existing state-of-the-art techniques, as well as being robust to noise and to unknown numbers of clusters."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Caiming",
+            "LastName": "Xiong",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David M",
+            "LastName": "Johnson",
+            "Initials": "DM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jason J",
+            "LastName": "Corso",
+            "Initials": "JJ"
+          }
+        ]
+      },
+      "ArticleTitle": "Active Clustering with Model-Based Uncertainty Reduction.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TPAMI.2016.2539965"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2016,
+            "Day": "09"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Pattern Anal Mach Intell",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1939-3539"
+        },
+        "Title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113451
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113451,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TPAMI.2016.2539965",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,167 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "With the development of high-throughput techniques, RNA-sequencing (RNA-seq) is becoming increasingly popular as an alternative for gene expression analysis, such as RNAs profiling and classification. Identifying which type of diseases a new patient belongs to with RNA-seq data has been recognized as a vital problem in medical research. As RNA-seq data are discrete, statistical methods developed for classifying microarray data can not be readily applied for RNA-seq data classification. Witten (2011) proposed a Poisson linear discriminant analysis (PLDA) to classify the RNA-seq data. Note, however, that the count datasets are frequently characterized by excess zeros in real RNA-seq or microRNA sequence data (i.e., when the sequence depth is not enough or small RNAs with the length of 18 to 30 nucleotides). Therefore, it is desired to develop a new model to analyze RNA-seq data with an excess of zeros."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "In this paper, we propose a Zero-Inflated Poisson Logistic Discriminant Analysis (ZIPLDA) for RNA-seq data with an excess of zeros. The new method assumes that the data are from a mixture of two distributions: one is a point mass at zero, and the other follows a Poisson distribution. We then consider a logistic relation between the probability of observing zeros and the mean of the genes and the sequencing depth in the model. Simulation studies show that the proposed method performs better than, or at least as well as, the existing methods in a wide range of settings. Two real datasets including a breast cancer RNA-seq dataset and a microRNA-seq dataset are also analyzed, and they coincide with the simulation results that our proposed method outperforms the existing competitors."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability",
+          "content": "The software is available at http://www.math.hkbu.edu.hk/∼tongt."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "tongt@hkbu.edu.hk, xwan@comp.hkbu.edu.hk."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yan",
+            "LastName": "Zhou",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "College of Mathematics and Statistics, Institute of Statistical Sciences, Shenzhen University, ShenZhen, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiang",
+            "LastName": "Wan",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, and Institute of Computational and Theoretical Studies, Hong Kong Baptist University, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Baoxue",
+            "LastName": "Zhang",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "School of Statistics, Capital University of Economics and Business, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tiejun",
+            "LastName": "Tong",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematics, Hong Kong Baptist University, Hong Kong."}
+          }
+        ]
+      },
+      "ArticleTitle": "Classifying next-generation sequencing data using a zero-inflated Poisson model.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx768"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29186294
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186294,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 4665421,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx768",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

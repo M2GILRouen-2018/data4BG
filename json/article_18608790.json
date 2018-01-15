@@ -1,0 +1,307 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7806056,
+      "Country": "United States",
+      "ISSNLinking": "0148-5598",
+      "MedlineTA": "J Med Syst"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 166},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "One of the major issues in time-critical medical applications using wireless technology is the size of the payload packet, which is generally designed to be very small to improve the transmission process. Using small packets to transmit continuous ECG data is still costly. Thus, data compression is commonly used to reduce the huge amount of ECG data transmitted through telecardiology devices. In this paper, a new ECG compression scheme is introduced to ensure that the compressed ECG segments fit into the available limited payload packets, while maintaining a fixed CR to preserve the diagnostic information. The scheme automatically divides the ECG block into segments, while maintaining other compression parameters fixed. This scheme adopts discrete wavelet transform (DWT) method to decompose the ECG data, bit-field preserving (BFP) method to preserve the quality of the DWT coefficients, and a modified running-length encoding (RLE) scheme to encode the coefficients. The proposed dynamic compression scheme showed promising results with a percentage packet reduction (PR) of about 85.39% at low percentage root-mean square difference (PRD) values, less than 1%. ECG records from MIT-BIH Arrhythmia Database were used to test the proposed method. The simulation results showed promising performance that satisfies the needs of portable telecardiology systems, like the limited payload size and low power consumption."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8955-6771"
+            },
+            "ForeName": "Asiya M",
+            "LastName": "Al-Busaidi",
+            "Initials": "AM",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computer Engineering, College of Engineering, Sultan Qaboos University, Al-Khoudh, Muscat, 123, Oman. asiya.albusaidi@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lazhar",
+            "LastName": "Khriji",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computer Engineering, College of Engineering, Sultan Qaboos University, Al-Khoudh, Muscat, 123, Oman."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Farid",
+            "LastName": "Touati",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Qatar University, Doha, 2713, Qatar."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mohd Fadlee",
+            "LastName": "Rasid",
+            "Initials": "MF",
+            "AffiliationInfo": {"Affiliation": "Department of Computer and Communication Systems Engineering, Wireless and Photonics Network Research Center, University of Putra Malaysia, Selangor, Malaysia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adel Ben",
+            "LastName": "Mnaouer",
+            "Initials": "AB",
+            "AffiliationInfo": {"Affiliation": "School of Engineering, Applied Science and Technology, Canadian University of Dubai, Dubai, P.O. Box. 117781, United Arab Emirates."}
+          }
+        ]
+      },
+      "ArticleTitle": "Wavelet-based Encoding Scheme for Controlling Size of Compressed ECG Segments in Telecardiology Systems.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10916-017-0817-1"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 10,
+          "Volume": 41,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 12
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Med Syst",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1573-689X"
+        },
+        "Title": "Journal of medical systems"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Compression"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Discrete wavelet transform"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ECG"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Payload packets"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Running length encoding"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2008 Apr;55(4):1319-26",
+        "PMID": {
+          "Version": 1,
+          "content": 18390322
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2000 Jul;47(7):849-56",
+        "PMID": {
+          "Version": 1,
+          "content": 10916255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 1998 Jul;45(7):942-5",
+        "PMID": {
+          "Version": 1,
+          "content": 9644904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2000 Jun 13;101(23):E215-20",
+        "PMID": {
+          "Version": 1,
+          "content": 10851218
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2015 Oct;121(3):149-60",
+        "PMID": {
+          "Version": 1,
+          "content": 26105724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroeng. 2011 Jul 15;4:7",
+        "PMID": {
+          "Version": 1,
+          "content": 21811455
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 1997 May;44(5):394-402",
+        "PMID": {
+          "Version": 1,
+          "content": 9125824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Eng Phys. 2000 Jan;22(1):39-46",
+        "PMID": {
+          "Version": 1,
+          "content": 10817947
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Syst. 2015 Jan;39(1):161",
+        "PMID": {
+          "Version": 1,
+          "content": 25472726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2008 Apr;90(1):1-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18164098
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Syst. 2010 Dec;34(6):985-92",
+        "PMID": {
+          "Version": 1,
+          "content": 20703609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2009;2009:3205-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19964056
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Eng Phys. 2005 Nov;27(9):798-802",
+        "PMID": {
+          "Version": 1,
+          "content": 15869896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 1990 Apr;37(4):329-43",
+        "PMID": {
+          "Version": 1,
+          "content": 2186997
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Eng Technol. 2008 Nov-Dec;32(6):466-78",
+        "PMID": {
+          "Version": 1,
+          "content": 18608790
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28900815
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28900815,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10916-017-0817-1",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10916-017-0817-1",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

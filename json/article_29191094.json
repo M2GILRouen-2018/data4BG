@@ -1,0 +1,288 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100896471,
+      "Country": "United States",
+      "ISSNLinking": "1092-0684",
+      "MedlineTA": "Neurosurg Focus"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "E2"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "OBJECTIVE Patients with adult spinal deformity (ASD) experience significant quality of life improvements after surgery. Treatment, however, is expensive and complication rates are high. Predictive analytics has the potential to use many variables to make accurate predictions in large data sets. A validated minimum clinically important difference (MCID) model has the potential to assist in patient selection, thereby improving outcomes and, potentially, cost-effectiveness. METHODS The present study was a retrospective analysis of a multiinstitutional database of patients with ASD. Inclusion criteria were as follows: age ≥ 18 years, radiographic evidence of ASD, 2-year follow-up, and preoperative Oswestry Disability Index (ODI) > 15. Forty-six variables were used for model training: demographic data, radiographic parameters, surgical variables, and results on the health-related quality of life questionnaire. Patients were grouped as reaching a 2-year ODI MCID (+MCID) or not (-MCID). An ensemble of 5 different bootstrapped decision trees was constructed using the C5.0 algorithm. Internal validation was performed via 70:30 data split for training/testing. Model accuracy and area under the curve (AUC) were calculated. The mean quality-adjusted life years (QALYs) and QALYs gained at 2 years were calculated and discounted at 3.5% per year. The QALYs were compared between patients in the +MCID and -MCID groups. RESULTS A total of 234 patients met inclusion criteria (+MCID 129, -MCID 105). Sixty-nine patients (29.5%) were included for model testing. Predicted versus actual results were 50 versus 40 for +MCID and 19 versus 29 for -MCID (i.e., 10 patients were misclassified). Model accuracy was 85.5%, with 0.96 AUC. Predicted results showed that patients in the +MCID group had significantly greater 2-year mean QALYs (p = 0.0057) and QALYs gained (p = 0.0002). CONCLUSIONS A successful model with 85.5% accuracy and 0.96 AUC was constructed to predict which patients would reach ODI MCID. The patients in the +MCID group had significantly higher mean 2-year QALYs and QALYs gained. This study provides proof of concept for using predictive modeling techniques to optimize patient selection in complex spine surgery."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Taemin",
+            "LastName": "Oh",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Neurological Surgery, University of California, San Francisco, California."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Justin K",
+            "LastName": "Scheer",
+            "Initials": "JK",
+            "AffiliationInfo": {"Affiliation": "Department of Neurosurgery, University of Illinois at Chicago, Illinois."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Justin S",
+            "LastName": "Smith",
+            "Initials": "JS",
+            "AffiliationInfo": {"Affiliation": "Department of Neurosurgery, University of Virginia Health System, Charlottesville, Virginia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Richard",
+            "LastName": "Hostin",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopaedic Surgery, Baylor Scoliosis Center, Plano."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chessie",
+            "LastName": "Robinson",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Baylor Scott & White Health, Center for Clinical Effectiveness, Dallas, Texas."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeffrey L",
+            "LastName": "Gum",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "Norton Leatherman Spine Center, Louisville, Kentucky."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Frank",
+            "LastName": "Schwab",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopaedic Surgery, New York University Hospital for Joint Diseases, New York, New York."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert A",
+            "LastName": "Hart",
+            "Initials": "RA",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopaedic Surgery, Oregon Health & Science University, Portland, Oregon."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Virginie",
+            "LastName": "Lafage",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopaedic Surgery, New York University Hospital for Joint Diseases, New York, New York."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Douglas C",
+            "LastName": "Burton",
+            "Initials": "DC",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopaedic Surgery, University of Kansas Medical Center, Kansas City, Kansas."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shay",
+            "LastName": "Bess",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Rocky Mountain Hospital for Children, Denver, Colorado; and."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Themistocles",
+            "LastName": "Protopsaltis",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopaedic Surgery, New York University Hospital for Joint Diseases, New York, New York."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric O",
+            "LastName": "Klineberg",
+            "Initials": "EO",
+            "AffiliationInfo": {"Affiliation": "Department of Orthopaedic Surgery, University of California, Davis, California."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher I",
+            "LastName": "Shaffrey",
+            "Initials": "CI",
+            "AffiliationInfo": {"Affiliation": "Department of Neurosurgery, University of Virginia Health System, Charlottesville, Virginia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher P",
+            "LastName": "Ames",
+            "Initials": "CP",
+            "AffiliationInfo": {"Affiliation": "Department of Neurological Surgery, University of California, San Francisco, California."}
+          },
+          {
+            "ValidYN": "Y",
+            "CollectiveName": "International Spine Study Group"
+          }
+        ]
+      },
+      "ArticleTitle": "Potential of predictive computer models for preoperative patient selection to enhance overall quality-adjusted life years gained at 2-year follow-up: a simulation in 234 patients with adult spinal deformity.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3171/2017.9.FOCUS17494"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 43,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Neurosurg Focus",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1092-0684"
+        },
+        "Title": "Neurosurgical focus"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "ASD = adult spinal deformity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "AUC = area under the curve"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "BMI = body mass index"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "HRQOL = health-related QOL"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "IBF = interbody fusion"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "LIV = lowermost instrumented vertebra"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MCID = minimum clinically important difference"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "NRS = numerical rating scale"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ODI = Oswestry Disability Index"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Oswestry Disability Index"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "QALY = quality-adjusted life year"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "QOL = quality of life"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SF-36 = 36-Item Short-Form Health Survey"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SPO = Smith-Petersen osteotomy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SRS = Scoliosis Research Society"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "UIV = uppermost instrumented vertebra"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "minimum clinically important difference"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "predictive modeling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "quality-adjusted life year"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "01"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29191094
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29191094,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3171/2017.9.FOCUS17494",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

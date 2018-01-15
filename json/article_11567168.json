@@ -1,0 +1,356 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0370625",
+      "Country": "United States",
+      "ISSNLinking": "0006-341X",
+      "MedlineTA": "Biometrics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2012,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "628-36"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIDDK NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 DK073671",
+            "Acronym": "DK"
+          },
+          {
+            "Agency": "NIDDK NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-DK073671",
+            "Acronym": "DK"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2011,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2011, The International Biometric Society.",
+        "AbstractText": "In multivariate matching, fine balance constrains the marginal distributions of a nominal variable in treated and matched control groups to be identical without constraining who is matched to whom. In this way, a fine balance constraint can balance a nominal variable with many levels while focusing efforts on other more important variables when pairing individuals to minimize the total covariate distance within pairs. Fine balance is not always possible; that is, it is a constraint on an optimization problem, but the constraint is not always feasible. We propose a new algorithm that returns a minimum distance finely balanced match when one is feasible, and otherwise minimizes the total distance among all matched samples that minimize the deviation from fine balance. Perhaps we can come very close to fine balance when fine balance is not attainable; moreover, in any event, because our algorithm is guaranteed to come as close as possible to fine balance, the investigator may perform one match, and on that basis judge whether the best attainable balance is adequate or not. We also show how to incorporate an additional constraint. The algorithm is implemented in two similar ways, first as an optimal assignment problem with an augmented distance matrix, second as a minimum cost flow problem in a network. The case of knee surgery in the Obesity and Surgical Outcomes Study motivated the development of this algorithm and is used as an illustration. In that example, 2 of 47 hospitals had too few nonobese patients to permit fine balance for the nominal variable with 47 levels representing the hospital, but our new algorithm came very close to fine balance. Moreover, in that example, there was a shortage of nonobese diabetic patients, and incorporation of an additional constraint forced the match to include all of these nonobese diabetic patients, thereby coming as close as possible to balance for this important but recalcitrant covariate."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dan",
+            "LastName": "Yang",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, The Wharton School, University of Pennsylvania, 400 Jon M. Huntsman Hall, 3730 Walnut Street, Philadelphia, Pennsylvania 19104-6340, USA. danyang@wharton.upenn.edu"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dylan S",
+            "LastName": "Small",
+            "Initials": "DS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeffrey H",
+            "LastName": "Silber",
+            "Initials": "JH"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul R",
+            "LastName": "Rosenbaum",
+            "Initials": "PR"
+          }
+        ]
+      },
+      "ArticleTitle": "Optimal matching with minimal deviation from fine balance in a study of obesity and surgical outcomes.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1111/j.1541-0420.2011.01691.x"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 68,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2012
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Biometrics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1541-0420"
+        },
+        "Title": "Biometrics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2012,
+      "Day": 27
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D001699",
+          "MajorTopicYN": "N",
+          "content": "Biometry"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000401",
+            "MajorTopicYN": "N",
+            "content": "mortality"
+          },
+          {
+            "UI": "Q000601",
+            "MajorTopicYN": "Y",
+            "content": "surgery"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009767",
+          "MajorTopicYN": "N",
+          "content": "Obesity, Morbid"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000209",
+            "MajorTopicYN": "N",
+            "content": "etiology"
+          },
+          {
+            "UI": "Q000401",
+            "MajorTopicYN": "N",
+            "content": "mortality"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D011183",
+          "MajorTopicYN": "N",
+          "content": "Postoperative Complications"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011379",
+        "MajorTopicYN": "N",
+        "content": "Prognosis"
+      }},
+      {"DescriptorName": {
+        "UI": "D016896",
+        "MajorTopicYN": "N",
+        "content": "Treatment Outcome"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2009 Sep;33(6):508-17",
+        "PMID": {
+          "Version": 1,
+          "content": 19170134
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychiatr Ann. 2008 Dec 1;38(12):805-811",
+        "PMID": {
+          "Version": 1,
+          "content": 19668351
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemiology. 1996 May;7(3):331-2",
+        "PMID": {
+          "Version": 1,
+          "content": 8728456
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Apr 1;25(7):904-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19098026
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Surg. 2005 Jul;242(1):107-14",
+        "PMID": {
+          "Version": 1,
+          "content": 15973108
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am Heart J. 2006 Nov;152(5):956-66",
+        "PMID": {
+          "Version": 1,
+          "content": 17070167
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am Stat. 2011;65(1):21-30",
+        "PMID": {
+          "Version": 1,
+          "content": 23175567
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Sci. 2010 Feb 1;25(1):1-21",
+        "PMID": {
+          "Version": 1,
+          "content": 20871802
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 1991 Dec;100(6):1619-36",
+        "PMID": {
+          "Version": 1,
+          "content": 1959406
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dev Psychol. 2008 Mar;44(2):395-406",
+        "PMID": {
+          "Version": 1,
+          "content": 18331131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Care. 2001 Oct;39(10):1048-64",
+        "PMID": {
+          "Version": 1,
+          "content": 11567168
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS525617"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC3966214"
+      }
+    ],
+    "PMID": {
+      "Version": 1,
+      "content": 22008180
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 10,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 22008180,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1111/j.1541-0420.2011.01691.x",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3966214",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS525617",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

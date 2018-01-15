@@ -1,0 +1,113 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0375360",
+      "Country": "United States",
+      "ISSNLinking": "0021-9606",
+      "MedlineTA": "J Chem Phys"
+    },
+    "Owner": "NLM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "044117"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The paper focuses on development of variance reduction strategies to estimate rare events in biochemical systems. Obtaining this probability using brute force Monte Carlo simulations in conjunction with the stochastic simulation algorithm (Gillespie's method) is computationally prohibitive. To circumvent this, important sampling tools such as the weighted stochastic simulation algorithm and the doubly weighted stochastic simulation algorithm have been proposed. However, these strategies require an additional step of determining the important region to sample from, which is not straightforward for most of the problems. In this paper, we apply the subset simulation method, developed as a variance reduction tool in the context of structural engineering, to the problem of rare event estimation in biochemical systems. The main idea is that the rare event probability is expressed as a product of more frequent conditional probabilities. These conditional probabilities are estimated with high accuracy using Monte Carlo simulations, specifically the Markov chain Monte Carlo method with the modified Metropolis-Hastings algorithm. Generating sample realizations of the state vector using the stochastic simulation algorithm is viewed as mapping the discrete-state continuous-time random process to the standard normal random variable vector. This viewpoint opens up the possibility of applying more sophisticated and efficient sampling schemes developed elsewhere to problems in stochastic chemical kinetics. The results obtained using the subset simulation method are compared with existing variance reduction strategies for a few benchmark problems, and a satisfactory improvement in computational time is demonstrated."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "Identifier": {
+            "Source": "ORCID",
+            "content": "000000017933828X"
+          },
+          "ForeName": "V S",
+          "LastName": "Sundar",
+          "Initials": "VS",
+          "AffiliationInfo": {"Affiliation": "Department of Radiology, University of California, San Diego, La Jolla, California 92037, USA and Center for Multimodal Imaging and Genetics, University of California, San Diego, La Jolla, California 92037, USA."}
+        }
+      },
+      "ArticleTitle": "Estimating rare events in biochemical systems using conditional sampling.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1063/1.4974898"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 146,
+          "PubDate": {
+            "Month": "01",
+            "Year": 2017,
+            "Day": 28
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Chem Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1089-7690"
+        },
+        "Title": "The Journal of chemical physics"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28147534
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28147534,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1063/1.4974898",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

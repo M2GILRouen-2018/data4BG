@@ -1,0 +1,225 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7603616,
+      "Country": "United States",
+      "ISSNLinking": "0360-3016",
+      "MedlineTA": "Int J Radiat Oncol Biol Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier Inc. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "To assess overall robustness and accuracy of a modified particle filter-based tracking algorithm for magnetic resonance (MR)-guided radiation therapy treatments."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS AND MATERIALS",
+            "content": "An improved particle filter-based tracking algorithm was implemented, which used a normalized cross-correlation function as the likelihood calculation. With a total of 5 healthy volunteers and 8 patients, the robustness of the algorithm was tested on 24 dynamic magnetic resonance imaging (MRI) time series with varying resolution, contrast, and signal-to-noise ratio. The complete data set included data acquired with different scan parameters on a number of MRI scanners with varying field strengths, including the 1.5T MR linear accelerator. Tracking errors were computed by comparing the results obtained by the particle filter algorithm with experts' delineations."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The ameliorated tracking algorithm was able to accurately track abdominal as well as thoracic tumors, whereas the previous Bhattacharyya distance-based implementation failed in more than 50% of the cases. The tracking error, combined over all MRI acquisitions, is 1.1 ± 0.4 mm, which demonstrated high robustness against variations in contrast, noise, and image resolution. Finally, the effect of the input/control parameters of the model was very similar across all cases, suggesting a class-based optimization is possible."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The modified particle filter tracking algorithm is highly accurate and robust against varying image quality. This makes the algorithm a promising candidate for automated tracking on the MR linear accelerator."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alexandra E",
+            "LastName": "Bourque",
+            "Initials": "AE",
+            "AffiliationInfo": {"Affiliation": "Département de physique, Université de Montréal, Montréal, Québec, Canada; Département de radio-oncologie, Centre hospitalier de l'Université de Montréal, Montréal, Québec, Canada. Electronic address: bourque.alexandra@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stéphane",
+            "LastName": "Bedwani",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Département de physique, Université de Montréal, Montréal, Québec, Canada; Département de radio-oncologie, Centre hospitalier de l'Université de Montréal, Montréal, Québec, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jean-François",
+            "LastName": "Carrier",
+            "Initials": "JF",
+            "AffiliationInfo": {"Affiliation": "Département de physique, Université de Montréal, Montréal, Québec, Canada; Département de radio-oncologie, Centre hospitalier de l'Université de Montréal, Montréal, Québec, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cynthia",
+            "LastName": "Ménard",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Département de radio-oncologie, Centre hospitalier de l'Université de Montréal, Montréal, Québec, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pim",
+            "LastName": "Borman",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Imaging division, University Medical Center Utrecht, Utrecht, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Clemens",
+            "LastName": "Bos",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Imaging division, University Medical Center Utrecht, Utrecht, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bas W",
+            "LastName": "Raaymakers",
+            "Initials": "BW",
+            "AffiliationInfo": {"Affiliation": "Imaging division, University Medical Center Utrecht, Utrecht, The Netherlands; Department of Radiotherapy, University Medical Center Utrecht, Utrecht, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nikolai",
+            "LastName": "Mickevicius",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Radiology, and Biophysics, Medical College of Wisconsin, Milwaukee, Wisconsin, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric",
+            "LastName": "Paulson",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Radiology, and Biophysics, Medical College of Wisconsin, Milwaukee, Wisconsin, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rob H N",
+            "LastName": "Tijssen",
+            "Initials": "RHN",
+            "AffiliationInfo": {"Affiliation": "Imaging division, University Medical Center Utrecht, Utrecht, The Netherlands; Department of Radiotherapy, University Medical Center Utrecht, Utrecht, The Netherlands."}
+          }
+        ]
+      },
+      "ArticleTitle": "Particle Filter-Based Target Tracking Algorithm for Magnetic Resonance-Guided Respiratory Compensation: Robustness and Accuracy Assessment.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0360-3016(17)33965-2"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.ijrobp.2017.10.004"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017,
+            "Day": 12
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Int. J. Radiat. Oncol. Biol. Phys.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1879-355X"
+        },
+        "Title": "International journal of radiation oncology, biology, physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 21
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29157746
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29157746,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0360-3016(17)33965-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.ijrobp.2017.10.004",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

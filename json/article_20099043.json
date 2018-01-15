@@ -1,0 +1,642 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1200-16"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Wellcome Trust",
+          "Country": "United Kingdom",
+          "GrantID": "088641/Z/09/Z"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2014 The Authors. Published by Elsevier B.V. All rights reserved.",
+        "AbstractText": "Contrast agent enhanced magnetic resonance (MR) perfusion imaging provides an early, non-invasive indication of defects in the coronary circulation. However, the large variation of contrast agent properties, physiological state and imaging protocols means that optimisation of image acquisition is difficult to achieve. This situation motivates the development of a computational framework that, in turn, enables the efficient mapping of this parameter space to provide valuable information for optimisation of perfusion imaging in the clinical context. For this purpose a single-compartment porous medium model of capillary blood flow is developed which is coupled with a scalar transport model, to characterise the behaviour of both blood-pool and freely-diffusive contrast agents characterised by their ability to diffuse through the capillary wall into the extra-cellular space. A parameter space study is performed on the nondimensionalised equations using a 2D model for both healthy and diseased myocardium, examining the sensitivity of system behaviour to Peclet number, Damköhler number (Da), diffusivity ratio and fluid porosity. Assuming a linear MR signal response model, sample concentration time series data are calculated, and the sensitivity of clinically-relevant properties of these signals to the model parameters is quantified. Both upslope and peak values display significant non-monotonic behaviour with regard to the Damköhler number, with these properties showing a high degree of sensitivity in the parameter range relevant to contrast agents currently in use. However, the results suggest that signal upslope is the more robust and discerning metric for perfusion quantification, in particular for correlating with perfusion defect size. Finally, the results were examined in the context of nonlinear signal response, flow quantification via Fermi deconvolution and perfusion reserve index, which demonstrated that there is no single best set of contrast agent parameters, instead the contrast agents should be tailored to the specific imaging protocol and post-processing method to be used."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "A N",
+            "LastName": "Cookson",
+            "Initials": "AN",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Division of Imaging Sciences & Biomedical Engineering, St. Thomas' Hospital, King's College London, London SE1 7EH, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "J",
+            "LastName": "Lee",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Division of Imaging Sciences & Biomedical Engineering, St. Thomas' Hospital, King's College London, London SE1 7EH, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C",
+            "LastName": "Michler",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Division of Imaging Sciences & Biomedical Engineering, St. Thomas' Hospital, King's College London, London SE1 7EH, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "R",
+            "LastName": "Chabiniok",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Division of Imaging Sciences & Biomedical Engineering, St. Thomas' Hospital, King's College London, London SE1 7EH, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "E",
+            "LastName": "Hyde",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of Oxford, Oxford OX1 3QD, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "D",
+            "LastName": "Nordsletten",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Division of Imaging Sciences & Biomedical Engineering, St. Thomas' Hospital, King's College London, London SE1 7EH, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "N P",
+            "LastName": "Smith",
+            "Initials": "NP",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Division of Imaging Sciences & Biomedical Engineering, St. Thomas' Hospital, King's College London, London SE1 7EH, UK. Electronic address: np.smith@auckland.ac.nz."}
+          }
+        ]
+      },
+      "ArticleTitle": "A spatially-distributed computational model to quantify behaviour of contrast agents in MR perfusion imaging.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.media.2014.07.002"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1361-8415(14)00109-1"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2014
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2014,
+      "Day": 25
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cardiovasc Magn Reson. 2010;12:57",
+        "PMID": {
+          "Version": 1,
+          "content": 20932314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2006 Oct;56(4):844-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16941620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2011 Nov;66(5):1477-87",
+        "PMID": {
+          "Version": 1,
+          "content": 21630344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cardiovasc Magn Reson. 2010;12:28",
+        "PMID": {
+          "Version": 1,
+          "content": 20465836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cardiovasc Magn Reson. 2013;15:3",
+        "PMID": {
+          "Version": 1,
+          "content": 23324256
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Numer Method Biomed Eng. 2014 Jan;30(1):117-34",
+        "PMID": {
+          "Version": 1,
+          "content": 24115492
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2008 Apr;27(4):793-801",
+        "PMID": {
+          "Version": 1,
+          "content": 18302205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cardiovasc Magn Reson. 2011;13:28",
+        "PMID": {
+          "Version": 1,
+          "content": 21609423
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Radiol. 1983 Jan-Feb;18(1):94-9",
+        "PMID": {
+          "Version": 1,
+          "content": 6832937
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2008 Aug;28(2):382-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18666144
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 1999 Sep;10(3):223-32",
+        "PMID": {
+          "Version": 1,
+          "content": 10508281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2014 Sep;61(9):2499-506",
+        "PMID": {
+          "Version": 1,
+          "content": 24833413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2012 Jul;59(7):2060-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22575632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Biomed Eng. 2014 Apr;42(4):797-811",
+        "PMID": {
+          "Version": 1,
+          "content": 24297493
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prog Biophys Mol Biol. 1998;69(2-3):463-81",
+        "PMID": {
+          "Version": 1,
+          "content": 9785951
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2004 Jun;19(6):750-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15170781
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2013 Mar;266(3):701-15",
+        "PMID": {
+          "Version": 1,
+          "content": 23431226
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2013 May;51(5):557-70",
+        "PMID": {
+          "Version": 1,
+          "content": 23345008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1998 Jan;25(1):73-84",
+        "PMID": {
+          "Version": 1,
+          "content": 9472829
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2005 Aug;9(4):394-410",
+        "PMID": {
+          "Version": 1,
+          "content": 15907391
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2010 Dec;64(6):1592-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20928891
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Cardiovasc Imaging. 2013 Aug;29(6):1313-24",
+        "PMID": {
+          "Version": 1,
+          "content": 23605330
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Numer Method Biomed Eng. 2013 Feb;29(2):217-32",
+        "PMID": {
+          "Version": 1,
+          "content": 23345266
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2000 Mar 28;101(12):1465-78",
+        "PMID": {
+          "Version": 1,
+          "content": 10736294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2012 Mar 15;45(5):850-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22154392
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Cardiol. 2006;33:41-44",
+        "PMID": {
+          "Version": 1,
+          "content": 17404606
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2005 Dec;54(6):1351-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16247739
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2004 Jun;19(6):758-70",
+        "PMID": {
+          "Version": 1,
+          "content": 15170782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2013 Jan 18;46(2):229-39",
+        "PMID": {
+          "Version": 1,
+          "content": 23237670
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2012 Dec;68(6):1994-2004",
+        "PMID": {
+          "Version": 1,
+          "content": 22354744
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol. 1992 Apr;262(4 Pt 2):H1256-67",
+        "PMID": {
+          "Version": 1,
+          "content": 1566907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Histol Histopathol. 2003 Apr;18(2):647-55",
+        "PMID": {
+          "Version": 1,
+          "content": 12647814
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2007 Oct;58(4):777-85",
+        "PMID": {
+          "Version": 1,
+          "content": 17899611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2009 Jan;29(1):205-10",
+        "PMID": {
+          "Version": 1,
+          "content": 19097094
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Cardiovasc Imaging. 2013 Jan 1;6(1):134-41",
+        "PMID": {
+          "Version": 1,
+          "content": 23159497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cardiovasc Magn Reson. 2007;9(4):633-44",
+        "PMID": {
+          "Version": 1,
+          "content": 17578718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2013 Nov;51(11):1271-86",
+        "PMID": {
+          "Version": 1,
+          "content": 23892889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2005 Nov;54(5):1295-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16200553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bull Math Biol. 2010 Aug;72(6):1464-91",
+        "PMID": {
+          "Version": 1,
+          "content": 20099043
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4156310"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D003287",
+        "content": "Contrast Media"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2015,
+      "Day": 12
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Contrast agent"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Finite element method"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Idealised modelling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Magnetic resonance imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Myocardial perfusion"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000493",
+          "MajorTopicYN": "Y",
+          "content": "pharmacokinetics"
+        },
+        "DescriptorName": {
+          "UI": "D003287",
+          "MajorTopicYN": "N",
+          "content": "Contrast Media"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003326",
+        "MajorTopicYN": "Y",
+        "content": "Coronary Circulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D003327",
+          "MajorTopicYN": "N",
+          "content": "Coronary Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D020342",
+        "MajorTopicYN": "N",
+        "content": "Finite Element Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007089",
+        "MajorTopicYN": "N",
+        "content": "Image Enhancement"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "N",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D021621",
+        "MajorTopicYN": "N",
+        "content": "Imaging, Three-Dimensional"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018810",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Angiography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 25103922
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2013,
+        "Day": 21,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2014,
+        "Day": "07",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "07",
+        "Year": 2014,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25103922,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(14)00109-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2014.07.002",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4156310",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,420 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0366372",
+      "Country": "England",
+      "ISSNLinking": "0091-2700",
+      "MedlineTA": "J Clin Pharmacol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "S67-S77"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Intramural NIH HHS",
+          "Country": "United States",
+          "GrantID": "ZIA BC010627-13"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017, The American College of Clinical Pharmacology.",
+        "AbstractText": "The National Institutes of Health Clinical Center (NIH CC) is the largest hospital in the United States devoted entirely to clinical research, with a highly diverse spectrum of patients. Patient safety and clinical quality are major goals of the hospital, and therapy is often complicated by multiple cotherapies and comorbidities. To this end, we implemented a pharmacogenomics program in 2 phases. In the first phase, we implemented genotyping for HLA-A and HLA-B gene variations with clinical decision support (CDS) for abacavir, carbamazepine, and allopurinol. In the second phase, we implemented genotyping for drug-metabolizing enzymes and transporters: SLCO1B1 for CDS of simvastatin and TPMT for CDS of mercaptopurine, azathioprine, and thioguanine. The purpose of this review is to describe the implementation process, which involves clinical, laboratory, informatics, and policy decisions pertinent to the NIH CC."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tristan M",
+            "LastName": "Sissung",
+            "Initials": "TM",
+            "AffiliationInfo": {"Affiliation": "Clinical Pharmacology Program, Office of the Clinical Director, National Cancer Institute, Rockville, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jon W",
+            "LastName": "McKeeby",
+            "Initials": "JW",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical Research Informatics, NIH Clinical Center, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jharana",
+            "LastName": "Patel",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Pharmacy Department, NIH Clinical Center, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Juan J",
+            "LastName": "Lertora",
+            "Initials": "JJ",
+            "AffiliationInfo": {"Affiliation": "Clinical Pharmacology Program (2006-2016), NIH Clinical Center, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Parag",
+            "LastName": "Kumar",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Clinical Pharmacokinetics Research Laboratory, NIH Clinical Center, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Willy A",
+            "LastName": "Flegel",
+            "Initials": "WA",
+            "AffiliationInfo": {"Affiliation": "Department of Transfusion Medicine, NIH Clinical Center, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sharon D",
+            "LastName": "Adams",
+            "Initials": "SD",
+            "AffiliationInfo": {"Affiliation": "Department of Transfusion Medicine, NIH Clinical Center, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ellen J",
+            "LastName": "Eckes",
+            "Initials": "EJ",
+            "AffiliationInfo": {"Affiliation": "Medical Surgical Specialties Service, Clinical Center Nursing Department, NIH, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Frank",
+            "LastName": "Mickey",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical Research Informatics, NIH Clinical Center, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Teri M",
+            "LastName": "Plona",
+            "Initials": "TM",
+            "AffiliationInfo": {"Affiliation": "CLIA Molecular Diagnostics Laboratory, Cancer Research Technology Program, and Molecular Characterization Laboratory, Frederick National Laboratory for Cancer Research, Leidos Biomedical Research, Inc., Frederick, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephanie D",
+            "LastName": "Mellot",
+            "Initials": "SD",
+            "AffiliationInfo": {"Affiliation": "CLIA Molecular Diagnostics Laboratory, Cancer Research Technology Program, and Molecular Characterization Laboratory, Frederick National Laboratory for Cancer Research, Leidos Biomedical Research, Inc., Frederick, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ryan N",
+            "LastName": "Baugher",
+            "Initials": "RN",
+            "AffiliationInfo": {"Affiliation": "CLIA Molecular Diagnostics Laboratory, Cancer Research Technology Program, and Molecular Characterization Laboratory, Frederick National Laboratory for Cancer Research, Leidos Biomedical Research, Inc., Frederick, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaolin",
+            "LastName": "Wu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Genomics Laboratory, Cancer Research Technology Program, and Molecular Characterization Laboratory, Frederick National Laboratory for Cancer Research, Leidos Biomedical Research, Inc., Frederick, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel R",
+            "LastName": "Soppet",
+            "Initials": "DR",
+            "AffiliationInfo": {"Affiliation": "Genomics Laboratory, Cancer Research Technology Program, and Molecular Characterization Laboratory, Frederick National Laboratory for Cancer Research, Leidos Biomedical Research, Inc., Frederick, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mary E",
+            "LastName": "Barcus",
+            "Initials": "ME",
+            "AffiliationInfo": {"Affiliation": "CLIA Molecular Diagnostics Laboratory, Cancer Research Technology Program, and Molecular Characterization Laboratory, Frederick National Laboratory for Cancer Research, Leidos Biomedical Research, Inc., Frederick, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vivekananda",
+            "LastName": "Datta",
+            "Initials": "V",
+            "AffiliationInfo": [
+              {"Affiliation": "CLIA Molecular Diagnostics Laboratory, Cancer Research Technology Program, and Molecular Characterization Laboratory, Frederick National Laboratory for Cancer Research, Leidos Biomedical Research, Inc., Frederick, MD, USA."},
+              {"Affiliation": "Molecular Characterization Laboratory, Cancer Research Technology Program, and Molecular Characterization Laboratory, Frederick National Laboratory for Cancer Research, Leidos Biomedical Research, Inc., Frederick, MD, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kristen M",
+            "LastName": "Pike",
+            "Initials": "KM",
+            "AffiliationInfo": {"Affiliation": "CLIA Molecular Diagnostics Laboratory, Cancer Research Technology Program, and Molecular Characterization Laboratory, Frederick National Laboratory for Cancer Research, Leidos Biomedical Research, Inc., Frederick, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gary",
+            "LastName": "DiPatrizio",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical Research Informatics, NIH Clinical Center, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "William D",
+            "LastName": "Figg",
+            "Initials": "WD",
+            "AffiliationInfo": {"Affiliation": "Clinical Pharmacology Program, Office of the Clinical Director, National Cancer Institute, Rockville, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Barry R",
+            "LastName": "Goldspiel",
+            "Initials": "BR",
+            "AffiliationInfo": {"Affiliation": "Pharmacy Department, NIH Clinical Center, Bethesda, MD, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Pharmacogenomics Implementation at the National Institutes of Health Clinical Center.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/jcph.993"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": "57 Suppl 10",
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Clin Pharmacol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1552-4604"
+        },
+        "Title": "Journal of clinical pharmacology"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "implementation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pharmacogenomics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "precision medicine"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "translation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 27
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Med. 2015 Jul 29;7(1):80",
+        "PMID": {
+          "Version": 1,
+          "content": 26221189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Pharmacol Ther. 2014 Nov;96(5):542-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25099164
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Diagn. 2016 May;18(3):438-445",
+        "PMID": {
+          "Version": 1,
+          "content": 26947514
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Health Syst Pharm. 2016 Dec 1;73(23 ):1944-1954",
+        "PMID": {
+          "Version": 1,
+          "content": 27864202
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Oct 15;526(7573):343-50",
+        "PMID": {
+          "Version": 1,
+          "content": 26469045
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Pharmacol Ther. 2011 Mar;89(3):464-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21270786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 2014 Nov;203(5):945-51",
+        "PMID": {
+          "Version": 1,
+          "content": 25341131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Pharmacol Toxicol. 2015;55:89-106",
+        "PMID": {
+          "Version": 1,
+          "content": 25292429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Hum Genet. 2013 Jun;58(6):317-26",
+        "PMID": {
+          "Version": 1,
+          "content": 23635947
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2014 May-Jun;21(3):522-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24302286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Pharmacol Ther. 2011 May;89(5):662-73",
+        "PMID": {
+          "Version": 1,
+          "content": 21412232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Metab Pharmacokinet. 2012;27(1):55-67",
+        "PMID": {
+          "Version": 1,
+          "content": 22185816
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Health Syst Pharm. 2016 Dec 1;73(23 ):1977-1985",
+        "PMID": {
+          "Version": 1,
+          "content": 27864205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2014 Dec;52:11-27",
+        "PMID": {
+          "Version": 1,
+          "content": 24262893
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2009 Nov 14;2009:218-22",
+        "PMID": {
+          "Version": 1,
+          "content": 20351853
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28921647
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28921647,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/jcph.993",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5657584",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS892908",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

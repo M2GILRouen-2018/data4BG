@@ -1,0 +1,147 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101617978,
+      "Country": "China",
+      "ISSNLinking": "2305-5839",
+      "MedlineTA": "Ann Transl Med"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The author has no conflicts of interest to declare.",
+    "Article": {
+      "Pagination": {"MedlinePgn": 484},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016421",
+        "content": "Editorial"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Weibull regression model is one of the most popular forms of parametric regression model that it provides estimate of baseline hazard function, as well as coefficients for covariates. Because of technical difficulties, Weibull regression model is seldom used in medical literature as compared to the semi-parametric proportional hazard model. To make clinical investigators familiar with Weibull regression model, this article introduces some basic knowledge on Weibull regression model and then illustrates how to fit the model with R software. The SurvRegCensCov package is useful in converting estimated coefficients to clinical relevant statistics such as hazard ratio (HR) and event time ratio (ETR). Model adequacy can be assessed by inspecting Kaplan-Meier curves stratified by categorical variable. The eha package provides an alternative method to model Weibull regression model. The check.dist() function helps to assess goodness-of-fit of the model. Variable selection is based on the importance of a covariate, which can be tested using anova() function. Alternatively, backward elimination starting from a full model is an efficient way for model development. Visualization of Weibull regression model after model development is interesting that it provides another way to report your findings."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "ForeName": "Zhongheng",
+          "LastName": "Zhang",
+          "Initials": "Z",
+          "AffiliationInfo": {"Affiliation": "Department of Critical Care Medicine, Jinhua Municipal Central Hospital, Jinhua Hospital of Zhejiang University, Jinhua 321000, China."}
+        }
+      },
+      "ArticleTitle": "Parametric regression model for survival data: Weibull regression model as an example.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.21037/atm.2016.08.45"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 24,
+          "Volume": 4,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Ann Transl Med",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2305-5839"
+        },
+        "Title": "Annals of translational medicine"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Survival analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Weibull regression model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "parametric model"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 24
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Control Clin Trials. 2003 Dec;24(6):682-701",
+        "PMID": {
+          "Version": 1,
+          "content": 14662274
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Transl Med. 2016 Mar;4(6):111",
+        "PMID": {
+          "Version": 1,
+          "content": 27127764
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28149846
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28149846,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.21037/atm.2016.08.45",
+        "IdType": "doi"
+      },
+      {
+        "content": "atm-04-24-484",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5233524",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

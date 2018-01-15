@@ -1,0 +1,575 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101197451,
+      "Country": "England",
+      "ISSNLinking": "1740-7745",
+      "MedlineTA": "Clin Trials"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D019380",
+        "content": "Anti-HIV Agents"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 30
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "201-210"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIAID NIH HHS",
+            "Country": "United States",
+            "GrantID": "R37 AI051164",
+            "Acronym": "AI"
+          },
+          {
+            "Agency": "NIAID NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 AI007358",
+            "Acronym": "AI"
+          },
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 ES007142",
+            "Acronym": "ES"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Several cluster-randomized trials are underway to investigate the implementation and effectiveness of a universal test-and-treat strategy on the HIV epidemic in sub-Saharan Africa. We consider nesting studies of pre-exposure prophylaxis within these trials. Pre-exposure prophylaxis is a general strategy where high-risk HIV- persons take antiretrovirals daily to reduce their risk of infection from exposure to HIV. We address how to target pre-exposure prophylaxis to high-risk groups and how to maximize power to detect the individual and combined effects of universal test-and-treat and pre-exposure prophylaxis strategies."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We simulated 1000 trials, each consisting of 32 villages with 200 individuals per village. At baseline, we randomized the universal test-and-treat strategy. Then, after 3 years of follow-up, we considered four strategies for targeting pre-exposure prophylaxis: (1) all HIV- individuals who self-identify as high risk, (2) all HIV- individuals who are identified by their HIV+ partner (serodiscordant couples), (3) highly connected HIV- individuals, and (4) the HIV- contacts of a newly diagnosed HIV+ individual (a ring-based strategy). We explored two possible trial designs, and all villages were followed for a total of 7 years. For each village in a trial, we used a stochastic block model to generate bipartite (male-female) networks and simulated an agent-based epidemic process on these networks. We estimated the individual and combined intervention effects with a novel targeted maximum likelihood estimator, which used cross-validation to data-adaptively select from a pre-specified library the candidate estimator that maximized the efficiency of the analysis."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The universal test-and-treat strategy reduced the 3-year cumulative HIV incidence by 4.0% on average. The impact of each pre-exposure prophylaxis strategy on the 4-year cumulative HIV incidence varied by the coverage of the universal test-and-treat strategy with lower coverage resulting in a larger impact of pre-exposure prophylaxis. Offering pre-exposure prophylaxis to serodiscordant couples resulted in the largest reductions in HIV incidence (2% reduction), and the ring-based strategy had little impact (0% reduction). The joint effect was larger than either individual effect with reductions in the 7-year incidence ranging from 4.5% to 8.8%. Targeted maximum likelihood estimation, data-adaptively adjusting for baseline covariates, substantially improved power over the unadjusted analysis, while maintaining nominal confidence interval coverage."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Our simulation study suggests that nesting a pre-exposure prophylaxis study within an ongoing trial can lead to combined intervention effects greater than those of universal test-and-treat alone and can provide information about the efficacy of pre-exposure prophylaxis in the presence of high coverage of treatment for HIV+ persons."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Laura",
+            "LastName": "Balzer",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patrick",
+            "LastName": "Staples",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jukka-Pekka",
+            "LastName": "Onnela",
+            "Initials": "JP",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Victor",
+            "LastName": "DeGruttola",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Using a network-based approach and targeted maximum likelihood estimation to evaluate the effect of adding pre-exposure prophylaxis to an ongoing test-and-treat trial.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1177/1740774516679666"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 14,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Clin Trials",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1740-7753"
+        },
+        "Title": "Clinical trials (London, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Adaptive pre-specification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "HIV"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "cluster-randomized trials"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pre-exposure prophylaxis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "targeted maximum likelihood estimation"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D017954",
+        "MajorTopicYN": "N",
+        "content": "Africa South of the Sahara"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000627",
+          "MajorTopicYN": "Y",
+          "content": "therapeutic use"
+        },
+        "DescriptorName": {
+          "UI": "D019380",
+          "MajorTopicYN": "N",
+          "content": "Anti-HIV Agents"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000188",
+            "MajorTopicYN": "N",
+            "content": "drug therapy"
+          },
+          {
+            "UI": "Q000517",
+            "MajorTopicYN": "Y",
+            "content": "prevention & control"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D015658",
+          "MajorTopicYN": "N",
+          "content": "HIV Infections"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016013",
+        "MajorTopicYN": "N",
+        "content": "Likelihood Functions"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008403",
+        "MajorTopicYN": "N",
+        "content": "Mass Screening"
+      }},
+      {"DescriptorName": {
+        "UI": "D065129",
+        "MajorTopicYN": "Y",
+        "content": "Pre-Exposure Prophylaxis"
+      }},
+      {"DescriptorName": {
+        "UI": "D016032",
+        "MajorTopicYN": "N",
+        "content": "Randomized Controlled Trials as Topic"
+      }},
+      {"DescriptorName": {
+        "UI": "D012107",
+        "MajorTopicYN": "N",
+        "content": "Research Design"
+      }},
+      {"DescriptorName": {
+        "UI": "D018570",
+        "MajorTopicYN": "N",
+        "content": "Risk Assessment"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 30
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Biostat. 2010 Apr 01;6(1):Article 13",
+        "PMID": {
+          "Version": 1,
+          "content": 20628636
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 May 27;9(5):e98272",
+        "PMID": {
+          "Version": 1,
+          "content": 24867402
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2005 May 30;24(10):1455-81",
+        "PMID": {
+          "Version": 1,
+          "content": 15586395
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2016 Nov 10;35(25):4528-4545",
+        "PMID": {
+          "Version": 1,
+          "content": 27436797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2012 Aug 2;367(5):399-410",
+        "PMID": {
+          "Version": 1,
+          "content": 22784037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2015 Aug 29;386(9996):857-66",
+        "PMID": {
+          "Version": 1,
+          "content": 26248676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet HIV. 2016 Mar;3(3):e111-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26939734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2015 Aug 27;373(9):795-807",
+        "PMID": {
+          "Version": 1,
+          "content": 26192873
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2008 Oct 15;27(23):4658-77",
+        "PMID": {
+          "Version": 1,
+          "content": 17960577
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Prev Med. 2014 Oct;47(4):498-504",
+        "PMID": {
+          "Version": 1,
+          "content": 25092122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2015 Aug 27;373(9):808-22",
+        "PMID": {
+          "Version": 1,
+          "content": 26193126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Perinatol. 2010 Dec;37(4):699-719, vii",
+        "PMID": {
+          "Version": 1,
+          "content": 21078445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Int AIDS Soc. 2015 Feb 26;18(2 Suppl 1):19408",
+        "PMID": {
+          "Version": 1,
+          "content": 25724504
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2009 Jan 15;28(1):39-64",
+        "PMID": {
+          "Version": 1,
+          "content": 18985634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2000 Mar 30;342(13):921-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10738050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AIDS. 2007 Nov 12;21(17):2323-32",
+        "PMID": {
+          "Version": 1,
+          "content": 18090281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2008 Oct 30;27(24):4857-73",
+        "PMID": {
+          "Version": 1,
+          "content": 18618425
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2014 Sep 28;33(22):3894-904",
+        "PMID": {
+          "Version": 1,
+          "content": 24737621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AIDS. 2009 Jul 17;23(11):1397-404",
+        "PMID": {
+          "Version": 1,
+          "content": 19381076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2011 Aug 11;365(6):493-505",
+        "PMID": {
+          "Version": 1,
+          "content": 21767103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2011 Jan;83(1 Pt 2):016107",
+        "PMID": {
+          "Version": 1,
+          "content": 21405744
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2010 Dec 30;363(27):2587-99",
+        "PMID": {
+          "Version": 1,
+          "content": 21091279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2016 Sep 20;35(21):3717-32",
+        "PMID": {
+          "Version": 1,
+          "content": 27087478
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2011 Jul 16;378(9787):282-4",
+        "PMID": {
+          "Version": 1,
+          "content": 21763940
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet HIV. 2016 May;3(5):e221-30",
+        "PMID": {
+          "Version": 1,
+          "content": 27126489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Acquir Immune Defic Syndr. 2014 Oct 1;67(2):181-95",
+        "PMID": {
+          "Version": 1,
+          "content": 24977473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1982 Sep;38(3):541-61",
+        "PMID": {
+          "Version": 1,
+          "content": 7171689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2012;9(7):e1001245",
+        "PMID": {
+          "Version": 1,
+          "content": 22802730
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Sep 13;5(9):e12598",
+        "PMID": {
+          "Version": 1,
+          "content": 20856886
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Sep 30;8(9):e75624",
+        "PMID": {
+          "Version": 1,
+          "content": 24098707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epidemics. 2015 Mar;10:102-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25843394
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28124579
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28124579,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1177/1740774516679666",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5377920",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS825836",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

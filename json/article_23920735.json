@@ -1,0 +1,584 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101599504,
+      "Country": "Canada",
+      "ISSNLinking": "1929-0748",
+      "MedlineTA": "JMIR Res Protoc"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e179"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Adverse drug reactions (ADRs) are an important cause of morbidity and mortality. Classical Pharmacovigilance process is limited by underreporting which justifies the current interest in new knowledge sources such as social media. The Adverse Drug Reactions from Patient Reports in Social Media (ADR-PRISM) project aims to extract ADRs reported by patients in these media. We identified 5 major challenges to overcome to operationalize the analysis of patient posts: (1) variable quality of information on social media, (2) guarantee of data privacy, (3) response to pharmacovigilance expert expectations, (4) identification of relevant information within Web pages, and (5) robust and evolutive architecture."
+        },
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "This article aims to describe the current state of advancement of the ADR-PRISM project by focusing on the solutions we have chosen to address these 5 major challenges."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "In this article, we propose methods and describe the advancement of this project on several aspects: (1) a quality driven approach for selecting relevant social media for the extraction of knowledge on potential ADRs, (2) an assessment of ethical issues and French regulation for the analysis of data on social media, (3) an analysis of pharmacovigilance expert requirements when reviewing patient posts on the Internet, (4) an extraction method based on natural language processing, pattern based matching, and selection of relevant medical concepts in reference terminologies, and (5) specifications of a component-based architecture for the monitoring system."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Considering the 5 major challenges, we (1) selected a set of 21 validated criteria for selecting social media to support the extraction of potential ADRs, (2) proposed solutions to guarantee data privacy of patients posting on Internet, (3) took into account pharmacovigilance expert requirements with use case diagrams and scenarios, (4) built domain-specific knowledge resources embeding a lexicon, morphological rules, context rules, semantic rules, syntactic rules, and post-analysis processing, and (5) proposed a component-based architecture that allows storage of big data and accessibility to third-party applications through Web services."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We demonstrated the feasibility of implementing a component-based architecture that allows collection of patient posts on the Internet, near real-time processing of those posts including annotation, and storage in big data structures. In the next steps, we will evaluate the posts identified by the system in social media to clarify the interest and relevance of such approach to improve conventional pharmacovigilance processes based on spontaneous reporting."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9775-2476"
+            },
+            "ForeName": "Cedric",
+            "LastName": "Bousquet",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "Laboratoire d'Informatique Médicale et d'Ingénieurie des Connaissances en e-Santé, U1142, Institut National de la Santé et de la Recherche Médicale, Paris, France."},
+              {"Affiliation": "Service de Santé Publique et de l'Information Médicale, Centre Hospitalier Universitaire de Saint Etienne, Saint-Etienne, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-0762-2518"
+            },
+            "ForeName": "Badisse",
+            "LastName": "Dahamna",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Informatics, Rouen University Hospital, Rouen, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3528-2514"
+            },
+            "ForeName": "Sylvie",
+            "LastName": "Guillemin-Lanne",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Expert System, Paris, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7162-318X"
+            },
+            "ForeName": "Stefan J",
+            "LastName": "Darmoni",
+            "Initials": "SJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Laboratoire d'Informatique Médicale et d'Ingénieurie des Connaissances en e-Santé, U1142, Institut National de la Santé et de la Recherche Médicale, Paris, France."},
+              {"Affiliation": "Department of Biomedical Informatics, Rouen University Hospital, Rouen, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-1500-0236"
+            },
+            "ForeName": "Carole",
+            "LastName": "Faviez",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Kappa Santé, Paris, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9822-232X"
+            },
+            "ForeName": "Charles",
+            "LastName": "Huot",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Expert System, Paris, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7261-0671"
+            },
+            "ForeName": "Sandrine",
+            "LastName": "Katsahian",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Unité mixte de recherche 1138, équipe 22, Institut National de la Santé et de la Recherche Médicale, Centre de Recherche des Cordeliers, Paris, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-3337-1129"
+            },
+            "ForeName": "Vincent",
+            "LastName": "Leroux",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Institut de Santé Urbaine, Saint Maurice, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-5569-990X"
+            },
+            "ForeName": "Suzanne",
+            "LastName": "Pereira",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Vidal, Issy Les Moulineaux, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9817-7821"
+            },
+            "ForeName": "Christophe",
+            "LastName": "Richard",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Santeos, Paris, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-2642-7726"
+            },
+            "ForeName": "Stéphane",
+            "LastName": "Schück",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Kappa Santé, Paris, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-7278-4148"
+            },
+            "ForeName": "Julien",
+            "LastName": "Souvignet",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Laboratoire d'Informatique Médicale et d'Ingénieurie des Connaissances en e-Santé, U1142, Institut National de la Santé et de la Recherche Médicale, Paris, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8135-7340"
+            },
+            "ForeName": "Agnès",
+            "LastName": "Lillo-Le Louët",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Assistance Publique-Hôpitaux de Paris, Hôpital Européen Georges Pompidou, Centre Régional de Pharmacovigilance, Paris, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3749-254X"
+            },
+            "ForeName": "Nathalie",
+            "LastName": "Texier",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Kappa Santé, Paris, France."}
+          }
+        ]
+      },
+      "ArticleTitle": "The Adverse Drug Reactions from Patient Reports in Social Media Project: Five Major Challenges to Overcome to Operationalize Analysis and Efficiently Support Pharmacovigilance Process.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.2196/resprot.6463"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 6,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "JMIR Res Protoc",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1929-0748"
+        },
+        "Title": "JMIR research protocols"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "big data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "medical terminology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "natural language processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pharmacovigilance"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "social media"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Expert Opin Drug Saf. 2015;14(12):1845-53",
+        "PMID": {
+          "Version": 1,
+          "content": 26436834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "SHB12 (2012). 2012 Oct 29;2012:25-32",
+        "PMID": {
+          "Version": 1,
+          "content": 28967001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2015 Jun 19;17(6):e154",
+        "PMID": {
+          "Version": 1,
+          "content": 26091775
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2015 Jul 10;17(7):e171",
+        "PMID": {
+          "Version": 1,
+          "content": 26163365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2011 Dec;44(6):989-96",
+        "PMID": {
+          "Version": 1,
+          "content": 21820083
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Public Health Surveill. 2017 Feb 24;3(1):e10",
+        "PMID": {
+          "Version": 1,
+          "content": 28235749
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2015 Apr;54:202-12",
+        "PMID": {
+          "Version": 1,
+          "content": 25720841
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Inf Med. 2013;52(2):152-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23450374
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 2014;205:895-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25160317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Presse Med. 2011 Sep;40(9 Pt 1):790-2",
+        "PMID": {
+          "Version": 1,
+          "content": 21802246
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Clin Pharmacol. 2015 Oct;80(4):910-20",
+        "PMID": {
+          "Version": 1,
+          "content": 26147850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2014 Oct 23;14:91",
+        "PMID": {
+          "Version": 1,
+          "content": 25341686
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Saf. 2006;29(2):161-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16454543
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2002 Oct 2;288(13):1588",
+        "PMID": {
+          "Version": 1,
+          "content": 12350188
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2014 Feb 24;14:13",
+        "PMID": {
+          "Version": 1,
+          "content": 24559132
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2015 Feb;53:196-207",
+        "PMID": {
+          "Version": 1,
+          "content": 25451103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2011;2011:1019-26",
+        "PMID": {
+          "Version": 1,
+          "content": 22195162
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2017 Jun 06;19(6):e195",
+        "PMID": {
+          "Version": 1,
+          "content": 28588006
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2015;15 Suppl 2:S6",
+        "PMID": {
+          "Version": 1,
+          "content": 26100267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2012;2012:417-26",
+        "PMID": {
+          "Version": 1,
+          "content": 23304312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Public Health Surveill. 2017 Jun 22;3(2):e36",
+        "PMID": {
+          "Version": 1,
+          "content": 28642212
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Clin Pharmacol. 2007 Feb;63(2):148-56",
+        "PMID": {
+          "Version": 1,
+          "content": 17274788
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Public Health Surveill. 2015 Jul 27;1(2):e7",
+        "PMID": {
+          "Version": 1,
+          "content": 27227141
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Inf Med. 2000 Mar;39(1):30-5",
+        "PMID": {
+          "Version": 1,
+          "content": 10786067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 2015 ;210:526-30",
+        "PMID": {
+          "Version": 1,
+          "content": 25991203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Health Policy. 2013 May;110(2-3):298-301",
+        "PMID": {
+          "Version": 1,
+          "content": 23477806
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2015 May;22(3):671-81",
+        "PMID": {
+          "Version": 1,
+          "content": 25755127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Public Health Surveill. 2017 Feb 1;3(1):e6",
+        "PMID": {
+          "Version": 1,
+          "content": 28148472
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 1998 Apr 15;279(15):1200-5",
+        "PMID": {
+          "Version": 1,
+          "content": 9555760
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 2013;192:961",
+        "PMID": {
+          "Version": 1,
+          "content": 23920735
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28935617
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28935617,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "v6i9e179",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.2196/resprot.6463",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5629348",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

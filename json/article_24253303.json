@@ -1,0 +1,670 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 617},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Most biological processes are influenced by protein post-translational modifications (PTMs). Identifying novel PTM sites in different organisms, including humans and model organisms, has expedited our understanding of key signal transduction mechanisms. However, with increasing availability of deep, quantitative datasets in diverse species, there is a growing need for tools to facilitate cross-species comparison of PTM data. This is particularly important because functionally important modification sites are more likely to be evolutionarily conserved; yet cross-species comparison of PTMs is difficult since they often lie in structurally disordered protein domains. Current tools that address this can only map known PTMs between species based on known orthologous phosphosites, and do not enable the cross-species mapping of newly identified modification sites. Here, we addressed this by developing a web-based software tool, PhosphOrtholog ( www.phosphortholog.com ) that accurately maps protein modification sites between different species. This facilitates the comparison of datasets derived from multiple species, and should be a valuable tool for the proteomics community."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Here we describe PhosphOrtholog, a web-based application for mapping known and novel orthologous PTM sites from experimental data obtained from different species. PhosphOrtholog is the only generic and automated tool that enables cross-species comparison of large-scale PTM datasets without relying on existing PTM databases. This is achieved through pairwise sequence alignment of orthologous protein residues. To demonstrate its utility we apply it to two sets of human and rat muscle phosphoproteomes generated following insulin and exercise stimulation, respectively, and one publicly available mouse phosphoproteome following cellular stress revealing high mapping and coverage efficiency. Although coverage statistics are dataset dependent, PhosphOrtholog increased the number of cross-species mapped sites in all our example data sets by more than double when compared to those recovered using existing resources such as PhosphoSitePlus."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "PhosphOrtholog is the first tool that enables mapping of thousands of novel and known protein phosphorylation sites across species, accessible through an easy-to-use web interface. Identification of conserved PTMs across species from large-scale experimental data increases our knowledgebase of functional PTM sites. Moreover, PhosphOrtholog is generic being applicable to other PTM datasets such as acetylation, ubiquitination and methylation."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rima",
+            "LastName": "Chaudhuri",
+            "Initials": "R",
+            "AffiliationInfo": [
+              {"Affiliation": "Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. rima.chaudhuri@sydney.edu.au."},
+              {"Affiliation": "Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. rima.chaudhuri@sydney.edu.au."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arash",
+            "LastName": "Sadrieh",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Lowy Packer Building, Victor Chang Cardiac Research Institute, 405 Liverpool Street, Darlinghurst, NSW, 2010, Australia. a.sadrieh@victorchang.edu.au."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nolan J",
+            "LastName": "Hoffman",
+            "Initials": "NJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. nolan.hoffman@sydney.edu.au."},
+              {"Affiliation": "Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. nolan.hoffman@sydney.edu.au."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Benjamin L",
+            "LastName": "Parker",
+            "Initials": "BL",
+            "AffiliationInfo": [
+              {"Affiliation": "Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. benjamin.parker@sydney.edu.au."},
+              {"Affiliation": "Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. benjamin.parker@sydney.edu.au."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sean J",
+            "LastName": "Humphrey",
+            "Initials": "SJ",
+            "AffiliationInfo": {"Affiliation": "Department of Proteomics and Signal Transduction, Max Planck Institute for Biochemistry, Martinsried, Germany. humphrey@biochem.mpg.de."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jacqueline",
+            "LastName": "Stöckli",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. jacqueline.stoeckli@sydney.edu.au."},
+              {"Affiliation": "Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. jacqueline.stoeckli@sydney.edu.au."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adam P",
+            "LastName": "Hill",
+            "Initials": "AP",
+            "AffiliationInfo": {"Affiliation": "Lowy Packer Building, Victor Chang Cardiac Research Institute, 405 Liverpool Street, Darlinghurst, NSW, 2010, Australia. a.hill@victorchang.edu.au."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David E",
+            "LastName": "James",
+            "Initials": "DE",
+            "AffiliationInfo": [
+              {"Affiliation": "Charles Perkins Centre, School of Molecular Biosciences, University of Sydney, Camperdown, NSW, 2006, Australia. david.james@sydney.edu.au."},
+              {"Affiliation": "Diabetes and Obesity Program, Garvan Institute of Medical Research, 384 Victoria Street, Darlinghurst, NSW, 2010, Australia. david.james@sydney.edu.au."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jean Yee Hwa",
+            "LastName": "Yang",
+            "Initials": "JY",
+            "AffiliationInfo": {"Affiliation": "School of Mathematics and Statistics, University of Sydney, Camperdown, NSW, 2006, Australia. jean.yang@sydney.edu.au."}
+          }
+        ]
+      },
+      "ArticleTitle": "PhosphOrtholog: a web-based tool for cross-species mapping of orthologous protein post-translational modifications.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12864-015-1820-x"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 16,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2015,
+            "Day": 19
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Genomics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2164"
+        },
+        "Title": "BMC genomics"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2015,
+      "Day": 18
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2010 Jan;9(1):84-99",
+        "PMID": {
+          "Version": 1,
+          "content": 19770167
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2011;2011:bar009",
+        "PMID": {
+          "Version": 1,
+          "content": 21447597
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2002 Jan 1;30(1):13-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11752242
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetologia. 2013 Apr;56(4):875-85",
+        "PMID": {
+          "Version": 1,
+          "content": 23344726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2006 Nov 3;127(3):635-48",
+        "PMID": {
+          "Version": 1,
+          "content": 17081983
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2008 Mar;26(3):274-5",
+        "PMID": {
+          "Version": 1,
+          "content": 18327232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2010 Dec;9(12):2642-53",
+        "PMID": {
+          "Version": 1,
+          "content": 20688971
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2014 Sep 11;8(5):1583-94",
+        "PMID": {
+          "Version": 1,
+          "content": 25159151
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2002 Dec 6;298(5600):1912-34",
+        "PMID": {
+          "Version": 1,
+          "content": 12471243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Aug 15;21(16):3439-40",
+        "PMID": {
+          "Version": 1,
+          "content": 16082012
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011;12:357",
+        "PMID": {
+          "Version": 1,
+          "content": 21880147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2007;8(5):R90",
+        "PMID": {
+          "Version": 1,
+          "content": 17521420
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2004 Aug;22(8):1035-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15286655
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2013 Dec;12(12):3444-52",
+        "PMID": {
+          "Version": 1,
+          "content": 24187339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Jul 1;29(13):1693-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23658419
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Jun 15;24(12):1426-32",
+        "PMID": {
+          "Version": 1,
+          "content": 18426804
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jan;41(Database issue):D1063-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23203882
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1992 Nov 15;89(22):10915-9",
+        "PMID": {
+          "Version": 1,
+          "content": 1438297
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Dec 4;104(49):19428-33",
+        "PMID": {
+          "Version": 1,
+          "content": 18040051
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2008;9(10):R144",
+        "PMID": {
+          "Version": 1,
+          "content": 18828897
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2006 Oct;24(10):1285-92",
+        "PMID": {
+          "Version": 1,
+          "content": 16964243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2015 Jan;15(2-3):591-607",
+        "PMID": {
+          "Version": 1,
+          "content": 25263469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2002 May;1(5):376-86",
+        "PMID": {
+          "Version": 1,
+          "content": 12118079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2008 Jan;7(1):145-62",
+        "PMID": {
+          "Version": 1,
+          "content": 17934212
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2004 Jun;4(6):1551-61",
+        "PMID": {
+          "Version": 1,
+          "content": 15174125
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2008 Feb;7(2):299-307",
+        "PMID": {
+          "Version": 1,
+          "content": 17938405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Signal. 2009;2(81):ra39",
+        "PMID": {
+          "Version": 1,
+          "content": 19638616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Proteome Res. 2011 Apr 1;10(4):1794-805",
+        "PMID": {
+          "Version": 1,
+          "content": 21254760
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2008 Dec;26(12):1367-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19029910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Proteome Res. 2011 Dec 2;10(12):5354-62",
+        "PMID": {
+          "Version": 1,
+          "content": 22073976
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2006 Jan 1;34(Database issue):D489-94",
+        "PMID": {
+          "Version": 1,
+          "content": 16381918
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Jan;39(Database issue):D253-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21081558
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2009;4(8):1184-91",
+        "PMID": {
+          "Version": 1,
+          "content": 19617889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Metab. 2013 Jun 4;17(6):1009-20",
+        "PMID": {
+          "Version": 1,
+          "content": 23684622
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Electrophoresis. 1999 Dec;20(18):3551-67",
+        "PMID": {
+          "Version": 1,
+          "content": 10612281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2001 Dec 14;314(5):1041-52",
+        "PMID": {
+          "Version": 1,
+          "content": 11743721
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2009 May;25(5):193-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19349092
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2007;3:139",
+        "PMID": {
+          "Version": 1,
+          "content": 17940529
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2007;8(11):R250",
+        "PMID": {
+          "Version": 1,
+          "content": 18039369
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Soc Mass Spectrom. 1994 Nov;5(11):976-89",
+        "PMID": {
+          "Version": 1,
+          "content": 24226387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D261-70",
+        "PMID": {
+          "Version": 1,
+          "content": 22135298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jan;43(Database issue):D512-20",
+        "PMID": {
+          "Version": 1,
+          "content": 25514926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D191-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24253303
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4539857"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965258,
+      "Country": "England",
+      "ISSNLinking": "1471-2164",
+      "MedlineTA": "BMC Genomics"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D020543",
+        "content": "Proteome"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2016,
+      "Day": "02"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D030562",
+        "MajorTopicYN": "N",
+        "content": "Databases, Protein"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D020407",
+        "MajorTopicYN": "N",
+        "content": "Internet"
+      }},
+      {"DescriptorName": {
+        "UI": "D051379",
+        "MajorTopicYN": "N",
+        "content": "Mice"
+      }},
+      {"DescriptorName": {
+        "UI": "D010766",
+        "MajorTopicYN": "N",
+        "content": "Phosphorylation"
+      }},
+      {"DescriptorName": {
+        "UI": "D011499",
+        "MajorTopicYN": "Y",
+        "content": "Protein Processing, Post-Translational"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "Y",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "Y",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D020543",
+          "MajorTopicYN": "N",
+          "content": "Proteome"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D051381",
+        "MajorTopicYN": "N",
+        "content": "Rats"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D020539",
+          "MajorTopicYN": "N",
+          "content": "Sequence Analysis, Protein"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26283093
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2015,
+        "Day": 23,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2015,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 8,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26283093,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12864-015-1820-x",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12864-015-1820-x",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC4539857",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

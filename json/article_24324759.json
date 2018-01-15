@@ -1,0 +1,475 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 516},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "PRIN2009",
+            "Country": "United States",
+            "GrantID": "7.07.02.60 AE01"
+          },
+          {
+            "Agency": "Progetto di Ricerca Sanitaria Finalizzata 2009",
+            "Country": "United States",
+            "GrantID": "RF-2009-1469205"
+          },
+          {
+            "Agency": "Progetto di Ricerca Sanitaria Finalizzata 2010",
+            "Country": "United States",
+            "GrantID": "RF-2010-2307262"
+          },
+          {
+            "Agency": "Fondazione Cassa di Risparmio di Torino",
+            "Country": "United States",
+            "GrantID": 2015.1044
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Mantle Cell Lymphoma (MCL) is a B cell aggressive neoplasia accounting for about the 6% of all lymphomas. The most common molecular marker of clonality in MCL, as in other B lymphoproliferative disorders, is the ImmunoGlobulin Heavy chain (IGH) rearrangement, occurring in B-lymphocytes. The patient-specific IGH rearrangement is extensively used to monitor the Minimal Residual Disease (MRD) after treatment through the standardized Allele-Specific Oligonucleotides Quantitative Polymerase Chain Reaction based technique. Recently, several studies have suggested that the IGH monitoring through deep sequencing techniques can produce not only comparable results to Polymerase Chain Reaction-based methods, but also might overcome the classical technique in terms of feasibility and sensitivity. However, no standard bioinformatics tool is available at the moment for data analysis in this context."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "In this paper we present HashClone, an easy-to-use and reliable bioinformatics tool that provides B-cells clonality assessment and MRD monitoring over time analyzing data from Next-Generation Sequencing (NGS) technique. The HashClone strategy-based is composed of three steps: the first and second steps implement an alignment-free prediction method that identifies a set of putative clones belonging to the repertoire of the patient under study. In the third step the IGH variable region, diversity region, and joining region identification is obtained by the alignment of rearrangements with respect to the international ImMunoGenetics information system database. Moreover, a provided graphical user interface for HashClone execution and clonality visualization over time facilitate the tool use and the results interpretation. The HashClone performance was tested on the NGS data derived from MCL patients to assess the major B-cell clone in the diagnostic samples and to monitor the MRD in the real and artificial follow up samples."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Our experiments show that in all the experimental settings, HashClone was able to correctly detect the major B-cell clones and to precisely follow them in several samples showing better accuracy than the state-of-art tool."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marco",
+            "LastName": "Beccuti",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of Torino, Via Pesinetto 12, Turin, 10149, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elisa",
+            "LastName": "Genuardi",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Division of Hematology, Department of Molecular Biotechnologies and Health Sciences, University of Torino, Via Genova 3, Turin, 10126, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Greta",
+            "LastName": "Romano",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of Torino, Via Pesinetto 12, Turin, 10149, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luigia",
+            "LastName": "Monitillo",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Division of Hematology, Department of Molecular Biotechnologies and Health Sciences, University of Torino, Via Genova 3, Turin, 10126, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniela",
+            "LastName": "Barbero",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Division of Hematology, Department of Molecular Biotechnologies and Health Sciences, University of Torino, Via Genova 3, Turin, 10126, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mario",
+            "LastName": "Boccadoro",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Division of Hematology, Department of Molecular Biotechnologies and Health Sciences, University of Torino, Via Genova 3, Turin, 10126, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marco",
+            "LastName": "Ladetto",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Division of Hematology, Az. Ospedaliera SS Antonio e Biagio e Cesare Arrigo, Via Venezia 16, Alessandria, 15121, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Raffaele",
+            "LastName": "Calogero",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Molecular Biotechnology and Health Sciences, University of Torino, Via Nizza 52, Turin, 10125, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Simone",
+            "LastName": "Ferrero",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Division of Hematology, Department of Molecular Biotechnologies and Health Sciences, University of Torino, Via Genova 3, Turin, 10126, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-3143-3330"
+            },
+            "ForeName": "Francesca",
+            "LastName": "Cordero",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of Torino, Via Pesinetto 12, Turin, 10149, Italy. fcordero@di.unito.it."}
+          }
+        ]
+      },
+      "ArticleTitle": "HashClone: a new tool to quantify the minimal residual disease in B-cell lymphoma from deep sequencing data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1923-2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Clonality assessment"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hash-based algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Minimal residual disease monitoring"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Leukemia. 2014 Jun;28(6):1299-307",
+        "PMID": {
+          "Version": 1,
+          "content": 24342950
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Blood Marrow Transplant. 2000;6(3):241-53",
+        "PMID": {
+          "Version": 1,
+          "content": 10871149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2005 Jan 1;33(Database issue):D256-61",
+        "PMID": {
+          "Version": 1,
+          "content": 15608191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Diagn Ther. 2017 Oct;21(5):481-492",
+        "PMID": {
+          "Version": 1,
+          "content": 28452038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Apr 1;26(7):867-72",
+        "PMID": {
+          "Version": 1,
+          "content": 20147303
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2013 Nov 28;122(23):3759-66",
+        "PMID": {
+          "Version": 1,
+          "content": 24085766
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Dec 15;26(24):3129-30",
+        "PMID": {
+          "Version": 1,
+          "content": 21036814
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hematol Oncol. 2011 Dec;29(4):167-76",
+        "PMID": {
+          "Version": 1,
+          "content": 22678691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Interdiscip Sci. 2017 Dec;9(4):512-527",
+        "PMID": {
+          "Version": 1,
+          "content": 27021490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Jun 09;10 (6):e0129195",
+        "PMID": {
+          "Version": 1,
+          "content": 26057250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Mar 23;10(3):e0118192",
+        "PMID": {
+          "Version": 1,
+          "content": 25799103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2008 Jul 1;36(Web Server issue):W503-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18503082
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Leukemia. 2007 Apr;21(4):604-11",
+        "PMID": {
+          "Version": 1,
+          "content": 17287850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Feb 1;33(3):435-437",
+        "PMID": {
+          "Version": 1,
+          "content": 28172348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2012 Dec 20;120(26):5173-80",
+        "PMID": {
+          "Version": 1,
+          "content": 23074282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Oncol. 2016 Sep;27(suppl 5):v83-v90",
+        "PMID": {
+          "Version": 1,
+          "content": 27664263
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Jul 1;23(13):1580-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17463026
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Leukemia. 2003 Dec;17(12):2257-317",
+        "PMID": {
+          "Version": 1,
+          "content": 14671650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 1999 Nov 11;341(20):1520-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10559454
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2010 Apr 22;115(16):3215-23",
+        "PMID": {
+          "Version": 1,
+          "content": 20032498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Leukemia. 1997 Oct;11(10):1793-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9324303
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2015 Jun 25;125(26):3996-4009",
+        "PMID": {
+          "Version": 1,
+          "content": 25999452
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2014 May 28;15:409",
+        "PMID": {
+          "Version": 1,
+          "content": 24885090
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bone Marrow Transplant. 2002 Mar;29(6):459-65",
+        "PMID": {
+          "Version": 1,
+          "content": 11960263
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 2004 Jun 1;172(11):6790-802",
+        "PMID": {
+          "Version": 1,
+          "content": 15153497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Leukemia. 2015 Mar;29(3):689-95",
+        "PMID": {
+          "Version": 1,
+          "content": 25027515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Dec 04;8(12):e82138",
+        "PMID": {
+          "Version": 1,
+          "content": 24324759
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29169317
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29169317,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1923-2",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1923-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5701356",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

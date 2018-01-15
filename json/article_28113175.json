@@ -1,0 +1,127 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 19
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "3032-3043"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Existing color sampling-based alpha matting methods use the compositing equation to estimate alpha at a pixel from the pairs of foreground ( F ) and background ( B ) samples. The quality of the matte depends on the selected ( F,B ) pairs. In this paper, the matting problem is reinterpreted as a sparse coding of pixel features, wherein the sum of the codes gives the estimate of the alpha matte from a set of unpaired F and B samples. A non-parametric probabilistic segmentation provides a certainty measure on the pixel belonging to foreground or background, based on which a dictionary is formed for use in sparse coding. By removing the restriction to conform to ( F,B ) pairs, this method allows for better alpha estimation from multiple F and B samples. The same framework is extended to videos, where the requirement of temporal coherence is handled effectively. Here, the dictionary is formed by samples from multiple frames. A multi-frame graph model, as opposed to a single image as for image matting, is proposed that can be solved efficiently in closed form. Quantitative and qualitative evaluations on a benchmark dataset are provided to show that the proposed method outperforms the current stateoftheart in image and video matting."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jubin",
+            "LastName": "Johnson",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ehsan Shahrian",
+            "LastName": "Varnousfaderani",
+            "Initials": "ES"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hisham",
+            "LastName": "Cholakkal",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Deepu",
+            "LastName": "Rajan",
+            "Initials": "D"
+          }
+        ]
+      },
+      "ArticleTitle": "Sparse Coding for Alpha Matting.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2555705"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 25,
+          "PubDate": {
+            "Month": "07",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 19
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113175
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113175,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2555705",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

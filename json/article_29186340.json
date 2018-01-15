@@ -1,0 +1,156 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "Inferring the structure of gene regulatory networks from high-throughput datasets remains an important and unsolved problem. Current methods are hampered by problems such as noise, low sample size, and incomplete characterizations of regulatory dynamics, leading to networks with missing and anomalous links. Integration of prior network information (e.g., from pathway databases) has the potential to improve reconstructions."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "We developed a semi-supervised network reconstruction algorithm that enables the synthesis of information from partially known networks with time course gene expression data. We adapted PLS-VIP for time course data and used reference networks to simulate expression data from which null distributions of VIP scores are generated and used to estimate edge probabilities for input expression data. By using simulated dynamics to generate reference distributions, this approach incorporates previously known regulatory relationships and links the network to the dynamics to form a semi-supervised approach that discovers novel and anomalous connections. We applied this approach to data from a sleep deprivation study with KEGG pathways treated as prior networks, as well as to synthetic data from several DREAM challenges, and find that it is able to recover many of the true edges and identify errors in these networks, suggesting its ability to derive posterior networks that accurately reflect gene expression dynamics."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability",
+          "content": "R code is available at https://github.com/pn51/postPLSR."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "rbraun@northwestern.edu."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Phan",
+            "LastName": "Nguyen",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Engineering Sciences and Applied Mathematics, Northwestern University, Evanston, IL 60208, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rosemary",
+            "LastName": "Braun",
+            "Initials": "R",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Engineering Sciences and Applied Mathematics, Northwestern University, Evanston, IL 60208, USA."},
+              {"Affiliation": "Biostatistics Division, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Semi-supervised network inference using simulated gene expression dynamics.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx748"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29186340
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186340,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 4665418,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx748",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,536 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101301827,
+      "Country": "England",
+      "ISSNLinking": "1752-0509",
+      "MedlineTA": "BMC Syst Biol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 118},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "FP7 Marie Curie Initial Training Network",
+            "Country": "United States",
+            "GrantID": 316723
+          },
+          {
+            "Agency": "Horizon 2020 (BE)",
+            "Country": "United States",
+            "GrantID": 634942
+          },
+          {
+            "Agency": "Human Frontier Science Program",
+            "Country": "United States",
+            "GrantID": "RGP0025/2013"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Evolution has led to the development of biological networks that are shaped by environmental signals. Elucidating, understanding and then reconstructing important network motifs is one of the principal aims of Systems & Synthetic Biology. Consequently, previous research has focused on finding optimal network structures and reaction rates that respond to pulses or produce stable oscillations. In this work we present a generalised in silico evolutionary algorithm that simultaneously finds network structures and reaction rates (genotypes) that can satisfy multiple defined objectives (phenotypes)."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The key step to our approach is to translate a schema/binary-based description of biological networks into systems of ordinary differential equations (ODEs). The ODEs can then be solved numerically to provide dynamic information about an evolved networks functionality. Initially we benchmark algorithm performance by finding optimal networks that can recapitulate concentration time-series data and perform parameter optimisation on oscillatory dynamics of the Repressilator. We go on to show the utility of our algorithm by finding new designs for robust synthetic oscillators, and by performing multi-objective optimisation to find a set of oscillators and feed-forward loops that are optimal at balancing different system properties. In sum, our results not only confirm and build on previous observations but we also provide new designs of synthetic oscillators for experimental construction."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "In this work we have presented and tested an evolutionary algorithm that can design a biological network to produce desired output. Given that previous designs of synthetic networks have been limited to subregions of network- and parameter-space, the use of our evolutionary optimisation algorithm will enable Synthetic Biologists to construct new systems with the potential to display a wider range of complex responses."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9657-7477"
+            },
+            "ForeName": "Robert W",
+            "LastName": "Smith",
+            "Initials": "RW",
+            "AffiliationInfo": [
+              {"Affiliation": "Laboratory of Systems & Synthetic Biology, Wageningen UR, PO Box 8033, Wageningen, 6700EJ, The Netherlands."},
+              {"Affiliation": "LifeGlimmer GmbH, Markelstrasse 38, Berlin, 12163, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bob",
+            "LastName": "van Sluijs",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Systems & Synthetic Biology, Wageningen UR, PO Box 8033, Wageningen, 6700EJ, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christian",
+            "LastName": "Fleck",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Systems & Synthetic Biology, Wageningen UR, PO Box 8033, Wageningen, 6700EJ, The Netherlands. christian.fleck@wur.nl."}
+          }
+        ]
+      },
+      "ArticleTitle": "Designing synthetic networks in silico: a generalised evolutionary algorithm approach.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12918-017-0499-9"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 11,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": "02"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Syst Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1752-0509"
+        },
+        "Title": "BMC systems biology"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Evolutionary algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Network design"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Synthetic biology"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2013;4:2605",
+        "PMID": {
+          "Version": 1,
+          "content": 24189549
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Jan 13;101(2):580-5",
+        "PMID": {
+          "Version": 1,
+          "content": 14704282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2016 Sep;23(9):776-88",
+        "PMID": {
+          "Version": 1,
+          "content": 27308778
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2002 Oct 25;298(5594):824-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12399590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Jan 23;10(1):e0116258",
+        "PMID": {
+          "Version": 1,
+          "content": 25616055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2002 Dec 24;99(26):16587-91",
+        "PMID": {
+          "Version": 1,
+          "content": 12451174
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2016 May 10;12 (5):e1004918",
+        "PMID": {
+          "Version": 1,
+          "content": 27163612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2008 Dec;9(12):981-91",
+        "PMID": {
+          "Version": 1,
+          "content": 18971947
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochimie. 2010 Jul;92(7):746-52",
+        "PMID": {
+          "Version": 1,
+          "content": 20399826
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Oct 30;43(19):e123",
+        "PMID": {
+          "Version": 1,
+          "content": 26101250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(4):e1002480",
+        "PMID": {
+          "Version": 1,
+          "content": 22511863
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2000 Jan 20;403(6767):339-42",
+        "PMID": {
+          "Version": 1,
+          "content": 10659857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Apr 20;101(16):5934-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15079056
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ACS Synth Biol. 2016 Jun 17;5(6):459-70",
+        "PMID": {
+          "Version": 1,
+          "content": 26835539
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dev Genet. 1994;15(3):205-13",
+        "PMID": {
+          "Version": 1,
+          "content": 8062455
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Aug 26;5(8):e12314",
+        "PMID": {
+          "Version": 1,
+          "content": 20865033
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2000 Jan 20;403(6767):335-8",
+        "PMID": {
+          "Version": 1,
+          "content": 10659856
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2016 Mar 11;10 :27",
+        "PMID": {
+          "Version": 1,
+          "content": 26968941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2012 Mar 06;8:574",
+        "PMID": {
+          "Version": 1,
+          "content": 22395476
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioessays. 2012 Feb;34(2):149-57",
+        "PMID": {
+          "Version": 1,
+          "content": 22102361
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2003 Oct 14;100(21):11980-5",
+        "PMID": {
+          "Version": 1,
+          "content": 14530388
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Evol Bioinform Online. 2013;9:137-50",
+        "PMID": {
+          "Version": 1,
+          "content": 23532178
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2008 Mar 03;2:24",
+        "PMID": {
+          "Version": 1,
+          "content": 18315885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biosystems. 2011 Jan;103(1):38-44",
+        "PMID": {
+          "Version": 1,
+          "content": 20920549
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2016 Oct 27;538(7626):514-517",
+        "PMID": {
+          "Version": 1,
+          "content": 27732583
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2014 May 6;106(9):2071-81",
+        "PMID": {
+          "Version": 1,
+          "content": 24806939
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Syst Biol (Stevenage). 2006 Jul;153(4):223-35",
+        "PMID": {
+          "Version": 1,
+          "content": 16986624
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Phys Chem. 2007;58:35-55",
+        "PMID": {
+          "Version": 1,
+          "content": 17037977
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(4):e35529",
+        "PMID": {
+          "Version": 1,
+          "content": 22536398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2013 Jul;88(1):012722",
+        "PMID": {
+          "Version": 1,
+          "content": 23944505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Jan 27;11:59",
+        "PMID": {
+          "Version": 1,
+          "content": 20105328
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Semin Cell Dev Biol. 2014 Nov;35:90-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24956562
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 May;11(5):508-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24781324
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2004 Oct;87(4):2195-202",
+        "PMID": {
+          "Version": 1,
+          "content": 15454422
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2017 Jul 11;113(1):157-173",
+        "PMID": {
+          "Version": 1,
+          "content": 28700914
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Evol Comput. 2000 Summer;8(2):173-95",
+        "PMID": {
+          "Version": 1,
+          "content": 10843520
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gene Regul Syst Bio. 2010 May 24;4:35-52",
+        "PMID": {
+          "Version": 1,
+          "content": 20535234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2014 Sep 24;8:113",
+        "PMID": {
+          "Version": 1,
+          "content": 25248337
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2008 Jul 4;321(5885):126-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18599789
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 2014 Jun 1;592(11):2267-81",
+        "PMID": {
+          "Version": 1,
+          "content": 24882812
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Aug 27;110(35):14486-91",
+        "PMID": {
+          "Version": 1,
+          "content": 23940358
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29197394
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 4,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29197394,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12918-017-0499-9",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12918-017-0499-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5712201",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

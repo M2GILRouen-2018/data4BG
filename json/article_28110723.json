@@ -1,0 +1,276 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "177-193"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "This paper presents an automatic computer-aided diagnosis (CAD) system based on feature ranking for detection of Alzheimer's disease (AD) using structural magnetic resonance imaging (sMRI) data."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The proposed CAD system is composed of four systematic stages. First, global and local differences in the gray matter (GM) of AD patients compared to the GM of healthy controls (HCs) are analyzed using a voxel-based morphometry technique. The aim is to identify significant local differences in the volume of GM as volumes of interests (VOIs). Second, the voxel intensity values of the VOIs are extracted as raw features. Third, the raw features are ranked using a seven-feature ranking method, namely, statistical dependency (SD), mutual information (MI), information gain (IG), Pearson's correlation coefficient (PCC), t-test score (TS), Fisher's criterion (FC), and the Gini index (GI). The features with higher scores are more discriminative. To determine the number of top features, the estimated classification error based on training set made up of the AD and HC groups is calculated, with the vector size that minimized this error selected as the top discriminative feature. Fourth, the classification is performed using a support vector machine (SVM). In addition, a data fusion approach among feature ranking methods is introduced to improve the classification performance."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The proposed method is evaluated using a data-set from ADNI (130 AD and 130 HC) with 10-fold cross-validation. The classification accuracy of the proposed automatic system for the diagnosis of AD is up to 92.48% using the sMRI data."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "An automatic CAD system for the classification of AD based on feature-ranking method and classification errors is proposed. In this regard, seven-feature ranking methods (i.e., SD, MI, IG, PCC, TS, FC, and GI) are evaluated. The optimal size of top discriminative features is determined by the classification error estimation in the training phase. The experimental results indicate that the performance of the proposed system is comparative to that of state-of-the-art classification models."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Iman",
+            "LastName": "Beheshti",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Integrative Brain Imaging Center, National Center of Neurology and Psychiatry, 4-1-1, Ogawahigashi-cho, Kodaira, Tokyo 187-8551, Japan. Electronic address: Iman.beheshti@ncnp.go.jp."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hasan",
+            "LastName": "Demirel",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Biomedical Image Processing Lab, Department of Electrical & Electronic Engineering, Eastern Mediterranean University, Famagusta, Mersin 10, Turkey."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Farnaz",
+            "LastName": "Farokhian",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "College of Life Science and Bioengineering, Beijing University of Technology, Beijing, 100022, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chunlan",
+            "LastName": "Yang",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "College of Life Science and Bioengineering, Beijing University of Technology, Beijing, 100022, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hiroshi",
+            "LastName": "Matsuda",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Integrative Brain Imaging Center, National Center of Neurology and Psychiatry, 4-1-1, Ogawahigashi-cho, Kodaira, Tokyo 187-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "CollectiveName": "Alzheimer's Disease Neuroimaging Initiative"
+          }
+        ]
+      },
+      "ArticleTitle": "Structural MRI-based detection of Alzheimer's disease using feature ranking and classification error.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30105-5"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.09.019"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Alzheimer's disease"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Classification error"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Computer-aided diagnosis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Feature extraction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Feature ranking"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Structural MRI"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000369",
+        "MajorTopicYN": "N",
+        "content": "Aged, 80 and over"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "N",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D000544",
+          "MajorTopicYN": "N",
+          "content": "Alzheimer Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D021621",
+        "MajorTopicYN": "N",
+        "content": "Imaging, Three-Dimensional"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28110723
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2016,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "02",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110723,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30105-5",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.09.019",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

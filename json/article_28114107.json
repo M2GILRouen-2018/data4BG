@@ -1,0 +1,220 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401220",
+      "Country": "England",
+      "ISSNLinking": "0031-9155",
+      "MedlineTA": "Phys Med Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 24
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1358-1377"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "To fully exploit the advantages of magnetic resonance imaging (MRI) for radiotherapy (RT) treatment planning, a method is required to overcome the problem of lacking electron density information. We aim to establish and evaluate a new method for computed tomography (CT) data generation based on MRI and image registration. The thereby generated CT data is used for dose accumulation. We developed a process flow based on an initial pair of rigidly co-registered CT and T2-weighted MR image representing the same anatomical situation. Deformable image registration using anatomical landmarks is performed between the initial MRI data and daily MR images. The resulting transformation is applied to the initial CT, thus fractional CT data is generated. Furthermore, the dose for a photon intensity modulated RT (IMRT) or intensity modulated proton therapy (IMPT) plan is calculated on the generated fractional CT and accumulated on the initial CT via inverse transformation. The method is evaluated by the use of phantom CT and MRI data. Quantitative validation is performed by evaluation of the mean absolute error (MAE) between the measured and the generated CT. The effect on dose accumulation is examined by means of dose-volume parameters. One patient case is presented to demonstrate the applicability of the method introduced here. Overall, CT data derivation lead to MAEs with a median of 37.0 HU ranging from 29.9 to 66.6 HU for all investigated tissues. The accuracy of image registration showed to be limited in the case of unexpected air cavities and at tissue boundaries. The comparisons of dose distributions based on measured and generated CT data agree well with the published literature. Differences in dose volume parameters kept within 1.6% and 3.2% for photon and proton RT, respectively. The method presented here is particularly suited for application in adaptive RT in current clinical routine, since only minor additional technical equipment is required."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kim Melanie",
+            "LastName": "Kraus",
+            "Initials": "KM",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology and Radiation Therapy, University of Heidelberg, Germany, Im Neuenheimer Feld 400, 69120 Heidelberg, Germany. Department of Medical Physics in Radiation Oncology, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, 69120 Heidelberg, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Oliver",
+            "LastName": "Jäkel",
+            "Initials": "O"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nina I",
+            "LastName": "Niebuhr",
+            "Initials": "NI"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Asja",
+            "LastName": "Pfaffenberger",
+            "Initials": "A"
+          }
+        ]
+      },
+      "ArticleTitle": "Generation of synthetic CT data using patient specific daily MR image data and image registration.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1361-6560/aa5200"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 62,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-6560"
+        },
+        "Title": "Physics in medicine and biology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008279",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D066230",
+        "MajorTopicYN": "Y",
+        "content": "Patient-Specific Modeling"
+      }},
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D061766",
+          "MajorTopicYN": "N",
+          "content": "Proton Therapy"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          },
+          {
+            "UI": "Q000592",
+            "MajorTopicYN": "N",
+            "content": "standards"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D011880",
+          "MajorTopicYN": "N",
+          "content": "Radiotherapy Planning, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D050397",
+          "MajorTopicYN": "N",
+          "content": "Radiotherapy, Intensity-Modulated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 24
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114107
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114107,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1361-6560/aa5200",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

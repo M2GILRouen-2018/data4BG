@@ -1,0 +1,124 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "3748-3758"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Accurately distinguishing aerial photographs from different categories is a promising technique in computer vision. It can facilitate a series of applications, such as video surveillance and vehicle navigation. In this paper, a new image kernel is proposed for effectively recognizing aerial photographs. The key is to encode high-level semantic cues into local image patches in a weakly supervised way, and integrate multimodal visual features using a newly developed hashing algorithm. The flowchart can be elaborated as follows. Given an aerial photo, we first extract a number of graphlets to describe its topological structure. For each graphlet, we utilize color and texture to capture its appearance, and a weakly supervised algorithm to capture its semantics. Thereafter, aerial photo categorization can be naturally formulated as graphlet-to-graphlet matching. As the number of graphlets from each aerial photo is huge, to accelerate matching, we present a hashing algorithm to seamlessly fuze the multiple visual features into binary codes. Finally, an image kernel is calculated by fast matching the binary codes corresponding to each graphlet. And a multi-class SVM is learned for aerial photo categorization. We demonstrate the advantage of our proposed model by comparing it with state-of-the-art image descriptors. Moreover, an in-depth study of the descriptiveness of the hash-based graphlet is presented."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "LastName": "Yingjie Xia"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Luming Zhang"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Zhenguang Liu"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Liqiang Nie"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Xuelong Li"
+          }
+        ]
+      },
+      "ArticleTitle": "Weakly Supervised Multimodal Kernel for Categorizing Aerial Photographs.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2639438"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 26,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113314
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113314,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2639438",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

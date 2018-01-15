@@ -1,0 +1,328 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0188717"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Algorithmic segmentation of histologically relevant regions of tissues in digitized histopathological images is a critical step towards computer-assisted diagnosis and analysis. For example, automatic identification of epithelial and stromal tissues in images is important for spatial localisation and guidance in the analysis and characterisation of tumour micro-environment. Current segmentation approaches are based on supervised methods, which require extensive training data from high quality, manually annotated images. This is often difficult and costly to obtain. This paper presents an alternative data-independent framework based on unsupervised segmentation of oropharyngeal cancer tissue micro-arrays (TMAs). An automated segmentation algorithm based on mathematical morphology is first applied to light microscopy images stained with haematoxylin and eosin. This partitions the image into multiple binary 'virtual-cells', each enclosing a potential 'nucleus' (dark basins in the haematoxylin absorbance image). Colour and morphology measurements obtained from these virtual-cells as well as their enclosed nuclei are input into an advanced unsupervised learning model for the identification of epithelium and stromal tissues. Here we exploit two Consensus Clustering (CC) algorithms for the unsupervised recognition of tissue compartments, that consider the consensual opinion of a group of individual clustering algorithms. Unlike most unsupervised segmentation analyses, which depend on a single clustering method, the CC learning models allow for more robust and stable detection of tissue regions. The proposed framework performance has been evaluated on fifty-five hand-annotated tissue images of oropharyngeal tissues. Qualitative and quantitative results of the proposed segmentation algorithm compare favourably with eight popular tissue segmentation strategies. Furthermore, the unsupervised results obtained here outperform those obtained with individual clustering algorithms."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-5147-0040"
+            },
+            "ForeName": "Shereen",
+            "LastName": "Fouad",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "School of Dentistry, Institute of Clinical Sciences, University of Birmingham, Birmingham, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Randell",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "School of Dentistry, Institute of Clinical Sciences, University of Birmingham, Birmingham, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Antony",
+            "LastName": "Galton",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of Exeter, Exeter, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hisham",
+            "LastName": "Mehanna",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Institute of Head and Neck Studies and Education, Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gabriel",
+            "LastName": "Landini",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "School of Dentistry, Institute of Clinical Sciences, University of Birmingham, Birmingham, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "Unsupervised morphological segmentation of tissue compartments in histopathological images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0188717"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Microsc. 2017 Feb;265(2):185-195",
+        "PMID": {
+          "Version": 1,
+          "content": 27649382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diagn Pathol. 2012 Mar 02;7:22",
+        "PMID": {
+          "Version": 1,
+          "content": 22385523
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurocomputing. 2016 May 26;191:214-223",
+        "PMID": {
+          "Version": 1,
+          "content": 28154470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cytometry A. 2004 Sep;61(1):45-55",
+        "PMID": {
+          "Version": 1,
+          "content": 15351988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2010 Feb;14(1):1-12",
+        "PMID": {
+          "Version": 1,
+          "content": 19819181
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2017 Aug;40:1-10",
+        "PMID": {
+          "Version": 1,
+          "content": 28549310
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Inf Technol Biomed. 2009 Mar;13(2):152-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19272857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011 Feb 28;6(2):e15818",
+        "PMID": {
+          "Version": 1,
+          "content": 21386898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Rev Biomed Eng. 2009;2:147-71",
+        "PMID": {
+          "Version": 1,
+          "content": 20671804
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2015;2015:569071",
+        "PMID": {
+          "Version": 1,
+          "content": 26579535
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2012 Nov;34(11):2274-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22641706
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2005 Jun;27(6):835-50",
+        "PMID": {
+          "Version": 1,
+          "content": 15943417
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Quant Cytol Histol. 2010 Feb;32(1):30-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20701085
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 1993;2(2):176-201",
+        "PMID": {
+          "Version": 1,
+          "content": 18296207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2016 Oct;33:170-175",
+        "PMID": {
+          "Version": 1,
+          "content": 27423409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Quant Cytol Histol. 2001 Aug;23(4):291-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11531144
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Mar-Apr;19(2):317-23",
+        "PMID": {
+          "Version": 1,
+          "content": 22278382
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29190786
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29190786,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0188717",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-22548",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5708642",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

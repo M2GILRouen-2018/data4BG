@@ -1,0 +1,224 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101249582,
+      "Country": "Germany",
+      "MedlineTA": "Med Image Comput Comput Assist Interv"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "575-583"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NINDS NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 NS056307",
+          "Acronym": "NS"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "04"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Diffusion magnetic resonance imaging (dMRI) is currently the only tool for noninvasively imaging the brain's white matter tracts. The fiber orientation (FO) is a key feature computed from dMRI for tract reconstruction. Because the number of FOs in a voxel is usually small, dictionary-based sparse reconstruction has been used to estimate FOs. However, accurate estimation of complex FO configurations in the presence of noise can still be challenging. In this work we explore the use of a deep network for FO estimation in a dictionary-based framework and propose an algorithm named Fiber Orientation Reconstruction guided by a Deep Network (FORDN). FORDN consists of two steps. First, we use a smaller dictionary encoding coarse basis FOs to represent diffusion signals. To estimate the mixture fractions of the dictionary atoms, a deep network is designed to solve the sparse reconstruction problem. Second, the coarse FOs inform the final FO estimation, where a larger dictionary encoding a dense basis of FOs is used and a weighted ℓ1-norm regularized least squares problem is solved to encourage FOs that are consistent with the network output. FORDN was evaluated and compared with state-of-the-art algorithms that estimate FOs using sparse reconstruction on simulated and typical clinical dMRI data. The results demonstrate the benefit of using a deep network for FO estimation."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chuyang",
+            "LastName": "Ye",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "National Laboratory of Pattern Recognition & Brainnetome Center, Institute of Automation, Chinese Academy of Sciences, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jerry L",
+            "LastName": "Prince",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computer Engineering, Johns Hopkins University, Baltimore, MD, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Fiber Orientation Estimation Guided by a Deep Network.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/978-3-319-66182-7_66"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 10433,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Med Image Comput Comput Assist Interv",
+        "Title": "Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "deep network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "diffusion MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "fiber orientation estimation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "sparse reconstruction"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 28
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2016 Aug;32:243-56",
+        "PMID": {
+          "Version": 1,
+          "content": 27209007
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Feb 14;54(4):2854-66",
+        "PMID": {
+          "Version": 1,
+          "content": 21094686
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Jun;46(2):486-99",
+        "PMID": {
+          "Version": 1,
+          "content": 19385016
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2015 Oct;45:63-74",
+        "PMID": {
+          "Version": 1,
+          "content": 26296155
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Nov 28;6:37847",
+        "PMID": {
+          "Version": 1,
+          "content": 27892534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2014 Aug;18(6):820-33",
+        "PMID": {
+          "Version": 1,
+          "content": 24593935
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Sep;29(9):1626-35",
+        "PMID": {
+          "Version": 1,
+          "content": 20304721
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2008 Feb;12(1):26-41",
+        "PMID": {
+          "Version": 1,
+          "content": 17659998
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Feb 1;59(3):2175-86",
+        "PMID": {
+          "Version": 1,
+          "content": 22019877
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28944347
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28944347,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/978-3-319-66182-7_66",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5607063",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS898019",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

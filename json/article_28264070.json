@@ -1,0 +1,705 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "SupplMeshList": {"SupplMeshName": {
+      "Type": "Disease",
+      "UI": "C567360",
+      "content": "Progeroid Syndrome, Congenital, Petty Type"
+    }},
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors have declared that no competing interests exist.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0170688"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A vast array of pathologies is typified by the presence of nuclei with an abnormal morphology. Dysmorphic nuclear phenotypes feature dramatic size changes or foldings, but also entail much subtler deviations such as nuclear protrusions called blebs. Due to their unpredictable size, shape and intensity, dysmorphic nuclei are often not accurately detected in standard image analysis routines. To enable accurate detection of dysmorphic nuclei in confocal and widefield fluorescence microscopy images, we have developed an automated segmentation algorithm, called Blebbed Nuclei Detector (BleND), which relies on two-pass thresholding for initial nuclear contour detection, and an optimal path finding algorithm, based on dynamic programming, for refining these contours. Using a robust error metric, we show that our method matches manual segmentation in terms of precision and outperforms state-of-the-art nuclear segmentation methods. Its high performance allowed for building and integrating a robust classifier that recognizes dysmorphic nuclei with an accuracy above 95%. The combined segmentation-classification routine is bound to facilitate nucleus-based diagnostics and enable real-time recognition of dysmorphic nuclei in intelligent microscopy workflows."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marlies",
+            "LastName": "Verschuuren",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Veterinary Sciences, University of Antwerp, Antwerp, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonas",
+            "LastName": "De Vylder",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Telecommunication and Information Processing, IPI, iMinds, Ghent University, Ghent, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hannes",
+            "LastName": "Catrysse",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Institute for Agricultural and Fisheries Research (ILVO), Melle, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joke",
+            "LastName": "Robijns",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Veterinary Sciences, University of Antwerp, Antwerp, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wilfried",
+            "LastName": "Philips",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Department of Telecommunication and Information Processing, IPI, iMinds, Ghent University, Ghent, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-0960-6781"
+            },
+            "ForeName": "Winnok H",
+            "LastName": "De Vos",
+            "Initials": "WH",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Veterinary Sciences, University of Antwerp, Antwerp, Belgium."},
+              {"Affiliation": "Department of Molecular Biotechnology, Ghent University, Ghent, Belgium."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Accurate Detection of Dysmorphic Nuclei Using Dynamic Programming and Supervised Classification.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0170688"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D019985",
+        "MajorTopicYN": "N",
+        "content": "Benchmarking"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "N",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000648",
+            "MajorTopicYN": "Y",
+            "content": "ultrastructure"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D002467",
+          "MajorTopicYN": "N",
+          "content": "Cell Nucleus"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000648",
+            "MajorTopicYN": "N",
+            "content": "ultrastructure"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D020405",
+          "MajorTopicYN": "N",
+          "content": "Dermis"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000648",
+            "MajorTopicYN": "Y",
+            "content": "ultrastructure"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D005347",
+          "MajorTopicYN": "N",
+          "content": "Fibroblasts"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000648",
+            "MajorTopicYN": "Y",
+            "content": "ultrastructure"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D005354",
+          "MajorTopicYN": "N",
+          "content": "Fibrosarcoma"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D006130",
+          "MajorTopicYN": "N",
+          "content": "Growth Disorders"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "N",
+            "content": "methods"
+          },
+          {
+            "UI": "Q000706",
+            "MajorTopicYN": "Y",
+            "content": "statistics & numerical data"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D051379",
+        "MajorTopicYN": "N",
+        "content": "Mice"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "N",
+            "content": "methods"
+          },
+          {
+            "UI": "Q000706",
+            "MajorTopicYN": "Y",
+            "content": "statistics & numerical data"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D008856",
+          "MajorTopicYN": "N",
+          "content": "Microscopy, Fluorescence"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000648",
+            "MajorTopicYN": "N",
+            "content": "ultrastructure"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009474",
+          "MajorTopicYN": "N",
+          "content": "Neurons"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "Y",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D061251",
+        "MajorTopicYN": "N",
+        "content": "Primary Cell Culture"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D011371",
+          "MajorTopicYN": "N",
+          "content": "Progeria"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 10
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 1998;7(3):359-69",
+        "PMID": {
+          "Version": 1,
+          "content": 18276256
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2016 Mar 1;96:46-58",
+        "PMID": {
+          "Version": 1,
+          "content": 26341717
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2011 Nov 1;20(21):4175-86",
+        "PMID": {
+          "Version": 1,
+          "content": 21831885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Apr 1;464(7289):721-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20360735
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Jul 27;6:30325",
+        "PMID": {
+          "Version": 1,
+          "content": 27461848
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2006 Sep;7(9):690-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16850035
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Histochem Cell Biol. 2013 Jan;139(1):119-34",
+        "PMID": {
+          "Version": 1,
+          "content": 22918509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Struct Biol. 1991 Aug;107(1):6-14",
+        "PMID": {
+          "Version": 1,
+          "content": 1817611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cytometry A. 2005 Oct;67(2):137-43",
+        "PMID": {
+          "Version": 1,
+          "content": 16163696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cytometry A. 2010 Jan;77(1):64-75",
+        "PMID": {
+          "Version": 1,
+          "content": 19821512
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jul;9(7):671-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22930834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann N Y Acad Sci. 1966 Jan 31;128(3):1035-53",
+        "PMID": {
+          "Version": 1,
+          "content": 5220765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomol Screen. 2013 Aug;18(7):807-19",
+        "PMID": {
+          "Version": 1,
+          "content": 23606652
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2002 Aug;3(8):575-85",
+        "PMID": {
+          "Version": 1,
+          "content": 12154369
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Cancer. 2004 Sep;4(9):677-87",
+        "PMID": {
+          "Version": 1,
+          "content": 15343274
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Rev. 2006 Jul;86(3):967-1008",
+        "PMID": {
+          "Version": 1,
+          "content": 16816143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleus. 2011 Nov-Dec;2(6):570-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22127259
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Mar;8(3):246-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21258339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Aging (Albany NY). 2012 Feb;4(2):119-32",
+        "PMID": {
+          "Version": 1,
+          "content": 22354768
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jun 28;9(7):676-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22743772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cytometry A. 2008 May;73(5):451-66",
+        "PMID": {
+          "Version": 1,
+          "content": 18338778
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Jun;32(6):1121-31",
+        "PMID": {
+          "Version": 1,
+          "content": 23549886
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cytometry A. 2011 Jul;79(7):580-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21448979
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2001 Nov 2;294(5544):1105-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11691994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biotechniques. 2009 Dec;47(6):1033-40",
+        "PMID": {
+          "Version": 1,
+          "content": 20041856
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2016 Apr 15;352(6283):353-8",
+        "PMID": {
+          "Version": 1,
+          "content": 27013428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 2010 Apr;1800(4):448-58",
+        "PMID": {
+          "Version": 1,
+          "content": 20079404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jul 1;27(13):1854-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21558154
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Histochem Cytochem. 1977 Jul;25(7):741-53",
+        "PMID": {
+          "Version": 1,
+          "content": 70454
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 1995;4(3):370-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18289986
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Biol. 2014 Apr 28;205(2):133-41",
+        "PMID": {
+          "Version": 1,
+          "content": 24751535
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cytometry A. 2008 Apr;73(4):341-50",
+        "PMID": {
+          "Version": 1,
+          "content": 18163487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Cancer. 2012 Feb 16;12(3):196-209",
+        "PMID": {
+          "Version": 1,
+          "content": 22337151
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2006 Aug 15;15(16):2509-22",
+        "PMID": {
+          "Version": 1,
+          "content": 16825282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Feb 10;106(6):1826-31",
+        "PMID": {
+          "Version": 1,
+          "content": 19188593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Cell Res. 2003 Dec 10;291(2):352-62",
+        "PMID": {
+          "Version": 1,
+          "content": 14644157
+        }
+      },
+      {
+        "RefType": "ErratumIn",
+        "RefSource": "PLoS One. 2017 Mar 6;12 (3):e0173701",
+        "PMID": {
+          "Version": 1,
+          "content": 28264070
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28125723
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28125723,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0170688",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-16-32640",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5268651",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

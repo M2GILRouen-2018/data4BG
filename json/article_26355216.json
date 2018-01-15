@@ -1,0 +1,706 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1004977"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIAID NIH HHS",
+          "Country": "United States",
+          "GrantID": "R21 AI121784",
+          "Acronym": "AI"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Shotgun metagenomic analysis of the human associated microbiome provides a rich set of microbial features for prediction and biomarker discovery in the context of human diseases and health conditions. However, the use of such high-resolution microbial features presents new challenges, and validated computational tools for learning tasks are lacking. Moreover, classification rules have scarcely been validated in independent studies, posing questions about the generality and generalization of disease-predictive models across cohorts. In this paper, we comprehensively assess approaches to metagenomics-based prediction tasks and for quantitative assessment of the strength of potential microbiome-phenotype associations. We develop a computational framework for prediction tasks using quantitative microbiome profiles, including species-level relative abundances and presence of strain-specific markers. A comprehensive meta-analysis, with particular emphasis on generalization across cohorts, was performed in a collection of 2424 publicly available metagenomic samples from eight large-scale studies. Cross-validation revealed good disease-prediction capabilities, which were in general improved by feature selection and use of strain-specific markers instead of species-level taxonomic abundance. In cross-study analysis, models transferred between studies were in some cases less accurate than models tested by within-study cross-validation. Interestingly, the addition of healthy (control) samples from other studies to training sets improved disease prediction capabilities. Some microbial species (most notably Streptococcus anginosus) seem to characterize general dysbiotic states of the microbiome rather than connections with a specific disease. Our results in modelling features of the \"healthy\" microbiome can be considered a first step toward defining general microbial dysbiosis. The software framework, microbiome profiles, and metadata for thousands of samples are publicly available at http://segatalab.cibio.unitn.it/tools/metaml."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Edoardo",
+            "LastName": "Pasolli",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Centre for Integrative Biology, University of Trento, Trento, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Duy Tin",
+            "LastName": "Truong",
+            "Initials": "DT",
+            "AffiliationInfo": {"Affiliation": "Centre for Integrative Biology, University of Trento, Trento, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Faizan",
+            "LastName": "Malik",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Graduate School of Public Health and Health Policy, City University of New York, New York, New York, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Levi",
+            "LastName": "Waldron",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Graduate School of Public Health and Health Policy, City University of New York, New York, New York, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-1583-5794"
+            },
+            "ForeName": "Nicola",
+            "LastName": "Segata",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Centre for Integrative Biology, University of Trento, Trento, Italy."}
+          }
+        ]
+      },
+      "ArticleTitle": "Machine Learning Meta-analysis of Large Metagenomic Datasets: Tools and Biological Insights.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1004977"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 12,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2016,
+      "Day": 12
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D015179",
+          "MajorTopicYN": "N",
+          "content": "Colorectal Neoplasms"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D000069196",
+          "MajorTopicYN": "N",
+          "content": "Gastrointestinal Microbiome"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D015212",
+          "MajorTopicYN": "N",
+          "content": "Inflammatory Bowel Diseases"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D054892",
+          "MajorTopicYN": "N",
+          "content": "Metagenome"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D056186",
+          "MajorTopicYN": "N",
+          "content": "Metagenomics"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D009765",
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 23
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2014 Nov 28;10:766",
+        "PMID": {
+          "Version": 1,
+          "content": 25432777
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2011 Jun 24;12(6):R60",
+        "PMID": {
+          "Version": 1,
+          "content": 21702898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 Jul;19(7):1141-52",
+        "PMID": {
+          "Version": 1,
+          "content": 19383763
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2014 Jan 09;2:e243",
+        "PMID": {
+          "Version": 1,
+          "content": 24482762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jun 10;9(8):811-4",
+        "PMID": {
+          "Version": 1,
+          "content": 22688413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2012;10(8):e1001377",
+        "PMID": {
+          "Version": 1,
+          "content": 22904687
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2009 Aug 28;325(5944):1128-31",
+        "PMID": {
+          "Version": 1,
+          "content": 19713526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Oct 4;490(7418):55-60",
+        "PMID": {
+          "Version": 1,
+          "content": 23023125
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Oct 2;514(7520):59-64",
+        "PMID": {
+          "Version": 1,
+          "content": 25279917
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2009 Apr;5(4):e1000352",
+        "PMID": {
+          "Version": 1,
+          "content": 19360128
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2011 May 12;473(7346):174-80",
+        "PMID": {
+          "Version": 1,
+          "content": 21508958
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Jan 29;160(3):447-60",
+        "PMID": {
+          "Version": 1,
+          "content": 25619688
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Dec 10;528(7581):262-6",
+        "PMID": {
+          "Version": 1,
+          "content": 26633628
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2013 Aug 29;500(7464):541-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23985870
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2013 May 14;9:666",
+        "PMID": {
+          "Version": 1,
+          "content": 23670539
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Aug 2;102(31):11070-5",
+        "PMID": {
+          "Version": 1,
+          "content": 16033867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(6):e39315",
+        "PMID": {
+          "Version": 1,
+          "content": 22720093
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Jun 13;486(7402):207-14",
+        "PMID": {
+          "Version": 1,
+          "content": 22699609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2016 Jan 21;374(3):276-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26789876
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2000 Oct;16(10):906-14",
+        "PMID": {
+          "Version": 1,
+          "content": 11120680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gut. 2006 Feb;55(2):205-11",
+        "PMID": {
+          "Version": 1,
+          "content": 16188921
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Natl Cancer Inst. 2014 Apr 03;106(5):null",
+        "PMID": {
+          "Version": 1,
+          "content": 24700803
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2012 Mar 13;13(4):260-70",
+        "PMID": {
+          "Version": 1,
+          "content": 22411464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Jun 15;30(12):i105-12",
+        "PMID": {
+          "Version": 1,
+          "content": 24931973
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Med. 2013;64:145-63",
+        "PMID": {
+          "Version": 1,
+          "content": 23327521
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2011 Mar;21(3):494-504",
+        "PMID": {
+          "Version": 1,
+          "content": 21212162
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Sep 17;525(7569):E1-2",
+        "PMID": {
+          "Version": 1,
+          "content": 26381988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2016 May;13(5):435-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26999001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(6):e1002358",
+        "PMID": {
+          "Version": 1,
+          "content": 22719234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2014 Jul 29;5:4500",
+        "PMID": {
+          "Version": 1,
+          "content": 25072318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Mar 1;21(5):631-43",
+        "PMID": {
+          "Version": 1,
+          "content": 15374862
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiome. 2015 Jun 22;3:26",
+        "PMID": {
+          "Version": 1,
+          "content": 26120470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Sep 4;513(7516):59-64",
+        "PMID": {
+          "Version": 1,
+          "content": 25079328
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gut. 2016 May;65(5):740-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26657899
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiome. 2013 Jan 09;1(1):2",
+        "PMID": {
+          "Version": 1,
+          "content": 24467949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2006 Dec 21;444(7122):1022-3",
+        "PMID": {
+          "Version": 1,
+          "content": 17183309
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Mar 4;464(7285):59-65",
+        "PMID": {
+          "Version": 1,
+          "content": 20203603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Nov 04;16:358",
+        "PMID": {
+          "Version": 1,
+          "content": 26538306
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Oct;12(10):902-3",
+        "PMID": {
+          "Version": 1,
+          "content": 26418763
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Plant Sci. 2014 Jun 16;5:209",
+        "PMID": {
+          "Version": 1,
+          "content": 24982662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Cancer Res. 2004 May 1;10(9):2922-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15131026
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Jun 22;101(25):9309-14",
+        "PMID": {
+          "Version": 1,
+          "content": 15184677
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2013 Oct;23(10):1704-14",
+        "PMID": {
+          "Version": 1,
+          "content": 23861384
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Aug 21;104(34):13780-5",
+        "PMID": {
+          "Version": 1,
+          "content": 17699621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Dec;10(12):1196-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24141494
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Host Microbe. 2014 Mar 12;15(3):382-92",
+        "PMID": {
+          "Version": 1,
+          "content": 24629344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2013;4:2151",
+        "PMID": {
+          "Version": 1,
+          "content": 23877117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiome. 2013 Apr 05;1(1):11",
+        "PMID": {
+          "Version": 1,
+          "content": 24456583
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2013 Jun 6;498(7452):99-103",
+        "PMID": {
+          "Version": 1,
+          "content": 23719380
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 08;9(1):e84689",
+        "PMID": {
+          "Version": 1,
+          "content": 24416266
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Natl Cancer Inst. 2014 Apr 03;106(5):null",
+        "PMID": {
+          "Version": 1,
+          "content": 24700801
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Host Microbe. 2015 Sep 9;18(3):296-306",
+        "PMID": {
+          "Version": 1,
+          "content": 26355216
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4939962"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 27400279
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2015,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27400279,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1004977",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-15-01984",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC4939962",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

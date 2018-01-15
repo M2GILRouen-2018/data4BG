@@ -1,0 +1,181 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1721-1722"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Summary",
+          "content": "Quality control (QC) is an important part of all NGS data analysis stages. Many available tools calculate QC metrics from different analysis steps of single sample experiments (raw reads, mapped reads and variant lists). Multi-sample experiments, as sequencing of tumor-normal pairs, require additional QC metrics to ensure validity of results. These multi-sample QC metrics still lack standardization. We therefore suggest a new workflow for QC of DNA sequencing of tumor-normal pairs. With this workflow well-known single-sample QC metrics and additional metrics specific for tumor-normal pairs can be calculated. The segmentation into different tools offers a high flexibility and allows reuse for other purposes. All tools produce qcML, a generic XML format for QC of -omics experiments. qcML uses quality metrics defined in an ontology, which was adapted for NGS."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability and Implementation",
+          "content": "All QC tools are implemented in C\u2009++\u2009and run both under Linux and Windows. Plotting requires python 2.7 and matplotlib. The software is available under the 'GNU General Public License version 2' as part of the ngs-bits project: https://github.com/imgag/ngs-bits."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "christopher.schroeder@med.uni-tuebingen.de."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher M",
+            "LastName": "Schroeder",
+            "Initials": "CM",
+            "AffiliationInfo": {"Affiliation": "Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Franz J",
+            "LastName": "Hilke",
+            "Initials": "FJ",
+            "AffiliationInfo": {"Affiliation": "Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Markus W",
+            "LastName": "Löffler",
+            "Initials": "MW",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of General, Visceral and Transplant Surgery, University Hospital Tübingen, Tübingen, Germany."},
+              {"Affiliation": "Interfaculty Institute for Cell Biology, Department of Immunology, University of Tübingen, Tübingen, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Bitzer",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Internal Medicine I, University Hospital Tübingen, Tübingen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Florian",
+            "LastName": "Lenz",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marc",
+            "LastName": "Sturm",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "A comprehensive quality control workflow for paired tumor-normal NGS experiments.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx032"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 33,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28130233
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28130233,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btx032",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx032",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

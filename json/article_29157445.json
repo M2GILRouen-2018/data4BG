@@ -1,0 +1,205 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "115-127"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVES",
+            "content": "Diabetic retinopathy (DR) is one of the leading causes of preventable blindness in the world. Its earliest sign are red lesions, a general term that groups both microaneurysms (MAs) and hemorrhages (HEs). In daily clinical practice, these lesions are manually detected by physicians using fundus photographs. However, this task is tedious and time consuming, and requires an intensive effort due to the small size of the lesions and their lack of contrast. Computer-assisted diagnosis of DR based on red lesion detection is being actively explored due to its improvement effects both in clinicians consistency and accuracy. Moreover, it provides comprehensive feedback that is easy to assess by the physicians. Several methods for detecting red lesions have been proposed in the literature, most of them based on characterizing lesion candidates using hand crafted features, and classifying them into true or false positive detections. Deep learning based approaches, by contrast, are scarce in this domain due to the high expense of annotating the lesions manually."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "In this paper we propose a novel method for red lesion detection based on combining both deep learned and domain knowledge. Features learned by a convolutional neural network (CNN) are augmented by incorporating hand crafted features. Such ensemble vector of descriptors is used afterwards to identify true lesion candidates using a Random Forest classifier."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "We empirically observed that combining both sources of information significantly improve results with respect to using each approach separately. Furthermore, our method reported the highest performance on a per-lesion basis on DIARETDB1 and e-ophtha, and for screening and need for referral on MESSIDOR compared to a second human expert."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Results highlight the fact that integrating manually engineered approaches with deep learned features is relevant to improve results when the networks are trained from lesion-level annotated data. An open source implementation of our system is publicly available at https://github.com/ignaciorlando/red-lesion-detection."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "José Ignacio",
+            "LastName": "Orlando",
+            "Initials": "JI",
+            "AffiliationInfo": {"Affiliation": "Pladema Institute, UNCPBA, Gral. Pinto 399, Tandil, Argentina; Consejo Nacional de Investigaciones Científicas y Técnicas, CONICET, Argentina. Electronic address: jiorlando@conicet.gov.ar."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elena",
+            "LastName": "Prokofyeva",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Scientific Institute of Public Health (WIV-ISP), Brussels, Belgium; Federal Agency for Medicines and Health Products (FAMHP), Brussels, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mariana",
+            "LastName": "Del Fresno",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Pladema Institute, UNCPBA, Gral. Pinto 399, Tandil, Argentina; Comisión de Investigaciones Científicas de la Provincia de Buenos Aires, CIC-PBA, Buenos Aires, Argentina."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew B",
+            "LastName": "Blaschko",
+            "Initials": "MB",
+            "AffiliationInfo": {"Affiliation": "ESAT-PSI, KU Leuven, Kasteelpark Arenberg 10, B-3001 Leuven, Belgium."}
+          }
+        ]
+      },
+      "ArticleTitle": "An ensemble deep learning based approach for red lesion detection in fundus images.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(17)30789-7"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.10.017"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 153,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Deep learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Diabetic retinopathy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Fundus images"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Red lesion detection"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 21
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29157445
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29157445,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(17)30789-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.10.017",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

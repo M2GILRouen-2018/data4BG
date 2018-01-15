@@ -1,0 +1,465 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101671170,
+      "Country": "United States",
+      "MedlineTA": "Tomography"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "430-437"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U24 CA180918",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA149490",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL112986",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA187947",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 CA086862",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA143062",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA140207",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA154601",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA179106",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U24 CA180927",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA181156",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA160251",
+            "Acronym": "CA"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Radiomics is to provide quantitative descriptors of normal and abnormal tissues during classification and prediction tasks in radiology and oncology. Quantitative Imaging Network members are developing radiomic \"feature\" sets to characterize tumors, in general, the size, shape, texture, intensity, margin, and other aspects of the imaging features of nodules and lesions. Efforts are ongoing for developing an ontology to describe radiomic features for lung nodules, with the main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features. The purpose of this study is to investigate the sensitivity of quantitative descriptors of pulmonary nodules to segmentations and to illustrate comparisons across different feature types and features computed by different implementations of feature extraction algorithms. We calculated the concordance correlation coefficients of the features as a measure of their stability with the underlying segmentation; 68% of the 830 features in this study had a concordance CC of ≥0.75. Pairwise correlation coefficients between pairs of features were used to uncover associations between features, particularly as measured by different participants. A graphical model approach was used to enumerate the number of uncorrelated feature groups at given thresholds of correlation. At a threshold of 0.75 and 0.95, there were 75 and 246 subgroups, respectively, providing a measure for the features' redundancy."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jayashree",
+            "LastName": "Kalpathy-Cramer",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Massachusetts General Hospital, Boston, Massachusetts."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Artem",
+            "LastName": "Mamomov",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Massachusetts General Hospital, Boston, Massachusetts."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Binsheng",
+            "LastName": "Zhao",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Columbia University Medical Center, New York, New York."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lin",
+            "LastName": "Lu",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Columbia University Medical Center, New York, New York."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dmitry",
+            "LastName": "Cherezov",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "University of South Florida, Tampa, Florida."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sandy",
+            "LastName": "Napel",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Stanford University, Stanford, California."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sebastian",
+            "LastName": "Echegaray",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Stanford University, Stanford, California."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel",
+            "LastName": "Rubin",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Stanford University, Stanford, California."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "McNitt-Gray",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "University of California Los Angeles, Los Angeles, California."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pechin",
+            "LastName": "Lo",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "University of California Los Angeles, Los Angeles, California."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jessica C",
+            "LastName": "Sieren",
+            "Initials": "JC",
+            "AffiliationInfo": {"Affiliation": "University of Iowa, Iowa City, Iowa."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Johanna",
+            "LastName": "Uthoff",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "University of Iowa, Iowa City, Iowa."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Samantha K N",
+            "LastName": "Dilger",
+            "Initials": "SK",
+            "AffiliationInfo": {"Affiliation": "University of Iowa, Iowa City, Iowa."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brandan",
+            "LastName": "Driscoll",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Princess Margaret Cancer Center, Toronto, Ontario, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ivan",
+            "LastName": "Yeung",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Princess Margaret Cancer Center, Toronto, Ontario, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lubomir",
+            "LastName": "Hadjiiski",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kenny",
+            "LastName": "Cha",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "University of Michigan, Ann Arbor, Michigan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yoganand",
+            "LastName": "Balagurunathan",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Moffitt Cancer Center, Tampa, Florida."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert",
+            "LastName": "Gillies",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Moffitt Cancer Center, Tampa, Florida."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dmitry",
+            "LastName": "Goldgof",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "University of South Florida, Tampa, Florida."}
+          }
+        ]
+      },
+      "ArticleTitle": "Radiomics of Lung Nodules: A Multi-Institutional Study of Robustness and Agreement of Quantitative Imaging Features.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.18383/j.tom.2016.00235"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 2,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Tomography",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2379-1381"
+        },
+        "Title": "Tomography : a journal for imaging research"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "imaging features"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "lung cancer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "radiomics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "reproducibility"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Lung Cancer. 2016 Sep;17 (5):441-448.e6",
+        "PMID": {
+          "Version": 1,
+          "content": 27017476
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Thorac Oncol. 2016 Dec;11(12 ):2120-2128",
+        "PMID": {
+          "Version": 1,
+          "content": 27422797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Transl Oncol. 2014 Feb 01;7(1):72-87",
+        "PMID": {
+          "Version": 1,
+          "content": 24772210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Cancer. 2012 Mar;48(4):441-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22257792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2009 Jul;36(7):3086-98",
+        "PMID": {
+          "Version": 1,
+          "content": 19673208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1998 Apr;25(4):516-26",
+        "PMID": {
+          "Version": 1,
+          "content": 9571620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Imaging (Bellingham). 2015 Oct;2(4):041004",
+        "PMID": {
+          "Version": 1,
+          "content": 26870744
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2011 Feb;38(2):915-31",
+        "PMID": {
+          "Version": 1,
+          "content": 21452728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Mar 24;6:23428",
+        "PMID": {
+          "Version": 1,
+          "content": 27009765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2007 Jul 20;26(16):3095-113",
+        "PMID": {
+          "Version": 1,
+          "content": 17216594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2006 Jul;33(7):2323-37",
+        "PMID": {
+          "Version": 1,
+          "content": 16898434
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Digit Imaging. 2016 Aug;29(4):476-87",
+        "PMID": {
+          "Version": 1,
+          "content": 26847203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Mar 04;10 (3):e0118261",
+        "PMID": {
+          "Version": 1,
+          "content": 25739030
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2005 Aug;32(8):2443-54",
+        "PMID": {
+          "Version": 1,
+          "content": 16193773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Pharmacol Ther. 2008 Oct;84(4):448-56",
+        "PMID": {
+          "Version": 1,
+          "content": 18754000
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28149958
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28149958,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.18383/j.tom.2016.00235",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5279995",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS839241",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

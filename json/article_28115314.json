@@ -1,0 +1,185 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100897327,
+      "Country": "England",
+      "ISSNLinking": "1465-4644",
+      "MedlineTA": "Biostatistics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "434-450"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "KL2 TR000113",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR000114",
+            "Acronym": "TR"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author 2017. Published by Oxford University Press. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.",
+        "AbstractText": "High-dimensional linear classifiers, such as distance weighted discrimination (DWD) and versions of the support vector machine (SVM), are commonly used in biomedical research to distinguish groups of subjects based on a large number of features. However, their use is limited to applications where a single vector of features is measured for each subject. In practice, data are often multi-way, or measured over multiple dimensions. For example, metabolite abundance may be measured over multiple regions or tissues, or gene expression may be measured over multiple time points, for the same subjects. We propose a framework for linear classification of high-dimensional multi-way data, in which coefficients can be factorized into weights that are specific to each dimension. More generally, the coefficients for each measurement in a multi-way dataset are assumed to have low-rank structure. This framework extends existing classification techniques from single vector to multi-way features, and we have implemented multi-way versions of SVM and DWD. We describe informative simulation results, and apply multi-way DWD to data for two very different clinical research studies. The first study uses magnetic resonance spectroscopy metabolite data over multiple brain regions to compare participants with and without spinocerebellar ataxia; the second uses publicly available gene expression time-course data to compare degrees of treatment response among patients with multiple sclerosis. Our multi-way method can improve performance and simplify interpretation over naive applications of full rank linear and non-linear classification to multi-way data. The R package is available at https://github.com/lockEF/MultiwayClassification."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tianmeng",
+            "LastName": "Lyu",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, School of Public Health, University of Minnesota, Minneapolis, MN 55455, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric F",
+            "LastName": "Lock",
+            "Initials": "EF",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, School of Public Health, University of Minnesota, Minneapolis, MN 55455, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lynn E",
+            "LastName": "Eberly",
+            "Initials": "LE",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, School of Public Health, University of Minnesota, Minneapolis, MN 55455, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Discriminating sample groups with multi-way data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/biostatistics/kxw057"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Biostatistics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1468-4357"
+        },
+        "Title": "Biostatistics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Distance weighted discrimination"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gene time-course"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Magnetic resonance spectroscopy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Support vector machine"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Tensors"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 12
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28115314
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 26,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 13,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28115314,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "kxw057",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/biostatistics/kxw057",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

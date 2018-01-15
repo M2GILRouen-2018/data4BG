@@ -1,0 +1,768 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101258412,
+      "Country": "England",
+      "ISSNLinking": "1745-6150",
+      "MedlineTA": "Biol Direct"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2016,
+      "Day": "07"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 60},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Elucidation of human disease similarities has emerged as an active research area, which is highly relevant to etiology, disease classification, and drug repositioning. In pioneer studies, disease similarity was commonly estimated according to clinical manifestation. Subsequently, scientists started to investigate disease similarity based on gene-phenotype knowledge, which were inevitably biased to well-studied diseases. In recent years, estimating disease similarity according to transcriptomic behavior significantly enhances the probability of finding novel disease relationships, while the currently available studies usually mine expression data through differential expression analysis that has been considered to have little chance of unraveling dysfunctional regulatory relationships, the causal pathogenesis of diseases."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We developed a computational approach to measure human disease similarity based on expression data. Differential coexpression analysis, instead of differential expression analysis, was employed to calculate differential coexpression level of every gene for each disease, which was then summarized to the pathway level. Disease similarity was eventually calculated as the partial correlation coefficients of pathways' differential coexpression values between any two diseases. The significance of disease relationships were evaluated by permutation test."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Based on mRNA expression data and a differential coexpression analysis based method, we built a human disease network involving 1326 significant Disease-Disease links among 108 diseases. Compared with disease relationships captured by differential expression analysis based method, our disease links shared known disease genes and drugs more significantly. Some novel disease relationships were discovered, for example, Obesity and cancer, Obesity and Psoriasis, lung adenocarcinoma and S. pneumonia, which had been commonly regarded as unrelated to each other, but recently found to share similar molecular mechanisms. Additionally, it was found that both the type of disease and the type of affected tissue influenced the degree of disease similarity. A sub-network including Allergic asthma, Type 2 diabetes and Chronic kidney disease was extracted to demonstrate the exploration of their common pathogenesis."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The present study produces a global view of human diseasome for the first time from the viewpoint of regulation mechanisms, which therefore could provide insightful clues to etiology and pathogenesis, and help to perform drug repositioning and design novel therapeutic interventions."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jing",
+            "LastName": "Yang",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biotechnology, East China University of Science and Technology, Shanghai, 200237, P.R. China. yangjing@scbit.org."},
+              {"Affiliation": "Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yangjing@scbit.org."},
+              {"Affiliation": "Key Laboratory of Systems Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, 200031, P.R. China. yangjing@scbit.org."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Su-Juan",
+            "LastName": "Wu",
+            "Initials": "SJ",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biotechnology, East China University of Science and Technology, Shanghai, 200237, P.R. China. wsjwuxiaoqi@163.com."},
+              {"Affiliation": "Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. wsjwuxiaoqi@163.com."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wen-Tao",
+            "LastName": "Dai",
+            "Initials": "WT",
+            "AffiliationInfo": [
+              {"Affiliation": "Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. wtdai@scbit.org."},
+              {"Affiliation": "Shanghai Industrial Technology Institute, 1278 Keyuan Road, Shanghai, 201203, P.R. China. wtdai@scbit.org."},
+              {"Affiliation": "Shanghai Engineering Research Center of Pharmaceutical Translation, 1278 Keyuan Road, Shanghai, 201203, P.R. China. wtdai@scbit.org."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yi-Xue",
+            "LastName": "Li",
+            "Initials": "YX",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biotechnology, East China University of Science and Technology, Shanghai, 200237, P.R. China. yxli@scbit.org."},
+              {"Affiliation": "Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yxli@scbit.org."},
+              {"Affiliation": "Shanghai Industrial Technology Institute, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yxli@scbit.org."},
+              {"Affiliation": "Key Laboratory of Systems Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, 200031, P.R. China. yxli@scbit.org."},
+              {"Affiliation": "Shanghai Engineering Research Center of Pharmaceutical Translation, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yxli@scbit.org."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuan-Yuan",
+            "LastName": "Li",
+            "Initials": "YY",
+            "AffiliationInfo": [
+              {"Affiliation": "Shanghai Center for Bioinformation Technology, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yyli@scbit.org."},
+              {"Affiliation": "Shanghai Industrial Technology Institute, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yyli@scbit.org."},
+              {"Affiliation": "Shanghai Engineering Research Center of Pharmaceutical Translation, 1278 Keyuan Road, Shanghai, 201203, P.R. China. yyli@scbit.org."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "The human disease network in terms of dysfunctional regulatory mechanisms.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13062-015-0088-z"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 10,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2015,
+            "Day": "08"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Biol. Direct",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1745-6150"
+        },
+        "Title": "Biology direct"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": 10,
+      "Year": 2015,
+      "Day": "09"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D030541",
+        "MajorTopicYN": "N",
+        "content": "Databases, Genetic"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D004194",
+          "MajorTopicYN": "N",
+          "content": "Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D020869",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Profiling"
+      }},
+      {"DescriptorName": {
+        "UI": "D053263",
+        "MajorTopicYN": "Y",
+        "content": "Gene Regulatory Networks"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "N",
+        "content": "Models, Theoretical"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Oct 25;102(43):15545-50",
+        "PMID": {
+          "Version": 1,
+          "content": 16199517
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Oct 15;26(20):2637-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20801914
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gut. 2008 Dec;57(12):1639-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18667489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Apr 1;464(7289):679",
+        "PMID": {
+          "Version": 1,
+          "content": 20360719
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2000 Feb 17;403(6771):781-5",
+        "PMID": {
+          "Version": 1,
+          "content": 10693808
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Med. 2009 Jan 22;1(1):13",
+        "PMID": {
+          "Version": 1,
+          "content": 19348700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(11):e79729",
+        "PMID": {
+          "Version": 1,
+          "content": 24278165
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2010 Feb 15;181(4):328-36",
+        "PMID": {
+          "Version": 1,
+          "content": 19926868
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 May 22;104(21):8685-90",
+        "PMID": {
+          "Version": 1,
+          "content": 17502601
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurol Sci. 2002 Nov 15;203-204:29-34",
+        "PMID": {
+          "Version": 1,
+          "content": 12417353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011;12:315",
+        "PMID": {
+          "Version": 1,
+          "content": 21806838
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 2006 May 15;176(10):6286-93",
+        "PMID": {
+          "Version": 1,
+          "content": 16670340
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neuropsychiatry Clin Neurosci. 1998 Fall;10(4):440-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9813790
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pediatr Gastroenterol Nutr. 2007 Feb;44(2):265-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17255842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009;4(2):e4346",
+        "PMID": {
+          "Version": 1,
+          "content": 19194489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Jan 1;25(1):98-104",
+        "PMID": {
+          "Version": 1,
+          "content": 19010805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2010 Jul;26(7):326-33",
+        "PMID": {
+          "Version": 1,
+          "content": 20570387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pediatr Gastroenterol Nutr. 2009 Mar;48(3):386-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19274799
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2014;2014:324713",
+        "PMID": {
+          "Version": 1,
+          "content": 24995284
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2013;2013:bat018",
+        "PMID": {
+          "Version": 1,
+          "content": 23584832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Endocrinol. 2008 Nov;22(11):2383-92",
+        "PMID": {
+          "Version": 1,
+          "content": 18599616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Dermatol. 2007 Oct;157(4):649-55",
+        "PMID": {
+          "Version": 1,
+          "content": 17627791
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2008 Nov;83(5):610-5",
+        "PMID": {
+          "Version": 1,
+          "content": 18950739
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2012 Apr;45(2):363-71",
+        "PMID": {
+          "Version": 1,
+          "content": 22166490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2007 Mar;25(3):309-16",
+        "PMID": {
+          "Version": 1,
+          "content": 17344885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Growth Horm IGF Res. 2007 Oct;17(5):392-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17537658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2005 Dec 8;353(23):2462-76",
+        "PMID": {
+          "Version": 1,
+          "content": 16339095
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2008 Jan;36(Database issue):D901-6",
+        "PMID": {
+          "Version": 1,
+          "content": 18048412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet Oncol. 2015 Jan;16(1):36-46",
+        "PMID": {
+          "Version": 1,
+          "content": 25467404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 Feb 12;20(3):307-15",
+        "PMID": {
+          "Version": 1,
+          "content": 14960456
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann N Y Acad Sci. 2012 Oct;1271:37-43",
+        "PMID": {
+          "Version": 1,
+          "content": 23050962
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Jul 10;104(28):11694-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17609372
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biologics. 2009;3:183-91",
+        "PMID": {
+          "Version": 1,
+          "content": 19707407
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2014;5:4022",
+        "PMID": {
+          "Version": 1,
+          "content": 24959948
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Hum Genet. 2006 May;14(5):535-42",
+        "PMID": {
+          "Version": 1,
+          "content": 16493445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2004 May;36(5):431-2",
+        "PMID": {
+          "Version": 1,
+          "content": 15118671
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2009 Apr;5(4):e1000353",
+        "PMID": {
+          "Version": 1,
+          "content": 19360091
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2013;3:3202",
+        "PMID": {
+          "Version": 1,
+          "content": 24232732
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(7):e22670",
+        "PMID": {
+          "Version": 1,
+          "content": 21829475
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jul;42(Web Server issue):W137-46",
+        "PMID": {
+          "Version": 1,
+          "content": 24895436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Sep 26;155(1):70-80",
+        "PMID": {
+          "Version": 1,
+          "content": 24074861
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2008;3(10):e3420",
+        "PMID": {
+          "Version": 1,
+          "content": 18923704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009;4(8):e6536",
+        "PMID": {
+          "Version": 1,
+          "content": 19657382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FASEB J. 2013 Apr;27(4):1631-43",
+        "PMID": {
+          "Version": 1,
+          "content": 23254341
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011;12:266",
+        "PMID": {
+          "Version": 1,
+          "content": 21714896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2010 Feb;6(2):e1000662",
+        "PMID": {
+          "Version": 1,
+          "content": 20140234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2006 Dec;79(6):1130-4",
+        "PMID": {
+          "Version": 1,
+          "content": 17186473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Jan;37(Database issue):D793-6",
+        "PMID": {
+          "Version": 1,
+          "content": 18842627
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Gastroenterol Hepatol. 2011 Jan;9(1):36-41.e1",
+        "PMID": {
+          "Version": 1,
+          "content": 20888436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2013 Oct;45(10):1113-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24071849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Cancer Drug Targets. 2006 Nov;6(7):603-12",
+        "PMID": {
+          "Version": 1,
+          "content": 17100566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastroenterology. 2005 Jun;128(7):1805-11",
+        "PMID": {
+          "Version": 1,
+          "content": 15940615
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Expert Rev Anticancer Ther. 2008 Apr;8(4):605-15",
+        "PMID": {
+          "Version": 1,
+          "content": 18402527
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Protoc Bioinformatics. 2014;47:1.24.1-19",
+        "PMID": {
+          "Version": 1,
+          "content": 25199789
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastroenterology. 2012 Aug;143(2):390-399.e1",
+        "PMID": {
+          "Version": 1,
+          "content": 22584081
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Pathol. 2013 Feb;182(2):485-504",
+        "PMID": {
+          "Version": 1,
+          "content": 23332367
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2014 Aug 14;158(4):929-44",
+        "PMID": {
+          "Version": 1,
+          "content": 25109877
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009;10 Suppl 2:S14",
+        "PMID": {
+          "Version": 1,
+          "content": 19208189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2014 Sep 1;23(17):4597-611",
+        "PMID": {
+          "Version": 1,
+          "content": 24728038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Renal Physiol. 2007 Aug;293(2):F494-500",
+        "PMID": {
+          "Version": 1,
+          "content": 17494089
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2007 Mar 15;67(6):2391-3",
+        "PMID": {
+          "Version": 1,
+          "content": 17363554
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4599653"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26450611
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2015,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2015,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 10,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26450611,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13062-015-0088-z",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s13062-015-0088-z",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC4599653",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

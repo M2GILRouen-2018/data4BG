@@ -1,0 +1,596 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1386-401"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR000064",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "K23GM102697",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIA NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 AG028740",
+            "Acronym": "AG"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR001427",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "KL2TR000065",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "K23 GM102697",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1TR000064",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "KL2 TR000065",
+            "Acronym": "TR"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Wiley Periodicals, Inc.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "BACKGROUND",
+            "content": "Given their ability to process highly dimensional datasets with hundreds of variables, machine learning algorithms may offer one solution to the vexing challenge of predicting postoperative pain."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Here, we report on the application of machine learning algorithms to predict postoperative pain outcomes in a retrospective cohort of 8,071 surgical patients using 796 clinical variables. Five algorithms were compared in terms of their ability to forecast moderate to severe postoperative pain: Least Absolute Shrinkage and Selection Operator (LASSO), gradient-boosted decision tree, support vector machine, neural network, and k-nearest neighbor (k-NN), with logistic regression included for baseline comparison."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "In forecasting moderate to severe postoperative pain for postoperative day (POD) 1, the LASSO algorithm, using all 796 variables, had the highest accuracy with an area under the receiver-operating curve (ROC) of 0.704. Next, the gradient-boosted decision tree had an ROC of 0.665 and the k-NN algorithm had an ROC of 0.643. For POD 3, the LASSO algorithm, using all variables, again had the highest accuracy, with an ROC of 0.727. Logistic regression had a lower ROC of 0.5 for predicting pain outcomes on POD 1 and 3."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Machine learning algorithms, when combined with complex and heterogeneous data from electronic medical record systems, can forecast acute postoperative pain outcomes with accuracies similar to methods that rely only on variables specifically collected for pain outcome prediction."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patrick J",
+            "LastName": "Tighe",
+            "Initials": "PJ",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology, University of Florida College of Medicine, Gainesville, Florida, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher A",
+            "LastName": "Harle",
+            "Initials": "CA",
+            "AffiliationInfo": {"Affiliation": "Department of Health Services Research, Management and Policy, College of Public Health and Health Professions, Gainesville, Florida, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert W",
+            "LastName": "Hurley",
+            "Initials": "RW",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology, University of Florida College of Medicine, Gainesville, Florida, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haldun",
+            "LastName": "Aytug",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Information Systems and Operations Management, Warrington College of Business Administration, Gainesville, Florida, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andre P",
+            "LastName": "Boezaart",
+            "Initials": "AP",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Anesthesiology, University of Florida College of Medicine, Gainesville, Florida, USA."},
+              {"Affiliation": "Department of Orthopaedic Surgery and Rehabilitation, University of Florida College of Medicine, Gainesville, Florida, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Roger B",
+            "LastName": "Fillingim",
+            "Initials": "RB",
+            "AffiliationInfo": {"Affiliation": "Department of Community Dentistry and Behavioral Science, University of Florida College of Dentistry, Gainesville, Florida, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Teaching a Machine to Feel Postoperative Pain: Combining High-Dimensional Clinical Data with Machine Learning Algorithms to Forecast Acute Postoperative Pain.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1111/pme.12713"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 16,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2015
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Pain Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1526-4637"
+        },
+        "Title": "Pain medicine (Malden, Mass.)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2015,
+      "Day": 16
+    },
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2013;14(5):205",
+        "PMID": {
+          "Version": 1,
+          "content": 23731483
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nurs Res. 2005 Mar-Apr;54(2):133-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15778655
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesth Analg. 2011 Nov;113(5):1242-53",
+        "PMID": {
+          "Version": 1,
+          "content": 21965352
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BioData Min. 2013 Mar 01;6(1):5",
+        "PMID": {
+          "Version": 1,
+          "content": 23448398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Eval Clin Pract. 2006 Apr;12(2):132-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16579821
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychosom Med. 2004 May-Jun;66(3):411-21",
+        "PMID": {
+          "Version": 1,
+          "content": 15184705
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Epidemiol. 2008 Nov;61(11):1085-94",
+        "PMID": {
+          "Version": 1,
+          "content": 19208371
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pain. 2011 Feb;12(2):257-62",
+        "PMID": {
+          "Version": 1,
+          "content": 21237721
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Epidemiol. 1999 Oct;52(10):935-42",
+        "PMID": {
+          "Version": 1,
+          "content": 10513756
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chronic Dis. 1987;40(5):373-83",
+        "PMID": {
+          "Version": 1,
+          "content": 3558716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin J Pain. 2010 Feb;26(2):87-94",
+        "PMID": {
+          "Version": 1,
+          "content": 20090433
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(8):e70944",
+        "PMID": {
+          "Version": 1,
+          "content": 23967138
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Semin Nucl Med. 1978 Oct;8(4):283-98",
+        "PMID": {
+          "Version": 1,
+          "content": 112681
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain Med. 2014 Feb;15(2):306-15",
+        "PMID": {
+          "Version": 1,
+          "content": 24308744
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesthesiol Clin. 2011 Sep;29(3):413-38",
+        "PMID": {
+          "Version": 1,
+          "content": 21871403
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2003 Oct;105(3):415-23",
+        "PMID": {
+          "Version": 1,
+          "content": 14527702
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Netw. 2005 Jun-Jul;18(5-6):799-807",
+        "PMID": {
+          "Version": 1,
+          "content": 16111865
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(4):e61318",
+        "PMID": {
+          "Version": 1,
+          "content": 23646105
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesth Analg. 2003 Aug;97(2):534-40, table of contents",
+        "PMID": {
+          "Version": 1,
+          "content": 12873949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Anaesthesiol. 2009 Oct;22(5):588-93",
+        "PMID": {
+          "Version": 1,
+          "content": 19606021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2012;13 Suppl 16:S13",
+        "PMID": {
+          "Version": 1,
+          "content": 23176192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Health Care Manag Sci. 2008 Sep;11(3):275-87",
+        "PMID": {
+          "Version": 1,
+          "content": 18826005
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Anaesthesiol. 2008 Apr;25(4):267-74",
+        "PMID": {
+          "Version": 1,
+          "content": 18053314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesthesiology. 2009 Sep;111(3):657-77",
+        "PMID": {
+          "Version": 1,
+          "content": 19672167
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2006 May 13;367(9522):1618-25",
+        "PMID": {
+          "Version": 1,
+          "content": 16698416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2006 Sep-Oct;13(5):516-25",
+        "PMID": {
+          "Version": 1,
+          "content": 16799125
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 2008 Nov;19(11):1985-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19000969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2010 Aug 5;363(6):501-4",
+        "PMID": {
+          "Version": 1,
+          "content": 20647183
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Isr J Health Policy Res. 2013 Jul 23;2(1):26",
+        "PMID": {
+          "Version": 1,
+          "content": 23880399
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain Med. 2009 Apr;10(3):481-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18992044
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS661194"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC4504764"
+      }
+    ],
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100894201,
+      "Country": "England",
+      "ISSNLinking": "1526-2375",
+      "MedlineTA": "Pain Med"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2016,
+      "Day": "02"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine Learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pain Prediction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Postoperative Pain"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D003663",
+        "MajorTopicYN": "N",
+        "content": "Decision Trees"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016015",
+        "MajorTopicYN": "N",
+        "content": "Logistic Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "N",
+        "content": "Neural Networks (Computer)"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D010149",
+          "MajorTopicYN": "N",
+          "content": "Pain, Postoperative"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012372",
+        "MajorTopicYN": "N",
+        "content": "ROC Curve"
+      }},
+      {"DescriptorName": {
+        "UI": "D012189",
+        "MajorTopicYN": "N",
+        "content": "Retrospective Studies"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26031220
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2015,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2015,
+        "Day": 15,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2015,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 6,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 6,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26031220,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1111/pme.12713",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4504764",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS661194",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,709 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101579614,
+      "Country": "England",
+      "ISSNLinking": "2050-084X",
+      "MedlineTA": "Elife"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The brain needs to predict how the body reacts to motor commands, but how a network of spiking neurons can learn non-linear body dynamics using local, online and stable learning rules is unclear. Here, we present a supervised learning scheme for the feedforward and recurrent connections in a network of heterogeneous spiking neurons. The error in the output is fed back through fixed random connections with a negative gain, causing the network to follow the desired dynamics. The rule for Feedback-based Online Local Learning Of Weights (FOLLOW) is local in the sense that weight changes depend on the presynaptic activity and the error signal projected onto the postsynaptic neuron. We provide examples of learning linear, non-linear and chaotic dynamics, as well as the dynamics of a two-link arm. Under reasonable approximations, we show, using the Lyapunov method, that FOLLOW learning is uniformly stable, with the error going to zero asymptotically."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8628-1864"
+            },
+            "ForeName": "Aditya",
+            "LastName": "Gilra",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Brain-Mind Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland."},
+              {"Affiliation": "School of Computer and Communication Sciences, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wulfram",
+            "LastName": "Gerstner",
+            "Initials": "W",
+            "AffiliationInfo": [
+              {"Affiliation": "Brain-Mind Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland."},
+              {"Affiliation": "School of Computer and Communication Sciences, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Predicting non-linear dynamics by stable local learning in a recurrent spiking neural network.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.7554/eLife.28295"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "e28295"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 6,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Elife",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2050-084X"
+        },
+        "Title": "eLife"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "feedback"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "motor control"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "neuroscience"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "none"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "plasticity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "recurrent neural networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "stability"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2005 Oct;17(10):2176-214",
+        "PMID": {
+          "Version": 1,
+          "content": 16105222
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 1992 Apr;12(4):1435-53",
+        "PMID": {
+          "Version": 1,
+          "content": 1556602
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Adv Exp Med Biol. 2009;629:317-35",
+        "PMID": {
+          "Version": 1,
+          "content": 19227507
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2014 May 21;82(4):925-38",
+        "PMID": {
+          "Version": 1,
+          "content": 24768299
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2014 Feb 5;81(3):521-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24507189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2006 Jun;18(6):1318-48",
+        "PMID": {
+          "Version": 1,
+          "content": 16764506
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2016 Feb 29;12(2):e1004792",
+        "PMID": {
+          "Version": 1,
+          "content": 26928718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Mar 9;107(10):4722-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20167805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cereb Cortex. 2014 Mar;24(3):677-90",
+        "PMID": {
+          "Version": 1,
+          "content": 23146969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Comput Neurosci. 2010 May 11;4:11",
+        "PMID": {
+          "Version": 1,
+          "content": 20485466
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurobiol. 2014 Apr;25:134-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24468508
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Jan 15;427(6971):244-7",
+        "PMID": {
+          "Version": 1,
+          "content": 14724638
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Biol Sci. 2016 Nov 30;283(1843):",
+        "PMID": {
+          "Version": 1,
+          "content": 27903878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(9):e22885",
+        "PMID": {
+          "Version": 1,
+          "content": 21980334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2000 Apr;26(1):259-71",
+        "PMID": {
+          "Version": 1,
+          "content": 10798409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2010 Jun 23;30(25):8400-10",
+        "PMID": {
+          "Version": 1,
+          "content": 20573887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2005 Aug;17(8):1715-38",
+        "PMID": {
+          "Version": 1,
+          "content": 15969915
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2003 Jul 3;424(6944):72-5",
+        "PMID": {
+          "Version": 1,
+          "content": 12840761
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1995 Sep 29;269(5232):1880-2",
+        "PMID": {
+          "Version": 1,
+          "content": 7569931
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2016 Mar;19(3):350-5",
+        "PMID": {
+          "Version": 1,
+          "content": 26906501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neural Eng. 2005 Sep;2(3):S313-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16135891
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 1994;5(2):157-66",
+        "PMID": {
+          "Version": 1,
+          "content": 18267787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Aug 17;11(8):e0161335",
+        "PMID": {
+          "Version": 1,
+          "content": 27532262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2008 Nov;4(11):e1000211",
+        "PMID": {
+          "Version": 1,
+          "content": 18989391
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2004 Apr 2;304(5667):78-80",
+        "PMID": {
+          "Version": 1,
+          "content": 15064413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Feb 26;457(7233):1133-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19151698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2016 Nov 08;7:13276",
+        "PMID": {
+          "Version": 1,
+          "content": 27824044
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2014 Jun 18;82(6):1394-406",
+        "PMID": {
+          "Version": 1,
+          "content": 24945778
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2009 Aug 27;63(4):544-57",
+        "PMID": {
+          "Version": 1,
+          "content": 19709635
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2015 Jan;18(1):138-44",
+        "PMID": {
+          "Version": 1,
+          "content": 25420067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Early Dev Parent. 1997 Sep;6(3-4):179-192",
+        "PMID": {
+          "Version": 1,
+          "content": 24634574
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Netw. 1996 Nov;9(8):1265-1279",
+        "PMID": {
+          "Version": 1,
+          "content": 12662535
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2005 Feb;93(2):1055-68",
+        "PMID": {
+          "Version": 1,
+          "content": 15456796
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2006 Mar;9(3):420-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16474393
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Jul 5;487(7405):51-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22722855
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neural Circuits. 2013 Jun 19;7:106",
+        "PMID": {
+          "Version": 1,
+          "content": 23801941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2015 Dec 03;11(12):e1004566",
+        "PMID": {
+          "Version": 1,
+          "content": 26633645
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2000 Nov;3 Suppl:1192-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11127837
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(8):e40233",
+        "PMID": {
+          "Version": 1,
+          "content": 22879876
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2005 Jun;17(6):1276-314",
+        "PMID": {
+          "Version": 1,
+          "content": 15901399
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Oct 8;163(2):456-92",
+        "PMID": {
+          "Version": 1,
+          "content": 26451489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroinform. 2009 Mar 24;3:7",
+        "PMID": {
+          "Version": 1,
+          "content": 19352442
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2008 Apr 23;8(4):20.1-19",
+        "PMID": {
+          "Version": 1,
+          "content": 18484859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Neural Syst. 2012 Aug;22(4):1250012",
+        "PMID": {
+          "Version": 1,
+          "content": 22830962
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Comput Neurosci. 2015 Mar 19;9:32",
+        "PMID": {
+          "Version": 1,
+          "content": 25852530
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2000 Nov;3 Suppl:1212-7",
+        "PMID": {
+          "Version": 1,
+          "content": 11127840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cold Spring Harb Symp Quant Biol. 1990;55:899-910",
+        "PMID": {
+          "Version": 1,
+          "content": 2132866
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2016 Mar;19(3):375-82",
+        "PMID": {
+          "Version": 1,
+          "content": 26906504
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 1997 Nov 15;9(8):1735-80",
+        "PMID": {
+          "Version": 1,
+          "content": 9377276
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 1994 May;14(5 Pt 2):3208-24",
+        "PMID": {
+          "Version": 1,
+          "content": 8182467
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Netw. 2007 Apr;20(3):323-34",
+        "PMID": {
+          "Version": 1,
+          "content": 17517489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroscience. 2001;102(3):615-23",
+        "PMID": {
+          "Version": 1,
+          "content": 11226698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Rev Neurosci. 2003;14(1-2):5-19",
+        "PMID": {
+          "Version": 1,
+          "content": 12929914
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2008 Jun;20(6):1473-94",
+        "PMID": {
+          "Version": 1,
+          "content": 18254696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(5):e37372",
+        "PMID": {
+          "Version": 1,
+          "content": 22655041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Brain Res. 2009 Feb;192(4):571-604",
+        "PMID": {
+          "Version": 1,
+          "content": 19139857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurobiol. 2008 Dec;18(6):573-81",
+        "PMID": {
+          "Version": 1,
+          "content": 19054663
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Dec 9;432(7018):758-61",
+        "PMID": {
+          "Version": 1,
+          "content": 15592414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2012 Dec;108(12):3313-21",
+        "PMID": {
+          "Version": 1,
+          "content": 22972960
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2016 Jun 16;12 (6):e1004895",
+        "PMID": {
+          "Version": 1,
+          "content": 27309381
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2002 Nov;14(11):2531-60",
+        "PMID": {
+          "Version": 1,
+          "content": 12433288
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2011 Dec 16;334(6062):1569-73",
+        "PMID": {
+          "Version": 1,
+          "content": 22075724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cogn Neurosci. 1997 Mar;9(2):222-37",
+        "PMID": {
+          "Version": 1,
+          "content": 23962013
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 1995;6(5):1212-28",
+        "PMID": {
+          "Version": 1,
+          "content": 18263409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 1992;3(6):837-63",
+        "PMID": {
+          "Version": 1,
+          "content": 18276483
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29173280
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29173280,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.7554/eLife.28295",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5730383",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

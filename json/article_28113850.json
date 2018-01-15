@@ -1,0 +1,114 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "For the hyperspectral target detection, the neighbors of a target pixel are very likely to be target pixels, and those of a background pixel are very likely to be background pixels. In order to utilize this spatial homogeneity or smoothness, based on total variation (TV), we propose a novel supervised target detection algorithm which uses a single target spectrum as the prior knowledge. TV can make the image smooth, and has been widely used in image denoising and restoration. The proposed algorithm uses TV to keep the spatial homogeneity or smoothness of the detection output. Meanwhile, a constraint is used to guarantee the spectral signature of the target unsuppressed. The final formulated detection model is an ℓ1 norm convex optimization problem. The Split Bregman algorithm is used to solve our optimization problem, as it can solve the ℓ1 norm optimization problem efficiently. Two synthetic and two real hyperspectral images are used to do experiments. The experiment results demonstrate that the proposed algorithm outperforms other algorithms for the experiment data sets. The experiment results also show that even when the target occupies only one pixel, the proposed algorithm can still obtain good results. This is because in such case, the background is kept smooth, but at the same time the algorithm allows for sharp edges in the detection output."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shuo",
+            "LastName": "Yang",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhenwei",
+            "LastName": "Shi",
+            "Initials": "Z"
+          }
+        ]
+      },
+      "ArticleTitle": "Hyperspectral Image Target Detection Improvement Based on Total Variation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2545248"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2016,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113850
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113850,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2545248",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

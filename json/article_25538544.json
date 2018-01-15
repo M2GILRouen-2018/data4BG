@@ -1,0 +1,330 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101477954,
+      "Country": "Switzerland",
+      "ISSNLinking": "1662-5161",
+      "MedlineTA": "Front Hum Neurosci"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 647},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "There is increasing interest in real-time brain-computer interfaces (BCIs) for the passive monitoring of human cognitive state, including cognitive workload. Too often, however, effective BCIs based on machine learning techniques may function as \"black boxes\" that are difficult to analyze or interpret. In an effort toward more interpretable BCIs, we studied a family of N-back working memory tasks using a machine learning model, Gaussian Process Regression (GPR), which was both powerful and amenable to analysis. Participants performed the N-back task with three stimulus variants, auditory-verbal, visual-spatial, and visual-numeric, each at three working memory loads. GPR models were trained and tested on EEG data from all three task variants combined, in an effort to identify a model that could be predictive of mental workload demand regardless of stimulus modality. To provide a comparison for GPR performance, a model was additionally trained using multiple linear regression (MLR). The GPR model was effective when trained on individual participant EEG data, resulting in an average standardized mean squared error (sMSE) between true and predicted N-back levels of 0.44. In comparison, the MLR model using the same data resulted in an average sMSE of 0.55. We additionally demonstrate how GPR can be used to identify which EEG features are relevant for prediction of cognitive workload in an individual participant. A fraction of EEG features accounted for the majority of the model's predictive power; using only the top 25% of features performed nearly as well as using 100% of features. Subsets of features identified by linear models (ANOVA) were not as efficient as subsets identified by GPR. This raises the possibility of BCIs that require fewer model features while capturing all of the information needed to achieve high predictive accuracy."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew S",
+            "LastName": "Caywood",
+            "Initials": "MS",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, McLean VA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel M",
+            "LastName": "Roberts",
+            "Initials": "DM",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, McLeanVA, USA; Department of Psychology, George Mason University, FairfaxVA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeffrey B",
+            "LastName": "Colombe",
+            "Initials": "JB",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, McLean VA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hal S",
+            "LastName": "Greenwald",
+            "Initials": "HS",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, McLean VA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Monica Z",
+            "LastName": "Weiland",
+            "Initials": "MZ",
+            "AffiliationInfo": {"Affiliation": "The MITRE Corporation, McLean VA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Gaussian Process Regression for Predictive But Interpretable Machine Learning Models: An Example of Predicting Mental Workload across Tasks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fnhum.2016.00647"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 10,
+          "PubDate": {"Year": 2016},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Hum Neurosci",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1662-5161"
+        },
+        "Title": "Frontiers in human neuroscience"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "BCI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "EEG"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian Process Regression"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "neuroergonomics"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neural Eng. 2013 Oct;10(5):056014",
+        "PMID": {
+          "Version": 1,
+          "content": 23985960
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2011;2011:6547-51",
+        "PMID": {
+          "Version": 1,
+          "content": 22255839
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2015 Apr 30;9:136",
+        "PMID": {
+          "Version": 1,
+          "content": 25983676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Factors. 2008 Jun;50(3):449-55",
+        "PMID": {
+          "Version": 1,
+          "content": 18689052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Behav Res Methods. 2005 Aug;37(3):379-84",
+        "PMID": {
+          "Version": 1,
+          "content": 16405133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Hum Neurosci. 2013 Apr 15;7:138",
+        "PMID": {
+          "Version": 1,
+          "content": 23596409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Psychol. 1995 May;40(1-2):239-50",
+        "PMID": {
+          "Version": 1,
+          "content": 7647185
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Factors. 2003 winter;45(4):635-43",
+        "PMID": {
+          "Version": 1,
+          "content": 15055460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2004 Mar 15;134(1):9-21",
+        "PMID": {
+          "Version": 1,
+          "content": 15102499
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Jan 2;59(1):48-56",
+        "PMID": {
+          "Version": 1,
+          "content": 21835243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Methods. 2003 Dec;8(4):434-47",
+        "PMID": {
+          "Version": 1,
+          "content": 14664681
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neural Eng. 2011 Apr;8(2):025005",
+        "PMID": {
+          "Version": 1,
+          "content": 21436512
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neural Eng. 2012 Aug;9(4):045008",
+        "PMID": {
+          "Version": 1,
+          "content": 22832068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Factors. 2003 Fall;45(3):381-9",
+        "PMID": {
+          "Version": 1,
+          "content": 14702990
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007 Feb 15;34(4):1443-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17188898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Jan 2;59(1):36-47",
+        "PMID": {
+          "Version": 1,
+          "content": 21722738
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2014 Feb 15;87:96-110",
+        "PMID": {
+          "Version": 1,
+          "content": 24239590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2005 May;25(1):46-59",
+        "PMID": {
+          "Version": 1,
+          "content": 15846822
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2014 Dec 09;8:385",
+        "PMID": {
+          "Version": 1,
+          "content": 25538544
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28123359
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2015,
+        "Day": 23,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28123359,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fnhum.2016.00647",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5225116",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

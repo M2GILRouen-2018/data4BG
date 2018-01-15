@@ -1,0 +1,795 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors have declared that no competing interests exist.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005259"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D023361",
+          "content": "Validation Studies"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Vascularisation is a key feature of cancer growth, invasion and metastasis. To better understand the governing biophysical processes and their relative importance, it is instructive to develop physiologically representative mathematical models with which to compare to experimental data. Previous studies have successfully applied this approach to test the effect of various biochemical factors on tumour growth and angiogenesis. However, these models do not account for the experimentally observed dependency of angiogenic network evolution on growth-induced solid stresses. This work introduces two novel features: the effects of hapto- and mechanotaxis on vessel sprouting, and mechano-sensitive dynamic vascular remodelling. The proposed three-dimensional, multiscale, in-silico model of dynamically coupled angiogenic tumour growth is specified to in-vivo and in-vitro data, chosen, where possible, to provide a physiologically consistent description. The model is then validated against in-vivo data from murine mammary carcinomas, with particular focus placed on identifying the influence of mechanical factors. Crucially, we find that it is necessary to include hapto- and mechanotaxis to recapitulate observed time-varying spatial distributions of angiogenic vasculature."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-4102-2084"
+            },
+            "ForeName": "Vasileios",
+            "LastName": "Vavourakis",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "University College London, Centre for Medical Image Computing, Department of Medical Physics & Biomedical Engineering, London, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter A",
+            "LastName": "Wijeratne",
+            "Initials": "PA",
+            "AffiliationInfo": {"Affiliation": "University College London, Centre for Medical Image Computing, Department of Medical Physics & Biomedical Engineering, London, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rebecca",
+            "LastName": "Shipley",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "University College London, Department of Mechanical Engineering, London, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marilena",
+            "LastName": "Loizidou",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "University College London, Department of Surgery, London, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Triantafyllos",
+            "LastName": "Stylianopoulos",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "University of Cyprus, Department of Mechanical & Manufacturing Engineering, Nicosia, Cyprus."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David J",
+            "LastName": "Hawkes",
+            "Initials": "DJ",
+            "AffiliationInfo": {"Affiliation": "University College London, Centre for Medical Image Computing, Department of Medical Physics & Biomedical Engineering, London, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "A Validated Multiscale In-Silico Model for Mechano-sensitive Tumour Angiogenesis and Growth.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005259"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "01",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D001783",
+        "MajorTopicYN": "Y",
+        "content": "Blood Flow Velocity"
+      }},
+      {"DescriptorName": {
+        "UI": "D001794",
+        "MajorTopicYN": "N",
+        "content": "Blood Pressure"
+      }},
+      {"DescriptorName": {
+        "UI": "D049109",
+        "MajorTopicYN": "Y",
+        "content": "Cell Proliferation"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D040542",
+        "MajorTopicYN": "Y",
+        "content": "Mechanotransduction, Cellular"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "Y",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009369",
+          "MajorTopicYN": "N",
+          "content": "Neoplasms"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "Y",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009389",
+          "MajorTopicYN": "N",
+          "content": "Neovascularization, Pathologic"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D033081",
+        "MajorTopicYN": "N",
+        "content": "Shear Strength"
+      }},
+      {"DescriptorName": {
+        "UI": "D013314",
+        "MajorTopicYN": "N",
+        "content": "Stress, Mechanical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D059016",
+          "MajorTopicYN": "N",
+          "content": "Tumor Microenvironment"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 1990 Aug 1;50(15):4478-84",
+        "PMID": {
+          "Version": 1,
+          "content": 2369726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2008 Oct;95(7):3146-60",
+        "PMID": {
+          "Version": 1,
+          "content": 18586846
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2007 May 1;92(9):3105-21",
+        "PMID": {
+          "Version": 1,
+          "content": 17277180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 Feb 1;108(5):1799-803",
+        "PMID": {
+          "Version": 1,
+          "content": 21224417
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 2009 Oct;15(10):1219-23",
+        "PMID": {
+          "Version": 1,
+          "content": 19749772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol. 1998 Aug;275(2 Pt 2):H349-60",
+        "PMID": {
+          "Version": 1,
+          "content": 9683420
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2010 Aug;7(8):655-60",
+        "PMID": {
+          "Version": 1,
+          "content": 20581828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2013 Mar 7;320:131-51",
+        "PMID": {
+          "Version": 1,
+          "content": 23220211
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2013 Jul 1;73(13):3833-41",
+        "PMID": {
+          "Version": 1,
+          "content": 23633490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2006 Aug 7;241(3):564-89",
+        "PMID": {
+          "Version": 1,
+          "content": 16487543
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2008;41(5):996-1004",
+        "PMID": {
+          "Version": 1,
+          "content": 18222455
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microvasc Res. 1997 Mar;53(2):128-41",
+        "PMID": {
+          "Version": 1,
+          "content": 9143544
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Math Biol. 2009 Apr;58(4-5):765-98",
+        "PMID": {
+          "Version": 1,
+          "content": 18781303
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2013;4:2516",
+        "PMID": {
+          "Version": 1,
+          "content": 24084631
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2000 May 1;60(9):2497-503",
+        "PMID": {
+          "Version": 1,
+          "content": 10811131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Nov 12;110(46):18632-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24167277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bull Math Biol. 2005 Mar;67(2):211-59",
+        "PMID": {
+          "Version": 1,
+          "content": 15710180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microvasc Res. 1989 Jan;37(1):77-104",
+        "PMID": {
+          "Version": 1,
+          "content": 2646512
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bull Math Biol. 1995 May;57(3):461-86",
+        "PMID": {
+          "Version": 1,
+          "content": 7537141
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cereb Blood Flow Metab. 2007 Feb;27(2):293-303",
+        "PMID": {
+          "Version": 1,
+          "content": 16736048
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microvasc Res. 2003 Nov;66(3):204-12",
+        "PMID": {
+          "Version": 1,
+          "content": 14609526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomech Model Mechanobiol. 2015 Nov;14(6):1391-402",
+        "PMID": {
+          "Version": 1,
+          "content": 25968141
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 1994 Nov;75(5):904-15",
+        "PMID": {
+          "Version": 1,
+          "content": 7923637
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Hematol. 2003 Mar;10(2):136-41",
+        "PMID": {
+          "Version": 1,
+          "content": 12579040
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomech Model Mechanobiol. 2016 Oct;15(5):1079-90",
+        "PMID": {
+          "Version": 1,
+          "content": 26564173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer. 1974 Jan;33(1):103-10",
+        "PMID": {
+          "Version": 1,
+          "content": 4810083
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Math Med Biol. 2005 Jun;22(2):163-86",
+        "PMID": {
+          "Version": 1,
+          "content": 15781426
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Sep 18;109 (38):15101-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22932871
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2009 May;5(5):e1000394",
+        "PMID": {
+          "Version": 1,
+          "content": 19478883
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biomed Eng. 2006;8:233-57",
+        "PMID": {
+          "Version": 1,
+          "content": 16834556
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bull Math Biol. 1998 Sep;60(5):857-99",
+        "PMID": {
+          "Version": 1,
+          "content": 9739618
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Biomech Biomed Engin. 2013;16(7):790-801",
+        "PMID": {
+          "Version": 1,
+          "content": 22515707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2004 Jun 1;64(11):3731-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15172975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2007 Mar 15;67(6):2729-35",
+        "PMID": {
+          "Version": 1,
+          "content": 17363594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2013 Sep 21;333:174-209",
+        "PMID": {
+          "Version": 1,
+          "content": 23684907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 1986 Aug;12(8):1329-33",
+        "PMID": {
+          "Version": 1,
+          "content": 3759554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2000 Mar 1;60(5):1388-93",
+        "PMID": {
+          "Version": 1,
+          "content": 10728704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomech Model Mechanobiol. 2015 Aug;14(4):767-82",
+        "PMID": {
+          "Version": 1,
+          "content": 25429840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2000 Sep 14;407(6801):249-57",
+        "PMID": {
+          "Version": 1,
+          "content": 11001068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 1985 May 7;114(1):53-73",
+        "PMID": {
+          "Version": 1,
+          "content": 2409405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2006 Aug 21;241(4):903-18",
+        "PMID": {
+          "Version": 1,
+          "content": 16545398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2008 Jan 7;250(1):1-15",
+        "PMID": {
+          "Version": 1,
+          "content": 18028960
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2013 May 23;121(21):e129-37",
+        "PMID": {
+          "Version": 1,
+          "content": 23471306
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 1994 Sep 1;54(17):4564-8",
+        "PMID": {
+          "Version": 1,
+          "content": 8062241
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2008 Sep 15;95(6):3066-78",
+        "PMID": {
+          "Version": 1,
+          "content": 18586851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bull Math Biol. 2003 Jul;65(4):609-40",
+        "PMID": {
+          "Version": 1,
+          "content": 12875336
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microvasc Res. 1977 Jul;14(1):53-65",
+        "PMID": {
+          "Version": 1,
+          "content": 895546
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans A Math Phys Eng Sci. 2008 Sep 28;366(1879):3301-18",
+        "PMID": {
+          "Version": 1,
+          "content": 18593664
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011 Apr 13;6(4):e14790",
+        "PMID": {
+          "Version": 1,
+          "content": 21533234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(5):e19989",
+        "PMID": {
+          "Version": 1,
+          "content": 21637756
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1996 Dec 10;93(25):14765-70",
+        "PMID": {
+          "Version": 1,
+          "content": 8962129
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Integr Biol (Camb). 2012 Sep;4(9):1081-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22847074
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Aug 06;9(8):e103191",
+        "PMID": {
+          "Version": 1,
+          "content": 25099885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Math Biol. 2003 Mar;46(3):191-224",
+        "PMID": {
+          "Version": 1,
+          "content": 12728333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1989 Jul;86(14):5385-9",
+        "PMID": {
+          "Version": 1,
+          "content": 2748592
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Aug 11;9(8):e104717",
+        "PMID": {
+          "Version": 1,
+          "content": 25111061
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biomed Eng. 2014 Jul 11;16:321-46",
+        "PMID": {
+          "Version": 1,
+          "content": 25014786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2002 Mar 19;99(6):3546-51",
+        "PMID": {
+          "Version": 1,
+          "content": 11891289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Eng. 2014 Jun 12;8:12",
+        "PMID": {
+          "Version": 1,
+          "content": 24987457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Rev. 2011 Jul;91(3):1071-121",
+        "PMID": {
+          "Version": 1,
+          "content": 21742796
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microvasc Res. 1990 Sep;40(2):246-63",
+        "PMID": {
+          "Version": 1,
+          "content": 2250603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 03;9(1):e83962",
+        "PMID": {
+          "Version": 1,
+          "content": 24404145
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Metastasis Rev. 1987;6(4):559-93",
+        "PMID": {
+          "Version": 1,
+          "content": 3327633
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28125582
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 21,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28125582,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005259",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-16-01372",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5268362",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

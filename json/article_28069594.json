@@ -1,0 +1,213 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1536-1544"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "Apart from single marker-based tests classically used in genome-wide association studies (GWAS), network-assisted analysis has become a promising approach to identify a set of genes associated with disease. To date, most network-assisted methods aim at finding genes connected in a background network, whatever the density or strength of their connections. This can hamper the findings as sparse connections are non-robust against noise from either the GWAS results or the network resource."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "We present SigMod, a novel and efficient method integrating GWAS results and gene network to identify a strongly interconnected gene module enriched in high association signals. Our method is formulated as a binary quadratic optimization problem, which can be solved exactly through graph min-cut algorithms. Compared to existing methods, SigMod has several desirable properties: (i) edge weights quantifying confidence of connections between genes are taken into account, (ii) the selection path can be computed rapidly, (iii) the identified gene module is strongly interconnected, hence includes genes of high functional relevance, and (iv) the method is robust against noise from either the GWAS results or the network resource. We applied SigMod to both simulated and real data. It was found to outperform state-of-the-art network-assisted methods in identifying disease-associated genes. When SigMod was applied to childhood-onset asthma GWAS results, it successfully identified a gene module enriched in consistently high association signals and made of functionally related genes that are biologically relevant for asthma."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability and implementation",
+          "content": "An R package SigMod is available at: https://github.com/YuanlongLiu/SigMod."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "yuanlong.liu@inserm.fr."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuanlong",
+            "LastName": "Liu",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "INSERM, Genetic Variation and Human Diseases Unit, UMR-946, Paris, France."},
+              {"Affiliation": "Institut Universitaire d'Hématologie, Université Paris Diderot, Sorbonne Paris Cité, Paris, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Myriam",
+            "LastName": "Brossard",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "INSERM, Genetic Variation and Human Diseases Unit, UMR-946, Paris, France."},
+              {"Affiliation": "Institut Universitaire d'Hématologie, Université Paris Diderot, Sorbonne Paris Cité, Paris, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Damian",
+            "LastName": "Roqueiro",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Biosystems Science and Engineering, ETH Zurich, Machine Learning and Computational Biology Lab, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patricia",
+            "LastName": "Margaritte-Jeannin",
+            "Initials": "P",
+            "AffiliationInfo": [
+              {"Affiliation": "INSERM, Genetic Variation and Human Diseases Unit, UMR-946, Paris, France."},
+              {"Affiliation": "Institut Universitaire d'Hématologie, Université Paris Diderot, Sorbonne Paris Cité, Paris, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chloé",
+            "LastName": "Sarnowski",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "INSERM, Genetic Variation and Human Diseases Unit, UMR-946, Paris, France."},
+              {"Affiliation": "Institut Universitaire d'Hématologie, Université Paris Diderot, Sorbonne Paris Cité, Paris, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emmanuelle",
+            "LastName": "Bouzigon",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "INSERM, Genetic Variation and Human Diseases Unit, UMR-946, Paris, France."},
+              {"Affiliation": "Institut Universitaire d'Hématologie, Université Paris Diderot, Sorbonne Paris Cité, Paris, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Florence",
+            "LastName": "Demenais",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "INSERM, Genetic Variation and Human Diseases Unit, UMR-946, Paris, France."},
+              {"Affiliation": "Institut Universitaire d'Hématologie, Université Paris Diderot, Sorbonne Paris Cité, Paris, France."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "SigMod: an exact and efficient method to identify a strongly interconnected disease-associated module in a gene network.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx004"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 10,
+          "Volume": 33,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 10
+    },
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 12
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28069594
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28069594,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btx004",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx004",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

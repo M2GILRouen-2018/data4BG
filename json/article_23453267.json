@@ -1,0 +1,297 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8915031,
+      "Country": "Netherlands",
+      "ISSNLinking": "0933-3657",
+      "MedlineTA": "Artif Intell Med"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2013,
+      "Day": 19
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "51-61"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2013 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVES",
+            "content": "The body mass index (BMI) provides essential medical information related to body weight for the treatment and prognosis prediction of diseases such as cardiovascular disease, diabetes, and stroke. We propose a method for the prediction of normal, overweight, and obese classes based only on the combination of voice features that are associated with BMI status, independently of weight and height measurements."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "MATERIALS AND METHODS",
+            "content": "A total of 1568 subjects were divided into 4 groups according to age and gender differences. We performed statistical analyses by analysis of variance (ANOVA) and Scheffe test to find significant features in each group. We predicted BMI status (normal, overweight, and obese) by a logistic regression algorithm and two ensemble classification algorithms (bagging and random forests) based on statistically significant features."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "In the Female-2030 group (females aged 20-40 years), classification experiments using an imbalanced (original) data set gave area under the receiver operating characteristic curve (AUC) values of 0.569-0.731 by logistic regression, whereas experiments using a balanced data set gave AUC values of 0.893-0.994 by random forests. AUC values in Female-4050 (females aged 41-60 years), Male-2030 (males aged 20-40 years), and Male-4050 (males aged 41-60 years) groups by logistic regression in imbalanced data were 0.585-0.654, 0.581-0.614, and 0.557-0.653, respectively. AUC values in Female-4050, Male-2030, and Male-4050 groups in balanced data were 0.629-0.893 by bagging, 0.707-0.916 by random forests, and 0.695-0.854 by bagging, respectively. In each group, we found discriminatory features showing statistical differences among normal, overweight, and obese classes. The results showed that the classification models built by logistic regression in imbalanced data were better than those built by the other two algorithms, and significant features differed according to age and gender groups."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "Our results could support the development of BMI diagnosis tools for real-time monitoring; such tools are considered helpful in improving automated BMI status diagnosis in remote healthcare or telemedicine and are expected to have applications in forensic and medical science."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bum Ju",
+            "LastName": "Lee",
+            "Initials": "BJ",
+            "AffiliationInfo": {"Affiliation": "Medical Research Division, Korea Institute of Oriental Medicine, 1672 Yuseongdae-ro, Yuseong-gu, Daejeon 305-811, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Keun Ho",
+            "LastName": "Kim",
+            "Initials": "KH"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Boncho",
+            "LastName": "Ku",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jun-Su",
+            "LastName": "Jang",
+            "Initials": "JS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jong Yeol",
+            "LastName": "Kim",
+            "Initials": "JY"
+          }
+        ]
+      },
+      "ArticleTitle": "Prediction of body mass index status from voice signals based on machine learning for automated medical applications.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.artmed.2013.02.001"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0933-3657(13)00009-2"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 58,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2013
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Artif Intell Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1873-2860"
+        },
+        "Title": "Artificial intelligence in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "05",
+      "Year": 2013,
+      "Day": "03"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000367",
+        "MajorTopicYN": "N",
+        "content": "Age Factors"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {"DescriptorName": {
+        "UI": "D015992",
+        "MajorTopicYN": "Y",
+        "content": "Body Mass Index"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016015",
+        "MajorTopicYN": "N",
+        "content": "Logistic Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "N",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D009765",
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D050177",
+          "MajorTopicYN": "N",
+          "content": "Overweight"
+        }
+      },
+      {"DescriptorName": {
+        "Type": "Geographic",
+        "UI": "D056910",
+        "MajorTopicYN": "N",
+        "content": "Republic of Korea"
+      }},
+      {"DescriptorName": {
+        "UI": "D012737",
+        "MajorTopicYN": "N",
+        "content": "Sex Factors"
+      }},
+      {"DescriptorName": {
+        "UI": "D014831",
+        "MajorTopicYN": "Y",
+        "content": "Voice"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2013,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 23453267
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2012,
+        "Day": 26,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2012,
+        "Day": 21,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "02",
+        "Year": 2013,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 3,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 3,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23453267,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0933-3657(13)00009-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.artmed.2013.02.001",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,424 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1492-1502"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "P41 EB015902",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NCRR NIH HHS",
+            "Country": "United States",
+            "GrantID": "P41 RR013218",
+            "Acronym": "RR"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "U54 EB005149",
+            "Acronym": "EB"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D059040",
+          "content": "Video-Audio Media"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "We introduce descriptor-based segmentation that extends existing patch-based methods by combining intensities, features, and location information. Since it is unclear which image features are best suited for patch selection, we perform a broad empirical study on a multitude of different features."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We extend nonlocal means segmentation by including image features and location information. We search larger windows with an efficient nearest neighbor search based on kd-trees. We compare a large number of image features."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The best results were obtained for entropy image features, which have not yet been used for patch-based segmentation. We further show that searching larger image regions with an approximate nearest neighbor search and location information yields a significant improvement over the bounded nearest neighbor search traditionally employed in patch-based segmentation methods."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Features and location information significantly increase the segmentation accuracy. The best features highlight boundaries in the image."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "SIGNIFICANCE",
+          "content": "Our detailed analysis of several aspects of nonlocal means-based segmentation yields new insights about patch and neighborhood sizes together with the inclusion of location information. The presented approach advances the state-of-the-art in the segmentation of parotid glands for radiation therapy planning."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christian",
+            "LastName": "Wachinger",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew",
+            "LastName": "Brennan",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Greg C",
+            "LastName": "Sharp",
+            "Initials": "GC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Polina",
+            "LastName": "Golland",
+            "Initials": "P"
+          }
+        ]
+      },
+      "ArticleTitle": "Efficient Descriptor-Based Segmentation of Parotid Glands With Nonlocal Means.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2603119"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "Y",
+        "content": "Neural Networks (Computer)"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D010306",
+          "MajorTopicYN": "N",
+          "content": "Parotid Gland"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D013382",
+        "MajorTopicYN": "Y",
+        "content": "Subtraction Technique"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 12
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2011 May;33(5):898-916",
+        "PMID": {
+          "Version": 1,
+          "content": 20733228
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2014;17(Pt 1):315-22",
+        "PMID": {
+          "Version": 1,
+          "content": 25333133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2006 Oct 15;33(1):115-26",
+        "PMID": {
+          "Version": 1,
+          "content": 16860573
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2011 Nov;38(11):6160-70",
+        "PMID": {
+          "Version": 1,
+          "content": 22047381
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2012 Jan;16(1):1-17",
+        "PMID": {
+          "Version": 1,
+          "content": 21632274
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Inf Process Med Imaging. 2013;23:511-23",
+        "PMID": {
+          "Version": 1,
+          "content": 24683995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2013;16(Pt 3):211-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24505763
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2011 Oct;30(10):1852-62",
+        "PMID": {
+          "Version": 1,
+          "content": 21606021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Jan 15;54(2):940-54",
+        "PMID": {
+          "Version": 1,
+          "content": 20851199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2014 May;41(5):051910",
+        "PMID": {
+          "Version": 1,
+          "content": 24784389
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2014;17(Pt 3):105-12",
+        "PMID": {
+          "Version": 1,
+          "content": 25320788
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2015 Dec;34(12 ):2492-505",
+        "PMID": {
+          "Version": 1,
+          "content": 26068202
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Feb;32(2):419-34",
+        "PMID": {
+          "Version": 1,
+          "content": 23204280
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2013 Mar;35(3):611-23",
+        "PMID": {
+          "Version": 1,
+          "content": 22732662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2014 Nov;36(11):2227-40",
+        "PMID": {
+          "Version": 1,
+          "content": 26353063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2015 Jan;19(1):98-109",
+        "PMID": {
+          "Version": 1,
+          "content": 25299433
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28113224
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113224,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2603119",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5469701",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS863410",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

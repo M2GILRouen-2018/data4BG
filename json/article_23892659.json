@@ -1,0 +1,448 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 78},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Knockout strategies, particularly the concept of constrained minimal cut sets (cMCSs), are an important part of the arsenal of tools used in manipulating metabolic networks. Given a specific design, cMCSs can be calculated even in genome-scale networks. We would however like to find not only the optimal intervention strategy for a given design but the best possible design too. Our solution (PSOMCS) is to use particle swarm optimization (PSO) along with the direct calculation of cMCSs from the stoichiometric matrix to obtain optimal designs satisfying multiple objectives."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "To illustrate the working of PSOMCS, we apply it to a toy network. Next we show its superiority by comparing its performance against other comparable methods on a medium sized E. coli core metabolic network. PSOMCS not only finds solutions comparable to previously published results but also it is orders of magnitude faster. Finally, we use PSOMCS to predict knockouts satisfying multiple objectives in a genome-scale metabolic model of E. coli and compare it with OptKnock and RobustKnock."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "PSOMCS finds competitive knockout strategies and designs compared to other current methods and is in some cases significantly faster. It can be used in identifying knockouts which will force optimal desired behaviors in large and genome scale metabolic networks. It will be even more useful as larger metabolic models of industrially relevant organisms become available."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Govind",
+            "LastName": "Nair",
+            "Initials": "G",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biotechnology, University of Natural Resources and Life Sciences, Muthgasse 11, Vienna, 1190, Austria."},
+              {"Affiliation": "Austrian Centre of Industrial Biotechnology, Muthgasse 11, Vienna, 1190, Austria."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christian",
+            "LastName": "Jungreuthmayer",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "TGM - Technologisches Gewerbemuseum, Wexstraße 19-23, Vienna, 1200, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jürgen",
+            "LastName": "Zanghellini",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biotechnology, University of Natural Resources and Life Sciences, Muthgasse 11, Vienna, 1190, Austria. juergen.zanghellini@boku.ac.at."},
+              {"Affiliation": "Austrian Centre of Industrial Biotechnology, Muthgasse 11, Vienna, 1190, Austria. juergen.zanghellini@boku.ac.at."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Optimal knockout strategies in genome-scale metabolic networks using particle swarm optimization.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1483-5"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Dual metabolic network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Knockouts"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Metabolic networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Metabolic pathway analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Minimal cut sets"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Strain optimization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Systems biology"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D004926",
+          "MajorTopicYN": "N",
+          "content": "Escherichia coli"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D055786",
+        "MajorTopicYN": "N",
+        "content": "Gene Knockout Techniques"
+      }},
+      {"DescriptorName": {
+        "UI": "D016680",
+        "MajorTopicYN": "Y",
+        "content": "Genome, Bacterial"
+      }},
+      {"DescriptorName": {
+        "UI": "D060847",
+        "MajorTopicYN": "N",
+        "content": "Metabolic Engineering"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D053858",
+          "MajorTopicYN": "N",
+          "content": "Metabolic Networks and Pathways"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "N",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D016011",
+        "MajorTopicYN": "N",
+        "content": "Normal Distribution"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 23
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2014 Sep;25:140-58",
+        "PMID": {
+          "Version": 1,
+          "content": 25080239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 Nov 14;420(6912):190-3",
+        "PMID": {
+          "Version": 1,
+          "content": 12432396
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2016 Jul 15;82(15):4570-83",
+        "PMID": {
+          "Version": 1,
+          "content": 27208115
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Mar 25;9(3):e92583",
+        "PMID": {
+          "Version": 1,
+          "content": 24667792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2010 Apr 23;4:49",
+        "PMID": {
+          "Version": 1,
+          "content": 20416071
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Feb 15;26(4):536-43",
+        "PMID": {
+          "Version": 1,
+          "content": 20031969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Feb 1;28(3):381-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22190691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 Jan 22;20(2):226-34",
+        "PMID": {
+          "Version": 1,
+          "content": 14734314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2008 Jun;74(12):3634-43",
+        "PMID": {
+          "Version": 1,
+          "content": 18424547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2007;3:121",
+        "PMID": {
+          "Version": 1,
+          "content": 17593909
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2011 Mar;13(2):204-13",
+        "PMID": {
+          "Version": 1,
+          "content": 21147248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2003 Oct;5(4):264-76",
+        "PMID": {
+          "Version": 1,
+          "content": 14642354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metab Eng. 2015 Jul;30:166-78",
+        "PMID": {
+          "Version": 1,
+          "content": 26112955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biotechnol Bioeng. 2003 Dec 20;84(6):647-57",
+        "PMID": {
+          "Version": 1,
+          "content": 14595777
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 Nov 14;420(6912):186-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12432395
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Jan;10(1):e1003378",
+        "PMID": {
+          "Version": 1,
+          "content": 24391481
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2005 Dec 23;6:308",
+        "PMID": {
+          "Version": 1,
+          "content": 16375763
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Algorithms Mol Biol. 2015 Dec 21;10:29",
+        "PMID": {
+          "Version": 1,
+          "content": 26697103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2008 Nov 27;9:499",
+        "PMID": {
+          "Version": 1,
+          "content": 19038030
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Sep 1;31(17):2844-51",
+        "PMID": {
+          "Version": 1,
+          "content": 25913205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Nov 06;14:318",
+        "PMID": {
+          "Version": 1,
+          "content": 24191903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioprocess Biosyst Eng. 2014 Mar;37(3):521-32",
+        "PMID": {
+          "Version": 1,
+          "content": 23892659
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28143607
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28143607,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1483-5",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1483-5",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5286819",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

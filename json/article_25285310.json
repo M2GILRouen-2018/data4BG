@@ -1,0 +1,248 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101524122,
+      "Country": "United States",
+      "ISSNLinking": "0277-786X",
+      "MedlineTA": "Proc SPIE Int Soc Opt Eng"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB017230",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NEI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R21 EY024036",
+            "Acronym": "EY"
+          },
+          {
+            "Agency": "NLM NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 LM012412",
+            "Acronym": "LM"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR000445",
+            "Acronym": "TR"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Large scale image processing demands a standardized way of not only storage but also a method for job distribution and scheduling. The eXtensible Neuroimaging Archive Toolkit (XNAT) is one of several platforms that seeks to solve the storage issues. Distributed Automation for XNAT (DAX) is a job control and distribution manager. Recent massive data projects have revealed several bottlenecks for projects with >100,000 assessors (i.e., data processing pipelines in XNAT). In order to address these concerns, we have developed a new API, which exposes a direct connection to the database rather than REST API calls to accomplish the generation of assessors. This method, consistent with XNAT, keeps a full history for auditing purposes. Additionally, we have optimized DAX to keep track of processing status on disk (called DISKQ) rather than on XNAT, which greatly reduces load on XNAT by vastly dropping the number of API calls. Finally, we have integrated DAX into a Docker container with the idea of using it as a Docker controller to launch Docker containers of image processing pipelines. Using our new API, we reduced the time to create 1,000 assessors (a sub-cohort of our case project) from 65040 seconds to 229 seconds (a decrease of over 270 fold). DISKQ, using pyXnat, allows launching of 400 jobs in under 10 seconds which previously took 2,000 seconds. Together these updates position DAX to support projects with hundreds of thousands of scans and to run them in a time-efficient manner."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephen M",
+            "LastName": "Damon",
+            "Initials": "SM",
+            "AffiliationInfo": {"Affiliation": "Electrical Engineering, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brian D",
+            "LastName": "Boyd",
+            "Initials": "BD",
+            "AffiliationInfo": {"Affiliation": "Psychiatry, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew J",
+            "LastName": "Plassard",
+            "Initials": "AJ",
+            "AffiliationInfo": {"Affiliation": "Electrical Engineering, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Warren",
+            "LastName": "Taylor",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Psychiatry, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bennett A",
+            "LastName": "Landman",
+            "Initials": "BA",
+            "AffiliationInfo": [
+              {"Affiliation": "Electrical Engineering, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235."},
+              {"Affiliation": "Psychiatry, Vanderbilt University, 2301 Vanderbilt Place, Nashville, TN USA 37235."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "DAX - The Next Generation: Towards One Million Processes on Commodity Hardware.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "101380C"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1117/12.2254371"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 2017,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Proc SPIE Int Soc Opt Eng",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0277-786X"
+        },
+        "Title": "Proceedings of SPIE--the International Society for Optical Engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "High Performance Computing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pipelines"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "XNAT"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": 10
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Aug 15;62(2):791-800",
+        "PMID": {
+          "Version": 1,
+          "content": 22023741
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2010 Mar;8(1):5-17",
+        "PMID": {
+          "Version": 1,
+          "content": 20077162
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Aug 15;62(2):774-81",
+        "PMID": {
+          "Version": 1,
+          "content": 22248573
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2016 Jan 1;124(Pt B):1097-101",
+        "PMID": {
+          "Version": 1,
+          "content": 25988229
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc SPIE Int Soc Opt Eng. 2016 Feb 27;9789:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27127335
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Insight J. 2012 Aug 15;2012:1-16",
+        "PMID": {
+          "Version": 1,
+          "content": 25285310
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28919661
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28919661,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1117/12.2254371",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5596878",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS842790",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

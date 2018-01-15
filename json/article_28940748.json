@@ -1,0 +1,209 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8505245,
+      "Country": "United States",
+      "ISSNLinking": "0740-3194",
+      "MedlineTA": "Magn Reson Med"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 International Society for Magnetic Resonance in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Conventional non-Cartesian compressed sensing requires multiple nonuniform Fourier transforms every iteration, which is computationally expensive. Accordingly, time-consuming reconstructions have slowed the adoption of undersampled 3D non-Cartesian acquisitions into clinical protocols. In this work we investigate several approaches to minimize reconstruction times without sacrificing accuracy."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The reconstruction problem can be reformatted to exploit the Toeplitz structure of matrices that are evaluated every iteration, but it requires larger oversampling than what is strictly required by nonuniform Fourier transforms. Accordingly, we investigate relative speeds of the two approaches for various nonuniform Fourier transform kernel sizes and oversampling for both GPU and CPU implementations. Second, we introduce a method to minimize matrix sizes by estimating the image support. Finally, density compensation weights have been used as a preconditioning matrix to improve convergence, but this increases noise. We propose a more general approach to preconditioning that allows a trade-off between accuracy and convergence speed."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "When using a GPU, the Toeplitz approach was faster for all practical parameters. Second, it was found that properly accounting for image support can prevent aliasing errors with minimal impact on reconstruction time. Third, the proposed preconditioning scheme improved convergence rates by an order of magnitude with negligible impact on noise."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "With the proposed methods, 3D non-Cartesian compressed sensing with clinically relevant reconstruction times (<2 min) is feasible using practical computer resources. Magn Reson Med, 2017. © 2017 International Society for Magnetic Resonance in Medicine."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-7343-5580"
+            },
+            "ForeName": "Corey A",
+            "LastName": "Baron",
+            "Initials": "CA",
+            "AffiliationInfo": {"Affiliation": "Magnetic Resonance Systems Research Laboratory, Department of Electrical Engineering, Stanford University, Stanford, California, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicholas",
+            "LastName": "Dwork",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Magnetic Resonance Systems Research Laboratory, Department of Electrical Engineering, Stanford University, Stanford, California, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John M",
+            "LastName": "Pauly",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Magnetic Resonance Systems Research Laboratory, Department of Electrical Engineering, Stanford University, Stanford, California, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dwight G",
+            "LastName": "Nishimura",
+            "Initials": "DG",
+            "AffiliationInfo": {"Affiliation": "Magnetic Resonance Systems Research Laboratory, Department of Electrical Engineering, Stanford University, Stanford, California, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Rapid compressed sensing reconstruction of 3D non-Cartesian MRI.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mrm.26928"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Magn Reson Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1522-2594"
+        },
+        "Title": "Magnetic resonance in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "NUFFT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SENSE"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Toeplitz"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "compressed sensing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "non-Cartesian"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "regularize"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "wavelet"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28940748
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 29,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 30,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28940748,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mrm.26928",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,314 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 18
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 415},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The ability to efficiently search and filter datasets depends on access to high quality metadata. While most biomedical repositories require data submitters to provide a minimal set of metadata, some such as the Gene Expression Omnibus (GEO) allows users to specify additional metadata in the form of textual key-value pairs (e.g. sex: female). However, since there is no structured vocabulary to guide the submitter regarding the metadata terms to use, consequently, the 44,000,000+ key-value pairs in GEO suffer from numerous quality issues including redundancy, heterogeneity, inconsistency, and incompleteness. Such issues hinder the ability of scientists to hone in on datasets that meet their requirements and point to a need for accurate, structured and complete description of the data."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "In this study, we propose a clustering-based approach to address data quality issues in biomedical, specifically gene expression, metadata. First, we present three different kinds of similarity measures to compare metadata keys. Second, we design a scalable agglomerative clustering algorithm to cluster similar keys together."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Our agglomerative cluster algorithm identified metadata keys that were similar, based on (i) name, (ii) core concept and (iii) value similarities, to each other and grouped them together. We evaluated our method using a manually created gold standard in which 359 keys were grouped into 27 clusters based on six types of characteristics: (i) age, (ii) cell line, (iii) disease, (iv) strain, (v) tissue and (vi) treatment. As a result, the algorithm generated 18 clusters containing 355 keys (four clusters with only one key were excluded). In the 18 clusters, there were keys that were identified correctly to be related to that cluster, but there were 13 keys which were not related to that cluster. We compared our approach with four other published methods. Our approach significantly outperformed them for most metadata keys and achieved the best average F-Score (0.63)."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Our algorithm identified keys that were similar to each other and grouped them together. Our intuition that underpins cleaning by clustering is that, dividing keys into different clusters resolves the scalability issues for data observation and cleaning, and keys in the same cluster with duplicates and errors can easily be found. Our algorithm can also be applied to other biomedical data types."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Hu",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory for Novel Software Technology, Nanjing University, 163 Xianlin Avenue, Nanjing, 210023, Jiangsu, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Amrapali",
+            "LastName": "Zaveri",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Institute of Data Science, Maastricht University, Maastricht, 6200, MD, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Honglei",
+            "LastName": "Qiu",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory for Novel Software Technology, Nanjing University, 163 Xianlin Avenue, Nanjing, 210023, Jiangsu, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michel",
+            "LastName": "Dumontier",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Institute of Data Science, Maastricht University, Maastricht, 6200, MD, The Netherlands. michel.dumontier@maastrichtuniversity.nl."}
+          }
+        ]
+      },
+      "ArticleTitle": "Cleaning by clustering: methodology for addressing data quality issues in biomedical metadata.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1832-4"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 18
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Biomedical"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Clustering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Data quality"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Experimental data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "GEO"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Metadata"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Reusability"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D000068598",
+        "MajorTopicYN": "N",
+        "content": "Data Accuracy"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000592",
+          "MajorTopicYN": "Y",
+          "content": "standards"
+        },
+        "DescriptorName": {
+          "UI": "D000071253",
+          "MajorTopicYN": "N",
+          "content": "Metadata"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 18
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1998 Dec 8;95(25):14863-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9843981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Nov 09;12:436",
+        "PMID": {
+          "Version": 1,
+          "content": 22070249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2001 Dec;29(4):365-71",
+        "PMID": {
+          "Version": 1,
+          "content": 11726920
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Jan;39(Database issue):D1005-10",
+        "PMID": {
+          "Version": 1,
+          "content": 21097893
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2015 May 13;7(287):287ra71",
+        "PMID": {
+          "Version": 1,
+          "content": 25972003
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009 Jul 29;10:234",
+        "PMID": {
+          "Version": 1,
+          "content": 19640299
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jan;41(Database issue):D991-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23193258
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Sep 1;27(17):2463-4",
+        "PMID": {
+          "Version": 1,
+          "content": 21737437
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28923003
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28923003,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1832-4",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1832-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5604298",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

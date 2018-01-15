@@ -1,0 +1,224 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "65-75"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "BACKGROUND",
+            "content": "Ultrasound is widely used for imaging due to its cost effectiveness and safety feature. However, ultrasound images are inherently corrupted with speckle noise which severely affects the quality of these images and create difficulty for physicians in diagnosis. To get maximum benefit from ultrasound imaging, image denoising is an essential requirement."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHOD",
+            "content": "To perform image denoising, a two stage methodology using fuzzy weighted mean and fractional integration filter has been proposed in this research work. In stage-1, image pixels are processed by applying a 3\u2009×\u20093 window around each pixel and fuzzy logic is used to assign weights to the pixels in each window, replacing central pixel of the window with weighted mean of all neighboring pixels present in the same window. Noise suppression is achieved by assigning weights to the pixels while preserving edges and other important features of an image. In stage-2, the resultant image is further improved by fractional order integration filter."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Effectiveness of the proposed methodology has been analyzed for standard test images artificially corrupted with speckle noise and real ultrasound B-mode images. Results of the proposed technique have been compared with different state-of-the-art techniques including Lsmv, Wiener, Geometric filter, Bilateral, Non-local means, Wavelet, Perona et al., Total variation (TV), Global Adaptive Fractional Integral Algorithm (GAFIA) and Improved Fractional Order Differential (IFD) model. Comparison has been done on quantitative and qualitative basis. For quantitative analysis different metrics like Peak Signal to Noise Ratio (PSNR), Speckle Suppression Index (SSI), Structural Similarity (SSIM), Edge Preservation Index (β) and Correlation Coefficient (ρ) have been used. Simulations have been done using Matlab. Simulation results of artificially corrupted standard test images and two real Echocardiographic images reveal that the proposed method outperforms existing image denoising techniques reported in the literature."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The proposed method for denoising of Echocardiographic images is effective in noise suppression/removal. It not only removes noise from an image but also preserves edges and other important structure."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ayesha",
+            "LastName": "Saadia",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Software Engineering, Military College of Signals, National University of Sciences and Technology (NUST), Islamabad, Pakistan. Electronic address: ayesha.phd@mcs.edu.pk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adnan",
+            "LastName": "Rashdi",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Military College of Signals, National University of Sciences and Technology (NUST), Islamabad, Pakistan."}
+          }
+        ]
+      },
+      "ArticleTitle": "Fractional order integration and fuzzy logic based filter for denoising of echocardiographic image.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(15)30453-3"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.09.006"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Fractional calculus"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Fuzzy sets"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image denoising"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image enhancement"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D004452",
+        "MajorTopicYN": "Y",
+        "content": "Echocardiography"
+      }},
+      {"DescriptorName": {
+        "UI": "D017143",
+        "MajorTopicYN": "Y",
+        "content": "Fuzzy Logic"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "N",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D059629",
+        "MajorTopicYN": "N",
+        "content": "Signal-To-Noise Ratio"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28110741
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Day": 21,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 18,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110741,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(15)30453-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.09.006",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,193 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101089176,
+      "Country": "United States",
+      "ISSNLinking": "1526-9914",
+      "MedlineTA": "J Appl Clin Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 The Authors. Journal of Applied Clinical Medical Physics published by Wiley Periodicals, Inc. on behalf of American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "The purpose of this study is to improve dose calculation accuracy of the simplified Monte Carlo (SMC) algorithm in the low-dose region. Because conventional SMC algorithms calculate particle scattering in consideration of multiple Coulomb scattering (MCS) only, they approximate lateral dose profiles by a single Gaussian function. However, it is well known that the low-dose region spreads away from the beam axis, and it has been pointed out that modeling of the low-dose region is important to calculated dose accurately."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "A SMC algorithm, which is named modified SMC and considers not only MCS but also large angle scattering resembling hadron elastic scattering, was developed. In the modified SMC algorithm, the particle fluence varies in the longitudinal direction because the large-angle scattering decreases residual range of particles in accordance with their scattering angle and tracking of the particles with large scattering angle is terminated at a short distance downstream from the scattering. Therefore, modified integrated depth dose (m-IDD) tables, which are converted from measured IDD in consideration of the fluence loss, are used to calculate dose."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "In the case of a 1-liter cubic target, the calculation accuracy was improved in comparison with that of a conventional algorithm, and the modified algorithm results agreed well with Geant4-based simulation results; namely, 98.8% of the points satisfied the 2% dose/2 mm distance-to-agreement (DTA) criterion. The calculation time of the modified SMC algorithm was 1972 s in the case of 4.4 × 108 particles and 16-threading operation of an Intel Xeon E5-2643 (3.3-GHz clock)."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "An SMC algorithm that can reproduce a laterally widespread low-dose region was developed. According to the comparison with a Geant4-based simulation, it was concluded that the modified SMC algorithm is useful for calculating dose of proton radiotherapy."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Taisuke",
+            "LastName": "Takayanagi",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Hitachi, Ltd., Research & Development Group, Center for Technology Innovation - Energy, Hitachi, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shusuke",
+            "LastName": "Hirayama",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Hitachi, Ltd., Research & Development Group, Center for Technology Innovation - Energy, Hitachi, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shinichiro",
+            "LastName": "Fujitaka",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Hitachi, Ltd., Research & Development Group, Center for Technology Innovation - Energy, Hitachi, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rintaro",
+            "LastName": "Fujimoto",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Hitachi, Ltd., Research & Development Group, Center for Technology Innovation - Energy, Hitachi, Japan."}
+          }
+        ]
+      },
+      "ArticleTitle": "A simplified Monte Carlo algorithm considering large-angle scattering for fast and accurate calculation of proton dose.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/acm2.12221"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Appl Clin Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1526-9914"
+        },
+        "Title": "Journal of applied clinical medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "dose calculation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "low dose halo"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "proton beam therapy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "simplified Monte Carlo"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 27
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29178595
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29178595,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/acm2.12221",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

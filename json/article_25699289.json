@@ -1,0 +1,362 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 524},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Ministry of Science and Technology, Taiwan",
+          "Country": "United States",
+          "GrantID": "106-2221-E-194 -056 -MY3"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "High-throughput sequencing offers higher throughput and lower cost for sequencing a genome. However, sequencing errors, including mismatches and indels, may be produced during sequencing. Because, errors may reduce the accuracy of subsequent de novo assembly, error correction is necessary prior to assembly. However, existing correction methods still face trade-offs among correction power, accuracy, and speed."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We develop a novel overlap-based error correction algorithm using FM-index (called FMOE). FMOE first identifies overlapping reads by aligning a query read simultaneously against multiple reads compressed by FM-index. Subsequently, sequencing errors are corrected by k-mer voting from overlapping reads only. The experimental results indicate that FMOE has highest correction power with comparable accuracy and speed. Our algorithm performs better in long-read than short-read datasets when compared with others. The assembly results indicated different algorithms has its own strength and weakness, whereas FMOE is good for long or good-quality reads."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "FMOE is freely available at https://github.com/ythuang0522/FMOC ."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yao-Ting",
+            "LastName": "Huang",
+            "Initials": "YT",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Information Engineering, National Chuang Cheng University, Chiayi, Taiwan. ythuang@cs.ccu.edu.tw."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yu-Wen",
+            "LastName": "Huang",
+            "Initials": "YW",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Information Engineering, National Chuang Cheng University, Chiayi, Taiwan."}
+          }
+        ]
+      },
+      "ArticleTitle": "An efficient error correction algorithm using FM-index.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1940-1"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 28
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "FM-index"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Next-generation sequencing"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(11):R116",
+        "PMID": {
+          "Version": 1,
+          "content": 21114842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2009;10(3):R32",
+        "PMID": {
+          "Version": 1,
+          "content": 19327155
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2011 Jul;21(7):1181-92",
+        "PMID": {
+          "Version": 1,
+          "content": 21482625
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014;15(11):509",
+        "PMID": {
+          "Version": 1,
+          "content": 25398208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Oct;30(19):2723-32",
+        "PMID": {
+          "Version": 1,
+          "content": 24919879
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 May 1;32(9):1301-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26755626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Nov 29;13(1):36-46",
+        "PMID": {
+          "Version": 1,
+          "content": 22124482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Jun 17;10(6):e0130821",
+        "PMID": {
+          "Version": 1,
+          "content": 26083032
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 May 15;30(10):1354-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24451628
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2012 Mar;22(3):549-56",
+        "PMID": {
+          "Version": 1,
+          "content": 22156294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Sep 1;25(17):2157-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19542152
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Mar 1;26(5):589-95",
+        "PMID": {
+          "Version": 1,
+          "content": 20080505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 Jun;19(6):1117-23",
+        "PMID": {
+          "Version": 1,
+          "content": 19251739
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jun 1;27(11):1455-61",
+        "PMID": {
+          "Version": 1,
+          "content": 21471014
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Feb 1;27(3):295-302",
+        "PMID": {
+          "Version": 1,
+          "content": 21115437
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 May 15;26(10):1284-90",
+        "PMID": {
+          "Version": 1,
+          "content": 20378555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Apr 15;29(8):1072-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23422339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Jul 15;29(14):1718-25",
+        "PMID": {
+          "Version": 1,
+          "content": 23665771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Jul 15;25(14):1754-60",
+        "PMID": {
+          "Version": 1,
+          "content": 19451168
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Feb 1;29(3):308-15",
+        "PMID": {
+          "Version": 1,
+          "content": 23202746
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Sep 1;30(17):i356-63",
+        "PMID": {
+          "Version": 1,
+          "content": 25161220
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Nov 1;31(21):3421-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26177965
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Next Gener Seq Appl. 2014;1:null",
+        "PMID": {
+          "Version": 1,
+          "content": 25699289
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29179672
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29179672,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1940-1",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1940-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5704532",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

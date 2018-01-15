@@ -1,0 +1,214 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "802-814"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The gap between the computational and semantic features is the one of major factors that bottlenecks the computer-aided diagnosis (CAD) performance from clinical usage. To bridge this gap, we exploit three multi-task learning (MTL) schemes to leverage heterogeneous computational features derived from deep learning models of stacked denoising autoencoder (SDAE) and convolutional neural network (CNN), as well as hand-crafted Haar-like and HoG features, for the description of 9 semantic features for lung nodules in CT images. We regard that there may exist relations among the semantic features of \"spiculation\", \"texture\", \"margin\", etc., that can be explored with the MTL. The Lung Image Database Consortium (LIDC) data is adopted in this study for the rich annotation resources. The LIDC nodules were quantitatively scored w.r.t. 9 semantic features from 12 radiologists of several institutes in U.S.A. By treating each semantic feature as an individual task, the MTL schemes select and map the heterogeneous computational features toward the radiologists' ratings with cross validation evaluation schemes on the randomly selected 2400 nodules from the LIDC dataset. The experimental results suggest that the predicted semantic scores from the three MTL schemes are closer to the radiologists' ratings than the scores from single-task LASSO and elastic net regression methods. The proposed semantic attribute scoring scheme may provide richer quantitative assessments of nodules for better support of diagnostic decision and management. Meanwhile, the capability of the automatic association of medical image contents with the clinical semantic terms by our method may also assist the development of medical search engine."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "LastName": "Sihong Chen"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Jing Qin"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Xing Ji"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Baiying Lei"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Tianfu Wang"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Dong Ni"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Jie-Zhi Cheng"
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic Scoring of Multiple Semantic Attributes With Multi-Task Feature Leverage: A Study on Pulmonary Nodules in CT Images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2016.2629462"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 36,
+          "PubDate": {
+            "Month": "03",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D008175",
+          "MajorTopicYN": "N",
+          "content": "Lung Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "N",
+        "content": "Neural Networks (Computer)"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003074",
+          "MajorTopicYN": "N",
+          "content": "Solitary Pulmonary Nodule"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "09"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113928
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113928,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2016.2629462",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

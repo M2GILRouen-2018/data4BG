@@ -1,0 +1,278 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9711057,
+      "Country": "Ireland",
+      "ISSNLinking": "1386-5056",
+      "MedlineTA": "Int J Med Inform"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1-10"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "Label": "OBJECTIVE",
+            "content": "Recognizing a need for our EHR to be highly interoperable, our team at Duke Health enabled our Epic-based electronic health record to be compatible with the Boston Children's project called Substitutable Medical Apps and Reusable Technologies (SMART), which employed Health Level Seven International's (HL7) Fast Healthcare Interoperability Resources (FHIR), commonly known as SMART on FHIR."
+          },
+          {
+            "Label": "METHODS",
+            "content": "We created a custom SMART on FHIR-compatible server infrastructure written in Node.js that served two primary functions. First, it handled API management activities such rate-limiting, authorization, auditing, logging, and analytics. Second, it retrieved the EHR data and made it available in a FHIR-compatible format. Finally, we made required changes to the EHR user interface to allow us to integrate several compatible apps into the provider- and patient-facing EHR workflows."
+          },
+          {
+            "Label": "RESULTS",
+            "content": "After integrating SMART on FHIR into our Epic-based EHR, we demonstrated several types of apps running on the infrastructure. This included both provider- and patient-facing apps as well as apps that are closed source, open source and internally-developed. We integrated the apps into the testing environment of our desktop EHR as well as our patient portal. We also demonstrated the integration of a native iOS app."
+          },
+          {
+            "Label": "CONCLUSION",
+            "content": "In this paper, we demonstrate the successful implementation of the SMART and FHIR technologies on our Epic-based EHR and subsequent integration of several compatible provider- and patient-facing apps."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Suffix": "Jr",
+            "ForeName": "Richard A",
+            "LastName": "Bloomfield",
+            "Initials": "RA",
+            "AffiliationInfo": {"Affiliation": "Duke Health Technology Solutions, 2424 Erwin Road, Suite 12053, Durham, NC 27705, USA. Electronic address: ricky.bloomfield@duke.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Felipe",
+            "LastName": "Polo-Wood",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Duke Health Technology Solutions, 3100 Tower Blvd. Office 270, Durham, NC 27707, USA. Electronic address: felipe.polowood@duke.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joshua C",
+            "LastName": "Mandel",
+            "Initials": "JC",
+            "AffiliationInfo": {"Affiliation": "Harvard Medical School, Department of Biomedical Informatics, 10 Shattuck St, Office 315B, Boston, MA 02115, USA. Electronic address: jmandel@med.harvard.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kenneth D",
+            "LastName": "Mandl",
+            "Initials": "KD",
+            "AffiliationInfo": {"Affiliation": "Boston Children's Hospital, Computational Health Informatics Program, 300 Longwood Avenue, 1 Autumn 535 Mail Stop BCH3187, Boston, MA 02115, USA. Electronic address: Kenneth_Mandl@harvard.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Opening the Duke electronic health record to apps: Implementing SMART on FHIR.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1386-5056(16)30273-8"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.ijmedinf.2016.12.005"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 99,
+          "PubDate": {
+            "Month": "03",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Int J Med Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-8243"
+        },
+        "Title": "International journal of medical informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "Y",
+          "content": "Electronic health records"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "HL7 FHIR"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Interoperability"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Software"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001900",
+        "MajorTopicYN": "N",
+        "content": "Boston"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000458",
+            "MajorTopicYN": "Y",
+            "content": "organization & administration"
+          },
+          {
+            "UI": "Q000592",
+            "MajorTopicYN": "Y",
+            "content": "standards"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D057286",
+          "MajorTopicYN": "N",
+          "content": "Electronic Health Records"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000592",
+          "MajorTopicYN": "Y",
+          "content": "standards"
+        },
+        "DescriptorName": {
+          "UI": "D066275",
+          "MajorTopicYN": "N",
+          "content": "Health Information Exchange"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000592",
+          "MajorTopicYN": "Y",
+          "content": "standards"
+        },
+        "DescriptorName": {
+          "UI": "D057208",
+          "MajorTopicYN": "N",
+          "content": "Health Level Seven"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D063731",
+        "MajorTopicYN": "Y",
+        "content": "Mobile Applications"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }},
+      {"DescriptorName": {
+        "UI": "D018511",
+        "MajorTopicYN": "N",
+        "content": "Systems Integration"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 19
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28118917
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28118917,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1386-5056(16)30273-8",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.ijmedinf.2016.12.005",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,132 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101609393,
+      "Country": "United States",
+      "ISSNLinking": "2168-2267",
+      "MedlineTA": "IEEE Trans Cybern"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1090-1101"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper introduces a new method to solve the cross-domain recognition problem. Different from the traditional domain adaption methods which rely on a global domain shift for all classes between the source and target domains, the proposed method is more flexible to capture individual class variations across domains. By adopting a natural and widely used assumption that the data samples from the same class should lay on an intrinsic low-dimensional subspace, even if they come from different domains, the proposed method circumvents the limitation of the global domain shift, and solves the cross-domain recognition by finding the joint subspaces of the source and target domains. Specifically, given labeled samples in the source domain, we construct a subspace for each of the classes. Then we construct subspaces in the target domain, called anchor subspaces, by collecting unlabeled samples that are close to each other and are highly likely to belong to the same class. The corresponding class label is then assigned by minimizing a cost function which reflects the overlap and topological structure consistency between subspaces across the source and target domains, and within the anchor subspaces, respectively. We further combine the anchor subspaces to the corresponding source subspaces to construct the joint subspaces. Subsequently, one-versus-rest support vector machine classifiers are trained using the data samples belonging to the same joint subspaces and applied to unlabeled data in the target domain. We evaluate the proposed method on two widely used datasets: 1) object recognition dataset for computer vision tasks and 2) sentiment classification dataset for natural language processing tasks. Comparison results demonstrate that the proposed method outperforms the comparison methods on both datasets."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "LastName": "Yuewei Lin"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Jing Chen"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Yu Cao"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Youjie Zhou"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Lingfeng Zhang"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Yuan Yan Tang"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Song Wang"
+          }
+        ]
+      },
+      "ArticleTitle": "Cross-Domain Recognition by Identifying Joint Subspaces of Source Domain and Target Domain.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TCYB.2016.2538199"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 47,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Cybern",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2168-2275"
+        },
+        "Title": "IEEE transactions on cybernetics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113882
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113882,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TCYB.2016.2538199",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

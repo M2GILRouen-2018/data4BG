@@ -1,0 +1,122 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "678-691"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Frame rate up conversion (FRUC) can improve the visual quality by interpolating new intermediate frames. However, high frame rate videos by FRUC are confronted with more bitrate consumption or annoying artifacts of interpolated frames. In this paper, a novel integration framework of FRUC and high efficiency video coding (HEVC) is proposed based on rate-distortion optimization, and the interpolated frames can be reconstructed at encoder side with low bitrate cost and high visual quality. First, joint motion estimation (JME) algorithm is proposed to obtain robust motion vectors, which are shared between FRUC and video coding. What's more, JME is embedded into the coding loop and employs the original motion search strategy in HEVC coding. Then, the frame interpolation is formulated as a rate-distortion optimization problem, where both the coding bitrate consumption and visual quality are taken into account. Due to the absence of original frames, the distortion model for interpolated frames is established according to the motion vector reliability and coding quantization error. Experimental results demonstrate that the proposed framework can achieve 21% ~ 42% reduction in BDBR, when compared with the traditional methods of FRUC cascaded with coding."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guo",
+            "LastName": "Lu",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaoyun",
+            "LastName": "Zhang",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Li",
+            "LastName": "Chen",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhiyong",
+            "LastName": "Gao",
+            "Initials": "Z"
+          }
+        ]
+      },
+      "ArticleTitle": "Novel Integration of Frame Rate Up Conversion and HEVC Coding Based on Rate-Distortion Optimization.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2017.2767782"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 27,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29185986
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29185986,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2017.2767782",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

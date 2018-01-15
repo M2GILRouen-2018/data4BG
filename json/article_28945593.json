@@ -1,0 +1,153 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "38-49"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper proposes a deep learning model to efficiently detect salient regions in videos. It addresses two important issues: 1) deep video saliency model training with the absence of sufficiently large and pixel-wise annotated video data and 2) fast video saliency training and detection. The proposed deep video saliency network consists of two modules, for capturing the spatial and temporal saliency information, respectively. The dynamic saliency model, explicitly incorporating saliency estimates from the static saliency model, directly produces spatiotemporal saliency inference without time-consuming optical flow computation. We further propose a novel data augmentation technique that simulates video training data from existing annotated image data sets, which enables our network to learn diverse saliency information and prevents overfitting with the limited number of training videos. Leveraging our synthetic video data (150K video sequences) and real videos, our deep video saliency model successfully learns both spatial and temporal saliency cues, thus producing accurate spatiotemporal saliency estimate. We advance the state-of-the-art on the densely annotated video segmentation data set (MAE of .06) and the Freiburg-Berkeley Motion Segmentation data set (MAE of .07), and do so with much improved speed (2 fps with all steps).This paper proposes a deep learning model to efficiently detect salient regions in videos. It addresses two important issues: 1) deep video saliency model training with the absence of sufficiently large and pixel-wise annotated video data and 2) fast video saliency training and detection. The proposed deep video saliency network consists of two modules, for capturing the spatial and temporal saliency information, respectively. The dynamic saliency model, explicitly incorporating saliency estimates from the static saliency model, directly produces spatiotemporal saliency inference without time-consuming optical flow computation. We further propose a novel data augmentation technique that simulates video training data from existing annotated image data sets, which enables our network to learn diverse saliency information and prevents overfitting with the limited number of training videos. Leveraging our synthetic video data (150K video sequences) and real videos, our deep video saliency model successfully learns both spatial and temporal saliency cues, thus producing accurate spatiotemporal saliency estimate. We advance the state-of-the-art on the densely annotated video segmentation data set (MAE of .06) and the Freiburg-Berkeley Motion Segmentation data set (MAE of .07), and do so with much improved speed (2 fps with all steps)."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wenguan",
+            "LastName": "Wang",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Beijing Laboratory of Intelligent Information Technology, School of Computer Science, Beijing Institute of Technology, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jianbing",
+            "LastName": "Shen",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Beijing Laboratory of Intelligent Information Technology, School of Computer Science, Beijing Institute of Technology, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ling",
+            "LastName": "Shao",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "School of Computing Sciences, University of East Anglia, Norwich, U.K."}
+          }
+        ]
+      },
+      "ArticleTitle": "Video Salient Object Detection via Fully Convolutional Networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2017.2754941"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 27,
+          "PubDate": {"MedlineDate": "2018 Jan."},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Computational modeling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Computer vision"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Object detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Optical imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Spatiotemporal phenomena"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Training"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28945593
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28945593,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 8047320,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1109/TIP.2017.2754941",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

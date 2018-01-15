@@ -1,0 +1,227 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401220",
+      "Country": "England",
+      "ISSNLinking": "0031-9155",
+      "MedlineTA": "Phys Med Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 28
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1327-1341"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Radio-opaque fiducial markers of different shapes are often implanted in or near abdominal or thoracic tumors to act as surrogates for the tumor position during radiotherapy. They can be used for real-time treatment adaptation, but this requires a robust, automatic segmentation method able to handle arbitrarily shaped markers in a rotational imaging geometry such as cone-beam computed tomography (CBCT) projection images and intra-treatment images. In this study, we propose a fully automatic dynamic programming (DP) assisted template-based (TB) segmentation method. Based on an initial DP segmentation, the DPTB algorithm generates and uses a 3D marker model to create 2D templates at any projection angle. The 2D templates are used to segment the marker position as the position with highest normalized cross-correlation in a search area centered at the DP segmented position. The accuracy of the DP algorithm and the new DPTB algorithm was quantified as the 2D segmentation error (pixels) compared to a manual ground truth segmentation for 97 markers in the projection images of CBCT scans of 40 patients. Also the fraction of wrong segmentations, defined as 2D errors larger than 5 pixels, was calculated. The mean 2D segmentation error of DP was reduced from 4.1 pixels to 3.0 pixels by DPTB, while the fraction of wrong segmentations was reduced from 17.4% to 6.8%. DPTB allowed rejection of uncertain segmentations as deemed by a low normalized cross-correlation coefficient and contrast-to-noise ratio. For a rejection rate of 9.97%, the sensitivity in detecting wrong segmentations was 67% and the specificity was 94%. The accepted segmentations had a mean segmentation error of 1.8 pixels and 2.5% wrong segmentations."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "J",
+            "LastName": "Bertholet",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Oncology, Aarhus University Hospital, Aarhus, Denmark."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "H",
+            "LastName": "Wan",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "J",
+            "LastName": "Toftegaard",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "M L",
+            "LastName": "Schmidt",
+            "Initials": "ML"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "F",
+            "LastName": "Chotard",
+            "Initials": "F"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "P J",
+            "LastName": "Parikh",
+            "Initials": "PJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "P R",
+            "LastName": "Poulsen",
+            "Initials": "PR"
+          }
+        ]
+      },
+      "ArticleTitle": "Fully automatic segmentation of arbitrarily shaped fiducial markers in cone-beam CT projections.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1361-6560/aa52f7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 62,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-6560"
+        },
+        "Title": "Physics in medicine and biology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "N",
+        "content": "Automation"
+      }},
+      {"DescriptorName": {
+        "UI": "D062485",
+        "MajorTopicYN": "N",
+        "content": "Breath Holding"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D054893",
+          "MajorTopicYN": "N",
+          "content": "Cone-Beam Computed Tomography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D057918",
+        "MajorTopicYN": "Y",
+        "content": "Fiducial Markers"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012372",
+        "MajorTopicYN": "N",
+        "content": "ROC Curve"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114115
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114115,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1361-6560/aa52f7",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

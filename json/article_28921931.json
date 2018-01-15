@@ -1,0 +1,205 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "6647-6653"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Full integration of EPID-based dosimetry in a global quality control workflow is still complicated. All the actual solutions are based on a relation between image gray-level signal and total linac-delivered dose. In this study, we propose a simple algorithm relying pixel gray-level of EPID image with average linac delivered dose per acquisition frame."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Calibration models are constructed for Varian and Elekta linacs including scattering conditions and EPID-arm backscatter-specific corrections. Only simple homogeneous fields are required to establish the EPID dose conversion model for each x-ray beam. Then, the model was evaluated by comparing calculated and converted dose distributions for homogeneous and modulated beams using gamma maps."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "To fit average dose per frame (Dfnorm ) vs pixel gray value (Ngnorm ) of each EPID image, a logarithmic curve Dfnorm=A+B∗lnNgnorm-C, has been chosen where A, B and C are constants depending on beam energy. Gamma comparison (2%, 2 mm, threshold 15%) between converted images and calculated dose distributions for linac control and pretreatment patient fields led to a gamma pass rate higher than 97% for all the analyzed fields."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Without a prior irradiation settings knowledge except the incident energy beam, we use EPID as a reliable dose to water detector for both homogeneous and modulated beams."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christine",
+            "LastName": "Boutry",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Radiotherapy, Oncorad Garonne, 330 Avenue Marcel UNAL, 82000, Montauban, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aurélie",
+            "LastName": "Sors",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Radiotherapy, Oncorad Garonne, 330 Avenue Marcel UNAL, 82000, Montauban, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jimmy",
+            "LastName": "Fontaine",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Medical Physics, Institut de Cancérologie de l'Ouest Centre René Gauducheau, 44805, Saint-Herblain, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nolwenn",
+            "LastName": "Delaby",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Medical Physics, Centre Eugène Marquis, 35000, Rennes, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gregory",
+            "LastName": "Delpon",
+            "Initials": "G",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Medical Physics, Institut de Cancérologie de l'Ouest Centre René Gauducheau, 44805, Saint-Herblain, France."},
+              {"Affiliation": "INSERM UMR 1232, IRS UN, 8 quai Moncousu, 44007, Nantes, France."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Technical Note: A simple algorithm to convert EPID gray values into absorbed dose to water without prior knowledge.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12587"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "EPID"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "dose verification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "portal dosimetry"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "radiotherapy QA"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28921931
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28921931,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12587",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

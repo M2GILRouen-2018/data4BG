@@ -1,0 +1,786 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "3-63"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIEHS NIH HHS",
+          "Country": "United States",
+          "GrantID": "P30 ES017885",
+          "Acronym": "ES"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "INTRODUCTION",
+          "content": "Emission sources of volatile organic compounds (VOCs*) are numerous and widespread in both indoor and outdoor environments. Concentrations of VOCs indoors typically exceed outdoor levels, and most people spend nearly 90% of their time indoors. Thus, indoor sources generally contribute the majority of VOC exposures for most people. VOC exposure has been associated with a wide range of acute and chronic health effects; for example, asthma, respiratory diseases, liver and kidney dysfunction, neurologic impairment, and cancer. Although exposures to most VOCs for most persons fall below health-based guidelines, and long-term trends show decreases in ambient emissions and concentrations, a subset of individuals experience much higher exposures that exceed guidelines. Thus, exposure to VOCs remains an important environmental health concern. The present understanding of VOC exposures is incomplete. With the exception of a few compounds, concentration and especially exposure data are limited; and like other environmental data, VOC exposure data can show multiple modes, low and high extreme values, and sometimes a large portion of data below method detection limits (MDLs). Field data also show considerable spatial or interpersonal variability, and although evidence is limited, temporal variability seems high. These characteristics can complicate modeling and other analyses aimed at risk assessment, policy actions, and exposure management. In addition to these analytic and statistical issues, exposure typically occurs as a mixture, and mixture components may interact or jointly contribute to adverse effects. However most pollutant regulations, guidelines, and studies remain focused on single compounds, and thus may underestimate cumulative exposures and risks arising from coexposures. In addition, the composition of VOC mixtures has not been thoroughly investigated, and mixture components show varying and complex dependencies. Finally, although many factors are known to affect VOC exposures, many personal, environmental, and socioeconomic determinants remain to be identified, and the significance and applicability of the determinants reported in the literature are uncertain. To help answer these unresolved questions and overcome limitations of previous analyses, this project used several novel and powerful statistical modeling and analysis techniques and two large data sets. The overall objectives of this project were (1) to identify and characterize exposure distributions (including extreme values), (2) evaluate mixtures (including dependencies), and (3) identify determinants of VOC exposure. METHODS VOC data were drawn from two large data sets: the Relationships of Indoor, Outdoor, and Personal Air (RIOPA) study (1999-2001) and the National Health and Nutrition Examination Survey (NHANES; 1999-2000). The RIOPA study used a convenience sample to collect outdoor, indoor, and personal exposure measurements in three cities (Elizabeth, NJ; Houston, TX; Los Angeles, CA). In each city, approximately 100 households with adults and children who did not smoke were sampled twice for 18 VOCs. In addition, information about 500 variables associated with exposure was collected. The NHANES used a nationally representative sample and included personal VOC measurements for 851 participants. NHANES sampled 10 VOCs in common with RIOPA. Both studies used similar sampling methods and study periods. Specific Aim 1. To estimate and model extreme value exposures, extreme value distribution models were fitted to the top 10% and 5% of VOC exposures. Health risks were estimated for individual VOCs and for three VOC mixtures. Simulated extreme value data sets, generated for each VOC and for fitted extreme value and lognormal distributions, were compared with measured concentrations (RIOPA observations) to evaluate each model's goodness of fit. Mixture distributions were fitted with the conventional finite mixture of normal distributions and the semi-parametric Dirichlet process mixture (DPM) of normal distributions for three individual VOCs (chloroform, 1,4-DCB, and styrene). Goodness of fit for these full distribution models was also evaluated using simulated data. Specific Aim 2. Mixtures in the RIOPA VOC data set were identified using positive matrix factorization (PMF) and by toxicologic mode of action. Dependency structures of a mixture's components were examined using mixture fractions and were modeled using copulas, which address correlations of multiple components across their entire distributions. Five candidate copulas (Gaussian, t, Gumbel, Clayton, and Frank) were evaluated, and the performance of fitted models was evaluated using simulation and mixture fractions. Cumulative cancer risks were calculated for mixtures, and results from copulas and multivariate lognormal models were compared with risks based on RIOPA observations. Specific Aim 3. Exposure determinants were identified using stepwise regressions and linear mixed-effects models (LMMs)."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Specific Aim 1. Extreme value exposures in RIOPA typically were best fitted by three-parameter generalized extreme value (GEV) distributions, and sometimes by the two-parameter Gumbel distribution. In contrast, lognormal distributions significantly underestimated both the level and likelihood of extreme values. Among the VOCs measured in RIOPA, 1,4-dichlorobenzene (1,4-DCB) was associated with the greatest cancer risks; for example, for the highest 10% of measurements of 1,4-DCB, all individuals had risk levels above 10(-4), and 13% of all participants had risk levels above 10(-2). Of the full-distribution models, the finite mixture of normal distributions with two to four clusters and the DPM of normal distributions had superior performance in comparison with the lognormal models. DPM distributions provided slightly better fit than the finite mixture distributions; the advantages of the DPM model were avoiding certain convergence issues associated with the finite mixture distributions, adaptively selecting the number of needed clusters, and providing uncertainty estimates. Although the results apply to the RIOPA data set, GEV distributions and mixture models appear more broadly applicable. These models can be used to simulate VOC distributions, which are neither normally nor lognormally distributed, and they accurately represent the highest exposures, which may have the greatest health significance. Specific Aim 2. Four VOC mixtures were identified and apportioned by PMF; they represented gasoline vapor, vehicle exhaust, chlorinated solvents and disinfection byproducts, and cleaning products and odorants. The last mixture (cleaning products and odorants) accounted for the largest fraction of an individual's total exposure (average of 42% across RIOPA participants). Often, a single compound dominated a mixture but the mixture fractions were heterogeneous; that is, the fractions of the compounds changed with the concentration of the mixture. Three VOC mixtures were identified by toxicologic mode of action and represented VOCs associated with hematopoietic, liver, and renal tumors. Estimated lifetime cumulative cancer risks exceeded 10(-3) for about 10% of RIOPA participants. The dependency structures of the VOC mixtures in the RIOPA data set fitted Gumbel (two mixtures) and t copulas (four mixtures). These copula types emphasize dependencies found in the upper and lower tails of a distribution. The copulas reproduced both risk predictions and exposure fractions with a high degree of accuracy and performed better than multivariate lognormal distributions. Specific Aim 3. In an analysis focused on the home environment and the outdoor (close to home) environment, home VOC concentrations dominated personal exposures (66% to 78% of the total exposure, depending on VOC); this was largely the result of the amount of time participants spent at home and the fact that indoor concentrations were much higher than outdoor concentrations for most VOCs. In a different analysis focused on the sources inside the home and outside (but close to the home), it was assumed that 100% of VOCs from outside sources would penetrate the home. Outdoor VOC sources accounted for 5% (d-limonene) to 81% (carbon tetrachloride [CTC]) of the total exposure. Personal exposure and indoor measurements had similar determinants depending on the VOC. Gasoline-related VOCs (e.g., benzene and methyl tert-butyl ether [MTBE]) were associated with city, residences with attached garages, pumping gas, wind speed, and home air exchange rate (AER). Odorant and cleaning-related VOCs (e.g., 1,4-DCB and chloroform) also were associated with city, and a residence's AER, size, and family members showering. Dry-cleaning and industry-related VOCs (e.g., tetrachloroethylene [or perchloroethylene, PERC] and trichloroethylene [TCE]) were associated with city, type of water supply to the home, and visits to the dry cleaner. These and other relationships were significant, they explained from 10% to 40% of the variance in the measurements, and are consistent with known emission sources and those reported in the literature. Outdoor concentrations of VOCs had only two determinants in common: city and wind speed. Overall, personal exposure was dominated by the home setting, although a large fraction of indoor VOC concentrations were due to outdoor sources. City of residence, personal activities, household characteristics, and meteorology were significant determinants. Concentrations in RIOPA were considerably lower than levels in the nationally representative NHANES for all VOCs except MTBE and 1,4-DCB. Differences between RIOPA and NHANES results can be explained by contrasts between the sampling designs and staging in the two studies, and by differences in the demographics, smoking, employment, occupations, and home locations. (ABSTRACT TRUNCATED)"
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stuart",
+            "LastName": "Batterman",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Feng-Chiao",
+            "LastName": "Su",
+            "Initials": "FC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shi",
+            "LastName": "Li",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bhramar",
+            "LastName": "Mukherjee",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chunrong",
+            "LastName": "Jia",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "CollectiveName": "HEI Health Review Committee"
+          }
+        ]
+      },
+      "ArticleTitle": "Personal exposure to mixtures of volatile organic compounds: modeling and further analysis of the RIOPA data.",
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 181,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2014
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Res Rep Health Eff Inst",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1041-5505"
+        },
+        "Title": "Research report (Health Effects Institute)"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2014,
+      "Day": 22
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2000 Jun;56(2):519-27",
+        "PMID": {
+          "Version": 1,
+          "content": 10877312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Environ Monit. 2010 Feb;12(2):524-35",
+        "PMID": {
+          "Version": 1,
+          "content": 20145896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Int. 2014 Feb;63:236-45",
+        "PMID": {
+          "Version": 1,
+          "content": 24333991
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Indoor Air. 2002 Mar;12(1):55-63",
+        "PMID": {
+          "Version": 1,
+          "content": 11951711
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Sci Technol. 2002 Dec 15;36(24):5405-10",
+        "PMID": {
+          "Version": 1,
+          "content": 12521168
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Total Environ. 2001 Mar 26;269(1-3):25-37",
+        "PMID": {
+          "Version": 1,
+          "content": 11305341
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Res. 1989 Oct;50(1):37-55",
+        "PMID": {
+          "Version": 1,
+          "content": 2792060
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Food Chem Toxicol. 2006 Jul;44(7):994-1005",
+        "PMID": {
+          "Version": 1,
+          "content": 16457929
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Int. 2010 Apr;36(3):281-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20097422
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Health Perspect. 2006 Oct;114(10):1558-66",
+        "PMID": {
+          "Version": 1,
+          "content": 17035143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Health Perspect. 1991 Nov;95:81-3",
+        "PMID": {
+          "Version": 1,
+          "content": 1821384
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Res Rep Health Eff Inst. 2005 Nov;(130 Pt 1):1-107; discussion 109-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16454009
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Expo Sci Environ Epidemiol. 2006 Jul;16(4):321-31",
+        "PMID": {
+          "Version": 1,
+          "content": 16538235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biom J. 2009 Apr;51(2):252-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19358216
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Expo Anal Environ Epidemiol. 2005 Mar;15(2):123-37",
+        "PMID": {
+          "Version": 1,
+          "content": 15213705
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2001 Sep;57(3):681-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11550915
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Sci Technol. 2007 Nov 1;41(21):7315-21",
+        "PMID": {
+          "Version": 1,
+          "content": 18044505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Atmos Environ (1994). 2013 Oct;77:null",
+        "PMID": {
+          "Version": 1,
+          "content": 24348086
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Toxicol Suppl. 1998;20:363-73",
+        "PMID": {
+          "Version": 1,
+          "content": 9442308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Atmos Environ (1994). 2011 Sep;45(28):4858-4867",
+        "PMID": {
+          "Version": 1,
+          "content": 25705111
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Sci Technol. 2008 May 15;42(10):3732-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18546715
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Food Chem Toxicol. 2004 Aug;42(8):1349-58",
+        "PMID": {
+          "Version": 1,
+          "content": 15207386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Total Environ. 2011 Feb 15;409(6):1058-68",
+        "PMID": {
+          "Version": 1,
+          "content": 21211823
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Indoor Air. 2011 Jun;21(3):205-18",
+        "PMID": {
+          "Version": 1,
+          "content": 21281360
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Expo Anal Environ Epidemiol. 2001 Jul-Aug;11(4):295-307",
+        "PMID": {
+          "Version": 1,
+          "content": 11571609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Pollut. 2012 Oct;169:152-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21995872
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Toxicol Chem. 2011 Nov;30(11):2481-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21898565
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Indoor Air. 2012 Aug;22(4):266-78",
+        "PMID": {
+          "Version": 1,
+          "content": 22145682
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Total Environ. 1998 Apr 23;215(1-2):135-56",
+        "PMID": {
+          "Version": 1,
+          "content": 9599458
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Stat Softw. 2011 Apr 1;40(5):1-30",
+        "PMID": {
+          "Version": 1,
+          "content": 21796263
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Risk Anal. 2000 Apr;20(2):261-71",
+        "PMID": {
+          "Version": 1,
+          "content": 10859785
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Occup Hyg. 2009 Apr;53(3):249-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19181626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2005 Jul 15;24(13):2053-67",
+        "PMID": {
+          "Version": 1,
+          "content": 15803450
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Res Rep Health Eff Inst. 2007 Aug;(130 Pt 2):1-77; discussion 79-92",
+        "PMID": {
+          "Version": 1,
+          "content": 18064946
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Expo Anal Environ Epidemiol. 2001 May-Jun;11(3):231-52",
+        "PMID": {
+          "Version": 1,
+          "content": 11477521
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Atmos Environ (1994). 2009 Nov;43(36):5750-5758",
+        "PMID": {
+          "Version": 1,
+          "content": 20339526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Toxicol Environ Health A. 2007 Mar 1;70(5):465-76",
+        "PMID": {
+          "Version": 1,
+          "content": 17454570
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Allergy Asthma Rep. 2009 Mar;9(2):128-33",
+        "PMID": {
+          "Version": 1,
+          "content": 19210902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Expo Sci Environ Epidemiol. 2009 Mar;19(3):248-59",
+        "PMID": {
+          "Version": 1,
+          "content": 18335002
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Res. 2013 Oct;126:192-203",
+        "PMID": {
+          "Version": 1,
+          "content": 24034784
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Health Perspect. 2004 Dec;112(17):1691-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15579415
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Indoor Air. 2013 Feb;23(1):40-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22725685
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Health Perspect. 2006 Apr;114(4):514-21",
+        "PMID": {
+          "Version": 1,
+          "content": 16581538
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Toxicol Appl Pharmacol. 2004 Dec 1;201(2):85-96",
+        "PMID": {
+          "Version": 1,
+          "content": 15541748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Int. 2008 Oct;34(7):922-31",
+        "PMID": {
+          "Version": 1,
+          "content": 18378311
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Indoor Air. 2006 Jun;16(3):179-91",
+        "PMID": {
+          "Version": 1,
+          "content": 16683937
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Environ Radioact. 2008 Apr;99(4):649-57",
+        "PMID": {
+          "Version": 1,
+          "content": 17964698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Pollut. 2011 Oct;159(10):2310-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21616570
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chemosphere. 2007 Jan;66(3):533-41",
+        "PMID": {
+          "Version": 1,
+          "content": 16837022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann N Y Acad Sci. 1992 Apr 30;641:79-86",
+        "PMID": {
+          "Version": 1,
+          "content": 1580483
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Health Perspect. 1997 Aug;105(8):850-5",
+        "PMID": {
+          "Version": 1,
+          "content": 9347900
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Toxicol Ind Health. 1998 May-Jun;14(3):429-54",
+        "PMID": {
+          "Version": 1,
+          "content": 9569448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Res Nurs. 2004 Oct;6(2):151-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15388912
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Atmos Environ (1994). 2012 Dec 1;62:97-106",
+        "PMID": {
+          "Version": 1,
+          "content": 25705112
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Res. 2007 Jun;104(2):224-40",
+        "PMID": {
+          "Version": 1,
+          "content": 17350611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Health Perspect. 2002 Aug;110 Suppl 4:539-46",
+        "PMID": {
+          "Version": 1,
+          "content": 12194883
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Rev Environ Health. 2007 Jan-Mar;22(1):39-55",
+        "PMID": {
+          "Version": 1,
+          "content": 17508697
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Indoor Air. 2007 Aug;17(4):259-77",
+        "PMID": {
+          "Version": 1,
+          "content": 17661923
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Toxicol Environ Health A. 2009;72(14):915-24",
+        "PMID": {
+          "Version": 1,
+          "content": 19557620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Health Perspect. 2009 Oct;117(10):1571-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20019908
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS706229"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC4577247"
+      }
+    ],
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8812230,
+      "Country": "United States",
+      "ISSNLinking": "1041-5505",
+      "MedlineTA": "Res Rep Health Eff Inst"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D000393",
+          "content": "Air Pollutants"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D052638",
+          "content": "Particulate Matter"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D055549",
+          "content": "Volatile Organic Compounds"
+        },
+        "RegistryNumber": 0
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2014,
+      "Day": 22
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000032",
+            "MajorTopicYN": "Y",
+            "content": "analysis"
+          },
+          {
+            "UI": "Q000633",
+            "MajorTopicYN": "N",
+            "content": "toxicity"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D000393",
+          "MajorTopicYN": "N",
+          "content": "Air Pollutants"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000009",
+            "MajorTopicYN": "N",
+            "content": "adverse effects"
+          },
+          {
+            "UI": "Q000032",
+            "MajorTopicYN": "Y",
+            "content": "analysis"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D004781",
+          "MajorTopicYN": "N",
+          "content": "Environmental Exposure"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D009749",
+        "MajorTopicYN": "N",
+        "content": "Nutrition Surveys"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000032",
+            "MajorTopicYN": "N",
+            "content": "analysis"
+          },
+          {
+            "UI": "Q000633",
+            "MajorTopicYN": "N",
+            "content": "toxicity"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D052638",
+          "MajorTopicYN": "N",
+          "content": "Particulate Matter"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012307",
+        "MajorTopicYN": "N",
+        "content": "Risk Factors"
+      }},
+      {"DescriptorName": {
+        "Type": "Geographic",
+        "UI": "D014481",
+        "MajorTopicYN": "N",
+        "content": "United States"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000032",
+            "MajorTopicYN": "Y",
+            "content": "analysis"
+          },
+          {
+            "UI": "Q000633",
+            "MajorTopicYN": "N",
+            "content": "toxicity"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D055549",
+          "MajorTopicYN": "N",
+          "content": "Volatile Organic Compounds"
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 25145040
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25145040,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "PMC4577247",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS706229",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

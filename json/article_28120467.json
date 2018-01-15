@@ -1,0 +1,323 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1-e42"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCI NIH HHS",
+          "Country": "United States",
+          "GrantID": "P30 CA008748",
+          "Acronym": "CA"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "The purpose of this educational report is to provide an overview of the present state-of-the-art PET auto-segmentation (PET-AS) algorithms and their respective validation, with an emphasis on providing the user with help in understanding the challenges and pitfalls associated with selecting and implementing a PET-AS algorithm for a particular application."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "APPROACH",
+            "content": "A brief description of the different types of PET-AS algorithms is provided using a classification based on method complexity and type. The advantages and the limitations of the current PET-AS algorithms are highlighted based on current publications and existing comparison studies. A review of the available image datasets and contour evaluation metrics in terms of their applicability for establishing a standardized evaluation of PET-AS algorithms is provided. The performance requirements for the algorithms and their dependence on the application, the radiotracer used and the evaluation criteria are described and discussed. Finally, a procedure for algorithm acceptance and implementation, as well as the complementary role of manual and auto-segmentation are addressed."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "FINDINGS",
+            "content": "A large number of PET-AS algorithms have been developed within the last 20 years. Many of the proposed algorithms are based on either fixed or adaptively selected thresholds. More recently, numerous papers have proposed the use of more advanced image analysis paradigms to perform semi-automated delineation of the PET images. However, the level of algorithm validation is variable and for most published algorithms is either insufficient or inconsistent which prevents recommending a single algorithm. This is compounded by the fact that realistic image configurations with low signal-to-noise ratios (SNR) and heterogeneous tracer distributions have rarely been used. Large variations in the evaluation methods used in the literature point to the need for a standardized evaluation protocol."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Available comparison studies suggest that PET-AS algorithms relying on advanced image analysis paradigms provide generally more accurate segmentation than approaches based on PET activity thresholds, particularly for realistic configurations. However, this may not be the case for simple shape lesions in situations with a narrower range of parameters, where simpler methods may also perform well. Recent algorithms which employ some type of consensus or automatic selection between several PET-AS methods have potential to overcome the limitations of the individual methods when appropriately trained. In either case, accuracy evaluation is required for each different PET scanner and scanning and image reconstruction protocol. For the simpler, less robust approaches, adaptation to scanning conditions, tumor type, and tumor location by optimization of parameters is necessary. The results from the method evaluation stage can be used to estimate the contouring uncertainty. All PET-AS contours should be critically verified by a physician. A standard test, i.e., a benchmark dedicated to evaluating both existing and future PET-AS algorithms needs to be designed, to aid clinicians in evaluating and selecting PET-AS algorithms and to establish performance limits for their acceptance for clinical use. The initial steps toward designing and building such a standard are undertaken by the task group members."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mathieu",
+            "LastName": "Hatt",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "INSERM, UMR 1101, LaTIM, University of Brest, IBSAM, Brest, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John A",
+            "LastName": "Lee",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Université catholique de Louvain (IREC/MIRO) & FNRS, Brussels, 1200, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Charles R",
+            "LastName": "Schmidtlein",
+            "Initials": "CR",
+            "AffiliationInfo": {"Affiliation": "Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Issam El",
+            "LastName": "Naqa",
+            "Initials": "IE",
+            "AffiliationInfo": {"Affiliation": "University of Michigan, Ann Arbor, MI, 48103, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Curtis",
+            "LastName": "Caldwell",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Sunnybrook Health Sciences Center, Toronto, ON, M4N 3M5, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elisabetta",
+            "LastName": "De Bernardi",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "University of Milano-Bicocca, Monza, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Lu",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shiva",
+            "LastName": "Das",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "University of North Carolina, Chapel Hill, NC, 27599, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xavier",
+            "LastName": "Geets",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Université catholique de Louvain (IREC/MIRO) & FNRS, Brussels, 1200, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vincent",
+            "LastName": "Gregoire",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Université catholique de Louvain (IREC/MIRO) & FNRS, Brussels, 1200, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert",
+            "LastName": "Jeraj",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "University of Wisconsin, Madison, WI, 53705, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael P",
+            "LastName": "MacManus",
+            "Initials": "MP",
+            "AffiliationInfo": {"Affiliation": "Peter MacCallum Cancer Centre, Melbourne, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Osama R",
+            "LastName": "Mawlawi",
+            "Initials": "OR",
+            "AffiliationInfo": {"Affiliation": "MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ursula",
+            "LastName": "Nestle",
+            "Initials": "U",
+            "AffiliationInfo": {"Affiliation": "Universitätsklinikum Freiburg, Freiburg, 79106, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrei B",
+            "LastName": "Pugachev",
+            "Initials": "AB",
+            "AffiliationInfo": {"Affiliation": "University of Texas Southwestern Medical Center, Dallas, TX, 75390, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Heiko",
+            "LastName": "Schöder",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tony",
+            "LastName": "Shepherd",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Turku University Hospital, Turku, 20521, Finland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emiliano",
+            "LastName": "Spezi",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "School of Engineering, Cardiff University, Cardiff, Wales, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dimitris",
+            "LastName": "Visvikis",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "INSERM, UMR 1101, LaTIM, University of Brest, IBSAM, Brest, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Habib",
+            "LastName": "Zaidi",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Geneva University Hospital, Geneva, CH-1211, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Assen S",
+            "LastName": "Kirov",
+            "Initials": "AS",
+            "AffiliationInfo": {"Affiliation": "Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Classification and evaluation strategies of auto-segmentation approaches for PET: Report of AAPM task group No. 211.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12124"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "PET segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PET/CT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "treatment assessment"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "treatment planning"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 12
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28120467
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": "09",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28120467,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12124",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

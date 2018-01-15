@@ -1,0 +1,368 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8806104,
+      "Country": "United States",
+      "ISSNLinking": "0895-6111",
+      "MedlineTA": "Comput Med Imaging Graph"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2014,
+      "Day": 30
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "104-12"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2013 Elsevier Ltd. All rights reserved.",
+        "AbstractText": "Coronary artery disease leads to failure of coronary circulation secondary to accumulation of atherosclerotic plaques. In adjunction to primary imaging of such vascular plaques using coronary angiography or alternatively magnetic resonance imaging, intravascular ultrasound (IVUS) is used predominantly for diagnosis and reporting of their vulnerability. In addition to plaque burden estimation, necrosis detection is an important aspect in reporting of IVUS. Since necrotic regions generally appear as hypoechic, with speckle appearance in these regions resembling true shadows or severe signal dropout regions, it contributes to variability in diagnosis. This dilemma in clinical assessment of necrosis imaged with IVUS is addressed in this work. In our approach, fidelity of the backscattered ultrasonic signal received by the imaging transducer is initially estimated. This is followed by identification of true necrosis using statistical physics of ultrasonic backscattering. A random forest machine learning framework is used for the purpose of learning the parameter space defining ultrasonic backscattering distributions related to necrotic regions and discriminating it from non-necrotic shadows. Evidence of hunting down true necrosis in shadows of intravascular ultrasound is presented with ex vivo experiments along with cross-validation using ground truth obtained from histology. Nevertheless, in some rare cases necrosis is marginally over-estimated, primarily on account of non-reliable statistics estimation. This limitation is due to sparse spatial sampling between neighboring scan-lines at location far from the transducer. We suggest considering the geometrical location of detected necrosis together with estimated signal confidence during clinical decision making in view of such limitation."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Debdoot",
+            "LastName": "Sheet",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Computer Aided Medical Procedures, Technische Universität München, Germany; School of Medical Science and Technology, Indian Institute of Technology Kharagpur, India. Electronic address: debdoot@smst.iitkgp.ernet.in."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Athanasios",
+            "LastName": "Karamalis",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Computer Aided Medical Procedures, Technische Universität München, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Abouzar",
+            "LastName": "Eslami",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Computer Aided Medical Procedures, Technische Universität München, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter",
+            "LastName": "Noël",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Technische Universität München, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Renu",
+            "LastName": "Virmani",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "CVPath Institute, Gaithersburg, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Masataka",
+            "LastName": "Nakano",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "CVPath Institute, Gaithersburg, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jyotirmoy",
+            "LastName": "Chatterjee",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Medical Science and Technology, Indian Institute of Technology Kharagpur, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ajoy K",
+            "LastName": "Ray",
+            "Initials": "AK",
+            "AffiliationInfo": {"Affiliation": "Department of Electronics and Electrical Communication Engineering, Indian Institute of Technology Kharagpur, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew F",
+            "LastName": "Laine",
+            "Initials": "AF",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Columbia University, New York, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephane G",
+            "LastName": "Carlier",
+            "Initials": "SG",
+            "AffiliationInfo": {"Affiliation": "Department of Cardiology, Universitair Ziekenhuis Brussel, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nassir",
+            "LastName": "Navab",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Computer Aided Medical Procedures, Technische Universität München, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Amin",
+            "LastName": "Katouzian",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Computer Aided Medical Procedures, Technische Universität München, Germany; Department of Biomedical Engineering, Columbia University, New York, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Hunting for necrosis in the shadows of intravascular ultrasound.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.compmedimag.2013.08.002"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0895-6111(13)00135-3"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 38,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2014
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Med Imaging Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1879-0771"
+        },
+        "Title": "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Atherosclerosis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Intravascular ultrasound"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Nakagami distribution"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Necrotic core"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Tissue characterization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ultrasound signal confidence"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2014,
+      "Day": 10
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "Y",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007089",
+          "MajorTopicYN": "N",
+          "content": "Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008955",
+        "MajorTopicYN": "N",
+        "content": "Models, Cardiovascular"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D009336",
+          "MajorTopicYN": "N",
+          "content": "Necrosis"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018084",
+          "MajorTopicYN": "N",
+          "content": "Ultrasonography, Interventional"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 24035737
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2012,
+        "Day": "05",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2013,
+        "Day": 17,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2013,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24035737,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0895-6111(13)00135-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.compmedimag.2013.08.002",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

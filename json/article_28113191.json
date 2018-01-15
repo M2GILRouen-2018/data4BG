@@ -1,0 +1,248 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 18
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "372-380"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "Label": "OBJECTIVE",
+          "content": "This study focuses on the first (S1) and second (S2) heart sound recognition based only on acoustic characteristics; the assumptions of the individual durations of S1 and S2 and time intervals of S1-S2 and S2-S1 are not involved in the recognition process. The main objective is to investigate whether reliable S1 and S2 recognition performance can still be attained under situations where the duration and interval information might not be accessible."
+        },
+        {
+          "Label": "METHODS",
+          "content": "A deep neural network (DNN) method is proposed for recognizing S1 and S2 heart sounds. In the proposed method, heart sound signals are first converted into a sequence of Mel-frequency cepstral coefficients (MFCCs). The K-means algorithm is applied to cluster MFCC features into two groups to refine their representation and discriminative capability. The refined features are then fed to a DNN classifier to perform S1 and S2 recognition. We conducted experiments using actual heart sound signals recorded using an electronic stethoscope. Precision, recall, F-measure, and accuracy are used as the evaluation metrics."
+        },
+        {
+          "Label": "RESULTS",
+          "content": "The proposed DNN-based method can achieve high precision, recall, and F-measure scores with more than 91% accuracy rate."
+        },
+        {
+          "Label": "CONCLUSION",
+          "content": "The DNN classifier provides higher evaluation scores compared with other well-known pattern classification methods."
+        },
+        {
+          "Label": "SIGNIFICANCE",
+          "content": "The proposed DNN-based method can achieve reliable S1 and S2 recognition performance based on acoustic characteristics without using an ECG reference or incorporating the assumptions of the individual durations of S1 and S2 and time intervals of S1-S2 and S2-S1."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tien-En",
+            "LastName": "Chen",
+            "Initials": "TE"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shih-I",
+            "LastName": "Yang",
+            "Initials": "SI"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Li-Ting",
+            "LastName": "Ho",
+            "Initials": "LT"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kun-Hsi",
+            "LastName": "Tsai",
+            "Initials": "KH"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yu-Hsuan",
+            "LastName": "Chen",
+            "Initials": "YH"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yun-Fan",
+            "LastName": "Chang",
+            "Initials": "YF"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ying-Hui",
+            "LastName": "Lai",
+            "Initials": "YH"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Syu-Siang",
+            "LastName": "Wang",
+            "Initials": "SS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yu",
+            "LastName": "Tsao",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chau-Chung",
+            "LastName": "Wu",
+            "Initials": "CC"
+          }
+        ]
+      },
+      "ArticleTitle": "S1 and S2 Heart Sound Recognition Using Deep Neural Networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2559800"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "02",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "Y",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D006326",
+          "MajorTopicYN": "N",
+          "content": "Heart Auscultation"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D006347",
+          "MajorTopicYN": "N",
+          "content": "Heart Sounds"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "Y",
+        "content": "Neural Networks (Computer)"
+      }},
+      {"DescriptorName": {
+        "UI": "D012815",
+        "MajorTopicYN": "Y",
+        "content": "Signal Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D019023",
+        "MajorTopicYN": "N",
+        "content": "Stethoscopes"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 24
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113191
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113191,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2559800",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

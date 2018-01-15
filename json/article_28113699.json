@@ -1,0 +1,126 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9885960,
+      "Country": "United States",
+      "ISSNLinking": "0098-5589",
+      "MedlineTA": "IEEE Trans Pattern Anal Mach Intell"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "922-936"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "06"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Visual observations of dynamic phenomena, such as human actions, are often represented as sequences of smoothly-varying features. In cases where the feature spaces can be structured as Riemannian manifolds, the corresponding representations become trajectories on manifolds. Analysis of these trajectories is challenging due to non-linearity of underlying spaces and high-dimensionality of trajectories. In vision problems, given the nature of physical systems involved, these phenomena are better characterized on a low-dimensional manifold compared to the space of Riemannian trajectories. For instance, if one does not impose physical constraints of the human body, in data involving human action analysis, the resulting representation space will have highly redundant features. Learning an effective, low-dimensional embedding for action representations will have a huge impact in the areas of search and retrieval, visualization, learning, and recognition. Traditional manifold learning addresses this problem for static points in the euclidean space, but its extension to Riemannian trajectories is non-trivial and remains unexplored. The difficulty lies in inherent non-linearity of the domain and temporal variability of actions that can distort any traditional metric between trajectories. To overcome these issues, we use the framework based on transported square-root velocity fields (TSRVF); this framework has several desirable properties, including a rate-invariant metric and vector space representations. We propose to learn an embedding such that each action trajectory is mapped to a single point in a low-dimensional euclidean space, and the trajectories that differ only in temporal rates map to the same point. We utilize the TSRVF representation, and accompanying statistical summaries of Riemannian trajectories, to extend existing coding methods such as PCA, KSVD and Label Consistent KSVD to Riemannian trajectories or more generally to Riemannian functions. We show that such coding efficiently captures trajectories in applications such as action recognition, stroke rehabilitation, visual speech recognition, clustering and diverse sequence sampling. Using this framework, we obtain state-of-the-art recognition results, while reducing the dimensionality/ complexity by a factor of 100-250x. Since these mappings and codes are invertible, they can also be used to interactively-visualize Riemannian trajectories and synthesize actions."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rushil",
+            "LastName": "Anirudh",
+            "Initials": "R"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pavan",
+            "LastName": "Turaga",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Jingyong Su"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anuj",
+            "LastName": "Srivastava",
+            "Initials": "A"
+          }
+        ]
+      },
+      "ArticleTitle": "Elastic Functional Coding of Riemannian Trajectories.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TPAMI.2016.2564409"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 39,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Pattern Anal Mach Intell",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1939-3539"
+        },
+        "Title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113699
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113699,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TPAMI.2016.2564409",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

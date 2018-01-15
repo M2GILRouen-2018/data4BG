@@ -1,0 +1,203 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101604520,
+      "Country": "United States",
+      "ISSNLinking": "2168-2194",
+      "MedlineTA": "IEEE J Biomed Health Inform"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "09"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "76-84"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Early diagnosis of interstitial lung diseases is crucial for their treatment, but even experienced physicians find it difficult, as their clinical manifestations are similar. In order to assist with the diagnosis, computer-aided diagnosis systems have been developed. These commonly rely on a fixed scale classifier that scans CT images, recognizes textural lung patterns, and generates a map of pathologies. In a previous study, we proposed a method for classifying lung tissue patterns using a deep convolutional neural network (CNN), with an architecture designed for the specific problem. In this study, we present an improved method for training the proposed network by transferring knowledge from the similar domain of general texture classification. Six publicly available texture databases are used to pretrain networks with the proposed architecture, which are then fine-tuned on the lung tissue data. The resulting CNNs are combined in an ensemble and their fused knowledge is compressed back to a network with the original architecture. The proposed approach resulted in an absolute increase of about 2% in the performance of the proposed CNN. The results demonstrate the potential of transfer learning in the field of medical image analysis, indicate the textural nature of the problem and show that the method used for training a network can be as important as designing its architecture."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stergios",
+            "LastName": "Christodoulidis",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marios",
+            "LastName": "Anthimopoulos",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lukas",
+            "LastName": "Ebner",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andreas",
+            "LastName": "Christe",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stavroula",
+            "LastName": "Mougiakakou",
+            "Initials": "S"
+          }
+        ]
+      },
+      "ArticleTitle": "Multisource Transfer Learning With Convolutional Neural Networks for Lung Pattern Analysis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/JBHI.2016.2636929"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 21,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE J Biomed Health Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2168-2208"
+        },
+        "Title": "IEEE journal of biomedical and health informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D008168",
+          "MajorTopicYN": "N",
+          "content": "Lung"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D017563",
+          "MajorTopicYN": "N",
+          "content": "Lung Diseases, Interstitial"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "Y",
+        "content": "Neural Networks (Computer)"
+      }},
+      {"DescriptorName": {
+        "UI": "D010363",
+        "MajorTopicYN": "N",
+        "content": "Pattern Recognition, Automated"
+      }},
+      {"DescriptorName": {
+        "UI": "D014057",
+        "MajorTopicYN": "N",
+        "content": "Tomography, X-Ray Computed"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "09"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114048
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2018,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114048,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/JBHI.2016.2636929",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,295 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8214883,
+      "Country": "Netherlands",
+      "ISSNLinking": "0730-725X",
+      "MedlineTA": "Magn Reson Imaging"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": "09"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "202-213"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 17
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier Inc. All rights reserved.",
+        "AbstractText": "This paper proposes a circular shape constraint and a novel two-layer level set method for the segmentation of the left ventricle (LV) from short-axis magnetic resonance images without training any shape models. Since the shape of LV throughout the apex-base axis is close to a ring shape, we propose a circle fitting term in the level set framework to detect the endocardium. The circle fitting term imposes a penalty on the evolving contour from its fitting circle, and thereby handles quite well with issues in LV segmentation, especially the presence of outflow track in basal slices and the intensity overlap between TPM and the myocardium. To extract the whole myocardium, the circle fitting term is incorporated into two-layer level set method. The endocardium and epicardium are respectively represented by two specified level contours of the level set function, which are evolved by an edge-based and a region-based active contour model. The proposed method has been quantitatively validated on the public data set from MICCAI 2009 challenge on the LV segmentation. Experimental results and comparisons with state-of-the-art demonstrate the accuracy and robustness of our method."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cong",
+            "LastName": "Yang",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi, PR China. Electronic address: wangyuanyc@stu.xjtu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Weiguo",
+            "LastName": "Wu",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi, PR China. Electronic address: wgwu@xjtu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuanqi",
+            "LastName": "Su",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi, PR China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shaoxiang",
+            "LastName": "Zhang",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Digital Medicine Institute, Biomedical Engineering College, Third Military Medical University, Chongqing, PR China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Left ventricle segmentation via two-layer level sets with circular shape constraint.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0730-725X(17)30011-5"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.mri.2017.01.011"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 38,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Magn Reson Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1873-5894"
+        },
+        "Title": "Magnetic resonance imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Active contour model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Cardiac MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Left ventricle segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Level set method"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D006332",
+          "MajorTopicYN": "N",
+          "content": "Cardiomegaly"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D004699",
+          "MajorTopicYN": "N",
+          "content": "Endocardium"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D006333",
+          "MajorTopicYN": "N",
+          "content": "Heart Failure"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D006352",
+          "MajorTopicYN": "N",
+          "content": "Heart Ventricles"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "N",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D009203",
+          "MajorTopicYN": "N",
+          "content": "Myocardial Infarction"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "N",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D009206",
+          "MajorTopicYN": "N",
+          "content": "Myocardium"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D010496",
+          "MajorTopicYN": "N",
+          "content": "Pericardium"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": "09"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28108373
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28108373,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0730-725X(17)30011-5",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.mri.2017.01.011",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

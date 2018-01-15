@@ -1,0 +1,475 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101319628,
+      "Country": "England",
+      "ISSNLinking": "1755-8794",
+      "MedlineTA": "BMC Med Genomics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2013,
+      "Day": 18
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "S9"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Multifactor dimensionality reduction (MDR) is a powerful method for analysis of gene-gene interactions and has been successfully applied to many genetic studies of complex diseases. However, the main application of MDR has been limited to binary traits, while traits having ordinal features are commonly observed in many genetic studies (e.g., obesity classification - normal, pre-obese, mild obese and severe obese)."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We propose ordinal MDR (OMDR) to facilitate gene-gene interaction analysis for ordinal traits. As an alternative to balanced accuracy, the use of tau-b, a common ordinal association measure, was suggested to evaluate interactions. Also, we generalized cross-validation consistency (GCVC) to identify multiple best interactions. GCVC can be practically useful for analyzing complex traits, especially in large-scale genetic studies."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "RESULTS AND CONCLUSIONS",
+          "content": "In simulations, OMDR showed fairly good performance in terms of power, predictability and selection stability and outperformed MDR. For demonstration, we used a real data of body mass index (BMI) and scanned 1~4-way interactions of obesity ordinal and binary traits of BMI via OMDR and MDR, respectively. In real data analysis, more interactions were identified for ordinal trait than binary traits. On average, the commonly identified interactions showed higher predictability for ordinal trait than binary traits. The proposed OMDR and GCVC were implemented in a C/C++ program, executables of which are freely available for Linux, Windows and MacOS upon request for non-commercial research institutions."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kyunga",
+            "LastName": "Kim",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, Sookmyung Women's University, 100 Cheongpa-ro, Yongsan-gu, Seoul, South Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Min-Seok",
+            "LastName": "Kwon",
+            "Initials": "MS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sohee",
+            "LastName": "Oh",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Taesung",
+            "LastName": "Park",
+            "Initials": "T"
+          }
+        ]
+      },
+      "ArticleTitle": "Identification of multiple gene-gene interactions for ordinal phenotypes.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1755-8794-6-S2-S9"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": "6 Suppl 2",
+          "PubDate": {"Year": 2013},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Med Genomics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1755-8794"
+        },
+        "Title": "BMC medical genomics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2013,
+      "Day": "03"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D015992",
+        "MajorTopicYN": "N",
+        "content": "Body Mass Index"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D005128",
+          "MajorTopicYN": "N",
+          "content": "Eye Diseases"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D053263",
+        "MajorTopicYN": "Y",
+        "content": "Gene Regulatory Networks"
+      }},
+      {"DescriptorName": {
+        "UI": "D056726",
+        "MajorTopicYN": "N",
+        "content": "Genetic Association Studies"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D008268",
+          "MajorTopicYN": "N",
+          "content": "Macular Degeneration"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008957",
+        "MajorTopicYN": "N",
+        "content": "Models, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D058011",
+        "MajorTopicYN": "Y",
+        "content": "Multifactor Dimensionality Reduction"
+      }},
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "N",
+        "content": "Phenotype"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2015,
+      "Day": 23
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Adv Genet. 2001;42:287-97",
+        "PMID": {
+          "Version": 1,
+          "content": 11037328
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2009 Jun;10(6):392-404",
+        "PMID": {
+          "Version": 1,
+          "content": 19434077
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "World Health Organ Tech Rep Ser. 2000;894:i-xii, 1-253",
+        "PMID": {
+          "Version": 1,
+          "content": 11234459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2001 Mar;11(3):458-70",
+        "PMID": {
+          "Version": 1,
+          "content": 11230170
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2001 Jul;69(1):138-47",
+        "PMID": {
+          "Version": 1,
+          "content": 11404819
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2002 Feb;70(2):461-71",
+        "PMID": {
+          "Version": 1,
+          "content": 11791213
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Med. 2002;34(2):88-95",
+        "PMID": {
+          "Version": 1,
+          "content": 12108579
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2002 Oct 1;11(20):2463-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12351582
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2003 Feb;24(2):150-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12548676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2003 Feb 12;19(3):376-82",
+        "PMID": {
+          "Version": 1,
+          "content": 12584123
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Hered. 2003;56(1-3):73-82",
+        "PMID": {
+          "Version": 1,
+          "content": 14614241
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2005 Feb;28(2):157-70",
+        "PMID": {
+          "Version": 1,
+          "content": 15532037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2005 Feb;28(2):171-82",
+        "PMID": {
+          "Version": 1,
+          "content": 15593090
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2005 Apr;37(4):413-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15793588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2006 Jan;78(1):15-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16385446
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2006 Feb;30(2):111-23",
+        "PMID": {
+          "Version": 1,
+          "content": 16374833
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2006 Jul 21;241(2):252-61",
+        "PMID": {
+          "Version": 1,
+          "content": 16457852
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Jan 1;23(1):71-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17092990
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Hered. 2007;63(2):67-84",
+        "PMID": {
+          "Version": 1,
+          "content": 17283436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Jun;80(6):1125-37",
+        "PMID": {
+          "Version": 1,
+          "content": 17503330
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2007 Oct;39(10):1200-1",
+        "PMID": {
+          "Version": 1,
+          "content": 17767156
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Oct 1;23(19):2589-95",
+        "PMID": {
+          "Version": 1,
+          "content": 17872915
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2008 Jan;9(1):30-50",
+        "PMID": {
+          "Version": 1,
+          "content": 17429103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2008 Feb;32(2):152-67",
+        "PMID": {
+          "Version": 1,
+          "content": 17968988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2008 May;32(4):285-300",
+        "PMID": {
+          "Version": 1,
+          "content": 18205210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2008 May;32(4):325-40",
+        "PMID": {
+          "Version": 1,
+          "content": 18265411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2008;9:238",
+        "PMID": {
+          "Version": 1,
+          "content": 18485205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Feb 1;25(3):338-45",
+        "PMID": {
+          "Version": 1,
+          "content": 19164302
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2000 Dec;19(4):323-32",
+        "PMID": {
+          "Version": 1,
+          "content": 11108642
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3654913"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 23819572
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 7,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 4,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23819572,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1755-8794-6-S2-S9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1755-8794-6-S2-S9",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3654913",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

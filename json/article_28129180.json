@@ -1,0 +1,128 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9891704,
+      "Country": "United States",
+      "ISSNLinking": "1077-2626",
+      "MedlineTA": "IEEE Trans Vis Comput Graph"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1190-1203"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Handheld scanning using commodity depth cameras provides a flexible and low-cost manner to get 3D models. The existing methods scan a target by densely fusing all the captured depth images, yet most frames are redundant. The jittering frames inevitably embedded in handheld scanning process will cause feature blurring on the reconstructed model and even trigger the scan failure (i.e., camera tracking losing). To address these problems, in this paper, we propose a novel sparse-sequence fusion (SSF) algorithm for handheld scanning using commodity depth cameras. It first extracts related measurements for analyzing camera motion. Then based on these measurements, we progressively construct a supporting subset for the captured depth image sequence to decrease the data redundancy and the interference from jittering frames. Since SSF will reveal the intrinsic heavy noise of the original depth images, our method introduces a refinement process to eliminate the raw noise and recover geometric features for the depth images selected into the supporting subset. We finally obtain the fused result by integrating the refined depth images into the truncated signed distance field (TSDF) of the target. Multiple comparison experiments are conducted and the results verify the feasibility and validity of SSF for handheld scanning with a commodity depth camera."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Long",
+            "LastName": "Yang",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qingan",
+            "LastName": "Yan",
+            "Initials": "Q"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yanping",
+            "LastName": "Fu",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chunxia",
+            "LastName": "Xiao",
+            "Initials": "C"
+          }
+        ]
+      },
+      "ArticleTitle": "Surface Reconstruction via Fusing Sparse-Sequence of Depth Images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TVCG.2017.2657766"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 24,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Vis Comput Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0506"
+        },
+        "Title": "IEEE transactions on visualization and computer graphics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28129180
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28129180,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TVCG.2017.2657766",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,440 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "i111-i120"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author 2016. Published by Oxford University Press.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "MOTIVATION",
+            "content": "The three-dimensional structure of genomes makes it possible for genomic regions not adjacent in the primary sequence to be spatially proximal. These DNA contacts have been found to be related to various molecular activities. Previous methods for analyzing DNA contact maps obtained from Hi-C experiments have largely focused on studying individual interactions, forming spatial clusters composed of contiguous blocks of genomic locations, or classifying these clusters into general categories based on some global properties of the contact maps."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Here, we describe a novel computational method that can flexibly identify small clusters of spatially proximal genomic regions based on their local contact patterns. Using simulated data that highly resemble Hi-C data obtained from real genome structures, we demonstrate that our method identifies spatial clusters that are more compact than methods previously used for clustering genomic regions based on DNA contact maps. The clusters identified by our method enable us to confirm functionally related genomic regions previously reported to be spatially proximal in different species. We further show that each genomic region can be assigned a numeric affinity value that indicates its degree of participation in each local cluster, and these affinity values correlate quantitatively with DNase I hypersensitivity, gene expression, super enhancer activities and replication timing in a cell type specific manner. We also show that these cluster affinity values can precisely define boundaries of reported topologically associating domains, and further define local sub-domains within each domain."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "AVAILABILITY AND IMPLEMENTATION",
+            "content": "The source code of BNMF and tutorials on how to use the software to extract local clusters from contact maps are available at http://yiplab.cse.cuhk.edu.hk/bnmf/"
+          },
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "CONTACT",
+            "content": "kevinyip@cse.cuhk.edu.hk"
+          },
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "SUPPLEMENTARY INFORMATION",
+            "content": "Supplementary data are available at Bioinformatics online."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xihao",
+            "LastName": "Hu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christina Huan",
+            "LastName": "Shi",
+            "Initials": "CH",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kevin Y",
+            "LastName": "Yip",
+            "Initials": "KY",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering Hong Kong Bioinformatics Centre CUHK-BGI Innovation Institute of Trans-omics Hong Kong Institute of Diabetes and Obesity, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong."}
+          }
+        ]
+      },
+      "ArticleTitle": "A novel method for discovering local spatial clusters of genomic regions with functional relationships from DNA contact maps.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btw256"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 32,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2016,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2016,
+      "Day": 16
+    },
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 31
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Nov 7;155(4):934-47",
+        "PMID": {
+          "Version": 1,
+          "content": 24119843
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2014 Dec 18;159(7):1665-80",
+        "PMID": {
+          "Version": 1,
+          "content": 25497547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2013 Nov 14;503(7475):290-4",
+        "PMID": {
+          "Version": 1,
+          "content": 24141950
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2008 Jul 25;4(7):e1000029",
+        "PMID": {
+          "Version": 1,
+          "content": 18654623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1999 Oct 21;401(6755):788-91",
+        "PMID": {
+          "Version": 1,
+          "content": 10548103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Oct;9(10):999-1003",
+        "PMID": {
+          "Version": 1,
+          "content": 22941365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2002 Jun;12(6):996-1006",
+        "PMID": {
+          "Version": 1,
+          "content": 12045153
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Nov 5;462(7269):58-64",
+        "PMID": {
+          "Version": 1,
+          "content": 19890323
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 May 20;465(7296):363-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20436457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Apr 11;485(7398):376-80",
+        "PMID": {
+          "Version": 1,
+          "content": 22495300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Sep 6;489(7414):57-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22955616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2013 Oct 3;502(7469):59-64",
+        "PMID": {
+          "Version": 1,
+          "content": 24067610
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Dec 1;28(23):3131-3",
+        "PMID": {
+          "Version": 1,
+          "content": 23023982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 May 1;41(10):5164-74",
+        "PMID": {
+          "Version": 1,
+          "content": 23571755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cold Spring Harb Perspect Biol. 2010 Mar;2(3):a003889",
+        "PMID": {
+          "Version": 1,
+          "content": 20300217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2014 Jun;24(6):974-88",
+        "PMID": {
+          "Version": 1,
+          "content": 24671853
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Jun 15;30(12):i26-33",
+        "PMID": {
+          "Version": 1,
+          "content": 24931992
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2012 Mar 2;148(5):908-21",
+        "PMID": {
+          "Version": 1,
+          "content": 22341456
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2012 Jul;22(7):1295-305",
+        "PMID": {
+          "Version": 1,
+          "content": 22619363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2001 Apr;2(4):292-301",
+        "PMID": {
+          "Version": 1,
+          "content": 11283701
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 Oct 16;43(11):1059-65",
+        "PMID": {
+          "Version": 1,
+          "content": 22001755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Apr 11;485(7398):381-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22495304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2009 Oct 9;326(5950):289-93",
+        "PMID": {
+          "Version": 1,
+          "content": 19815776
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Aug 1;24(15):1722-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18556670
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2012 Aug 30;13:436",
+        "PMID": {
+          "Version": 1,
+          "content": 22935139
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2010 Jun;20(6):761-70",
+        "PMID": {
+          "Version": 1,
+          "content": 20430782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2012 Feb 3;148(3):458-72",
+        "PMID": {
+          "Version": 1,
+          "content": 22265598
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Jan;12(1):71-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25437436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2011 Dec 25;30(1):90-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22198700
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4908340"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D004247",
+        "content": "DNA"
+      },
+      "RegistryNumber": "9007-49-2"
+    }},
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 31
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D004247",
+        "MajorTopicYN": "N",
+        "content": "DNA"
+      }},
+      {"DescriptorName": {
+        "UI": "D016678",
+        "MajorTopicYN": "N",
+        "content": "Genome"
+      }},
+      {"DescriptorName": {
+        "UI": "D023281",
+        "MajorTopicYN": "Y",
+        "content": "Genomics"
+      }},
+      {"DescriptorName": {
+        "UI": "D011381",
+        "MajorTopicYN": "N",
+        "content": "Programming Languages"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 27307607
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 6,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 6,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27307607,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btw256",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btw256",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4908340",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

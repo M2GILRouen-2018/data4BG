@@ -1,0 +1,316 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7706761,
+      "Country": "Netherlands",
+      "ISSNLinking": "0378-1119",
+      "MedlineTA": "Gene"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D035683",
+        "content": "MicroRNAs"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 18
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "87-95"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017. Published by Elsevier B.V.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "BACKGROUND",
+            "content": "Liver fibrosis, characterized with the excessive accumulation of extracellular matrix (ECM) proteins, represents the final common pathway of chronic liver inflammation. Ever-increasing evidence indicates microRNAs (miRNAs) dysregulation has important implications in the different stages of liver fibrosis. However, our knowledge of miRNA-gene regulation details pertaining to such disease remains unclear."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The publicly available Gene Expression Omnibus (GEO) datasets of patients suffered from cirrhosis were extracted for integrated analysis. Differentially expressed miRNAs (DEMs) and genes (DEGs) were identified using GEO2R web tool. Putative target gene prediction of DEMs was carried out using the intersection of five major algorithms: DIANA-microT, TargetScan, miRanda, PICTAR5 and miRWalk. Functional miRNA-gene regulatory network (FMGRN) was constructed based on the computational target predictions at the sequence level and the inverse expression relationships between DEMs and DEGs. DAVID web server was selected to perform KEGG pathway enrichment analysis. Functional miRNA-gene regulatory module was generated based on the biological interpretation. Internal connections among genes in liver fibrosis-related module were determined using String database. MiRNA-gene regulatory modules related to liver fibrosis were experimentally verified in recombinant human TGFβ1 stimulated and specific miRNA inhibitor treated LX-2 cells."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "We totally identified 85 and 923 dysregulated miRNAs and genes in liver cirrhosis biopsy samples compared to their normal controls. All evident miRNA-gene pairs were identified and assembled into FMGRN which consisted of 990 regulations between 51 miRNAs and 275 genes, forming two big sub-networks that were defined as down-network and up-network, respectively. KEGG pathway enrichment analysis revealed that up-network was prominently involved in several KEGG pathways, in which \"Focal adhesion\", \"PI3K-Akt signaling pathway\" and \"ECM-receptor interaction\" were remarked significant (adjusted p<0.001). Genes enriched in these pathways coupled with their regulatory miRNAs formed a functional miRNA-gene regulatory module that contains 7 miRNAs, 22 genes and 42 miRNA-gene connections. Gene interaction analysis based on String database revealed that 8 out of 22 genes were highly clustered. Finally, we experimentally confirmed a functional regulatory module containing 5 miRNAs (miR-130b-3p, miR-148a-3p, miR-345-5p, miR-378a-3p, and miR-422a) and 6 genes (COL6A1, COL6A2, COL6A3, PIK3R3, COL1A1, CCND2) associated with liver fibrosis."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Our integrated analysis of miRNA and gene expression profiles highlighted a functional miRNA-gene regulatory module associated with liver fibrosis, which, to some extent, may provide important clues to better understand the underlying pathogenesis of liver fibrosis."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Chen",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Experimental and Translational Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Beijing Key Laboratory of Tolerance Induction and Organ Protection in Transplantation, Beijing Friendship Hospital, Capital Medical University, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wenshan",
+            "LastName": "Zhao",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Liver Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing Key Laboratory of Translational Medicine in Liver Cirrhosis, National Clinical Research Center of Digestive Diseases, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aiting",
+            "LastName": "Yang",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Experimental and Translational Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Beijing Key Laboratory of Tolerance Induction and Organ Protection in Transplantation, Beijing Friendship Hospital, Capital Medical University, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anjian",
+            "LastName": "Xu",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Experimental and Translational Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Beijing Key Laboratory of Tolerance Induction and Organ Protection in Transplantation, Beijing Friendship Hospital, Capital Medical University, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Huan",
+            "LastName": "Wang",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Experimental and Translational Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Beijing Key Laboratory of Tolerance Induction and Organ Protection in Transplantation, Beijing Friendship Hospital, Capital Medical University, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Min",
+            "LastName": "Cong",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Liver Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing Key Laboratory of Translational Medicine in Liver Cirrhosis, National Clinical Research Center of Digestive Diseases, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tianhui",
+            "LastName": "Liu",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Liver Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing Key Laboratory of Translational Medicine in Liver Cirrhosis, National Clinical Research Center of Digestive Diseases, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ping",
+            "LastName": "Wang",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Liver Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing Key Laboratory of Translational Medicine in Liver Cirrhosis, National Clinical Research Center of Digestive Diseases, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hong",
+            "LastName": "You",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Experimental and Translational Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Beijing Key Laboratory of Tolerance Induction and Organ Protection in Transplantation, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Liver Research Center, Beijing Friendship Hospital, Capital Medical University, Beijing Key Laboratory of Translational Medicine in Liver Cirrhosis, National Clinical Research Center of Digestive Diseases, Beijing, China. Electronic address: youhong30@sina.com."}
+          }
+        ]
+      },
+      "ArticleTitle": "Integrated analysis of microRNA and gene expression profiles reveals a functional regulatory module associated with liver fibrosis.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0378-1119(17)30747-3"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.gene.2017.09.027"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 636,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Gene",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1879-0038"
+        },
+        "Title": "Gene"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "KEGG pathway"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Liver fibrosis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Module"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "miRNAs"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D002478",
+        "MajorTopicYN": "N",
+        "content": "Cells, Cultured"
+      }},
+      {"DescriptorName": {
+        "UI": "D020869",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Profiling"
+      }},
+      {"DescriptorName": {
+        "UI": "D053263",
+        "MajorTopicYN": "Y",
+        "content": "Gene Regulatory Networks"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D008103",
+          "MajorTopicYN": "N",
+          "content": "Liver Cirrhosis"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "Y",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D035683",
+          "MajorTopicYN": "N",
+          "content": "MicroRNAs"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D059467",
+        "MajorTopicYN": "N",
+        "content": "Transcriptome"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 18
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28919164
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28919164,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0378-1119(17)30747-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.gene.2017.09.027",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

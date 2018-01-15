@@ -1,0 +1,268 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "179-192"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Analysis of glomeruli geometry is important in histopathological evaluation of renal microscopic images. Due to the shape and size disparity of even glomeruli of same kidney, automatic detection of these renal objects is not an easy task. Although manual measurements are time consuming and at times are not very accurate, it is commonly used in medical centers. In this paper, a new method based on Fourier transform following usage of some shape descriptors is proposed to detect these objects and their geometrical parameters."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Reaching the goal, a database of 400 regions are selected randomly. 200 regions of which are part of glomeruli and the other 200 regions are not belong to renal corpuscles. ROC curve is used to decide which descriptor could classify two groups better. f_measure, which is a combination of both tpr (true positive rate) and fpr (false positive rate), is also proposed to select optimal threshold for descriptors. Combination of three parameters (solidity, eccentricity, and also mean squared error of fitted ellipse) provided better result in terms of f_measure to distinguish desired regions. Then, Fourier transform of outer edges is calculated to form a complete curve out of separated region(s)."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The generality of proposed model is verified by use of cross validation method, which resulted tpr of 94%, and fpr of 5%. Calculation of glomerulus' and Bowman's space with use of the algorithm are also compared with a non-automatic measurement done by a renal pathologist, and errors of 5.9%, 5.4%, and 6.26% are resulted in calculation of Capsule area, Bowman space, and glomeruli area, respectively."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Having tested different glomeruli with various shapes, the experimental consequences show robustness and reliability of our method. Therefore, it could be used to illustrate renal diseases and glomerular disorders by measuring the morphological changes accurately and expeditiously."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sohrab",
+            "LastName": "Najafian",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Biomechatronics and Cognitive Engineering Research Laboratory, School of Mechanical Engineering, Iran University of Science and Engineering, P.O.B. 16846-13114, Tehran, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Borhan",
+            "LastName": "Beigzadeh",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Biomechatronics and Cognitive Engineering Research Laboratory, School of Mechanical Engineering, Iran University of Science and Engineering, P.O.B. 16846-13114, Tehran, Iran. Electronic address: b_beigzadeh@iust.ac.ir."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mohammad",
+            "LastName": "Riahi",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "School of Mechanical Engineering, Iran University of Science and Engineering, Tehran, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fatemeh",
+            "LastName": "Khadir Chamazkoti",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Biochemistry, Babol University of Medical Sciences, Babol, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mahdi",
+            "LastName": "Pouramir",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Cellular and Molecular Biology Research Center, Babol University of Medical Sciences, Babol, Iran."}
+          }
+        ]
+      },
+      "ArticleTitle": "Fourier-based quantification of renal glomeruli size using Hough transform and shape descriptors.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(17)30276-6"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.08.011"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 151,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Fourier transform"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hough transform"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ROC curves, Cross validation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Renal glomeruli"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Shape descriptors"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D005583",
+        "MajorTopicYN": "N",
+        "content": "Fourier Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007090",
+        "MajorTopicYN": "Y",
+        "content": "Image Interpretation, Computer-Assisted"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000033",
+            "MajorTopicYN": "N",
+            "content": "anatomy & histology"
+          },
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D007678",
+          "MajorTopicYN": "N",
+          "content": "Kidney Glomerulus"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28947000
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28947000,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(17)30276-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.08.011",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

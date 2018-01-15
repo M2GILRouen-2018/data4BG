@@ -1,0 +1,357 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D003287",
+          "content": "Contrast Media"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D002118",
+          "content": "Calcium"
+        },
+        "RegistryNumber": "SY7Q814VUP"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 2174},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE",
+          "content": "Calcium scoring is widely used to assess the risk of coronary heart disease (CHD). Accurate coronary artery calcification detection in noncontrast CT image is a prerequisite step for coronary calcium scoring. Currently, calcified lesions in the coronary arteries are manually identified by radiologists in clinical practice. Thus, in this paper, a fully automatic calcium scoring method was developed to alleviate the work load of the radiologists or cardiologists."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The challenge of automatic coronary calcification detection is to discriminate the calcification in the coronary arteries from the calcification in the other tissues. Since the anatomy of coronary arteries is difficult to be observed in the noncontrast CT images, the contrast CT image of the same patient is used to extract the regions of the aorta, heart, and coronary arteries. Then, a patient-specific region-of-interest (ROI) is generated in the noncontrast CT image according to the segmentation results in the contrast CT image. This patient-specific ROI focuses on the regions in the neighborhood of coronary arteries for calcification detection, which can eliminate the calcifications in the surrounding tissues. A support vector machine classifier is applied finally to refine the results by removing possible image noise. Furthermore, the calcified lesions in the noncontrast images belonging to the different main coronary arteries are identified automatically using the labeling results of the extracted coronary arteries."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Forty datasets from four different CT machine vendors were used to evaluate their algorithm, which were provided by the MICCAI 2014 Coronary Calcium Scoring (orCaScore) Challenge. The sensitivity and positive predictive value for the volume of detected calcifications are 0.989 and 0.948. Only one patient out of 40 patients had been assigned to the wrong risk category defined according to Agatston scores (0, 1-100, 101-300, >300) by comparing with the ground truth."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The calcified lesions in the noncontrast CT images can be detected automatically by using the segmentation results of the aorta, heart, and coronary arteries obtained in the contrast CT images with a very high accuracy."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guanyu",
+            "LastName": "Yang",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China; Centre de Recherche en Information Biomédicale Sino-Français (LIA CRIBs), Nanjing 210096, China; and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yang",
+            "LastName": "Chen",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China; Centre de Recherche en Information Biomédicale Sino-Français (LIA CRIBs), Nanjing 210096, China; and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiufang",
+            "LastName": "Ning",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qiaoyu",
+            "LastName": "Sun",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Huazhong",
+            "LastName": "Shu",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Laboratory of Image Science and Technology, School of Computer Science and Engineering, Southeast University, No. 2, Si Pai Lou, Nanjing 210096, China; Centre de Recherche en Information Biomédicale Sino-Français (LIA CRIBs), Nanjing 210096, China; and Key Laboratory of Computer Network and Information Integration, Southeast University, Ministry of Education, Nanjing 210096, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jean-Louis",
+            "LastName": "Coatrieux",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "INSERM-U1099, Rennes F-35000, France; Labotatoire Traitement du Signal et de l'Image (LTSI), Université de Rennes 1, Campus de Beaulieu, Bat. 22, Rennes 35042 Cedex, France; and Centre de Recherche en Information Biomédicale Sino-Français (LIA CRIBs), Nanjing 210096, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic coronary calcium scoring using noncontrast and contrast CT images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1118/1.4945045"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 43,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "05",
+      "Year": 2016,
+      "Day": "05"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001011",
+          "MajorTopicYN": "N",
+          "content": "Aorta"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D002118",
+          "MajorTopicYN": "N",
+          "content": "Calcium"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003287",
+        "MajorTopicYN": "N",
+        "content": "Contrast Media"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D066264",
+        "MajorTopicYN": "N",
+        "content": "Datasets as Topic"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D006321",
+          "MajorTopicYN": "N",
+          "content": "Heart"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D061205",
+          "MajorTopicYN": "N",
+          "content": "Vascular Calcification"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 14
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 27147329
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27147329,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1118/1.4945045",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

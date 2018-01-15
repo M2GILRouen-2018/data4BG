@@ -1,0 +1,297 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The localization of emitters using an array of sensors or antennas is a prevalent issue approached in several applications. There exist different techniques for source localization, which can be classified into multilateration, received signal strength (RSS) and proximity methods. The performance of multilateration techniques relies on measured time variables: the time of flight (ToF) of the emission from the emitter to the sensor, the time differences of arrival (TDoA) of the emission between sensors and the pseudo-time of flight (pToF) of the emission to the sensors. The multilateration algorithms presented and compared in this paper can be classified as iterative and non-iterative methods. Both standard least squares (SLS) and hyperbolic least squares (HLS) are iterative and based on the Newton-Raphson technique to solve the non-linear equation system. The metaheuristic technique particle swarm optimization (PSO) used for source localisation is also studied. This optimization technique estimates the source position as the optimum of an objective function based on HLS and is also iterative in nature. Three non-iterative algorithms, namely the hyperbolic positioning algorithms (HPA), the maximum likelihood estimator (MLE) and Bancroft algorithm, are also presented. A non-iterative combined algorithm, MLE-HLS, based on MLE and HLS, is further proposed in this paper. The performance of all algorithms is analysed and compared in terms of accuracy in the localization of the position of the emitter and in terms of computational time. The analysis is also undertaken with three different sensor layouts since the positions of the sensors affect the localization; several source positions are also evaluated to make the comparison more robust. The analysis is carried out using theoretical time differences, as well as including errors due to the effect of digital sampling of the time variables. It is shown that the most balanced algorithm, yielding better results than the other algorithms in terms of accuracy and short computational time, is the combined MLE-HLS algorithm."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "José Manuel",
+            "LastName": "Fresno",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Universidad Carlos III de Madrid, Avda, Universidad, 30, Leganés, 28911 Madrid, Spain. jfresno@ing.uc3m.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-2688-9202"
+            },
+            "ForeName": "Guillermo",
+            "LastName": "Robles",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Universidad Carlos III de Madrid, Avda, Universidad, 30, Leganés, 28911 Madrid, Spain. grobles@ing.uc3m.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0001-9671-9818"
+            },
+            "ForeName": "Juan Manuel",
+            "LastName": "Martínez-Tarifa",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Universidad Carlos III de Madrid, Avda, Universidad, 30, Leganés, 28911 Madrid, Spain. jmmtarif@ing.uc3m.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brian G",
+            "LastName": "Stewart",
+            "Initials": "BG",
+            "AffiliationInfo": {"Affiliation": "Department of Electronic and Electrical Engineering, University of Strathclyde, 204 George Street, Glasgow G1 1XW, UK. brian.stewart.100@strath.ac.uk."}
+          }
+        ]
+      },
+      "ArticleTitle": "Survey on the Performance of Source Localization Algorithms.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2666"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17112666"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 18
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bancroft"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "combined algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "emitter localization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "hyperbolic least squares"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "hyperbolic positioning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "maximum likelihood estimator"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "particle swarm optimization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "source localization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "standard least squares"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasonics. 2015 Dec;63:155-62",
+        "PMID": {
+          "Version": 1,
+          "content": 26233938
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2017 Jan 17;17 (1):null",
+        "PMID": {
+          "Version": 1,
+          "content": 28106746
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2016 Apr 15;16(4):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27092501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2017 Oct 23;17 (10 ):null",
+        "PMID": {
+          "Version": 1,
+          "content": 29065515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2017 Mar 30;17 (4):null",
+        "PMID": {
+          "Version": 1,
+          "content": 28358342
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2017 Mar 01;17 (3):null",
+        "PMID": {
+          "Version": 1,
+          "content": 28257060
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2017 Aug 18;17 (8):null",
+        "PMID": {
+          "Version": 1,
+          "content": 28820444
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Jun 05;15(6):13326-47",
+        "PMID": {
+          "Version": 1,
+          "content": 26057042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2017 Nov 02;17 (11):null",
+        "PMID": {
+          "Version": 1,
+          "content": 29099055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Apr 27;15(5):9882-98",
+        "PMID": {
+          "Version": 1,
+          "content": 25923935
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29156565
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29156565,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17112666",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17112666",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5713470",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

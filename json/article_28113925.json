@@ -1,0 +1,257 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "815-825"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this article, we propose a proof of concept for the automatic planning of personalized radiotherapy for brain tumors. A computational model of glioblastoma growth is combined with an exponential cell survival model to describe the effect of radiotherapy. The model is personalized to the magnetic resonance images (MRIs) of a given patient. It takes into account the uncertainty in the model parameters, together with the uncertainty in the MRI segmentations. The computed probability distribution over tumor cell densities, together with the cell survival model, is used to define the prescription dose distribution, which is the basis for subsequent Intensity Modulated Radiation Therapy (IMRT) planning. Depending on the clinical data available, we compare three different scenarios to personalize the model. First, we consider a single MRI acquisition before therapy, as it would usually be the case in clinical routine. Second, we use two MRI acquisitions at two distinct time points in order to personalize the model and plan radiotherapy. Third, we include the uncertainty in the segmentation process. We present the application of our approach on two patients diagnosed with high grade glioma. We introduce two methods to derive the radiotherapy prescription dose distribution, which are based on minimizing integral tumor cell survival using the maximum a posteriori or the expected tumor cell density. We show how our method allows the user to compute a patient specific radiotherapy planning conformal to the tumor infiltration. We further present extensions of the method in order to spare adjacent organs at risk by re-distributing the dose. The presented approach and its proof of concept may help in the future to better target the tumor and spare organs at risk."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthieu",
+            "LastName": "Le",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Herve",
+            "LastName": "Delingette",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jayashree",
+            "LastName": "Kalpathy-Cramer",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elizabeth R",
+            "LastName": "Gerstner",
+            "Initials": "ER"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tracy",
+            "LastName": "Batchelor",
+            "Initials": "T"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jan",
+            "LastName": "Unkelbach",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicholas",
+            "LastName": "Ayache",
+            "Initials": "N"
+          }
+        ]
+      },
+      "ArticleTitle": "Personalized Radiotherapy Planning Based on a Computational Tumor Growth Model.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2016.2626443"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 36,
+          "PubDate": {
+            "Month": "03",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000532",
+            "MajorTopicYN": "N",
+            "content": "radiotherapy"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001932",
+          "MajorTopicYN": "Y",
+          "content": "Brain Neoplasms"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000532",
+            "MajorTopicYN": "N",
+            "content": "radiotherapy"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D005909",
+          "MajorTopicYN": "Y",
+          "content": "Glioblastoma"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "N",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "N",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D057285",
+          "MajorTopicYN": "N",
+          "content": "Precision Medicine"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011880",
+          "MajorTopicYN": "N",
+          "content": "Radiotherapy Planning, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D050397",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy, Intensity-Modulated"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "09"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113925
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113925,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2016.2626443",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

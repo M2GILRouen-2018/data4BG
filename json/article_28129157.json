@@ -1,0 +1,116 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1637-1649"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A non-local means (NLM) filter is a weighted average of a large number of non-local pixels with various image intensity values. The NLM filters have been shown to have powerful denoising performance, excellent detail preservation by averaging many noisy pixels, and using appropriate values for the weights, respectively. The NLM weights between two different pixels are determined based on the similarities between two patches that surround these pixels and a smoothing parameter. Another important factor that influences the denoising performance is the self-weight values for the same pixel. The recently introduced local James-Stein type center pixel weight estimation method (LJS) outperforms other existing methods when determining the contribution of the center pixels in the NLM filter. However, the LJS method may result in excessively large self-weight estimates since no upper bound is assumed, and the method uses a relatively large local area for estimating the self-weights, which may lead to a strong bias. In this paper, we investigated these issues in the LJS method, and then propose a novel local self-weight estimation methods using direct bounds (LMM-DB) and reparametrization (LMM-RP) based on the Baranchik's minimax estimator. Both the LMM-DB and LMM-RP methods were evaluated using a wide range of natural images and a clinical MRI image together with the various levels of additive Gaussian noise. Our proposed parameter selection methods yielded an improved bias-variance trade-off, a higher peak signal-to-noise (PSNR) ratio, and fewer visual artifacts when compared with the results of the classical NLM and LJS methods. Our proposed methods also provide a heuristic way to select a suitable global smoothing parameters that can yield PSNR values that are close to the optimal values."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Minh Phuong",
+            "LastName": "Nguyen",
+            "Initials": "MP"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Se Young",
+            "LastName": "Chun",
+            "Initials": "SY"
+          }
+        ]
+      },
+      "ArticleTitle": "Bounded Self-Weights Estimation Method for Non-Local Means Image Denoising Using Minimax Estimators.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2017.2658941"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 26,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28129157
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28129157,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2017.2658941",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

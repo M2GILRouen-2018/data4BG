@@ -1,0 +1,263 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "321-328"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 The Authors. Published by Elsevier Ireland Ltd.. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVES",
+            "content": "Medical researchers are challenged today by the enormous amount of data collected in healthcare. Analysis methods such as genome-wide association studies (GWAS) are often computationally intensive and thus require enormous resources to be performed in a reasonable amount of time. While dedicated clusters and public clouds may deliver the desired performance, their use requires upfront financial efforts or anonymous data, which is often not possible for preliminary or occasional tasks. We explored the possibilities to build a private, flexible cluster for processing scripts in R based on commodity, non-dedicated hardware of our department."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "For this, a GWAS-calculation in R on a single desktop computer, a Message Passing Interface (MPI)-cluster, and a SparkR-cluster were compared with regards to the performance, scalability, quality, and simplicity."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The original script had a projected runtime of three years on a single desktop computer. Optimizing the script in R already yielded a significant reduction in computing time (2 weeks). By using R-MPI and SparkR, we were able to parallelize the computation and reduce the time to less than three hours (2.6\u2009h) on already available, standard office computers. While MPI is a proven approach in high-performance clusters, it requires rather static, dedicated nodes. SparkR and its Hadoop siblings allow for a dynamic, elastic environment with automated failure handling. SparkR also scales better with the number of nodes in the cluster than MPI due to optimized data communication."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "R is a popular environment for clinical data analysis. The new SparkR solution offers elastic resources and allows supporting big data analysis using R even on non-dedicated resources with minimal change to the original code. To unleash the full potential, additional efforts should be invested to customize and improve the algorithms, especially with regards to data distribution."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Martin",
+            "LastName": "Sedlmayr",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Friedrich-Alexander University Erlangen-Nürnberg, Wetterkreuz 13, 91058 Erlangen, Germany. Electronic address: martin.sedlmayr@fau.de."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tobias",
+            "LastName": "Würfl",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Friedrich-Alexander University Erlangen-Nürnberg, Wetterkreuz 13, 91058 Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christian",
+            "LastName": "Maier",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Friedrich-Alexander University Erlangen-Nürnberg, Wetterkreuz 13, 91058 Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lothar",
+            "LastName": "Häberle",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Gynecology and Obstetrics, Erlangen University Hospital, Universitätsstrasse 21-23, 91054 Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter",
+            "LastName": "Fasching",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Gynecology and Obstetrics, Erlangen University Hospital, Universitätsstrasse 21-23, 91054 Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hans-Ulrich",
+            "LastName": "Prokosch",
+            "Initials": "HU",
+            "AffiliationInfo": {"Affiliation": "Friedrich-Alexander University Erlangen-Nürnberg, Wetterkreuz 13, 91058 Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jan",
+            "LastName": "Christoph",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Friedrich-Alexander University Erlangen-Nürnberg, Wetterkreuz 13, 91058 Erlangen, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Optimizing R with SparkR on a commodity cluster for biomedical research.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30380-7"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.10.006"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Big data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Cluster computing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Computing methodologies"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Genome-wide association study"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SparkR"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D035843",
+        "MajorTopicYN": "Y",
+        "content": "Biomedical Research"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D003205",
+        "MajorTopicYN": "N",
+        "content": "Computing Methodologies"
+      }},
+      {"DescriptorName": {
+        "UI": "D055106",
+        "MajorTopicYN": "N",
+        "content": "Genome-Wide Association Study"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28110735
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2016,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 16,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110735,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30380-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.10.006",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

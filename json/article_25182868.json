@@ -1,0 +1,284 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101603425,
+      "Country": "United States",
+      "MedlineTA": "PeerJ"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "Zoran Obradovic is an Academic Editor for PeerJ.",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e3230"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Reduction of readmissions after discharge represents an important challenge for many hospitals and has attracted the interest of many researchers in the past few years. Most of the studies in this field focus on building cross-sectional predictive models that aim to predict the occurrence of readmission within 30-days based on information from the current hospitalization. The aim of this study is demonstration of predictive performance gain obtained by inclusion of information from historical hospitalization records among morbidly obese patients."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The California Statewide inpatient database was used to build regularized logistic regression models for prediction of readmission in morbidly obese patients (n = 18,881). Temporal features were extracted from historical patient hospitalization records in a one-year timeframe. Five different datasets of patients were prepared based on the number of available hospitalizations per patient. Sample size of the five datasets ranged from 4,787 patients with more than five hospitalizations to 20,521 patients with at least two hospitalization records in one year. A 10-fold cross validation was repeted 100 times to assess the variability of the results. Additionally, random forest and extreme gradient boosting were used to confirm the results."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Area under the ROC curve increased significantly when including information from up to three historical records on all datasets. The inclusion of more than three historical records was not efficient. Similar results can be observed for Brier score and PPV value. The number of selected predictors corresponded to the complexity of the dataset ranging from an average of 29.50 selected features on the smallest dataset to 184.96 on the largest dataset based on 100 repetitions of 10-fold cross-validation."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "DISCUSSION",
+          "content": "The results show positive influence of adding information from historical hospitalization records on predictive performance using all predictive modeling techniques used in this study. We can conclude that it is advantageous to build separate readmission prediction models in subgroups of patients with more hospital admissions by aggregating information from up to three previous hospitalizations."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Petra",
+            "LastName": "Povalej Brzan",
+            "Initials": "P",
+            "AffiliationInfo": [
+              {"Affiliation": "Faculty of Health Sciences, University of Maribor, Maribor, Slovenia."},
+              {"Affiliation": "Faculty of Electrical Engineering and Computer Science, University of Maribor, Maribor, Slovenia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zoran",
+            "LastName": "Obradovic",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Center for Data Analytics and Biomedical Informatics, Temple University, Philadelphia, PA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gregor",
+            "LastName": "Stiglic",
+            "Initials": "G",
+            "AffiliationInfo": [
+              {"Affiliation": "Faculty of Health Sciences, University of Maribor, Maribor, Slovenia."},
+              {"Affiliation": "Faculty of Electrical Engineering and Computer Science, University of Maribor, Maribor, Slovenia."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Contribution of temporal data to predictive performance in 30-day readmission of morbidly obese patients.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.7717/peerj.3230"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 5,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "PeerJ",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2167-8359"
+        },
+        "Title": "PeerJ"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Hospital readmission"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Morbid obesity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Regularized logistic regression"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Temporal data"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": "02"
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Inf Med. 2015 ;54(6):560-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26548400
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Work. 2015 ;53(2):439-48",
+        "PMID": {
+          "Version": 1,
+          "content": 26835850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Oct 08;10(10):e0140271",
+        "PMID": {
+          "Version": 1,
+          "content": 26448562
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Dec 08;10(12):e0144439",
+        "PMID": {
+          "Version": 1,
+          "content": 26645087
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2014 Mar-Apr;21(2):272-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24076748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2014 Aug 28;2:e530",
+        "PMID": {
+          "Version": 1,
+          "content": 25210656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bone Joint Surg Am. 2014 May 7;96(9):e79",
+        "PMID": {
+          "Version": 1,
+          "content": 24806025
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2011 Oct 19;306(15):1688-98",
+        "PMID": {
+          "Version": 1,
+          "content": 22009101
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 May 02;11(5):e0154515",
+        "PMID": {
+          "Version": 1,
+          "content": 27135409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2016 Jun;61:87-96",
+        "PMID": {
+          "Version": 1,
+          "content": 26980235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2014 Dec;52:418-26",
+        "PMID": {
+          "Version": 1,
+          "content": 25182868
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28462037
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 21,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 5,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 4,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 4,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28462037,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.7717/peerj.3230",
+        "IdType": "doi"
+      },
+      {
+        "content": 3230,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5407280",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

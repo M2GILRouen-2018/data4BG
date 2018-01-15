@@ -1,0 +1,707 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "707-720"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCI NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 CA160253",
+          "Acronym": "CA"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "09"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "X-ray detectors in clinical computed tomography (CT) usually operate in current-integrating mode. Their complicated signal statistics often lead to intractable likelihood functions for practical use in model-based image reconstruction (MBIR). It is therefore desirable to design simplified statistical models without losing the essential factors. Depending on whether the CT transmission data are logarithmically transformed, pre-log and post-log models are two major categories of choices in CT MBIR. Both being approximations, it remains an open question whether one model can notably improve image quality over the other on real scanners. In this study, we develop and compare several pre-log and post-log MBIR algorithms under a unified framework. Their reconstruction accuracy based on simulation and clinical datasets are evaluated. The results show that pre-log MBIR can achieve notably better quantitative accuracy than post-log MBIR in ultra-low-dose CT, although in less extreme cases, post-log MBIR with handcrafted pre-processing remains a competitive alternative. Pre-log MBIR could play a growing role in emerging ultra-low-dose CT applications."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "LastName": "Lin Fu"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Tzu-Cheng Lee"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Soo Mee Kim"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adam M",
+            "LastName": "Alessio",
+            "Initials": "AM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul E",
+            "LastName": "Kinahan",
+            "Initials": "PE"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Zhiqian Chang"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ken",
+            "LastName": "Sauer",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mannudeep K",
+            "LastName": "Kalra",
+            "Initials": "MK"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bruno",
+            "LastName": "De Man",
+            "Initials": "B"
+          }
+        ]
+      },
+      "ArticleTitle": "Comparison Between Pre-Log and Post-Log Statistical Models in Ultra-Low-Dose CT Reconstruction.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2016.2627004"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 36,
+          "PubDate": {
+            "Month": "03",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D011829",
+        "MajorTopicYN": "N",
+        "content": "Radiation Dosage"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "09"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 May;42(5):2699-708",
+        "PMID": {
+          "Version": 1,
+          "content": 25979068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2012 Sep;31(9):1682-97",
+        "PMID": {
+          "Version": 1,
+          "content": 22542666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2002 Oct;29(10):2404-18",
+        "PMID": {
+          "Version": 1,
+          "content": 12408315
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 1999 Nov;44(11):2835-51",
+        "PMID": {
+          "Version": 1,
+          "content": 10588288
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1997 Apr;16(2):166-75",
+        "PMID": {
+          "Version": 1,
+          "content": 9101326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2014 Aug;33(8):1614-26",
+        "PMID": {
+          "Version": 1,
+          "content": 24801550
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2014 Jan;33(1):61-73",
+        "PMID": {
+          "Version": 1,
+          "content": 24001989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Nucl Sci. 2008 Oct;55(5):2566-2575",
+        "PMID": {
+          "Version": 1,
+          "content": 19169383
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1992;11(1):40-52",
+        "PMID": {
+          "Version": 1,
+          "content": 18218355
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Radiol. 2013 Feb;23 (2):360-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22892722
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2005 Jun;32(6):1676-83",
+        "PMID": {
+          "Version": 1,
+          "content": 16013726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Apr 21;52(8):2247-66",
+        "PMID": {
+          "Version": 1,
+          "content": 17404467
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1997 Apr;16(2):159-65",
+        "PMID": {
+          "Version": 1,
+          "content": 9101325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2007 Feb;34(2):585-98",
+        "PMID": {
+          "Version": 1,
+          "content": 17388176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2007 Mar;26(3):283-97",
+        "PMID": {
+          "Version": 1,
+          "content": 17354635
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 Aug;25(8):1022-36",
+        "PMID": {
+          "Version": 1,
+          "content": 16894995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2009 Jun;18(6):1228-38",
+        "PMID": {
+          "Version": 1,
+          "content": 19398410
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Assist Tomogr. 1984 Apr;8(2):306-16",
+        "PMID": {
+          "Version": 1,
+          "content": 6608535
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2007 Nov;34(11):4526-44",
+        "PMID": {
+          "Version": 1,
+          "content": 18072519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Jun 21;53(12):3327-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18523346
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Assist Tomogr. 2012 Jul-Aug;36(4):477-87",
+        "PMID": {
+          "Version": 1,
+          "content": 22805680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2016 Mar;43(3):1361-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26936720
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2009 Oct 7;54(19):5781-804",
+        "PMID": {
+          "Version": 1,
+          "content": 19741274
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Dec;17(6):1101-5",
+        "PMID": {
+          "Version": 1,
+          "content": 10048870
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 1998 Apr;43(4):729-37",
+        "PMID": {
+          "Version": 1,
+          "content": 9572499
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1999 Sep;18(9):801-14",
+        "PMID": {
+          "Version": 1,
+          "content": 10571385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2015 Jan;34(1):167-78",
+        "PMID": {
+          "Version": 1,
+          "content": 25163058
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2000 Nov;19(11):1075-81",
+        "PMID": {
+          "Version": 1,
+          "content": 11204845
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 1995;4(10):1439-50",
+        "PMID": {
+          "Version": 1,
+          "content": 18291975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 Oct;25(10):1272-83",
+        "PMID": {
+          "Version": 1,
+          "content": 17024831
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2014 Jan;33(1):117-34",
+        "PMID": {
+          "Version": 1,
+          "content": 24058024
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2013 Jun 21;58(12 ):R63-96",
+        "PMID": {
+          "Version": 1,
+          "content": 23739261
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2003 Aug 7;48(15):2453-77",
+        "PMID": {
+          "Version": 1,
+          "content": 12953909
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1994;13(4):601-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18218538
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2005 Jan;24(1):105-11",
+        "PMID": {
+          "Version": 1,
+          "content": 15638189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1999 Aug;18(8):665-74",
+        "PMID": {
+          "Version": 1,
+          "content": 10534049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2012 Jan 21;57(2):309-28",
+        "PMID": {
+          "Version": 1,
+          "content": 22156174
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2001 Oct;20(10):999-1008",
+        "PMID": {
+          "Version": 1,
+          "content": 11686446
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2009 Jan;36(1):252-60",
+        "PMID": {
+          "Version": 1,
+          "content": 19235393
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 Mar;25(3):283-96",
+        "PMID": {
+          "Version": 1,
+          "content": 16524085
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2004 Jun 7;49(11):2463-75",
+        "PMID": {
+          "Version": 1,
+          "content": 15248590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 1995;4(10):1430-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18291974
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1998 Nov;25(11):2139-47",
+        "PMID": {
+          "Version": 1,
+          "content": 9829238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2001 Apr;28(4):475-90",
+        "PMID": {
+          "Version": 1,
+          "content": 11339744
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2014 Apr;41(4):041916",
+        "PMID": {
+          "Version": 1,
+          "content": 24694147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2002 Feb;21(2):89-99",
+        "PMID": {
+          "Version": 1,
+          "content": 11929108
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2017 Jan;36(1):277-287",
+        "PMID": {
+          "Version": 1,
+          "content": 27623572
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 2012 Dec;199(6):1266-74",
+        "PMID": {
+          "Version": 1,
+          "content": 23169718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Radiol. 2013 Mar;43(5):558-67",
+        "PMID": {
+          "Version": 1,
+          "content": 23224105
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2006 Sep;33(9):3290-303",
+        "PMID": {
+          "Version": 1,
+          "content": 17022224
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 1996;5(3):480-92",
+        "PMID": {
+          "Version": 1,
+          "content": 18285133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Jan 21;52(2):403-18",
+        "PMID": {
+          "Version": 1,
+          "content": 17202623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2011 Jan;20(1):161-75",
+        "PMID": {
+          "Version": 1,
+          "content": 20643609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2016 Mar;35(3):860-70",
+        "PMID": {
+          "Version": 1,
+          "content": 26561284
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Opt Soc Am A. 1993 May;10(5):1014-23",
+        "PMID": {
+          "Version": 1,
+          "content": 8496726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Jul;39(7):4051-65",
+        "PMID": {
+          "Version": 1,
+          "content": 22830738
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2016 Sep 07;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28113359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2011 May;30(5):1116-28",
+        "PMID": {
+          "Version": 1,
+          "content": 21233044
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28113926
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113926,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2016.2627004",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5424567",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS844021",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

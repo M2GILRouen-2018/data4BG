@@ -1,0 +1,173 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9878362,
+      "Country": "United States",
+      "ISSNLinking": "0192-8651",
+      "MedlineTA": "J Comput Chem"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "2775-2783"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 Wiley Periodicals, Inc.",
+        "AbstractText": "A significant reduction in the computational effort for the evaluation of the electronic repulsion integrals (ERI) in ab initio quantum chemistry calculations is obtained by using Cholesky decomposition (CD), a numerical procedure that can remove the zero or small eigenvalues of the ERI positive (semi)definite matrix, while avoiding the calculation of the entire matrix. Conversely, due to its antisymmetric character, CD cannot be directly applied to the matrix representation of the spatial part of the two-electron spin-orbit coupling (2e-SOC) integrals. Here, we present a computational strategy to achieve a Cholesky representation of the spatial part of the 2e-SOC integrals, and propose a new efficient CD algorithm for both ERI and 2e-SOC integrals. The proposed algorithm differs from previous CD implementations by the extensive use of a full-pivoting design, which allows a univocal definition of the Cholesky basis, once the CD δ threshold is made explicit. We show that 2δ is the upper limit for the errors affecting the reconstructed 2e-SOC integrals. The proposed strategy was implemented in the ab initio program Computational Emulator of Rare Earth Systems (CERES), and tested for computational performance on both the ERI and 2e-SOC integrals evaluation. © 2017 Wiley Periodicals, Inc."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-2770-7447"
+            },
+            "ForeName": "Matteo",
+            "LastName": "Piccardo",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "School of Chemistry, The University of Melbourne, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-6779-7304"
+            },
+            "ForeName": "Alessandro",
+            "LastName": "Soncini",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "School of Chemistry, The University of Melbourne, Australia."}
+          }
+        ]
+      },
+      "ArticleTitle": "A full-pivoting algorithm for the Cholesky decomposition of two-electron repulsion and spin-orbit coupling integrals.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/jcc.25062"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 32,
+          "Volume": 38,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Comput Chem",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1096-987X"
+        },
+        "Title": "Journal of computational chemistry"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Cholesky"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "decomposition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "electron repulsion integrals"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "full-pivoting"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "spin-orbit coupling"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28944973
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28944973,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/jcc.25062",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

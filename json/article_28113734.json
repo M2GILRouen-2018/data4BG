@@ -1,0 +1,221 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101604520,
+      "Country": "United States",
+      "ISSNLinking": "2168-2194",
+      "MedlineTA": "IEEE J Biomed Health Inform"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1027-1038"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 10
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Histopathologic features, particularly Gleason grading system, have contributed significantly to the diagnosis, treatment, and prognosis of prostate cancer for decades. However, prostate cancer demonstrates enormous heterogeneity in biological behavior, thus establishing improved prognostic and predictive markers is particularly important to personalize therapy of men with clinically localized and newly diagnosed malignancy. Many automated grading systems have been developed for Gleason grading but acceptance in the medical community has been lacking due to poor interpretability. To overcome this problem, we developed a set of visually meaningful features to differentiate between low- and high-grade prostate cancer. The visually meaningful feature set consists of luminal and architectural features. For luminal features, we compute: 1) the shortest path from the nuclei to their closest luminal spaces; 2) ratio of the epithelial nuclei to the total number of nuclei. A nucleus is considered an epithelial nucleus if the shortest path between it and the luminal space does not contain any other nucleus; 3) average shortest distance of all nuclei to their closest luminal spaces. For architectural features, we compute directional changes in stroma and nuclei using directional filter banks. These features are utilized to create two subspaces; one for prostate images histopathologically assessed as low grade and the other for high grade. The grade associated with a subspace, which results in the minimum reconstruction error is considered as the prediction for the test image. For training, we utilized 43 regions of interest (ROI) images, which were extracted from 25 prostate whole slide images of The Cancer Genome Atlas (TCGA) database. For testing, we utilized an independent dataset of 88 ROIs extracted from 30 prostate whole slide images. The method resulted in 93.0% and 97.6% training and testing accuracies, respectively, for the spectrum of cases considered. The application of visually meaningful features provided promising levels of accuracy and consistency for grading prostate cancer."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "M Khalid Khan",
+            "LastName": "Niazi",
+            "Initials": "MKK"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Keluo Yao"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Debra L",
+            "LastName": "Zynger",
+            "Initials": "DL"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Steven K",
+            "LastName": "Clinton",
+            "Initials": "SK"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "James",
+            "LastName": "Chen",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mehmet",
+            "LastName": "Koyuturk",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thomas",
+            "LastName": "LaFramboise",
+            "Initials": "T"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Metin",
+            "LastName": "Gurcan",
+            "Initials": "M"
+          }
+        ]
+      },
+      "ArticleTitle": "Visually Meaningful Histopathological Features for Automatic Grading of Prostate Cancer.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/JBHI.2016.2565515"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 21,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE J Biomed Health Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2168-2208"
+        },
+        "Title": "IEEE journal of biomedical and health informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D006651",
+          "MajorTopicYN": "N",
+          "content": "Histocytochemistry"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D060787",
+        "MajorTopicYN": "N",
+        "content": "Neoplasm Grading"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D011467",
+          "MajorTopicYN": "N",
+          "content": "Prostate"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D011471",
+          "MajorTopicYN": "N",
+          "content": "Prostatic Neoplasms"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": 10
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113734
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113734,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/JBHI.2016.2565515",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

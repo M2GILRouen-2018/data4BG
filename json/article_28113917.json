@@ -1,0 +1,116 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101616214,
+      "Country": "United States",
+      "ISSNLinking": "2162-237X",
+      "MedlineTA": "IEEE Trans Neural Netw Learn Syst"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1682-1695"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "There are plenty of classification methods that perform well when training and testing data are drawn from the same distribution. However, in real applications, this condition may be violated, which causes degradation of classification accuracy. Domain adaptation is an effective approach to address this problem. In this paper, we propose a general domain adaptation framework from the perspective of prediction reweighting, from which a novel approach is derived. Different from the major domain adaptation methods, our idea is to reweight predictions of the training classifier on testing data according to their signed distance to the domain separator, which is a classifier that distinguishes training data (from source domain) and testing data (from target domain). We then propagate the labels of target instances with larger weights to ones with smaller weights by introducing a manifold regularization method. It can be proved that our reweighting scheme effectively brings the source and target domains closer to each other in an appropriate sense, such that classification in target domain becomes easier. The proposed method can be implemented efficiently by a simple two-stage algorithm, and the target classifier has a closed-form solution. The effectiveness of our approach is verified by the experiments on artificial datasets and two standard benchmarks, a visual object recognition task and a cross-domain sentiment analysis of text. Experimental results demonstrate that our method is competitive with the state-of-the-art domain adaptation algorithms."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "LastName": "Shuang Li"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Shiji Song"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Gao Huang"
+          }
+        ]
+      },
+      "ArticleTitle": "Prediction Reweighting for Domain Adaptation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TNNLS.2016.2538282"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 28,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Neural Netw Learn Syst",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2162-2388"
+        },
+        "Title": "IEEE transactions on neural networks and learning systems"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113917
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113917,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TNNLS.2016.2538282",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,569 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101669345,
+      "Country": "Canada",
+      "ISSNLinking": "2369-2960",
+      "MedlineTA": "JMIR Public Health Surveill"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "Conflicts of Interest: None declared.",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e166"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIGMS NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 GM105033",
+          "Acronym": "GM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Social media offer an unprecedented opportunity to explore how people talk about health care at a very large scale. Numerous studies have shown the importance of websites with user forums for people seeking information related to health. Parents turn to some of these sites, colloquially referred to as \"mommy blogs,\" to share concerns about children's health care, including vaccination. Although substantial work has considered the role of social media, particularly Twitter, in discussions of vaccination and other health care-related issues, there has been little work on describing the underlying structure of these discussions and the role of persuasive storytelling, particularly on sites with no limits on post length. Understanding the role of persuasive storytelling at Internet scale provides useful insight into how people discuss vaccinations, including exemption-seeking behavior, which has been tied to a recent diminution of herd immunity in some communities."
+        },
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "To develop an automated and scalable machine-learning method for story aggregation on social media sites dedicated to discussions of parenting. We wanted to discover the aggregate narrative frameworks to which individuals, through their exchange of experiences and commentary, contribute over time in a particular topic domain. We also wanted to characterize temporal trends in these narrative frameworks on the sites over the study period."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "To ensure that our data capture long-term discussions and not short-term reactions to recent events, we developed a dataset of 1.99 million posts contributed by 40,056 users and viewed 20.12 million times indexed from 2 parenting sites over a period of 105 months. Using probabilistic methods, we determined the topics of discussion on these parenting sites. We developed a generative statistical-mechanical narrative model to automatically extract the underlying stories and story fragments from millions of posts. We aggregated the stories into an overarching narrative framework graph. In our model, stories were represented as network graphs with actants as nodes and their various relationships as edges. We estimated the latent stories circulating on these sites by modeling the posts as a sampling of the hidden narrative framework graph. Temporal trends were examined based on monthly user-poststatistics."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We discovered that discussions of exemption from vaccination requirements are highly represented. We found a strong narrative framework related to exemption seeking and a culture of distrust of government and medical institutions. Various posts reinforced part of the narrative framework graph in which parents, medical professionals, and religious institutions emerged as key nodes, and exemption seeking emerged as an important edge. In the aggregate story, parents used religion or belief to acquire exemptions to protect their children from vaccines that are required by schools or government institutions, but (allegedly) cause adverse reactions such as autism, pain, compromised immunity, and even death. Although parents joined and left the discussion forums over time, discussions and stories about exemptions were persistent and robust to these membership changes."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Analyzing parent forums about health care using an automated analytic approach, such as the one presented here, allows the detection of widespread narrative frameworks that structure and inform discussions. In most vaccination stories from the sites we analyzed, it is taken for granted that vaccines and not vaccine preventable diseases (VPDs) pose a threat to children. Because vaccines are seen as a threat, parents focus on sharing successful strategies for avoiding them, with exemption being the foremost among these strategies. When new parents join such sites, they may be exposed to this endemic narrative framework in the threads they read and to which they contribute, which may influence their health care decision making."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-1775-2052"
+            },
+            "ForeName": "Timothy R",
+            "LastName": "Tangherlini",
+            "Initials": "TR",
+            "AffiliationInfo": {"Affiliation": "Center for Digital Humanities, University of California, Los Angeles, Los Angeles, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-0832-6489"
+            },
+            "ForeName": "Vwani",
+            "LastName": "Roychowdhury",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, University of California, Los Angeles, Los Angeles, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-4937-8181"
+            },
+            "ForeName": "Beth",
+            "LastName": "Glenn",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Fielding School of Public Health, Jonsson Comprehensive Cancer Center, UCLA Kaiser Permanente Center for Health Equity, University of California, Los Angeles, Los Angeles, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-6150-2181"
+            },
+            "ForeName": "Catherine M",
+            "LastName": "Crespi",
+            "Initials": "CM",
+            "AffiliationInfo": {"Affiliation": "Fielding School of Public Health, Jonsson Comprehensive Cancer Center, UCLA Kaiser Permanente Center for Health Equity, University of California, Los Angeles, Los Angeles, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8522-0904"
+            },
+            "ForeName": "Roja",
+            "LastName": "Bandari",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, University of California, Los Angeles, Los Angeles, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-2792-1614"
+            },
+            "ForeName": "Akshay",
+            "LastName": "Wadia",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, University of California, Los Angeles, Los Angeles, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-4240-7664"
+            },
+            "ForeName": "Misagh",
+            "LastName": "Falahi",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, University of California, Los Angeles, Los Angeles, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7739-4197"
+            },
+            "ForeName": "Ehsan",
+            "LastName": "Ebrahimzadeh",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, University of California, Los Angeles, Los Angeles, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-6594-9231"
+            },
+            "ForeName": "Roshan",
+            "LastName": "Bastani",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Fielding School of Public Health, Jonsson Comprehensive Cancer Center, UCLA Kaiser Permanente Center for Health Equity, University of California, Los Angeles, Los Angeles, CA, United States."}
+          }
+        ]
+      },
+      "ArticleTitle": "\"Mommy Blogs\" and the Vaccination Exemption Narrative: Results From A Machine-Learning Approach for Story Aggregation on Parenting Social Media Sites.",
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 2,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2016,
+            "Day": 22
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "JMIR Public Health Surveill",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2369-2960"
+        },
+        "Title": "JMIR public health and surveillance"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Internet"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "attitudes"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "health knowledge"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "personal narratives"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "practice"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "social media"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "vaccination"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 23
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Health Serv Res. 2006 Jun;41(3 Pt 1):819-36",
+        "PMID": {
+          "Version": 1,
+          "content": 16704514
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2015 Jun 10;17(6):e144",
+        "PMID": {
+          "Version": 1,
+          "content": 26063290
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2015 May 29;17(5):e133",
+        "PMID": {
+          "Version": 1,
+          "content": 26024907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Milbank Q. 2014 Mar;92(1):7-33",
+        "PMID": {
+          "Version": 1,
+          "content": 24597553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2013 Dec 17;15(12):e273",
+        "PMID": {
+          "Version": 1,
+          "content": 24345424
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Vaccin Immunother. 2014;10(9):2584-96",
+        "PMID": {
+          "Version": 1,
+          "content": 25483505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Milbank Q. 2014 Mar;92(1):34-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24597554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 Aug 18;112(33):10321-4",
+        "PMID": {
+          "Version": 1,
+          "content": 26240325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Res Protoc. 2016 May 05;5(2):e50",
+        "PMID": {
+          "Version": 1,
+          "content": 27151100
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2009 May 7;360(19):1981-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19420367
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2015 May 26;17(5):e128",
+        "PMID": {
+          "Version": 1,
+          "content": 26013683
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2016 Jun 16;18(6):e120",
+        "PMID": {
+          "Version": 1,
+          "content": 27311444
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Health Promot Pract. 2013 Jan;14(1):15-23",
+        "PMID": {
+          "Version": 1,
+          "content": 21558472
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Decis Making. 2011 Sep-Oct;31(5):742-53",
+        "PMID": {
+          "Version": 1,
+          "content": 21447730
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2016 Mar 09;18(3):e44",
+        "PMID": {
+          "Version": 1,
+          "content": 26960745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Law Med Ethics. 2002 Fall;30(3 Suppl):122-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12508514
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Nov 3;11(11):e0165910",
+        "PMID": {
+          "Version": 1,
+          "content": 27812210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vaccine. 2012 May 28;30(25):3778-89",
+        "PMID": {
+          "Version": 1,
+          "content": 22172504
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Public Health Surveill. 2016 Jan 04;2(1):e1",
+        "PMID": {
+          "Version": 1,
+          "content": 27227144
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2005 Jun 29;7(2):e17",
+        "PMID": {
+          "Version": 1,
+          "content": 15998608
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2014 Feb 06;16(2):e43",
+        "PMID": {
+          "Version": 1,
+          "content": 24513565
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Dis Child. 1992 Feb;146(2):173-6",
+        "PMID": {
+          "Version": 1,
+          "content": 1733146
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Vaccin Immunother. 2012 Jun;8(6):838-41",
+        "PMID": {
+          "Version": 1,
+          "content": 22508414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vaccine. 2012 May 28;30(25):3806-12",
+        "PMID": {
+          "Version": 1,
+          "content": 22063388
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 1999 Jul 7;282(1):47-53",
+        "PMID": {
+          "Version": 1,
+          "content": 10404911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JMIR Public Health Surveill. 2016 Mar 31;2(1):e16",
+        "PMID": {
+          "Version": 1,
+          "content": 27227151
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2004 Mar 01;6(1):e7",
+        "PMID": {
+          "Version": 1,
+          "content": 15111273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2015 Sep 29;17(9):e220",
+        "PMID": {
+          "Version": 1,
+          "content": 26420469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Biol Sci. 2014 Feb 12;281(1780):20133172",
+        "PMID": {
+          "Version": 1,
+          "content": 24523276
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2014 Dec 04;16(12):e277",
+        "PMID": {
+          "Version": 1,
+          "content": 25486677
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2016 Aug 29;18(8):e232",
+        "PMID": {
+          "Version": 1,
+          "content": 27573910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vaccine. 2010 Feb 17;28(7):1709-16",
+        "PMID": {
+          "Version": 1,
+          "content": 20045099
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Infect Dis. 2011 Apr 1;52(7):911-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21427399
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 27876690
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27876690,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "v2i2e166",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.2196/publichealth.6586",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5141339",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

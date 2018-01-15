@@ -1,0 +1,231 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0376342",
+      "Country": "England",
+      "ISSNLinking": "0022-5193",
+      "MedlineTA": "J Theor Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 25
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "43-50"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier Ltd. All rights reserved.",
+        "AbstractText": "One of the main tasks towards the prediction of protein β-sheet structure is to predict the native alignment of β-strands. The alignment of two β-strands defines similar regions that may reflect functional, structural, or evolutionary relationships between them. Therefore, any improvement in β-strands alignment not only reduces the computational search space but also improves β-sheet structure prediction accuracy. To define the alignment scores, previous studies utilized predicted residue-residue contacts (contact maps). However, there are two serious problems using them. First, the precision of contact map prediction techniques, especially for long-range contacts (i.e., β-residues), is still not satisfactory. Second, the residue-residue contact predictors usually utilize general properties of amino acids and disregard the structural features of β-residues. In this paper, we consider β-structure information, which is estimated from protein β-sheet data sets, as alignment scores. However, the predicted contact maps are used as a prior knowledge about residues. They are used for strengthening or weakening the alignment scores in our algorithm. Thus, we can utilize both β-residues and β-structure information in alignment of β-strands. The structure of dynamic programming of the alignment algorithm is changed in order to work with our prior knowledge. Moreover, the Four Russians method is applied to the proposed alignment algorithm in order to reduce the time complexity of the problem. For evaluating the proposed method, we applied it to the state-of-the-art β-sheet structure prediction methods. The experimental results on the BetaSheet916 data set showed significant improvements in the execution time, the accuracy of β-strands' alignment and consequently β-sheet structure prediction accuracy. The results are available at http://conceptsgate.com/BetaSheet."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mostafa",
+            "LastName": "Sabzekar",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, Ferdowsi University of Mashhad, Mashhad, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mahmoud",
+            "LastName": "Naghibzadeh",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, Ferdowsi University of Mashhad, Mashhad, Iran. Electronic address: naghibzadeh@um.ac.ir."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Javad",
+            "LastName": "Sadri",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science & Software Engineering, Concordia University, Canada."}
+          }
+        ]
+      },
+      "ArticleTitle": "Efficient dynamic programming algorithm with prior knowledge for protein β-strand alignment.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0022-5193(17)30018-8"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jtbi.2017.01.018"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 417,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Theor. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1095-8541"
+        },
+        "Title": "Journal of theoretical biology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Contact map"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Dynamic programming"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Protein β-sheet"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Strand alignment"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Structural information"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "The Four Russians method"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D030562",
+        "MajorTopicYN": "N",
+        "content": "Databases, Protein"
+      }},
+      {"DescriptorName": {
+        "UI": "D008958",
+        "MajorTopicYN": "Y",
+        "content": "Models, Molecular"
+      }},
+      {"DescriptorName": {
+        "UI": "D000072757",
+        "MajorTopicYN": "Y",
+        "content": "Protein Conformation, beta-Strand"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28108305
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 11,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28108305,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0022-5193(17)30018-8",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jtbi.2017.01.018",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

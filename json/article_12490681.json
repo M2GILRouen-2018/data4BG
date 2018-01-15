@@ -1,0 +1,260 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0188274"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D023361",
+          "content": "Validation Studies"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Analysis of data measured on different scales is a relevant challenge. Biomedical studies often focus on high-throughput datasets of, e.g., quantitative measurements. However, the need for integration of other features possibly measured on different scales, e.g. clinical or cytogenetic factors, becomes increasingly important. The analysis results (e.g. a selection of relevant genes) are then visualized, while adding further information, like clinical factors, on top. However, a more integrative approach is desirable, where all available data are analyzed jointly, and where also in the visualization different data sources are combined in a more natural way. Here we specifically target integrative visualization and present a heatmap-style graphic display. To this end, we develop and explore methods for clustering mixed-type data, with special focus on clustering variables. Clustering of variables does not receive as much attention in the literature as does clustering of samples. We extend the variables clustering methodology by two new approaches, one based on the combination of different association measures and the other on distance correlation. With simulation studies we evaluate and compare different clustering strategies. Applying specific methods for mixed-type data proves to be comparable and in many cases beneficial as compared to standard approaches applied to corresponding quantitative or binarized data. Our two novel approaches for mixed-type variables show similar or better performance than the existing methods ClustOfVar and bias-corrected mutual information. Further, in contrast to ClustOfVar, our methods provide dissimilarity matrices, which is an advantage, especially for the purpose of visualization. Real data examples aim to give an impression of various kinds of potential applications for the integrative heatmap and other graphical displays based on dissimilarity matrices. We demonstrate that the presented integrative heatmap provides more information than common data displays about the relationship among variables and samples. The described clustering and visualization methods are implemented in our R package CluMix available from https://cran.r-project.org/web/packages/CluMix."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7870-2227"
+            },
+            "ForeName": "Manuela",
+            "LastName": "Hummel",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, German Cancer Research Center, Heidelberg, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dominic",
+            "LastName": "Edelmann",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, German Cancer Research Center, Heidelberg, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Annette",
+            "LastName": "Kopp-Schneider",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, German Cancer Research Center, Heidelberg, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Clustering of samples and variables with mixed-type data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0188274"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D003627",
+        "MajorTopicYN": "Y",
+        "content": "Data Interpretation, Statistical"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2004 Apr 1;103(7):2771-8",
+        "PMID": {
+          "Version": 1,
+          "content": 14684422
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Bull. 1996 Jan;119(1):159-65",
+        "PMID": {
+          "Version": 1,
+          "content": 8559859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Dec 11;109(50):20352-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23175793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 Jul 15;22(14):e184-90",
+        "PMID": {
+          "Version": 1,
+          "content": 16873470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2011 Apr 10;29(11):1415-23",
+        "PMID": {
+          "Version": 1,
+          "content": 21357789
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Feb 14;9(2):e87446",
+        "PMID": {
+          "Version": 1,
+          "content": 24551058
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2004 Jan-Mar;1(1):24-45",
+        "PMID": {
+          "Version": 1,
+          "content": 17048406
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2006 Sep 10;24(26):4236-44",
+        "PMID": {
+          "Version": 1,
+          "content": 16896004
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Nov 15;25(22):2906-12",
+        "PMID": {
+          "Version": 1,
+          "content": 19759197
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 May 12;10(5):e0126544",
+        "PMID": {
+          "Version": 1,
+          "content": 25965968
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2002 Dec 19;347(25):1999-2009",
+        "PMID": {
+          "Version": 1,
+          "content": 12490681
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29182671
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29182671,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0188274",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-17566",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5705083",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

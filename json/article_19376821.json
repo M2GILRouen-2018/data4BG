@@ -1,0 +1,280 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101645109,
+      "Country": "Canada",
+      "MedlineTA": "JMIR Med Inform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e48"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Biomedical semantic indexing is a very useful support tool for human curators in their efforts for indexing and cataloging the biomedical literature."
+        },
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "The aim of this study was to describe a system to automatically assign Medical Subject Headings (MeSH) to biomedical articles from MEDLINE."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "Our approach relies on the assumption that similar documents should be classified by similar MeSH terms. Although previous work has already exploited the document similarity by using a k-nearest neighbors algorithm, we represent documents as document vectors by search engine indexing and then compute the similarity between documents using cosine similarity. Once the most similar documents for a given input document are retrieved, we rank their MeSH terms to choose the most suitable set for the input document. To do this, we define a scoring function that takes into account the frequency of the term into the set of retrieved documents and the similarity between the input document and each retrieved document. In addition, we implement guidelines proposed by human curators to annotate MEDLINE articles; in particular, the heuristic that says if 3 MeSH terms are proposed to classify an article and they share the same ancestor, they should be replaced by this ancestor. The representation of the MeSH thesaurus as a graph database allows us to employ graph search algorithms to quickly and easily capture hierarchical relationships such as the lowest common ancestor between terms."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Our experiments show promising results with an F1 of 69% on the test dataset."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "To the best of our knowledge, this is the first work that combines search and graph database technologies for the task of biomedical semantic indexing. Due to its horizontal scalability, ElasticSearch becomes a real solution to index large collections of documents (such as the bibliographic database MEDLINE). Moreover, the use of graph search algorithms for accessing MeSH information could provide a support tool for cataloging MEDLINE abstracts in real time."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7810-2360"
+            },
+            "ForeName": "Isabel",
+            "LastName": "Segura Bedmar",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "LaBDA Group, Department of Computer Science, Universidad Carlos III de Madrid, Leganés, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3013-3771"
+            },
+            "ForeName": "Paloma",
+            "LastName": "Martínez",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "LaBDA Group, Department of Computer Science, Universidad Carlos III de Madrid, Leganés, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-1517-5423"
+            },
+            "ForeName": "Adrián",
+            "LastName": "Carruana Martín",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "LaBDA Group, Department of Computer Science, Universidad Carlos III de Madrid, Leganés, Spain."}
+          }
+        ]
+      },
+      "ArticleTitle": "Search and Graph Database Technologies for Biomedical Semantic Indexing: Experimental Analysis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.2196/medinform.7059"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 5,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "JMIR Med Inform",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2291-9694"
+        },
+        "Title": "JMIR medical informatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Medical Subject Headings"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "information storage and retrieval"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "semantic indexing"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 24
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2010 May-Jun;17(3):229-36",
+        "PMID": {
+          "Version": 1,
+          "content": 20442139
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2011 Sep-Oct;18(5):660-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21613640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Apr 30;16:138",
+        "PMID": {
+          "Version": 1,
+          "content": 25925131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2015 Dec;58 Suppl:S67-77",
+        "PMID": {
+          "Version": 1,
+          "content": 26210362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2017 May;69:33-42",
+        "PMID": {
+          "Version": 1,
+          "content": 28302519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2016 Apr 06;2016:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27052618
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Jun 15;32(12 ):i70-i79",
+        "PMID": {
+          "Version": 1,
+          "content": 27307646
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Apr 08;16:113",
+        "PMID": {
+          "Version": 1,
+          "content": 25887792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Jun 1;25(11):1412-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19376821
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29196280
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29196280,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "v5i4e48",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.2196/medinform.7059",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5732329",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

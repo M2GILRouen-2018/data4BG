@@ -1,0 +1,132 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101523553,
+      "Country": "United States",
+      "ISSNLinking": "0730-8078",
+      "MedlineTA": "Proc ACM SIGMOD Int Conf Manag Data"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "47-62"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIGMS NIH HHS",
+          "Country": "United States",
+          "GrantID": "U54 GM114838",
+          "Acronym": "GM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We study crowdsourcing quality management, that is, given worker responses to a set of tasks, our goal is to jointly estimate the true answers for the tasks, as well as the quality of the workers. Prior work on this problem relies primarily on applying Expectation-Maximization (EM) on the underlying maximum likelihood problem to estimate true answers as well as worker quality. Unfortunately, EM only provides a locally optimal solution rather than a globally optimal one. Other solutions to the problem (that do not leverage EM) fail to provide global optimality guarantees as well. In this paper, we focus on filtering, where tasks require the evaluation of a yes/no predicate, and rating, where tasks elicit integer scores from a finite domain. We design algorithms for finding the global optimal estimates of correct task answers and worker quality for the underlying maximum likelihood problem, and characterize the complexity of these algorithms. Our algorithms conceptually consider all mappings from tasks to true answers (typically a very large number), leveraging two key ideas to reduce, by several orders of magnitude, the number of mappings under consideration, while preserving optimality. We also demonstrate that these algorithms often find more accurate estimates than EM-based algorithms. This paper makes an important contribution towards understanding the inherent complexity of globally optimal crowdsourcing quality management."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Akash",
+            "LastName": "Das Sarma",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Stanford University."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aditya",
+            "LastName": "Parameswaran",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "University of Illinois (UIUC)."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jennifer",
+            "LastName": "Widom",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Stanford University."}
+          }
+        ]
+      },
+      "ArticleTitle": "Towards Globally Optimal Crowdsourcing Quality Management: The Uniform Worker Setting.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1145/2882903.2882953"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 2016,
+          "PubDate": {"MedlineDate": "2016 Jun-Jul"},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Proc ACM SIGMOD Int Conf Manag Data",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0730-8078"
+        },
+        "Title": "Proceedings. ACM-Sigmod International Conference on Management of Data"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28149000
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28149000,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1145/2882903.2882953",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5278759",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS843640",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

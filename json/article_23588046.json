@@ -1,0 +1,189 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7505876,
+      "Country": "United States",
+      "ISSNLinking": "0027-8424",
+      "MedlineTA": "Proc Natl Acad Sci U S A"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "Pagination": {"MedlinePgn": "12864-12869"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 the Author(s). Published by PNAS.",
+        "AbstractText": "Solving the Fokker-Planck equation for high-dimensional complex dynamical systems is an important issue. Recently, the authors developed efficient statistically accurate algorithms for solving the Fokker-Planck equations associated with high-dimensional nonlinear turbulent dynamical systems with conditional Gaussian structures, which contain many strong non-Gaussian features such as intermittency and fat-tailed probability density functions (PDFs). The algorithms involve a hybrid strategy with a small number of samples [Formula: see text], where a conditional Gaussian mixture in a high-dimensional subspace via an extremely efficient parametric method is combined with a judicious Gaussian kernel density estimation in the remaining low-dimensional subspace. In this article, two effective strategies are developed and incorporated into these algorithms. The first strategy involves a judicious block decomposition of the conditional covariance matrix such that the evolutions of different blocks have no interactions, which allows an extremely efficient parallel computation due to the small size of each individual block. The second strategy exploits statistical symmetry for a further reduction of [Formula: see text] The resulting algorithms can efficiently solve the Fokker-Planck equation with strongly non-Gaussian PDFs in much higher dimensions even with orders in the millions and thus beat the curse of dimension. The algorithms are applied to a [Formula: see text]-dimensional stochastic coupled FitzHugh-Nagumo model for excitable media. An accurate recovery of both the transient and equilibrium non-Gaussian PDFs requires only [Formula: see text] samples! In addition, the block decomposition facilitates the algorithms to efficiently capture the distinct non-Gaussian features at different locations in a [Formula: see text]-dimensional two-layer inhomogeneous Lorenz 96 model, using only [Formula: see text] samples."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nan",
+            "LastName": "Chen",
+            "Initials": "N",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mathematics, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012; jonjon@cims.nyu.edu chennan@cims.nyu.edu."},
+              {"Affiliation": "Center for Atmosphere Ocean Science, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew J",
+            "LastName": "Majda",
+            "Initials": "AJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mathematics, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012; jonjon@cims.nyu.edu chennan@cims.nyu.edu."},
+              {"Affiliation": "Center for Atmosphere Ocean Science, Courant Institute of Mathematical Sciences, New York University, New York, NY 10012."},
+              {"Affiliation": "Center for Prototype Climate Modeling, New York University Abu Dhabi, Abu Dhabi, United Arab Emirates."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Beating the curse of dimension with accurate statistics for the Fokker-Planck equation in complex turbulent systems.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1073/pnas.1717017114"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 49,
+          "Volume": 114,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": "05"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1091-6490"
+        },
+        "Title": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "block decomposition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "high-dimensional non-Gaussian PDFs"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "hybrid strategy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "small sample size"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "statistical symmetry"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2005 Sep;72(3 Pt 1):031105",
+        "PMID": {
+          "Version": 1,
+          "content": 16241409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Jan 16;104(3):702-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17210922
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans A Math Phys Eng Sci. 2013 Apr 15;371(1991):20110479",
+        "PMID": {
+          "Version": 1,
+          "content": 23588046
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29158403
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29158403,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 1717017114,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1073/pnas.1717017114",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5724285",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

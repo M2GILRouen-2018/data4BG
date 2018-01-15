@@ -1,0 +1,130 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101232704,
+      "Country": "United States",
+      "ISSNLinking": "1549-9618",
+      "MedlineTA": "J Chem Theory Comput"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "139-153"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We propose a method for computation of frontal (homo and lumo) orbitals in recursive polynomial expansion algorithms for the density matrix. Such algorithms give a computational cost that increases only linearly with system size for sufficiently sparse systems, but a drawback compared to the traditional diagonalization approach is that molecular orbitals are not readily available. Our method is based on the idea to use the polynomial of the density matrix expansion as an eigenvalue filter giving large separation between eigenvalues around homo and lumo [ Rubensson et al. J. Chem. Phys. 2008 , 128 , 176101 ]. This filter is combined with a shift-and-square (folded spectrum) method to move the desired eigenvalue to the end of the spectrum. In this work we propose a transparent way to select recursive expansion iteration and shift for the eigenvector computation that results in a sharp eigenvalue filter. The filter is obtained as a byproduct of the density matrix expansion, and there is no significant additional cost associated either with its construction or with its application. This gives a clear-cut and efficient eigenvalue solver that can be used to compute homo and lumo orbitals with sufficient accuracy in a small fraction of the total recursive expansion time. Our algorithms make use of recent homo and lumo eigenvalue estimates that can be obtained at negligible cost [ Rubensson et al. SIAM J. Sci. Comput . 2014 , 36 , B147 ]. We illustrate our method by performing self-consistent field calculations for large scale systems."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-2019-1452"
+            },
+            "ForeName": "Anastasia",
+            "LastName": "Kruchinina",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Division of Scientific Computing, Department of Information Technology, Uppsala University , Uppsala 751 05, Sweden."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elias",
+            "LastName": "Rudberg",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Division of Scientific Computing, Department of Information Technology, Uppsala University , Uppsala 751 05, Sweden."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emanuel H",
+            "LastName": "Rubensson",
+            "Initials": "EH",
+            "AffiliationInfo": {"Affiliation": "Division of Scientific Computing, Department of Information Technology, Uppsala University , Uppsala 751 05, Sweden."}
+          }
+        ]
+      },
+      "ArticleTitle": "On-the-Fly Computation of Frontal Orbitals in Density Matrix Expansions.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1021/acs.jctc.7b00968"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 14,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018,
+            "Day": "09"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Chem Theory Comput",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1549-9626"
+        },
+        "Title": "Journal of chemical theory and computation"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "09"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29193971
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29193971,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1021/acs.jctc.7b00968",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

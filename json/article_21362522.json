@@ -1,0 +1,509 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101277751,
+      "Country": "United States",
+      "ISSNLinking": "1748-670X",
+      "MedlineTA": "Comput Math Methods Med"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare that there is no conflict of interests regarding the publication of this paper.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": "07"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 6740956},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Ultrasound imaging is commonly used for breast cancer diagnosis, but accurate interpretation of breast ultrasound (BUS) images is often challenging and operator-dependent. Computer-aided diagnosis (CAD) systems can be employed to provide the radiologists with a second opinion to improve the diagnosis accuracy. In this study, a new CAD system is developed to enable accurate BUS image classification. In particular, an improved texture analysis is introduced, in which the tumor is divided into a set of nonoverlapping regions of interest (ROIs). Each ROI is analyzed using gray-level cooccurrence matrix features and a support vector machine classifier to estimate its tumor class indicator. The tumor class indicators of all ROIs are combined using a voting mechanism to estimate the tumor class. In addition, morphological analysis is employed to classify the tumor. A probabilistic approach is used to fuse the classification results of the multiple-ROI texture analysis and morphological analysis. The proposed approach is applied to classify 110 BUS images that include 64 benign and 46 malignant tumors. The accuracy, specificity, and sensitivity obtained using the proposed approach are 98.2%, 98.4%, and 97.8%, respectively. These results demonstrate that the proposed approach can effectively be used to differentiate benign and malignant tumors."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-9399-5769"
+            },
+            "ForeName": "Mohammad I",
+            "LastName": "Daoud",
+            "Initials": "MI",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, German Jordanian University, Amman, Jordan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tariq M",
+            "LastName": "Bdair",
+            "Initials": "TM",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, German Jordanian University, Amman, Jordan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mahasen",
+            "LastName": "Al-Najar",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Jordan University Hospital, The University of Jordan, Amman, Jordan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rami",
+            "LastName": "Alazrai",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, German Jordanian University, Amman, Jordan."}
+          }
+        ]
+      },
+      "ArticleTitle": "A Fusion-Based Approach for Breast Ultrasound Image Classification Using Multiple-ROI Texture and Morphological Analyses.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1155/2016/6740956"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 2016,
+          "PubDate": {"Year": 2016},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Math Methods Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1748-6718"
+        },
+        "Title": "Computational and mathematical methods in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D019540",
+        "MajorTopicYN": "N",
+        "content": "Area Under Curve"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001940",
+          "MajorTopicYN": "N",
+          "content": "Breast"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001943",
+          "MajorTopicYN": "N",
+          "content": "Breast Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003936",
+        "MajorTopicYN": "N",
+        "content": "Diagnosis, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D005189",
+        "MajorTopicYN": "N",
+        "content": "False Positive Reactions"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D016011",
+        "MajorTopicYN": "N",
+        "content": "Normal Distribution"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011336",
+        "MajorTopicYN": "N",
+        "content": "Probability"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }},
+      {"DescriptorName": {
+        "UI": "D016217",
+        "MajorTopicYN": "Y",
+        "content": "Ultrasonography, Mammary"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": "07"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Cancer. 2015 Mar 1;136(5):E359-86",
+        "PMID": {
+          "Version": 1,
+          "content": 25220842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2008 Dec;15(12):1513-25",
+        "PMID": {
+          "Version": 1,
+          "content": 19000868
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Imaging. 2005 Jul-Aug;29(4):235-45",
+        "PMID": {
+          "Version": 1,
+          "content": 15967313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Math Methods Med. 2015 ;2015 :914091",
+        "PMID": {
+          "Version": 1,
+          "content": 25810750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Breast Cancer Res Treat. 2005 Jan;89(2):179-85",
+        "PMID": {
+          "Version": 1,
+          "content": 15692761
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2015 Feb;34(2):652-61",
+        "PMID": {
+          "Version": 1,
+          "content": 25350925
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2011 Apr;35(3):220-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21131178
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2009 Sep 20;9:335",
+        "PMID": {
+          "Version": 1,
+          "content": 19765317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2000 Sep;38(5):487-96",
+        "PMID": {
+          "Version": 1,
+          "content": 11094803
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2012 Dec;36(8):627-33",
+        "PMID": {
+          "Version": 1,
+          "content": 22939834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2004 Jun;23 (6):764-71",
+        "PMID": {
+          "Version": 1,
+          "content": 15191150
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2007 Aug;14 (8):928-39",
+        "PMID": {
+          "Version": 1,
+          "content": 17659238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2005 Aug;27(8):1226-38",
+        "PMID": {
+          "Version": 1,
+          "content": 16119262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Digit Imaging. 2013 Dec;26(6):1091-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23494603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2012 Oct;31(10 ):1889-99",
+        "PMID": {
+          "Version": 1,
+          "content": 22759441
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrason Imaging. 2011 Jan;33(1):17-38",
+        "PMID": {
+          "Version": 1,
+          "content": 21608446
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Imaging. 2013 May-Jun;37(3):420-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23153689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasound Med Biol. 1997;23(4):559-71",
+        "PMID": {
+          "Version": 1,
+          "content": 9232765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2013 Jul;111(1):84-92",
+        "PMID": {
+          "Version": 1,
+          "content": 23639752
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Dec;32(12 ):2262-73",
+        "PMID": {
+          "Version": 1,
+          "content": 24001985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Digit Imaging. 2015 Oct;28(5):576-85",
+        "PMID": {
+          "Version": 1,
+          "content": 25561066
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasound Med Biol. 2003 May;29(5):679-86",
+        "PMID": {
+          "Version": 1,
+          "content": 12754067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 Jun;42(6):3024-35",
+        "PMID": {
+          "Version": 1,
+          "content": 26127055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2004 Jul;28(5):247-55",
+        "PMID": {
+          "Version": 1,
+          "content": 15249070
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Eng Phys. 2010 Jan;32(1):49-56",
+        "PMID": {
+          "Version": 1,
+          "content": 19926514
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2009 Dec;16(12 ):1531-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19896070
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2008 Jul;15(7):873-80",
+        "PMID": {
+          "Version": 1,
+          "content": 18572123
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Semin Oncol. 2011 Feb;38(1):136-50",
+        "PMID": {
+          "Version": 1,
+          "content": 21362522
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28127383
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": "05",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 31,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28127383,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1155/2016/6740956",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5227307",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

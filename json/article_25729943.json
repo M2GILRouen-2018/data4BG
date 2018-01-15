@@ -1,0 +1,486 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 21
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0179805"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Machine learning is becoming a popular and important approach in the field of medical research. In this study, we investigate the relative performance of various machine learning methods such as Decision Tree, Naïve Bayes, Logistic Regression, Logistic Model Tree and Random Forests for predicting incident diabetes using medical records of cardiorespiratory fitness. In addition, we apply different techniques to uncover potential predictors of diabetes. This FIT project study used data of 32,555 patients who are free of any known coronary artery disease or heart failure who underwent clinician-referred exercise treadmill stress testing at Henry Ford Health Systems between 1991 and 2009 and had a complete 5-year follow-up. At the completion of the fifth year, 5,099 of those patients have developed diabetes. The dataset contained 62 attributes classified into four categories: demographic characteristics, disease history, medication use history, and stress test vital signs. We developed an Ensembling-based predictive model using 13 attributes that were selected based on their clinical importance, Multiple Linear Regression, and Information Gain Ranking methods. The negative effect of the imbalance class of the constructed model was handled by Synthetic Minority Oversampling Technique (SMOTE). The overall performance of the predictive model classifier was improved by the Ensemble machine learning approach using the Vote method with three Decision Trees (Naïve Bayes Tree, Random Forest, and Logistic Model Tree) and achieved high accuracy of prediction (AUC = 0.92). The study shows the potential of ensembling and SMOTE approaches for predicting incident diabetes using cardiorespiratory fitness data."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Manal",
+            "LastName": "Alghamdi",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "King Saud bin Abdulaziz University for Health Sciences, Riyadh, Saudi Arabia."},
+              {"Affiliation": "King Abdullah International Medical Research Center, Riyadh, Saudia Arabia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mouaz",
+            "LastName": "Al-Mallah",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "King Saud bin Abdulaziz University for Health Sciences, Riyadh, Saudi Arabia."},
+              {"Affiliation": "King Abdullah International Medical Research Center, Riyadh, Saudia Arabia."},
+              {"Affiliation": "Heart and Vascular Institute, Henry Ford Hospital System, Detroit, MI, United States of America."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Steven",
+            "LastName": "Keteyian",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Heart and Vascular Institute, Henry Ford Hospital System, Detroit, MI, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Clinton",
+            "LastName": "Brawner",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Heart and Vascular Institute, Henry Ford Hospital System, Detroit, MI, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonathan",
+            "LastName": "Ehrman",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Heart and Vascular Institute, Henry Ford Hospital System, Detroit, MI, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-2503-523X"
+            },
+            "ForeName": "Sherif",
+            "LastName": "Sakr",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "King Saud bin Abdulaziz University for Health Sciences, Riyadh, Saudi Arabia."},
+              {"Affiliation": "King Abdullah International Medical Research Center, Riyadh, Saudia Arabia."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Predicting diabetes mellitus using SMOTE and ensemble machine learning approach: The Henry Ford ExercIse Testing (FIT) project.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0179805"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 24
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003663",
+        "MajorTopicYN": "N",
+        "content": "Decision Trees"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "Y",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000209",
+            "MajorTopicYN": "Y",
+            "content": "etiology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003920",
+          "MajorTopicYN": "N",
+          "content": "Diabetes Mellitus"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D005080",
+          "MajorTopicYN": "N",
+          "content": "Exercise Test"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D006333",
+          "MajorTopicYN": "N",
+          "content": "Heart Failure"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016015",
+        "MajorTopicYN": "N",
+        "content": "Logistic Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D010809",
+          "MajorTopicYN": "N",
+          "content": "Physical Fitness"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012307",
+        "MajorTopicYN": "N",
+        "content": "Risk Factors"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 21
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Mar 30;10 (3):e0121501",
+        "PMID": {
+          "Version": 1,
+          "content": 25821974
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Glob J Health Sci. 2015 Mar 18;7(5):304-10",
+        "PMID": {
+          "Version": 1,
+          "content": 26156928
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomol Struct Dyn. 2016;34(1):223-35",
+        "PMID": {
+          "Version": 1,
+          "content": 25645238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2002 Sep-Oct;26(1-2):37-54",
+        "PMID": {
+          "Version": 1,
+          "content": 12234716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Endocr Disord. 2015 Sep 04;15:45",
+        "PMID": {
+          "Version": 1,
+          "content": 26341126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Sep 08;15:298",
+        "PMID": {
+          "Version": 1,
+          "content": 25196432
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2001 Aug;23(1):89-109",
+        "PMID": {
+          "Version": 1,
+          "content": 11470218
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes. 2005 Feb;54(2):333-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15677489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ Open. 2013 May 14;3(5):null",
+        "PMID": {
+          "Version": 1,
+          "content": 23676796
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Cardiol. 2014 Aug;37(8):456-61",
+        "PMID": {
+          "Version": 1,
+          "content": 25138770
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Nov 04;16:363",
+        "PMID": {
+          "Version": 1,
+          "content": 26537827
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2008 Jun;40(6):998-1006",
+        "PMID": {
+          "Version": 1,
+          "content": 18461008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2004 May;27(5):1047-53",
+        "PMID": {
+          "Version": 1,
+          "content": 15111519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(8):e40948",
+        "PMID": {
+          "Version": 1,
+          "content": 22905094
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Aug 15;32(16):2411-8",
+        "PMID": {
+          "Version": 1,
+          "content": 27153623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2008 Apr;27(4):685-91",
+        "PMID": {
+          "Version": 1,
+          "content": 18302232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2015 Jun;38(6):1075-81",
+        "PMID": {
+          "Version": 1,
+          "content": 25765356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Jan 1;33(1):35-41",
+        "PMID": {
+          "Version": 1,
+          "content": 27531102
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Res Clin Pract. 2015 Dec;110(3):241-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26520567
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Kaohsiung J Med Sci. 2013 Feb;29(2):93-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23347811
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Mol Res. 2015 Jan 15;14(1):123-33",
+        "PMID": {
+          "Version": 1,
+          "content": 25729943
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28738059
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28738059,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0179805",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-07353",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5524285",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

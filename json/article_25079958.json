@@ -1,0 +1,443 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005841"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Over the last ten years, isogenic tagging (IT) has revolutionised the study of bacterial infection dynamics in laboratory animal models. However, quantitative analysis of IT data has been hindered by the piecemeal development of relevant statistical models. The most promising approach relies on stochastic Markovian models of bacterial population dynamics within and among organs. Here we present an efficient numerical method to fit such stochastic dynamic models to in vivo experimental IT data. A common approach to statistical inference with stochastic dynamic models relies on producing large numbers of simulations, but this remains a slow and inefficient method for all but simple problems, especially when tracking bacteria in multiple locations simultaneously. Instead, we derive and solve the systems of ordinary differential equations for the two lower-order moments of the stochastic variables (mean, variance and covariance). For any given model structure, and assuming linear dynamic rates, we demonstrate how the model parameters can be efficiently and accurately estimated by divergence minimisation. We then apply our method to an experimental dataset and compare the estimates and goodness-of-fit to those obtained by maximum likelihood estimation. While both sets of parameter estimates had overlapping confidence regions, the new method produced lower values for the division and death rates of bacteria: these improved the goodness-of-fit at the second time point at the expense of that of the first time point. This flexible framework can easily be applied to a range of experimental systems. Its computational efficiency paves the way for model comparison and optimal experimental design."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-0076-3123"
+            },
+            "ForeName": "David J",
+            "LastName": "Price",
+            "Initials": "DJ",
+            "AffiliationInfo": {"Affiliation": "Department of Veterinary Medicine, University of Cambridge, Cambridge, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alexandre",
+            "LastName": "Breuzé",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Veterinary Medicine, University of Cambridge, Cambridge, United Kingdom."},
+              {"Affiliation": "ENSTA-ParisTech, Palaiseau, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Richard",
+            "LastName": "Dybowski",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Veterinary Medicine, University of Cambridge, Cambridge, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Piero",
+            "LastName": "Mastroeni",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Veterinary Medicine, University of Cambridge, Cambridge, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Olivier",
+            "LastName": "Restif",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Department of Veterinary Medicine, University of Cambridge, Cambridge, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "An efficient moments-based inference method for within-host bacterial infection dynamics.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005841"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000382",
+          "MajorTopicYN": "Y",
+          "content": "microbiology"
+        },
+        "DescriptorName": {
+          "UI": "D001424",
+          "MajorTopicYN": "N",
+          "content": "Bacterial Infections"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "Y",
+        "content": "Computational Biology"
+      }},
+      {"DescriptorName": {
+        "UI": "D054884",
+        "MajorTopicYN": "Y",
+        "content": "Host-Pathogen Interactions"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D013269",
+        "MajorTopicYN": "N",
+        "content": "Stochastic Processes"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "MBio. 2012 Feb 07;3(1):null",
+        "PMID": {
+          "Version": 1,
+          "content": 22318320
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Infect Immun. 2011 Oct;79(10):4250-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21807904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Microbiol. 2012 Feb;15(1):23-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22143042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2013 Sep;9(9):e1003532",
+        "PMID": {
+          "Version": 1,
+          "content": 24068916
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Microbiol. 2009 Jan;7(1):73-80",
+        "PMID": {
+          "Version": 1,
+          "content": 19079353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2013 May 3;340(6132):630-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23493420
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IET Syst Biol. 2009 Jan;3(1):52-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19154084
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Oct 15;29(20):2625-32",
+        "PMID": {
+          "Version": 1,
+          "content": 23900189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Aug 27;110(35):14261-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23940327
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Infect Immun. 2013 Dec;81(12):4408-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24042112
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Med. 2006 Jun 12;203(6):1591-601",
+        "PMID": {
+          "Version": 1,
+          "content": 16754724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2015 Jun 11;11(6):e1004823",
+        "PMID": {
+          "Version": 1,
+          "content": 26066486
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2014 Aug 14;158(4):722-733",
+        "PMID": {
+          "Version": 1,
+          "content": 25126781
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2009 Feb 6;6(31):187-202",
+        "PMID": {
+          "Version": 1,
+          "content": 19205079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013;9(1):e1002803",
+        "PMID": {
+          "Version": 1,
+          "content": 23341757
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Infect Immun. 2013 Dec;81(12):4534-43",
+        "PMID": {
+          "Version": 1,
+          "content": 24082074
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Mar;12(3):223-6, 3 p following 226",
+        "PMID": {
+          "Version": 1,
+          "content": 25599549
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2016 Aug;13(121):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27558850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2014 Feb 18;12(2):e1001793",
+        "PMID": {
+          "Version": 1,
+          "content": 24558351
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Infect Immun. 2012 Feb;80(2):720-32",
+        "PMID": {
+          "Version": 1,
+          "content": 22083714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2008 Apr 8;6(4):e74",
+        "PMID": {
+          "Version": 1,
+          "content": 18399718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2014 Sep 18;10(9):e1004359",
+        "PMID": {
+          "Version": 1,
+          "content": 25233077
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2015 Dec 6;12(113):20150702",
+        "PMID": {
+          "Version": 1,
+          "content": 26701880
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2014 Feb;9(2):439-56",
+        "PMID": {
+          "Version": 1,
+          "content": 24457334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Math Biol. 2012 Sep;65(3):553-80",
+        "PMID": {
+          "Version": 1,
+          "content": 21984359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Eng Sci. 2011 Feb 1;66(3):268-277",
+        "PMID": {
+          "Version": 1,
+          "content": 21949443
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2015 Sep 7;143(9):094107",
+        "PMID": {
+          "Version": 1,
+          "content": 26342359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2014 Jul 31;10(7):e1004270",
+        "PMID": {
+          "Version": 1,
+          "content": 25079958
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29155811
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29155811,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005841",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-00606",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5714343",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

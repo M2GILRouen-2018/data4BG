@@ -1,0 +1,197 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 31
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2611-7"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author 2016. Published by Oxford University Press. All rights reserved. For Permissions, please e-mail: journals.permissions@oup.com.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "MOTIVATION",
+            "content": "The human microbial communities are associated with many human diseases such as obesity, diabetes and inflammatory bowel disease. High-throughput sequencing technology has been widely used to quantify the microbial composition in order to understand its impacts on human health. Longitudinal measurements of microbial communities are commonly obtained in many microbiome studies. A key question in such microbiome studies is to identify the microbes that are associated with clinical outcomes or environmental factors. However, microbiome compositional data are highly skewed, bounded in [0,1), and often sparse with many zeros. In addition, the observations from repeated measures in longitudinal studies are correlated. A method that takes into account these features is needed for association analysis in longitudinal microbiome data."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "In this paper, we propose a two-part zero-inflated Beta regression model with random effects (ZIBR) for testing the association between microbial abundance and clinical covariates for longitudinal microbiome data. The model includes a logistic regression component to model presence/absence of a microbe in the samples and a Beta regression component to model non-zero microbial abundance, where each component includes a random effect to account for the correlations among the repeated measurements on the same subject. Both simulation studies and the application to real microbiome data have shown that ZIBR model outperformed the previously used methods. The method provides a useful tool for identifying the relevant taxa based on longitudinal or repeated measures in microbiome research."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "AVAILABILITY AND IMPLEMENTATION",
+            "content": "https://github.com/chvlyl/ZIBR CONTACT: hongzhe@upenn.edu."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric Z",
+            "LastName": "Chen",
+            "Initials": "EZ",
+            "AffiliationInfo": {"Affiliation": "Genomics and Computational Biology Graduate Group Department of Biostatistics and Epidemiology, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA 19104, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hongzhe",
+            "LastName": "Li",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Genomics and Computational Biology Graduate Group Department of Biostatistics and Epidemiology, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA 19104, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "A two-part mixed-effects model for analyzing longitudinal microbiome compositional data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btw308"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 17,
+          "Volume": 32,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2016,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2016,
+      "Day": "02"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016015",
+        "MajorTopicYN": "N",
+        "content": "Logistic Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D064307",
+        "MajorTopicYN": "Y",
+        "content": "Microbiota"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D012044",
+        "MajorTopicYN": "Y",
+        "content": "Regression Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D012107",
+        "MajorTopicYN": "N",
+        "content": "Research Design"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 31
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 27187200
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2016,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27187200,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btw308",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btw308",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

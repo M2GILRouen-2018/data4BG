@@ -1,0 +1,150 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9885960,
+      "Country": "United States",
+      "ISSNLinking": "0098-5589",
+      "MedlineTA": "IEEE Trans Pattern Anal Mach Intell"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "06"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Recently, significant improvement has been made on semantic object segmentation due to the development of deep convolutional neural networks (DCNNs). Training such a DCNN usually relies on a large number of images with pixel-level segmentation masks, and annotating these images is very costly in terms of both finance and human effort. In this paper, we propose a simple to complex (STC) framework in which only image-level annotations are utilized to learn DCNNs for semantic segmentation. Specifically, we first train an initial segmentation network called Initial-DCNN with the saliency maps of simple images (i.e., those with a single category of major object(s) and clean background). These saliency maps can be automatically obtained by existing bottom-up salient object detection techniques, where no supervision information is needed. Then, a better network called Enhanced-DCNN is learned with supervision from the predicted segmentation masks of simple images based on the Initial-DCNN as well as the image-level annotations. Finally, more pixel-level segmentation masks of complex images (two or more categories of objects with cluttered background), which are inferred by using Enhanced-DCNN and image-level annotations, are utilized as the supervision information to learn the Powerful-DCNN for semantic segmentation. Our method utilizes 40K simple images from Flickr.com and 10K complex images from PASCAL VOC for step-wisely boosting the segmentation network. Extensive experimental results on PASCAL VOC 2012 segmentation benchmark well demonstrate the superiority of the proposed STC framework compared with other state-of-the-arts."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yunchao",
+            "LastName": "Wei",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaodan",
+            "LastName": "Liang",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yunpeng",
+            "LastName": "Chen",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaohui",
+            "LastName": "Shen",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ming-Ming",
+            "LastName": "Cheng",
+            "Initials": "MM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiashi",
+            "LastName": "Feng",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yao",
+            "LastName": "Zhao",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shuicheng",
+            "LastName": "Yan",
+            "Initials": "S"
+          }
+        ]
+      },
+      "ArticleTitle": "STC: A Simple to Complex Framework for Weakly-supervised Semantic Segmentation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TPAMI.2016.2636150"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016,
+            "Day": "06"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Pattern Anal Mach Intell",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1939-3539"
+        },
+        "Title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114002
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114002,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TPAMI.2016.2636150",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

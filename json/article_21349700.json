@@ -1,0 +1,617 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101516718,
+      "Country": "England",
+      "ISSNLinking": "1758-2946",
+      "MedlineTA": "J Cheminform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 58},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "Innovative Medicines Initiative (IMI-JU)",
+            "Country": "United States",
+            "GrantID": "115002 (eTOX)"
+          },
+          {
+            "Agency": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO)",
+            "Country": "United States",
+            "GrantID": "VIDI grant 723.012.105"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Computational methods to predict binding affinities of small ligands toward relevant biological (off-)targets are helpful in prioritizing the screening and synthesis of new drug candidates, thereby speeding up the drug discovery process. However, use of ligand-based approaches can lead to erroneous predictions when structural and dynamic features of the target substantially affect ligand binding. Free energy methods for affinity computation can include steric and electrostatic protein-ligand interactions, solvent effects, and thermal fluctuations, but often they are computationally demanding and require a high level of supervision. As a result their application is typically limited to the screening of small sets of compounds by experts in molecular modeling."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We have developed eTOX ALLIES, an open source framework that allows the automated prediction of ligand-binding free energies requiring the ligand structure as only input. eTOX ALLIES is based on the linear interaction energy approach, an efficient end-point free energy method derived from Free Energy Perturbation theory. Upon submission of a ligand or dataset of compounds, the tool performs the multiple steps required for binding free-energy prediction (docking, ligand topology creation, molecular dynamics simulations, data analysis), making use of external open source software where necessary. Moreover, functionalities are also available to enable and assist the creation and calibration of new models. In addition, a web graphical user interface has been developed to allow use of free-energy based models to users that are not an expert in molecular modeling."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Because of the user-friendliness, efficiency and free-software licensing, eTOX ALLIES represents a novel extension of the toolbox for computational chemists, pharmaceutical scientists and toxicologists, who are interested in fast affinity predictions of small molecules toward biological (off-)targets for which protein flexibility, solvent and binding site interactions directly affect the strength of ligand-protein binding."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luigi",
+            "LastName": "Capoferri",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "AIMMS Division of Molecular Toxicology, Department of Chemistry and Pharmaceutical Sciences, Vrije Universiteit Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-3773-9357"
+            },
+            "ForeName": "Marc",
+            "LastName": "van Dijk",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "AIMMS Division of Molecular Toxicology, Department of Chemistry and Pharmaceutical Sciences, Vrije Universiteit Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-7616-3701"
+            },
+            "ForeName": "Ariën S",
+            "LastName": "Rustenburg",
+            "Initials": "AS",
+            "AffiliationInfo": [
+              {"Affiliation": "AIMMS Division of Molecular Toxicology, Department of Chemistry and Pharmaceutical Sciences, Vrije Universiteit Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."},
+              {"Affiliation": "Computational Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, 10065, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-6345-0266"
+            },
+            "ForeName": "Tsjerk A",
+            "LastName": "Wassenaar",
+            "Initials": "TA",
+            "AffiliationInfo": [
+              {"Affiliation": "AIMMS Division of Molecular Toxicology, Department of Chemistry and Pharmaceutical Sciences, Vrije Universiteit Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."},
+              {"Affiliation": "Groningen Biomolecular Sciences and Biotechnology Institute and Zernike Institute for Advanced Materials, University of Groningen, 9747 AG, Groningen, The Netherlands."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9036-9722"
+            },
+            "ForeName": "Derk P",
+            "LastName": "Kooi",
+            "Initials": "DP",
+            "AffiliationInfo": {"Affiliation": "AIMMS Division of Molecular Toxicology, Department of Chemistry and Pharmaceutical Sciences, Vrije Universiteit Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-7121-3204"
+            },
+            "ForeName": "Eko A",
+            "LastName": "Rifai",
+            "Initials": "EA",
+            "AffiliationInfo": {"Affiliation": "AIMMS Division of Molecular Toxicology, Department of Chemistry and Pharmaceutical Sciences, Vrije Universiteit Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-4194-6401"
+            },
+            "ForeName": "Nico P E",
+            "LastName": "Vermeulen",
+            "Initials": "NPE",
+            "AffiliationInfo": {"Affiliation": "AIMMS Division of Molecular Toxicology, Department of Chemistry and Pharmaceutical Sciences, Vrije Universiteit Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-5262-6166"
+            },
+            "ForeName": "Daan P",
+            "LastName": "Geerke",
+            "Initials": "DP",
+            "AffiliationInfo": {"Affiliation": "AIMMS Division of Molecular Toxicology, Department of Chemistry and Pharmaceutical Sciences, Vrije Universiteit Amsterdam, De Boelelaan 1108, 1081 HZ, Amsterdam, The Netherlands. d.p.geerke@vu.nl."}
+          }
+        ]
+      },
+      "ArticleTitle": "eTOX ALLIES: an automated pipeLine for linear interaction energy-based simulations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13321-017-0243-x"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 9,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "J Cheminform",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1758-2946"
+        },
+        "Title": "Journal of cheminformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Binding affinity prediction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Computational toxicology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Drug design"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Free energy calculation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Linear interaction energy"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2010 May 24;50(5):879-89",
+        "PMID": {
+          "Version": 1,
+          "content": 20415499
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Mol Sci. 2014 Jan 09;15(1):798-816",
+        "PMID": {
+          "Version": 1,
+          "content": 24413750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2008 Dec 11;51(23 ):7469-77",
+        "PMID": {
+          "Version": 1,
+          "content": 18998665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2004 Jun 3;47(12):3032-47",
+        "PMID": {
+          "Version": 1,
+          "content": 15163185
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2002 Dec;23(16):1623-41",
+        "PMID": {
+          "Version": 1,
+          "content": 12395429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2014 Jan 9;57(1):18-28",
+        "PMID": {
+          "Version": 1,
+          "content": 23981118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Eng. 1994 Mar;7(3):385-91",
+        "PMID": {
+          "Version": 1,
+          "content": 8177887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2014 Jul 8;10(7):2632-47",
+        "PMID": {
+          "Version": 1,
+          "content": 26586503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioorg Med Chem Lett. 2011 Feb 15;21(4):1134-40",
+        "PMID": {
+          "Version": 1,
+          "content": 21269824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2012 Oct 9;8(10):3463-72",
+        "PMID": {
+          "Version": 1,
+          "content": 26592996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2004 Jul 15;25(9):1157-74",
+        "PMID": {
+          "Version": 1,
+          "content": 15116359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Biol Drug Des. 2013 May;81(5):553-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23375049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Res Notes. 2012 Jul 23;5:367",
+        "PMID": {
+          "Version": 1,
+          "content": 22824207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Angew Chem Int Ed Engl. 2002 Aug 2;41(15):2644-76",
+        "PMID": {
+          "Version": 1,
+          "content": 12203463
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comb Chem High Throughput Screen. 2001 Dec;4(8):613-26",
+        "PMID": {
+          "Version": 1,
+          "content": 11812258
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acc Chem Res. 2009 Jun 16;42(6):724-33",
+        "PMID": {
+          "Version": 1,
+          "content": 19317443
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2015 Feb 25;137(7):2695-703",
+        "PMID": {
+          "Version": 1,
+          "content": 25625324
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2015 Aug 11;11(8):3696-713",
+        "PMID": {
+          "Version": 1,
+          "content": 26574453
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2013 Apr 30;34(11):965-73",
+        "PMID": {
+          "Version": 1,
+          "content": 23288722
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Comput Sci. 2002 Nov-Dec;42(6):1273-80",
+        "PMID": {
+          "Version": 1,
+          "content": 12444722
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2017 Sep 9;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28889350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2009 Jan;49(1):84-96",
+        "PMID": {
+          "Version": 1,
+          "content": 19125657
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2005 Nov 1;10(21):1421-33",
+        "PMID": {
+          "Version": 1,
+          "content": 16243262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2012 Jan 15;33(2):119-33",
+        "PMID": {
+          "Version": 1,
+          "content": 21997754
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioorg Med Chem Lett. 2011 Jan 1;21(1):191-4",
+        "PMID": {
+          "Version": 1,
+          "content": 21134747
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2015 Mar 11;7:8",
+        "PMID": {
+          "Version": 1,
+          "content": 25774224
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Mol Sci. 2013 Dec 17;14(12):24514-30",
+        "PMID": {
+          "Version": 1,
+          "content": 24351831
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Structure. 2009 Apr 15;17(4):489-98",
+        "PMID": {
+          "Version": 1,
+          "content": 19368882
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acc Chem Res. 2002 Jun;35(6):358-65",
+        "PMID": {
+          "Version": 1,
+          "content": 12069620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comb Chem High Throughput Screen. 2006 Mar;9(3):213-28",
+        "PMID": {
+          "Version": 1,
+          "content": 16533155
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Graph Model. 1998 Aug-Dec;16(4-6):213-25, 261",
+        "PMID": {
+          "Version": 1,
+          "content": 10522241
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2011 Oct 07;3:33",
+        "PMID": {
+          "Version": 1,
+          "content": 21982300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem B. 2009 Sep 24;113(38):12711-20",
+        "PMID": {
+          "Version": 1,
+          "content": 19722597
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Nov 09;10(11):e0142232",
+        "PMID": {
+          "Version": 1,
+          "content": 26551865
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Cent J. 2008 Mar 09;2:5",
+        "PMID": {
+          "Version": 1,
+          "content": 18328109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2010 May 15;78(7):1705-23",
+        "PMID": {
+          "Version": 1,
+          "content": 20186976
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2010 Jun 2;98(11):2682-91",
+        "PMID": {
+          "Version": 1,
+          "content": 20513413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioorg Med Chem Lett. 2009 Oct 15;19(20):5887-92",
+        "PMID": {
+          "Version": 1,
+          "content": 19762238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ACS Med Chem Lett. 2017 May 17;8(6):614-617",
+        "PMID": {
+          "Version": 1,
+          "content": 28626520
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2013 Dec;12(12):948-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24287782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Theory Comput. 2008 Mar;4(3):435-47",
+        "PMID": {
+          "Version": 1,
+          "content": 26620784
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biophys Biophys Chem. 1989;18:431-92",
+        "PMID": {
+          "Version": 1,
+          "content": 2660832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Struct Biol. 2011 Apr;21(2):150-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21349700
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29159598
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29159598,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13321-017-0243-x",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s13321-017-0243-x",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5696310",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

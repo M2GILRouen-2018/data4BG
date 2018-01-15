@@ -1,0 +1,163 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100955807,
+      "Country": "Germany",
+      "ISSNLinking": "0931-2668",
+      "MedlineTA": "J Anim Breed Genet"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 Blackwell Verlag GmbH.",
+        "AbstractText": "The aim of this paper was to develop statistical models to estimate individual breed composition based on the previously proposed idea of regressing discrete random variables corresponding to counts of reference alleles of biallelic molecular markers located across the genome on the allele frequencies of each marker in the pure (base) breeds. Some of the existing regression-based methods do not guarantee that estimators of breed composition will lie in the appropriate parameter space, and none of them account for uncertainty about allele frequencies in the pure breeds, that is, uncertainty about the design matrix. To overcome these limitations, we proposed two Bayesian generalized linear models. For each individual, both models assume that the counts of the reference allele at each marker locus follow independent Binomial distributions, use the logit link and pose a Dirichlet prior over the vector of regression coefficients (which corresponds to breed composition). This prior guarantees that point estimators of breed composition such as the posterior mean pertain to the appropriate space. The difference between these models is that model termed BIBI does not account for uncertainty about the design matrix, while model termed BIBI2 accounts for such an uncertainty by assigning independent Beta priors to the entries of this matrix. We implemented these models in a data set from the University of Florida's multibreed Angus-Brahman population. Posterior means were used as point estimators of breed composition. In addition, the ordinary least squares estimator proposed by Kuehn et al. () (OLSK) was also computed. BIBI and BIBI2 estimated breed composition more accurately than OLSK, and BIBI2 had a 7.69% improvement in accuracy as compared to BIBI."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-2842-5580"
+            },
+            "ForeName": "C A",
+            "LastName": "Martínez",
+            "Initials": "CA",
+            "AffiliationInfo": {"Affiliation": "Department of Animal Sciences, University of Florida, Gainesville, FL, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "K",
+            "LastName": "Khare",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, University of Florida, Gainesville, FL, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "M A",
+            "LastName": "Elzo",
+            "Initials": "MA",
+            "AffiliationInfo": {"Affiliation": "Department of Animal Sciences, University of Florida, Gainesville, FL, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "BIBI: Bayesian inference of breed composition.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1111/jbg.12305"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Anim. Breed. Genet.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1439-0388"
+        },
+        "Title": "Journal of animal breeding and genetics = Zeitschrift fur Tierzuchtung und Zuchtungsbiologie"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bayes estimators"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "generalized linear models"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "genomic data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "individual breed composition"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 22
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29164684
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29164684,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1111/jbg.12305",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

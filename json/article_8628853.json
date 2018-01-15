@@ -1,0 +1,363 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1162-1171"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIBIB NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 EB009905",
+          "Acronym": "EB"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 17
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Computerized detection of clustered microcalcifications (MCs) in mammograms often suffers from the occurrence of false positives (FPs), which can vary greatly from case to case. We investigate how to apply statistical estimation to determine the number of FPs that are present in a detected MC lesion. First, we describe the number of true positives (TPs) by a Poisson-binomial probability distribution, wherein a logistic regression model is trained to determine the probability for an individual detected MC to be a TP based on its detector output. Afterward, we model the spatial occurrence of FPs in a lesion area by a spatial point process (SPP), of which the distribution parameters are estimated from the detections in the lesion and its surrounding region. Furthermore, to improve the estimation accuracy, we incorporate the Poisson-binomial distribution of the number of TPs into the SPP model using maximum a posteriori estimation. In the experiments, we demonstrated the proposed approach on the detection results from a set of 188 full-field digital mammography (FFDM) images (95 cases) by three existing MC detectors. The results showed that there was a strong consistency between the estimated and the actual number of TPs (or FPs) for these detectors. When the fraction of FPs in detection was varied from 20% to 50%, both the mean and median values of the estimation error were within 11% of the total number of detected MCs in a lesion. In particular, when the number of FPs increased to as high as 11.38 in a cluster on average, the error was 2.51 in the estimated number of FPs. In addition, lesions estimated to be more accurate in detection were shown to have better classification accuracy (for being malignant or benign) than those estimated to be less accurate."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maria V",
+            "LastName": "Sainz de Cea",
+            "Initials": "MV"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert M",
+            "LastName": "Nishikawa",
+            "Initials": "RM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yongyi",
+            "LastName": "Yang",
+            "Initials": "Y"
+          }
+        ]
+      },
+      "ArticleTitle": "Estimating the Accuracy Level Among Individual Detections in Clustered Microcalcifications.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2017.2654799"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 36,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 14
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2005 Mar;24(3):371-80",
+        "PMID": {
+          "Version": 1,
+          "content": 15754987
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2004 Feb;31(2):314-26",
+        "PMID": {
+          "Version": 1,
+          "content": 15000617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Jun;17 (3):442-50",
+        "PMID": {
+          "Version": 1,
+          "content": 9735907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1992;11(3):392-406",
+        "PMID": {
+          "Version": 1,
+          "content": 18222882
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2016 Jan;43(1):159",
+        "PMID": {
+          "Version": 1,
+          "content": 26745908
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2004 Feb 18;24(7):1726-33",
+        "PMID": {
+          "Version": 1,
+          "content": 14973255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1986;5(1):8-15",
+        "PMID": {
+          "Version": 1,
+          "content": 18243977
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "World J Surg. 2002 Mar;26(3):290-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11865363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Radiol. 2005 Aug;55(2):270-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16036159
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Inf Technol Biomed. 2006 Jan;10(1):5-10",
+        "PMID": {
+          "Version": 1,
+          "content": 16445244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1995 Oct;22(10 ):1555-67",
+        "PMID": {
+          "Version": 1,
+          "content": 8551980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 1995 Mar;33(2):174-8",
+        "PMID": {
+          "Version": 1,
+          "content": 7643656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1993;12(4):634-42",
+        "PMID": {
+          "Version": 1,
+          "content": 18218457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2002 Dec;21(12 ):1552-63",
+        "PMID": {
+          "Version": 1,
+          "content": 12588039
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2001 Sep;220(3):781-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11526282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "CA Cancer J Clin. 2016 Jan-Feb;66(1):31-42",
+        "PMID": {
+          "Version": 1,
+          "content": 26513636
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2004 Apr;31(4):789-99",
+        "PMID": {
+          "Version": 1,
+          "content": 15124996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Natl Cancer Inst. 2004 Feb 4;96(3):185-90",
+        "PMID": {
+          "Version": 1,
+          "content": 14759985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2012 Nov 22;367 (21):1998-2005",
+        "PMID": {
+          "Version": 1,
+          "content": 23171096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Cancer. 2002 Nov 1;102(1):86-90",
+        "PMID": {
+          "Version": 1,
+          "content": 12353238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 1984 Sep;143(3):461-4",
+        "PMID": {
+          "Version": 1,
+          "content": 6331721
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Radiol. 1987 Jul;22(7):581-9",
+        "PMID": {
+          "Version": 1,
+          "content": 3623862
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1995 Feb;22(2):161-9",
+        "PMID": {
+          "Version": 1,
+          "content": 7565347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2011 Jan 7;56(1):1-17",
+        "PMID": {
+          "Version": 1,
+          "content": 21119233
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Radiol. 1988 Sep;23 (9):664-71",
+        "PMID": {
+          "Version": 1,
+          "content": 3182213
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pattern Recognit. 2009 Jun;42(6):1126-1132",
+        "PMID": {
+          "Version": 1,
+          "content": 20161326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 1996 Mar;198(3):671-8",
+        "PMID": {
+          "Version": 1,
+          "content": 8628853
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28103550
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28103550,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2017.2654799",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5595422",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS874172",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

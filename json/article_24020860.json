@@ -1,0 +1,836 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors have declared that no competing interests exist.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005228"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The existence of long-lived reservoirs of latently infected CD4+ T cells is the major barrier to curing HIV, and has been extensively studied in this light. However, the effect of these reservoirs on the evolutionary dynamics of the virus has received little attention. Here, we present a within-host quasispecies model that incorporates a long-lived reservoir, which we then nest into an epidemiological model of HIV dynamics. For biologically plausible parameter values, we find that the presence of a latent reservoir can severely delay evolutionary dynamics within a single host, with longer delays associated with larger relative reservoir sizes and/or homeostatic proliferation of cells within the reservoir. These delays can fundamentally change the dynamics of the virus at the epidemiological scale. In particular, the delay in within-host evolutionary dynamics can be sufficient for the virus to evolve intermediate viral loads consistent with maximising transmission, as is observed, and not the very high viral loads that previous models have predicted, an effect that can be further enhanced if viruses similar to those that initiate infection are preferentially transmitted. These results depend strongly on within-host characteristics such as the relative reservoir size, with the evolution of intermediate viral loads observed only when the within-host dynamics are sufficiently delayed. In conclusion, we argue that the latent reservoir has important, and hitherto under-appreciated, roles in both within- and between-host viral evolution."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hilje M",
+            "LastName": "Doekes",
+            "Initials": "HM",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."},
+              {"Affiliation": "Theoretical Biology, Utrecht University, Utrecht, The Netherlands."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christophe",
+            "LastName": "Fraser",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."},
+              {"Affiliation": "Oxford Big Data Institute, Li Ka Shing Centre for Health Information and Discovery, Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Katrina A",
+            "LastName": "Lythgoe",
+            "Initials": "KA",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."},
+              {"Affiliation": "Department of Zoology, University of Oxford, Oxford, United Kingdom."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Effect of the Latent Reservoir on the Evolution of HIV at the Within- and Between-Host Levels.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005228"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D005075",
+        "MajorTopicYN": "Y",
+        "content": "Biological Evolution"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000821",
+          "MajorTopicYN": "N",
+          "content": "virology"
+        },
+        "DescriptorName": {
+          "UI": "D015496",
+          "MajorTopicYN": "N",
+          "content": "CD4-Positive T-Lymphocytes"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "N",
+        "content": "Computational Biology"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000821",
+          "MajorTopicYN": "Y",
+          "content": "virology"
+        },
+        "DescriptorName": {
+          "UI": "D015658",
+          "MajorTopicYN": "N",
+          "content": "HIV Infections"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000472",
+            "MajorTopicYN": "N",
+            "content": "pathogenicity"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D015497",
+          "MajorTopicYN": "Y",
+          "content": "HIV-1"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D054884",
+        "MajorTopicYN": "N",
+        "content": "Host-Pathogen Interactions"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "N",
+        "content": "Models, Biological"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "N",
+            "content": "physiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D017735",
+          "MajorTopicYN": "Y",
+          "content": "Virus Latency"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 2009 Aug;15(8):893-900",
+        "PMID": {
+          "Version": 1,
+          "content": 19543283
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 1995 Aug;69(8):5087-94",
+        "PMID": {
+          "Version": 1,
+          "content": 7541846
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AIDS. 2012 Jun 19;26(10):1261-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22472858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AIDS. 2001 Apr 13;15(6):665-73",
+        "PMID": {
+          "Version": 1,
+          "content": 11371680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 2003 Jun;9(6):727-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12754504
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2006 Oct;2(10):e135",
+        "PMID": {
+          "Version": 1,
+          "content": 17040122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2007 Feb 16;3(2):e29",
+        "PMID": {
+          "Version": 1,
+          "content": 17305421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2004 Mar;78(5):2426-33",
+        "PMID": {
+          "Version": 1,
+          "content": 14963138
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2015 Sep 17;11(9):e1005154",
+        "PMID": {
+          "Version": 1,
+          "content": 26378795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1998 Jul 21;95(15):8869-73",
+        "PMID": {
+          "Version": 1,
+          "content": 9671771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2011 Nov;7(11):e1002321",
+        "PMID": {
+          "Version": 1,
+          "content": 22072960
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2010 Jun;84(12):6096-102",
+        "PMID": {
+          "Version": 1,
+          "content": 20357090
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AIDS. 1997 Dec;11(15):1799-806",
+        "PMID": {
+          "Version": 1,
+          "content": 9412697
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2009 Oct;5(10):e1000533",
+        "PMID": {
+          "Version": 1,
+          "content": 19834532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 Oct;7(10):e1002185",
+        "PMID": {
+          "Version": 1,
+          "content": 22022243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2013 Sep;87(18):10313-23",
+        "PMID": {
+          "Version": 1,
+          "content": 23678164
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2015 Dec 22;11(12):e1004625",
+        "PMID": {
+          "Version": 1,
+          "content": 26693708
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bull Math Biol. 2012 Sep;74(9):1985-2003",
+        "PMID": {
+          "Version": 1,
+          "content": 22777711
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Infect Dis. 2008 Feb 1;197(3):411-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18248304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1996 Mar 15;271(5255):1582-6",
+        "PMID": {
+          "Version": 1,
+          "content": 8599114
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2008 May 27;105(21):7552-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18490657
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Oct 24;155(3):540-51",
+        "PMID": {
+          "Version": 1,
+          "content": 24243014
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Aug 7;512(7512):74-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25042999
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 Mar 21;343(6177):1243727",
+        "PMID": {
+          "Version": 1,
+          "content": 24653038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1997 May 8;387(6629):183-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9144289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Apr 03;10(4):e1003505",
+        "PMID": {
+          "Version": 1,
+          "content": 24699231
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Oct 30;104(44):17441-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17954909
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2000 Mar 30;342(13):921-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10738050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2015 Feb 02;11(2):e1004914",
+        "PMID": {
+          "Version": 1,
+          "content": 25642847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2009 Apr;83(8):3556-67",
+        "PMID": {
+          "Version": 1,
+          "content": 19193811
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Evolution. 2013 Oct;67(10):2769-82",
+        "PMID": {
+          "Version": 1,
+          "content": 24094332
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2016 Nov 05;5:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27815945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2016 May 10;12(5):e1005619",
+        "PMID": {
+          "Version": 1,
+          "content": 27163788
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 Jul 11;345(6193):1254031",
+        "PMID": {
+          "Version": 1,
+          "content": 25013080
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1996 May 24;272(5265):1167-70",
+        "PMID": {
+          "Version": 1,
+          "content": 8638160
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Viruses. 2012 Oct 04;4(10):1984-2013",
+        "PMID": {
+          "Version": 1,
+          "content": 23202449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Biol Sci. 2012 Aug 22;279(1741):3367-75",
+        "PMID": {
+          "Version": 1,
+          "content": 22593106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2006 Apr;4(4):e90",
+        "PMID": {
+          "Version": 1,
+          "content": 16515366
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2011 Aug;85(15):7523-34",
+        "PMID": {
+          "Version": 1,
+          "content": 21593162
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2000 Oct;74(19):9222-33",
+        "PMID": {
+          "Version": 1,
+          "content": 10982369
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2010 Dec;84(24):12971-81",
+        "PMID": {
+          "Version": 1,
+          "content": 20926564
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2011 Oct;85(20):10518-28",
+        "PMID": {
+          "Version": 1,
+          "content": 21835793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2005 Jul;79(14):9006-18",
+        "PMID": {
+          "Version": 1,
+          "content": 15994794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Jan 29;160(3):420-32",
+        "PMID": {
+          "Version": 1,
+          "content": 25635456
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunity. 2012 Sep 21;37(3):377-88",
+        "PMID": {
+          "Version": 1,
+          "content": 22999944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 1998 Feb 7;190(3):201-14",
+        "PMID": {
+          "Version": 1,
+          "content": 9514649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AIDS. 1999 Jun 18;13(9):1045-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10397534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Infect Dis. 2009 Dec 1;49(11):1763-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19857162
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2012;8(11):e1003041",
+        "PMID": {
+          "Version": 1,
+          "content": 23209412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 1996 Jun 21;180(4):359-64",
+        "PMID": {
+          "Version": 1,
+          "content": 8776467
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1997 Nov 14;278(5341):1295-300",
+        "PMID": {
+          "Version": 1,
+          "content": 9360927
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 Aug 1;345(6196):570-3",
+        "PMID": {
+          "Version": 1,
+          "content": 25011556
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2010 Apr 29;6(4):e1000766",
+        "PMID": {
+          "Version": 1,
+          "content": 20442872
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Dec 18;10(12):e1003899",
+        "PMID": {
+          "Version": 1,
+          "content": 25522184
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Infect Dis. 2012 Nov;206(9):1433-42",
+        "PMID": {
+          "Version": 1,
+          "content": 22997233
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2009 Aug;10(8):540-50",
+        "PMID": {
+          "Version": 1,
+          "content": 19564871
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AIDS. 2000 Jan 7;14(1):23-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10714564
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Retrovirology. 2014 Oct 16;11:81",
+        "PMID": {
+          "Version": 1,
+          "content": 25318357
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Retrovirology. 2013 May 02;10:49",
+        "PMID": {
+          "Version": 1,
+          "content": 23639104
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2000 Feb;74(3):1234-40",
+        "PMID": {
+          "Version": 1,
+          "content": 10627533
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2013;9(10):e1003691",
+        "PMID": {
+          "Version": 1,
+          "content": 24130489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Microbiol. 1994 Mar;2(3):76-81",
+        "PMID": {
+          "Version": 1,
+          "content": 8156275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Med. 1998 Jul 6;188(1):83-91",
+        "PMID": {
+          "Version": 1,
+          "content": 9653086
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Ecol Evol. 2008 Sep;23(9):511-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18657880
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2016 Oct 5;14 (10 ):e1002567",
+        "PMID": {
+          "Version": 1,
+          "content": 27706164
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Naturwissenschaften. 1971 Oct;58(10):465-523",
+        "PMID": {
+          "Version": 1,
+          "content": 4942363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am Nat. 2003 Jul;162(1):14-28",
+        "PMID": {
+          "Version": 1,
+          "content": 12856234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 Jul 11;345(6193):179-83",
+        "PMID": {
+          "Version": 1,
+          "content": 24968937
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2015 Sep 16;13(9):e1002251",
+        "PMID": {
+          "Version": 1,
+          "content": 26375597
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Sep 13;5(9):e12598",
+        "PMID": {
+          "Version": 1,
+          "content": 20856886
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2015 Dec 11;4:null",
+        "PMID": {
+          "Version": 1,
+          "content": 26652000
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Pathog. 2013 Feb;9(2):e1003174",
+        "PMID": {
+          "Version": 1,
+          "content": 23459007
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Biol. 2013 Sep 03;11:96",
+        "PMID": {
+          "Version": 1,
+          "content": 24020860
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28103248
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2016,
+        "Day": 28,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 31,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28103248,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005228",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-16-00681",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5245781",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

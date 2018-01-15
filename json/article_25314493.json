@@ -1,0 +1,616 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors have declared that no competing interests exist.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005374"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Lundbeck Foundation",
+          "Country": "International",
+          "GrantID": "R105-9813"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Our understanding of the wiring map of the brain, known as the connectome, has increased greatly in the last decade, mostly due to technological advancements in neuroimaging techniques and improvements in computational tools to interpret the vast amount of available data. Despite this, with the exception of the C. elegans roundworm, no definitive connectome has been established for any species. In order to obtain this, tracer studies are particularly appealing, as these have proven highly reliable. The downside of tract tracing is that it is costly to perform, and can only be applied ex vivo. In this paper, we suggest that instead of probing all possible connections, hitherto unknown connections may be predicted from the data that is already available. Our approach uses a 'latent space model' that embeds the connectivity in an abstract physical space. Regions that are close in the latent space have a high chance of being connected, while regions far apart are most likely disconnected in the connectome. After learning the latent embedding from the connections that we did observe, the latent space allows us to predict connections that have not been probed previously. We apply the methodology to two connectivity data sets of the macaque, where we demonstrate that the latent space model is successful in predicting unobserved connectivity, outperforming two baselines and an alternative model in nearly all cases. Furthermore, we show how the latent spatial embedding may be used to integrate multimodal observations (i.e. anterograde and retrograde tracers) for the mouse neocortex. Finally, our probabilistic approach enables us to make explicit which connections are easy to predict and which prove difficult, allowing for informed follow-up studies."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Max",
+            "LastName": "Hinne",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Radboud University, Donders Institute for Brain, Cognition and Behaviour, Nijmegen, the Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Annet",
+            "LastName": "Meijers",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Radboud University, Donders Institute for Brain, Cognition and Behaviour, Nijmegen, the Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-2942-2691"
+            },
+            "ForeName": "Rembrandt",
+            "LastName": "Bakker",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Institute of Neuroscience and Medicine, Institute for Advanced Simulation and JARA BRAIN Institute I, Jülich Research Centre, Jülich, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul H E",
+            "LastName": "Tiesinga",
+            "Initials": "PH",
+            "AffiliationInfo": {"Affiliation": "Radboud University, Donders Institute for Brain, Cognition and Behaviour, Nijmegen, the Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Morten",
+            "LastName": "Mørup",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Technical University of Denmark, DTU Compute, Kgs. Lyngby, Denmark."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-2206-9098"
+            },
+            "ForeName": "Marcel A J",
+            "LastName": "van Gerven",
+            "Initials": "MA",
+            "AffiliationInfo": {"Affiliation": "Radboud University, Donders Institute for Brain, Cognition and Behaviour, Nijmegen, the Netherlands."}
+          }
+        ]
+      },
+      "ArticleTitle": "The missing link: Predicting connectomes from noisy and partially observed tract tracing data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005374"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "01",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "N",
+        "content": "Artifacts"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000033",
+          "MajorTopicYN": "Y",
+          "content": "anatomy & histology"
+        },
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000033",
+          "MajorTopicYN": "Y",
+          "content": "anatomy & histology"
+        },
+        "DescriptorName": {
+          "UI": "D002540",
+          "MajorTopicYN": "N",
+          "content": "Cerebral Cortex"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D063132",
+          "MajorTopicYN": "N",
+          "content": "Connectome"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D056324",
+          "MajorTopicYN": "N",
+          "content": "Diffusion Tensor Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008251",
+        "MajorTopicYN": "N",
+        "content": "Macaca"
+      }},
+      {"DescriptorName": {
+        "UI": "D008953",
+        "MajorTopicYN": "N",
+        "content": "Models, Anatomic"
+      }},
+      {"DescriptorName": {
+        "UI": "D008959",
+        "MajorTopicYN": "Y",
+        "content": "Models, Neurological"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D018401",
+        "MajorTopicYN": "N",
+        "content": "Sample Size"
+      }},
+      {"DescriptorName": {
+        "UI": "D059629",
+        "MajorTopicYN": "N",
+        "content": "Signal-To-Noise Ratio"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000033",
+          "MajorTopicYN": "Y",
+          "content": "anatomy & histology"
+        },
+        "DescriptorName": {
+          "UI": "D066127",
+          "MajorTopicYN": "N",
+          "content": "White Matter"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "ErratumIn",
+        "RefSource": "PLoS Comput Biol. 2017 Apr 11;13(4):e1005478",
+        "PMID": {
+          "Version": 1,
+          "content": 28399121
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2008 May 1;453(7191):98-101",
+        "PMID": {
+          "Version": 1,
+          "content": 18451861
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2014 Nov;17(11):1448-54",
+        "PMID": {
+          "Version": 1,
+          "content": 25349911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2014 Nov 14;4:7047",
+        "PMID": {
+          "Version": 1,
+          "content": 25395180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2013 Oct 2;80(1):184-97",
+        "PMID": {
+          "Version": 1,
+          "content": 24094111
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cereb Cortex. 1991 Jan-Feb;1(1):1-47",
+        "PMID": {
+          "Version": 1,
+          "content": 1822724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2016 Jan 1;124(Pt A):1054-64",
+        "PMID": {
+          "Version": 1,
+          "content": 26427642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2011 Sep;9(2-3):159-66",
+        "PMID": {
+          "Version": 1,
+          "content": 21340747
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 Nov 18;111(46):16580-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25368200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cereb Cortex. 2015 Nov;25(11):4299-309",
+        "PMID": {
+          "Version": 1,
+          "content": 25787833
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cereb Cortex. 2014 Jan;24(1):17-36",
+        "PMID": {
+          "Version": 1,
+          "content": 23010748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007 Oct 1;37(4):1267-77",
+        "PMID": {
+          "Version": 1,
+          "content": 17706434
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Comput Neurosci. 2014 Oct 08;8:126",
+        "PMID": {
+          "Version": 1,
+          "content": 25339896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 Mar 21;103(12):4723-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16537428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroanat. 2015 Jul 23;9:98",
+        "PMID": {
+          "Version": 1,
+          "content": 26257612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2016 Sep 12;12(9):e1005104",
+        "PMID": {
+          "Version": 1,
+          "content": 27617835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2014 Feb 27;156(5):1096-111",
+        "PMID": {
+          "Version": 1,
+          "content": 24581503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Schizophr Res. 2015 Jan;161(1):133-41",
+        "PMID": {
+          "Version": 1,
+          "content": 25278106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2013 Feb 1;66:543-52",
+        "PMID": {
+          "Version": 1,
+          "content": 23041334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prog Neurobiol. 2000 Nov;62(4):327-51",
+        "PMID": {
+          "Version": 1,
+          "content": 10856608
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans R Soc Lond B Biol Sci. 2014 Oct 5;369(1653):null",
+        "PMID": {
+          "Version": 1,
+          "content": 25180309
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2015 Nov;18(11):1546-55",
+        "PMID": {
+          "Version": 1,
+          "content": 26505566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Jun;10(6):501-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23722209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2013 Oct 15;80:2-13",
+        "PMID": {
+          "Version": 1,
+          "content": 23735262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain Connect. 2011;1(3):169-83",
+        "PMID": {
+          "Version": 1,
+          "content": 22433046
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2013 Jun;73:239-54",
+        "PMID": {
+          "Version": 1,
+          "content": 22846632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Neuroanat. 2011 Nov;42(3):157-83",
+        "PMID": {
+          "Version": 1,
+          "content": 21782932
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(9):e14832",
+        "PMID": {
+          "Version": 1,
+          "content": 21915250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Dec 29;106(52):22073-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20018705
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Apr 10;508(7495):207-14",
+        "PMID": {
+          "Version": 1,
+          "content": 24695228
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 May 26;112(21):E2820-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25964365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Jan 30;10(1):e0117179",
+        "PMID": {
+          "Version": 1,
+          "content": 25635390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2010 Apr 22;6(4):e1000748",
+        "PMID": {
+          "Version": 1,
+          "content": 20421990
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroinform. 2012 Dec 27;6:30",
+        "PMID": {
+          "Version": 1,
+          "content": 23293600
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007 Aug 15;37(2):530-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17604650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2012 Apr 13;13(5):336-49",
+        "PMID": {
+          "Version": 1,
+          "content": 22498897
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2005 Sep;1(4):e42",
+        "PMID": {
+          "Version": 1,
+          "content": 16201007
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2014 Oct 15;100:301-15",
+        "PMID": {
+          "Version": 1,
+          "content": 24914522
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2014 Sep;90(3):032819",
+        "PMID": {
+          "Version": 1,
+          "content": 25314493
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28141820
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28141820,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005374",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-16-01928",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5308841",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

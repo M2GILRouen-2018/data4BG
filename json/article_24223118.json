@@ -1,0 +1,499 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "7141-6"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 DA015644",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "P41 EB002030",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NIH HHS",
+            "Country": "United States",
+            "GrantID": "DP1 OD003646",
+            "Acronym": "OD"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-DA015644",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM104948",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "P41 EB2030",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NIDCD NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 DC00011",
+            "Acronym": "DC"
+          },
+          {
+            "Agency": "NIDCD NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 DC000011",
+            "Acronym": "DC"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The signal-to-noise ratio (SNR), a commonly used measure of fidelity in physical systems, is defined as the ratio of the squared amplitude or variance of a signal relative to the variance of the noise. This definition is not appropriate for neural systems in which spiking activity is more accurately represented as point processes. We show that the SNR estimates a ratio of expected prediction errors and extend the standard definition to one appropriate for single neurons by representing neural spiking activity using point process generalized linear models (PP-GLM). We estimate the prediction errors using the residual deviances from the PP-GLM fits. Because the deviance is an approximate χ(2) random variable, we compute a bias-corrected SNR estimate appropriate for single-neuron analysis and use the bootstrap to assess its uncertainty. In the analyses of four systems neuroscience experiments, we show that the SNRs are -10 dB to -3 dB for guinea pig auditory cortex neurons, -18 dB to -7 dB for rat thalamic neurons, -28 dB to -14 dB for monkey hippocampal neurons, and -29 dB to -20 dB for human subthalamic neurons. The new SNR definition makes explicit in the measure commonly used for physical systems the often-quoted observation that single neurons have low SNRs. The neuron's spiking history is frequently a more informative covariate for predicting spiking propensity than the applied stimulus. Our new SNR definition extends to any GLM system in which the factors modulating the response can be expressed as separate components of a likelihood function."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gabriela",
+            "LastName": "Czanner",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics and Department of Eye and Vision Science, Faculty of Health and Life Sciences, University of Liverpool, Liverpool L69 3GA, United Kingdom; czanner@liverpool.ac.uk enb@neurostat.mit.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sridevi V",
+            "LastName": "Sarma",
+            "Initials": "SV",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Institute for Computational Medicine, Johns Hopkins University, Baltimore, MD 21218;"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Demba",
+            "LastName": "Ba",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Brain and Cognitive Sciences and."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Uri T",
+            "LastName": "Eden",
+            "Initials": "UT",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematics and Statistics, Boston University, Boston, MA 02215;"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Wu",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "School of Automation Science and Engineering, South China University of Technology, Guangzhou 510640, China;"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emad",
+            "LastName": "Eskandar",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Departments of Neurosurgery and."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hubert H",
+            "LastName": "Lim",
+            "Initials": "HH",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Institute for Translational Neuroscience, University of Minnesota, Minneapolis, MN 55455;"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Simona",
+            "LastName": "Temereanca",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Martinos Center for Biomedical Imaging, Department of Radiology, Massachusetts General Hospital, Harvard Medical School, Charlestown, MA 02129; and."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wendy A",
+            "LastName": "Suzuki",
+            "Initials": "WA",
+            "AffiliationInfo": {"Affiliation": "Center for Neural Science, New York University, New York, NY 10003."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emery N",
+            "LastName": "Brown",
+            "Initials": "EN",
+            "AffiliationInfo": {"Affiliation": "Department of Brain and Cognitive Sciences and Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139; Anesthesia, Critical Care and Pain Medicine, Massachusetts General Hospital, Harvard Medical School, Boston, MA 02114; czanner@liverpool.ac.uk enb@neurostat.mit.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Measuring the signal-to-noise ratio of a neuron.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1073/pnas.1505545112"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 23,
+          "Volume": 112,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2015,
+            "Day": "09"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1091-6490"
+        },
+        "Title": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2015,
+      "Day": 10
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2002 Feb;14(2):325-46",
+        "PMID": {
+          "Version": 1,
+          "content": 11802915
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2011 Jun;58(6):1507-10",
+        "PMID": {
+          "Version": 1,
+          "content": 21317068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 1987 Jan;57(1):162-78",
+        "PMID": {
+          "Version": 1,
+          "content": 3559670
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Jan 30;505(7485):612-3",
+        "PMID": {
+          "Version": 1,
+          "content": 24482835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2005 Feb;93(2):1074-89",
+        "PMID": {
+          "Version": 1,
+          "content": 15356183
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2012 Nov 15;211(2):245-64",
+        "PMID": {
+          "Version": 1,
+          "content": 22981419
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1993 Aug 20;261(5124):1055-8",
+        "PMID": {
+          "Version": 1,
+          "content": 8351520
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Comput Neurosci. 2010 Nov 15;4:144",
+        "PMID": {
+          "Version": 1,
+          "content": 21152346
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2008 May;99(5):2672-93",
+        "PMID": {
+          "Version": 1,
+          "content": 18216233
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2008 Oct 29;28(44):11153-64",
+        "PMID": {
+          "Version": 1,
+          "content": 18971458
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2008 Feb;99(2):460-72",
+        "PMID": {
+          "Version": 1,
+          "content": 18077668
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2003 Jun 6;300(5625):1578-81",
+        "PMID": {
+          "Version": 1,
+          "content": 12791995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2004 Sep;60(3):724-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15339295
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Network. 2004 Nov;15(4):243-62",
+        "PMID": {
+          "Version": 1,
+          "content": 15600233
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 1998 May 15;18(10):3870-96",
+        "PMID": {
+          "Version": 1,
+          "content": 9570816
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2006 Sep;96(3):975-88",
+        "PMID": {
+          "Version": 1,
+          "content": 16723413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2010 Jun;57(6):1297-305",
+        "PMID": {
+          "Version": 1,
+          "content": 20172804
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 1993 Jan;13(1):334-50",
+        "PMID": {
+          "Version": 1,
+          "content": 8423479
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Cybern. 1988;59(3):189-200",
+        "PMID": {
+          "Version": 1,
+          "content": 3179344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(11):e77089",
+        "PMID": {
+          "Version": 1,
+          "content": 24223118
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4466709"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7505876,
+      "Country": "United States",
+      "ISSNLinking": "0027-8424",
+      "MedlineTA": "Proc Natl Acad Sci U S A"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2015,
+      "Day": 25
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "SNR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "neuron"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "point processes"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "signal-to-noise ratio"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "simulation"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000200",
+        "MajorTopicYN": "N",
+        "content": "Action Potentials"
+      }},
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000166",
+          "MajorTopicYN": "N",
+          "content": "cytology"
+        },
+        "DescriptorName": {
+          "UI": "D001303",
+          "MajorTopicYN": "N",
+          "content": "Auditory Cortex"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006168",
+        "MajorTopicYN": "N",
+        "content": "Guinea Pigs"
+      }},
+      {"DescriptorName": {
+        "UI": "D016013",
+        "MajorTopicYN": "N",
+        "content": "Likelihood Functions"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009474",
+          "MajorTopicYN": "N",
+          "content": "Neurons"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D059629",
+        "MajorTopicYN": "Y",
+        "content": "Signal-To-Noise Ratio"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 25995363
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 5,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25995363,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 1505545112,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1073/pnas.1505545112",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4466709",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

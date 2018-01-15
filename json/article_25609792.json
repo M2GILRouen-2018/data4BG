@@ -1,0 +1,263 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2015,
+      "Day": 13
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1648-54"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author 2015. Published by Oxford University Press. All rights reserved. For Permissions, please email: journals.permissions@oup.com.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "MOTIVATION",
+            "content": "Microbiota compositions have great implications in human health, such as obesity and other conditions. As such, it is of great importance to cluster samples or taxa to visualize and discover community substructures. Graphical representation of metagenomic count data relies on two aspects, measure of dissimilarity between samples/taxa and algorithm used to estimate coordinates to study microbiota communities. UniFrac is a dissimilarity measure commonly used in metagenomic research, but it requires a phylogenetic tree. Principal coordinate analysis (PCoA) is a popular algorithm for estimating two-dimensional (2D) coordinates for graphical representation, although alternative and higher-dimensional representations may reveal underlying community substructures invisible in 2D representations."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "We adapt a new measure of dissimilarity, penalized Kendall's τ-distance, which does not depend on a phylogenetic tree, and hence more readily applicable to a wider class of problems. Further, we propose to use metric multidimensional scaling (MDS) as an alternative to PCoA for graphical representation. We then devise a novel procedure for determining the number of clusters in conjunction with PAM (mPAM). We show superior performances with higher-dimensional representations. We further demonstrate the utility of mPAM for accurate clustering analysis, especially with higher-dimensional MDS models. Applications to two human microbiota datasets illustrate greater insights into the subcommunity structure with a higher-dimensional analysis."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Deepak Nag",
+            "LastName": "Ayyala",
+            "Initials": "DN",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, The Ohio State University, Columbus, OH 43210, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shili",
+            "LastName": "Lin",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, The Ohio State University, Columbus, OH 43210, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "GrammR: graphical representation and modeling of count data with application in metagenomics.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btv032"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 10,
+          "Volume": 31,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2015,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "05",
+      "Year": 2015,
+      "Day": 12
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "N",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001419",
+          "MajorTopicYN": "N",
+          "content": "Bacteria"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003196",
+        "MajorTopicYN": "Y",
+        "content": "Computer Graphics"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000382",
+          "MajorTopicYN": "N",
+          "content": "microbiology"
+        },
+        "DescriptorName": {
+          "UI": "D041981",
+          "MajorTopicYN": "N",
+          "content": "Gastrointestinal Tract"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D016247",
+          "MajorTopicYN": "N",
+          "content": "Information Storage and Retrieval"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D056186",
+        "MajorTopicYN": "Y",
+        "content": "Metagenomics"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D015999",
+        "MajorTopicYN": "N",
+        "content": "Multivariate Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D010802",
+        "MajorTopicYN": "N",
+        "content": "Phylogeny"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2015,
+      "Day": 12
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 25609792
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2014,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2015,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25609792,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btv032",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btv032",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

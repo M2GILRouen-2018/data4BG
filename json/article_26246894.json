@@ -1,0 +1,462 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101615147,
+      "Country": "England",
+      "ISSNLinking": "2049-2618",
+      "MedlineTA": "Microbiome"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 27
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 11},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "Label": "BACKGROUND",
+          "content": "Microbiome sequencing projects typically collect tens of millions of short reads per sample. Depending on the goals of the project, the short reads can either be subjected to direct sequence analysis or be assembled into longer contigs. The assembly of whole genomes from metagenomic sequencing reads is a very difficult problem. However, for some questions, only specific genes of interest need to be assembled. This is then a gene-centric assembly where the goal is to assemble reads into contigs for a family of orthologous genes."
+        },
+        {
+          "Label": "METHODS",
+          "content": "We present a new method for performing gene-centric assembly, called protein-alignment-guided assembly, and provide an implementation in our metagenome analysis tool MEGAN. Genes are assembled on the fly, based on the alignment of all reads against a protein reference database such as NCBI-nr. Specifically, the user selects a gene family based on a classification such as KEGG and all reads binned to that gene family are assembled."
+        },
+        {
+          "Label": "RESULTS",
+          "content": "Using published synthetic community metagenome sequencing reads and a set of 41 gene families, we show that the performance of this approach compares favorably with that of full-featured assemblers and that of a recently published HMM-based gene-centric assembler, both in terms of the number of reference genes detected and of the percentage of reference sequence covered."
+        },
+        {
+          "Label": "CONCLUSIONS",
+          "content": "Protein-alignment-guided assembly of orthologous gene families complements whole-metagenome assembly in a new and very useful way."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel H",
+            "LastName": "Huson",
+            "Initials": "DH",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for Bioinformatics, University of Tübingen, Sand 14, 72076, Tübingen, Germany. Daniel.Huson@uni-tuebingen.de."},
+              {"Affiliation": "Life Sciences Institute, National University of Singapore, 28 Medical Drive, Singapore, 117456, Singapore. Daniel.Huson@uni-tuebingen.de."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rewati",
+            "LastName": "Tappu",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Center for Bioinformatics, University of Tübingen, Sand 14, 72076, Tübingen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adam L",
+            "LastName": "Bazinet",
+            "Initials": "AL",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for Bioinformatics and Computational Biology, University of Maryland, 8314 Paint Branch Drive, College Park, MD, 20742, USA."},
+              {"Affiliation": "National Biodefense Analysis and Countermeasures Center, 8300 Research Plaza, Fort Detrick, Frederick, MD, 21702, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chao",
+            "LastName": "Xie",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Human Longevity Inc., Singapore, Singapore."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael P",
+            "LastName": "Cummings",
+            "Initials": "MP",
+            "AffiliationInfo": {"Affiliation": "Center for Bioinformatics and Computational Biology, University of Maryland, 8314 Paint Branch Drive, College Park, MD, 20742, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kay",
+            "LastName": "Nieselt",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Center for Bioinformatics, University of Tübingen, Sand 14, 72076, Tübingen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rohan",
+            "LastName": "Williams",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Life Sciences Institute, National University of Singapore, 28 Medical Drive, Singapore, 117456, Singapore."}
+          }
+        ]
+      },
+      "ArticleTitle": "Fast and simple protein-alignment-guided assembly of orthologous gene families from microbiome sequencing reads.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s40168-017-0233-2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 5,
+          "PubDate": {
+            "Month": "01",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Microbiome",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2049-2618"
+        },
+        "Title": "Microbiome"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "Y",
+          "content": "Functional analysis"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Sequence assembly"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Software"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "String graph"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D000595",
+        "MajorTopicYN": "N",
+        "content": "Amino Acid Sequence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D059014",
+        "MajorTopicYN": "N",
+        "content": "High-Throughput Nucleotide Sequencing"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D054892",
+        "MajorTopicYN": "N",
+        "content": "Metagenome"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D056186",
+          "MajorTopicYN": "N",
+          "content": "Metagenomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D064307",
+        "MajorTopicYN": "Y",
+        "content": "Microbiota"
+      }},
+      {"DescriptorName": {
+        "UI": "D016415",
+        "MajorTopicYN": "Y",
+        "content": "Sequence Alignment"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017422",
+          "MajorTopicYN": "N",
+          "content": "Sequence Analysis, DNA"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 15
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2013 Jan 15;14(1):R2",
+        "PMID": {
+          "Version": 1,
+          "content": 23320958
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gigascience. 2012 Dec 27;1(1):18",
+        "PMID": {
+          "Version": 1,
+          "content": 23587118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2000 Jan 1;28(1):27-30",
+        "PMID": {
+          "Version": 1,
+          "content": 10592173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Oct 17;8(10):e77033",
+        "PMID": {
+          "Version": 1,
+          "content": 24146954
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jan;43(Database issue):D213-21",
+        "PMID": {
+          "Version": 1,
+          "content": 25428371
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2013 Apr;30(4):772-80",
+        "PMID": {
+          "Version": 1,
+          "content": 23329690
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D206-14",
+        "PMID": {
+          "Version": 1,
+          "content": 24293654
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Microbiol. 2013 Jun;15(6):1882-99",
+        "PMID": {
+          "Version": 1,
+          "content": 23387867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Sep 1;21 Suppl 2:ii79-85",
+        "PMID": {
+          "Version": 1,
+          "content": 16204131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Jun 1;28(11):1420-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22495754
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2002 Jul 15;30(14):3059-66",
+        "PMID": {
+          "Version": 1,
+          "content": 12136088
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2000 Mar 24;287(5461):2196-204",
+        "PMID": {
+          "Version": 1,
+          "content": 10731133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2010 Nov;17(11):1519-33",
+        "PMID": {
+          "Version": 1,
+          "content": 20958248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2016 Jun 21;12(6):e1004957",
+        "PMID": {
+          "Version": 1,
+          "content": 27327495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Jan;12(1):59-60",
+        "PMID": {
+          "Version": 1,
+          "content": 25402007
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D284-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22096231
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2008 Jan;36(Database issue):D13-21",
+        "PMID": {
+          "Version": 1,
+          "content": 18045790
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 Apr 1;111(13):4904-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24632729
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiome. 2015 Aug 05;3:32",
+        "PMID": {
+          "Version": 1,
+          "content": 26246894
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28122610
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28122610,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s40168-017-0233-2",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s40168-017-0233-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5267372",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

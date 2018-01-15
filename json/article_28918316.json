@@ -1,0 +1,182 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9215515,
+      "Country": "United States",
+      "ISSNLinking": "1053-8119",
+      "MedlineTA": "Neuroimage"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "276-288"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 The Author(s). Published by Elsevier Inc. All rights reserved.",
+        "AbstractText": "With the advent of time-of-flight (TOF) PET scanners, joint maximum-likelihood reconstruction of activity and attenuation (MLAA) maps has recently regained attention for the estimation of PET attenuation maps from emission data. However, the estimated attenuation and activity maps are scaled by unknown scaling factors. We recently demonstrated that in hybrid PET-MR, the scaling issue of this algorithm can be effectively addressed by imposing MR spatial constraints on the estimation of attenuation maps using a penalized MLAA (P-MLAA+) algorithm. With the advent of simultaneous PET-MR systems, MRI-guided PET image reconstruction has also gained attention for improving the quantitative accuracy of PET images, usually degraded by noise and partial volume effects. The aim of this study is therefore to increase the benefits of MRI information for improving the quantitative accuracy of PET images by exploiting MRI-based anatomical penalty functions to guide the reconstruction of both activity and attenuation maps during their joint estimation. We employed an anato-functional joint entropy penalty function for the reconstruction of activity and an anatomical quadratic penalty function for the reconstruction of attenuation. The resulting algorithm was referred to as P-MLAA++ since it exploits both activity and attenuation penalty functions. The performance of the P-MLAA algorithms were compared with MLAA and the widely used activity reconstruction algorithms such as maximum likelihood expectation maximization (MLEM) and penalized MLEM (P-MLEM) both corrected for attenuation using a conventional MRI segmentation-based attenuation correction (MRAC) method. The studied methods were evaluated using simulations and clinical studies taking the PET image reconstructed using reference CT-based attenuation maps as a reference. The simulation results showed that the proposed method can notably improve the visual quality of the PET images by reducing noise while preserving structural boundaries and at the same time improving the quantitative accuracy of the PET images. Our clinical reconstruction results showed that the MLEM-MRAC, P-MLEM-MRAC, MLAA, P-MLAA+ and P-MLAA++ algorithms result in, on average, quantification errors of -13.5 ± 3.1%, -13.4 ± 3.1%, -2.0 ± 6.5%, -3.0 ± 3.5% and -4.2 ± 3.6%, respectively, in different regions of the brain. In conclusion, whilst the P-MLAA+ algorithm showed the best overall quantification performance, the proposed P-MLAA++ algorithm provided simultaneous partial volume and attenuation corrections with only a minor compromise of PET quantification."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Abolfazl",
+            "LastName": "Mehranian",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Division of Imaging Sciences and Biomedical Engineering, Department of Biomedical Engineering, King's College London, St. Thomas' Hospital, London, UK. Electronic address: Abolfazl.Mehranian@kcl.ac.uk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Habib",
+            "LastName": "Zaidi",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Division of Nuclear Medicine and Molecular Imaging, Geneva University Hospital, CH-1211, Geneva, Switzerland; Geneva Neuroscience Center, Geneva University, 1205, Geneva, Switzerland; Department of Nuclear Medicine and Molecular Imaging, University of Groningen, University Medical Center Groningen, 9700 RB, Groningen, Netherlands; Department of Nuclear Medicine, University of Southern Denmark, 500, Odense, Denmark."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew J",
+            "LastName": "Reader",
+            "Initials": "AJ",
+            "AffiliationInfo": {"Affiliation": "Division of Imaging Sciences and Biomedical Engineering, Department of Biomedical Engineering, King's College London, St. Thomas' Hospital, London, UK."}
+          }
+        ]
+      },
+      "ArticleTitle": "MR-guided joint reconstruction of activity and attenuation in brain PET-MR.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1053-8119(17)30744-9"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.neuroimage.2017.09.006"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 162,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Neuroimage",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1095-9572"
+        },
+        "Title": "NeuroImage"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Attenuation correction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Brain imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PET-MR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Quantification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Segmentation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 27
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28918316
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28918316,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1053-8119(17)30744-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.neuroimage.2017.09.006",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

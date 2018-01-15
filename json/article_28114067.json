@@ -1,0 +1,126 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Scanned images of historical documents often suffer from bleed-through, which refers to the ink on one side seeping through the paper and appearing on the other side. In this paper, a new conditional random fields (CRF) based method is proposed to remove the bleed-through from the scanned images of historical images. The proposed method only requires the scanned image of one side , referred as a blind method. Generally, the scanned historical document image is composed of three components: foreground, bleed-through and background. By assuming Gaussian distributions of the three components, the proposed method establishes conditional probability distribution (CPD) models of the three components first. The parameters of the component CPD models are estimated based on an initial segmentation of the input image. Then, conditional random fields are used to capture the relations between observed pixels in the scanned image and the corresponding labels as well as the spatial relation between the adjacent labels. The belief propagation algorithm is used to calculate the probabilities of different labels for each pixel. Once the labeling is completed by choosing the most possible label for each pixel, the bleedthrough component is removed from the input historical image by a random-filling inpainting algorithm. Experimental results on the real dataset show that the proposed method preserves the foreground component very well and removes the bleed-through effectively."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bin",
+            "LastName": "Sun",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shutao",
+            "LastName": "Li",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiao-Ping",
+            "LastName": "Zhang",
+            "Initials": "XP"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jun",
+            "LastName": "Sun",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "Blind Bleed-Through Removal for Scanned Historical Document Image With Conditional Random Fields.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2614133"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2016,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114067
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114067,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2614133",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

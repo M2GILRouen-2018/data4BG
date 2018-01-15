@@ -1,0 +1,237 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101157830,
+      "Country": "United States",
+      "ISSNLinking": "1934-3396",
+      "MedlineTA": "Curr Protoc Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D011506",
+        "content": "Proteins"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "9.4.1-9.4.22"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 John Wiley & Sons, Inc.",
+        "AbstractText": "Relational databases can integrate diverse types of information and manage large sets of similarity search results, greatly simplifying genome-scale analyses. By focusing on taxonomic subsets of sequences, relational databases can reduce the size and redundancy of sequence libraries and improve the statistical significance of homologs. In addition, by loading similarity search results into a relational database, it becomes possible to explore and summarize the relationships between all of the proteins in an organism and those in other biological kingdoms. This unit describes how to use relational databases to improve the efficiency of sequence similarity searching and demonstrates various large-scale genomic analyses of homology-related data. It also describes the installation and use of a simple protein sequence database, seqdb_demo, which is used as a basis for the other protocols. The unit also introduces search_demo, a database that stores sequence similarity search results. The search_demo database is then used to explore the evolutionary relationships between E. coli proteins and proteins in other organisms in a large-scale comparative genomic analysis. © 2017 by John Wiley & Sons, Inc."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "William R",
+            "LastName": "Pearson",
+            "Initials": "WR",
+            "AffiliationInfo": {"Affiliation": "Department of Biochemistry and Molecular Genetics, University of Virginia, School of Medicine, Charlottesville, Virginia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aaron J",
+            "LastName": "Mackey",
+            "Initials": "AJ",
+            "AffiliationInfo": {"Affiliation": "Department of Public Health Sciences, University of Virginia, School of Medicine, Charlottesville, Virginia."}
+          }
+        ]
+      },
+      "ArticleTitle": "Using SQL Databases for Sequence Similarity Searching and Analysis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/cpbi.32"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 59,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 13
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Curr Protoc Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1934-340X"
+        },
+        "Title": "Current protocols in bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "comparative genomic analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "homology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "relational database"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "sequence similarity"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D030562",
+        "MajorTopicYN": "Y",
+        "content": "Databases, Protein"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D004926",
+          "MajorTopicYN": "N",
+          "content": "Escherichia coli"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019143",
+        "MajorTopicYN": "N",
+        "content": "Evolution, Molecular"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D011506",
+          "MajorTopicYN": "N",
+          "content": "Proteins"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016415",
+        "MajorTopicYN": "N",
+        "content": "Sequence Alignment"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D020539",
+          "MajorTopicYN": "N",
+          "content": "Sequence Analysis, Protein"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017386",
+        "MajorTopicYN": "N",
+        "content": "Sequence Homology, Amino Acid"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "08"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28902397
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28902397,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/cpbi.32",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

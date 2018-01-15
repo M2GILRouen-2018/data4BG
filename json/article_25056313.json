@@ -1,0 +1,510 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0411011",
+      "Country": "England",
+      "ISSNLinking": "0305-1048",
+      "MedlineTA": "Nucleic Acids Res"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D010455",
+        "content": "Peptides"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": "09"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2960-2972"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author(s) 2017. Published by Oxford University Press on behalf of Nucleic Acids Research.",
+        "AbstractText": "Ribosome profiling via high-throughput sequencing (ribo-seq) is a promising new technique for characterizing the occupancy of ribosomes on messenger RNA (mRNA) at base-pair resolution. The ribosome is responsible for translating mRNA into proteins, so information about its occupancy offers a detailed view of ribosome density and position which could be used to discover new translated open reading frames (ORFs), among other things. In this work, we propose Rp-Bp, an unsupervised Bayesian approach to predict translated ORFs from ribosome profiles. We use state-of-the-art Markov chain Monte Carlo techniques to estimate posterior distributions of the likelihood of translation of each ORF. Hence, an important feature of Rp-Bp is its ability to incorporate and propagate uncertainty in the prediction process. A second novel contribution is automatic Bayesian selection of read lengths and ribosome P-site offsets (BPPS). We empirically demonstrate that our read length selection technique modestly improves sensitivity by identifying more canonical and non-canonical ORFs. Proteomics- and quantitative translation initiation sequencing-based validation verifies the high quality of all of the predictions. Experimental comparison shows that Rp-Bp results in more peptide identifications and proteomics-validated ORF predictions compared to another recent tool for translation prediction."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brandon",
+            "LastName": "Malone",
+            "Initials": "B",
+            "AffiliationInfo": [
+              {"Affiliation": "Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University of Heidelberg, 69120 Heidelberg, Germany."},
+              {"Affiliation": "DZHK (German Centre for Cardiovascular Research), Partner site Heidelberg/Mannheim, 69120 Heidelberg, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ilian",
+            "LastName": "Atanassov",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Max Plank Institute for the Biology of Ageing, 50931 Köln, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Florian",
+            "LastName": "Aeschimann",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "Friedrich Miescher Institute for Biomedical Research, 4058 Basel, Switzerland."},
+              {"Affiliation": "Faculty of Science, University of Basel, 4056 Basel, Switzerland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xinping",
+            "LastName": "Li",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Max Plank Institute for the Biology of Ageing, 50931 Köln, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Helge",
+            "LastName": "Großhans",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Friedrich Miescher Institute for Biomedical Research, 4058 Basel, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christoph",
+            "LastName": "Dieterich",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University of Heidelberg, 69120 Heidelberg, Germany."},
+              {"Affiliation": "DZHK (German Centre for Cardiovascular Research), Partner site Heidelberg/Mannheim, 69120 Heidelberg, Germany."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Bayesian prediction of RNA translation from ribosome profiling.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/nar/gkw1350"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 45,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017,
+            "Day": "07"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Nucleic Acids Res.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1362-4962"
+        },
+        "Title": "Nucleic acids research"
+      },
+      "PubModel": "Print"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D017173",
+          "MajorTopicYN": "N",
+          "content": "Caenorhabditis elegans"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D057809",
+        "MajorTopicYN": "N",
+        "content": "HEK293 Cells"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D059014",
+          "MajorTopicYN": "N",
+          "content": "High-Throughput Nucleotide Sequencing"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D051379",
+        "MajorTopicYN": "N",
+        "content": "Mice"
+      }},
+      {"DescriptorName": {
+        "UI": "D016366",
+        "MajorTopicYN": "N",
+        "content": "Open Reading Frames"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000737",
+          "MajorTopicYN": "N",
+          "content": "chemistry"
+        },
+        "DescriptorName": {
+          "UI": "D010455",
+          "MajorTopicYN": "N",
+          "content": "Peptides"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D014176",
+        "MajorTopicYN": "Y",
+        "content": "Protein Biosynthesis"
+      }},
+      {"DescriptorName": {
+        "UI": "D040901",
+        "MajorTopicYN": "N",
+        "content": "Proteomics"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "Y",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D012270",
+          "MajorTopicYN": "N",
+          "content": "Ribosomes"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017423",
+          "MajorTopicYN": "N",
+          "content": "Sequence Analysis, RNA"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": "09"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Feb;12(2):147-53",
+        "PMID": {
+          "Version": 1,
+          "content": 25486063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Direct. 2016 May 10;11:24",
+        "PMID": {
+          "Version": 1,
+          "content": 27160013
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2016 Jan 15;351(6270):226-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26816363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2009 Apr 10;324(5924):218-23",
+        "PMID": {
+          "Version": 1,
+          "content": 19213877
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Dec 1;29(23):2995-3002",
+        "PMID": {
+          "Version": 1,
+          "content": 24048356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Struct Mol Biol. 2016 Aug 3;23(8):703-4",
+        "PMID": {
+          "Version": 1,
+          "content": 27487394
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2016 Feb;13(2):165-70",
+        "PMID": {
+          "Version": 1,
+          "content": 26657557
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Mar 11;43(5):e29",
+        "PMID": {
+          "Version": 1,
+          "content": 25510491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Jul 3;154(1):240-51",
+        "PMID": {
+          "Version": 1,
+          "content": 23810193
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2014 Mar;15(3):205-13",
+        "PMID": {
+          "Version": 1,
+          "content": 24468696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2015 Jul;33(7):743-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26076430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2013 Jul;12(7):1780-90",
+        "PMID": {
+          "Version": 1,
+          "content": 23429522
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Mol Biol. 2014;1156:67-77",
+        "PMID": {
+          "Version": 1,
+          "content": 24791982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2008 Dec;26(12):1367-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19029910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2015 Dec 3;60(5):816-27",
+        "PMID": {
+          "Version": 1,
+          "content": 26638175
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2015 Sep 1;85:75-89",
+        "PMID": {
+          "Version": 1,
+          "content": 26102273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 2014 May 2;33(9):981-93",
+        "PMID": {
+          "Version": 1,
+          "content": 24705786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Jun 1;31(11):1762-70",
+        "PMID": {
+          "Version": 1,
+          "content": 25614471
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 May 20;12:180",
+        "PMID": {
+          "Version": 1,
+          "content": 21599902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 May 15;23(10):1282-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17379688
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2015 Aug 14;11(8):e1004336",
+        "PMID": {
+          "Version": 1,
+          "content": 26275099
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "F1000Res. 2016 Jun 09;5:1309",
+        "PMID": {
+          "Version": 1,
+          "content": 27347386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Jan 1;33(1):139-141",
+        "PMID": {
+          "Version": 1,
+          "content": 27634950
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2015 Dec 11;11(12):e1005732",
+        "PMID": {
+          "Version": 1,
+          "content": 26656907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2016 May 27;5:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27232982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Aug;42(14):9171-81",
+        "PMID": {
+          "Version": 1,
+          "content": 25056313
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28126919
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28126919,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "gkw1350",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/nar/gkw1350",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5389577",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

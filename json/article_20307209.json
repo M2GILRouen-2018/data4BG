@@ -1,0 +1,663 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "I have read the journal\u2019s policy and the authors of this manuscript have the following competing interests: The University of Glasgow has filed an initial patent application based upon this algorithm. However the implementation of the algorithm as described in the text is provided in R and freely available through the GPL 3.0.",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D022801",
+          "content": "Complementarity Determining Regions"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D011948",
+          "content": "Receptors, Antigen, T-Cell"
+        },
+        "RegistryNumber": 0
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005313"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIAID NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 AI107625",
+          "Acronym": "AI"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Characterisation of the T cell receptors (TCR) involved in immune responses is important for the design of vaccines and immunotherapies for cancer and autoimmune disease. The specificity of the interaction between the TCR heterodimer and its peptide-MHC ligand derives largely from the juxtaposed hypervariable CDR3 regions on the TCRα and TCRβ chains, and obtaining the paired sequences of these regions is a standard for functionally defining the TCR. A brute force approach to identifying the TCRs in a population of T cells is to use high-throughput single-cell sequencing, but currently this process remains costly and risks missing small clones. Alternatively, CDR3α and CDR3β sequences can be associated using their frequency of co-occurrence in independent samples, but this approach can be confounded by the sharing of CDR3α and CDR3β across clones, commonly observed within epitope-specific T cell populations. The accurate, exhaustive, and economical recovery of TCR sequences from such populations therefore remains a challenging problem. Here we describe an algorithm for performing frequency-based pairing (alphabetr) that accommodates CDR3α- and CDR3β-sharing, cells expressing two TCRα chains, and multiple forms of sequencing error. The algorithm also yields accurate estimates of clonal frequencies."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-1723-4463"
+            },
+            "ForeName": "Edward S",
+            "LastName": "Lee",
+            "Initials": "ES",
+            "AffiliationInfo": {"Affiliation": "Institute of Infection, Immunity & Inflammation, Glasgow Biomedical Research Centre, University of Glasgow, Glasgow, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul G",
+            "LastName": "Thomas",
+            "Initials": "PG",
+            "AffiliationInfo": {"Affiliation": "St. Jude Children's Research Hospital, Memphis, Tennessee, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeff E",
+            "LastName": "Mold",
+            "Initials": "JE",
+            "AffiliationInfo": {"Affiliation": "Karolinska Institute, CMB, Stockholm, Sweden."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-4606-4483"
+            },
+            "ForeName": "Andrew J",
+            "LastName": "Yates",
+            "Initials": "AJ",
+            "AffiliationInfo": {"Affiliation": "Institute of Infection, Immunity & Inflammation, Glasgow Biomedical Research Centre, University of Glasgow, Glasgow, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "Identifying T Cell Receptors from High-Throughput Sequencing: Dealing with Promiscuity in TCRα and TCRβ Pairing.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005313"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D002478",
+        "MajorTopicYN": "N",
+        "content": "Cells, Cultured"
+      }},
+      {"DescriptorName": {
+        "UI": "D022801",
+        "MajorTopicYN": "N",
+        "content": "Complementarity Determining Regions"
+      }},
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "N",
+        "content": "Computational Biology"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D059014",
+          "MajorTopicYN": "N",
+          "content": "High-Throughput Nucleotide Sequencing"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000276",
+            "MajorTopicYN": "N",
+            "content": "immunology"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D011948",
+          "MajorTopicYN": "Y",
+          "content": "Receptors, Antigen, T-Cell"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000166",
+            "MajorTopicYN": "N",
+            "content": "cytology"
+          },
+          {
+            "UI": "Q000276",
+            "MajorTopicYN": "N",
+            "content": "immunology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D013601",
+          "MajorTopicYN": "N",
+          "content": "T-Lymphocytes"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1993 Oct 15;262(5132):422-4",
+        "PMID": {
+          "Version": 1,
+          "content": 8211163
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Med. 2002 Apr 15;195(8):991-1001",
+        "PMID": {
+          "Version": 1,
+          "content": 11956290
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunity. 2008 Jun;28(6):859-69",
+        "PMID": {
+          "Version": 1,
+          "content": 18499487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunol Cell Biol. 2016 Jul;94(6):604-11",
+        "PMID": {
+          "Version": 1,
+          "content": 26860370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(5):e37338",
+        "PMID": {
+          "Version": 1,
+          "content": 22649519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Immunol. 2013 Sep;43(9):2507-15",
+        "PMID": {
+          "Version": 1,
+          "content": 23696157
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 1997 Nov 15;159(10):4848-56",
+        "PMID": {
+          "Version": 1,
+          "content": 9366410
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 2008 Feb 15;180(4):2240-50",
+        "PMID": {
+          "Version": 1,
+          "content": 18250431
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 2001 Nov 1;167(9):4996-5003",
+        "PMID": {
+          "Version": 1,
+          "content": 11673507
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Invest. 1998 Oct 15;102(8):1551-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9788968
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Immunol. 2014 Feb;44(2):597-603",
+        "PMID": {
+          "Version": 1,
+          "content": 24114719
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunol Cell Biol. 2015 Oct;93(9):804-14",
+        "PMID": {
+          "Version": 1,
+          "content": 25804828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunity. 2007 Aug;27(2):203-13",
+        "PMID": {
+          "Version": 1,
+          "content": 17707129
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2015 Apr;89(8):4517-26",
+        "PMID": {
+          "Version": 1,
+          "content": 25653453
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2014 Jul;32(7):684-92",
+        "PMID": {
+          "Version": 1,
+          "content": 24952902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Immunol. 2006 Dec;6(12):883-94",
+        "PMID": {
+          "Version": 1,
+          "content": 17110956
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Immunol. 1998 Dec;28(12):4382-90",
+        "PMID": {
+          "Version": 1,
+          "content": 9862375
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2002 Nov 29;298(5599):1797-800",
+        "PMID": {
+          "Version": 1,
+          "content": 12459592
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2002 Apr;76(8):3748-55",
+        "PMID": {
+          "Version": 1,
+          "content": 11907214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Nov;10(11):1096-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24056875
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Invest. 2011 Jan;121(1):288-95",
+        "PMID": {
+          "Version": 1,
+          "content": 21135507
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 2000 Jun 1;164(11):5782-7",
+        "PMID": {
+          "Version": 1,
+          "content": 10820256
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Med. 1996 Dec 1;184(6):2327-39",
+        "PMID": {
+          "Version": 1,
+          "content": 8976187
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunity. 1994 May;1(2):83-93",
+        "PMID": {
+          "Version": 1,
+          "content": 7534200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 1996 Apr 15;10(8):948-62",
+        "PMID": {
+          "Version": 1,
+          "content": 8608942
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2016 Mar;11(3):429-42",
+        "PMID": {
+          "Version": 1,
+          "content": 26844430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 Sep 9;111(36):13139-44",
+        "PMID": {
+          "Version": 1,
+          "content": 25157137
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunol Cell Biol. 2011 Mar;89(3):375-87",
+        "PMID": {
+          "Version": 1,
+          "content": 21301479
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Cancer Res. 2014 May 1;20(9):2424-32",
+        "PMID": {
+          "Version": 1,
+          "content": 24583799
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Invest. 2010 Jun;120(6):1885-94",
+        "PMID": {
+          "Version": 1,
+          "content": 20440073
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Immunol. 2015;33:169-200",
+        "PMID": {
+          "Version": 1,
+          "content": 25493333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2014 Dec;24(12):2033-40",
+        "PMID": {
+          "Version": 1,
+          "content": 25079858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2009 Nov 5;114(19):4099-107",
+        "PMID": {
+          "Version": 1,
+          "content": 19706884
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Invest. 2006 May;116(5):1443-56",
+        "PMID": {
+          "Version": 1,
+          "content": 16614754
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 2015 Jan;21(1):86-91",
+        "PMID": {
+          "Version": 1,
+          "content": 25501908
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 1991 Aug 9;66(3):533-40",
+        "PMID": {
+          "Version": 1,
+          "content": 1868548
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 2011 Apr 1;186(7):4285-94",
+        "PMID": {
+          "Version": 1,
+          "content": 21383244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 1998 Nov 15;161(10):5284-95",
+        "PMID": {
+          "Version": 1,
+          "content": 9820501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2016 Apr;13(4):329-32",
+        "PMID": {
+          "Version": 1,
+          "content": 26950746
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2013 Feb;31(2):166-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23334449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pathol. 2013 Dec;231(4):433-40",
+        "PMID": {
+          "Version": 1,
+          "content": 24027095
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Jul 30;110(31):E2905-14",
+        "PMID": {
+          "Version": 1,
+          "content": 23858460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2010 Sep;28(9):965-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20802495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2015 Aug 19;7(301):301ra131",
+        "PMID": {
+          "Version": 1,
+          "content": 26290413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2006 May 5;358(3):764-72",
+        "PMID": {
+          "Version": 1,
+          "content": 16563430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1990 Apr;87(7):2579-82",
+        "PMID": {
+          "Version": 1,
+          "content": 2138780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Immunol. 2010;28:275-94",
+        "PMID": {
+          "Version": 1,
+          "content": 20307209
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28103239
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28103239,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005313",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-16-01022",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5289640",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

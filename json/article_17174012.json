@@ -1,0 +1,317 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 505},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "National Natural Science Foundation of China",
+            "Country": "United States",
+            "GrantID": 61672181
+          },
+          {
+            "Agency": "National Natural Science Foundation of China",
+            "Country": "United States",
+            "GrantID": 51679058
+          },
+          {
+            "Agency": "Natural Science Foundation of Heilongjiang Province",
+            "Country": "United States",
+            "GrantID": "F2016005"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Brain disorders are one of the top causes of human death. Generally, neurologists analyze brain medical images for diagnosis. In the image analysis field, corners are one of the most important features, which makes corner detection and matching studies essential. However, existing corner detection studies do not consider the domain information of brain. This leads to many useless corners and the loss of significant information. Regarding corner matching, the uncertainty and structure of brain are not employed in existing methods. Moreover, most corner matching studies are used for 3D image registration. They are inapplicable for 2D brain image diagnosis because of the different mechanisms. To address these problems, we propose a novel corner-based brain medical image classification method. Specifically, we automatically extract multilayer texture images (MTIs) which embody diagnostic information from neurologists. Moreover, we present a corner matching method utilizing the uncertainty and structure of brain medical images and a bipartite graph model. Finally, we propose a similarity calculation method for diagnosis."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Brain CT and MRI image sets are utilized to evaluate the proposed method. First, classifiers are trained in N-fold cross-validation analysis to produce the best θ and K. Then independent brain image sets are tested to evaluate the classifiers. Moreover, the classifiers are also compared with advanced brain image classification studies. For the brain CT image set, the proposed classifier outperforms the comparison methods by at least 8% on accuracy and 2.4% on F1-score. Regarding the brain MRI image set, the proposed classifier is superior to the comparison methods by more than 7.3% on accuracy and 4.9% on F1-score. Results also demonstrate that the proposed method is robust to different intensity ranges of brain medical image."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "In this study, we develop a robust corner-based brain medical image classifier. Specifically, we propose a corner detection method utilizing the diagnostic information from neurologists and a corner matching method based on the uncertainty and structure of brain medical images. Additionally, we present a similarity calculation method for brain image classification. Experimental results on two brain image sets show the proposed corner-based brain medical image classifier outperforms the state-of-the-art studies."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Linlin",
+            "LastName": "Gao",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haiwei",
+            "LastName": "Pan",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China. panhaiwei@hrbeu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qing",
+            "LastName": "Li",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, City University of Hong Kong, Kowloon, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaoqin",
+            "LastName": "Xie",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhiqiang",
+            "LastName": "Zhang",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinming",
+            "LastName": "Han",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Neurology and Neuroscience Center, the First Hospital of Jilin University, Changchun, 130021, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiao",
+            "LastName": "Zhai",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Research center for intelligent information processing, College of Computer Science and Technology, Harbin Engineering University, Harbin, 150001, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "CollectiveName": "Alzheimer\u2019s Disease Neuroimaging Initiative"
+          }
+        ]
+      },
+      "ArticleTitle": "Brain medical image diagnosis based on corners with importance-values.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1903-6"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bipartite graph"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Brain medical image diagnosis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Corner detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Corner matching"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multilayer texture images"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2017 Apr;37:101-113",
+        "PMID": {
+          "Version": 1,
+          "content": 28167394
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 1986 Jun;8(6):679-98",
+        "PMID": {
+          "Version": 1,
+          "content": 21869365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Mar 15;31(6):857-63",
+        "PMID": {
+          "Version": 1,
+          "content": 25391399
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Jul 22;14:232",
+        "PMID": {
+          "Version": 1,
+          "content": 23870191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2010 Mar;40(3):331-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20132930
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE J Biomed Health Inform. 2014 Mar;18(2):574-84",
+        "PMID": {
+          "Version": 1,
+          "content": 24608057
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2010 Dec;32(12):2262-75",
+        "PMID": {
+          "Version": 1,
+          "content": 20975122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2010 Jan;32(1):105-19",
+        "PMID": {
+          "Version": 1,
+          "content": 19926902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurobiol Aging. 2008 Apr;29(4):514-23",
+        "PMID": {
+          "Version": 1,
+          "content": 17174012
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29157218
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29157218,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1903-6",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1903-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5697385",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,317 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101313850,
+      "Country": "Germany",
+      "ISSNLinking": "1557-4679",
+      "MedlineTA": "Int J Biostat"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D015415",
+          "content": "Biomarkers"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D007328",
+          "content": "Insulin"
+        },
+        "RegistryNumber": 0
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2012,
+      "Day": "09"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "Article 17"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D003160",
+          "content": "Comparative Study"
+        },
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2012,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "A central challenge in high dimensional data settings in biomedical investigations involves the estimation of an optimal prediction algorithm to distinguish between different disease phenotypes. A significant complicating aspect in these analyses can be attributed to the presence of features that exhibit statistical interactions. Indeed, in several clinical investigations such as genetic studies of complex diseases, it is of interest to specifically identify such features. In this paper, we compare the performance of four commonly used classifiers (K-Nearest Neighbors, Prediction Analysis for Microarrays, Random Forests and Support Vector Machines) in settings involving high dimensional datasets including statistically interacting feature subsets. We evaluate the performance of these classifiers under conditions of varying sample size, levels of signal-to-noise ratio and strength of statistical interactions among features. We summarize two datasets from studies in diabetes and cardiovascular disease involving gene expression, metabolomics and proteomics measurements and compare results obtained using the four classifiers."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Simulation studies revealed that the classifier Prediction Analysis of Microarrays had the highest classification accuracy in the absence of noise, statistical interactions and when feature distributions were multivariate Gaussian within each class. In the presence of statistical interactions, modest effect sizes and the absence of noise, Support Vector Machines achieved the best performance followed closely by Random Forests. Random Forests was optimal in settings that included both significant levels of high dimensional noise features and statistical interactions between biomarker pairs. The data applications revealed similar trends in the relative performances of each classifier."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Random Forests had the highest classification accuracy among the four classifiers and was successful in incorporating interaction effects between features in the presence of noise in high dimensional datasets."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yu",
+            "LastName": "Guo",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "BG Medicine, Inc., USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Raji",
+            "LastName": "Balasubramanian",
+            "Initials": "R"
+          }
+        ]
+      },
+      "ArticleTitle": "Comparative evaluation of classifiers in the presence of statistical interactions between features in high dimensional data settings.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1515/1557-4679.1373"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "/j/ijb.2012.8.issue-1/1557-4679.1373/1557-4679.1373.xml"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 8,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2012,
+            "Day": 28
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Int J Biostat",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1557-4679"
+        },
+        "Title": "The international journal of biostatistics"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2012,
+      "Day": "03"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000097",
+          "MajorTopicYN": "N",
+          "content": "blood"
+        },
+        "DescriptorName": {
+          "UI": "D015415",
+          "MajorTopicYN": "N",
+          "content": "Biomarkers"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D056808",
+          "MajorTopicYN": "N",
+          "content": "Biostatistics"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000097",
+          "MajorTopicYN": "N",
+          "content": "blood"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003627",
+        "MajorTopicYN": "N",
+        "content": "Data Interpretation, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "N",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D016208",
+          "MajorTopicYN": "N",
+          "content": "Databases, Factual"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000188",
+            "MajorTopicYN": "N",
+            "content": "drug therapy"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003920",
+          "MajorTopicYN": "N",
+          "content": "Diabetes Mellitus"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000187",
+          "MajorTopicYN": "N",
+          "content": "drug effects"
+        },
+        "DescriptorName": {
+          "UI": "D015870",
+          "MajorTopicYN": "N",
+          "content": "Gene Expression"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000494",
+          "MajorTopicYN": "N",
+          "content": "pharmacology"
+        },
+        "DescriptorName": {
+          "UI": "D007328",
+          "MajorTopicYN": "N",
+          "content": "Insulin"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "N",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D046228",
+          "MajorTopicYN": "N",
+          "content": "Microarray Analysis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2015,
+      "Day": 19
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 22752837
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 7,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 4,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 4,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 22752837,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1515/1557-4679.1373",
+        "IdType": "doi"
+      },
+      {
+        "content": "/j/ijb.2012.8.issue-1/1557-4679.1373/1557-4679.1373.xml",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

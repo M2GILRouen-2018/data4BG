@@ -1,0 +1,856 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D010675",
+        "content": "Pheromones"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "02"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005870"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Long-distance olfactory search behaviors depend on odor detection dynamics. Due to turbulence, olfactory signals travel as bursts of variable concentration and spacing and are characterized by long-tail distributions of odor/no-odor events, challenging the computing capacities of olfactory systems. How animals encode complex olfactory scenes to track the plume far from the source remains unclear. Here we focus on the coding of the plume temporal dynamics in moths. We compare responses of olfactory receptor neurons (ORNs) and antennal lobe projection neurons (PNs) to sequences of pheromone stimuli either with white-noise patterns or with realistic turbulent temporal structures simulating a large range of distances (8 to 64 m) from the odor source. For the first time, we analyze what information is extracted by the olfactory system at large distances from the source. Neuronal responses are analyzed using linear-nonlinear models fitted with white-noise stimuli and used for predicting responses to turbulent stimuli. We found that neuronal firing rate is less correlated with the dynamic odor time course when distance to the source increases because of improper coding during long odor and no-odor events that characterize large distances. Rapid adaptation during long puffs does not preclude however the detection of puff transitions in PNs. Individual PNs but not individual ORNs encode the onset and offset of odor puffs for any temporal structure of stimuli. A higher spontaneous firing rate coupled to an inhibition phase at the end of PN responses contributes to this coding property. This allows PNs to decode the temporal structure of the odor plume at any distance to the source, an essential piece of information moths can use in their tracking behavior."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vincent",
+            "LastName": "Jacob",
+            "Initials": "V",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute of Ecology and Environmental Sciences, INRA, route de St Cyr, Versailles, France."},
+              {"Affiliation": "Peuplements végétaux et bioagresseurs en milieu végétal, CIRAD, Université de la Réunion, Saint Pierre, Ile de la Réunion, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christelle",
+            "LastName": "Monsempès",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Institute of Ecology and Environmental Sciences, INRA, route de St Cyr, Versailles, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-0797-5153"
+            },
+            "ForeName": "Jean-Pierre",
+            "LastName": "Rospars",
+            "Initials": "JP",
+            "AffiliationInfo": {"Affiliation": "Institute of Ecology and Environmental Sciences, INRA, route de St Cyr, Versailles, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jean-Baptiste",
+            "LastName": "Masson",
+            "Initials": "JB",
+            "AffiliationInfo": [
+              {"Affiliation": "Decision and Bayesian Computation, Pasteur Institute, CNRS UMR 3571, 25-28 rue du Dr Roux, 75015 Paris, France."},
+              {"Affiliation": "Bioinformatics and Biostatistics Hub, C3BI, Pasteur Institute, CNRS USR 3756, 25-28 rue du Dr Roux, 75015 Paris, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-2166-8248"
+            },
+            "ForeName": "Philippe",
+            "LastName": "Lucas",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Institute of Ecology and Environmental Sciences, INRA, route de St Cyr, Versailles, France."}
+          }
+        ]
+      },
+      "ArticleTitle": "Olfactory coding in the turbulent realm.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005870"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D001070",
+          "MajorTopicYN": "N",
+          "content": "Appetitive Behavior"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000166",
+            "MajorTopicYN": "N",
+            "content": "cytology"
+          },
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "Y",
+            "content": "physiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D057506",
+          "MajorTopicYN": "N",
+          "content": "Arthropod Antennae"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009036",
+          "MajorTopicYN": "N",
+          "content": "Moths"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009833",
+          "MajorTopicYN": "N",
+          "content": "Olfactory Pathways"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          },
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "Y",
+            "content": "physiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D018034",
+          "MajorTopicYN": "N",
+          "content": "Olfactory Receptor Neurons"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "Y",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D010675",
+          "MajorTopicYN": "N",
+          "content": "Pheromones"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "02"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comp Physiol A Neuroethol Sens Neural Behav Physiol. 2013 Nov;199(11):1015-36",
+        "PMID": {
+          "Version": 1,
+          "content": 24081678
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Biol. 2009 Apr;212(Pt 8):1191-201",
+        "PMID": {
+          "Version": 1,
+          "content": 19329752
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Sep 17;110(38):15455-60",
+        "PMID": {
+          "Version": 1,
+          "content": 24006366
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1994 Jun 21;91(13):5756-60",
+        "PMID": {
+          "Version": 1,
+          "content": 11607476
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 1995 Jun;73(6):2207-20",
+        "PMID": {
+          "Version": 1,
+          "content": 7666133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2005 Oct 5;25(40):9069-79",
+        "PMID": {
+          "Version": 1,
+          "content": 16207866
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2002 Apr;5(4):356-63",
+        "PMID": {
+          "Version": 1,
+          "content": 11896400
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Neurosci. 2013 Jul 8;36:217-41",
+        "PMID": {
+          "Version": 1,
+          "content": 23841839
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2009 Feb;101(2):1073-88",
+        "PMID": {
+          "Version": 1,
+          "content": 19091924
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2013 Apr 10;33(15):6285-97",
+        "PMID": {
+          "Version": 1,
+          "content": 23575828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Senses. 2006 Feb;31(2):119-30",
+        "PMID": {
+          "Version": 1,
+          "content": 16354743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2008 Nov;11(11):1259-61",
+        "PMID": {
+          "Version": 1,
+          "content": 18820690
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Jun 1;107(22):10262-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20479249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Insect Physiol. 2000 Aug 1;46(8):1195-1206",
+        "PMID": {
+          "Version": 1,
+          "content": 10818247
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2001 Mar 22;410(6827):466-70",
+        "PMID": {
+          "Version": 1,
+          "content": 11260713
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 1997 Jan;77(1):207-20",
+        "PMID": {
+          "Version": 1,
+          "content": 9120562
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2007 Aug 2;55(3):479-91",
+        "PMID": {
+          "Version": 1,
+          "content": 17678859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2015 Jun 1;113(10):3850-65",
+        "PMID": {
+          "Version": 1,
+          "content": 25787959
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2001 Aug 23;412(6849):787-92",
+        "PMID": {
+          "Version": 1,
+          "content": 11518957
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2000 Jun 15;20(12 ):4721-31",
+        "PMID": {
+          "Version": 1,
+          "content": 10844041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2015 May 06;4:null",
+        "PMID": {
+          "Version": 1,
+          "content": 25945916
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Neurosci. 2011 Feb;30(1):143-61",
+        "PMID": {
+          "Version": 1,
+          "content": 20730480
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2013 Jul;16(7):942-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23749146
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2009 Aug 25;19(16):R700-13",
+        "PMID": {
+          "Version": 1,
+          "content": 19706282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2013 Nov;16(11):1687-91",
+        "PMID": {
+          "Version": 1,
+          "content": 24056698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2017 Jun 28;6:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28653907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2008 Nov;11(11):1335-42",
+        "PMID": {
+          "Version": 1,
+          "content": 18931665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2005 Dec;8(12):1684-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16286934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2015 Oct 21;88(2):403-18",
+        "PMID": {
+          "Version": 1,
+          "content": 26456047
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2015 Jun 16;4:null",
+        "PMID": {
+          "Version": 1,
+          "content": 26077825
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2005 Nov;8(11):1568-76",
+        "PMID": {
+          "Version": 1,
+          "content": 16222230
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(4):e36096",
+        "PMID": {
+          "Version": 1,
+          "content": 22558344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2007 Feb;5(2):e19",
+        "PMID": {
+          "Version": 1,
+          "content": 17253902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(11):e50322",
+        "PMID": {
+          "Version": 1,
+          "content": 23209711
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2010 Apr 7;30(14):5071-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20371827
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2011 Jul 17;14 (8):1039-44",
+        "PMID": {
+          "Version": 1,
+          "content": 21765422
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2009 Feb 26;61(4):570-86",
+        "PMID": {
+          "Version": 1,
+          "content": 19249277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2015 Feb;18(2):272-81",
+        "PMID": {
+          "Version": 1,
+          "content": 25581362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Cell Neurosci. 2014 Jun 12;8:159",
+        "PMID": {
+          "Version": 1,
+          "content": 24971052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Ecol. 2002 May;28(5):1075-89",
+        "PMID": {
+          "Version": 1,
+          "content": 12049228
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2007 May;10 (5):631-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17450136
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2008 Apr 25;4(4):e1000053",
+        "PMID": {
+          "Version": 1,
+          "content": 18437217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2014 Dec 16;12 (12 ):e1002021",
+        "PMID": {
+          "Version": 1,
+          "content": 25514030
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Apr 17;8(4):e61220",
+        "PMID": {
+          "Version": 1,
+          "content": 23613816
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2015 Jan;18(1):56-65",
+        "PMID": {
+          "Version": 1,
+          "content": 25485755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2004 Jan 16;303(5656):366-70",
+        "PMID": {
+          "Version": 1,
+          "content": 14684826
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 Nov 25;111(47):16925-30",
+        "PMID": {
+          "Version": 1,
+          "content": 25385618
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013;9(10):e1003251",
+        "PMID": {
+          "Version": 1,
+          "content": 24098101
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Senses. 2006 Feb;31(2):155-66",
+        "PMID": {
+          "Version": 1,
+          "content": 16339269
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Neurosci. 2007 Oct;26(8):2359-68",
+        "PMID": {
+          "Version": 1,
+          "content": 17953623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2015 May 05;4:null",
+        "PMID": {
+          "Version": 1,
+          "content": 25942453
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1973 Sep 28;181(4106):1247-9",
+        "PMID": {
+          "Version": 1,
+          "content": 4542192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Ecol. 2011 Aug;37(8):899-911",
+        "PMID": {
+          "Version": 1,
+          "content": 21750948
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 1998 Aug 1;18(15):5999-6008",
+        "PMID": {
+          "Version": 1,
+          "content": 9671685
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2006 Aug;96(2):826-33",
+        "PMID": {
+          "Version": 1,
+          "content": 16641386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 1996 Jan;16(1):345-53",
+        "PMID": {
+          "Version": 1,
+          "content": 8613801
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Bull. 2000 Apr;198(2):188-202",
+        "PMID": {
+          "Version": 1,
+          "content": 10786940
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2010 Jun 24;66(6):937-48",
+        "PMID": {
+          "Version": 1,
+          "content": 20620878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2000 Jun;26(3):695-702",
+        "PMID": {
+          "Version": 1,
+          "content": 10896164
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Ecol. 2008 Jul;34(7):854-66",
+        "PMID": {
+          "Version": 1,
+          "content": 18581182
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 Jun 27;344(6191):1515-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24970087
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2006 Feb 23;439(7079):936-42",
+        "PMID": {
+          "Version": 1,
+          "content": 16495990
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2014 Feb 5;81(3):616-28",
+        "PMID": {
+          "Version": 1,
+          "content": 24440227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2011 Feb;14 (2):208-16",
+        "PMID": {
+          "Version": 1,
+          "content": 21217763
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2016 Jan 13;36(2):280-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26758822
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Insect Sci. 2014 Dec 1;6:86-92",
+        "PMID": {
+          "Version": 1,
+          "content": 25584200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2011 Oct 12;479(7373):397-400",
+        "PMID": {
+          "Version": 1,
+          "content": 21993623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Neurosci. 2001;24:1193-216",
+        "PMID": {
+          "Version": 1,
+          "content": 11520932
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Dec 04;10(12):e1003975",
+        "PMID": {
+          "Version": 1,
+          "content": 25474026
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29194457
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2018,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29194457,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005870",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-01407",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5736211",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

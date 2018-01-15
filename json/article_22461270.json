@@ -1,0 +1,393 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Manual measurements of foot anthropometry can lead to errors since this task involves the experience of the specialist who performs them, resulting in different subjective measures from the same footprint. Moreover, some of the diagnoses that are given to classify a footprint deformity are based on a qualitative interpretation by the physician; there is no quantitative interpretation of the footprint. The importance of providing a correct and accurate diagnosis lies in the need to ensure that an appropriate treatment is provided for the improvement of the patient without risking his or her health. Therefore, this article presents a smart sensor that integrates the capture of the footprint, a low computational-cost analysis of the image and the interpretation of the results through a quantitative evaluation. The smart sensor implemented required the use of a camera (Logitech C920) connected to a Raspberry Pi 3, where a graphical interface was made for the capture and processing of the image, and it was adapted to a podoscope conventionally used by specialists such as orthopedist, physiotherapists and podiatrists. The footprint diagnosis smart sensor (FPDSS) has proven to be robust to different types of deformity, precise, sensitive and correlated in 0.99 with the measurements from the digitalized image of the ink mat."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "J Rodolfo",
+            "LastName": "Maestre-Rendon",
+            "Initials": "JR",
+            "AffiliationInfo": [
+              {"Affiliation": "Unidad Académica de Ingeniería Biomédica, Universidad Politécnica de Sinaloa, Carretera Municipal Libre Mazatlán Higueras km 3, Col. Genaro Estrada, Mazatlán Sin. 82199, Mexico. jmaestre@upsin.edu.mx."},
+              {"Affiliation": "Center for Biomedical Technology, Polythecnic University of Madrid, Campus Montegancedo, Pozuelo de Alarcón, Madrid 28223, Spain. jmaestre@upsin.edu.mx."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-4072-3495"
+            },
+            "ForeName": "Tomas A",
+            "LastName": "Rivera-Roman",
+            "Initials": "TA",
+            "AffiliationInfo": {"Affiliation": "Unidad Académica de Ingeniería Biomédica, Universidad Politécnica de Sinaloa, Carretera Municipal Libre Mazatlán Higueras km 3, Col. Genaro Estrada, Mazatlán Sin. 82199, Mexico. 2015030124@upsin.edu.mx."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Juan M",
+            "LastName": "Sierra-Hernandez",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Departamento de Ingeniería Electrónica, División de Ingenierías, Universidad de Guanajuato, Carretera Salamanca-Valle de Santiago km 3.5 + 1.8, Comunidad de Palo Blanco, Salamanca Gto. C.P. 36885, Mexico. jm.sierrahernandez@ugto.mx."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-5197-2059"
+            },
+            "ForeName": "Ivan",
+            "LastName": "Cruz-Aceves",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "CONACYT, Centro de Investigación en Matemáticas (CIMAT), A.C., Jalisco S/N, Col. Valenciana, Guanajuato Gto. 36000, Mexico. ivan.cruz@cimat.mx."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luis M",
+            "LastName": "Contreras-Medina",
+            "Initials": "LM",
+            "AffiliationInfo": {"Affiliation": "CA Ingeniería de Biosistemas, División de Investigación y Posgrado, Facultad de Ingeniería, Universidad Autónoma de Querétaro, Cerro de las campanas S/N, Santiago de Querétaro Qro. 76010, Mexico. miguel.contreras@uaq.mx."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0001-5496-8533"
+            },
+            "ForeName": "Carlos",
+            "LastName": "Duarte-Galvan",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Facultad de Ciencias Físico-Matemáticas, Universidad Autónoma de Sinaloa, Av. De las Américas y Blvd. Universitarios, Cd. Universitaria, Culiacán Sin. 80000, Mexico. carlos.duarte.galvan@uas.edu.mx."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arturo A",
+            "LastName": "Fernandez-Jaramillo",
+            "Initials": "AA",
+            "AffiliationInfo": {"Affiliation": "Unidad Académica de Ingeniería Biomédica, Universidad Politécnica de Sinaloa, Carretera Municipal Libre Mazatlán Higueras km 3, Col. Genaro Estrada, Mazatlán Sin. 82199, Mexico. afernandez@upsin.edu.mx."}
+          }
+        ]
+      },
+      "ArticleTitle": "Low Computational-Cost Footprint Deformities Diagnosis Sensor through Angles, Dimensions Analysis and Image Processing Techniques.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2700"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17112700"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Clarke\u2019s angle"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Smirak-Chippaux index"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Staheli arch index"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "biomedical image processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "embedded system"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "footprint measurements"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1989 Mar;45(1):255-68",
+        "PMID": {
+          "Version": 1,
+          "content": 2720055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2008 Oct;28(3):405-11",
+        "PMID": {
+          "Version": 1,
+          "content": 18337103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Endocrinol Metab. 2012 Spring;10(2):486-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23843808
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Hum Ergol (Tokyo). 1999 Dec;28(1-2):15-24",
+        "PMID": {
+          "Version": 1,
+          "content": 11957319
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2007;40(5):1171-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16824532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2013 Mar 20;10(83):20130009",
+        "PMID": {
+          "Version": 1,
+          "content": 23516064
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Phys Med Rehabil. 2005 Feb;86(2):353-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15706568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 1987;20(5):547-51",
+        "PMID": {
+          "Version": 1,
+          "content": 3611129
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Foot Ankle Res. 2014 Oct 25;7(1):44",
+        "PMID": {
+          "Version": 1,
+          "content": 25364389
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Orthop Sports Phys Ther. 1991;14(2):70-4",
+        "PMID": {
+          "Version": 1,
+          "content": 18796826
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Podiatr Med Assoc. 2005 May-Jun;95(3):235-41",
+        "PMID": {
+          "Version": 1,
+          "content": 15901809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Assoc Thai. 2014 Feb;97 Suppl 2:S131-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25518186
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Foot Ankle Clin. 2003 Sep;8(3):419-30",
+        "PMID": {
+          "Version": 1,
+          "content": 14560896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Foot Ankle Int. 2007 Apr;28(4):456-62",
+        "PMID": {
+          "Version": 1,
+          "content": 17475140
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Eng Med Biol Mag. 1998 Nov-Dec;17(6):62-6",
+        "PMID": {
+          "Version": 1,
+          "content": 9824764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Math Methods Med. 2017;2017:6494390",
+        "PMID": {
+          "Version": 1,
+          "content": 28321264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bone Joint Surg Am. 1987 Mar;69(3):426-8",
+        "PMID": {
+          "Version": 1,
+          "content": 3818704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2017 Aug 04;17 (8):null",
+        "PMID": {
+          "Version": 1,
+          "content": 28777349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2010;2010:5768-71",
+        "PMID": {
+          "Version": 1,
+          "content": 21097338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Podiatr Med Assoc. 2012 Mar-Apr;102(2):130-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22461270
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29165397
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29165397,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17112700",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17112700",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5713009",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

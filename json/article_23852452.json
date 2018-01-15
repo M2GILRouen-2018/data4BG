@@ -1,0 +1,215 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0188496"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The choice of an optimal feature detector-descriptor combination for image matching often depends on the application and the image type. In this paper, we propose the Log-Polar Magnitude feature descriptor-a rotation, scale, and illumination invariant descriptor that achieves comparable performance to SIFT on a large variety of image registration problems but with much shorter feature vectors. The descriptor is based on the Log-Polar Transform followed by a Fourier Transform and selection of the magnitude spectrum components. Selecting different frequency components allows optimizing for image patterns specific for a particular application. In addition, by relying only on coordinates of the found features and (optionally) feature sizes our descriptor is completely detector independent. We propose 48- or 56-long feature vectors that potentially can be shortened even further depending on the application. Shorter feature vectors result in better memory usage and faster matching. This combined with the fact that the descriptor does not require a time-consuming feature orientation estimation (the rotation invariance is achieved solely by using the magnitude spectrum of the Log-Polar Transform) makes it particularly attractive to applications with limited hardware capacity. Evaluation is performed on the standard Oxford dataset and two different microscopy datasets; one with fluorescence and one with transmission electron microscopy images. Our method performs better than SURF and comparable to SIFT on the Oxford dataset, and better than SIFT on both microscopy datasets indicating that it is particularly useful in applications with microscopy images."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-6148-5174"
+            },
+            "ForeName": "Damian J",
+            "LastName": "Matuszewski",
+            "Initials": "DJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Science for Life Laboratory, Uppsala, Sweden."},
+              {"Affiliation": "Centre for Image Analysis, Uppsala University, Uppsala, Sweden."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anders",
+            "LastName": "Hast",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Centre for Image Analysis, Uppsala University, Uppsala, Sweden."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Carolina",
+            "LastName": "Wählby",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "Science for Life Laboratory, Uppsala, Sweden."},
+              {"Affiliation": "Centre for Image Analysis, Uppsala University, Uppsala, Sweden."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ida-Maria",
+            "LastName": "Sintorn",
+            "Initials": "IM",
+            "AffiliationInfo": [
+              {"Affiliation": "Science for Life Laboratory, Uppsala, Sweden."},
+              {"Affiliation": "Centre for Image Analysis, Uppsala University, Uppsala, Sweden."},
+              {"Affiliation": "Vironova AB, Stockholm, Sweden."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "A short feature vector for image matching: The Log-Polar Magnitude feature descriptor.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0188496"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D005583",
+        "MajorTopicYN": "N",
+        "content": "Fourier Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D010363",
+        "MajorTopicYN": "Y",
+        "content": "Pattern Recognition, Automated"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2005 Oct;27(10):1615-30",
+        "PMID": {
+          "Version": 1,
+          "content": 16237996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2010 May;32(5):815-30",
+        "PMID": {
+          "Version": 1,
+          "content": 20299707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2012 Oct;34(10):2031-45",
+        "PMID": {
+          "Version": 1,
+          "content": 22201063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Sep;10 (9):857-60",
+        "PMID": {
+          "Version": 1,
+          "content": 23852452
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29190737
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29190737,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0188496",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-08232",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5708636",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

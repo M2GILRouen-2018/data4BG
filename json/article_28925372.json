@@ -1,0 +1,159 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101217933,
+      "Country": "England",
+      "ISSNLinking": "1741-2552",
+      "MedlineTA": "J Neural Eng"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 IOP Publishing Ltd.",
+        "AbstractText": {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "Artifact reduction in electroencephalogram (EEG) signals is usually necessary to carry out data analysis appropriately. Despite the large amount of denoising techniques available with a multichannel setup, there is a lack of efficient algorithms that remove (not only detect) blink-artifacts from a single channel EEG, which is of interest in many clinical and research applications. This paper describes and evaluates the Iterative Template Matching and Suppression (ITMS), a new method proposed for detecting and suppressing the artifact associated with the blink activity from a single channel EEG.&#13; &#13; Approach: The approach of ITMS consists of (a) an iterative process in which blink-events are detected and the blink-artifact waveform of the analyzed subject is estimated, (b) generation of a signal modeling the blink-artifact, and (c) suppression of this signal from the raw EEG. The performance of ITMS is compared with the Multi-window Summation of Derivatives within a Window (MSDW) technique using both synthesized and real EEG data.&#13; &#13; Main results: Results suggest that ITMS presents an adequate performance in detecting and suppressing blink-artifacts from a single channel EEG. When applied to the analysis of cortical auditory evoked potentials (CAEPs), ITMS provides a significant quality improvement in the resulting responses, i.e. in a cohort of 30 adults, the mean correlation coefficient improved from 0.37 to 0.65 when the blink-artifacts were detected and suppressed by ITMS.&#13; &#13; Significance: ITMS is an efficient solution to the problem of denoising blink-artifacts in single-channel EEG applications, both in clinical and research fields. The proposed ITMS algorithm is stable; automatic, since it does not require human intervention; low-invasive, because the EEG segments not contaminated by blink-artifacts remain unaltered; and easy to implement, as can be observed in the Matlab script implemeting the algorithm provided as supporting material."
+        }
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-5529-8620"
+            },
+            "ForeName": "Joaquin T",
+            "LastName": "Valderrama",
+            "Initials": "JT",
+            "AffiliationInfo": {"Affiliation": "National Acoustic Laboratories, Australian Hearing, Sydney, New South Wales, AUSTRALIA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Angel",
+            "LastName": "de la Torre",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Signal Theory, Telematics and Communications, University of Granada, Granada, SPAIN."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bram",
+            "LastName": "Van Dun",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "National Acoustic Laboratories, Australian Hearing, Sydney, New South Wales, AUSTRALIA."}
+          }
+        ]
+      },
+      "ArticleTitle": "An automatic algorithm for blink-artifact suppression based on iterative template matching: Application to single channel recording of cortical auditory evoked potentials.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1741-2552/aa8d95"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 19
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Neural Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1741-2552"
+        },
+        "Title": "Journal of neural engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "artifact removal"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "blinking"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "brain-computer interface (BCI) games"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "quality enhancement"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "single channel EEG"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 19
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28925372
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28925372,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1741-2552/aa8d95",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

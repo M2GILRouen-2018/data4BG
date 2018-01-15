@@ -1,0 +1,317 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "781-791"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA142555",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA187947",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA190214",
+            "Acronym": "CA"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this paper, we propose a generalization of the level set segmentation approach by supplying a novel method for adaptive estimation of active contour parameters. The presented segmentation method is fully automatic once the lesion has been detected. First, the location of the level set contour relative to the lesion is estimated using a convolutional neural network (CNN). The CNN has two convolutional layers for feature extraction, which lead into dense layers for classification. Second, the output CNN probabilities are then used to adaptively calculate the parameters of the active contour functional during the segmentation process. Finally, the adaptive window size surrounding each contour point is re-estimated by an iterative process that considers lesion size and spatial texture. We demonstrate the capabilities of our method on a dataset of 164 MRI and 112 CT images of liver lesions that includes low contrast and heterogeneous lesions as well as noisy images. To illustrate the strength of our method, we evaluated it against state of the art CNN-based and active contour techniques. For all cases, our method, as assessed by Dice similarity coefficients, performed significantly better than currently available methods. An average Dice improvement of 0.27 was found across the entire dataset over all comparisons. We also analyzed two challenging subsets of lesions and obtained a significant Dice improvement of 0.24 with our method (p <;0.001, Wilcoxon)."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Assaf",
+            "LastName": "Hoogi",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arjun",
+            "LastName": "Subramaniam",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rishi",
+            "LastName": "Veerapaneni",
+            "Initials": "R"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel L",
+            "LastName": "Rubin",
+            "Initials": "DL"
+          }
+        ]
+      },
+      "ArticleTitle": "Adaptive Estimation of Active Contour Parameters Using Convolutional Neural Networks and Texture Analysis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2016.2628084"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 36,
+          "PubDate": {
+            "Month": "03",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D008099",
+          "MajorTopicYN": "N",
+          "content": "Liver"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D008113",
+          "MajorTopicYN": "N",
+          "content": "Liver Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "Y",
+        "content": "Neural Networks (Computer)"
+      }},
+      {"DescriptorName": {
+        "UI": "D014057",
+        "MajorTopicYN": "N",
+        "content": "Tomography, X-Ray Computed"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "09"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2003 Feb;22(2):137-54",
+        "PMID": {
+          "Version": 1,
+          "content": 12715991
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Inf Technol Biomed. 2002 Mar;6(1):8-28",
+        "PMID": {
+          "Version": 1,
+          "content": 11936600
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2017 Apr;37:46-55",
+        "PMID": {
+          "Version": 1,
+          "content": 28157660
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2001;10(2):266-77",
+        "PMID": {
+          "Version": 1,
+          "content": 18249617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2007;10(Pt 2):495-502",
+        "PMID": {
+          "Version": 1,
+          "content": 18044605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2011 Jul;20(7):2007-16",
+        "PMID": {
+          "Version": 1,
+          "content": 21518662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2008 Nov;17(11):2029-39",
+        "PMID": {
+          "Version": 1,
+          "content": 18854247
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Eng Med Biol Mag. 2001 Jul-Aug;20(4):84-95",
+        "PMID": {
+          "Version": 1,
+          "content": 11494774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2001;10(8):1169-86",
+        "PMID": {
+          "Version": 1,
+          "content": 18255534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2008 Oct;17(10):1940-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18784040
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28113927
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113927,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2016.2628084",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5510759",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS857685",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

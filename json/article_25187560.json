@@ -1,0 +1,404 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D004268",
+          "content": "DNA-Binding Proteins"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D004247",
+          "content": "DNA"
+        },
+        "RegistryNumber": "9007-49-2"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 25
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 447},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Functional genomic and epigenomic research relies fundamentally on sequencing based methods like ChIP-seq for the detection of DNA-protein interactions. These techniques return large, high dimensional data sets with visually complex structures, such as multi-modal peaks extended over large genomic regions. Current tools for visualisation and data exploration represent and leverage these complex features only to a limited extent."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We present DGW, an open source software package for simultaneous alignment and clustering of multiple epigenomic marks. DGW uses Dynamic Time Warping to adaptively rescale and align genomic distances which allows to group regions of interest with similar shapes, thereby capturing the structure of epigenomic marks. We demonstrate the effectiveness of the approach in a simulation study and on a real epigenomic data set from the ENCODE project."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Our results show that DGW automatically recognises and aligns important genomic features such as transcription start sites and splicing sites from histone marks. DGW is available as an open source Python package."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Saulius",
+            "LastName": "Lukauskas",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Chemical Engineering, Imperial College London, London, SW7 2AZ, UK. saulius.lukauskas13@imperial.ac.uk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Roberto",
+            "LastName": "Visintainer",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Fondazione Bruno Kessler, Via Sommarive 18, Povo, I-38123, TN, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guido",
+            "LastName": "Sanguinetti",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "School of Informatics, University of Edinburgh, 10 Crichton St, Edinburgh, EH8 9AB, Scotland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gabriele B",
+            "LastName": "Schweikert",
+            "Initials": "GB",
+            "AffiliationInfo": {"Affiliation": "School of Informatics, University of Edinburgh, 10 Crichton St, Edinburgh, EH8 9AB, Scotland."}
+          }
+        ]
+      },
+      "ArticleTitle": "DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-016-1306-0"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Suppl 16",
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016,
+            "Day": 13
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "ChIP-seq"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Clustering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Dynamic Time Warping"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Epigenetics"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D047369",
+        "MajorTopicYN": "N",
+        "content": "Chromatin Immunoprecipitation"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "Y",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D004247",
+          "MajorTopicYN": "N",
+          "content": "DNA"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D004268",
+          "MajorTopicYN": "N",
+          "content": "DNA-Binding Proteins"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D044127",
+        "MajorTopicYN": "N",
+        "content": "Epigenesis, Genetic"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D057890",
+          "MajorTopicYN": "N",
+          "content": "Epigenomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015894",
+        "MajorTopicYN": "Y",
+        "content": "Genome, Human"
+      }},
+      {"DescriptorName": {
+        "UI": "D042421",
+        "MajorTopicYN": "Y",
+        "content": "Histone Code"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D007938",
+          "MajorTopicYN": "N",
+          "content": "Leukemia"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 25
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Sep 15;25(18):2334-40",
+        "PMID": {
+          "Version": 1,
+          "content": 19561022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 Jun;11(6):689-94",
+        "PMID": {
+          "Version": 1,
+          "content": 24727652
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1998 Dec 8;95(25):14863-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9843981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2012 Sep;22(9):1735-47",
+        "PMID": {
+          "Version": 1,
+          "content": 22955985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(8):e41882",
+        "PMID": {
+          "Version": 1,
+          "content": 22905111
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2007 May 18;129(4):823-37",
+        "PMID": {
+          "Version": 1,
+          "content": 17512414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2012 Jul 26;2(1):62-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22840397
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Sep 6;489(7414):57-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22955616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2013 Nov 24;14:826",
+        "PMID": {
+          "Version": 1,
+          "content": 24267901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2008;9(9):R137",
+        "PMID": {
+          "Version": 1,
+          "content": 18798982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2010 Oct 15;143(2):212-24",
+        "PMID": {
+          "Version": 1,
+          "content": 20888037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 1975 Oct 20;405(2):442-51",
+        "PMID": {
+          "Version": 1,
+          "content": 1180967
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2012 Dec;13(12):840-52",
+        "PMID": {
+          "Version": 1,
+          "content": 23090257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 Sep 16;111(37):13367-72",
+        "PMID": {
+          "Version": 1,
+          "content": 25187560
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28105912
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28105912,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-016-1306-0",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-016-1306-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5249015",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

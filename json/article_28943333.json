@@ -1,0 +1,227 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8915031,
+      "Country": "Netherlands",
+      "ISSNLinking": "0933-3657",
+      "MedlineTA": "Artif Intell Med"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "11-19"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "Surgery is one of the riskiest and most important medical acts that is performed today. Understanding the ways in which surgeries are similar or different from each other is of major interest to understand and analyze surgical behaviors. This article addresses the issue of identifying discriminative patterns of surgical practice from recordings of surgeries. These recordings are sequences of low-level surgical activities representing the actions performed by surgeons during surgeries."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "MATERIALS AND METHOD",
+            "content": "To discover patterns that are specific to a group of surgeries, we use the vector space model (VSM) which is originally an algebraic model for representing text documents. We split long sequences of surgical activities into subsequences of consecutive activities. We then compute the relative frequencies of these subsequences using the tf*idf framework and we use the Cosine similarity to classify the sequences. This process makes it possible to discover which patterns discriminate one set of surgeries recordings from another set."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Experiments were performed on 40 neurosurgeries of anterior cervical discectomy (ACD). The results demonstrate that our method accurately identifies patterns that can discriminate between (1) locations where the surgery took place, (2) levels of expertise of surgeons (i.e., expert vs. intermediate) and even (3) individual surgeons who performed the intervention. We also show how the tf*idf weight vector can be used to both visualize the most interesting patterns and to highlight the parts of a given surgery that are the most interesting."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Identifying patterns that discriminate groups of surgeon is a very important step in improving the understanding of surgical processes. The proposed method finds discriminative and interpretable patterns in sequences of surgical activities. Our approach provides intuitive results, as it identifies automatically the set of patterns explaining the differences between the groups."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Germain",
+            "LastName": "Forestier",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "MIPS EA 2332, University of Haute-Alsace, Mulhouse, France; Faculty of Information Technology, Monash University, Melbourne, Australia. Electronic address: germain.forestier@uha.fr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "François",
+            "LastName": "Petitjean",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Faculty of Information Technology, Monash University, Melbourne, Australia. Electronic address: francois.petitjean@monash.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pavel",
+            "LastName": "Senin",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Los Alamos National Laboratory, Los Alamos, NM 87544, United States. Electronic address: psenin@lanl.gov."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Laurent",
+            "LastName": "Riffaud",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "INSERM MediCIS, Unit U1099 LTSI, University of Rennes 1, Rennes, France; Department of Neurosurgery, Pontchaillou University Hospital, Rennes, France. Electronic address: laurent.riffaud@chu-rennes.fr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pierre-Louis",
+            "LastName": "Henaux",
+            "Initials": "PL",
+            "AffiliationInfo": {"Affiliation": "INSERM MediCIS, Unit U1099 LTSI, University of Rennes 1, Rennes, France; Department of Neurosurgery, Pontchaillou University Hospital, Rennes, France. Electronic address: pierrelouis.henaux@chu-rennes.fr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pierre",
+            "LastName": "Jannin",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "INSERM MediCIS, Unit U1099 LTSI, University of Rennes 1, Rennes, France. Electronic address: pierre.jannin@univ-rennes1.fr."}
+          }
+        ]
+      },
+      "ArticleTitle": "Finding discriminative and interpretable patterns in sequences of surgical activities.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0933-3657(16)30596-6"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.artmed.2017.09.002"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 82,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Artif Intell Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1873-2860"
+        },
+        "Title": "Artificial intelligence in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bag of words"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Surgery"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Surgical process modelling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Surgical technical skills"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Temporal analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Vector space model"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28943333
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 29,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28943333,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0933-3657(16)30596-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.artmed.2017.09.002",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

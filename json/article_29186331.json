@@ -1,0 +1,165 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "Finding computationally drug-target interactions (DTIs) is a convenient strategy to identify new DTIs at low cost with reasonable accuracy. However, the current DTI prediction methods suffer the high false positive prediction rate."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "We developed DDR, a novel method that improves the DTI prediction accuracy. DDR is based on the use of a heterogeneous graph that contains known DTIs with multiple similarities between drugs and multiple similarities between target proteins. DDR applies non-linear similarity fusion method to combine different similarities. Before fusion, DDR performs a pre-processing step where a subset of similarities is selected in a heuristic process to obtain an optimized combination of similarities. Then, DDR applies a random forest model using different graph-based features extracted from the DTI heterogeneous graph. Using five repeats of 10-fold cross-validation, three testing setups, and the weighted average of area under the precision-recall curve (AUPR) scores, we show that DDR significantly reduces the AUPR score error relative to the next best start-of-the-art method for predicting DTIs by 34% when the drugs are new, by 23% when targets are new, and by 34% when the drugs and the targets are known but not all DTIs between them are not known. Using independent sources of evidence, we verify as correct 22 out of the top 25 DDR novel predictions. This suggests that DDR can be used as an efficient method to identify correct DTIs."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability",
+          "content": "The data and code are provided at https://bitbucket.org/RSO24/ddr/."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "vladimir.bajic@kaust.edu.sa."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rawan S",
+            "LastName": "Olayan",
+            "Initials": "RS",
+            "AffiliationInfo": {"Affiliation": "King Abdullah University of Science and Technology (KAUST), Computational Bioscience Research Center (CBRC), Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division, Thuwal, Saudi Arabia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haitham",
+            "LastName": "Ashoor",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "King Abdullah University of Science and Technology (KAUST), Computational Bioscience Research Center (CBRC), Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division, Thuwal, Saudi Arabia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vladimir B",
+            "LastName": "Bajic",
+            "Initials": "VB",
+            "AffiliationInfo": {"Affiliation": "King Abdullah University of Science and Technology (KAUST), Computational Bioscience Research Center (CBRC), Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division, Thuwal, Saudi Arabia."}
+          }
+        ]
+      },
+      "ArticleTitle": "DDR: Efficient computational method to predict drug-target interactions using graph mining and machine learning approaches.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx731"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 24
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29186331
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186331,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 4657065,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx731",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

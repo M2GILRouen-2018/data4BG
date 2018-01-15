@@ -1,0 +1,323 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "21-32"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Intravascular optical coherence tomography (OCT) is an invaluable tool for the detection of pathological features on the arterial wall and the investigation of post-stenting complications. Computational lumen border detection in OCT images is highly advantageous, since it may support rapid morphometric analysis. However, automatic detection is very challenging, since OCT images typically include various artifacts that impact image clarity, including features such as side branches and intraluminal blood presence. This paper presents ARCOCT, a segmentation method for fully-automatic detection of lumen border in OCT images."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "ARCOCT relies on multiple, consecutive processing steps, accounting for image preparation, contour extraction and refinement. In particular, for contour extraction ARCOCT employs the transformation of OCT images based on physical characteristics such as reflectivity and absorption of the tissue and, for contour refinement, local regression using weighted linear least squares and a 2nd degree polynomial model is employed to achieve artifact and small-branch correction as well as smoothness of the artery mesh. Our major focus was to achieve accurate contour delineation in the various types of OCT images, i.e., even in challenging cases with branches and artifacts."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "ARCOCT has been assessed in a dataset of 1812 images (308 from stented and 1504 from native segments) obtained from 20 patients. ARCOCT was compared against ground-truth manual segmentation performed by experts on the basis of various geometric features (e.g. area, perimeter, radius, diameter, centroid, etc.) and closed contour matching indicators (the Dice index, the Hausdorff distance and the undirected average distance), using standard statistical analysis methods. The proposed method was proven very efficient and close to the ground-truth, exhibiting non statistically-significant differences for most of the examined metrics."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "ARCOCT allows accurate and fully-automated lumen border detection in OCT images."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Grigorios-Aris",
+            "LastName": "Cheimariotis",
+            "Initials": "GA",
+            "AffiliationInfo": {"Affiliation": "Lab of Computing Medical Informatics and Biomedical Imaging Technologies, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece; Institute of Applied Biosciences, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yiannis S",
+            "LastName": "Chatzizisis",
+            "Initials": "YS",
+            "AffiliationInfo": {"Affiliation": "Cardiovascular Division, University of Nebraska Medical Center, Omaha, Nebraska, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vassilis G",
+            "LastName": "Koutkias",
+            "Initials": "VG",
+            "AffiliationInfo": {"Affiliation": "Institute of Applied Biosciences, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece; Lab of Computing Medical Informatics and Biomedical Imaging Technologies, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Konstantinos",
+            "LastName": "Toutouzas",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "1st Department of Cardiology, Athens Medical School, Hippokration Hospital, Athens, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andreas",
+            "LastName": "Giannopoulos",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Applied Imaging Science Lab, Radiology Department, Brigham and Women's Hospital, Harvard Medical School, Massachusetts, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maria",
+            "LastName": "Riga",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "1st Department of Cardiology, Athens Medical School, Hippokration Hospital, Athens, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ioanna",
+            "LastName": "Chouvarda",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Lab of Computing Medical Informatics and Biomedical Imaging Technologies, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece; Institute of Applied Biosciences, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Antonios P",
+            "LastName": "Antoniadis",
+            "Initials": "AP",
+            "AffiliationInfo": {"Affiliation": "Cardiovascular Division, Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Charalambos",
+            "LastName": "Doulaverakis",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Information Technologies Institute, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ioannis",
+            "LastName": "Tsamboulatidis",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Information Technologies Institute, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ioannis",
+            "LastName": "Kompatsiaris",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Information Technologies Institute, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "George D",
+            "LastName": "Giannoglou",
+            "Initials": "GD",
+            "AffiliationInfo": {"Affiliation": "1st Department of Cardiology, AHEPA University Hospital, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicos",
+            "LastName": "Maglaveras",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Lab of Computing Medical Informatics and Biomedical Imaging Technologies, Medical School, Aristotle University of Thessaloniki, Thessaloniki, Greece; Institute of Applied Biosciences, Center for Research and Technology - Hellas, Thermi, Thessaloniki, Greece. Electronic address: nicmag@med.auth.gr."}
+          }
+        ]
+      },
+      "ArticleTitle": "ARCOCT: Automatic detection of lumen border in intravascular OCT images.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)31202-0"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.08.007"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 151,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Automatic segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Contour extraction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Intravascular optical coherence tomography (OCT)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Lumen\u2013Endothelium border"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001158",
+          "MajorTopicYN": "N",
+          "content": "Arteries"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "N",
+        "content": "Artifacts"
+      }},
+      {"DescriptorName": {
+        "UI": "D001330",
+        "MajorTopicYN": "N",
+        "content": "Automatic Data Processing"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007090",
+        "MajorTopicYN": "Y",
+        "content": "Image Interpretation, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D015607",
+        "MajorTopicYN": "N",
+        "content": "Stents"
+      }},
+      {"DescriptorName": {
+        "UI": "D041623",
+        "MajorTopicYN": "Y",
+        "content": "Tomography, Optical Coherence"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28947003
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 29,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28947003,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)31202-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.08.007",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

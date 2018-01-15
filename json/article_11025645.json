@@ -1,0 +1,615 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401220",
+      "Country": "England",
+      "ISSNLinking": "0031-9155",
+      "MedlineTA": "Phys Med Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D002250",
+        "content": "Carbon Radioisotopes"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 17
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "3682-3699"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCI NIH HHS",
+          "Country": "United States",
+          "GrantID": "P20 CA183639",
+          "Acronym": "CA"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Monte Carlo (MC) simulation is considered as the most accurate method for calculation of absorbed dose and fundamental physics quantities related to biological effects in carbon ion therapy. To improve its computational efficiency, we have developed a GPU-oriented fast MC package named goCMC, for carbon therapy. goCMC simulates particle transport in voxelized geometry with kinetic energy up to 450 MeV u-1. Class II condensed history simulation scheme with a continuous slowing down approximation was employed. Energy straggling and multiple scattering were modeled. δ-electrons were terminated with their energy locally deposited. Four types of nuclear interactions were implemented in goCMC, i.e. carbon-hydrogen, carbon-carbon, carbon-oxygen and carbon-calcium inelastic collisions. Total cross section data from Geant4 were used. Secondary particles produced in these interactions were sampled according to particle yield with energy and directional distribution data derived from Geant4 simulation results. Secondary charged particles were transported following the condensed history scheme, whereas secondary neutral particles were ignored. goCMC was developed under OpenCL framework and is executable on different platforms, e.g. GPU and multi-core CPU. We have validated goCMC with Geant4 in cases with different beam energy and phantoms including four homogeneous phantoms, one heterogeneous half-slab phantom, and one patient case. For each case [Formula: see text] carbon ions were simulated, such that in the region with dose greater than 10% of maximum dose, the mean relative statistical uncertainty was less than 1%. Good agreements for dose distributions and range estimations between goCMC and Geant4 were observed. 3D gamma passing rates with 1%/1\u2009mm criterion were over 90% within 10% isodose line except in two extreme cases, and those with 2%/1\u2009mm criterion were all over 96%. Efficiency and code portability were tested with different GPUs and CPUs. Depending on the beam energy and voxel size, the computation time to simulate [Formula: see text] carbons was 9.9-125\u2009s, 2.5-50\u2009s and 60-612\u2009s on an AMD Radeon GPU card, an NVidia GeForce GTX 1080 GPU card and an Intel Xeon E5-2640 CPU, respectively. The combined accuracy, efficiency and portability make goCMC attractive for research and clinical applications in carbon ion therapy."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nan",
+            "LastName": "Qin",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75390, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marco",
+            "LastName": "Pinto",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhen",
+            "LastName": "Tian",
+            "Initials": "Z"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Georgios",
+            "LastName": "Dedes",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arnold",
+            "LastName": "Pompos",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Steve B",
+            "LastName": "Jiang",
+            "Initials": "SB"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Katia",
+            "LastName": "Parodi",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xun",
+            "LastName": "Jia",
+            "Initials": "X"
+          }
+        ]
+      },
+      "ArticleTitle": "Initial development of goCMC: a GPU-oriented fast cross-platform Monte Carlo engine for carbon ion therapy.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1361-6560/aa5d43"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 62,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017,
+            "Day": "07"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-6560"
+        },
+        "Title": "Physics in medicine and biology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000627",
+          "MajorTopicYN": "N",
+          "content": "therapeutic use"
+        },
+        "DescriptorName": {
+          "UI": "D002250",
+          "MajorTopicYN": "N",
+          "content": "Carbon Radioisotopes"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D004583",
+        "MajorTopicYN": "N",
+        "content": "Electrons"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D063193",
+          "MajorTopicYN": "N",
+          "content": "Heavy Ion Radiotherapy"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "N",
+        "content": "Monte Carlo Method"
+      }},
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D011879",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy Dosage"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011880",
+          "MajorTopicYN": "N",
+          "content": "Radiotherapy Planning, Computer-Assisted"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 18
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Radiat Res. 2013 Jul;54 Suppl 1:i91-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23824133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2011 Nov 21;56(22):7017-31",
+        "PMID": {
+          "Version": 1,
+          "content": 22016026
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2014 Feb 21;59(4):R151-82",
+        "PMID": {
+          "Version": 1,
+          "content": 24486639
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2012 Jun 21;57(12):3759-84",
+        "PMID": {
+          "Version": 1,
+          "content": 22617050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2009 Jan;36(1):149-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19235384
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2012 Jun 7;57(11):R99-117",
+        "PMID": {
+          "Version": 1,
+          "content": 22571913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2014 Aug 21;59(16):4635-59",
+        "PMID": {
+          "Version": 1,
+          "content": 25079387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2015 Jul 7;60(13):5007-18",
+        "PMID": {
+          "Version": 1,
+          "content": 26061350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2004 Aug;31(8):2263-73",
+        "PMID": {
+          "Version": 1,
+          "content": 15377093
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Jul;39(7):4559-67",
+        "PMID": {
+          "Version": 1,
+          "content": 22830787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2000 Mar;27(3):485-98",
+        "PMID": {
+          "Version": 1,
+          "content": 10757601
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2012 Mar 7;57(5):1217-29",
+        "PMID": {
+          "Version": 1,
+          "content": 22330587
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2014 Dec;41(12 ):121707",
+        "PMID": {
+          "Version": 1,
+          "content": 25471954
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2011 Feb;38(2):754-64",
+        "PMID": {
+          "Version": 1,
+          "content": 21452713
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2015 Oct 7;60(19):7419-35",
+        "PMID": {
+          "Version": 1,
+          "content": 26352012
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2009 Nov 1;75(3):941-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19801105
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Clin Oncol. 2010 Jan;7(1):37-43",
+        "PMID": {
+          "Version": 1,
+          "content": 19949433
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2013 May;107(2):218-26",
+        "PMID": {
+          "Version": 1,
+          "content": 23647759
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2002 Jun 1;53(2):407-21",
+        "PMID": {
+          "Version": 1,
+          "content": 12023146
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Feb 21;53(4):1027-42",
+        "PMID": {
+          "Version": 1,
+          "content": 18263956
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2004 Dec 7;49(23):5217-32",
+        "PMID": {
+          "Version": 1,
+          "content": 15656273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2013 Jun 21;58(12):4341-56",
+        "PMID": {
+          "Version": 1,
+          "content": 23732697
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2000 Nov;45(11):N151-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11098922
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Sep 7;53(17):4825-53",
+        "PMID": {
+          "Version": 1,
+          "content": 18701772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucl Technol. 2011 Jul;175(1):16-21",
+        "PMID": {
+          "Version": 1,
+          "content": 25505349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 Jun;42(6):2967-78",
+        "PMID": {
+          "Version": 1,
+          "content": 26127050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2011 Dec 21;56(24):7813-27",
+        "PMID": {
+          "Version": 1,
+          "content": 22112370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2016 Oct 03;61(20):7347-7362",
+        "PMID": {
+          "Version": 1,
+          "content": 27694712
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2012 May 1;83(1):442-50",
+        "PMID": {
+          "Version": 1,
+          "content": 22099045
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2010 Dec 7;55(23):7107-20",
+        "PMID": {
+          "Version": 1,
+          "content": 21076192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2008 Jul 1;71(3):945-56",
+        "PMID": {
+          "Version": 1,
+          "content": 18514787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2016 Feb;43(2):761-76",
+        "PMID": {
+          "Version": 1,
+          "content": 26843239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2010 Jun 7;55(11):3077-86",
+        "PMID": {
+          "Version": 1,
+          "content": 20463376
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2011 Mar 7;56(5):1431-41",
+        "PMID": {
+          "Version": 1,
+          "content": 21317484
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2004 Oct;31(10 ):2811-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15543788
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Aug 7;53(15):4137-51",
+        "PMID": {
+          "Version": 1,
+          "content": 18635897
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2009 Nov;36(11):4878-80",
+        "PMID": {
+          "Version": 1,
+          "content": 19994495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Nov;39(11):6745-56",
+        "PMID": {
+          "Version": 1,
+          "content": 23127068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Dec 21;52(24):7295-312",
+        "PMID": {
+          "Version": 1,
+          "content": 18065840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Res. 2004 Feb;161(2):219-27",
+        "PMID": {
+          "Version": 1,
+          "content": 14731067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Feb 21;53(4):1043-56",
+        "PMID": {
+          "Version": 1,
+          "content": 18263957
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2012 Mar 7;57(5):1375-85",
+        "PMID": {
+          "Version": 1,
+          "content": 22349450
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2012 Dec 7;57(23):7783-97",
+        "PMID": {
+          "Version": 1,
+          "content": 23128424
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2013 May 7;58(9):2879-99",
+        "PMID": {
+          "Version": 1,
+          "content": 23571094
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Res. 2000 Nov;154(5):485-96",
+        "PMID": {
+          "Version": 1,
+          "content": 11025645
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28140352
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2018,
+        "Day": "07",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28140352,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1361-6560/aa5d43",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5730973",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS924764",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,207 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A novel electrocardiogram (ECG) signal de-noising and baseline wander correction method based on complete ensemble empirical mode decomposition with adaptive noise (CEEMDAN) and wavelet threshold is proposed. Although CEEMDAN is based on empirical mode decomposition (EMD), it represents a significant improvement of the original EMD by overcoming the mode-mixing problem. However, there has been no previous study on using CEEMDAN to de-noise ECG signals, to the authors' best knowledge. In the proposed method, the original noisy ECG signal is decomposed into a series of intrinsic mode functions (IMFs) sorted from high to low frequency by CEEMDAN. Each IMF is then analyzed by the autocorrelation method to find out the first few high frequency IMFs containing random noise, and these IMFs should be de-noised by the wavelet threshold. The zero-crossing rate (ZCR) of all IMFs, including final residue, are computed, and the IMFs with ZCR less than a certain value are removed. Finally, the remaining IMFs are reconstructed to obtain the clean ECG signal. The proposed algorithm is validated through experiments using the MIT-BIH ECG databases, and the results show that the random noise in the ECG signal can be effectively suppressed, and at the same time the baseline wander can be corrected efficiently."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0003-0175-4579"
+            },
+            "ForeName": "Yang",
+            "LastName": "Xu",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "Electronics & Information School, Yangtze University, Jingzhou 434023, China. xuyang@yangtzeu.edu.cn."},
+              {"Affiliation": "National Demonstration Center for Experimental Electrotechnics and Electronics Education, Yangtze University, Jingzhou 434023, China. xuyang@yangtzeu.edu.cn."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mingzhang",
+            "LastName": "Luo",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Electronics & Information School, Yangtze University, Jingzhou 434023, China. lmz@yangtzeu.edu.cn."},
+              {"Affiliation": "National Demonstration Center for Experimental Electrotechnics and Electronics Education, Yangtze University, Jingzhou 434023, China. lmz@yangtzeu.edu.cn."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tao",
+            "LastName": "Li",
+            "Initials": "T",
+            "AffiliationInfo": [
+              {"Affiliation": "Electronics & Information School, Yangtze University, Jingzhou 434023, China. ailin@yangtzeu.edu.cn."},
+              {"Affiliation": "National Demonstration Center for Experimental Electrotechnics and Electronics Education, Yangtze University, Jingzhou 434023, China. ailin@yangtzeu.edu.cn."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gangbing",
+            "LastName": "Song",
+            "Initials": "G",
+            "AffiliationInfo": [
+              {"Affiliation": "Electronics & Information School, Yangtze University, Jingzhou 434023, China. gsong@uh.edu."},
+              {"Affiliation": "Department of Mechanical Engineering, University of Houston, Houston, TX 77004, USA. gsong@uh.edu."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "ECG Signal De-noising and Baseline Wander Correction Based on CEEMDAN and Wavelet Threshold.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2754"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17122754"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 28
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "baseline wander"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "complete ensemble empirical mode decomposition with adaptive noise (CEEMDAN)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "de-noise"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "electrocardiogram (ECG) signal"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "random noise"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "wavelet threshold"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29182591
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29182591,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17122754",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17122754",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

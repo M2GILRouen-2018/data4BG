@@ -1,0 +1,193 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this paper, we propose a new algorithm to reconstruct optics surfaces (aka wavefronts) from gradients, defined on a circular domain, by means of the Spherical Harmonics. The experimental results indicate that this algorithm renders the same accuracy, compared to the reconstruction based on classical Zernike polynomials, using a smaller number of polynomial terms, which potentially speeds up the wavefront reconstruction. Additionally, we provide an open-source C++ library, released under the terms of the GNU General Public License version 2 (GPLv2), wherein several polynomial sets are coded. Therefore, this library constitutes a robust software alternative for wavefront reconstruction in a high energy laser field, optical surface reconstruction, and, more generally, in surface reconstruction from gradients. The library is a candidate for being integrated in control systems for optical devices, or similarly to be used in ad hoc simulations. Moreover, it has been developed with flexibility in mind, and, as such, the implementation includes the following features: (i) a mock-up generator of various incident wavefronts, intended to simulate the wavefronts commonly encountered in the field of high-energy lasers production; (ii) runtime selection of the library in charge of performing the algebraic computations; (iii) a profiling mechanism to measure and compare the performance of different steps of the algorithms and/or third-party linear algebra libraries. Finally, the library can be easily extended to include additional dependencies, such as porting the algebraic operations to specific architectures, in order to exploit hardware acceleration features."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Juan Manuel",
+            "LastName": "Solano-Altamirano",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Facultad de Ciencias Químicas, Benemérita Universidad Autónoma de Puebla, 14 Sur y Av. San Claudio, Col. San Manuel, Puebla 72520, Mexico. jmsolanoalt@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alejandro",
+            "LastName": "Vázquez-Otero",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "MSD IT Global Innovation Center s.r.o., Svornosti 3321/2, 150 00 Prague 5, Czech Republic. alejandro.vazquez.otero@merck.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Danila",
+            "LastName": "Khikhlukha",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "ELI Beamlines, Institute of Physics ASCR, Za Radnicí 835, 252 41 Dolní Břežany, Czech Republic. danila.khikhlukha@eli-beams.eu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Raquel",
+            "LastName": "Dormido",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Sciences and Automatic Control, UNED, C/Juan del Rosal, 16, 28040 Madrid, Spain. raquel@dia.uned.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Natividad",
+            "LastName": "Duro",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Sciences and Automatic Control, UNED, C/Juan del Rosal, 16, 28040 Madrid, Spain. nduro@dia.uned.es."}
+          }
+        ]
+      },
+      "ArticleTitle": "Using Spherical-Harmonics Expansions for Optics Surface Reconstruction from Gradients.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2780"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17122780"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 30
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "spherical harmonics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "surface reconstruction from gradients"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "wavefront reconstruction from gradients"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "zernike-polynomials"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29189722
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29189722,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17122780",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17122780",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

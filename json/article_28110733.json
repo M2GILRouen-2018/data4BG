@@ -1,0 +1,257 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "293-309"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D023361",
+          "content": "Validation Studies"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "06"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Accurate vessel segmentation of magnetic resonance angiography (MRA) images is essential for computer-aided diagnosis of cerebrovascular diseases such as stenosis or aneurysm. The ability of a segmentation algorithm to correctly reproduce the geometry of the arterial system should be expressed quantitatively and observer-independently to ensure objectivism of the evaluation."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "This paper introduces a methodology for validating vessel segmentation algorithms using a custom-designed MRA simulation framework. For this purpose, a realistic reference model of an intracranial arterial tree was developed based on a real Time-of-Flight (TOF) MRA data set. With this specific geometry blood flow was simulated and a series of TOF images was synthesized using various acquisition protocol parameters and signal-to-noise ratios. The synthesized arterial tree was then reconstructed using a level-set segmentation algorithm available in the Vascular Modeling Toolkit (VMTK). Moreover, to present versatile application of the proposed methodology, validation was also performed for two alternative techniques: a multi-scale vessel enhancement filter and the Chan-Vese variant of the level-set-based approach, as implemented in the Insight Segmentation and Registration Toolkit (ITK). The segmentation results were compared against the reference model."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The accuracy in determining the vessels centerline courses was very high for each tested segmentation algorithm (mean error rate\u2009=\u20095.6% if using VMTK). However, the estimated radii exhibited deviations from ground truth values with mean error rates ranging from 7% up to 79%, depending on the vessel size, image acquisition and segmentation method."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "We demonstrated the practical application of the designed MRA simulator as a reliable tool for quantitative validation of MRA image processing algorithms that provides objective, reproducible results and is observer independent."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Artur",
+            "LastName": "Klepaczko",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Institute of Electronics, Lodz University of Technology, Lodz, Poland. Electronic address: aklepaczko@p.lodz.pl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Piotr",
+            "LastName": "Szczypiński",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Institute of Electronics, Lodz University of Technology, Lodz, Poland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andreas",
+            "LastName": "Deistung",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Medical Physics Group, Institute of Diagnostic and Interventional Radiology, Jena University Hospital, Friedrich Schiller University, Jena, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jürgen R",
+            "LastName": "Reichenbach",
+            "Initials": "JR",
+            "AffiliationInfo": {"Affiliation": "Medical Physics Group, Institute of Diagnostic and Interventional Radiology, Jena University Hospital, Friedrich Schiller University, Jena, Germany; Michael Stifel Center for Data-driven and Simulation Science Jena, Friedrich Schiller University, Jena, Germany; Abbe School of Photonics, Friedrich Schiller University, Jena, Germany; Center of Medical Optics and Photonics, Friedrich Schiller University, Jena, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrzej",
+            "LastName": "Materka",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Institute of Electronics, Lodz University of Technology, Lodz, Poland."}
+          }
+        ]
+      },
+      "ArticleTitle": "Simulation of MR angiography imaging for validation of cerebral arteries segmentation algorithms.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(15)30401-6"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.09.020"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "Y",
+          "content": "Cerebral vasculature modeling"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "MR angiography"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "MRI simulation"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Quantitative validation"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Vessel segmentation"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D002536",
+          "MajorTopicYN": "N",
+          "content": "Cerebral Arteries"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D018810",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Angiography"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28110733
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 13,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110733,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(15)30401-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.09.020",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

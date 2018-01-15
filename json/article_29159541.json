@@ -1,0 +1,195 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8205248,
+      "Country": "Germany",
+      "ISSNLinking": "0721-832X",
+      "MedlineTA": "Graefes Arch Clin Exp Ophthalmol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE",
+          "content": "Our purpose was to use deep learning for the automated detection of age-related macular degeneration (AMD) in spectral domain optical coherence tomography (SD-OCT)."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "A total of 1112 cross-section SD-OCT images of patients with exudative AMD and a healthy control group were used for this study. In the first step, an open-source multi-layer deep convolutional neural network (DCNN), which was pretrained with 1.2 million images from ImageNet, was trained and validated with 1012 cross-section SD-OCT scans (AMD: 701; healthy: 311). During this procedure training accuracy, validation accuracy and cross-entropy were computed. The open-source deep learning framework TensorFlow™ (Google Inc., Mountain View, CA, USA) was used to accelerate the deep learning process. In the last step, a created DCNN classifier, using the information of the above mentioned deep learning process, was tested in detecting 100 untrained cross-section SD-OCT images (AMD: 50; healthy: 50). Therefore, an AMD testing score was computed: 0.98 or higher was presumed for AMD."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "After an iteration of 500 training steps, the training accuracy and validation accuracies were 100%, and the cross-entropy was 0.005. The average AMD scores were 0.997\u2009±\u20090.003 in the AMD testing group and 0.9203\u2009±\u20090.085 in the healthy comparison group. The difference between the two groups was highly significant (p\u2009<\u20090.001)."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "With a deep learning-based approach using TensorFlow™, it is possible to detect AMD in SD-OCT with high sensitivity and specificity. With more image data, an expansion of this classifier for other macular diseases or further details in AMD is possible, suggesting an application for this model as a support in clinical decisions. Another possible future application would involve the individual prediction of the progress and success of therapy for different diseases by automatically detecting hidden image information."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8533-6026"
+            },
+            "ForeName": "Maximilian",
+            "LastName": "Treder",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Ophthalmology, University of Muenster Medical Center, Domagkstraße 15, 48149, Muenster, Germany. maximilian.treder@ukmuenster.de."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jost Lennart",
+            "LastName": "Lauermann",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "Department of Ophthalmology, University of Muenster Medical Center, Domagkstraße 15, 48149, Muenster, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicole",
+            "LastName": "Eter",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Ophthalmology, University of Muenster Medical Center, Domagkstraße 15, 48149, Muenster, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Automated detection of exudative age-related macular degeneration in spectral domain optical coherence tomography using deep learning.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s00417-017-3850-3"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Graefes Arch. Clin. Exp. Ophthalmol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1435-702X"
+        },
+        "Title": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Age-related macular degeneration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Deep convolutional neural network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Deep learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Optical coherence tomography"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 21
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29159541
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29159541,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s00417-017-3850-3",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s00417-017-3850-3",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,508 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2013,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "493-510"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "K25 CA123112",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 ES005605",
+            "Acronym": "ES"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB004640",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-HL64368",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "K25-CA123112",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-EB004640",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL064368",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2012,
+        "DateType": "Electronic",
+        "Day": 10
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Identification of both the luminal and the wall areas of the bronchial tree structure from volumetric X-ray computed tomography (CT) data sets is of critical importance in distinguishing important phenotypes within numerous major lung diseases including chronic obstructive pulmonary diseases (COPD) and asthma. However, accurate assessment of the inner and outer airway wall surfaces of a complete 3-D tree structure is difficult due to their complex nature, particularly around the branch areas. In this paper, we extend a graph search based technique (LOGISMOS) to simultaneously identify multiple inter-related surfaces of branching airway trees. We first perform a presegmentation of the input 3-D image to obtain basic information about the tree topology. The presegmented image is resampled along judiciously determined paths to produce a set of vectors of voxels (called voxel columns). The resampling process utilizes medial axes to ensure that voxel columns of appropriate lengths and directions are used to capture the object surfaces without interference. A geometric graph is constructed whose edges connect voxels in the resampled voxel columns and enforce validity of the smoothness and separation constraints on the sought surfaces. Cost functions with directional information are employed to distinguish inner and outer walls. The assessment of wall thickness measurement on a CT-scanned double-wall physical phantom (patterned after an in vivo imaged human airway tree) achieved highly accurate results on the entire 3-D tree. The observed mean signed error of wall thickness ranged from -0.09 ±0.24 mm to 0.07 ±0.23 mm in bifurcating/nonbifurcating areas. The mean unsigned errors were 0.16±0.12 mm to 0.20±0.11 mm. When the airway wall surface was partitioned into meaningful subregions, the airway wall thickness accuracy was the same in most tested bifurcation/nonbifurcation and carina/noncarina regions (p=NS). Once validated on phantoms, our method was applied to human in vivo volumetric CT data to demonstrate relationships of airway wall thickness as a function of luminal dimension and airway tree generation. Wall thickness differences between the bifurcation/nonbifurcation regions were statistically significant (p < 0.05) for tree generations 6, 7, 8, and 9. In carina/noncarina regions, the wall thickness was statistically different in generations 1, 4, 5, 6, 7, and 8."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaomin",
+            "LastName": "Liu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN 46556, USA. xliu9@nd.edu"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Danny Z",
+            "LastName": "Chen",
+            "Initials": "DZ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Merryn H",
+            "LastName": "Tawhai",
+            "Initials": "MH"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaodong",
+            "LastName": "Wu",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric A",
+            "LastName": "Hoffman",
+            "Initials": "EA"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Milan",
+            "LastName": "Sonka",
+            "Initials": "M"
+          }
+        ]
+      },
+      "ArticleTitle": "Optimal graph search based segmentation of airway tree double surfaces across bifurcations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2012.2223760"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 32,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2013
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "03",
+      "Year": 2013,
+      "Day": 11
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000033",
+          "MajorTopicYN": "Y",
+          "content": "anatomy & histology"
+        },
+        "DescriptorName": {
+          "UI": "D001980",
+          "MajorTopicYN": "N",
+          "content": "Bronchi"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Dec;29(12):2023-37",
+        "PMID": {
+          "Version": 1,
+          "content": 20643602
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 May;39(5):2603-16",
+        "PMID": {
+          "Version": 1,
+          "content": 22559631
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2006 Jan;28(1):119-34",
+        "PMID": {
+          "Version": 1,
+          "content": 16402624
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Am Thorac Soc. 2006 Aug;3(6):519-32",
+        "PMID": {
+          "Version": 1,
+          "content": 16921136
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 2003 May;94(5):1719-25",
+        "PMID": {
+          "Version": 1,
+          "content": 12533493
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2010 Jul;17(7):830-40",
+        "PMID": {
+          "Version": 1,
+          "content": 20540908
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2003 Aug;22(8):940-50",
+        "PMID": {
+          "Version": 1,
+          "content": 12906248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 1993 Nov;75(5):2239-50",
+        "PMID": {
+          "Version": 1,
+          "content": 8307884
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2006;9(Pt 2):125-34",
+        "PMID": {
+          "Version": 1,
+          "content": 17354764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2005 Dec;24(12):1529-39",
+        "PMID": {
+          "Version": 1,
+          "content": 16353370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 1985 Aug;59(2):468-80",
+        "PMID": {
+          "Version": 1,
+          "content": 4030599
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2004 Nov;23(11):1353-64",
+        "PMID": {
+          "Version": 1,
+          "content": 15554124
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 2003 Sep;95(3):1063-75",
+        "PMID": {
+          "Version": 1,
+          "content": 12754180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Res. 1978 Jun;15(3):424-31",
+        "PMID": {
+          "Version": 1,
+          "content": 679903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2008 Dec;134(6):1183-91",
+        "PMID": {
+          "Version": 1,
+          "content": 18641116
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Inf Process Med Imaging. 2011;22:49-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21761645
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Biomed Eng. 2010 May;38(5):1836-53",
+        "PMID": {
+          "Version": 1,
+          "content": 20162357
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1997 Feb;16(1):87-95",
+        "PMID": {
+          "Version": 1,
+          "content": 9050411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Am Thorac Soc. 2008 Dec 15;5(9):940-5",
+        "PMID": {
+          "Version": 1,
+          "content": 19056721
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2005 Nov;12(11):1457-63",
+        "PMID": {
+          "Version": 1,
+          "content": 16253858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Aug;17(4):489-97",
+        "PMID": {
+          "Version": 1,
+          "content": 9845305
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1996;15(3):314-26",
+        "PMID": {
+          "Version": 1,
+          "content": 18215912
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2002 Dec;122(6 Suppl):271S-275S",
+        "PMID": {
+          "Version": 1,
+          "content": 12475796
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2007;10(Pt 1):784-91",
+        "PMID": {
+          "Version": 1,
+          "content": 18051130
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS585961"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC4086865"
+      }
+    ],
+    "PMID": {
+      "Version": 1,
+      "content": 23070299
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 10,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23070299,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2012.2223760",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4086865",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS585961",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

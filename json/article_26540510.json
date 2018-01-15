@@ -1,0 +1,597 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101147518,
+      "Country": "England",
+      "ISSNLinking": "1475-925X",
+      "MedlineTA": "Biomed Eng Online"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 132},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "National Natural Science Foundation of China",
+            "Country": "United States",
+            "GrantID": 91546101
+          },
+          {
+            "Agency": "National Natural Science Foundation of China",
+            "Country": "United States",
+            "GrantID": 61472311
+          },
+          {
+            "Agency": "National Natural Science Foundation of China",
+            "Country": "United States",
+            "GrantID": 11401454
+          },
+          {
+            "Agency": "National Natural Science Foundation of China",
+            "Country": "United States",
+            "GrantID": 61502371
+          },
+          {
+            "Agency": "National Defense Basic Research Project of China",
+            "Country": "United States",
+            "GrantID": "jcky2016110c006"
+          },
+          {
+            "Agency": "Natural Science Foundation of Guangdong Province",
+            "Country": "United States",
+            "GrantID": "YQ2015006"
+          },
+          {
+            "Agency": "Natural Science Foundation of Guangdong Province",
+            "Country": "United States",
+            "GrantID": "2014A030306030"
+          },
+          {
+            "Agency": "Natural Science Foundation of Guangdong Province",
+            "Country": "United States",
+            "GrantID": "2014TQ01R573"
+          },
+          {
+            "Agency": "Natural Science Foundation of Guangdong Province",
+            "Country": "United States",
+            "GrantID": "2013B020400003"
+          },
+          {
+            "Agency": "Natural Science Foundation of Guangzhou City",
+            "Country": "United States",
+            "GrantID": "2014J2200060"
+          },
+          {
+            "Agency": "State Key Laboratory of Ophthalmology",
+            "Country": "United States",
+            "GrantID": "2015ykzd11"
+          },
+          {
+            "Agency": "State Key Laboratory of Ophthalmology",
+            "Country": "United States",
+            "GrantID": "2015QN01"
+          },
+          {
+            "Agency": "Fundamental Research Funds for the Central Universities",
+            "Country": "United States",
+            "GrantID": "JB151005"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Ocular images play an essential role in ophthalmological diagnoses. Having an imbalanced dataset is an inevitable issue in automated ocular diseases diagnosis; the scarcity of positive samples always tends to result in the misdiagnosis of severe patients during the classification task. Exploring an effective computer-aided diagnostic method to deal with imbalanced ophthalmological dataset is crucial."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "In this paper, we develop an effective cost-sensitive deep residual convolutional neural network (CS-ResCNN) classifier to diagnose ophthalmic diseases using retro-illumination images. First, the regions of interest (crystalline lens) are automatically identified via twice-applied Canny detection and Hough transformation. Then, the localized zones are fed into the CS-ResCNN to extract high-level features for subsequent use in automatic diagnosis. Second, the impacts of cost factors on the CS-ResCNN are further analyzed using a grid-search procedure to verify that our proposed system is robust and efficient."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Qualitative analyses and quantitative experimental results demonstrate that our proposed method outperforms other conventional approaches and offers exceptional mean accuracy (92.24%), specificity (93.19%), sensitivity (89.66%) and AUC (97.11%) results. Moreover, the sensitivity of the CS-ResCNN is enhanced by over 13.6% compared to the native CNN method."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Our study provides a practical strategy for addressing imbalanced ophthalmological datasets and has the potential to be applied to other medical images. The developed and deployed CS-ResCNN could serve as computer-aided diagnosis software for ophthalmologists in clinical application."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiewei",
+            "LastName": "Jiang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiyang",
+            "LastName": "Liu",
+            "Initials": "X",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China. xyliu@xidian.edu.cn."},
+              {"Affiliation": "School of Software, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China. xyliu@xidian.edu.cn."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kai",
+            "LastName": "Zhang",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Erping",
+            "LastName": "Long",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Liming",
+            "LastName": "Wang",
+            "Initials": "L",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China."},
+              {"Affiliation": "School of Software, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wangting",
+            "LastName": "Li",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lin",
+            "LastName": "Liu",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shuai",
+            "LastName": "Wang",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "School of Software, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mingmin",
+            "LastName": "Zhu",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "School of Mathematics and Statistics, Xidian University, Xi'an, 710071, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiangtao",
+            "LastName": "Cui",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science and Technology, Xidian University, No. 2 South Taibai Rd, Xi'an, 710071, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhenzhen",
+            "LastName": "Liu",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhuoling",
+            "LastName": "Lin",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaoyan",
+            "LastName": "Li",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jingjing",
+            "LastName": "Chen",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qianzhong",
+            "LastName": "Cao",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jing",
+            "LastName": "Li",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaohang",
+            "LastName": "Wu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dongni",
+            "LastName": "Wang",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinghui",
+            "LastName": "Wang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haotian",
+            "LastName": "Lin",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Sun Yat-sen University, Xian Lie South Road 54#, Guangzhou, 510060, China. haot.lin@hotmail.com."}
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic diagnosis of imbalanced ophthalmic images using a cost-sensitive deep convolutional neural network.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12938-017-0420-1"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 16,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Biomed Eng Online",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1475-925X"
+        },
+        "Title": "Biomedical engineering online"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Cost-sensitive"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Deep convolutional neural network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Imbalanced ophthalmic images"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Lens automatic localization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pediatric cataracts"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Ophthalmol. 2012 May;96(5):614-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22133988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Jan 31;7:41545",
+        "PMID": {
+          "Version": 1,
+          "content": 28139688
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2016 Dec 13;316(22):2402-2410",
+        "PMID": {
+          "Version": 1,
+          "content": 27898976
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurocomputing. 2016 May 26;191:214-223",
+        "PMID": {
+          "Version": 1,
+          "content": 28154470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2015 Nov;65(3):219-27",
+        "PMID": {
+          "Version": 1,
+          "content": 26319694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Syst Man Cybern B Cybern. 2007 Oct;37(5):1167-75",
+        "PMID": {
+          "Version": 1,
+          "content": 17926700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Telemed J E Health. 2016 Mar;22(3):198-208",
+        "PMID": {
+          "Version": 1,
+          "content": 26308281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Mar 19;519(7543):276-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25788077
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eye (Lond). 2016 Jul;30(7):901-16",
+        "PMID": {
+          "Version": 1,
+          "content": 27055674
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2017 May;55(5):769-779",
+        "PMID": {
+          "Version": 1,
+          "content": 27491802
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Tissue Cell. 2016 Oct;48(5):461-74",
+        "PMID": {
+          "Version": 1,
+          "content": 27528421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 Sep 4;349(6252):1064",
+        "PMID": {
+          "Version": 1,
+          "content": 26339020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2016 May;35(5):1299-1312",
+        "PMID": {
+          "Version": 1,
+          "content": 26978662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2014 Aug 31;14:80",
+        "PMID": {
+          "Version": 1,
+          "content": 25175552
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Aug 03;6:31307",
+        "PMID": {
+          "Version": 1,
+          "content": 27485055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Diabetes Sci Technol. 2016 Feb 01;10 (2):282-94",
+        "PMID": {
+          "Version": 1,
+          "content": 26830491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 Mar 17;12 (3):e0168606",
+        "PMID": {
+          "Version": 1,
+          "content": 28306716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2016 Jul 1;74:18-29",
+        "PMID": {
+          "Version": 1,
+          "content": 27160638
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2016 Jun 1;73:38-46",
+        "PMID": {
+          "Version": 1,
+          "content": 27061661
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2016 Jan;38(1):142-58",
+        "PMID": {
+          "Version": 1,
+          "content": 26656583
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Ophthalmol. 2016 Nov 3;16(1):192",
+        "PMID": {
+          "Version": 1,
+          "content": 27809833
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Feb 11;6:20410",
+        "PMID": {
+          "Version": 1,
+          "content": 26864172
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Syst Man Cybern B Cybern. 2009 Feb;39(1):281-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19068445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2010;2010:5359-62",
+        "PMID": {
+          "Version": 1,
+          "content": 21096260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ophthalmologica. 2011;226(4):161-81",
+        "PMID": {
+          "Version": 1,
+          "content": 21952522
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Nov 05;10(11):e0142298",
+        "PMID": {
+          "Version": 1,
+          "content": 26540510
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29157240
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29157240,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12938-017-0420-1",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12938-017-0420-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5697161",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

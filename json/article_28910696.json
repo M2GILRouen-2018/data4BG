@@ -1,0 +1,165 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "288-299"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "06"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": "Diffusion magnetic resonance imaging (dMRI) captures the anisotropic pattern of water displacement in the neuronal tissue and allows noninvasive investigation of the complex tissue microstructure. A number of biophysical models have been proposed to relate the tissue organization with the observed diffusion signals, so that the tissue microstructure can be inferred. The Neurite Orientation Dispersion and Density Imaging (NODDI) model has been a popular choice and has been widely used for many neuroscientific studies. It models the diffusion signal with three compartments that are characterized by distinct diffusion properties, and the parameters in the model describe tissue microstructure. In NODDI, these parameters are estimated in a maximum likelihood framework, where the nonlinear model fitting is computationally intensive. Therefore, efforts have been made to develop efficient and accurate algorithms for NODDI microstructure estimation, which is still an open problem. In this work, we propose a deep network based approach that performs end-to-end estimation of NODDI microstructure, which is named Microstructure Estimation using a Deep Network (MEDN). MEDN comprises two cascaded stages and is motivated by the AMICO algorithm, where the NODDI microstructure estimation is formulated in a dictionary-based framework. The first stage computes the coefficients of the dictionary. It resembles the solution to a sparse reconstruction problem, where the iterative process in conventional estimation approaches is unfolded and truncated, and the weights are learned instead of predetermined by the dictionary. In the second stage, microstructure properties are computed from the output of the first stage, which resembles the weighted sum of normalized dictionary coefficients in AMICO, and the weights are also learned. Because spatial consistency of diffusion signals can be used to reduce the effect of noise, we also propose MEDN+, which is an extended version of MEDN. MEDN+ allows incorporation of neighborhood information by inserting a stage with learned weights before the MEDN structure, where the diffusion signals in the neighborhood of a voxel are processed. The weights in MEDN or MEDN+ are jointly learned from training samples that are acquired with diffusion gradients densely sampling the q-space. We performed MEDN and MEDN+ on brain dMRI scans, where two shells each with 30 gradient directions were used, and measured their accuracy with respect to the gold standard. Results demonstrate that the proposed networks outperform the competing methods."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "ForeName": "Chuyang",
+          "LastName": "Ye",
+          "Initials": "C",
+          "AffiliationInfo": {"Affiliation": "Brainnetome Center, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China; National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences, Beijing, China. Electronic address: chuyang.ye@nlpr.ia.ac.cn."}
+        }
+      },
+      "ArticleTitle": "Tissue microstructure estimation using a deep network inspired by a dictionary-based framework.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1361-8415(17)30132-9"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.media.2017.09.001"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 42,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Deep network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Diffusion MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "NODDI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Sparse reconstruction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Tissue microstructure"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 24
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28910696
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28910696,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(17)30132-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2017.09.001",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

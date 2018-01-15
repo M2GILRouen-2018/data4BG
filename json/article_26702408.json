@@ -1,0 +1,438 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e279-e296"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "F31 EB023076",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA158446",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA182264",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB018102",
+            "Acronym": "EB"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Simulation-based image quality metrics are adapted and investigated for characterizing the parameter dependences of linear iterative image reconstruction for DBT."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Three metrics based on a 2D DBT simulation are investigated: (1) a root-mean-square-error (RMSE) between the test phantom and reconstructed image, (2) a gradient RMSE where the comparison is made after taking a spatial gradient of both image and phantom, and (3) a region-of-interest (ROI) Hotelling observer (HO) for signal-known-exactly/background-known-exactly (SKE/BKE) and signal-known-exactly/background-known-statistically (SKE/BKS) detection tasks. Two simulation studies are performed using the aforementioned metrics, varying voxel aspect ratio, and regularization strength for two types of Tikhonov-regularized least-squares optimization. The RMSE metrics are applied to a 2D test phantom with resolution bar patterns at varying angles, and the ROI-HO metric is applied to two tasks relevant to DBT: lesion detection, modeled by use of a large, low-contrast signal, and microcalcification detection, modeled by use of a small, high-contrast signal. The RMSE metric trends are compared with visual assessment of the reconstructed bar-pattern phantom. The ROI-HO metric trends are compared with 3D reconstructed images from ACR phantom data acquired with a Hologic Selenia Dimensions DBT system."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Sensitivity of the image RMSE to mean pixel value is found to limit its applicability to the assessment of DBT image reconstruction. The image gradient RMSE is insensitive to mean pixel value and appears to track better with subjective visualization of the reconstructed bar-pattern phantom. The ROI-HO metric shows an increasing trend with regularization strength for both forms of Tikhonov-regularized least-squares; however, this metric saturates at intermediate regularization strength indicating a point of diminishing returns for signal detection. Visualization with the reconstructed ACR phantom images appear to show a similar dependence with regularization strength."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "From the limited studies presented it appears that image gradient RMSE trends correspond with visual assessment better than image RMSE for DBT image reconstruction. The ROI-HO metric for both detection tasks also appears to reflect visual trends in the ACR phantom reconstructions as a function of regularization strength. We point out, however, that the true utility of these metrics can only be assessed after amassing more data."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sean D",
+            "LastName": "Rose",
+            "Initials": "SD",
+            "AffiliationInfo": {"Affiliation": "University of Chicago, Department of Radiology MC-2026, 5841 S. Maryland Avenue, Chicago, IL, 60637, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adrian A",
+            "LastName": "Sanchez",
+            "Initials": "AA",
+            "AffiliationInfo": {"Affiliation": "University of Chicago, Department of Radiology MC-2026, 5841 S. Maryland Avenue, Chicago, IL, 60637, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emil Y",
+            "LastName": "Sidky",
+            "Initials": "EY",
+            "AffiliationInfo": {"Affiliation": "University of Chicago, Department of Radiology MC-2026, 5841 S. Maryland Avenue, Chicago, IL, 60637, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaochuan",
+            "LastName": "Pan",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "University of Chicago, Department of Radiology MC-2026, 5841 S. Maryland Avenue, Chicago, IL, 60637, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Investigating simulation-based metrics for characterizing linear iterative reconstruction in digital breast tomosynthesis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12445"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Hotelling observer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "digital breast tomosynthesis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "image reconstruction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "model observers"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "signal detection"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2013 Mar 21;58(6):1663-81",
+        "PMID": {
+          "Version": 1,
+          "content": 23422272
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Apr;37(4):1591-600",
+        "PMID": {
+          "Version": 1,
+          "content": 20443480
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2013 Jan;40(1):014302",
+        "PMID": {
+          "Version": 1,
+          "content": 23298127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2013 Mar;40(3):031104",
+        "PMID": {
+          "Version": 1,
+          "content": 23464284
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2011 Feb;15(1):53-70",
+        "PMID": {
+          "Version": 1,
+          "content": 20713313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Jun;37(6):2627-37",
+        "PMID": {
+          "Version": 1,
+          "content": 20632574
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2004 Sep;31(9):2636-47",
+        "PMID": {
+          "Version": 1,
+          "content": 15487747
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Opt Soc Am A. 1990 Jul;7(7):1279-93",
+        "PMID": {
+          "Version": 1,
+          "content": 2370590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2008 Dec;35(12):5242-52",
+        "PMID": {
+          "Version": 1,
+          "content": 19175083
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2013 Sep 7;58(17):6011-27",
+        "PMID": {
+          "Version": 1,
+          "content": 23938858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 1996;5(9):1346-58",
+        "PMID": {
+          "Version": 1,
+          "content": 18285223
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2011 Apr;38(4):1754-68",
+        "PMID": {
+          "Version": 1,
+          "content": 21626910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2015 Sep 21;60(18):7007-33",
+        "PMID": {
+          "Version": 1,
+          "content": 26308968
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Imaging (Bellingham). 2014 Dec 8;1(3):031010",
+        "PMID": {
+          "Version": 1,
+          "content": 25685825
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2004 Jun 7;49(11):2463-75",
+        "PMID": {
+          "Version": 1,
+          "content": 15248590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Mar;39(3):1435-41",
+        "PMID": {
+          "Version": 1,
+          "content": 22380376
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2009 Jun;251(3):673-82",
+        "PMID": {
+          "Version": 1,
+          "content": 19474373
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2009 Apr;36(4):1199-207",
+        "PMID": {
+          "Version": 1,
+          "content": 19472626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2013 May;40(5):051914",
+        "PMID": {
+          "Version": 1,
+          "content": 23635284
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2014 Oct;41(10 ):101917",
+        "PMID": {
+          "Version": 1,
+          "content": 25281969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2015 Feb 7;60(3):1259-88",
+        "PMID": {
+          "Version": 1,
+          "content": 25591807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Opt Soc Am A Opt Image Sci Vis. 2007 Dec;24(12):B52-60",
+        "PMID": {
+          "Version": 1,
+          "content": 18059914
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Dec;37(12):6253-70",
+        "PMID": {
+          "Version": 1,
+          "content": 21302782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2008 Oct;35(10 ):4685-94",
+        "PMID": {
+          "Version": 1,
+          "content": 18975714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Imaging (Bellingham). 2016 Jan;3(1):011008",
+        "PMID": {
+          "Version": 1,
+          "content": 26702408
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28901614
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 29,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "09",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28901614,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12445",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5604860",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS889616",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

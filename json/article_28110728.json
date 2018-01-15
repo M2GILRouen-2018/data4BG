@@ -1,0 +1,281 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "231-245"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "03"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "Fetal echocardiographic analysis is essential for detecting cardiac defects at early gestational ages. Fetal cardiac function can be assessed by performing some measurements regarding the dimension and shape of the heart cavities. In this work we propose an automatic segmentation method applied to the analysis of the left ventricle in fetal echocardiography."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "For segmentation of the left ventricle, we designed a novel multi-texture active appearance model (AAM) based on the Hermite transform (HT). Local orientation analysis is addressed by steering the coefficients obtained with the HT. The method basically consists of an AAM-based scheme which uses the steered HT to efficiently code texture patterns of the input image. A wider and detailed description of the image features can be obtained with this method. Compared with classic AAM methods, the segmentation performance is substantially improved with the proposed scheme. Since AAM-based approaches process local information, an automatic method is also proposed to initialize the multi-texture AAM. For this purpose, a database of pre-segmented images was built. Then, techniques such as thresholding, mathematical morphology and correlation are combined to identify the position and orientation of the left ventricle. Typical issues found in fetal cardiac ultrasound images such as different orientations and shape variations of the heart cavities can be easily handled with the designed method."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Several images of fetal echocardiography were used to evaluate the proposed segmentation method. The algorithm performance was validated using different metrics. We used a database of 143 real images of fetal hearts acquired for different phases of the cardiac cycle. We obtained an average Dice coefficient of 0.8631 and a point-to-curve distance of 2.027 pixels. The proposed algorithm was also validated by comparing it with other segmentation methods."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "We have designed an automatic algorithm for left ventricle segmentation in fetal echocardiography. The reported results demonstrate that the proposed approach can achieve an efficient segmentation of the left ventricular cavity. Typical problems found in images of fetal echocardiography are satisfactorily handled with the proposed multi-texture AAM scheme."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lorena",
+            "LastName": "Vargas-Quintero",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Universidad Nacional Autónoma de México, Facultad de Ingeniería, C.U., Mexico D.F., Mexico. Electronic address: vargas.lorena@yahoo.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Boris",
+            "LastName": "Escalante-Ramírez",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Universidad Nacional Autónoma de México, Facultad de Ingeniería, C.U., Mexico D.F., Mexico."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lisbeth",
+            "LastName": "Camargo Marín",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Instituto Nacional de Perinatología, Mexico D.F., Mexico."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mario",
+            "LastName": "Guzmán Huerta",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Instituto Nacional de Perinatología, Mexico D.F., Mexico."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fernando",
+            "LastName": "Arámbula Cosio",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Centro de Ciencias Aplicadas y Desarrollo Tecnológico (CCADET), Universidad Nacional Autónoma de México, Mexico D.F., Mexico."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Héctor",
+            "LastName": "Borboa Olivares",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Instituto Nacional de Perinatología, Mexico D.F., Mexico."}
+          }
+        ]
+      },
+      "ArticleTitle": "Left ventricle segmentation in fetal echocardiography using a multi-texture active appearance model based on the steered Hermite transform.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30042-6"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.09.021"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Active appearance models"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Fetal echocardiography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hermite transform"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Segmentation"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D004452",
+        "MajorTopicYN": "Y",
+        "content": "Echocardiography"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D005333",
+          "MajorTopicYN": "N",
+          "content": "Fetus"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D006352",
+          "MajorTopicYN": "N",
+          "content": "Heart Ventricles"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "Y",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D011247",
+        "MajorTopicYN": "N",
+        "content": "Pregnancy"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28110728
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 31,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110728,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30042-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.09.021",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

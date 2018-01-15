@@ -1,0 +1,138 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101196755,
+      "Country": "United States",
+      "ISSNLinking": "1545-5963",
+      "MedlineTA": "IEEE/ACM Trans Comput Biol Bioinform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Prediction of compound-protein interactions (CPIs) is to find new compound-protein pairs where a protein is targeted by at least a compound, which is a crucial step in new drug design. Currently, a number of machine learning based methods have been developed to predict new CPIs in the literature. However, as there is not yet any publicly available set of validated negative CPIs, most existing machine learning based approaches use the unknown interactions (not validated CPIs) selected randomly as the negative examples to train classifiers for predicting new CPIs. Obviously, this is not quite reasonable and unavoidably impacts the CPI prediction performance. In this paper, we simply take the unknown CPIs as unlabeled examples, and propose a new method called PUCPI (the abbreviation of PU learning for Compound-Protein Interaction identification) that employs biased-SVM (Support Vector Machine) to predict CPIs using only positive and unlabeled examples. PU learning is a class of learning methods that leans from positive and unlabeled (PU) samples. To the best of our knowledge, this is the first work that identifies CPIs using only positive and unlabeled examples. We first collect known CPIs as positive examples and then randomly select compound-protein pairs not in the positive set as unlabeled examples. For each CPI/compound-protein pair, we extract protein domains as protein features and compound substructures as chemical features, then take the tensor product of the corresponding compound features and protein features as the feature vector of the CPI/compound-protein pair. After that, biased-SVM is employed to train classifiers on different datasets of CPIs and compound-protein pairs. Experiments over various datasets show that our method outperforms six typical classifiers, including random forest, L1- and L2-regularized logistic regression, naive Bayes, SVM and k-nearest neighbor (kNN), and three types of existing CPI prediction models. Source code, datasets and related documents of PUCPI are available at: http://admis.fudan.edu.cn/projects/pucpi.html."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhanzhan",
+            "LastName": "Cheng",
+            "Initials": "Z"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shuigeng",
+            "LastName": "Zhou",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yang",
+            "LastName": "Wang",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hui",
+            "LastName": "Liu",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jihong",
+            "LastName": "Guan",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yi-Ping Phoebe",
+            "LastName": "Chen",
+            "Initials": "YP"
+          }
+        ]
+      },
+      "ArticleTitle": "Effectively identifying compound-protein interactions by learning from positive and unlabeled examples.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TCBB.2016.2570211"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "May",
+            "Year": 2016,
+            "Day": 18
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE/ACM Trans Comput Biol Bioinform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1557-9964"
+        },
+        "Title": "IEEE/ACM transactions on computational biology and bioinformatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113437
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113437,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TCBB.2016.2570211",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,713 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005834"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The detailed knowledge of C. elegans connectome for 3 decades has not contributed dramatically to our understanding of worm's behavior. One of main reasons for this situation has been the lack of data on the type of synaptic signaling between particular neurons in the worm's connectome. The aim of this study was to determine synaptic polarities for each connection in a small pre-motor circuit controlling locomotion. Even in this compact network of just 7 neurons the space of all possible patterns of connection types (excitation vs. inhibition) is huge. To deal effectively with this combinatorial problem we devised a novel and relatively fast technique based on genetic algorithms and large-scale parallel computations, which we combined with detailed neurophysiological modeling of interneuron dynamics and compared the theory to the available behavioral data. As a result of these massive computations, we found that the optimal connectivity pattern that matches the best locomotory data is the one in which all interneuron connections are inhibitory, even those terminating on motor neurons. This finding is consistent with recent experimental data on cholinergic signaling in C. elegans, and it suggests that the system controlling locomotion is designed to save metabolic energy. Moreover, this result provides a solid basis for a more realistic modeling of neural control in these worms, and our novel powerful computational technique can in principle be applied (possibly with some modifications) to other small-scale functional circuits in C. elegans."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Franciszek",
+            "LastName": "Rakowski",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "Interdisciplinary Centre for Mathematical and Computational Modeling, University of Warsaw, Warsaw, Poland."},
+              {"Affiliation": "Mossakowski Medical Research Centre, Polish Academy of Sciences, Warsaw, Poland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-5560-4723"
+            },
+            "ForeName": "Jan",
+            "LastName": "Karbowski",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "Nalecz Institute of Biocybernetics and Biomedical Engineering, Polish Academy of Sciences, Warsaw, Poland."},
+              {"Affiliation": "Institute of Applied Mathematics and Mechanics, Department of Mathematics, Informatics and Mechanics, University of Warsaw, Warsaw, Poland."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Optimal synaptic signaling connectome for locomotory behavior in Caenorhabditis elegans: Design minimizing energy cost.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005834"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          },
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "Y",
+            "content": "physiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D017173",
+          "MajorTopicYN": "N",
+          "content": "Caenorhabditis elegans"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "N",
+        "content": "Computational Biology"
+      }},
+      {"DescriptorName": {
+        "UI": "D063132",
+        "MajorTopicYN": "Y",
+        "content": "Connectome"
+      }},
+      {"DescriptorName": {
+        "UI": "D004734",
+        "MajorTopicYN": "Y",
+        "content": "Energy Metabolism"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D007395",
+          "MajorTopicYN": "N",
+          "content": "Interneurons"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D008124",
+          "MajorTopicYN": "N",
+          "content": "Locomotion"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "N",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D015398",
+        "MajorTopicYN": "Y",
+        "content": "Signal Transduction"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D013569",
+          "MajorTopicYN": "N",
+          "content": "Synapses"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 1985 Apr;5(4):956-64",
+        "PMID": {
+          "Version": 1,
+          "content": 3981252
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Apr 9;161(2):215-27",
+        "PMID": {
+          "Version": 1,
+          "content": 25772698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Jul 5;487(7405):99-103",
+        "PMID": {
+          "Version": 1,
+          "content": 22722842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Neurosci. 2008 Jun;24(3):253-76",
+        "PMID": {
+          "Version": 1,
+          "content": 17768672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Neurosci. 2005;28:451-501",
+        "PMID": {
+          "Version": 1,
+          "content": 16022603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2016 Jan 29;5:null",
+        "PMID": {
+          "Version": 1,
+          "content": 26824391
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2016 Sep 7;91(5):1170-1182",
+        "PMID": {
+          "Version": 1,
+          "content": 27568515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2008 Apr 25;4(4):e1000028",
+        "PMID": {
+          "Version": 1,
+          "content": 18389066
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurobiol. 2015 Aug;33:117-26",
+        "PMID": {
+          "Version": 1,
+          "content": 25845627
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "WormBook. 2013 Aug 13;:1-106",
+        "PMID": {
+          "Version": 1,
+          "content": 24081909
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2012 Nov 21;76(4):750-61",
+        "PMID": {
+          "Version": 1,
+          "content": 23177960
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2011 Nov 11;147(4):922-33",
+        "PMID": {
+          "Version": 1,
+          "content": 22078887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2014 Oct 10;5:5155",
+        "PMID": {
+          "Version": 1,
+          "content": 25300429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1998 Dec 11;282(5396):2028-33",
+        "PMID": {
+          "Version": 1,
+          "content": 9851919
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2003 May;89(5):2707-25",
+        "PMID": {
+          "Version": 1,
+          "content": 12612051
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 Mar 21;103(12):4723-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16537428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2013 Apr 10;33(15):6380-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23575836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2011 Nov 17;72(4):572-86",
+        "PMID": {
+          "Version": 1,
+          "content": 22099460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2016 Feb 23;113(8):E1074-81",
+        "PMID": {
+          "Version": 1,
+          "content": 26712014
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Nov 5;110(45):E4266-73",
+        "PMID": {
+          "Version": 1,
+          "content": 24145415
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2016 Feb 23;113(8):E1082-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26711989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Cybern. 2008 Apr;98(4):339-51",
+        "PMID": {
+          "Version": 1,
+          "content": 18350313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 1999 Oct;24(2):347-61",
+        "PMID": {
+          "Version": 1,
+          "content": 10571229
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2017 Mar 20;8:14818",
+        "PMID": {
+          "Version": 1,
+          "content": 28317880
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans R Soc Lond B Biol Sci. 1986 Nov 12;314(1165):1-340",
+        "PMID": {
+          "Version": 1,
+          "content": 22462104
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 1998 Mar;79(3):1549-66",
+        "PMID": {
+          "Version": 1,
+          "content": 9497431
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2010 Aug 18;30(33):11151-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20720122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Physiol. 2007;69:291-316",
+        "PMID": {
+          "Version": 1,
+          "content": 17009928
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 1996 Jun 15;16(12):4017-31",
+        "PMID": {
+          "Version": 1,
+          "content": 8656295
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2012 Mar 28;32(13):4592-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22457505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 Jul;11(7):727-730",
+        "PMID": {
+          "Version": 1,
+          "content": 24836920
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Mar 1;102(9):3184-91",
+        "PMID": {
+          "Version": 1,
+          "content": 15689400
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 May 8;109(19):7499-504",
+        "PMID": {
+          "Version": 1,
+          "content": 22532663
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurobiol. 2012 Aug;22(4):580-91",
+        "PMID": {
+          "Version": 1,
+          "content": 22699037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(9):e24666",
+        "PMID": {
+          "Version": 1,
+          "content": 21969859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2008 Oct 23;60(2):215-34",
+        "PMID": {
+          "Version": 1,
+          "content": 18957215
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2008 Jul 1;6(7):e159",
+        "PMID": {
+          "Version": 1,
+          "content": 18597554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Jun;10(6):483-90",
+        "PMID": {
+          "Version": 1,
+          "content": 23866325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Comput Neurosci. 2013 Oct 02;7:128",
+        "PMID": {
+          "Version": 1,
+          "content": 24106473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cereb Blood Flow Metab. 2001 Oct;21(10):1133-45",
+        "PMID": {
+          "Version": 1,
+          "content": 11598490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Feb;8(2):147-52",
+        "PMID": {
+          "Version": 1,
+          "content": 21240279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2006 Oct 7;242(3):652-69",
+        "PMID": {
+          "Version": 1,
+          "content": 16759670
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 1998 Apr;20(4):763-72",
+        "PMID": {
+          "Version": 1,
+          "content": 9581767
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 May 3;108(18):7286-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21502536
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2005 Feb 25;280(8):6392-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15579462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2015 Feb 26;6:6323",
+        "PMID": {
+          "Version": 1,
+          "content": 25716181
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 Feb 03;7(2):e1001066",
+        "PMID": {
+          "Version": 1,
+          "content": 21304930
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2015 Oct 05;11(10):e1004532",
+        "PMID": {
+          "Version": 1,
+          "content": 26436731
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2014 Jun 4;82(5):1115-28",
+        "PMID": {
+          "Version": 1,
+          "content": 24908490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2013 Mar 20;77(6):1069-82",
+        "PMID": {
+          "Version": 1,
+          "content": 23522043
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "WormBook. 2006 Jan 19;:1-16",
+        "PMID": {
+          "Version": 1,
+          "content": 18050468
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2002 Dec 5;36(5):933-44",
+        "PMID": {
+          "Version": 1,
+          "content": 12467596
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2014 Sep 17;83(6):1319-28",
+        "PMID": {
+          "Version": 1,
+          "content": 25233314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 Jan 27;112(4):1185-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25583501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2017 Mar;18(3):131-146",
+        "PMID": {
+          "Version": 1,
+          "content": 28148956
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Biol. 2007 May 09;5:18",
+        "PMID": {
+          "Version": 1,
+          "content": 17488526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2015 Dec 25;4:",
+        "PMID": {
+          "Version": 1,
+          "content": 26705699
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013;9(2):e1002890",
+        "PMID": {
+          "Version": 1,
+          "content": 23408877
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29155814
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29155814,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005834",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-00653",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5714387",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,340 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D004998",
+        "content": "Ethiodized Oil"
+      },
+      "RegistryNumber": "8008-53-5"
+    }},
+    "DateCompleted": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 15
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "342-348"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2016 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Stereotactic body radiation therapy (SBRT) combining trans-arterial chemoembolization (TACE) with Lipiodol is expected to improve local control. This study is aimed to estimate the dose enhancement in Lipiodol's proximity and to evaluate the dose calculation accuracy of the Acuros XB (AXB) algorithm and anisotropic analytical algorithm (AAA) in the Eclipse treatment planning system (TPS) (ver. 11, Varian Medical Systems, Palo Alto, USA), compared with that of the Monte Carlo (MC) calculation (using BEAMnrc/DOSXYZnrc code) for a virtual phantom and a treatment plan for liver SBRT after TACE."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The MC calculation accuracy was validated by comparing its results with the percent depth dose (PDD) and the off-axis ratio (OAR) measured using a water-equivalent phantom containing Lipiodol. The dose difference in Lipiodol's proximity and the inhomogeneity correction accuracies of the AAA, AXB algorithm, and MC calculation were evaluated by calculating the PDDs and OARs for the virtual phantom with Lipiodol and the lateral profile for the clinical plan data."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The measured data and the MC results agreed within 3%. The average dose in the Lipiodol uptake region was higher by 8.1% for the virtual phantom and 6.0% for the clinical case compared to that in regions without Lipiodol uptake. For the virtual phantom, compared with the MC calculation, the AAA and the AXB algorithm underestimated the doses immediately upstream of the Lipiodol region by 5.0% and 4.2%, in the Lipiodol region by 7.4% and 9.8%, and downstream of the Lipiodol region by 5.5% and 3.9% respectively. These discrepancy between the AXB and MC calculations were due to the incorrect assignment of Lipiodol material properties. Namely, the bone material was assigned automatically by the AXB algorithm as the materials for the AXB algorithm do not contain iodine, which is the main constituent of Lipiodol."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The MC calculation indicated a larger and more accurate dose increase in Lipiodol compared with the TPS algorithms. The observed dose enhancement in the tumor area could be clinically significant."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daisuke",
+            "LastName": "Kawahara",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Radiation Therapy Section, Department of Clinical Support, Hiroshima University Hospital, Hiroshima 734-8551, Japan."},
+              {"Affiliation": "Medical and Dental Sciences Course, Graduate School of Biomedical & Health Sciences, Hiroshima University, Japan."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shuichi",
+            "LastName": "Ozawa",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Institute of Biomedical & Health Sciences, Hiroshima University, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Akito",
+            "LastName": "Saito",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Institute of Biomedical & Health Sciences, Hiroshima University, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Teiji",
+            "LastName": "Nishio",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Institute of Biomedical & Health Sciences, Hiroshima University, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tomoki",
+            "LastName": "Kimura",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Institute of Biomedical & Health Sciences, Hiroshima University, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tatsuhiko",
+            "LastName": "Suzuki",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Institute of Biomedical & Health Sciences, Hiroshima University, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kazunari",
+            "LastName": "Hioki",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Radiation Therapy Section, Department of Clinical Support, Hiroshima University Hospital, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Takeo",
+            "LastName": "Nakashima",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Radiation Therapy Section, Department of Clinical Support, Hiroshima University Hospital, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yoshimi",
+            "LastName": "Ohno",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Radiation Therapy Section, Department of Clinical Support, Hiroshima University Hospital, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuji",
+            "LastName": "Murakami",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Institute of Biomedical & Health Sciences, Hiroshima University, Hiroshima 734-8551, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yasushi",
+            "LastName": "Nagata",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, Institute of Biomedical & Health Sciences, Hiroshima University, Hiroshima 734-8551, Japan."}
+          }
+        ]
+      },
+      "ArticleTitle": "Dosimetric impact of Lipiodol in stereotactic body radiation therapy on liver after trans-arterial chemoembolization.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12028"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Lipiodol"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Monte Carlo"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "dose enhancement"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001158",
+        "MajorTopicYN": "Y",
+        "content": "Arteries"
+      }},
+      {"DescriptorName": {
+        "UI": "D001692",
+        "MajorTopicYN": "N",
+        "content": "Biological Transport"
+      }},
+      {"DescriptorName": {
+        "UI": "D016461",
+        "MajorTopicYN": "Y",
+        "content": "Chemoembolization, Therapeutic"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D004998",
+          "MajorTopicYN": "Y",
+          "content": "Ethiodized Oil"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000098",
+            "MajorTopicYN": "Y",
+            "content": "blood supply"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D008099",
+          "MajorTopicYN": "N",
+          "content": "Liver"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "N",
+        "content": "Monte Carlo Method"
+      }},
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "Y",
+        "content": "Phantoms, Imaging"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000295",
+          "MajorTopicYN": "Y",
+          "content": "instrumentation"
+        },
+        "DescriptorName": {
+          "UI": "D011874",
+          "MajorTopicYN": "N",
+          "content": "Radiometry"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016634",
+        "MajorTopicYN": "Y",
+        "content": "Radiosurgery"
+      }},
+      {"DescriptorName": {
+        "UI": "D011880",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy Planning, Computer-Assisted"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 15
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28102954
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2016,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 19,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28102954,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12028",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

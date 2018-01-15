@@ -1,0 +1,304 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper presents a new fault detection system in hypnotic sensors used for general anesthesia during surgery. Drug infusion during surgery is based on information received from patient monitoring devices; accordingly, faults in sensor devices can put patient safety at risk. Our research offers a solution to cope with these undesirable scenarios. We focus on the anesthesia process using intravenous propofol as the hypnotic drug and employing a Bispectral Index (BISTM) monitor to estimate the patient's unconsciousness level. The method developed identifies BIS episodes affected by disturbances during surgery with null clinical value. Thus, the clinician-or the automatic controller-will not take those measures into account to calculate the drug dose. Our method compares the measured BIS signal with expected behavior predicted by the propofol dose provider and the electromyogram (EMG) signal. For the prediction of the BIS signal, a model based on a hybrid intelligent system architecture has been created. The model uses clustering combined with regression techniques. To validate its accuracy, a dataset taken during surgeries with general anesthesia was used. The proposed fault detection method for BIS sensor measures has also been verified using data from real cases. The obtained results prove the method's effectiveness."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "José-Luis",
+            "LastName": "Casteleiro-Roca",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "Department of Industrial Engineering, Universidade da Coruña, 15405 Coruña, Spain. jose.luis.casteleiro@udc.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "José Luis",
+            "LastName": "Calvo-Rolle",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "Department of Industrial Engineering, Universidade da Coruña, 15405 Coruña, Spain. jlcalvo@udc.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Juan Albino",
+            "LastName": "Méndez Pérez",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Departamento de Ingeniería Informática y de Sistemas, Universidad de La Laguna, Apdo. 456; 38200 La Laguna, Spain. jamendez@ull.edu.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nieves",
+            "LastName": "Roqueñí Gutiérrez",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Project Engineering Area, Department of Exploitation and Exploration of Mines, University of Oviedo, 33004 Oviedo, Spain. nievesr@uniovi.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Francisco Javier",
+            "LastName": "de Cos Juez",
+            "Initials": "FJ",
+            "AffiliationInfo": {"Affiliation": "Prospecting and Exploitation of Mines Department, University of Oviedo, 33004 Oviedo, Spain. fjcos@uniovi.es."}
+          }
+        ]
+      },
+      "ArticleTitle": "Hybrid Intelligent System to Perform Fault Detection on BIS Sensor During Surgeries.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E179"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17010179"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 18
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "BIS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "EMG"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MLP"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SVM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "anesthesia"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "clustering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "dosification"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Anaesthesia. 2013 Nov;68(11):1132-40",
+        "PMID": {
+          "Version": 1,
+          "content": 23992529
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Feb 16;15(2):4578-91",
+        "PMID": {
+          "Version": 1,
+          "content": 25690553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Monit Comput. 2016 Oct;30(5):545-50",
+        "PMID": {
+          "Version": 1,
+          "content": 26278704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesthesiology. 2015 Apr;122(4):759-67",
+        "PMID": {
+          "Version": 1,
+          "content": 25545655
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Total Environ. 2012 Jul 15;430:88-92",
+        "PMID": {
+          "Version": 1,
+          "content": 22634554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Anaesth. 2004 Mar;92(3):393-9",
+        "PMID": {
+          "Version": 1,
+          "content": 14742326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2016 Aug 19;16(8):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27548183
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Anaesthesiol Scand. 2014 Sep;58(8):933-41",
+        "PMID": {
+          "Version": 1,
+          "content": 24995461
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesthesiology. 2004 Jul;101(1):34-42",
+        "PMID": {
+          "Version": 1,
+          "content": 15220769
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2005 Nov;52(11):1902-11",
+        "PMID": {
+          "Version": 1,
+          "content": 16285394
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Monit. 1994 Nov;10(6):392-404",
+        "PMID": {
+          "Version": 1,
+          "content": 7836975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISA Trans. 2016 Nov;65:456-467",
+        "PMID": {
+          "Version": 1,
+          "content": 27553124
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28106793
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28106793,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17010179",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17010179",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5298752",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

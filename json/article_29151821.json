@@ -1,0 +1,181 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101708641,
+      "Country": "United States",
+      "ISSNLinking": "1531-7102",
+      "MedlineTA": "Proc ACM SIGPLAN Conf Program Lang Des Implement"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "693-708"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIBIB NIH HHS",
+          "Country": "United States",
+          "GrantID": "U01 EB020954",
+          "Acronym": "EB"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Real-time decision making in emerging IoT applications typically relies on computing quantitative summaries of large data streams in an efficient and incremental manner. To simplify the task of programming the desired logic, we propose StreamQRE, which provides natural and high-level constructs for processing streaming data. Our language has a novel integration of linguistic constructs from two distinct programming paradigms: streaming extensions of relational query languages and quantitative extensions of regular expressions. The former allows the programmer to employ relational constructs to partition the input data by keys and to integrate data streams from different sources, while the latter can be used to exploit the logical hierarchy in the input stream for modular specifications. We first present the core language with a small set of combinators, formal semantics, and a decidable type system. We then show how to express a number of common patterns with illustrative examples. Our compilation algorithm translates the high-level query into a streaming algorithm with precise complexity bounds on per-item processing time and total memory footprint. We also show how to integrate approximation algorithms into our framework. We report on an implementation in Java, and evaluate it with respect to existing high-performance engines for processing streaming data. Our experimental evaluation shows that (1) StreamQRE allows more natural and succinct specification of queries compared to existing frameworks, (2) the throughput of our implementation is higher than comparable systems (for example, two-to-four times greater than RxJava), and (3) the approximation algorithms supported by our implementation can lead to substantial memory savings."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Konstantinos",
+            "LastName": "Mamouras",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "University of Pennsylvania, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mukund",
+            "LastName": "Raghothaman",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "University of Pennsylvania, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rajeev",
+            "LastName": "Alur",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "University of Pennsylvania, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zachary G",
+            "LastName": "Ives",
+            "Initials": "ZG",
+            "AffiliationInfo": {"Affiliation": "University of Pennsylvania, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sanjeev",
+            "LastName": "Khanna",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "University of Pennsylvania, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "StreamQRE: Modular Specification and Efficient Evaluation of Quantitative Queries over Streaming Data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1145/3140587.3062369"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 52,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Proc ACM SIGPLAN Conf Program Lang Des Implement",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1531-7102"
+        },
+        "Title": "Proceedings of the ACM SIGPLAN ... Conference on Programming Language Design and Implementation. ACM SIGPLAN Conference on Programming Language Design and Implementation"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Information systems → Stream management"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Quantitative Regular Expressions"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Software and its engineering → General programming languages"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Theory of computation → Streaming models"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "data stream processing"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29151821
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29151821,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1145/3140587.3062369",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5687100",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS868867",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,613 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "07"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 309},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "K01 HL125474",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR000142",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL118346",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "UH2 HL123876",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM059507",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Distance based unsupervised clustering of gene expression data is commonly used to identify heterogeneity in biologic samples. However, high noise levels in gene expression data and relatively high correlation between genes are often encountered, so traditional distances such as Euclidean distance may not be effective at discriminating the biological differences between samples. An alternative method to examine disease phenotypes is to use pre-defined biological pathways. These pathways have been shown to be perturbed in different ways in different subjects who have similar clinical features. We hypothesize that differences in the expressions of genes in a given pathway are more predictive of differences in biological differences compared to standard approaches and if integrated into clustering analysis will enhance the robustness and accuracy of the clustering method. To examine this hypothesis, we developed a novel computational method to assess the biological differences between samples using gene expression data by assuming that ontologically defined biological pathways in biologically similar samples have similar behavior."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Pre-defined biological pathways were downloaded and genes in each pathway were used to cluster samples using the Gaussian mixture model. The clustering results across different pathways were then summarized to calculate the pathway-based distance score between samples. This method was applied to both simulated and real data sets and compared to the traditional Euclidean distance and another pathway-based clustering method, Pathifier. The results show that the pathway-based distance score performs significantly better than the Euclidean distance, especially when the heterogeneity is low and genes in the same pathways are correlated. Compared to Pathifier, we demonstrated that our approach achieves higher accuracy and robustness for small pathways. When the pathway size is large, by downsampling the pathways into smaller pathways, our approach was able to achieve comparable performance."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We have developed a novel distance score that represents the biological differences between samples using gene expression data and pre-defined biological pathway information. Application of this distance score results in more accurate, robust, and biologically meaningful clustering results in both simulated data and real data when compared to traditional methods. It also has comparable or better performance compared to Pathifier."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8688-9004"
+            },
+            "ForeName": "Xiting",
+            "LastName": "Yan",
+            "Initials": "X",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for Pulmonary Personalized Medicine, Section of Pulmonary, Critical Care, and Sleep Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, 06520, USA. xiting.yan@yale.edu."},
+              {"Affiliation": "Department of Biostatistics, Yale School of Public Health, New Haven, CT, 06520, USA. xiting.yan@yale.edu."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anqi",
+            "LastName": "Liang",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Yale School of Public Health, New Haven, CT, 06520, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jose",
+            "LastName": "Gomez",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Center for Pulmonary Personalized Medicine, Section of Pulmonary, Critical Care, and Sleep Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, 06520, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lauren",
+            "LastName": "Cohn",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Center for Pulmonary Personalized Medicine, Section of Pulmonary, Critical Care, and Sleep Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, 06520, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hongyu",
+            "LastName": "Zhao",
+            "Initials": "H",
+            "AffiliationInfo": [
+              {"Affiliation": "Center for Pulmonary Personalized Medicine, Section of Pulmonary, Critical Care, and Sleep Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, 06520, USA."},
+              {"Affiliation": "Department of Biostatistics, Yale School of Public Health, New Haven, CT, 06520, USA."},
+              {"Affiliation": "Department of Genetics, Yale School of Medicine, New Haven, CT, 06520, USA."},
+              {"Affiliation": "Computational Biology and Bioinformatics Program, Yale School of Medicine, New Haven, CT, 06520, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Geoffrey L",
+            "LastName": "Chupp",
+            "Initials": "GL",
+            "AffiliationInfo": {"Affiliation": "Center for Pulmonary Personalized Medicine, Section of Pulmonary, Critical Care, and Sleep Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, 06520, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "A novel pathway-based distance score enhances assessment of disease heterogeneity in gene expression.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1727-4"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Data integration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Disease heterogeneity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pathway-based distance"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Unsupervised clustering"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 22
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001249",
+          "MajorTopicYN": "N",
+          "content": "Asthma"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D015870",
+        "MajorTopicYN": "Y",
+        "content": "Gene Expression"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D053858",
+        "MajorTopicYN": "Y",
+        "content": "Metabolic Networks and Pathways"
+      }},
+      {"DescriptorName": {
+        "UI": "D016011",
+        "MajorTopicYN": "N",
+        "content": "Normal Distribution"
+      }},
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "N",
+        "content": "Phenotype"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "07"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2009 Sep 1;180(5):388-95",
+        "PMID": {
+          "Version": 1,
+          "content": 19483109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2014 Jun 1;74(11):2936-45",
+        "PMID": {
+          "Version": 1,
+          "content": 24695361
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2012 Jun 19;12:260",
+        "PMID": {
+          "Version": 1,
+          "content": 22712570
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Oct 25;102(43):15545-50",
+        "PMID": {
+          "Version": 1,
+          "content": 16199517
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Invest. 2012 Aug;122(8):2749-55",
+        "PMID": {
+          "Version": 1,
+          "content": 22850885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Sep 1;30(17):i422-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25161229
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2016 Jun;61:194-202",
+        "PMID": {
+          "Version": 1,
+          "content": 27064123
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2009 Mar 10;27(8):1160-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19204204
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Aug 1;25(15):1898-904",
+        "PMID": {
+          "Version": 1,
+          "content": 19439566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Sep 18;10(9):e1003851",
+        "PMID": {
+          "Version": 1,
+          "content": 25233347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol. 2008;7(2):6",
+        "PMID": {
+          "Version": 1,
+          "content": 18304379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2000 Aug 17;406(6797):747-52",
+        "PMID": {
+          "Version": 1,
+          "content": 10963602
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2006 Jun 2;2(6):e88",
+        "PMID": {
+          "Version": 1,
+          "content": 16751849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2015 May 15;191(10):1116-25",
+        "PMID": {
+          "Version": 1,
+          "content": 25763605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics Proteomics Bioinformatics. 2014 Feb;12(1):31-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24462714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Oncol. 2017 Jan 1;28(1):128-135",
+        "PMID": {
+          "Version": 1,
+          "content": 28177460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(9):e1002690",
+        "PMID": {
+          "Version": 1,
+          "content": 23028288
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2001 May 3;411(6833):41-2",
+        "PMID": {
+          "Version": 1,
+          "content": 11333967
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Genomics. 2015 Mar 12;8:11",
+        "PMID": {
+          "Version": 1,
+          "content": 25881247
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Jul;12(7):615-21",
+        "PMID": {
+          "Version": 1,
+          "content": 26125594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2016 Jul 19;16(3):878-95",
+        "PMID": {
+          "Version": 1,
+          "content": 27396332
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2001 Dec;29(4):482-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11694880
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Aug 1;21(15):3201-12",
+        "PMID": {
+          "Version": 1,
+          "content": 15914541
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 May 1;21(9):1971-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15677704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2007 Jan;8(1):118-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16632515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2002 Jan;12(1):37-46",
+        "PMID": {
+          "Version": 1,
+          "content": 11779829
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Nov;10(11):1108-15",
+        "PMID": {
+          "Version": 1,
+          "content": 24037242
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2008 Sep 20;372(9643):1107-19",
+        "PMID": {
+          "Version": 1,
+          "content": 18805339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2015 Feb;47(2):106-14",
+        "PMID": {
+          "Version": 1,
+          "content": 25501392
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cancer Res. 2013 Jun;11(6):676-85",
+        "PMID": {
+          "Version": 1,
+          "content": 23635402
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Apr 16;110(16):6388-93",
+        "PMID": {
+          "Version": 1,
+          "content": 23547110
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2013 Oct 2;5(205):205ra136",
+        "PMID": {
+          "Version": 1,
+          "content": 24089408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2009 Apr 15;18(R1):R1-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19297395
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lung Cancer. 2009 Jan;63(1):32-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18486272
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Mol Med. 2015 Feb;19(2):297-314",
+        "PMID": {
+          "Version": 1,
+          "content": 25560835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Feb 1;28(3):446-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22123829
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28637421
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": "01",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28637421,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1727-4",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1727-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5480187",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

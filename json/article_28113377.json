@@ -1,0 +1,128 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9891704,
+      "Country": "United States",
+      "ISSNLinking": "1077-2626",
+      "MedlineTA": "IEEE Trans Vis Comput Graph"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "2069-2081"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Stochastically solving the rendering integral (particularly visibility) is the de-facto standard for physically-based light transport but it is computationally expensive, especially when displaying heterogeneous volumetric data. In this work, we present efficient techniques to speed-up the rendering process via a novel visibility-estimation method in concert with an unbiased importance sampling (involving environmental lighting and visibility inside the volume), filtering, and update techniques for both static and animated scenes. Our major contributions include a progressive estimate of partial occlusions based on a fast sweeping-plane algorithm. These occlusions are stored in an octahedral representation, which can be conveniently transformed into a quadtree-based hierarchy suited for a joint importance sampling. Further, we propose sweep-space filtering, which suppresses the occurrence of fireflies and investigate different update schemes for animated scenes. Our technique is unbiased, requires little precomputation, is highly parallelizable, and is applicable to a various volume data sets, dynamic transfer functions, animated volumes and changing environmental lighting."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Philipp",
+            "LastName": "von Radziewsky",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thomas",
+            "LastName": "Kroes",
+            "Initials": "T"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Martin",
+            "LastName": "Eisemann",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elmar",
+            "LastName": "Eisemann",
+            "Initials": "E"
+          }
+        ]
+      },
+      "ArticleTitle": "Efficient Stochastic Rendering of Static and Animated Volumes Using Visibility Sweeps.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TVCG.2016.2606498"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 23,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Vis Comput Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0506"
+        },
+        "Title": "IEEE transactions on visualization and computer graphics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113377
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113377,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TVCG.2016.2606498",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

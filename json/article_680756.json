@@ -1,0 +1,373 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101088682,
+      "Country": "England",
+      "ISSNLinking": "1472-6947",
+      "MedlineTA": "BMC Med Inform Decis Mak"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2010,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 28},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D003160",
+          "content": "Comparative Study"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2010,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The Body Surface Potential Map (BSPM) is an electrocardiographic method, for recording and displaying the electrical activity of the heart, from a spatial perspective. The BSPM has been deemed more accurate for assessing certain cardiac pathologies when compared to the 12-lead ECG. Nevertheless, the 12-lead ECG remains the most popular ECG acquisition method for non-invasively assessing the electrical activity of the heart. Although data from the 12-lead ECG can be stored and shared using open formats such as SCP-ECG, no open formats currently exist for storing and sharing the BSPM. As a result, an innovative format for storing BSPM datasets has been developed within this study."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The XML vocabulary was chosen for implementation, as opposed to binary for the purpose of human readability. There are currently no standards to dictate the number of electrodes and electrode positions for recording a BSPM. In fact, there are at least 11 different BSPM electrode configurations in use today. Therefore, in order to support these BSPM variants, the XML-BSPM format was made versatile. Hence, the format supports the storage of custom torso diagrams using SVG graphics. This diagram can then be used in a 2D coordinate system for retaining electrode positions."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "This XML-BSPM format has been successfully used to store the Kornreich-117 BSPM dataset and the Lux-192 BSPM dataset. The resulting file sizes were in the region of 277 kilobytes for each BSPM recording and can be deemed suitable for example, for use with any telemonitoring application. Moreover, there is potential for file sizes to be further reduced using basic compression algorithms, i.e. the deflate algorithm. Finally, these BSPM files have been parsed and visualised within a convenient time period using a web based BSPM viewer."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "This format, if widely adopted could promote BSPM interoperability, knowledge sharing and data mining. This work could also be used to provide conceptual solutions and inspire existing formats such as DICOM, SCP-ECG and aECG to support the storage of BSPMs. In summary, this research provides initial ground work for creating a complete BSPM management system."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Raymond R",
+            "LastName": "Bond",
+            "Initials": "RR",
+            "AffiliationInfo": {"Affiliation": "Computer Science Research Institute, University of Ulster, Antrim, UK. bond-r@email.ulster.ac.uk"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dewar D",
+            "LastName": "Finlay",
+            "Initials": "DD"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chris D",
+            "LastName": "Nugent",
+            "Initials": "CD"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "George",
+            "LastName": "Moore",
+            "Initials": "G"
+          }
+        ]
+      },
+      "ArticleTitle": "XML-BSPM: an XML format for storing Body Surface Potential Map recordings.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1472-6947-10-28"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 10,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2010,
+            "Day": 14
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Med Inform Decis Mak",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1472-6947"
+        },
+        "Title": "BMC medical informatics and decision making"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2010,
+      "Day": 14
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "N",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D018780",
+          "MajorTopicYN": "Y",
+          "content": "Body Surface Potential Mapping"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000503",
+          "MajorTopicYN": "Y",
+          "content": "physiopathology"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D057225",
+        "MajorTopicYN": "N",
+        "content": "Data Mining"
+      }},
+      {"DescriptorName": {
+        "UI": "D003661",
+        "MajorTopicYN": "N",
+        "content": "Decision Support Techniques"
+      }},
+      {"DescriptorName": {
+        "UI": "D004566",
+        "MajorTopicYN": "N",
+        "content": "Electrodes"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016247",
+        "MajorTopicYN": "N",
+        "content": "Information Storage and Retrieval"
+      }},
+      {"DescriptorName": {
+        "UI": "D011381",
+        "MajorTopicYN": "Y",
+        "content": "Programming Languages"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2014,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Electrocardiol. 2000;33 Suppl:203-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11265722
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Eng Med Biol Mag. 2001 May-Jun;20(3):33-7",
+        "PMID": {
+          "Version": 1,
+          "content": 11446207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Radiol. 2002 Apr;12(4):920-7",
+        "PMID": {
+          "Version": 1,
+          "content": 11960249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Electrocardiol. 2002;35 Suppl:41-52",
+        "PMID": {
+          "Version": 1,
+          "content": 12539098
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Cardiol. 2003 Aug 1;92(3):252-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12888126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2003 May 7;3:4",
+        "PMID": {
+          "Version": 1,
+          "content": 12735790
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Noninvasive Electrocardiol. 2009 Apr;14(2):201-10",
+        "PMID": {
+          "Version": 1,
+          "content": 19419406
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1981 May;63(5):1166-72",
+        "PMID": {
+          "Version": 1,
+          "content": 7471378
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Electrocardiol. 1999 Apr;32(2):93-101",
+        "PMID": {
+          "Version": 1,
+          "content": 10338028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1956 May;13(5):737-49",
+        "PMID": {
+          "Version": 1,
+          "content": 13356432
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Resuscitation. 2005 Mar;64(3):309-14",
+        "PMID": {
+          "Version": 1,
+          "content": 15733759
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Yearb Med Inform. 2007;:50-60",
+        "PMID": {
+          "Version": 1,
+          "content": 17700904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Electrocardiol. 2007 Nov-Dec;40(6 Suppl):S15-20",
+        "PMID": {
+          "Version": 1,
+          "content": 17993313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 1978 May;25(3):270-6",
+        "PMID": {
+          "Version": 1,
+          "content": 680756
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC2883957"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 20470392
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2010,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2010,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 5,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 20470392,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1472-6947-10-28",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1472-6947-10-28",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC2883957",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

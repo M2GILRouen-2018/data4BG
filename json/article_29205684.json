@@ -1,0 +1,828 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9208369,
+      "Country": "England",
+      "ISSNLinking": "1053-8569",
+      "MedlineTA": "Pharmacoepidemiol Drug Saf"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1018-1032"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 The Authors. Pharmacoepidemiology & Drug Safety Published by John Wiley & Sons Ltd.",
+        "AbstractText": [
+          {
+            "Label": "PURPOSE",
+            "content": "Defining a study population and creating an analytic dataset from longitudinal healthcare databases involves many decisions. Our objective was to catalogue scientific decisions underpinning study execution that should be reported to facilitate replication and enable assessment of validity of studies conducted in large healthcare databases."
+          },
+          {
+            "Label": "METHODS",
+            "content": "We reviewed key investigator decisions required to operate a sample of macros and software tools designed to create and analyze analytic cohorts from longitudinal streams of healthcare data. A panel of academic, regulatory, and industry experts in healthcare database analytics discussed and added to this list."
+          },
+          {
+            "Label": "CONCLUSION",
+            "content": "Evidence generated from large healthcare encounter and reimbursement databases is increasingly being sought by decision-makers. Varied terminology is used around the world for the same concepts. Agreeing on terminology and which parameters from a large catalogue are the most essential to report for replicable research would improve transparency and facilitate assessment of validity. At a minimum, reporting for a database study should provide clarity regarding operational definitions for key temporal anchors and their relation to each other when creating the analytic dataset, accompanied by an attrition table and a design diagram. A substantial improvement in reproducibility, rigor and confidence in real world evidence generated from healthcare databases could be achieved with greater transparency about operational study parameters used to create analytic datasets from longitudinal healthcare databases."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0001-7761-7090"
+            },
+            "ForeName": "Shirley V",
+            "LastName": "Wang",
+            "Initials": "SV",
+            "AffiliationInfo": [
+              {"Affiliation": "Division of Pharmacoepidemiology and Pharmacoeconomics, Brigham and Women's Hospital, MA, USA."},
+              {"Affiliation": "Department of Medicine, Harvard Medical School, MA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sebastian",
+            "LastName": "Schneeweiss",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Division of Pharmacoepidemiology and Pharmacoeconomics, Brigham and Women's Hospital, MA, USA."},
+              {"Affiliation": "Department of Medicine, Harvard Medical School, MA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marc L",
+            "LastName": "Berger",
+            "Initials": "ML",
+            "AffiliationInfo": {"Affiliation": "Pfizer, NY, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeffrey",
+            "LastName": "Brown",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Population Medicine, Harvard Medical School, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Frank",
+            "LastName": "de Vries",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical Pharmacy, Maastricht UMC+, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ian",
+            "LastName": "Douglas",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "London School of Hygiene and Tropical Medicine, England, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0001-5428-9733"
+            },
+            "ForeName": "Joshua J",
+            "LastName": "Gagne",
+            "Initials": "JJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Division of Pharmacoepidemiology and Pharmacoeconomics, Brigham and Women's Hospital, MA, USA."},
+              {"Affiliation": "Department of Medicine, Harvard Medical School, MA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rosa",
+            "LastName": "Gini",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Agenzia regionale di sanità della Toscana, Florence, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Olaf",
+            "LastName": "Klungel",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Division of Pharmacoepidemiology & Clinical Pharmacology, Utrecht University, Utrecht, Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C Daniel",
+            "LastName": "Mullins",
+            "Initials": "CD",
+            "AffiliationInfo": {"Affiliation": "Pharmaceutical Health Services Research Department, University of Maryland School of Pharmacy, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael D",
+            "LastName": "Nguyen",
+            "Initials": "MD",
+            "AffiliationInfo": {"Affiliation": "FDA Center for Drug Evaluation and Research, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeremy A",
+            "LastName": "Rassen",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Aetion, Inc., NY, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Liam",
+            "LastName": "Smeeth",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "London School of Hygiene and Tropical Medicine, England, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Miriam",
+            "LastName": "Sturkenboom",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Erasmus University Medical Center Rotterdam, Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "CollectiveName": "joint ISPE-ISPOR Special Task Force on Real World Evidence in Health Care Decision Making"
+          }
+        ]
+      },
+      "ArticleTitle": "Reporting to Improve Reproducibility and Facilitate Validity Assessment for Healthcare Database Studies V1.0.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/pds.4295"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 26,
+          "PubDate": {
+            "Month": "09",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Pharmacoepidemiol Drug Saf",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1099-1557"
+        },
+        "Title": "Pharmacoepidemiology and drug safety"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "Y",
+          "content": "Transparency"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "healthcare databases"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "longitudinal data"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "pharmacoepidemiology"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "replication"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "reproducibility"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "05"
+    },
+    "InvestigatorList": {"Investigator": [
+      {
+        "ValidYN": "Y",
+        "ForeName": "Marc L.",
+        "LastName": "Berger",
+        "Initials": "ML"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Jeffrey",
+        "LastName": "Brown",
+        "Initials": "J"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Frank",
+        "LastName": "de Vries",
+        "Initials": "F"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Ian",
+        "LastName": "Douglas",
+        "Initials": "I"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Joshua J.",
+        "LastName": "Gagne",
+        "Initials": "JJ"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Rosa",
+        "LastName": "Gini",
+        "Initials": "R"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Olaf",
+        "LastName": "Klungel",
+        "Initials": "O"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "C. Daniel",
+        "LastName": "Mullins",
+        "Initials": "CD"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Michael D.",
+        "LastName": "Nguyen",
+        "Initials": "MD"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Jeremy A.",
+        "LastName": "Rassen",
+        "Initials": "JA"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Liam",
+        "LastName": "Smeeth",
+        "Initials": "L"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Miriam",
+        "LastName": "Sturkenboom",
+        "Initials": "M"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Andrew",
+        "LastName": "Bate",
+        "Initials": "A"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Alison",
+        "LastName": "Bourke",
+        "Initials": "A"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Suzanne",
+        "LastName": "Cadarette",
+        "Initials": "S"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Tobias",
+        "LastName": "Gerhard",
+        "Initials": "T"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Robert",
+        "LastName": "Glynn",
+        "Initials": "R"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Krista",
+        "LastName": "Huybrechts",
+        "Initials": "K"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Kiyoshi",
+        "LastName": "Kubota",
+        "Initials": "K"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Amr",
+        "LastName": "Makady",
+        "Initials": "A"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Fredrik",
+        "LastName": "Nyberg",
+        "Initials": "F"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Mary E.",
+        "LastName": "Ritchey",
+        "Initials": "ME"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Ken",
+        "LastName": "Rothman",
+        "Initials": "K"
+      },
+      {
+        "ValidYN": "Y",
+        "ForeName": "Sengwee",
+        "LastName": "Toh",
+        "Initials": "S"
+      }
+    ]},
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Technol Assess Health Care. 2015 Jan;31(4):214-22",
+        "PMID": {
+          "Version": 1,
+          "content": 26585440
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2014 Jul-Aug;21(4):578-82",
+        "PMID": {
+          "Version": 1,
+          "content": 24821743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2012 Jan;21(1):1-10",
+        "PMID": {
+          "Version": 1,
+          "content": 22069180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2016 Jan 04;14(1):e1002333",
+        "PMID": {
+          "Version": 1,
+          "content": 26726926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 May 12;10(5):e0125620",
+        "PMID": {
+          "Version": 1,
+          "content": 25965407
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2003 Nov 1;158(9):915-20",
+        "PMID": {
+          "Version": 1,
+          "content": 14585769
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2014 Jul-Aug;21(4):576-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24821744
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Jan 30;505(7485):612-3",
+        "PMID": {
+          "Version": 1,
+          "content": 24482835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2000 Nov 11;321(7270):1190-5",
+        "PMID": {
+          "Version": 1,
+          "content": 11073511
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 1991 Jan 15;133(2):144-53",
+        "PMID": {
+          "Version": 1,
+          "content": 1985444
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Basic Clin Pharmacol Toxicol. 2006 Mar;98(3):253-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16611199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2015 Oct;24(10):1009-16",
+        "PMID": {
+          "Version": 1,
+          "content": 26282185
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2017 Jan 19;6:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28100398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Care. 2010 Jun;48(6 Suppl):S114-20",
+        "PMID": {
+          "Version": 1,
+          "content": 20473199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Mar 28;483(7391):531-3",
+        "PMID": {
+          "Version": 1,
+          "content": 22460880
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Clin Pharmacol. 2017 Apr;83(4):884-893",
+        "PMID": {
+          "Version": 1,
+          "content": 27780289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Data. 2016 Mar 15;3:160018",
+        "PMID": {
+          "Version": 1,
+          "content": 26978244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2011 Feb 10;364(6):498-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21226658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2014 Nov 27;371(22):2052-4",
+        "PMID": {
+          "Version": 1,
+          "content": 25317745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2007 Oct 16;4(10):e296",
+        "PMID": {
+          "Version": 1,
+          "content": 17941714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2012;9(5):1-12",
+        "PMID": {
+          "Version": 1,
+          "content": 22629234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2016 Dec 15;375(24):2395-2400",
+        "PMID": {
+          "Version": 1,
+          "content": 27974039
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2008 Feb 15;167(4):492-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18056625
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Saf. 2013 Feb;36(2):119-34",
+        "PMID": {
+          "Version": 1,
+          "content": 23329543
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Epidemiol. 2013 Mar;66(3):268-77",
+        "PMID": {
+          "Version": 1,
+          "content": 23116690
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Epidemiol. 2013;5:29-31",
+        "PMID": {
+          "Version": 1,
+          "content": 23413321
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2015 Oct 06;12(10):e1001885",
+        "PMID": {
+          "Version": 1,
+          "content": 26440803
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Open Med. 2012 Oct 30;6(4):e134-40",
+        "PMID": {
+          "Version": 1,
+          "content": 23687528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Intern Med. 2014 Jun;275(6):551-61",
+        "PMID": {
+          "Version": 1,
+          "content": 24635221
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 Jun 26;348(6242):1422-5",
+        "PMID": {
+          "Version": 1,
+          "content": 26113702
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 1981 Aug;114(2):253-9",
+        "PMID": {
+          "Version": 1,
+          "content": 7304560
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2016 May 12;374(19):1807-9",
+        "PMID": {
+          "Version": 1,
+          "content": 27168431
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2017 Sep;26(9):1033-1039",
+        "PMID": {
+          "Version": 1,
+          "content": 28913966
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Pharmacol Ther. 2016 Mar;99(3):325-32",
+        "PMID": {
+          "Version": 1,
+          "content": 26690726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EGEMS (Wash DC). 2015 Mar 23;3(1):1052",
+        "PMID": {
+          "Version": 1,
+          "content": 25992385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2013 May;22(5):459-67",
+        "PMID": {
+          "Version": 1,
+          "content": 23208789
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Epidemiol. 2011 Aug;64(8):821-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21194889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2013 Jul;22(7):700-4",
+        "PMID": {
+          "Version": 1,
+          "content": 23653370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2017 Sep;26(9):1018-1032",
+        "PMID": {
+          "Version": 1,
+          "content": 28913963
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 2006 Oct;35(5):1301-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17053011
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2016 Jan;25(1):2-10",
+        "PMID": {
+          "Version": 1,
+          "content": 26537534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EGEMS (Wash DC). 2016 Feb 08;4(1):1189",
+        "PMID": {
+          "Version": 1,
+          "content": 27014709
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Value Health. 2017 Apr;20(4):520-532",
+        "PMID": {
+          "Version": 1,
+          "content": 28407993
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Saf. 2013 Oct;36 Suppl 1:S159-69",
+        "PMID": {
+          "Version": 1,
+          "content": 24166232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Epidemiol. 2005 Apr;58(4):323-37",
+        "PMID": {
+          "Version": 1,
+          "content": 15862718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 Jun 26;348(6242):1411-3",
+        "PMID": {
+          "Version": 1,
+          "content": 26113698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Care. 2013 Aug;51(8 Suppl 3):S22-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23793049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2014 Jun 5;370(23):2165-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24897081
+        }
+      },
+      {
+        "RefType": "ErratumIn",
+        "RefSource": "Pharmacoepidemiol Drug Saf. 2017 Dec;26(12 ):1570",
+        "PMID": {
+          "Version": 1,
+          "content": 29205684
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28913963
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28913963,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/pds.4295",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5639362",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,845 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 13
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005707"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Neuronal hyperactivity and hyperexcitability of the cerebral cortex and hippocampal region is an increasingly observed phenomenon in preclinical Alzheimer's disease (AD). In later stages, oscillatory slowing and loss of functional connectivity are ubiquitous. Recent evidence suggests that neuronal dynamics have a prominent role in AD pathophysiology, making it a potentially interesting therapeutic target. However, although neuronal activity can be manipulated by various (non-)pharmacological means, intervening in a highly integrated system that depends on complex dynamics can produce counterintuitive and adverse effects. Computational dynamic network modeling may serve as a virtual test ground for developing effective interventions. To explore this approach, a previously introduced large-scale neural mass network with human brain topology was used to simulate the temporal evolution of AD-like, activity-dependent network degeneration. In addition, six defense strategies that either enhanced or diminished neuronal excitability were tested against the degeneration process, targeting excitatory and inhibitory neurons combined or separately. Outcome measures described oscillatory, connectivity and topological features of the damaged networks. Over time, the various interventions produced diverse large-scale network effects. Contrary to our hypothesis, the most successful strategy was a selective stimulation of all excitatory neurons in the network; it substantially prolonged the preservation of network integrity. The results of this study imply that functional network damage due to pathological neuronal activity can be opposed by targeted adjustment of neuronal excitability levels. The present approach may help to explore therapeutic effects aimed at preserving or restoring neuronal network integrity and contribute to better-informed intervention choices in future clinical trials in AD."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3876-1764"
+            },
+            "ForeName": "Willem",
+            "LastName": "de Haan",
+            "Initials": "W",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Clinical Neurophysiology and MEG, VUmc, Amsterdam, The Netherlands."},
+              {"Affiliation": "Alzheimer Center and Department of Neurology, VUmc, Neuroscience Campus Amsterdam, Amsterdam, The Netherlands."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elisabeth C W",
+            "LastName": "van Straaten",
+            "Initials": "ECW",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical Neurophysiology and MEG, VUmc, Amsterdam, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alida A",
+            "LastName": "Gouw",
+            "Initials": "AA",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Clinical Neurophysiology and MEG, VUmc, Amsterdam, The Netherlands."},
+              {"Affiliation": "Alzheimer Center and Department of Neurology, VUmc, Neuroscience Campus Amsterdam, Amsterdam, The Netherlands."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cornelis J",
+            "LastName": "Stam",
+            "Initials": "CJ",
+            "AffiliationInfo": {"Affiliation": "Department of Clinical Neurophysiology and MEG, VUmc, Amsterdam, The Netherlands."}
+          }
+        ]
+      },
+      "ArticleTitle": "Altering neuronal excitability to preserve network connectivity in a computational model of Alzheimer's disease.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005707"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000503",
+          "MajorTopicYN": "Y",
+          "content": "physiopathology"
+        },
+        "DescriptorName": {
+          "UI": "D000544",
+          "MajorTopicYN": "N",
+          "content": "Alzheimer Disease"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "Y",
+            "content": "physiology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "N",
+        "content": "Computational Biology"
+      }},
+      {"DescriptorName": {
+        "UI": "D063132",
+        "MajorTopicYN": "N",
+        "content": "Connectome"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008959",
+        "MajorTopicYN": "Y",
+        "content": "Models, Neurological"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000503",
+          "MajorTopicYN": "N",
+          "content": "physiopathology"
+        },
+        "DescriptorName": {
+          "UI": "D009415",
+          "MajorTopicYN": "N",
+          "content": "Nerve Net"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009474",
+          "MajorTopicYN": "N",
+          "content": "Neurons"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Behav Neurol. 2009;21(1):77-91",
+        "PMID": {
+          "Version": 1,
+          "content": 19847047
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Aging Neurosci. 2014 Feb 04;6:12",
+        "PMID": {
+          "Version": 1,
+          "content": 24550828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2006 Oct 4;26(40):10222-31",
+        "PMID": {
+          "Version": 1,
+          "content": 17021177
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurobiol Aging. 2013 Aug;34(8):2023-36",
+        "PMID": {
+          "Version": 1,
+          "content": 23541878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(5):e19584",
+        "PMID": {
+          "Version": 1,
+          "content": 21625430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Apr 2;60(2):1127-38",
+        "PMID": {
+          "Version": 1,
+          "content": 22227883
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2016 Dec;17 (12 ):777-792",
+        "PMID": {
+          "Version": 1,
+          "content": 27829687
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cochrane Database Syst Rev. 2003;(1):CD003154",
+        "PMID": {
+          "Version": 1,
+          "content": 12535459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2010 Dec 15;30(50):17035-40",
+        "PMID": {
+          "Version": 1,
+          "content": 21159973
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2007 Nov;28(11):1178-93",
+        "PMID": {
+          "Version": 1,
+          "content": 17266107
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2006 Dec;33(4):1117-25",
+        "PMID": {
+          "Version": 1,
+          "content": 17023181
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain. 2014 Aug;137(Pt 8):2382-95",
+        "PMID": {
+          "Version": 1,
+          "content": 25057133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cochrane Database Syst Rev. 2002;(3):CD001747",
+        "PMID": {
+          "Version": 1,
+          "content": 12137632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage Clin. 2015 Aug 01;9:103-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26448910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Comput Neurosci. 2010 Sep 24;4:null",
+        "PMID": {
+          "Version": 1,
+          "content": 20953245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuromolecular Med. 2010 Mar;12(1):71-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19557550
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroinform. 2015 Feb 24;9:02",
+        "PMID": {
+          "Version": 1,
+          "content": 25759649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Feb 15;59(4):3085-93",
+        "PMID": {
+          "Version": 1,
+          "content": 22154957
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Neurophysiol. 1999 Oct;110(10):1801-13",
+        "PMID": {
+          "Version": 1,
+          "content": 10574295
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuromolecular Med. 2015 Sep;17(3):270-84",
+        "PMID": {
+          "Version": 1,
+          "content": 25920466
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2008 Jul;29(7):802-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18438885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2015 Mar;16(3):159-72",
+        "PMID": {
+          "Version": 1,
+          "content": 25697159
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Kybernetik. 1974 May 31;15(1):27-37",
+        "PMID": {
+          "Version": 1,
+          "content": 4853232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuromolecular Med. 2010 Mar;12(1):27-43",
+        "PMID": {
+          "Version": 1,
+          "content": 20069392
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Neurophysiol. 2004 Jul;115(7):1490-505",
+        "PMID": {
+          "Version": 1,
+          "content": 15203050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2011 Jun;14(6):750-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21532579
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurol Sci. 2010 Feb 15;289(1-2):128-34",
+        "PMID": {
+          "Version": 1,
+          "content": 19729174
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2014 Oct;15(10):683-95",
+        "PMID": {
+          "Version": 1,
+          "content": 25186238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 27;9(1):e86558",
+        "PMID": {
+          "Version": 1,
+          "content": 24475144
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Oct 16;109(42):E2895-903",
+        "PMID": {
+          "Version": 1,
+          "content": 22869752
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cereb Cortex. 2009 Mar;19(3):524-36",
+        "PMID": {
+          "Version": 1,
+          "content": 18567609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2008 Mar 4;105(9):3593-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18292226
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain. 2015 Oct;138(Pt 10):3061-75",
+        "PMID": {
+          "Version": 1,
+          "content": 26264514
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2009 Mar;10(3):186-98",
+        "PMID": {
+          "Version": 1,
+          "content": 19190637
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Sep;52(3):1059-69",
+        "PMID": {
+          "Version": 1,
+          "content": 19819337
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurobiol Aging. 2006 Mar;27(3):471-81",
+        "PMID": {
+          "Version": 1,
+          "content": 16213630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain. 2009 Jan;132(Pt 1):213-24",
+        "PMID": {
+          "Version": 1,
+          "content": 18952674
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuromolecular Med. 2010 Mar;12(1):44-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19885650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2005 Dec 22;48(6):913-22",
+        "PMID": {
+          "Version": 1,
+          "content": 16364896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Sep;52(3):985-94",
+        "PMID": {
+          "Version": 1,
+          "content": 19853665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Psychophysiol. 2014 Jun;92(3):129-38",
+        "PMID": {
+          "Version": 1,
+          "content": 24726900
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(8):e1002582",
+        "PMID": {
+          "Version": 1,
+          "content": 22915996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2016 Mar 15;5:e12366",
+        "PMID": {
+          "Version": 1,
+          "content": 26978793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Neurol. 2010 Oct;68(4):521-34",
+        "PMID": {
+          "Version": 1,
+          "content": 20687206
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Neurophysiol. 2011 Mar;122(3):499-505",
+        "PMID": {
+          "Version": 1,
+          "content": 20826109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Neurol. 2011 Sep;68(9):1131-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21555604
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Neurosci. 2009 Aug 21;10:101",
+        "PMID": {
+          "Version": 1,
+          "content": 19698093
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain Connect. 2012;2(2):45-55",
+        "PMID": {
+          "Version": 1,
+          "content": 22480296
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2008 Jul 15;41(4):1267-77",
+        "PMID": {
+          "Version": 1,
+          "content": 18495497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Alzheimer Res. 2010 Sep;7(6):487-505",
+        "PMID": {
+          "Version": 1,
+          "content": 20455865
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Alzheimers Dis. 2012;31(1):225-36",
+        "PMID": {
+          "Version": 1,
+          "content": 22766770
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2010 Jul;13(7):812-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20581818
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Alzheimers Dement. 2016 Mar;12 (3):292-323",
+        "PMID": {
+          "Version": 1,
+          "content": 27012484
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2016 Jan 1;124(Pt A):1054-1064",
+        "PMID": {
+          "Version": 1,
+          "content": 26427642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2012 May 10;74(3):467-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22578498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2009 Jun;5(6):e1000408",
+        "PMID": {
+          "Version": 1,
+          "content": 19521503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Alzheimers Dis. 2012;2012:687909",
+        "PMID": {
+          "Version": 1,
+          "content": 22114748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurology. 2005 Aug 9;65(3):404-11",
+        "PMID": {
+          "Version": 1,
+          "content": 16087905
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Neurol. 2009 Apr;66(4):435-40",
+        "PMID": {
+          "Version": 1,
+          "content": 19204149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2002 Jan;15(1):273-89",
+        "PMID": {
+          "Version": 1,
+          "content": 11771995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioessays. 2015 Jun;37(6):624-32",
+        "PMID": {
+          "Version": 1,
+          "content": 25773221
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain. 2016 Feb;139(Pt 2):547-62",
+        "PMID": {
+          "Version": 1,
+          "content": 26586695
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2000 Oct 10;97(21):11149-52",
+        "PMID": {
+          "Version": 1,
+          "content": 11005838
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Apr 10;109(15):5868-73",
+        "PMID": {
+          "Version": 1,
+          "content": 22467830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2016 Nov 09;539(7628):187-196",
+        "PMID": {
+          "Version": 1,
+          "content": 27830780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurol. 2009 Aug;22(4):340-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19494774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Alzheimers Dis Other Demen. 2006 Dec-2007 Jan;21(6):416-23",
+        "PMID": {
+          "Version": 1,
+          "content": 17267374
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Apr 28;106(17):7209-14",
+        "PMID": {
+          "Version": 1,
+          "content": 19357304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurotherapeutics. 2017 Jul;14 (3):662-676",
+        "PMID": {
+          "Version": 1,
+          "content": 28560709
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Alzheimers Dis. 2011;24(1):15-24",
+        "PMID": {
+          "Version": 1,
+          "content": 21187584
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cochrane Database Syst Rev. 2015 Apr 10;(4):CD001191",
+        "PMID": {
+          "Version": 1,
+          "content": 25858345
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Neurophysiol. 2004 Jun;115(6):1332-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15134700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Neurol. 2012 Sep;69(9):1141-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22566505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Cybern. 1978 Nov 10;31(1):15-26",
+        "PMID": {
+          "Version": 1,
+          "content": 728488
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28938009
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28938009,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005707",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-16-01485",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5627940",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

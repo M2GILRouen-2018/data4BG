@@ -1,0 +1,297 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101499225,
+      "Country": "Germany",
+      "ISSNLinking": "1861-6410",
+      "MedlineTA": "Int J Comput Assist Radiol Surg"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1079-1088"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE",
+          "content": "Minimally invasive surgery offers advantages over open surgery due to a shorter recovery time, less pain and trauma for the patient. However, inherent challenges such as lack of tactile feedback and difficulty in controlling bleeding lower the percentage of suitable cases. Augmented reality can show a better visualisation of sub-surface structures and tumour locations by fusing pre-operative CT data with real-time laparoscopic video. Such augmented reality visualisation requires a fast and robust video to CT registration that minimises interruption to the surgical procedure."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We propose to use view planning for efficient rigid registration. Given the trocar position, a set of camera positions are sampled and scored based on the corresponding liver surface properties. We implement a simulation framework to validate the proof of concept using a segmented CT model from a human patient. Furthermore, we apply the proposed method on clinical data acquired during a human liver resection."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The first experiment motivates the viewpoint scoring strategy and investigates reliable liver regions for accurate registrations in an intuitive visualisation. The second experiment shows wider basins of convergence for higher scoring viewpoints. The third experiment shows that a comparable registration performance can be achieved by at least two merged high scoring views and four low scoring views. Hence, the focus could change from the acquisition of a large liver surface to a small number of distinctive patches, thereby giving a more explicit protocol for surface reconstruction. We discuss the application of the proposed method on clinical data and show initial results."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The proposed simulation framework shows promising results to motivate more research into a comprehensive view planning method for efficient registration in laparoscopic liver surgery."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maria R",
+            "LastName": "Robu",
+            "Initials": "MR",
+            "AffiliationInfo": {"Affiliation": "Centre For Medical Image Computing, Engineering Front Building, University College London, Malet Place, London, UK. maria.robu.14@ucl.ac.uk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Philip",
+            "LastName": "Edwards",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Centre For Medical Image Computing, Engineering Front Building, University College London, Malet Place, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "João",
+            "LastName": "Ramalhinho",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Centre For Medical Image Computing, Engineering Front Building, University College London, Malet Place, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephen",
+            "LastName": "Thompson",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Centre For Medical Image Computing, Engineering Front Building, University College London, Malet Place, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brian",
+            "LastName": "Davidson",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Royal Free Campus, UCL Medical School, 9th Floor, Royal Free Hospital, Rowland Hill Street, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Hawkes",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Centre For Medical Image Computing, Engineering Front Building, University College London, Malet Place, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Danail",
+            "LastName": "Stoyanov",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Centre For Medical Image Computing, Engineering Front Building, University College London, Malet Place, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew J",
+            "LastName": "Clarkson",
+            "Initials": "MJ",
+            "AffiliationInfo": {"Affiliation": "Centre For Medical Image Computing, Engineering Front Building, University College London, Malet Place, London, UK."}
+          }
+        ]
+      },
+      "ArticleTitle": "Intelligent viewpoint selection for efficient CT to video registration in laparoscopic liver surgery.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s11548-017-1584-7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 12,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Int J Comput Assist Radiol Surg",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1861-6429"
+        },
+        "Title": "International journal of computer assisted radiology and surgery"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian curvature"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image guidance"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Laparoscopic liver surgery"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Rigid registration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "View planning"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 12
+    },
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 30
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2014 Nov;41(11):111901",
+        "PMID": {
+          "Version": 1,
+          "content": 25370634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2014 Jan;33(1):147-58",
+        "PMID": {
+          "Version": 1,
+          "content": 24107926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Aided Surg. 2013;18(3-4):93-100",
+        "PMID": {
+          "Version": 1,
+          "content": 23363056
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2014 Oct;61(10):2609-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24835126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2008 Jun;35(6):2528-40",
+        "PMID": {
+          "Version": 1,
+          "content": 18649486
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2014 Oct;18(7):1101-14",
+        "PMID": {
+          "Version": 1,
+          "content": 25038492
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Assist Surg (Abingdon). 2016 Dec;21(1):39-45",
+        "PMID": {
+          "Version": 1,
+          "content": 27973955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2005;8(Pt 1):75-82",
+        "PMID": {
+          "Version": 1,
+          "content": 16685831
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28401399
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 30,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28401399,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s11548-017-1584-7",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s11548-017-1584-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5509843",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

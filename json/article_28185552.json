@@ -1,0 +1,522 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D011506",
+        "content": "Proteins"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 17
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0183460"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Many proteins work together with others in groups called complexes in order to achieve a specific function. Discovering protein complexes is important for understanding biological processes and predict protein functions in living organisms. Large-scale and throughput techniques have made possible to compile protein-protein interaction networks (PPI networks), which have been used in several computational approaches for detecting protein complexes. Those predictions might guide future biologic experimental research. Some approaches are topology-based, where highly connected proteins are predicted to be complexes; some propose different clustering algorithms using partitioning, overlaps among clusters for networks modeled with unweighted or weighted graphs; and others use density of clusters and information based on protein functionality. However, some schemes still require much processing time or the quality of their results can be improved. Furthermore, most of the results obtained with computational tools are not accompanied by an analysis of false positives. We propose an effective and efficient mining algorithm for discovering highly connected subgraphs, which is our base for defining protein complexes. Our representation is based on transforming the PPI network into a directed acyclic graph that reduces the number of represented edges and the search space for discovering subgraphs. Our approach considers weighted and unweighted PPI networks. We compare our best alternative using PPI networks from Saccharomyces cerevisiae (yeast) and Homo sapiens (human) with state-of-the-art approaches in terms of clustering, biological metrics and execution times, as well as three gold standards for yeast and two for human. Furthermore, we analyze false positive predicted complexes searching the PDBe (Protein Data Bank in Europe) database in order to identify matching protein complexes that have been purified and structurally characterized. Our analysis shows that more than 50 yeast protein complexes and more than 300 human protein complexes found to be false positives according to our prediction method, i.e., not described in the gold standard complex databases, in fact contain protein complexes that have been characterized structurally and documented in PDBe. We also found that some of these protein complexes have recently been classified as part of a Periodic Table of Protein Complexes. The latest version of our software is publicly available at http://doi.org/10.6084/m9.figshare.5297314.v1."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-1301-6987"
+            },
+            "ForeName": "Cecilia",
+            "LastName": "Hernandez",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "Computer Science, University of Concepción, Concepción, Chile."},
+              {"Affiliation": "Center for Biotechnology and Bioengineering (CeBiB), Department of Computer Science, University of Chile, Santiago, Chile."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Carlos",
+            "LastName": "Mella",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Computer Science, University of Concepción, Concepción, Chile."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gonzalo",
+            "LastName": "Navarro",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Center for Biotechnology and Bioengineering (CeBiB), Department of Computer Science, University of Chile, Santiago, Chile."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alvaro",
+            "LastName": "Olivera-Nappa",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Center for Biotechnology and Bioengineering (CeBiB), Department of Chemical Engineering and Biotechnology, University of Chile, Santiago, Chile."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jaime",
+            "LastName": "Araya",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Computer Science, University of Concepción, Concepción, Chile."}
+          }
+        ]
+      },
+      "ArticleTitle": "Protein complex prediction via dense subgraphs and false positive analysis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0183460"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D020407",
+        "MajorTopicYN": "N",
+        "content": "Internet"
+      }},
+      {"DescriptorName": {
+        "UI": "D008958",
+        "MajorTopicYN": "Y",
+        "content": "Models, Molecular"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D025941",
+          "MajorTopicYN": "N",
+          "content": "Protein Interaction Mapping"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "Y",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D011506",
+          "MajorTopicYN": "N",
+          "content": "Proteins"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012441",
+        "MajorTopicYN": "N",
+        "content": "Saccharomyces cerevisiae"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 17
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004 Jan 1;32(Database issue):D41-4",
+        "PMID": {
+          "Version": 1,
+          "content": 14681354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2012;6 Suppl 2:S7",
+        "PMID": {
+          "Version": 1,
+          "content": 23282181
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biochem. 2015;84:551-75",
+        "PMID": {
+          "Version": 1,
+          "content": 25494300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 Dec 11;350(6266):aaa2245",
+        "PMID": {
+          "Version": 1,
+          "content": 26659058
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Apr 15;26(8):1105-11",
+        "PMID": {
+          "Version": 1,
+          "content": 20185405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2009 Aug;16(8):971-87",
+        "PMID": {
+          "Version": 1,
+          "content": 19630542
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2006 Mar 30;440(7084):637-43",
+        "PMID": {
+          "Version": 1,
+          "content": 16554755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Oct 23;8(10):e76339",
+        "PMID": {
+          "Version": 1,
+          "content": 24194834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 Nov;13(11):2498-504",
+        "PMID": {
+          "Version": 1,
+          "content": 14597658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Mar 18;9(5):471-2",
+        "PMID": {
+          "Version": 1,
+          "content": 22426491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genomics. 2016 Jul 25;10 Suppl 2:17",
+        "PMID": {
+          "Version": 1,
+          "content": 27461193
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Sep 15;24(18):2115-6",
+        "PMID": {
+          "Version": 1,
+          "content": 18635566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 Apr 15;22(8):1021-3",
+        "PMID": {
+          "Version": 1,
+          "content": 16473872
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Syst Bioinformatics Conf. 2007;6:157-68",
+        "PMID": {
+          "Version": 1,
+          "content": 17951821
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2003 Oct 17;302(5644):449-53",
+        "PMID": {
+          "Version": 1,
+          "content": 14564010
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2003 Jan 13;4:2",
+        "PMID": {
+          "Version": 1,
+          "content": 12525261
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2001 May 3;411(6833):41-2",
+        "PMID": {
+          "Version": 1,
+          "content": 11333967
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Apr 15;21(8):1311-5",
+        "PMID": {
+          "Version": 1,
+          "content": 15659419
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Aug 15;21(16):3448-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15972284
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Feb;37(3):825-31",
+        "PMID": {
+          "Version": 1,
+          "content": 19095691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2006 Mar 30;440(7084):631-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16429126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Apr 11;153(2):461-70",
+        "PMID": {
+          "Version": 1,
+          "content": 23582331
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2014;2014:354539",
+        "PMID": {
+          "Version": 1,
+          "content": 24818139
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2002 Apr 1;30(7):1575-84",
+        "PMID": {
+          "Version": 1,
+          "content": 11917018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 May 27;16:174",
+        "PMID": {
+          "Version": 1,
+          "content": 26013799
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004 Jan 1;32(Database issue):D497-501",
+        "PMID": {
+          "Version": 1,
+          "content": 14681466
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Jun 13;15:186",
+        "PMID": {
+          "Version": 1,
+          "content": 24928559
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2013 May-Jun;10(3):780-92",
+        "PMID": {
+          "Version": 1,
+          "content": 24091410
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2010 Nov 02;11 Suppl 2:S10",
+        "PMID": {
+          "Version": 1,
+          "content": 21047377
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2001 Sep;18(9):1694-702",
+        "PMID": {
+          "Version": 1,
+          "content": 11504849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2007 Mar;6(3):439-50",
+        "PMID": {
+          "Version": 1,
+          "content": 17200106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Jan;38(Database issue):D497-501",
+        "PMID": {
+          "Version": 1,
+          "content": 19884131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2006 Nov 06;7:488",
+        "PMID": {
+          "Version": 1,
+          "content": 17087821
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2007 Aug;7(16):2833-42",
+        "PMID": {
+          "Version": 1,
+          "content": 17640003
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 1998 Jan 1;26(1):73-9",
+        "PMID": {
+          "Version": 1,
+          "content": 9399804
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2016 Nov 8;17 (Suppl 12):372",
+        "PMID": {
+          "Version": 1,
+          "content": 28185552
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28937982
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28937982,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0183460",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-16-41115",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5609739",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

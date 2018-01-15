@@ -1,0 +1,195 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "19-32"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "03"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Carotid artery atherosclerosis is an important cause of stroke. Ultrasound imaging has been widely used in the diagnosis of atherosclerosis. Therefore, segmenting atherosclerotic carotid plaque in ultrasound image is an important task. Accurate plaque segmentation is helpful for the measurement of carotid plaque burden. In this paper, we propose and evaluate a novel learning-based integrated framework for plaque segmentation."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "In our study, four different classification algorithms, along with the auto-context iterative algorithm, were employed to effectively integrate features from ultrasound images and later also the iteratively estimated and refined probability maps together for pixel-wise classification. The four classification algorithms were support vector machine with linear kernel, support vector machine with radial basis function kernel, AdaBoost and random forest. The plaque segmentation was implemented in the generated probability map. The performance of the four different learning-based plaque segmentation methods was tested on 29 B-mode ultrasound images. The evaluation indices for our proposed methods were consisted of sensitivity, specificity, Dice similarity coefficient, overlap index, error of area, absolute error of area, point-to-point distance, and Hausdorff point-to-point distance, along with the area under the ROC curve."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The segmentation method integrated the random forest and an auto-context model obtained the best results (sensitivity 80.4\u202f±\u202f8.4%, specificity 96.5\u202f±\u202f2.0%, Dice similarity coefficient 81.0\u202f±\u202f4.1%, overlap index 68.3\u202f±\u202f5.8%, error of area -1.02\u202f±\u202f18.3%, absolute error of area 14.7\u202f±\u202f10.9%, point-to-point distance 0.34\u202f±\u202f0.10\u202fmm, Hausdorff point-to-point distance 1.75\u202f±\u202f1.02\u202fmm, and area under the ROC curve 0.897), which were almost the best, compared with that from the existed methods."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Our proposed learning-based integrated framework investigated in this study could be useful for atherosclerotic carotid plaque segmentation, which will be helpful for the measurement of carotid plaque burden."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chunjun",
+            "LastName": "Qian",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "School of Science, Nanjing University of Science and Technology, Jiangsu, China. Electronic address: qianchunjun@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaoping",
+            "LastName": "Yang",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "School of Science, Nanjing University of Science and Technology, Jiangsu, China; Department of Mathematics, Nanjing University, Jiangsu, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "An integrated method for atherosclerotic carotid plaque segmentation in ultrasound image.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(17)30307-3"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.10.002"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 153,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Atherosclerotic carotid plaque"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Auto-context model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Random forest"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Semi-automatic plaque segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ultrasound Image"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 21
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29157451
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29157451,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(17)30307-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.10.002",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,114 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9885960,
+      "Country": "United States",
+      "ISSNLinking": "0098-5589",
+      "MedlineTA": "IEEE Trans Pattern Anal Mach Intell"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Recursive partitioning methods producing tree-like models are a long standing staple of predictive modeling. However, a fundamental flaw in the partitioning (or splitting) rule of commonly used tree building methods precludes them from treating different types of variables equally. This most clearly manifests in these methods' inability to properly utilize categorical variables with a large number of categories, which are ubiquitous in the new age of big data. We propose a framework to splitting using leave-one-out (LOO) cross validation (CV) for selecting the splitting variable, then performing a regular split (in our case, following CART's approach) for the selected variable. The most important consequence of our approach is that categorical variables with many categories can be safely used in tree building and are only chosen if they contribute to predictive power. We demonstrate in extensive simulation and real data analysis that our splitting approach significantly improves the performance of both single tree models and ensemble methods that utilize trees. Importantly, we design an algorithm for LOO splitting variable selection which under reasonable assumptions does not substantially increase the overall computational complexity compared to CART for two-class classification."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Amichai",
+            "LastName": "Painsky",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Saharon",
+            "LastName": "Rosset",
+            "Initials": "S"
+          }
+        ]
+      },
+      "ArticleTitle": "Cross-Validated Variable Selection in Tree-Based Methods Improves Predictive Performance.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TPAMI.2016.2636831"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016,
+            "Day": "07"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Pattern Anal Mach Intell",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1939-3539"
+        },
+        "Title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114007
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114007,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TPAMI.2016.2636831",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

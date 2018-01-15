@@ -1,0 +1,233 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101217933,
+      "Country": "England",
+      "ISSNLinking": "1741-2552",
+      "MedlineTA": "J Neural Eng"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "04"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 IOP Publishing Ltd.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "Functional electrical stimulation (FES) is a promising technology for restoring movement to paralyzed limbs. Intracortical brain-computer interfaces (iBCIs) have enabled intuitive control over virtual and robotic movements, and more recently over upper extremity FES neuroprostheses. However, electrical stimulation of muscles creates artifacts in intracortical microelectrode recordings that could degrade iBCI performance. Here, we investigate methods for reducing the cortically recorded artifacts that result from peripheral electrical stimulation."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "APPROACH",
+            "content": "One participant in the BrainGate2 pilot clinical trial had two intracortical microelectrode arrays placed in the motor cortex, and thirty-six stimulating intramuscular electrodes placed in the muscles of the contralateral limb. We characterized intracortically recorded electrical artifacts during both intramuscular and surface stimulation. We compared the performance of three artifact reduction methods: blanking, common average reference (CAR) and linear regression reference (LRR), which creates channel-specific reference signals, composed of weighted sums of other channels."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "MAIN RESULTS",
+            "content": "Electrical artifacts resulting from surface stimulation were 175x larger than baseline neural recordings (which were 110µV peak-to-peak), while intramuscular stimulation artifacts were only 4x larger. The artifact waveforms were highly consistent across electrodes within each array. Application of LRR reduced artifact magnitudes to less than 10µV and largely preserved the original neural feature values used for decoding. Unmitigated stimulation artifacts decreased iBCI decoding performance, but performance was almost completely recovered using LRR, which outperformed CAR and blanking and extracted useful neural information during stimulation artifact periods."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "SIGNIFICANCE",
+            "content": "The LRR method was effective at reducing electrical artifacts resulting from both intramuscular and surface FES, and almost completely restored iBCI decoding performance (&gt;90% recovery for surface stimulation and full recovery for intramuscular stimulation). The results demonstrate that FES-induced artifacts can be easily mitigated in FES+iBCI systems by using LRR for artifact reduction, and suggest that the LRR method may also be useful in other noise reduction applications."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0003-1861-971X"
+            },
+            "ForeName": "Daniel",
+            "LastName": "Young",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Biomedical Engineering, Case Western Reserve University Case School of Engineering, Cleveland, Ohio, 44106-7220, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-2652-8511"
+            },
+            "ForeName": "Francis",
+            "LastName": "Willett",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Case Western Reserve University Case School of Engineering, Cleveland, Ohio, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "William D",
+            "LastName": "Memberg",
+            "Initials": "WD",
+            "AffiliationInfo": {"Affiliation": "Biomedical Engineering, Case Western Reserve University Case School of Engineering, Cleveland, Ohio, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brian",
+            "LastName": "Murphy",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Biomedical Engineering, Case Western Reserve University Case School of Engineering, Cleveland, Ohio, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Benjamin",
+            "LastName": "Walter",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Neurology, UH Cleveland Medical Center, Cleveland, Ohio, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jennifer A",
+            "LastName": "Sweet",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Neurosurgery, UH Case Medical Center, Cleveland, Ohio, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonathan",
+            "LastName": "Miller",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Neurology, UH Cleveland Medical Center, Cleveland, Ohio, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Leigh",
+            "LastName": "Hochberg",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "VA RR&D Center for Neurorestoration and Neuortechnology, Brown University, Providence, Rhode Island, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert F",
+            "LastName": "Kirsch",
+            "Initials": "RF",
+            "AffiliationInfo": {"Affiliation": "Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "A Bolu",
+            "LastName": "Ajiboye",
+            "Initials": "AB",
+            "AffiliationInfo": {"Affiliation": "Biomedical Engineering, Case Western Reserve University Case School of Engineering, Cleveland, Ohio, UNITED STATES."}
+          }
+        ]
+      },
+      "ArticleTitle": "Signal processing methods for reducing artifacts in microelectrode brain recordings caused by functional electrical stimulation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1741-2552/aa9ee8"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": "04"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Neural Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1741-2552"
+        },
+        "Title": "Journal of neural engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "BCI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "FES"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "FES+iBCI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "artefact blanking"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "artifact reduction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "stimulation artifact"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "04"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29199642
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29199642,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1741-2552/aa9ee8",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

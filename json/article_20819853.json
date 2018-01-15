@@ -1,0 +1,333 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101209213,
+      "Country": "United States",
+      "ISSNLinking": "1559-4076",
+      "MedlineTA": "AMIA Annu Symp Proc"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2013,
+      "Day": 30
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "532-41"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2012,
+        "DateType": "Electronic",
+        "Day": "03"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "With increasing adoption of electronic health records (EHRs), the need for formal representations for EHR-driven phenotyping algorithms has been recognized for some time. The recently proposed Quality Data Model from the National Quality Forum (NQF) provides an information model and a grammar that is intended to represent data collected during routine clinical care in EHRs as well as the basic logic required to represent the algorithmic criteria for phenotype definitions. The QDM is further aligned with Meaningful Use standards to ensure that the clinical data and algorithmic criteria are represented in a consistent, unambiguous and reproducible manner. However, phenotype definitions represented in QDM, while structured, cannot be executed readily on existing EHRs. Rather, human interpretation, and subsequent implementation is a required step for this process. To address this need, the current study investigates open-source JBoss® Drools rules engine for automatic translation of QDM criteria into rules for execution over EHR data. In particular, using Apache Foundation's Unstructured Information Management Architecture (UIMA) platform, we developed a translator tool for converting QDM defined phenotyping algorithm criteria into executable Drools rules scripts, and demonstrated their execution on real patient data from Mayo Clinic to identify cases for Coronary Artery Disease and Diabetes. To the best of our knowledge, this is the first study illustrating a framework and an approach for executing phenotyping criteria modeled in QDM using the Drools business rules management system."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dingcheng",
+            "LastName": "Li",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Mayo Clinic, Rochester, MN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cory M",
+            "LastName": "Endle",
+            "Initials": "CM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sahana",
+            "LastName": "Murthy",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Craig",
+            "LastName": "Stancl",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dale",
+            "LastName": "Suesse",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Davide",
+            "LastName": "Sottara",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stanley M",
+            "LastName": "Huff",
+            "Initials": "SM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher G",
+            "LastName": "Chute",
+            "Initials": "CG"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jyotishman",
+            "LastName": "Pathak",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "Modeling and executing electronic health records driven phenotyping algorithms using the NQF Quality Data Model and JBoss® Drools Engine.",
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 2012,
+          "PubDate": {"Year": 2012},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "AMIA Annu Symp Proc",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1942-597X"
+        },
+        "Title": "AMIA ... Annual Symposium proceedings. AMIA Symposium"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "01",
+      "Year": 2013,
+      "Day": 10
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "N",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "N",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D003920",
+          "MajorTopicYN": "N",
+          "content": "Diabetes Mellitus"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D057286",
+        "MajorTopicYN": "Y",
+        "content": "Electronic Health Records"
+      }},
+      {"DescriptorName": {
+        "UI": "D005103",
+        "MajorTopicYN": "Y",
+        "content": "Expert Systems"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D051188",
+        "MajorTopicYN": "N",
+        "content": "Knowledge Bases"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Telemed Telecare. 2006;12 Suppl 1:26-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16884571
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Jul-Aug;19(4):533-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22180871
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Mar-Apr;19(2):181-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22081225
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Investig Med. 2006 Sep;54(6):327-33",
+        "PMID": {
+          "Version": 1,
+          "content": 17134616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2012 Aug;45(4):763-71",
+        "PMID": {
+          "Version": 1,
+          "content": 22326800
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Genomics. 2011;4:13",
+        "PMID": {
+          "Version": 1,
+          "content": 21269473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2011;2011:1372-81",
+        "PMID": {
+          "Version": 1,
+          "content": 22195200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2011;2011:274-83",
+        "PMID": {
+          "Version": 1,
+          "content": 22195079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformation. 2011 Mar 26;6(2):86-90",
+        "PMID": {
+          "Version": 1,
+          "content": 21544172
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2011;2011:248-56",
+        "PMID": {
+          "Version": 1,
+          "content": 22195076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2011 Apr 20;3(79):79re1",
+        "PMID": {
+          "Version": 1,
+          "content": 21508311
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2010 Aug 5;363(6):501-4",
+        "PMID": {
+          "Version": 1,
+          "content": 20647183
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2010 Sep-Oct;17(5):507-13",
+        "PMID": {
+          "Version": 1,
+          "content": 20819853
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3540464"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 23304325
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23304325,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "PMC3540464",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

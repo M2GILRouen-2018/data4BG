@@ -1,0 +1,346 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101613245,
+      "Country": "United States",
+      "ISSNLinking": "1049-3301",
+      "MedlineTA": "ACM Trans Model Comput Simul"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 MH086638",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NLM NIH HHS",
+            "Country": "United States",
+            "GrantID": "T15 LM007056",
+            "Acronym": "LM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Cells exhibit stochastic behavior when the number of molecules is small. Hence a stochastic reaction-diffusion simulator capable of working at scale can provide a more accurate view of molecular dynamics within the cell. This paper describes a parallel discrete event simulator, Neuron Time Warp-Multi Thread (NTW-MT), developed for the simulation of reaction diffusion models of neurons. To the best of our knowledge, this is the first parallel discrete event simulator oriented towards stochastic simulation of chemical reactions in a neuron. The simulator was developed as part of the NEURON project. NTW-MT is optimistic and thread-based, which attempts to capitalize on multi-core architectures used in high performance machines. It makes use of a multi-level queue for the pending event set and a single roll-back message in place of individual anti-messages to disperse contention and decrease the overhead of processing rollbacks. Global Virtual Time is computed asynchronously both within and among processes to get rid of the overhead for synchronizing threads. Memory usage is managed in order to avoid locking and unlocking when allocating and de-allocating memory and to maximize cache locality. We verified our simulator on a calcium buffer model. We examined its performance on a calcium wave model, comparing it to the performance of a process based optimistic simulator and a threaded simulator which uses a single priority queue for each thread. Our multi-threaded simulator is shown to achieve superior performance to these simulators. Finally, we demonstrated the scalability of our simulator on a larger CICR model and a more detailed CICR model."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhongwei",
+            "LastName": "Lin",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "State Key Laboratory of High Performance Computing and College of Information System and Management, National University of Defense Technology, Changsha, Hunan, China; zwlin@nudt.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Carl",
+            "LastName": "Tropper",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science, McGill University, Montreal, Quebec, Canada; carltropper@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert A",
+            "LastName": "Mcdougal",
+            "Initials": "RA",
+            "AffiliationInfo": {"Affiliation": "Department of Neurobiology, Yale University, New Haven, Connecticut, USA; robert.mcdougal@yale.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mohammand Nazrul Ishlam",
+            "LastName": "Patoary",
+            "Initials": "MNI",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science, McGill University, Montreal, Quebec, Canada; mohammad.patoary@mail.mcgill.ca."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "William W",
+            "LastName": "Lytton",
+            "Initials": "WW",
+            "AffiliationInfo": {"Affiliation": "SUNY Downstate Medical Center, Brooklyn, NY, 11203, USA; blytton@downstate.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yiping",
+            "LastName": "Yao",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "College of Information System and Management, National University of Defense Technology, Changsha, Hunan, China; yipingyao@qq.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael L",
+            "LastName": "Hines",
+            "Initials": "ML",
+            "AffiliationInfo": {"Affiliation": "Department of Neurobiology, Yale University, New Haven, Connecticut, USA; michael.hines@yale.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Multithreaded Stochastic PDES for Reactions and Diffusions in Neurons.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": 7
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1145/2987373"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 27,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "ACM Trans Model Comput Simul",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1049-3301"
+        },
+        "Title": "ACM transactions on modeling and computer simulation : a publication of the Association for Computing Machinery"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 28
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 1998 Jul;21(1):13-26",
+        "PMID": {
+          "Version": 1,
+          "content": 9697848
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2012 Feb 08;13(3):157-68",
+        "PMID": {
+          "Version": 1,
+          "content": 22314443
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 1994 Feb 21;166(4):461-73",
+        "PMID": {
+          "Version": 1,
+          "content": 8176949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2013 Nov 15;220(2):131-40",
+        "PMID": {
+          "Version": 1,
+          "content": 23743449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1990 Nov 16;250(4983):977-9",
+        "PMID": {
+          "Version": 1,
+          "content": 2237441
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Rev. 2007 Apr;87(2):593-658",
+        "PMID": {
+          "Version": 1,
+          "content": 17429043
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2010 Mar 12;6(3):e1000705",
+        "PMID": {
+          "Version": 1,
+          "content": 20300644
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2012 May 10;6:36",
+        "PMID": {
+          "Version": 1,
+          "content": 22574658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Chem. 2011 Jun;35(3):193-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21704266
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Syst Biol (Stevenage). 2004 Dec;1(2):230-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17051695
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Jun 15;21(12):2923-4",
+        "PMID": {
+          "Version": 1,
+          "content": 15817692
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comp Neurol. 1995 Nov 6;362(1):17-45",
+        "PMID": {
+          "Version": 1,
+          "content": 8576427
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2007 Aug 29;27(35):9247-51",
+        "PMID": {
+          "Version": 1,
+          "content": 17728438
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1993 Oct 29;262(5134):740-4",
+        "PMID": {
+          "Version": 1,
+          "content": 8235594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2003 May 27;13(11):R425",
+        "PMID": {
+          "Version": 1,
+          "content": 12781146
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1992 Oct 15;89(20):9895-9",
+        "PMID": {
+          "Version": 1,
+          "content": 1329108
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 1991 Jun;59(6):1290-307",
+        "PMID": {
+          "Version": 1,
+          "content": 1873466
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2010 Jun;8(2):63-82",
+        "PMID": {
+          "Version": 1,
+          "content": 20361275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroinform. 2013 Nov 15;7:28",
+        "PMID": {
+          "Version": 1,
+          "content": 24298253
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2015 Apr;27(4):898-924",
+        "PMID": {
+          "Version": 1,
+          "content": 25734493
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28943743
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28943743,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1145/2987373",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5604336",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS844060",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

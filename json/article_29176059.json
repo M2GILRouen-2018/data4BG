@@ -1,0 +1,162 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401220",
+      "Country": "England",
+      "ISSNLinking": "0031-9155",
+      "MedlineTA": "Phys Med Biol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 Institute of Physics and Engineering in Medicine.",
+        "AbstractText": "We report on the design, implementation and characterization of a multi-graphic processing unit (GPU) computational platform for higher-order optimization in radiotherapy treatment planning. In collaboration with a commercial vendor (Varian Medical Systems, Palo Alto, CA), a research prototype GPU-enabled Eclipse (V13.6) workstation was configured. The hardware consisted of dual 8-core xeon processors, 256 GB RAM and four NVIDIA Tesla K80 general purpose GPUs. We demonstrate the utility of this platform for large radiotherapy optimization problems through the development and characterization of a parallelized particle swarm optimization (PSO) four dimensional (4D) intensity modulated radiation therapy (IMRT) technique. The PSO engine was coupled to the Eclipse treatment planning system via a vendor-provided scripting interface. Specific challenges addressed in this implementation were (i) data management and (ii) non uniform memory access (NUMA). For the former, we alternated between parameters over which the computation process was parallelized. For the latter, we reduced the amount of data required to be efficiently utilizing data transfers transferred over the NUMA bridge. The datasets examined in this study were approximately 300 GB in size, including 4D computed tomography images, anatomical structure contours and dose deposition matrices. For evaluation, we created a 4D-IMRT treatment plan for one lung cancer patient and analyzed computation speed while varying several parameters (number of respiratory phases, GPUs and particles, as well as data matrix size). The optimized 4D-IMRT plan enhanced sparing of organs at risk by an average reduction of 26% in maximum dose, compared to the clinical optimized IMRT plan, where internal target volume was used. The computation speed in our implementation did not monotonically increase with the number of GPUs. The optimal number of GPUs (five, in our study) is directly related to the hardware specifications. The optimization process took 35 minutes using 50 PSO particles, 25 iterations and 5 GPUs."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aaron Michael",
+            "LastName": "Hagan",
+            "Initials": "AM",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Texas Southwestern Medical Centre, Dallas, TX 75235, Dallas, Texas, 75205, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Amit",
+            "LastName": "Sawant",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Maryland School of Medicine, Baltimore, Maryland, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Folkerts",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Varian Medical Systems Inc, Palo Alto, California, UNITED STATES."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arezoo",
+            "LastName": "Modiri",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Radiation Oncology, University of Maryland, School of medicine, 685 W. Baltimore St., MSTF 7-00, MD, Baltimore, Maryland, 21201, UNITED STATES."}
+          }
+        ]
+      },
+      "ArticleTitle": "Multi-GPU configuration of 4D intensity modulated radiation therapy inverse planning using global optimization.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1361-6560/aa9c96"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-6560"
+        },
+        "Title": "Physics in medicine and biology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "GPU"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "IMRT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "NUMA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Optimization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PSO"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Parallel Processing"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 27
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29176059
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29176059,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1361-6560/aa9c96",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

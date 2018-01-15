@@ -1,0 +1,187 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Intensified charge-coupled device (ICCD) images are captured by ICCD sensors in extremely low-light conditions. They often contains spatially clustered noises and general filtering methods do not work well. We find that the scale of the clustered noise in ICCD sensing images is often much smaller than that of the true structural information. Then the clustered noise can be identified by properly down-sampling and then up-sampling the ICCD sensing image and comparing it to the noisy image. Based on this finding, we present a denoising algorithm to remove the randomly clustered noise in ICCD images. First, we over-segment the ICCD image into a set of flat patches, and each patch contains very little structural information. Second, we classify the patches into noisy patches and noise-free patches based on the hypergraph cut method. Then the noise-free patches are easily recovered by the general block-matching and 3D filtering (BM3D) algorithm, since they often do not contain the clustered noise. The noisy patches are recovered by subtracting the identified clustered noise from the noisy patches. After that, we could get the whole recovered ICCD image. Finally, the quality of the recovered ICCD image is further improved by diminishing the remaining sparse noise with robust principal component analysis. Experiments are conducted on a set of ICCD images and compared with four existing denoising algorithms, which shows that the proposed algorithm removes well the randomly clustered noise and preserves the true textural information in the ICCD sensing images."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Meng",
+            "LastName": "Yang",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University, Xi'an 710049, China. mengyang@xjtu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fei",
+            "LastName": "Wang",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University, Xi'an 710049, China. wfx@xjtu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yibin",
+            "LastName": "Wang",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University, Xi'an 710049, China. wybxy001@126.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nanning",
+            "LastName": "Zheng",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University, Xi'an 710049, China. nnzheng@xjtu.edu.cn."}
+          }
+        ]
+      },
+      "ArticleTitle": "A Denoising Method for Randomly Clustered Noise in ICCD Sensing Images Based on Hypergraph Cut and Down Sampling.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2778"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17122778"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 30
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "ICCD image sensor"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "hypergraph cut"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "image denoising"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "principal component analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "randomly clustered noise"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29189757
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29189757,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17122778",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17122778",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

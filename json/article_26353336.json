@@ -1,0 +1,231 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "For many pedestrian detectors, background vs. foreground errors heavily influence the detection quality. Our main contribution is to design semantic regions of interest that extract the foreground target roughly to reduce the background vs. foreground errors of detectors. First, we generate a pedestrian heat map from the input image with a full convolutional neural network trained on the Caltech Pedestrian Dataset. Next, semantic regions of interest are extracted from the heat map by morphological image processing. Finally, the semantic regions of interest divide the whole image into foreground and background to assist the decision-making of detectors. We test our approach on the Caltech Pedestrian Detection Benchmark. With the help of our semantic regions of interest, the effects of the detectors have varying degrees of improvement. The best one exceeds the state-of-the-art."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-8853-8352"
+            },
+            "ForeName": "Miao",
+            "LastName": "He",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang 110016, China. hemiao@sia.cn."},
+              {"Affiliation": "Key Laboratory of Opto-Electronic Information Processing, Chinese Academy of Sciences, Shenyang 110016, China. hemiao@sia.cn."},
+              {"Affiliation": "The Key Lab of Image Understanding and Computer Vision, Shenyang 110016, China. hemiao@sia.cn."},
+              {"Affiliation": "University of Chinese Academy of Sciences, Beijing 110049, China. hemiao@sia.cn."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haibo",
+            "LastName": "Luo",
+            "Initials": "H",
+            "AffiliationInfo": [
+              {"Affiliation": "Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang 110016, China. luohb@sia.cn."},
+              {"Affiliation": "Key Laboratory of Opto-Electronic Information Processing, Chinese Academy of Sciences, Shenyang 110016, China. luohb@sia.cn."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zheng",
+            "LastName": "Chang",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang 110016, China. changzheng@sia.cn."},
+              {"Affiliation": "Key Laboratory of Opto-Electronic Information Processing, Chinese Academy of Sciences, Shenyang 110016, China. changzheng@sia.cn."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bin",
+            "LastName": "Hui",
+            "Initials": "B",
+            "AffiliationInfo": [
+              {"Affiliation": "Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang 110016, China. huibin@sia.cn."},
+              {"Affiliation": "Key Laboratory of Opto-Electronic Information Processing, Chinese Academy of Sciences, Shenyang 110016, China. huibin@sia.cn."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Pedestrian Detection with Semantic Regions of Interest.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2699"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17112699"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "background vs. foreground errors"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "deep learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pedestrian detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "semantic regions of interest"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2008 Oct;30(10):1713-27",
+        "PMID": {
+          "Version": 1,
+          "content": 18703826
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2014 Feb;36(2):222-34",
+        "PMID": {
+          "Version": 1,
+          "content": 24356345
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2014 Aug;36(8):1532-45",
+        "PMID": {
+          "Version": 1,
+          "content": 26353336
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29165372
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29165372,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17112699",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17112699",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5713501",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

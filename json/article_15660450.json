@@ -1,0 +1,372 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 56},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Proton magnetic resonance spectroscopy is a non-invasive measurement technique which provides information about concentrations of up to 20 metabolites participating in intracellular biochemical processes. In order to obtain any metabolic information from measured spectra a processing should be done in specialized software, like jMRUI. The processing is interactive and complex and often requires many trials before obtaining a correct result. This paper proposes a jMRUI enhancement for efficient and unambiguous history tracking and file identification."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "A database storing all processing steps, parameters and files used in processing was developed for jMRUI. The solution was developed in Java, authors used a SQL database for robust storage of parameters and SHA-256 hash code for unambiguous file identification. The developed system was integrated directly in jMRUI and it will be publically available. A graphical user interface was implemented in order to make the user experience more comfortable. The database operation is invisible from the point of view of the common user, all tracking operations are performed in the background."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The implemented jMRUI database is a tool that can significantly help the user to track the processing history performed on data in jMRUI. The created tool is oriented to be user-friendly, robust and easy to use. The database GUI allows the user to browse the whole processing history of a selected file and learn e.g. what processing lead to the results, where the original data are stored, to obtain the list of all processing actions performed on spectra."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8448-2312"
+            },
+            "ForeName": "Michał",
+            "LastName": "Jabłoński",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute of Scientific Instruments of the CAS, Královopolská 147, 612 64, Brno, Czech Republic. jmj@isibrno.cz."},
+              {"Affiliation": "Faculty of Science, Masaryk University, Kotlářská 267/2, 611 37, Brno, Czech Republic. jmj@isibrno.cz."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jana",
+            "LastName": "Starčuková",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Institute of Scientific Instruments of the CAS, Královopolská 147, 612 64, Brno, Czech Republic."}
+          },
+          {
+            "ValidYN": "Y",
+            "Suffix": "Jr",
+            "ForeName": "Zenon",
+            "LastName": "Starčuk",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Institute of Scientific Instruments of the CAS, Královopolská 147, 612 64, Brno, Czech Republic."}
+          }
+        ]
+      },
+      "ArticleTitle": "Processing tracking in jMRUI software for magnetic resonance spectra quantitation reproducibility assurance.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1459-5"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Spectroscopy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SQL database"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Signal Processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "jMRUI"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001330",
+        "MajorTopicYN": "Y",
+        "content": "Automatic Data Processing"
+      }},
+      {"DescriptorName": {
+        "UI": "D016208",
+        "MajorTopicYN": "N",
+        "content": "Databases, Factual"
+      }},
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D009682",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Spectroscopy"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Nov 09;16:378",
+        "PMID": {
+          "Version": 1,
+          "content": 26552737
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson. 1997 Nov;129(1):35-43",
+        "PMID": {
+          "Version": 1,
+          "content": 9405214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2001 Jun;14(4):224-32",
+        "PMID": {
+          "Version": 1,
+          "content": 11410940
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "MAGMA. 2014 Apr;27(2):113-30",
+        "PMID": {
+          "Version": 1,
+          "content": 23892473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2007 Aug;20(5):493-504",
+        "PMID": {
+          "Version": 1,
+          "content": 17167819
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2014 Mar;270(3):658-79",
+        "PMID": {
+          "Version": 1,
+          "content": 24568703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 1998 Oct;11(6):266-72",
+        "PMID": {
+          "Version": 1,
+          "content": 9802468
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2011 Jan;65(1):1-12",
+        "PMID": {
+          "Version": 1,
+          "content": 20878762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 1993 Dec;30(6):672-9",
+        "PMID": {
+          "Version": 1,
+          "content": 8139448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann N Y Acad Sci. 1987;508:333-48",
+        "PMID": {
+          "Version": 1,
+          "content": 3326459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson. 2001 Dec;153(2):155-77",
+        "PMID": {
+          "Version": 1,
+          "content": 11740891
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2006 Nov;56(5):965-70",
+        "PMID": {
+          "Version": 1,
+          "content": 16991116
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2008 Jan;59(1):1-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17969076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Rev Neurol (Paris). 2002 May;158(5 Pt 1):527-40",
+        "PMID": {
+          "Version": 1,
+          "content": 12072821
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2000 May;13(3):129-53",
+        "PMID": {
+          "Version": 1,
+          "content": 10861994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2004 Oct;17(6):361-81",
+        "PMID": {
+          "Version": 1,
+          "content": 15468083
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2005 Feb;18(1):1-13",
+        "PMID": {
+          "Version": 1,
+          "content": 15660450
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28114896
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114896,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1459-5",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1459-5",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5260066",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

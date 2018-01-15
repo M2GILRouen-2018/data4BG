@@ -1,0 +1,419 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101643461,
+      "Country": "United States",
+      "ISSNLinking": "2329-4302",
+      "MedlineTA": "J Med Imaging (Bellingham)"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "011009"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper presents an improved GrowCut (IGC), a positron emission tomography-based segmentation algorithm, and tests its clinical applicability. Contrary to the traditional method that requires the user to provide the initial seeds, the IGC algorithm starts with a threshold-based estimate of the tumor and a three-dimensional morphologically grown shell around the tumor as the foreground and background seeds, respectively. The repeatability of IGC from the same observer at multiple time points was compared with the traditional GrowCut algorithm. The algorithm was tested in 11 nonsmall cell lung cancer lesions and validated against the clinician-defined manual contour and compared against the clinically used 25% of the maximum standardized uptake value [SUV-(max)], 40% [Formula: see text], and adaptive threshold methods. The time to edit IGC-defined functional volume to arrive at the gross tumor volume (GTV) was compared with that of manual contouring. The repeatability of the IGC algorithm was very high compared with the traditional GrowCut ([Formula: see text]) and demonstrated higher agreement with the manual contour with respect to threshold-based methods. Compared with manual contouring, editing the IGC achieved the GTV in significantly less time ([Formula: see text]). The IGC algorithm offers a highly repeatable functional volume and serves as an effective initial guess that can well minimize the time spent on labor-intensive manual contouring."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hannah Mary",
+            "LastName": "T Thomas",
+            "Initials": "HM",
+            "AffiliationInfo": {"Affiliation": "VIT University , School of Advanced Sciences, Department of Physics, Vellore, Tamil Nadu 632004, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Devadhas",
+            "LastName": "Devakumar",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Christian Medical College , Department of Nuclear Medicine, Vellore, Tamil Nadu 632004, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Balukrishna",
+            "LastName": "Sasidharan",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Christian Medical College , Department of Radiation Oncology, Vellore, Tamil Nadu 632004, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephen R",
+            "LastName": "Bowen",
+            "Initials": "SR",
+            "AffiliationInfo": {"Affiliation": "University of Washington , School of Medicine, Departments of Radiology and Radiation Oncology, Seattle, Washington 98195, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Danie Kingslin",
+            "LastName": "Heck",
+            "Initials": "DK",
+            "AffiliationInfo": {"Affiliation": "Christian Medical College , Department of Nuclear Medicine, Vellore, Tamil Nadu 632004, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "E",
+            "LastName": "James Jebaseelan Samuel",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "VIT University , School of Advanced Sciences, Department of Physics, Vellore, Tamil Nadu 632004, India."}
+          }
+        ]
+      },
+      "ArticleTitle": "Hybrid positron emission tomography segmentation of heterogeneous lung tumors using 3D Slicer: improved GrowCut algorithm with threshold initialization.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1117/1.JMI.4.1.011009"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 4,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "J Med Imaging (Bellingham)",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2329-4302"
+        },
+        "Title": "Journal of medical imaging (Bellingham, Wash.)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "GrowCut"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "nonsmall cell lung cancer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "positron emission tomography/computed tomography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "segmentation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2008 Aug;35(8):3711-21",
+        "PMID": {
+          "Version": 1,
+          "content": 18777930
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Nucl Med Mol Imaging. 2011 Aug;38(8):1449-58",
+        "PMID": {
+          "Version": 1,
+          "content": 21461734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2010 Sep;96(3):302-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20708286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Mar;37(3):1309-24",
+        "PMID": {
+          "Version": 1,
+          "content": 20384268
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2015 Nov;56(11):1752-65",
+        "PMID": {
+          "Version": 1,
+          "content": 26383148
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2010 Feb;51(2):268-76",
+        "PMID": {
+          "Version": 1,
+          "content": 20080896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2009 Jun;28(6):881-93",
+        "PMID": {
+          "Version": 1,
+          "content": 19150782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2012 Nov;31(11):2006-24",
+        "PMID": {
+          "Version": 1,
+          "content": 22692898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Nucl Med Mol Imaging. 2008 Nov;35(11):1989-99",
+        "PMID": {
+          "Version": 1,
+          "content": 18661128
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2014 Jul;50:76-96",
+        "PMID": {
+          "Version": 1,
+          "content": 24845019
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2010 May 1;77(1):301-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20116934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2007 Jul 1;68(3):771-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17398018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Radiother. 2014 Oct;18(5-6):402-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25179249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2011 Apr;52(4):658; author reply 658-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21421728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2013 Dec 18;3:3529",
+        "PMID": {
+          "Version": 1,
+          "content": 24346241
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lung Cancer. 2007 Aug;57(2):125-34",
+        "PMID": {
+          "Version": 1,
+          "content": 17478008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer. 1997 Dec 15;80(12 Suppl):2505-9",
+        "PMID": {
+          "Version": 1,
+          "content": 9406703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2007 Nov;34(11):4223-35",
+        "PMID": {
+          "Version": 1,
+          "content": 18072487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2015 Jul;116(1):27-34",
+        "PMID": {
+          "Version": 1,
+          "content": 25869338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Clin Oncol. 2008 Oct;31(5):439-45",
+        "PMID": {
+          "Version": 1,
+          "content": 18838879
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 2012 Nov;30(9):1323-41",
+        "PMID": {
+          "Version": 1,
+          "content": 22770690
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2014 Dec;38(8):753-63",
+        "PMID": {
+          "Version": 1,
+          "content": 25450759
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2012 Mar 1;82(3):1164-71",
+        "PMID": {
+          "Version": 1,
+          "content": 21531085
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Oct;39(10):6332-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23039669
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2013 Aug;40(8):082503",
+        "PMID": {
+          "Version": 1,
+          "content": 23927348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Nucl Med Mol Imaging. 2010 Nov;37(11):2165-87",
+        "PMID": {
+          "Version": 1,
+          "content": 20336455
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Clin Med Phys. 2014 Nov 08;15(6):4952",
+        "PMID": {
+          "Version": 1,
+          "content": 25493519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Oncol. 2012 Jul 11;2:71",
+        "PMID": {
+          "Version": 1,
+          "content": 22798989
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28149920
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "01",
+        "Year": 2018,
+        "Day": 23,
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28149920,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1117/1.JMI.4.1.011009",
+        "IdType": "doi"
+      },
+      {
+        "content": "16108SSR",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5253402",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

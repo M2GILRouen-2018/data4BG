@@ -1,0 +1,517 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101319161,
+      "Country": "England",
+      "ISSNLinking": "1756-0381",
+      "MedlineTA": "BioData Min"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 1},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Protein relative solvent accessibility provides insight into understanding protein structure and function. Prediction of protein relative solvent accessibility is often the first stage of predicting other protein properties. Recent predictors of relative solvent accessibility discriminate against exposed regions as compared with buried regions, resulting in higher prediction accuracy associated with buried regions relative to exposed regions."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "Here, we propose a more accurate and balanced predictor of protein relative solvent accessibility. First, we collected known proteins in three subsets according to sequence length and constructed a balanced dataset after reducing redundancy within each subset. Next, we measured the performance associated with different variables and variable combinations to determine the best variable combination. Finally, a predictor called BMRSA was constructed for modelling and prediction, which used the balanced set as the training set, the position- specific scoring matrix, predicted secondary structure, buried-exposed profile, and length of a query sequence as variables, and the conditional random field as the machine-learning method."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "BMRSA performance on test sets confirmed that our approach improved prediction accuracy relative to state-of-the-art approaches and was balanced in its comparison of buried and exposed regions. Our method is valuable when higher levels of accuracy in predicting exposed-residue states are required. The BMRSA is available at: http://cheminfo.tongji.edu.cn:8080/BMRSA/."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Wu",
+            "Initials": "W",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000000123704535"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.24516.34"
+                }
+              ],
+              "Affiliation": "Department of Chemistry, Tongji University, Shanghai, China."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhiheng",
+            "LastName": "Wang",
+            "Initials": "Z",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000000123704535"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.24516.34"
+                }
+              ],
+              "Affiliation": "Department of Chemistry, Tongji University, Shanghai, China."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peisheng",
+            "EqualContrib": "Y",
+            "LastName": "Cong",
+            "Initials": "P",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000000123704535"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.24516.34"
+                }
+              ],
+              "Affiliation": "Department of Chemistry, Tongji University, Shanghai, China."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tonghua",
+            "EqualContrib": "Y",
+            "LastName": "Li",
+            "Initials": "T",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000000123704535"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.24516.34"
+                }
+              ],
+              "Affiliation": "Department of Chemistry, Tongji University, Shanghai, China."
+            }
+          }
+        ]
+      },
+      "ArticleTitle": "Accurate prediction of protein relative solvent accessibility using a balanced model.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13040-016-0121-5"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 10,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "BioData Min",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1756-0381"
+        },
+        "Title": "BioData mining"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Balanceable model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Prediction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Profile"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Relative solvent accessibility"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 18
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jul 8;44(W1):W430-5",
+        "PMID": {
+          "Version": 1,
+          "content": 27112573
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2007 Jul 1;68(1):82-91",
+        "PMID": {
+          "Version": 1,
+          "content": 17436325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Jun 15;21(12):2844-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15814555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2004 Sep 1;56(4):753-67",
+        "PMID": {
+          "Version": 1,
+          "content": 15281128
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Jan 11;6:18962",
+        "PMID": {
+          "Version": 1,
+          "content": 26752681
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 May 3;102(18):6395-400",
+        "PMID": {
+          "Version": 1,
+          "content": 15851683
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jul;40(Web Server issue):W298-302",
+        "PMID": {
+          "Version": 1,
+          "content": 22553364
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Mar 15;31(6):857-63",
+        "PMID": {
+          "Version": 1,
+          "content": 25391399
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Aug 15;29(16):2056-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23772049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2015;2015:678764",
+        "PMID": {
+          "Version": 1,
+          "content": 26339631
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 Jul 1;22(13):1658-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16731699
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biopolymers. 1983 Dec;22(12):2577-637",
+        "PMID": {
+          "Version": 1,
+          "content": 6667333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2012 Jan 30;33(3):259-67",
+        "PMID": {
+          "Version": 1,
+          "content": 22045506
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 May;37(8):2672-87",
+        "PMID": {
+          "Version": 1,
+          "content": 19273533
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BioData Min. 2015 Jan 31;8:3",
+        "PMID": {
+          "Version": 1,
+          "content": 26478747
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Struct Biol. 2009 Jul 31;9:51",
+        "PMID": {
+          "Version": 1,
+          "content": 19646261
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Sep 15;30(18):2592-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24860169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Jul 13;12:283",
+        "PMID": {
+          "Version": 1,
+          "content": 21749732
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Mar 06;14:88",
+        "PMID": {
+          "Version": 1,
+          "content": 23497251
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Feb 01;12:43",
+        "PMID": {
+          "Version": 1,
+          "content": 21284866
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochimie. 2013 Dec;95(12):2460-4",
+        "PMID": {
+          "Version": 1,
+          "content": 24056076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W94-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15980589
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2007 Aug 15;68(3):636-45",
+        "PMID": {
+          "Version": 1,
+          "content": 17510969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Mol Sci. 2015 Jul 29;16(8):17315-30",
+        "PMID": {
+          "Version": 1,
+          "content": 26230689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2012 Jul;80(7):1791-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22434533
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2002 May 1;47(2):142-53",
+        "PMID": {
+          "Version": 1,
+          "content": 11933061
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 1976 Jul 25;105(1):1-12",
+        "PMID": {
+          "Version": 1,
+          "content": 994183
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 1971 Feb 14;55(3):379-400",
+        "PMID": {
+          "Version": 1,
+          "content": 5551392
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Feb 15;28(4):503-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22190692
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Jun 1;24(11):1401-2",
+        "PMID": {
+          "Version": 1,
+          "content": 18430742
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2016 Jan 11;17 Suppl 1:8",
+        "PMID": {
+          "Version": 1,
+          "content": 26818760
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jan;41(Database issue):D475-82",
+        "PMID": {
+          "Version": 1,
+          "content": 23193259
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 2006 May;15(5):1017-29",
+        "PMID": {
+          "Version": 1,
+          "content": 16641487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 1997 Sep 1;25(17):3389-402",
+        "PMID": {
+          "Version": 1,
+          "content": 9254694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2007 Jun 14;8:201",
+        "PMID": {
+          "Version": 1,
+          "content": 17570843
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28127402
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28127402,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13040-016-0121-5",
+        "IdType": "doi"
+      },
+      {
+        "content": 121,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5259893",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

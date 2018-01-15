@@ -1,0 +1,315 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 12
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0184321"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D003160",
+          "content": "Comparative Study"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "MOTIVATION",
+          "content": "Disease classification from molecular measurements typically requires an analysis pipeline from raw noisy measurements to final classification results. Multi capillary column-ion mobility spectrometry (MCC-IMS) is a promising technology for the detection of volatile organic compounds in the air of exhaled breath. From raw measurements, the peak regions representing the compounds have to be identified, quantified, and clustered across different experiments. Currently, several steps of this analysis process require manual intervention of human experts. Our goal is to identify a fully automatic pipeline that yields competitive disease classification results compared to an established but subjective and tedious semi-manual process."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHOD",
+          "content": "We combine a large number of modern methods for peak detection, peak clustering, and multivariate classification into analysis pipelines for raw MCC-IMS data. We evaluate all combinations on three different real datasets in an unbiased cross-validation setting. We determine which specific algorithmic combinations lead to high AUC values in disease classifications across the different medical application scenarios."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The best fully automated analysis process achieves even better classification results than the established manual process. The best algorithms for the three analysis steps are (i) SGLTR (Savitzky-Golay Laplace-operator filter thresholding regions) and LM (Local Maxima) for automated peak identification, (ii) EM clustering (Expectation Maximization) and DBSCAN (Density-Based Spatial Clustering of Applications with Noise) for the clustering step and (iii) RF (Random Forest) for multivariate classification. Thus, automated methods can replace the manual steps in the analysis process to enable an unbiased high throughput use of the technology."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Salome",
+            "LastName": "Horsch",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, TU Dortmund University, Dortmund, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dominik",
+            "LastName": "Kopczynski",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Bioinformatics, Computer Science XI, TU Dortmund University, Dortmund, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elias",
+            "LastName": "Kuthe",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Genome Informatics, Institute of Human Genetics, University of Duisburg-Essen, University Hospital Essen, Essen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jörg Ingo",
+            "LastName": "Baumbach",
+            "Initials": "JI",
+            "AffiliationInfo": {"Affiliation": "Faculty of Applied Chemistry, Reutlingen University, Reutlingen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sven",
+            "LastName": "Rahmann",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Bioinformatics, Computer Science XI, TU Dortmund University, Dortmund, Germany."},
+              {"Affiliation": "Genome Informatics, Institute of Human Genetics, University of Duisburg-Essen, University Hospital Essen, Essen, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8947-440X"
+            },
+            "ForeName": "Jörg",
+            "LastName": "Rahnenführer",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, TU Dortmund University, Dortmund, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "A detailed comparison of analysis processes for MCC-IMS data in disease classification-Automated methods can replace manual peak annotations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0184321"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D057205",
+          "MajorTopicYN": "N",
+          "content": "Automation, Laboratory"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "N",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001944",
+          "MajorTopicYN": "N",
+          "content": "Breath Tests"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D066289",
+        "MajorTopicYN": "Y",
+        "content": "Data Curation"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "Y",
+        "content": "Models, Theoretical"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "N",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D013057",
+          "MajorTopicYN": "Y",
+          "content": "Spectrum Analysis"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 12
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Metabolites. 2013 Apr 16;3(2):277-93",
+        "PMID": {
+          "Version": 1,
+          "content": 24957992
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Algorithms Mol Biol. 2015 May 13;10:17",
+        "PMID": {
+          "Version": 1,
+          "content": 26157473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Breath Res. 2014 Jun;8(2):027104",
+        "PMID": {
+          "Version": 1,
+          "content": 24682214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Jan 22;15:25",
+        "PMID": {
+          "Version": 1,
+          "content": 24450533
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Syst Bioinformatics Conf. 2007;6:391-401",
+        "PMID": {
+          "Version": 1,
+          "content": 17951842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Chem. 2006 May;52(5):800-11",
+        "PMID": {
+          "Version": 1,
+          "content": 16513771
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28910313
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28910313,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0184321",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-12936",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5598980",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

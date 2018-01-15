@@ -1,0 +1,643 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "55-63"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIH HHS",
+            "Country": "United States",
+            "GrantID": "DP2 OD006469",
+            "Acronym": "OD"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB009048",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "PHS HHS",
+            "Country": "United States",
+            "GrantID": "DO006469A"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01EB009048",
+            "Acronym": "EB"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2013 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "BACKGROUND",
+            "content": "Contact heat evoked potentials (CHEP) is a thermal stimulus modality used in pain research. We examine a commercial CHEP stimulator (CHEPS) that is designed to work in an fMRI environment, but poorly understood in the MEG environment. The CHEPS attains target temperatures rapidly using sophisticated control signals that unfortunately induce artifacts in the MEG. In this paper, we summarize our experiences using the CHEPS in MEG to study pain using an experimental paradigm, and propose a novel method for managing its artifact."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "NEW METHOD",
+            "content": "We introduce a novel damped sinusoid modeling (DSM) technique to remove the CHEPS artifact based on estimates of the underlying sinusoids and damping factors. We show comparisons to signal space projection (SSP) and temporal signal space separation (tSSS) methods."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The CHEPS artifact is highly dynamic, yet deterministic, switching rapidly from one frequency to another, with different spatial components. The galvanic connection between the subject and the CHEPS probe alters its performance, making pre-characterization difficult."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "COMPARISON WITH EXISTING METHODS",
+            "content": "SSP methods failed to remove the artifact completely. TSSS performed better than SSP; however, tSSS requires the use of a multipolar head model that decreases the dimensionality and possibly the information content of the data. In contrast, DSM offers a strictly temporal modeling approach in which the artifact is estimated as a sum of damped sinusoids which is subtracted from the data."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "Though the CHEPS increases the noise floor and introduces artifacts to the data, we believe the device can be successfully used in MEG if appropriate artifact removal techniques are followed."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Raghavan",
+            "LastName": "Gopalakrishnan",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Center for Neurological Restoration, Cleveland Clinic, Cleveland, OH 44195, USA. Electronic address: gopalar@ccf.org."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andre G",
+            "LastName": "Machado",
+            "Initials": "AG"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Richard C",
+            "LastName": "Burgess",
+            "Initials": "RC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John C",
+            "LastName": "Mosher",
+            "Initials": "JC"
+          }
+        ]
+      },
+      "ArticleTitle": "The use of contact heat evoked potential stimulator (CHEPS) in magnetoencephalography for pain research.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jneumeth.2013.08.015"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0165-0270(13)00286-0"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 220,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2013,
+            "Day": 30
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Neurosci. Methods",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-678X"
+        },
+        "Title": "Journal of neuroscience methods"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 10,
+      "Year": 2013,
+      "Day": 16
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2016,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2007 Mar;128(1-2):101-10",
+        "PMID": {
+          "Version": 1,
+          "content": 17070996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2013 Jan 15;65:349-63",
+        "PMID": {
+          "Version": 1,
+          "content": 23046981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2007 Aug 29;27(35):9270-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17728441
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Anaesth. 2008 Jul;101(1):32-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18556697
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2008 Aug;100(2):815-28",
+        "PMID": {
+          "Version": 1,
+          "content": 18525021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pain. 2008 Oct;9(10):902-11",
+        "PMID": {
+          "Version": 1,
+          "content": 18619907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2009 Mar 30;178(1):120-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19118573
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2009 May;30(5):1524-34",
+        "PMID": {
+          "Version": 1,
+          "content": 18661502
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 2000 Aug;87(2):113-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10924804
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Neurophysiol. 2000 Nov;17(6):613-22",
+        "PMID": {
+          "Version": 1,
+          "content": 11151979
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Dent Educ. 2001 Dec;65(12):1378-82",
+        "PMID": {
+          "Version": 1,
+          "content": 11780656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2001 Oct;25(2):249-71",
+        "PMID": {
+          "Version": 1,
+          "content": 11812209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "News Physiol Sci. 2003 Jun;18:109-14",
+        "PMID": {
+          "Version": 1,
+          "content": 12750446
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurophysiol Clin. 2003 Dec;33(6):259-68",
+        "PMID": {
+          "Version": 1,
+          "content": 14678840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pain. 1985 Jun;22(2):151-63",
+        "PMID": {
+          "Version": 1,
+          "content": 4047701
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 1997 Mar;35(2):135-40",
+        "PMID": {
+          "Version": 1,
+          "content": 9136207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 1999 Feb;76(2):691-708",
+        "PMID": {
+          "Version": 1,
+          "content": 9929474
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Pain. 2005 Aug;9(4):463-84",
+        "PMID": {
+          "Version": 1,
+          "content": 15979027
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2006 Apr 7;51(7):1759-68",
+        "PMID": {
+          "Version": 1,
+          "content": 16552102
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson. 2006 Nov;183(1):134-41",
+        "PMID": {
+          "Version": 1,
+          "content": 16945561
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson. 2010 Feb;202(2):211-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20005138
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Apr 1;50(2):577-88",
+        "PMID": {
+          "Version": 1,
+          "content": 20026279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Brain Res. 2007 Jun;180(2):205-15",
+        "PMID": {
+          "Version": 1,
+          "content": 17287993
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS522051"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC3881311"
+      }
+    ],
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7905558,
+      "Country": "Netherlands",
+      "ISSNLinking": "0165-0270",
+      "MedlineTA": "J Neurosci Methods"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2014,
+      "Day": "03"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Artifact rejection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "CHEP(S)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Contact heat evoked potentials"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "DBS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "DSM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Damped sinusoids"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "FDA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "FID"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Food and Drug Administration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MEG"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MSR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Magnetoencephalography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "RMS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SAM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SNR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SSP"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SVD"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "TLS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "contact heat evoked potentials (stimulator)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "damped sinusoid model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "deep brain stimulation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "fMRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "free induction decay"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "functional magnetic resonance imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "magnetically shielded room"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "magnetoencephalography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "root mean square"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "signal space projection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "signal to noise ratio"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "singular value decomposition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "synthetic aperture magnetometry"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "tSSS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "temporal signal space separation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "total least squares"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "Y",
+        "content": "Artifacts"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D005073",
+          "MajorTopicYN": "N",
+          "content": "Evoked Potentials, Somatosensory"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000009",
+          "MajorTopicYN": "N",
+          "content": "adverse effects"
+        },
+        "DescriptorName": {
+          "UI": "D006358",
+          "MajorTopicYN": "N",
+          "content": "Hot Temperature"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D015225",
+        "MajorTopicYN": "Y",
+        "content": "Magnetoencephalography"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000503",
+          "MajorTopicYN": "Y",
+          "content": "physiopathology"
+        },
+        "DescriptorName": {
+          "UI": "D010146",
+          "MajorTopicYN": "N",
+          "content": "Pain"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010812",
+          "MajorTopicYN": "N",
+          "content": "Physical Stimulation"
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 23994044
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2013,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2013,
+        "Day": 13,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2013,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 4,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23994044,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0165-0270(13)00286-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jneumeth.2013.08.015",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3881311",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS522051",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

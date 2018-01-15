@@ -1,0 +1,566 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101499225,
+      "Country": "Germany",
+      "ISSNLinking": "1861-6410",
+      "MedlineTA": "Int J Comput Assist Radiol Surg"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 30
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "645-656"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE",
+          "content": "This study aims to determine the three-dimensional (3D) texture features extracted from intensity and high-order derivative maps that could reflect textural differences between bladder tumors and wall tissues, and propose a noninvasive, image-based strategy for bladder tumor differentiation preoperatively."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "A total of 62 cancerous and 62 wall volumes of interest (VOI) were extracted from T2-weighted MRI datasets of 62 patients with pathologically confirmed bladder cancer. To better reflect heterogeneous distribution of tumor tissues, 3D high-order derivative maps (the gradient and curvature maps) were calculated from each VOI. Then 3D Haralick features based on intensity and high-order derivative maps and Tamura features based on intensity maps were extracted from each VOI. Statistical analysis and recursive feature elimination-based support vector machine classifier (RFE-SVM) was proposed to first select the features with significant differences and then obtain a more predictive and compact feature subset to verify its differentiation performance."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "From each VOI, a total of 58 texture features were derived. Among them, 37 features showed significant inter-class differences ([Formula: see text]). With 29 optimal features selected by RFE-SVM, the classification results namely the sensitivity, specificity, accuracy and area under the curve (AUC) of the receiver operating characteristics were 0.9032, 0.8548, 0.8790 and 0.9045, respectively. By using synthetic minority oversampling technique to augment the sample number of each group to 200, the sensitivity, specificity, accuracy an AUC value of the feature selection-based classification were improved to 0.8967, 0.8780, 0.8874 and 0.9416, respectively."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Our results suggest that 3D texture features derived from intensity and high-order derivative maps can better reflect heterogeneous distribution of cancerous tissues. Texture features optimally selected together with sample augmentation could improve the performance on differentiating bladder carcinomas from wall tissues, suggesting a potential way for tumor noninvasive staging of bladder cancer preoperatively."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaopan",
+            "LastName": "Xu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, 710032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xi",
+            "LastName": "Zhang",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, 710032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qiang",
+            "LastName": "Tian",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Tangdu Hospital, Fourth Military Medical University, Xi'an, 710038, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guopeng",
+            "LastName": "Zhang",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, 710032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yang",
+            "LastName": "Liu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, 710032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guangbin",
+            "LastName": "Cui",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Tangdu Hospital, Fourth Military Medical University, Xi'an, 710038, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jiang",
+            "LastName": "Meng",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, 710032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuxia",
+            "LastName": "Wu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, 710032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tianshuai",
+            "LastName": "Liu",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, 710032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zengyue",
+            "LastName": "Yang",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Department of Urology, Tangdu Hospital, Fourth Military Medical University, Xi'an, 710038, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hongbing",
+            "LastName": "Lu",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, 710032, China. luhb@fmmu.edu.cn."}
+          }
+        ]
+      },
+      "ArticleTitle": "Three-dimensional texture features from intensity and high-order derivative maps for the discrimination between bladder tumors and wall tissues via MRI.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s11548-017-1522-8"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 12,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Int J Comput Assist Radiol Surg",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1861-6429"
+        },
+        "Title": "International journal of computer assisted radiology and surgery"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bladder cancer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Feature selection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "RFE-SVM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SMOTE"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Texture analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Tumor differentiation"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008279",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001743",
+          "MajorTopicYN": "N",
+          "content": "Urinary Bladder"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001749",
+          "MajorTopicYN": "N",
+          "content": "Urinary Bladder Neoplasms"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "04"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroradiology. 2014 Sep;56(9):709-21",
+        "PMID": {
+          "Version": 1,
+          "content": 24948425
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2014 Jun;38(4):267-75",
+        "PMID": {
+          "Version": 1,
+          "content": 24495469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Sep 01;6:32476",
+        "PMID": {
+          "Version": 1,
+          "content": 27582178
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2013 Aug 7;58(15):5173-92",
+        "PMID": {
+          "Version": 1,
+          "content": 23835844
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 Nov 17;112(46):E6265-73",
+        "PMID": {
+          "Version": 1,
+          "content": 26578786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Radiol. 2009 Apr;70(1):101-10",
+        "PMID": {
+          "Version": 1,
+          "content": 18242909
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2013 Jan;266(1):177-84",
+        "PMID": {
+          "Version": 1,
+          "content": 23151829
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Urol. 2003 Mar;43(3):241-5",
+        "PMID": {
+          "Version": 1,
+          "content": 12600426
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Schizophr Res. 2017 Mar;181:6-12",
+        "PMID": {
+          "Version": 1,
+          "content": 27613509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2013 Aug;20(8):930-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23830600
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 1994 Oct;193(1):239-45",
+        "PMID": {
+          "Version": 1,
+          "content": 8090898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2015 Oct;62(10 ):2402-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25955985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Oncol. 2008;47(7):1303-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18663644
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Urol. 2004 May;45(5):539-46; discussion 546",
+        "PMID": {
+          "Version": 1,
+          "content": 15082193
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Digit Imaging. 2015 Feb;28(1):99-115",
+        "PMID": {
+          "Version": 1,
+          "content": 25117512
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 2015 Sep;28(9):1174-84",
+        "PMID": {
+          "Version": 1,
+          "content": 26256809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Comput Assist Radiol Surg. 2014 Nov;9(6):1021-31",
+        "PMID": {
+          "Version": 1,
+          "content": 24696313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 1993;11(6):873-87",
+        "PMID": {
+          "Version": 1,
+          "content": 8371643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2007 Jan;31(1):46-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17070012
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2016 Jun;35(6):1522-31",
+        "PMID": {
+          "Version": 1,
+          "content": 26800530
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "CA Cancer J Clin. 2015 Mar;65(2):87-108",
+        "PMID": {
+          "Version": 1,
+          "content": 25651787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2001 Feb 1;19(3):666-75",
+        "PMID": {
+          "Version": 1,
+          "content": 11157016
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Radiol. 2015 Feb;25(2):480-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25216770
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2015 Dec;46 Pt 2:95-107",
+        "PMID": {
+          "Version": 1,
+          "content": 25795630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2009 Dec;62(6):1609-18",
+        "PMID": {
+          "Version": 1,
+          "content": 19859947
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2007 Oct;16(10):2617-28",
+        "PMID": {
+          "Version": 1,
+          "content": 17926941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Comput Assist Radiol Surg. 2016 Jan;11(1):89-97",
+        "PMID": {
+          "Version": 1,
+          "content": 26092656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2016 Apr;23 (4):279-90",
+        "PMID": {
+          "Version": 1,
+          "content": 26894327
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Jun 15;11(6):e0157330",
+        "PMID": {
+          "Version": 1,
+          "content": 27304923
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28110476
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 29,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110476,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s11548-017-1522-8",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s11548-017-1522-8",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

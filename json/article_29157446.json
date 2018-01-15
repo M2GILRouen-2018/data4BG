@@ -1,0 +1,177 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "129-136"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017. Published by Elsevier B.V.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "High-throughput measurement technologies have triggered a rise in large-scale cancer studies containing multiple levels of molecular data. While there are a number of efficient methods to analyze individual data types, there are far less that enhance data interpretation after analysis. We present the R package Director, a dynamic visualization approach to linking and interrogating multiple levels of molecular data after analysis for clinically meaningful, actionable insights."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Sankey diagrams are traditionally used to represent quantitative flows through multiple, distinct events. Regulation can be interpreted as a flow of biological information through a series of molecular interactions. Functions in Director introduce novel drawing capabilities to make Sankey diagrams robust to a wide range of quantitative measures and to depict molecular interactions as regulatory cascades. The package streamlines creation of diagrams using as input quantitative measurements identifying nodes as molecules of interest and paths as the interaction strength between two molecules."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Director's utility is demonstrated with quantitative measurements of candidate microRNA-gene networks identified in an ovarian cancer dataset. A recent study reported eight miRNAs as master regulators of signature genes in epithelial-mesenchymal transition (EMT). The Sankey diagrams generated with data from this study furthers interpretation of the miRNAs' roles by revealing potential co-regulatory behavior in the extracellular matrix (ECM). An additional analysis identified 32 genes differentially expressed between good and poor prognosis patients in four significant pathways (FDR \u202f≤\u202f 0.1), three of which support a complementary role of the ECM in ovarian cancer. The resulting diagram created with Director suggest elevated levels of COL11A1, INHBA, and THBS2 - a signature feature of metastasis [1] - and decreased levels of their targeting miRNAs define poor prognosis."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "We have demonstrated a visualization approach suitable for implementation in an analysis workflow, linking multiple levels of molecular data to gain novel perspective on candidate biomarkers in a complex disease. The diagrams are dynamic, easily replicable, and rendered locally as HTML files to facilitate sharing. The R package Director is simple to use and widely available on all operating systems through Bioconductor (http://bioconductor.org/packages/Director) and GitHub (http://kzouchka.github.io/Director)."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Katherine",
+            "LastName": "Icay",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Research Programs Unit, Genome-Scale Biology, Faculty of Medicine, University of Helsinki, Helsinki, POB 63, 00014, Finland. Electronic address: katherine.icay@helsinki.fi."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chengyu",
+            "LastName": "Liu",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Research Programs Unit, Genome-Scale Biology, Faculty of Medicine, University of Helsinki, Helsinki, POB 63, 00014, Finland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sampsa",
+            "LastName": "Hautaniemi",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Research Programs Unit, Genome-Scale Biology, Faculty of Medicine, University of Helsinki, Helsinki, POB 63, 00014, Finland. Electronic address: sampsa.hautaniemi@helsinki.fi."}
+          }
+        ]
+      },
+      "ArticleTitle": "Dynamic visualization of multi-level molecular data: The Director package in R.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30696-4"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.10.013"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 153,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 21
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29157446
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29157446,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30696-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.10.013",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

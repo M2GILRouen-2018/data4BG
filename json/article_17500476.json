@@ -1,0 +1,298 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2007,
+      "Day": "07"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1450-61"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D023361",
+          "content": "Validation Studies"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A fully automated method for coronary calcification detection from non-contrast-enhanced, ECG-gated multi-slice computed tomography (CT) data is presented. Candidates for coronary calcifications are extracted by thresholding and component labeling. These candidates include coronary calcifications, calcifications in the aorta and in the heart, and other high-density structures such as noise and bone. A dedicated set of 64 features is calculated for each candidate object. They characterize the object's spatial position relative to the heart and the aorta, for which an automatic segmentation scheme was developed, its size and shape, and its appearance, which is described by a set of approximated Gaussian derivatives for which an efficient computational scheme is presented. Three classification strategies were designed. The first one tested direct classification without feature selection. The second approach also utilized direct classification, but with feature selection. Finally, the third scheme employed two-stage classification. In a computationally inexpensive first stage, the most easily recognizable false positives were discarded. The second stage discriminated between more difficult to separate coronary calcium and other candidates. Performance of linear, quadratic, nearest neighbor, and support vector machine classifiers was compared. The method was tested on 76 scans containing 275 calcifications in the coronary arteries and 335 calcifications in the heart and aorta. The best performance was obtained employing a two-stage classification system with a k-nearest neighbor (k-NN) classifier and a feature selection scheme. The method detected 73.8% of coronary calcifications at the expense of on average 0.1 false positives per scan. A calcium score was computed for each scan and subjects were assigned one of four risk categories based on this score. The method assigned the correct risk category to 93.4% of all scans."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ivana",
+            "LastName": "Isgum",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Image Sciences Institute, University Medical Center Utrecht, Utrecht, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Annemarieke",
+            "LastName": "Rutten",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mathias",
+            "LastName": "Prokop",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bram",
+            "LastName": "van Ginneken",
+            "Initials": "B"
+          }
+        ]
+      },
+      "ArticleTitle": "Detection of coronary calcifications from computed tomography scans for automated risk assessment of coronary artery disease.",
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 34,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2007
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0094-2405"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "05",
+      "Year": 2007,
+      "Day": 15
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "N",
+        "content": "Artificial Intelligence"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D002114",
+          "MajorTopicYN": "N",
+          "content": "Calcinosis"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000209",
+            "MajorTopicYN": "N",
+            "content": "etiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011379",
+        "MajorTopicYN": "N",
+        "content": "Prognosis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018570",
+          "MajorTopicYN": "N",
+          "content": "Risk Assessment"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012307",
+        "MajorTopicYN": "N",
+        "content": "Risk Factors"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 14
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 17500476
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 5,
+        "Year": 2007,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2007,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 8,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 5,
+        "Year": 2007,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 16,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 17500476,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1118/1.2710548",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

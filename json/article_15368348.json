@@ -1,0 +1,517 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 82},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Pooling is a cost effective way to collect data for genetic association studies, particularly for rare genetic variants. It is of interest to estimate the haplotype frequencies, which contain more information than single locus statistics. By viewing the pooled genotype data as incomplete data, the expectation-maximization (EM) algorithm is the natural algorithm to use, but it is computationally intensive. A recent proposal to reduce the computational burden is to make use of database information to form a list of frequently occurring haplotypes, and to restrict the haplotypes to come from this list only in implementing the EM algorithm. There is, however, the danger of using an incorrect list, and there may not be enough database information to form a list externally in some applications."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We investigate the possibility of creating an internal list from the data at hand. One way to form such a list is to collapse the observed total minor allele frequencies to \"zero\" or \"at least one\", which is shown to have the desirable effect of amplifying the haplotype frequencies. To improve coverage, we propose ways to add and remove haplotypes from the list, and a benchmarking method to determine the frequency threshold for removing haplotypes. Simulation results show that the EM estimates based on a suitably augmented and trimmed collapsed data list (ATCDL) perform satisfactorily. In two scenarios involving 25 and 32 loci respectively, the EM-ATCDL estimates outperform the EM estimates based on other lists as well as the collapsed data maximum likelihood estimates."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The proposed augmented and trimmed CD list is a useful list for the EM algorithm to base upon in estimating the haplotype distributions of rare variants. It can handle more markers and larger pool size than existing methods, and the resulting EM-ATCDL estimates are more efficient than the EM estimates based on other lists."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anthony Y C",
+            "LastName": "Kuk",
+            "Initials": "AY",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics and Applied Probability, National University of Singapore, Singapore, 117546, Singapore. lx@nus.edu.sg."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiang",
+            "LastName": "Li",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinfeng",
+            "LastName": "Xu",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "An EM algorithm based on an internal list for estimating haplotype distributions of rare variants from pooled genotype data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1471-2156-14-82"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 14,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2013,
+            "Day": 13
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Genet.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2156"
+        },
+        "Title": "BMC genetics"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": 11,
+      "Year": 2013,
+      "Day": 15
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Res (Camb). 2008 Dec;90(6):509-24",
+        "PMID": {
+          "Version": 1,
+          "content": 19123969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genet. 2012;13:94",
+        "PMID": {
+          "Version": 1,
+          "content": 23110720
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Genomics Hum Genet. 2008;9:387-402",
+        "PMID": {
+          "Version": 1,
+          "content": 18576944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Mar;12(3):215-23",
+        "PMID": {
+          "Version": 1,
+          "content": 21301473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Nov 15;23(22):3048-55",
+        "PMID": {
+          "Version": 1,
+          "content": 17895275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Feb;12(2):77",
+        "PMID": {
+          "Version": 1,
+          "content": 21191422
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2008 Apr;36(6):e35",
+        "PMID": {
+          "Version": 1,
+          "content": 18276640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2013 Apr 15;32(8):1343-60",
+        "PMID": {
+          "Version": 1,
+          "content": 22855289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Med. 2004;36(2):146-52",
+        "PMID": {
+          "Version": 1,
+          "content": 15119834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2011 Sep 9;89(3):382-97",
+        "PMID": {
+          "Version": 1,
+          "content": 21855840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Sep 1;24(17):1896-902",
+        "PMID": {
+          "Version": 1,
+          "content": 18617537
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2006 Mar;78(3):437-50",
+        "PMID": {
+          "Version": 1,
+          "content": 16465620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2003 Feb;72(2):384-98",
+        "PMID": {
+          "Version": 1,
+          "content": 12533787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2010 Jul;34(5):479-91",
+        "PMID": {
+          "Version": 1,
+          "content": 20552648
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Feb 1;25(3):379-86",
+        "PMID": {
+          "Version": 1,
+          "content": 19050036
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Sep 1;24(17):1942-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18573795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2011 Jan-Mar;8(1):36-44",
+        "PMID": {
+          "Version": 1,
+          "content": 21071795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2004 Dec;27(4):321-33",
+        "PMID": {
+          "Version": 1,
+          "content": 15368617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2006;34(4):e27",
+        "PMID": {
+          "Version": 1,
+          "content": 16478714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2002 Nov;3(11):862-71",
+        "PMID": {
+          "Version": 1,
+          "content": 12415316
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Dec 15;25(24):3296-302",
+        "PMID": {
+          "Version": 1,
+          "content": 19861356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 1995 Sep;12(5):921-7",
+        "PMID": {
+          "Version": 1,
+          "content": 7476138
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2010 Jun;11(6):446-50",
+        "PMID": {
+          "Version": 1,
+          "content": 20479774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2002 Oct;23(3):221-33",
+        "PMID": {
+          "Version": 1,
+          "content": 12384975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2012 Dec;36(8):870-81",
+        "PMID": {
+          "Version": 1,
+          "content": 22972696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2010;6(10):e1000954",
+        "PMID": {
+          "Version": 1,
+          "content": 20976246
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2004 Dec;27(4):348-64",
+        "PMID": {
+          "Version": 1,
+          "content": 15543638
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Oct 15;26(20):2556-63",
+        "PMID": {
+          "Version": 1,
+          "content": 20801910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2005 Mar;76(3):449-62",
+        "PMID": {
+          "Version": 1,
+          "content": 15700229
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2004 Dec;27(4):334-47",
+        "PMID": {
+          "Version": 1,
+          "content": 15368348
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3847674"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100966978,
+      "Country": "England",
+      "ISSNLinking": "1471-2156",
+      "MedlineTA": "BMC Genet"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D008994",
+          "content": "Monoacylglycerol Lipases"
+        },
+        "RegistryNumber": "EC 3.1.1.23"
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D000581",
+          "content": "Amidohydrolases"
+        },
+        "RegistryNumber": "EC 3.5.-"
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "C102018",
+          "content": "fatty-acid amide hydrolase"
+        },
+        "RegistryNumber": "EC 3.5.1.-"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2014,
+      "Day": 16
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D000581",
+          "MajorTopicYN": "N",
+          "content": "Amidohydrolases"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005787",
+        "MajorTopicYN": "N",
+        "content": "Gene Frequency"
+      }},
+      {"DescriptorName": {
+        "UI": "D056426",
+        "MajorTopicYN": "N",
+        "content": "Genetic Loci"
+      }},
+      {"DescriptorName": {
+        "UI": "D014644",
+        "MajorTopicYN": "Y",
+        "content": "Genetic Variation"
+      }},
+      {"DescriptorName": {
+        "UI": "D005838",
+        "MajorTopicYN": "N",
+        "content": "Genotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D006239",
+        "MajorTopicYN": "N",
+        "content": "Haplotypes"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D008994",
+          "MajorTopicYN": "N",
+          "content": "Monoacylglycerol Lipases"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D009154",
+        "MajorTopicYN": "N",
+        "content": "Mutation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D009765",
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 24034507
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2013,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2013,
+        "Day": 28,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24034507,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1471-2156-14-82",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1471-2156-14-82",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3847674",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

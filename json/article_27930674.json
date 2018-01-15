@@ -1,0 +1,213 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101603425,
+      "Country": "United States",
+      "MedlineTA": "PeerJ"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare there are no competing interests.",
+    "Article": {
+      "DataBankList": {
+        "CompleteYN": "Y",
+        "DataBank": {
+          "DataBankName": "figshare",
+          "AccessionNumberList": {"AccessionNumber": "10.6084/m9.figshare.5259643.v1"}
+        }
+      },
+      "Pagination": {"MedlinePgn": "e3792"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Plants play a crucial role in foodstuff, medicine, industry, and environmental protection. The skill of recognising plants is very important in some applications, including conservation of endangered species and rehabilitation of lands after mining activities. However, it is a difficult task to identify plant species because it requires specialized knowledge. Developing an automated classification system for plant species is necessary and valuable since it can help specialists as well as the public in identifying plant species easily. Shape descriptors were applied on the myDAUN dataset that contains 45 tropical shrub species collected from the University of Malaya (UM), Malaysia. Based on literature review, this is the first study in the development of tropical shrub species image dataset and classification using a hybrid of leaf shape and machine learning approach. Four types of shape descriptors were used in this study namely morphological shape descriptors (MSD), Histogram of Oriented Gradients (HOG), Hu invariant moments (Hu) and Zernike moments (ZM). Single descriptor, as well as the combination of hybrid descriptors were tested and compared. The tropical shrub species are classified using six different classifiers, which are artificial neural network (ANN), random forest (RF), support vector machine (SVM), k-nearest neighbour (k-NN), linear discriminant analysis (LDA) and directed acyclic graph multiclass least squares twin support vector machine (DAG MLSTSVM). In addition, three types of feature selection methods were tested in the myDAUN dataset, Relief, Correlation-based feature selection (CFS) and Pearson's coefficient correlation (PCC). The well-known Flavia dataset and Swedish Leaf dataset were used as the validation dataset on the proposed methods. The results showed that the hybrid of all descriptors of ANN outperformed the other classifiers with an average classification accuracy of 98.23% for the myDAUN dataset, 95.25% for the Flavia dataset and 99.89% for the Swedish Leaf dataset. In addition, the Relief feature selection method achieved the highest classification accuracy of 98.13% after 80 (or 60%) of the original features were reduced, from 133 to 53 descriptors in the myDAUN dataset with the reduction in computational time. Subsequently, the hybridisation of four descriptors gave the best results compared to others. It is proven that the combination MSD and HOG were good enough for tropical shrubs species classification. Hu and ZM descriptors also improved the accuracy in tropical shrubs species classification in terms of invariant to translation, rotation and scale. ANN outperformed the others for tropical shrub species classification in this study. Feature selection methods can be used in the classification of tropical shrub species, as the comparable results could be obtained with the reduced descriptors and reduced in computational time and cost."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Miraemiliana",
+            "LastName": "Murat",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Bioinformatics Programme, Institute of Biological Sciences, Faculty of Science, University of Malaya, Kuala Lumpur, Malaysia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Siow-Wee",
+            "LastName": "Chang",
+            "Initials": "SW",
+            "AffiliationInfo": {"Affiliation": "Bioinformatics Programme, Institute of Biological Sciences, Faculty of Science, University of Malaya, Kuala Lumpur, Malaysia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arpah",
+            "LastName": "Abu",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Bioinformatics Programme, Institute of Biological Sciences, Faculty of Science, University of Malaya, Kuala Lumpur, Malaysia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hwa Jen",
+            "LastName": "Yap",
+            "Initials": "HJ",
+            "AffiliationInfo": {"Affiliation": "Department of Mechanical Engineering, Faculty of Engineering, University of Malaya, Kuala Lumpur, Malaysia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kien-Thai",
+            "LastName": "Yong",
+            "Initials": "KT",
+            "AffiliationInfo": {"Affiliation": "Ecology and Biodiversity Programme, Institute of Biological Sciences, Faculty of Science, University of Malaya, Kuala Lumpur, Malaysia."}
+          }
+        ]
+      },
+      "ArticleTitle": "Automated classification of tropical shrub species: a hybrid of leaf shape and machine learning approach.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.7717/peerj.3792"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 5,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "PeerJ",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2167-8359"
+        },
+        "Title": "PeerJ"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Feature selection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Shape descriptor"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Tropical shrubs"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 Aug 8;418(6898):671-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12167873
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(10):e25630",
+        "PMID": {
+          "Version": 1,
+          "content": 21991324
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2016 Dec 8;14 (12 ):e2001104",
+        "PMID": {
+          "Version": 1,
+          "content": 27930674
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28924506
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28924506,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.7717/peerj.3792",
+        "IdType": "doi"
+      },
+      {
+        "content": 3792,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5600178",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

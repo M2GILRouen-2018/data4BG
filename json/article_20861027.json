@@ -1,0 +1,463 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101239074,
+      "Country": "United States",
+      "ISSNLinking": "1553-7390",
+      "MedlineTA": "PLoS Genet"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 12
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1006040"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM105785",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM116065",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIAID NIH HHS",
+            "Country": "United States",
+            "GrantID": "R03 AI111396",
+            "Acronym": "AI"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "06"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Next-generation sequencing of DNA provides an unprecedented opportunity to discover rare genetic variants associated with complex diseases and traits. However, the common practice of first calling underlying genotypes and then treating the called values as known is prone to false positive findings, especially when genotyping errors are systematically different between cases and controls. This happens whenever cases and controls are sequenced at different depths, on different platforms, or in different batches. In this article, we provide a likelihood-based approach to testing rare variant associations that directly models sequencing reads without calling genotypes. We consider the (weighted) burden test statistic, which is the (weighted) sum of the score statistic for assessing effects of individual variants on the trait of interest. Because variant locations are unknown, we develop a simple, computationally efficient screening algorithm to estimate the loci that are variants. Because our burden statistic may not have mean zero after screening, we develop a novel bootstrap procedure for assessing the significance of the burden statistic. We demonstrate through extensive simulation studies that the proposed tests are robust to a wide range of differential sequencing qualities between cases and controls, and are at least as powerful as the standard genotype calling approach when the latter controls type I error. An application to the UK10K data reveals novel rare variants in gene BTBD18 associated with childhood onset obesity. The relevant software is freely available."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yi-Juan",
+            "LastName": "Hu",
+            "Initials": "YJ",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics and Bioinformatics, Emory University, Atlanta, Georgia, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peizhou",
+            "LastName": "Liao",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics and Bioinformatics, Emory University, Atlanta, Georgia, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "H Richard",
+            "LastName": "Johnston",
+            "Initials": "HR",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics and Bioinformatics, Emory University, Atlanta, Georgia, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew S",
+            "LastName": "Allen",
+            "Initials": "AS",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics and Bioinformatics, Duke University, Durham, North Carolina, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Glen A",
+            "LastName": "Satten",
+            "Initials": "GA",
+            "AffiliationInfo": {"Affiliation": "Centers for Disease Control and Prevention, Atlanta, Georgia, United States of America."}
+          }
+        ]
+      },
+      "ArticleTitle": "Testing Rare-Variant Association without Calling Genotypes Allows for Systematic Differences in Sequencing between Cases and Controls.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pgen.1006040"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 12,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Genet.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7404"
+        },
+        "Title": "PLoS genetics"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "DateCreated": {
+      "Month": "05",
+      "Year": 2016,
+      "Day": "07"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016022",
+        "MajorTopicYN": "N",
+        "content": "Case-Control Studies"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D014644",
+          "MajorTopicYN": "N",
+          "content": "Genetic Variation"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005838",
+        "MajorTopicYN": "N",
+        "content": "Genotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D059014",
+        "MajorTopicYN": "Y",
+        "content": "High-Throughput Nucleotide Sequencing"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016013",
+        "MajorTopicYN": "Y",
+        "content": "Likelihood Functions"
+      }},
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "N",
+        "content": "Phenotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D020641",
+        "MajorTopicYN": "N",
+        "content": "Polymorphism, Single Nucleotide"
+      }},
+      {"DescriptorName": {
+        "UI": "D017422",
+        "MajorTopicYN": "Y",
+        "content": "Sequence Analysis, DNA"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 12
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Oct 8;461(7265):747-53",
+        "PMID": {
+          "Version": 1,
+          "content": 19812666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Aug 15;25(16):2078-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19505943
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 May;43(5):491-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21478889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Jun;12(6):443-51",
+        "PMID": {
+          "Version": 1,
+          "content": 21587300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2011 Jul 15;89(1):82-93",
+        "PMID": {
+          "Version": 1,
+          "content": 21737059
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2012 Jul 6;337(6090):64-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22604720
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2012 Oct 15;21(R1):R1-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22983955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Nov 1;491(7422):56-65",
+        "PMID": {
+          "Version": 1,
+          "content": 23128226
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Protoc Hum Genet. 2013 Jan;Chapter 7:Unit7.20",
+        "PMID": {
+          "Version": 1,
+          "content": 23315928
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(3):e56626",
+        "PMID": {
+          "Version": 1,
+          "content": 23472072
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2014 Feb;15(2):121-32",
+        "PMID": {
+          "Version": 1,
+          "content": 24434847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Aug 1;30(15):2179-88",
+        "PMID": {
+          "Version": 1,
+          "content": 24733292
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2015 Mar;39(3):145-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25640419
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 Mar 27;347(6229):1436-41",
+        "PMID": {
+          "Version": 1,
+          "content": 25700176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Oct 1;526(7571):82-90",
+        "PMID": {
+          "Version": 1,
+          "content": 26367797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2001 Jul;69(1):124-37",
+        "PMID": {
+          "Version": 1,
+          "content": 11404818
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 1999 Sep 15-30;18(17-18):2493-505",
+        "PMID": {
+          "Version": 1,
+          "content": 10474155
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Obes (Lond). 2006 Apr;30(4):590-4",
+        "PMID": {
+          "Version": 1,
+          "content": 16570087
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2006 Mar;78(3):505-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16408254
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2005 Nov;15(11):1576-83",
+        "PMID": {
+          "Version": 1,
+          "content": 16251467
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2008 Sep;83(3):311-21",
+        "PMID": {
+          "Version": 1,
+          "content": 18691683
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2009 Feb;84(2):210-23",
+        "PMID": {
+          "Version": 1,
+          "content": 19200528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2009 Feb;5(2):e1000384",
+        "PMID": {
+          "Version": 1,
+          "content": 19214210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 Jul;19(7):1316-23",
+        "PMID": {
+          "Version": 1,
+          "content": 19498102
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Nov 15;26(22):2803-10",
+        "PMID": {
+          "Version": 1,
+          "content": 20861027
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4859496"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 27152526
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2016,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27152526,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pgen.1006040",
+        "IdType": "doi"
+      },
+      {
+        "content": "PGENETICS-D-15-03131",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC4859496",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

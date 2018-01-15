@@ -1,0 +1,564 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101245798,
+      "Country": "England",
+      "ISSNLinking": "1746-4811",
+      "MedlineTA": "Plant Methods"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 96},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Background",
+          "content": "In maize, silks are hundreds of filaments that simultaneously emerge from the ear for collecting pollen over a period of 1-7 days, which largely determines grain number especially under water deficit. Silk growth is a major trait for drought tolerance in maize, but its phenotyping is difficult at throughputs needed for genetic analyses."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "We have developed a reproducible pipeline that follows ear and silk growths every day for hundreds of plants, based on an ear detection algorithm that drives a robotized camera for obtaining detailed images of ears and silks. We first select, among 12 whole-plant side views, those best suited for detecting ear position. Images are segmented, the stem pixels are labelled and the ear position is identified based on changes in width along the stem. A mobile camera is then automatically positioned in real time at 30 cm from the ear, for a detailed picture in which silks are identified based on texture and colour. This allows analysis of the time course of ear and silk growths of thousands of plants. The pipeline was tested on a panel of 60 maize hybrids in the PHENOARCH phenotyping platform. Over 360 plants, ear position was correctly estimated in 86% of cases, before it could be visually assessed. Silk growth rate, estimated on all plants, decreased with time consistent with literature. The pipeline allowed clear identification of the effects of genotypes and water deficit on the rate and duration of silk growth."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Conclusions",
+          "content": "The pipeline presented here, which combines computer vision, machine learning and robotics, provides a powerful tool for large-scale genetic analyses of the control of reproductive growth to changes in environmental conditions in a non-invasive and automatized way. It is available as Open Source software in the OpenAlea platform."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicolas",
+            "LastName": "Brichet",
+            "Initials": "N",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0001 2097 0141"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.121334.6"
+                }
+              ],
+              "Affiliation": "LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christian",
+            "LastName": "Fournier",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {
+                "Identifier": [
+                  {
+                    "Source": "ISNI",
+                    "content": "0000 0001 2097 0141"
+                  },
+                  {
+                    "Source": "GRID",
+                    "content": "grid.121334.6"
+                  }
+                ],
+                "Affiliation": "LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France."
+              },
+              {"Affiliation": "Inria, Virtual Plants, Montpellier, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Olivier",
+            "LastName": "Turc",
+            "Initials": "O",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0001 2097 0141"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.121334.6"
+                }
+              ],
+              "Affiliation": "LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Olivier",
+            "LastName": "Strauss",
+            "Initials": "O",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0001 2097 0141"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.121334.6"
+                }
+              ],
+              "Affiliation": "LIRMM, Department of Robotics, Univ Montpellier, 34392 Montpellier, France."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Simon",
+            "LastName": "Artzet",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {
+                "Identifier": [
+                  {
+                    "Source": "ISNI",
+                    "content": "0000 0001 2097 0141"
+                  },
+                  {
+                    "Source": "GRID",
+                    "content": "grid.121334.6"
+                  }
+                ],
+                "Affiliation": "LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France."
+              },
+              {"Affiliation": "Inria, Virtual Plants, Montpellier, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-2555-761X"
+            },
+            "ForeName": "Christophe",
+            "LastName": "Pradal",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "Inria, Virtual Plants, Montpellier, France."},
+              {
+                "Identifier": [
+                  {
+                    "Source": "ISNI",
+                    "content": "0000 0001 2153 9871"
+                  },
+                  {
+                    "Source": "GRID",
+                    "content": "grid.8183.2"
+                  }
+                ],
+                "Affiliation": "CIRAD, UMR AGAP, 34398 Montpellier, France."
+              },
+              {
+                "Identifier": [
+                  {
+                    "Source": "ISNI",
+                    "content": "0000 0001 2172 5332"
+                  },
+                  {
+                    "Source": "GRID",
+                    "content": "grid.434209.8"
+                  }
+                ],
+                "Affiliation": "AGAP, Univ Montpellier, CIRAD, INRA, Inria, Montpellier SupAgro, Montpellier, France."
+              }
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Claude",
+            "LastName": "Welcker",
+            "Initials": "C",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0001 2097 0141"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.121334.6"
+                }
+              ],
+              "Affiliation": "LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-7287-0094"
+            },
+            "ForeName": "François",
+            "LastName": "Tardieu",
+            "Initials": "F",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0001 2097 0141"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.121334.6"
+                }
+              ],
+              "Affiliation": "LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-2147-2846"
+            },
+            "ForeName": "Llorenç",
+            "LastName": "Cabrera-Bosquet",
+            "Initials": "L",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0001 2097 0141"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.121334.6"
+                }
+              ],
+              "Affiliation": "LEPSE, INRA, Montpellier SupAgro, Univ Montpellier, Montpellier, France."
+            }
+          }
+        ]
+      },
+      "ArticleTitle": "A robot-assisted imaging pipeline for tracking the growths of maize ear and silks in a high-throughput phenotyping platform.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13007-017-0246-7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 13,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Plant Methods",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1746-4811"
+        },
+        "Title": "Plant methods"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Computer vision"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image-assisted phenotyping"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Maize"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Robot-assisted imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Water deficit"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2016 Aug 9;113(32):8963-8",
+        "PMID": {
+          "Version": 1,
+          "content": 27457942
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2002 Nov;130(3):1181-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12427985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Methods. 2017 Mar 31;13:21",
+        "PMID": {
+          "Version": 1,
+          "content": 28373892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2014 Jun 19;2:e453",
+        "PMID": {
+          "Version": 1,
+          "content": 25024921
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Methods. 2011 Feb 01;7:2",
+        "PMID": {
+          "Version": 1,
+          "content": 21284859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2017 Nov;175(3):1121-1134",
+        "PMID": {
+          "Version": 1,
+          "content": 28899961
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2016 Oct;172(2):823-834",
+        "PMID": {
+          "Version": 1,
+          "content": 27528244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2017 Aug 7;27(15):R770-R783",
+        "PMID": {
+          "Version": 1,
+          "content": 28787611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Bot. 2014 Nov;65(21):6205-18",
+        "PMID": {
+          "Version": 1,
+          "content": 25381432
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2016 Nov;172(3):1358-1370",
+        "PMID": {
+          "Version": 1,
+          "content": 27663410
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Plant Sci. 2017 Jun 09;8:900",
+        "PMID": {
+          "Version": 1,
+          "content": 28659934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Bot. 2017 Mar 1;119(4):517-532",
+        "PMID": {
+          "Version": 1,
+          "content": 28065926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Bot. 2016 May;67(11):3587-99",
+        "PMID": {
+          "Version": 1,
+          "content": 27141917
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2014 Apr 23;165(2):506-518",
+        "PMID": {
+          "Version": 1,
+          "content": 24760818
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "New Phytol. 2016 Oct;212(2):377-88",
+        "PMID": {
+          "Version": 1,
+          "content": 27400762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Jul 27;14:238",
+        "PMID": {
+          "Version": 1,
+          "content": 23890277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 May 12;12:148",
+        "PMID": {
+          "Version": 1,
+          "content": 21569390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "New Phytol. 2016 Oct;212(1):269-81",
+        "PMID": {
+          "Version": 1,
+          "content": 27258481
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Bot. 2015 Sep;66(18):5581-93",
+        "PMID": {
+          "Version": 1,
+          "content": 26034130
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2016 Jun;171(2):986-96",
+        "PMID": {
+          "Version": 1,
+          "content": 26598464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Dec 30;10(12):e0145540",
+        "PMID": {
+          "Version": 1,
+          "content": 26717192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Bot. 2016 Aug;67(15):4523-34",
+        "PMID": {
+          "Version": 1,
+          "content": 27312669
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Integr Plant Biol. 2012 May;54(5):312-20",
+        "PMID": {
+          "Version": 1,
+          "content": 22420640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell Environ. 2008 Sep;31(9):1349-60",
+        "PMID": {
+          "Version": 1,
+          "content": 18518916
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29176999
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29176999,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13007-017-0246-7",
+        "IdType": "doi"
+      },
+      {
+        "content": 246,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5688816",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

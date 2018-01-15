@@ -1,0 +1,608 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors have declared that no competing interests exist.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005329"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Many bacteria perform a run-and-tumble random walk to explore their surrounding and to perform chemotaxis. In this article we present a novel method to infer the relevant parameters of bacterial motion from experimental trajectories including the tumbling events. We introduce a stochastic model for the orientation angle, where a shot-noise process initiates tumbles, and analytically calculate conditional moments, reminiscent of Kramers-Moyal coefficients. Matching them with the moments calculated from experimental trajectories of the bacteria E. coli and Pseudomonas putida, we are able to infer their respective tumble rates, the rotational diffusion constants, and the distributions of tumble angles in good agreement with results from conventional tumble recognizers. We also define a novel tumble recognizer, which explicitly quantifies the error in recognizing tumbles. In the presence of a chemical gradient we condition the moments on the bacterial direction of motion and thereby explore the chemotaxis strategy. For both bacteria we recover and quantify the classical chemotactic strategy, where the tumble rate is smallest along the chemical gradient. In addition, for E. coli we detect some cells, which bias their mean tumble angle towards smaller values. Our findings are supported by a scaling analysis of appropriate ratios of conditional moments, which are directly calculated from experimental data."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-0220-7270"
+            },
+            "ForeName": "Oliver",
+            "LastName": "Pohl",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Institute of Theoretical Physics, Technical University Berlin, Berlin, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marius",
+            "LastName": "Hintsche",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Institute of Physics and Astronomy, University of Potsdam, Potsdam, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8803-7390"
+            },
+            "ForeName": "Zahra",
+            "LastName": "Alirezaeizanjani",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Institute of Physics and Astronomy, University of Potsdam, Potsdam, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8423-2276"
+            },
+            "ForeName": "Maximilian",
+            "LastName": "Seyrich",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Institute of Theoretical Physics, Technical University Berlin, Berlin, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Carsten",
+            "LastName": "Beta",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Institute of Physics and Astronomy, University of Potsdam, Potsdam, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Holger",
+            "LastName": "Stark",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Institute of Theoretical Physics, Technical University Berlin, Berlin, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Inferring the Chemotactic Strategy of P. putida and E. coli Using Modified Kramers-Moyal Coefficients.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005329"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D002633",
+          "MajorTopicYN": "N",
+          "content": "Chemotaxis"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000166",
+            "MajorTopicYN": "N",
+            "content": "cytology"
+          },
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "Y",
+            "content": "physiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D004926",
+          "MajorTopicYN": "N",
+          "content": "Escherichia coli"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018715",
+          "MajorTopicYN": "N",
+          "content": "Microscopy, Video"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000166",
+            "MajorTopicYN": "N",
+            "content": "cytology"
+          },
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "Y",
+            "content": "physiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D016958",
+          "MajorTopicYN": "N",
+          "content": "Pseudomonas putida"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D013269",
+        "MajorTopicYN": "N",
+        "content": "Stochastic Processes"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Jan 31;109(5):1802-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22307649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2011 May 4;100(9):2193-200",
+        "PMID": {
+          "Version": 1,
+          "content": 21539787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Plant Physiol. 1995 Jul;146(4):474-80",
+        "PMID": {
+          "Version": 1,
+          "content": 11540411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2014 Jun 13;112(23):238303",
+        "PMID": {
+          "Version": 1,
+          "content": 24972234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Phys J E Soft Matter. 2015 Aug;38(8):93",
+        "PMID": {
+          "Version": 1,
+          "content": 26314260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2015 Nov 02;6:8776",
+        "PMID": {
+          "Version": 1,
+          "content": 26522289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1995 Jul 27;376(6538):344-8",
+        "PMID": {
+          "Version": 1,
+          "content": 7630402
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2012 Jun 29;108(26):268303",
+        "PMID": {
+          "Version": 1,
+          "content": 23005020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2012 Jan 20;108(3):038303",
+        "PMID": {
+          "Version": 1,
+          "content": 22400792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Microbiol. 2011 May;13(5):1115-24",
+        "PMID": {
+          "Version": 1,
+          "content": 21087385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2010 Mar 19;6(3):e1000717",
+        "PMID": {
+          "Version": 1,
+          "content": 20333235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2014 Jan 7;106(1):37-46",
+        "PMID": {
+          "Version": 1,
+          "content": 24411235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 2008 Apr 9;27(7):1134-44",
+        "PMID": {
+          "Version": 1,
+          "content": 18337747
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 Sep 27;108(39):16235-40",
+        "PMID": {
+          "Version": 1,
+          "content": 21918111
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2007 Jul 6;99(1):010602",
+        "PMID": {
+          "Version": 1,
+          "content": 17678144
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2013 Oct 15;105(8):1915-24",
+        "PMID": {
+          "Version": 1,
+          "content": 24138867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Phys. 2006 Feb 28;124(8):084106",
+        "PMID": {
+          "Version": 1,
+          "content": 16512707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2009 Mar 18;96(6):2439-48",
+        "PMID": {
+          "Version": 1,
+          "content": 19289068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1999 Jan 14;397(6715):168-71",
+        "PMID": {
+          "Version": 1,
+          "content": 9923680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 1997 Oct;63(10 ):4111-5",
+        "PMID": {
+          "Version": 1,
+          "content": 9327579
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2013 Feb 22;339(6122):936-40",
+        "PMID": {
+          "Version": 1,
+          "content": 23371555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Apr 7;106(14):5464-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19336580
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiology. 1996 Oct;142 ( Pt 10):2777-83",
+        "PMID": {
+          "Version": 1,
+          "content": 8885393
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Microbiol. 2004 Dec;12 (12 ):569-76",
+        "PMID": {
+          "Version": 1,
+          "content": 15539117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Apr 1;428(6982):574-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15058306
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lab Chip. 2006 Aug;6(8):974-80",
+        "PMID": {
+          "Version": 1,
+          "content": 16874365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1975 Oct 24;190(4212):377-9",
+        "PMID": {
+          "Version": 1,
+          "content": 170679
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(4):e35412",
+        "PMID": {
+          "Version": 1,
+          "content": 22530021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 Feb 8;108(6):2246-51",
+        "PMID": {
+          "Version": 1,
+          "content": 21205908
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2014 Sep 19;5:4829",
+        "PMID": {
+          "Version": 1,
+          "content": 25234416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013 Oct;9(10):e1003276",
+        "PMID": {
+          "Version": 1,
+          "content": 24204227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bacteriol. 1997 Feb;179(4):1428-30",
+        "PMID": {
+          "Version": 1,
+          "content": 9023235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 1950 Mar;5(1):10-44",
+        "PMID": {
+          "Version": 1,
+          "content": 15433975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bacteriol. 1976 Sep;127(3):1039-46",
+        "PMID": {
+          "Version": 1,
+          "content": 783127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1986 Dec;83(23):8987-91",
+        "PMID": {
+          "Version": 1,
+          "content": 3024160
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Mar 27;109(13):4780-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22411815
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1972 Oct 27;239(5374):500-4",
+        "PMID": {
+          "Version": 1,
+          "content": 4563019
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(5):e37213",
+        "PMID": {
+          "Version": 1,
+          "content": 22662138
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Mol Sci. 2013 Apr 26;14(5):9205-48",
+        "PMID": {
+          "Version": 1,
+          "content": 23624608
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28114420
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": "08",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 21,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114420,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005329",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-16-00743",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5293273",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

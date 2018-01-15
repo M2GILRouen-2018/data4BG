@@ -1,0 +1,952 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D002843",
+        "content": "Chromatin"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005708"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Gene order is not random in eukaryotic chromosomes, and co-regulated genes tend to be clustered. The mechanisms that determine co-regulation of large regions of the genome and its connection with chromatin three-dimensional (3D) organization are still unclear however. Here we have adapted a recently described method for identifying chromatin topologically associating domains (TADs) to identify coexpression domains (which we term \"CODs\"). Using human normal breast and breast cancer RNA-seq data, we have identified approximately 500 CODs. CODs in the normal and breast cancer genomes share similar characteristics but differ in their gene composition. COD genes have a greater tendency to be coexpressed with genes that reside in other CODs than with non-COD genes. Such inter-COD coexpression is maintained over large chromosomal distances in the normal genome but is partially lost in the cancer genome. Analyzing the relationship between CODs and chromatin 3D organization using Hi-C contact data, we find that CODs do not correspond to TADs. In fact, intra-TAD gene coexpression is the same as random for most chromosomes. However, the contact profile is similar between gene pairs that reside either in the same COD or in coexpressed CODs. These data indicate that co-regulated genes in the genome present similar patterns of contacts irrespective of the frequency of physical chromatin contacts between them."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "María E",
+            "LastName": "Soler-Oliva",
+            "Initials": "ME",
+            "AffiliationInfo": {"Affiliation": "Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Sevilla, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "José A",
+            "LastName": "Guerrero-Martínez",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Sevilla, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Valentina",
+            "LastName": "Bachetti",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Sevilla, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8042-5142"
+            },
+            "ForeName": "José C",
+            "LastName": "Reyes",
+            "Initials": "JC",
+            "AffiliationInfo": {"Affiliation": "Centro Andaluz de Biología Molecular y Medicina Regenerativa-CABIMER, Consejo Superior de Investigaciones Científicas-Universidad de Sevilla-Universidad Pablo de Olavide (CSIC-USE-UPO), Sevilla, Spain."}
+          }
+        ]
+      },
+      "ArticleTitle": "Analysis of the relationship between coexpression domains and chromatin 3D organization.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005708"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001940",
+          "MajorTopicYN": "N",
+          "content": "Breast"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001943",
+          "MajorTopicYN": "N",
+          "content": "Breast Neoplasms"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "Y",
+            "content": "metabolism"
+          },
+          {
+            "UI": "Q000648",
+            "MajorTopicYN": "Y",
+            "content": "ultrastructure"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D002843",
+          "MajorTopicYN": "N",
+          "content": "Chromatin"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D042002",
+        "MajorTopicYN": "N",
+        "content": "Chromatin Assembly and Disassembly"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "N",
+        "content": "Computational Biology"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D020869",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Profiling"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D005786",
+          "MajorTopicYN": "N",
+          "content": "Gene Expression Regulation"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D053263",
+          "MajorTopicYN": "N",
+          "content": "Gene Regulatory Networks"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D016678",
+          "MajorTopicYN": "N",
+          "content": "Genome"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 10
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jul;41(Web Server issue):W77-83",
+        "PMID": {
+          "Version": 1,
+          "content": 23703215
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2002 Apr 5;296(5565):158-62",
+        "PMID": {
+          "Version": 1,
+          "content": 11935030
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2014 Dec 18;159(7):1665-80",
+        "PMID": {
+          "Version": 1,
+          "content": 25497547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 1998 Aug;8(8):817-25",
+        "PMID": {
+          "Version": 1,
+          "content": 9724327
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2003;4(2):P1",
+        "PMID": {
+          "Version": 1,
+          "content": 12620117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 1998 Mar 16;17(6):1768-78",
+        "PMID": {
+          "Version": 1,
+          "content": 9501098
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol. 2002;1(1):5",
+        "PMID": {
+          "Version": 1,
+          "content": 12144710
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Mar 14;152(6):1270-84",
+        "PMID": {
+          "Version": 1,
+          "content": 23498936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2016 Mar 10;164(6):1110-1121",
+        "PMID": {
+          "Version": 1,
+          "content": 26967279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2016 Jul 14;166(2):358-368",
+        "PMID": {
+          "Version": 1,
+          "content": 27293191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2015 Jun 9;11(9):1350-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26004186
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cold Spring Harb Perspect Biol. 2010 Sep;2(9):a000729",
+        "PMID": {
+          "Version": 1,
+          "content": 20668006
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2013 Oct;29(10):569-74",
+        "PMID": {
+          "Version": 1,
+          "content": 23810203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2004 Oct;36(10):1065-71",
+        "PMID": {
+          "Version": 1,
+          "content": 15361872
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Oct;9(10):999-1003",
+        "PMID": {
+          "Version": 1,
+          "content": 22941365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2015 Feb 13;427(3):608-25",
+        "PMID": {
+          "Version": 1,
+          "content": 25280896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 2006 Jun 1;20(11):1447-57",
+        "PMID": {
+          "Version": 1,
+          "content": 16705039
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2000 Mar;16(3):109-11",
+        "PMID": {
+          "Version": 1,
+          "content": 10689350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Genet. 2015;49:627-46",
+        "PMID": {
+          "Version": 1,
+          "content": 26436457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2010 Jan 8;395(1):1-10",
+        "PMID": {
+          "Version": 1,
+          "content": 19852969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2002 Jun;31(2):180-3",
+        "PMID": {
+          "Version": 1,
+          "content": 11992122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2003 Jul 15;12 (14 ):1725-35",
+        "PMID": {
+          "Version": 1,
+          "content": 12837695
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 2016 Jun 10;474(4):673-679",
+        "PMID": {
+          "Version": 1,
+          "content": 27155152
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Evol. 2002 Apr;54(4):511-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11956689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 Jun 20;417(6891):851-4",
+        "PMID": {
+          "Version": 1,
+          "content": 12075352
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Apr 11;485(7398):376-80",
+        "PMID": {
+          "Version": 1,
+          "content": 22495300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 1998 Nov;7(12):1967-78",
+        "PMID": {
+          "Version": 1,
+          "content": 9811942
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Cell. 2012 Nov 13;22(5):585-600",
+        "PMID": {
+          "Version": 1,
+          "content": 23153533
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Mar 12;160(6):1049-59",
+        "PMID": {
+          "Version": 1,
+          "content": 25768903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Signal. 2013 Apr 02;6(269):pl1",
+        "PMID": {
+          "Version": 1,
+          "content": 23550210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cold Spring Harb Perspect Biol. 2010 Mar;2(3):a003889",
+        "PMID": {
+          "Version": 1,
+          "content": 20300217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Endocrine. 2002 Jun;18(1):57-66",
+        "PMID": {
+          "Version": 1,
+          "content": 12166625
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2004 Jan 1;64(1):40-7",
+        "PMID": {
+          "Version": 1,
+          "content": 14729606
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2004 Jan 13;5(1):4",
+        "PMID": {
+          "Version": 1,
+          "content": 14718066
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 2014 Oct 1;28(19):2151-62",
+        "PMID": {
+          "Version": 1,
+          "content": 25274727
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2016 Nov 17;167(5):1170-1187",
+        "PMID": {
+          "Version": 1,
+          "content": 27863239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2015 Sep 28;16:214",
+        "PMID": {
+          "Version": 1,
+          "content": 26415882
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2016 Oct 11;17 (3):876-890",
+        "PMID": {
+          "Version": 1,
+          "content": 27732861
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2004 Apr;5(4):299-310",
+        "PMID": {
+          "Version": 1,
+          "content": 15131653
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2000 Oct;26(2):183-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11017073
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2006 May;4(5):e138",
+        "PMID": {
+          "Version": 1,
+          "content": 16623600
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2016 Apr 21;62(2):237-47",
+        "PMID": {
+          "Version": 1,
+          "content": 27067601
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2008 Mar 13;452(7184):243-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18272965
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Jul 5;7(27):41748-41757",
+        "PMID": {
+          "Version": 1,
+          "content": 27203390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 Dec 12;420(6916):666-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12478293
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 2010 Feb 1;24(3):277-89",
+        "PMID": {
+          "Version": 1,
+          "content": 20123907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2016 Dec;17 (12 ):743-755",
+        "PMID": {
+          "Version": 1,
+          "content": 27580841
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2006 Sep;23(9):1715-23",
+        "PMID": {
+          "Version": 1,
+          "content": 16757654
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2010 Jan;42(1):53-61",
+        "PMID": {
+          "Version": 1,
+          "content": 20010836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Mar 15;30(6):748-52",
+        "PMID": {
+          "Version": 1,
+          "content": 24162464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Epigenetics Chromatin. 2012 Jan 09;5(1):1",
+        "PMID": {
+          "Version": 1,
+          "content": 22230046
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2004 Jan;14(1):62-6",
+        "PMID": {
+          "Version": 1,
+          "content": 14707170
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Genet Cytogenet. 1990 Oct 15;49(2):203-17",
+        "PMID": {
+          "Version": 1,
+          "content": 2170003
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(11):e50653",
+        "PMID": {
+          "Version": 1,
+          "content": 23209799
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Apr 20;44(7):e70",
+        "PMID": {
+          "Version": 1,
+          "content": 26704975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 May;13(5):875-82",
+        "PMID": {
+          "Version": 1,
+          "content": 12695325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 Feb;13(2):238-43",
+        "PMID": {
+          "Version": 1,
+          "content": 12566401
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2008 Mar;91(3):243-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18082363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chem Rev. 2013 Nov 13;113(11):8683-705",
+        "PMID": {
+          "Version": 1,
+          "content": 23597155
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 Oct 16;43(11):1059-65",
+        "PMID": {
+          "Version": 1,
+          "content": 22001755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Apr 11;485(7398):381-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22495304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2009 Oct 9;326(5950):289-93",
+        "PMID": {
+          "Version": 1,
+          "content": 19815776
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Biomed Sci. 2000;57(2):170-8",
+        "PMID": {
+          "Version": 1,
+          "content": 10912295
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2007 May;89(5):580-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17369017
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2016 Mar 22;113(12):E1691-700",
+        "PMID": {
+          "Version": 1,
+          "content": 26957603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Genet. 2017 Feb;33(2):129-142",
+        "PMID": {
+          "Version": 1,
+          "content": 28012572
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Apr 21;106(16):6679-84",
+        "PMID": {
+          "Version": 1,
+          "content": 19276122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004 Nov 01;32(19):5861-73",
+        "PMID": {
+          "Version": 1,
+          "content": 15520469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pathol. 2003 Dec;201(4):555-61",
+        "PMID": {
+          "Version": 1,
+          "content": 14648658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2015 Apr;25(4):504-13",
+        "PMID": {
+          "Version": 1,
+          "content": 25677180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 1998 Jul;2(1):65-73",
+        "PMID": {
+          "Version": 1,
+          "content": 9702192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 Aug 29;418(6901):975-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12214599
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2001 Feb 16;291(5507):1289-92",
+        "PMID": {
+          "Version": 1,
+          "content": 11181992
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2012 Feb 3;148(3):458-72",
+        "PMID": {
+          "Version": 1,
+          "content": 22265598
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2004 Oct 22;306(5696):644-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15499009
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(5):e19541",
+        "PMID": {
+          "Version": 1,
+          "content": 21602921
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Nov 1;39(20):8677-88",
+        "PMID": {
+          "Version": 1,
+          "content": 21785136
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2007 Nov;5(11):e309",
+        "PMID": {
+          "Version": 1,
+          "content": 18031200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2011 Dec 25;30(1):90-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22198700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2015 May 12;11(5):e1004221",
+        "PMID": {
+          "Version": 1,
+          "content": 25965262
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28902867
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28902867,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005708",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-00242",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5612749",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,202 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Hyperspectral images (HSI) provide rich information which may not be captured by other sensing technologies and therefore gradually find a wide range of applications. However, they also generate a large amount of irrelevant or redundant data for a specific task. This causes a number of issues including significantly increased computation time, complexity and scale of prediction models mapping the data to semantics (e.g., classification), and the need of a large amount of labelled data for training. Particularly, it is generally difficult and expensive for experts to acquire sufficient training samples in many applications. This paper addresses these issues by exploring a number of classical dimension reduction algorithms in machine learning communities for HSI classification. To reduce the size of training dataset, feature selection (e.g., mutual information, minimal redundancy maximal relevance) and feature extraction (e.g., Principal Component Analysis (PCA), Kernel PCA) are adopted to augment a baseline classification method, Support Vector Machine (SVM). The proposed algorithms are evaluated using a real HSI dataset. It is shown that PCA yields the most promising performance in reducing the number of features or spectral bands. It is observed that while significantly reducing the computational complexity, the proposed method can achieve better classification results over the classic SVM on a small training dataset, which makes it suitable for real-time applications or when only limited training data are available. Furthermore, it can also achieve performances similar to the classic SVM on large datasets but with much less computing time."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-3121-7208"
+            },
+            "ForeName": "Jinya",
+            "LastName": "Su",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Aeronautical and Automotive Engineering, Loughborough University, Loughborough LE11 3TU, UK. J.Su2@lboro.ac.uk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dewei",
+            "LastName": "Yi",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Aeronautical and Automotive Engineering, Loughborough University, Loughborough LE11 3TU, UK. D.Yi@lboro.ac.uk."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0003-2829-9369"
+            },
+            "ForeName": "Cunjia",
+            "LastName": "Liu",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Aeronautical and Automotive Engineering, Loughborough University, Loughborough LE11 3TU, UK. C.Liu5@lboro.ac.uk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lei",
+            "LastName": "Guo",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "School of Electrical Engineering and Automation, Beihang University, Beijing 100191, China. lguo@buaa.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wen-Hua",
+            "LastName": "Chen",
+            "Initials": "WH",
+            "AffiliationInfo": {"Affiliation": "Department of Aeronautical and Automotive Engineering, Loughborough University, Loughborough LE11 3TU, UK. W.Chen@lboro.ac.uk."}
+          }
+        ]
+      },
+      "ArticleTitle": "Dimension Reduction Aided Hyperspectral Image Classification with a Small-sized Training Dataset: Experimental Comparisons.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2726"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17122726"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Hyperspectral image"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PCA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SVM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "feature extraction/selection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "image classification"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29186846
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186846,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17122726",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17122726",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

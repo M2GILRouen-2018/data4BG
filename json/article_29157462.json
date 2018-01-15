@@ -1,0 +1,203 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "61-69"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 The Authors. Published by Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "One of the most relevant dermoscopic patterns is the pigment network. An innovative method of pattern recognition is presented for its detection in dermoscopy images."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "It consists of two steps. In the first one, by means of a supervised machine learning process and after performing the extraction of different colour and texture features, a fuzzy classification of pixels into the three categories present in the pattern's definition (\"net\", \"hole\" and \"other\") is carried out. This enables the three corresponding fuzzy sets to be created and, as a result, the three probability images that map them out are generated. In the second step, the pigment network pattern is characterised from a parameterisation process -derived from the system specification- and the subsequent extraction of different features calculated from the combinations of image masks extracted from the probability images, corresponding to the alpha-cuts obtained from the fuzzy sets."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The method was tested on a database of 875 images -by far the largest used in the state of the art to detect pigment network- extracted from a public Atlas of Dermoscopy, obtaining AUC results of 0.912 and 88%% accuracy, with 90.71%% sensitivity and 83.44%% specificity."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The main contribution of this method is the very design of the algorithm, highly innovative, which could also be used to deal with other pattern recognition problems of a similar nature. Other contributions are: 1. The good performance in discriminating between the pattern and the disturbing artefacts -which means that no prior preprocessing is required in this method- and between the pattern and other dermoscopic patterns; 2. It puts forward a new methodological approach for work of this kind, introducing the system specification as a required step prior to algorithm design and development, being this specification the basis for a required parameterisation -in the form of configurable parameters (with their value ranges) and set threshold values- of the algorithm and the subsequent conducting of the experiments."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jose Luis",
+            "LastName": "Garcia-Arroyo",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "Deustotech-LIFE Unit (eVIDA Research Group), University of Deusto Avda. Universidades, 24, 48007 Bilbao, Spain. Electronic address: jlgarcia@deusto.es."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Begonya",
+            "LastName": "Garcia-Zapirain",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Deustotech-LIFE Unit (eVIDA Research Group), University of Deusto Avda. Universidades, 24, 48007 Bilbao, Spain. Electronic address: mbgarciazapi@deusto.es."}
+          }
+        ]
+      },
+      "ArticleTitle": "Recognition of pigment network pattern in dermoscopy images based on fuzzy classification of pixels.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(17)30800-3"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.10.005"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 153,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Alpha-cuts"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Dermoscopic structure"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Fuzzy classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pattern recognition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Reticular pattern"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 21
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29157462
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29157462,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(17)30800-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.10.005",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

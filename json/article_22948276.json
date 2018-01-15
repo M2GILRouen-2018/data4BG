@@ -1,0 +1,715 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101537732,
+      "Country": "Germany",
+      "MedlineTA": "Appl Clin Inform"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "693-706"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NICHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "K12 HD052896",
+            "Acronym": "HD"
+          },
+          {
+            "Agency": "NIDDK NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 DK040561",
+            "Acronym": "DK"
+          },
+          {
+            "Agency": "NHGRI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 HG008666",
+            "Acronym": "HG"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR001425",
+            "Acronym": "TR"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "The objective of this study is to develop an algorithm to accurately identify children with severe early onset childhood obesity (ages 1-5.99 years) using structured and unstructured data from the electronic health record (EHR)."
+        },
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "INTRODUCTION",
+          "content": "Childhood obesity increases risk factors for cardiovascular morbidity and vascular disease. Accurate definition of a high precision phenotype through a standardize tool is critical to the success of large-scale genomic studies and validating rare monogenic variants causing severe early onset obesity."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "DATA AND METHODS",
+          "content": "Rule based and machine learning based algorithms were developed using structured and unstructured data from two EHR databases from Boston Children's Hospital (BCH) and Cincinnati Children's Hospital and Medical Center (CCHMC). Exclusion criteria including medications or comorbid diagnoses were defined. Machine learning algorithms were developed using cross-site training and testing in addition to experimenting with natural language processing features."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Precision was emphasized for a high fidelity cohort. The rule-based algorithm performed the best overall, 0.895 (CCHMC) and 0.770 (BCH). The best feature set for machine learning employed Unified Medical Language System (UMLS) concept unique identifiers (CUIs), ICD-9 codes, and RxNorm codes."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Detecting severe early childhood obesity is essential for the intervention potential in children at the highest long-term risk of developing comorbidities related to obesity and excluding patients with underlying pathological and non-syndromic causes of obesity assists in developing a high-precision cohort for genetic study. Further such phenotyping efforts inform future practical application in health care environments utilizing clinical decision support."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Todd",
+            "LastName": "Lingren",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Todd Lingren, Cincinnati Children's Hospital Medical Center, Biomedical Informatics, 3333 Burnet Avenue, MLC 7024 Cincinnati, OH 45229-3039, Phone: 513-803-9032, Fax: 513-636-2056, Email: todd.lingren@cchmc.org."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vidhu",
+            "LastName": "Thaker",
+            "Initials": "V"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cassandra",
+            "LastName": "Brady",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bahram",
+            "LastName": "Namjou",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephanie",
+            "LastName": "Kennebeck",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonathan",
+            "LastName": "Bickel",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nandan",
+            "LastName": "Patibandla",
+            "Initials": "N"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yizhao",
+            "LastName": "Ni",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sara L",
+            "LastName": "Van Driest",
+            "Initials": "SL"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lixin",
+            "LastName": "Chen",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ashton",
+            "LastName": "Roach",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Beth",
+            "LastName": "Cobb",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jacqueline",
+            "LastName": "Kirby",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Josh",
+            "LastName": "Denny",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lisa",
+            "LastName": "Bailey-Davis",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marc S",
+            "LastName": "Williams",
+            "Initials": "MS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Keith",
+            "LastName": "Marsolo",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Imre",
+            "LastName": "Solti",
+            "Initials": "I"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ingrid A",
+            "LastName": "Holm",
+            "Initials": "IA"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John",
+            "LastName": "Harley",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Isaac S",
+            "LastName": "Kohane",
+            "Initials": "IS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guergana",
+            "LastName": "Savova",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nancy",
+            "LastName": "Crimmins",
+            "Initials": "N"
+          }
+        ]
+      },
+      "ArticleTitle": "Developing an Algorithm to Detect Early Childhood Obesity in Two Tertiary Pediatric Medical Centers.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.4338/ACI-2016-01-RA-0015"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 7,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2016,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Appl Clin Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1869-0327"
+        },
+        "Title": "Applied clinical informatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Electronic health record"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "obesity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "phenotype"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2016,
+      "Day": 25
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {"DescriptorName": {
+        "UI": "D002675",
+        "MajorTopicYN": "N",
+        "content": "Child, Preschool"
+      }},
+      {"DescriptorName": {
+        "UI": "D015897",
+        "MajorTopicYN": "N",
+        "content": "Comorbidity"
+      }},
+      {"DescriptorName": {
+        "UI": "D042241",
+        "MajorTopicYN": "N",
+        "content": "Early Diagnosis"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007223",
+        "MajorTopicYN": "N",
+        "content": "Infant"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "N",
+            "content": "epidemiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D063766",
+          "MajorTopicYN": "N",
+          "content": "Pediatric Obesity"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D063128",
+        "MajorTopicYN": "Y",
+        "content": "Tertiary Healthcare"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "08"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Pediatr. 2009 Sep-Oct;9(5):322-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19560993
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Natl Health Stat Report. 2013 Feb 11;(63):1-3",
+        "PMID": {
+          "Version": 1,
+          "content": 24992748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Pediatr Obes. 2011 Apr;6(2):113-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20545480
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Obes. 2014 Jun;9(3):167-75",
+        "PMID": {
+          "Version": 1,
+          "content": 23677690
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2001 Dec 1;323(7324):1280-4",
+        "PMID": {
+          "Version": 1,
+          "content": 11731390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2013 Jun;20(e1):e147-54",
+        "PMID": {
+          "Version": 1,
+          "content": 23531748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2012 May 02;13(6):395-405",
+        "PMID": {
+          "Version": 1,
+          "content": 22549152
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Pediatr Endocrinol. 2014 Mar 03;2014(1):3",
+        "PMID": {
+          "Version": 1,
+          "content": 24580759
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Public Health. 2014 Dec;104(12):e12-22",
+        "PMID": {
+          "Version": 1,
+          "content": 25322302
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA Pediatr. 2015 Jun;169(6):535-42",
+        "PMID": {
+          "Version": 1,
+          "content": 25895016
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2010 Dec;43(6):914-23",
+        "PMID": {
+          "Version": 1,
+          "content": 20688191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(12):e1002823",
+        "PMID": {
+          "Version": 1,
+          "content": 23300414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Clin Nutr. 2009 Nov;90(5):1314-20",
+        "PMID": {
+          "Version": 1,
+          "content": 19776142
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Clin North Am. 2000 Mar;84(2):333-46",
+        "PMID": {
+          "Version": 1,
+          "content": 10793645
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2012 Aug;45(4):763-71",
+        "PMID": {
+          "Version": 1,
+          "content": 22326800
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2011 Oct 7;89(4):529-42",
+        "PMID": {
+          "Version": 1,
+          "content": 21981779
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2013 Dec;20(e2):e206-11",
+        "PMID": {
+          "Version": 1,
+          "content": 24302669
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Jun 18;8(6):e66192",
+        "PMID": {
+          "Version": 1,
+          "content": 23823186
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2008 Dec;41(6):1088-100",
+        "PMID": {
+          "Version": 1,
+          "content": 18375190
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Rheum. 2011 Oct;63(10):2839-47",
+        "PMID": {
+          "Version": 1,
+          "content": 21702018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2011 Jun;12(6):417-28",
+        "PMID": {
+          "Version": 1,
+          "content": 21587298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes. 2008 Nov;57(11):2905-10",
+        "PMID": {
+          "Version": 1,
+          "content": 18971438
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA Pediatr. 2014 Jun;168(6):561-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24710576
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2014 Feb 26;311(8):806-14",
+        "PMID": {
+          "Version": 1,
+          "content": 24570244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2000 Apr 6;404(6778):644-51",
+        "PMID": {
+          "Version": 1,
+          "content": 10766251
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Mar-Apr;19(2):225-34",
+        "PMID": {
+          "Version": 1,
+          "content": 22319176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pediatr. 2007 Jan;150(1):12-17.e2",
+        "PMID": {
+          "Version": 1,
+          "content": 17188605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Mar-Apr;19(2):212-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22101970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Clin Pharmacol. 2012 May;73(5):674-84",
+        "PMID": {
+          "Version": 1,
+          "content": 22122057
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Obes Rev. 2013 Nov;14(11):871-82",
+        "PMID": {
+          "Version": 1,
+          "content": 23980914
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2010 Sep-Oct;17(5):568-74",
+        "PMID": {
+          "Version": 1,
+          "content": 20819866
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 1999 Sep 16;341(12):879-84",
+        "PMID": {
+          "Version": 1,
+          "content": 10486419
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2014 Mar-Apr;21(2):221-30",
+        "PMID": {
+          "Version": 1,
+          "content": 24201027
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JPEN J Parenter Enteral Nutr. 2008 Sep-Oct;32(5):578-81",
+        "PMID": {
+          "Version": 1,
+          "content": 18753398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nutr Metab Cardiovasc Dis. 2014 Jul;24(7):730-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24560474
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Oncol Rep. 2012 Dec;14(6):494-501",
+        "PMID": {
+          "Version": 1,
+          "content": 22948276
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 27452794
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27452794,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "2016-01-RA-0015",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.4338/ACI-2016-01-RA-0015",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5052543",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

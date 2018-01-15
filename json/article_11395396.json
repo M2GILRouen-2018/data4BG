@@ -1,0 +1,507 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D011993",
+        "content": "Recombinant Fusion Proteins"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 58},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Latest Next Generation Sequencing technologies opened the way to a novel era of genomic studies, allowing to gain novel insights into multifactorial pathologies as cancer. In particular gene fusion detection and comprehension have been deeply enhanced by these methods. However, state of the art algorithms for gene fusion identification are still challenging. Indeed, they identify huge amounts of poorly overlapping candidates and all the reported fusions should be considered for in lab validation clearly overwhelming wet lab capabilities."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "In this work we propose a novel methodological approach and tool named FuGePrior for the prioritization of gene fusions from paired-end RNA-Seq data. The proposed pipeline combines state of the art tools for chimeric transcript discovery and prioritization, a series of filtering and processing steps designed by considering modern literature on gene fusions and an analysis on functional reliability of gene fusion structure."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "FuGePrior performance has been assessed on two publicly available paired-end RNA-Seq datasets: The first by Edgren and colleagues includes four breast cancer cell lines and a normal breast sample, whereas the second by Ren and colleagues comprises fourteen primary prostate cancer samples and their paired normal counterparts. FuGePrior results accounted for a reduction in the number of fusions output of chimeric transcript discovery tools that ranges from 65 to 75% depending on the considered breast cancer cell line and from 37 to 65% according to the prostate cancer sample under examination. Furthermore, since both datasets come with a partial validation we were able to assess the performance of FuGePrior in correctly prioritizing real gene fusions. Specifically, 25 out of 26 validated fusions in breast cancer dataset have been correctly labelled as reliable and biologically significant. Similarly, 2 out of 5 validated fusions in prostate dataset have been recognized as priority by FuGePrior tool."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Giulia",
+            "LastName": "Paciello",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Control and Computer Engineering DAUIN, Politecnico di Torino, C.so Duca degli Abruzzi 24, Turin, 10129, Italy. giulia.paciello@polito.it."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elisa",
+            "LastName": "Ficarra",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Control and Computer Engineering DAUIN, Politecnico di Torino, C.so Duca degli Abruzzi 24, Turin, 10129, Italy."}
+          }
+        ]
+      },
+      "ArticleTitle": "FuGePrior: A novel gene fusion prioritization algorithm based on accurate fusion structure analysis in cancer RNA-seq samples.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-016-1450-6"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Chimeric transcript discovery tools"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gene fusion prioritization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gene fusions"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "RNA-sequencing"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D001943",
+          "MajorTopicYN": "N",
+          "content": "Breast Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D045744",
+        "MajorTopicYN": "N",
+        "content": "Cell Line, Tumor"
+      }},
+      {"DescriptorName": {
+        "UI": "D030541",
+        "MajorTopicYN": "N",
+        "content": "Databases, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D023281",
+        "MajorTopicYN": "N",
+        "content": "Genomics"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D061986",
+        "MajorTopicYN": "N",
+        "content": "MCF-7 Cells"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D011471",
+          "MajorTopicYN": "N",
+          "content": "Prostatic Neoplasms"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000737",
+            "MajorTopicYN": "N",
+            "content": "chemistry"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D011993",
+          "MajorTopicYN": "N",
+          "content": "Recombinant Fusion Proteins"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D017423",
+        "MajorTopicYN": "Y",
+        "content": "Sequence Analysis, RNA"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Case Rep Hematol. 2015;2015:458052",
+        "PMID": {
+          "Version": 1,
+          "content": 25949834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2011 Feb 10;470(7333):214-20",
+        "PMID": {
+          "Version": 1,
+          "content": 21307934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Jan 14;463(7278):191-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20016485
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Clin Exp Med. 2015 Sep 15;8(9):15127-36",
+        "PMID": {
+          "Version": 1,
+          "content": 26628996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pathol. 2014 Oct;234(2):142-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25074498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 1999 Feb 1;93(3):1107-8",
+        "PMID": {
+          "Version": 1,
+          "content": 10025981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Oct 15;27(20):2903-4",
+        "PMID": {
+          "Version": 1,
+          "content": 21840877
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2015 Feb 06;11(2):e1005001",
+        "PMID": {
+          "Version": 1,
+          "content": 25658338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D84-90",
+        "PMID": {
+          "Version": 1,
+          "content": 22086963
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Natl Cancer Inst. 2015 Nov 12;108(1):null",
+        "PMID": {
+          "Version": 1,
+          "content": 26563356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2014 Sep 04;8:97",
+        "PMID": {
+          "Version": 1,
+          "content": 25183062
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 May;7(5):e1001138",
+        "PMID": {
+          "Version": 1,
+          "content": 21625565
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Feb 10;6:21597",
+        "PMID": {
+          "Version": 1,
+          "content": 26862001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pathol. 2013 Jun;230(2):174-83",
+        "PMID": {
+          "Version": 1,
+          "content": 23447416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Oct;38(18):e178",
+        "PMID": {
+          "Version": 1,
+          "content": 20802226
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Aug 15;28(16):2114-21",
+        "PMID": {
+          "Version": 1,
+          "content": 22711792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2009 Sep 17;114(12):2489-96",
+        "PMID": {
+          "Version": 1,
+          "content": 19528532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2011 Aug 3;3(94):94ra72",
+        "PMID": {
+          "Version": 1,
+          "content": 21813756
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2011 Mar 3;117(9):2577-84",
+        "PMID": {
+          "Version": 1,
+          "content": 21097673
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D71-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22102590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Oct 15;29(20):2539-46",
+        "PMID": {
+          "Version": 1,
+          "content": 23956304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Res. 2012 May;22(5):806-21",
+        "PMID": {
+          "Version": 1,
+          "content": 22349460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood Cancer J. 2015 Feb 06;5:e278",
+        "PMID": {
+          "Version": 1,
+          "content": 25658984
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Haematol. 2016 Mar;172(6):987-90",
+        "PMID": {
+          "Version": 1,
+          "content": 26147192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Cancer. 2015 Jun;15(6):371-81",
+        "PMID": {
+          "Version": 1,
+          "content": 25998716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2011;12(1):R6",
+        "PMID": {
+          "Version": 1,
+          "content": 21247443
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Pathol. 2001 Jun;158(6):2185-93",
+        "PMID": {
+          "Version": 1,
+          "content": 11395396
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28114882
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 29,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114882,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-016-1450-6",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-016-1450-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5260008",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

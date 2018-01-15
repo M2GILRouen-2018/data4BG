@@ -1,0 +1,229 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "One of the crucial problems for taxi drivers is to efficiently locate passengers in order to increase profits. The rapid advancement and ubiquitous penetration of Internet of Things (IoT) technology into transportation industries enables us to provide taxi drivers with locations that have more potential passengers (more profitable areas) by analyzing and querying taxi trip data. In this paper, we propose a query processing system, called Distributed Profitable-Area Query (DISPAQ) which efficiently identifies profitable areas by exploiting the Apache Software Foundation's Spark framework and a MongoDB database. DISPAQ first maintains a profitable-area query index (PQ-index) by extracting area summaries and route summaries from raw taxi trip data. It then identifies candidate profitable areas by searching the PQ-index during query processing. Then, it exploits a Z-Skyline algorithm, which is an extension of skyline processing with a Z-order space filling curve, to quickly refine the candidate profitable areas. To improve the performance of distributed query processing, we also propose local Z-Skyline optimization, which reduces the number of dominant tests by distributing killer profitable areas to each cluster node. Through extensive evaluation with real datasets, we demonstrate that our DISPAQ system provides a scalable and efficient solution for processing profitable-area queries from huge amounts of big taxi trip data."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fadhilah Kurnia",
+            "LastName": "Putri",
+            "Initials": "FK",
+            "AffiliationInfo": {"Affiliation": "Department of Big Data, Pusan National University, Busan 46241, Korea. fadhilahkp@pusan.ac.kr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Giltae",
+            "LastName": "Song",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science and Engineering, Pusan National University; Busan 46241, Korea. gsong@pusan.ac.kr."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-8207-9415"
+            },
+            "ForeName": "Joonho",
+            "LastName": "Kwon",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science and Engineering, Pusan National University; Busan 46241, Korea. jhkwon@pusan.ac.kr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Praveen",
+            "LastName": "Rao",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science & Electrical Engineering, University of Missouri-Kansas City, Kansas City, MO 64110, USA. raopr@umkc.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "DISPAQ: Distributed Profitable-Area Query from Big Taxi Trip Data.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2201"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17102201"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 10,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "GPS sensors"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PQ-index"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Z-skyline"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "big data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "distributed processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "profitable areas"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "taxi trip data"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Vis Comput Graph. 2013 Dec;19(12):2149-58",
+        "PMID": {
+          "Version": 1,
+          "content": 24051781
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Vis Comput Graph. 2013 Dec;19(12):2456-65",
+        "PMID": {
+          "Version": 1,
+          "content": 24051812
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2016 Aug 23;16(9):null",
+        "PMID": {
+          "Version": 1,
+          "content": 27563900
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28946679
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28946679,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17102201",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17102201",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5677113",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

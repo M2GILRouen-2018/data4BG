@@ -1,0 +1,451 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2012,
+      "Day": "07"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1015-28"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Intramural NIH HHS",
+          "Country": "United States",
+          "GrantID": "Z99 HL999999"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052060",
+          "content": "Research Support, N.I.H., Intramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2012,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2012 Elsevier B.V. All rights reserved.",
+        "AbstractText": "Images acquired during free breathing using first-pass gadolinium-enhanced myocardial perfusion magnetic resonance imaging (MRI) exhibit a quasiperiodic motion pattern that needs to be compensated for if a further automatic analysis of the perfusion is to be executed. In this work, we present a method to compensate this movement by combining independent component analysis (ICA) and image registration: First, we use ICA and a time-frequency analysis to identify the motion and separate it from the intensity change induced by the contrast agent. Then, synthetic reference images are created by recombining all the independent components but the one related to the motion. Therefore, the resulting image series does not exhibit motion and its images have intensities similar to those of their original counterparts. Motion compensation is then achieved by using a multi-pass image registration procedure. We tested our method on 39 image series acquired from 13 patients, covering the basal, mid and apical areas of the left heart ventricle and consisting of 58 perfusion images each. We validated our method by comparing manually tracked intensity profiles of the myocardial sections to automatically generated ones before and after registration of 13 patient data sets (39 distinct slices). We compared linear, non-linear, and combined ICA based registration approaches and previously published motion compensation schemes. Considering run-time and accuracy, a two-step ICA based motion compensation scheme that first optimizes a translation and then for non-linear transformation performed best and achieves registration of the whole series in 32±12s on a recent workstation. The proposed scheme improves the Pearsons correlation coefficient between manually and automatically obtained time-intensity curves from .84±.19 before registration to .96±.06 after registration."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gert",
+            "LastName": "Wollny",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Biomedical Imaging Technologies, DIE, ETSI Telecomunicación, Universidad Politécnica de Madrid, Avenida Complutense No. 30, Madrid, Spain. gw.fossdev@gmail.com"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter",
+            "LastName": "Kellman",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrés",
+            "LastName": "Santos",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "María J",
+            "LastName": "Ledesma-Carbayo",
+            "Initials": "MJ"
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic motion compensation of free breathing acquired myocardial perfusion data by using independent component analysis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1016/j.media.2012.02.004"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 16,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2012
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2012,
+      "Day": 11
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "Y",
+        "content": "Artifacts"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007089",
+          "MajorTopicYN": "N",
+          "content": "Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018810",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D055414",
+          "MajorTopicYN": "N",
+          "content": "Myocardial Perfusion Imaging"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D015656",
+        "MajorTopicYN": "N",
+        "content": "Respiratory Mechanics"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D055425",
+          "MajorTopicYN": "N",
+          "content": "Respiratory-Gated Imaging Techniques"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D013382",
+        "MajorTopicYN": "N",
+        "content": "Subtraction Technique"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 30
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cardiovasc Magn Reson. 2010;12:57",
+        "PMID": {
+          "Version": 1,
+          "content": 20932314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2008 Nov;27(11):1611-21",
+        "PMID": {
+          "Version": 1,
+          "content": 18955176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2003;12(11):1427-42",
+        "PMID": {
+          "Version": 1,
+          "content": 18244700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2008 Mar;27(3):529-37",
+        "PMID": {
+          "Version": 1,
+          "content": 18183575
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2003 Jun;22(6):730-41",
+        "PMID": {
+          "Version": 1,
+          "content": 12872948
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2003 Aug;18(2):160-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12884327
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 May;25(5):626-39",
+        "PMID": {
+          "Version": 1,
+          "content": 16689266
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2005 Aug;9(4):394-410",
+        "PMID": {
+          "Version": 1,
+          "content": 15907391
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2011 Aug;15(4):449-59",
+        "PMID": {
+          "Version": 1,
+          "content": 21376656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Aug;29(8):1516-27",
+        "PMID": {
+          "Version": 1,
+          "content": 20442043
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2009;12(Pt 2):741-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20426178
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2009;12(Pt 1):165-72",
+        "PMID": {
+          "Version": 1,
+          "content": 20425984
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Inf Process Med Imaging. 2007;20:544-55",
+        "PMID": {
+          "Version": 1,
+          "content": 17633728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 2010 Nov;17(11):1375-85",
+        "PMID": {
+          "Version": 1,
+          "content": 20801696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2001 May;45(5):846-52",
+        "PMID": {
+          "Version": 1,
+          "content": 11323811
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2003 Dec;18(6):681-90",
+        "PMID": {
+          "Version": 1,
+          "content": 14635153
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 1999;10(3):626-34",
+        "PMID": {
+          "Version": 1,
+          "content": 18252563
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2003 Mar;49(3):506-14",
+        "PMID": {
+          "Version": 1,
+          "content": 12594754
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS361179"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC3372575"
+      }
+    ],
+    "PMID": {
+      "Version": 1,
+      "content": 22465078
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2011,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "02",
+        "Year": 2012,
+        "Day": "07",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "02",
+        "Year": 2012,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 4,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 4,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 22465078,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(12)00032-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2012.02.004",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3372575",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS361179",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,483 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e138"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": "05"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Biomedical research has traditionally been conducted via surveys and the analysis of medical records. However, these resources are limited in their content, such that non-traditional domains (eg, online forums and social media) have an opportunity to supplement the view of an individual's health."
+        },
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "The objective of this study was to develop a scalable framework to detect personal health status mentions on Twitter and assess the extent to which such information is disclosed."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We collected more than 250 million tweets via the Twitter streaming API over a 2-month period in 2014. The corpus was filtered down to approximately 250,000 tweets, stratified across 34 high-impact health issues, based on guidance from the Medical Expenditure Panel Survey. We created a labeled corpus of several thousand tweets via a survey, administered over Amazon Mechanical Turk, that documents when terms correspond to mentions of personal health issues or an alternative (eg, a metaphor). We engineered a scalable classifier for personal health mentions via feature selection and assessed its potential over the health issues. We further investigated the utility of the tweets by determining the extent to which Twitter users disclose personal health status."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Our investigation yielded several notable findings. First, we find that tweets from a small subset of the health issues can train a scalable classifier to detect health mentions. Specifically, training on 2000 tweets from four health issues (cancer, depression, hypertension, and leukemia) yielded a classifier with precision of 0.77 on all 34 health issues. Second, Twitter users disclosed personal health status for all health issues. Notably, personal health status was disclosed over 50% of the time for 11 out of 34 (33%) investigated health issues. Third, the disclosure rate was dependent on the health issue in a statistically significant manner (P<.001). For instance, more than 80% of the tweets about migraines (83/100) and allergies (85/100) communicated personal health status, while only around 10% of the tweets about obesity (13/100) and heart attack (12/100) did so. Fourth, the likelihood that people disclose their own versus other people's health status was dependent on health issue in a statistically significant manner as well (P<.001). For example, 69% (69/100) of the insomnia tweets disclosed the author's status, while only 1% (1/100) disclosed another person's status. By contrast, 1% (1/100) of the Down syndrome tweets disclosed the author's status, while 21% (21/100) disclosed another person's status."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "It is possible to automatically detect personal health status mentions on Twitter in a scalable manner. These mentions correspond to the health issues of the Twitter users themselves, but also other individuals. Though this study did not investigate the veracity of such statements, we anticipate such information may be useful in supplementing traditional health-related sources for research purposes."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-3075-1337"
+            },
+            "ForeName": "Zhijun",
+            "LastName": "Yin",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Dept. of Electrical Engineering & Computer Science, Vanderbilt University, Nashville, TN, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-0530-2510"
+            },
+            "ForeName": "Daniel",
+            "LastName": "Fabbri",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-7455-2260"
+            },
+            "ForeName": "S Trent",
+            "LastName": "Rosenbloom",
+            "Initials": "ST"
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3040-5175"
+            },
+            "ForeName": "Bradley",
+            "LastName": "Malin",
+            "Initials": "B"
+          }
+        ]
+      },
+      "ArticleTitle": "A Scalable Framework to Detect Personal Health Mentions on Twitter.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.2196/jmir.4305"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2015,
+            "Day": "05"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Med. Internet Res.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1438-8871"
+        },
+        "Title": "Journal of medical Internet research"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2015,
+      "Day": "06"
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2015,
+      "Day": 12
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Intern Med. 2000 Apr 10;160(7):967-73",
+        "PMID": {
+          "Version": 1,
+          "content": 10761962
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stroke. 2000 Apr;31(4):858-62",
+        "PMID": {
+          "Version": 1,
+          "content": 10753988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2014;16(7):e169",
+        "PMID": {
+          "Version": 1,
+          "content": 25014311
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 Mar 14;343(6176):1203-5",
+        "PMID": {
+          "Version": 1,
+          "content": 24626916
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Empir Res Hum Res Ethics. 2014 Feb;9(1):58-70",
+        "PMID": {
+          "Version": 1,
+          "content": 24572084
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2014;348:g368",
+        "PMID": {
+          "Version": 1,
+          "content": 24472779
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2014;16(10):e236",
+        "PMID": {
+          "Version": 1,
+          "content": 25331122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2014;2014:1150-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25954426
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ Open. 2014;4(1):e004089",
+        "PMID": {
+          "Version": 1,
+          "content": 24448847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2014;16(8):e182",
+        "PMID": {
+          "Version": 1,
+          "content": 25092386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014;9(8):e103408",
+        "PMID": {
+          "Version": 1,
+          "content": 25084530
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Intern Med. 2013 Dec;274(6):547-60",
+        "PMID": {
+          "Version": 1,
+          "content": 23952476
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2013;15(10):e237",
+        "PMID": {
+          "Version": 1,
+          "content": 24158773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2013;15(9):e189",
+        "PMID": {
+          "Version": 1,
+          "content": 24014109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Prev Med. 2013 Aug;45(2):228-36",
+        "PMID": {
+          "Version": 1,
+          "content": 23867031
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2013;15(5):e103",
+        "PMID": {
+          "Version": 1,
+          "content": 23715762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2013;15(4):e62",
+        "PMID": {
+          "Version": 1,
+          "content": 23594933
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2013;10(2):e1001382",
+        "PMID": {
+          "Version": 1,
+          "content": 23424286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2012 Aug;45(4):763-71",
+        "PMID": {
+          "Version": 1,
+          "content": 22326800
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2012 Jun;13(6):395-405",
+        "PMID": {
+          "Version": 1,
+          "content": 22549152
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AIDS Care. 2012;24(5):593-600",
+        "PMID": {
+          "Version": 1,
+          "content": 22149081
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 1993 May 29;306(6890):1440-4",
+        "PMID": {
+          "Version": 1,
+          "content": 8518640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Care. 1993 Jun;31(6):498-507",
+        "PMID": {
+          "Version": 1,
+          "content": 8501997
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2002 Apr-Nov;4(2):E13",
+        "PMID": {
+          "Version": 1,
+          "content": 12554560
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4526910"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100959882,
+      "Country": "Canada",
+      "ISSNLinking": "1438-8871",
+      "MedlineTA": "J Med Internet Res"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2016,
+      "Day": 15
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "consumer health"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "infodemiology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "information retrieval"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "social media"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "twitter"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D003625",
+        "MajorTopicYN": "N",
+        "content": "Data Collection"
+      }},
+      {"DescriptorName": {
+        "UI": "D030881",
+        "MajorTopicYN": "Y",
+        "content": "Disclosure"
+      }},
+      {"DescriptorName": {
+        "UI": "D006304",
+        "MajorTopicYN": "Y",
+        "content": "Health Status"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D020407",
+        "MajorTopicYN": "Y",
+        "content": "Internet"
+      }},
+      {"DescriptorName": {
+        "UI": "D012650",
+        "MajorTopicYN": "Y",
+        "content": "Self Disclosure"
+      }},
+      {"DescriptorName": {
+        "UI": "D061108",
+        "MajorTopicYN": "Y",
+        "content": "Social Media"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26048075
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2015,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2015,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "03",
+        "Year": 2015,
+        "Day": "08",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 6,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 6,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26048075,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "v17i6e138",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.2196/jmir.4305",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4526910",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

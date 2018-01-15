@@ -1,0 +1,384 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100968553,
+      "Country": "England",
+      "ISSNLinking": "1471-2342",
+      "MedlineTA": "BMC Med Imaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 57},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "National Natural Science Foundation of China",
+            "Country": "United States",
+            "GrantID": 61771233
+          },
+          {
+            "Agency": "National Natural Science Foundation of China (CN)",
+            "Country": "United States",
+            "GrantID": 61271155
+          },
+          {
+            "Agency": "National Natural Science Foundation of China (CN)",
+            "Country": "United States",
+            "GrantID": 61401451
+          },
+          {
+            "Agency": "National Natural Science Foundation of China (CN)",
+            "Country": "United States",
+            "GrantID": 61372007
+          },
+          {
+            "Agency": "National Natural Science Foundation of China (CN)",
+            "Country": "United States",
+            "GrantID": 61571193
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Ultrasound imaging is safer than other imaging modalities, because it is noninvasive and nonradiative. Speckle noise degrades the quality of ultrasound images and has negative effects on visual perception and diagnostic operations."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "In this paper, a nonlocal total variation (NLTV) method for ultrasonic speckle reduction is proposed. A spatiogram similarity measurement is introduced for the similarity calculation between image patches. It is based on symmetric Kullback-Leibler (KL) divergence and signal-dependent speckle model for log-compressed ultrasound images. Each patch is regarded as a spatiogram, and the spatial distribution of each bin of the spatiogram is regarded as a weighted Gamma distribution. The similarity between the corresponding bins of the two spatiograms is computed by the symmetric KL divergence. The Split-Bregman fast algorithm is then used to solve the adapted NLTV object function. Kolmogorov-Smirnov (KS) test is performed on synthetic noisy images and real ultrasound images."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We validate our method on synthetic noisy images and clinical ultrasound images. Three measures are adopted for the quantitative evaluation of the despeckling performance: the signal-to-noise ratio (SNR), structural similarity index (SSIM), and natural image quality evaluator (NIQE). For synthetic noisy images, when the noise level increases, the proposed algorithm achieves slightly higher SNRS than that of the other two algorithms, and the SSIMS yielded by the proposed algorithm is obviously higher than that of the other two algorithms. For liver, IVUS and 3DUS images, the NIQE values are 8.25, 6.42 and 9.01, all of which are higher than that of the other two algorithms."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The results of the experiments over synthetic and real ultrasound images demonstrate that the proposed method outperforms current state-of-the-art despeckling methods with respect to speckle reduction and tissue texture preservation."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shujun",
+            "LastName": "Liang",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, School of Biomedical Engineering, Southern Medical University, Guangzhou, 510515, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Feng",
+            "LastName": "Yang",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, School of Biomedical Engineering, Southern Medical University, Guangzhou, 510515, People's Republic of China. yangf@smu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tiexiang",
+            "LastName": "Wen",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, People's Republic of China. tx.wen@siat.ac.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhewei",
+            "LastName": "Yao",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, School of Biomedical Engineering, Southern Medical University, Guangzhou, 510515, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qinghua",
+            "LastName": "Huang",
+            "Initials": "Q",
+            "AffiliationInfo": [
+              {"Affiliation": "College of Information Engineering, Shenzhen University, Shenzhen, 518060, People's Republic of China."},
+              {"Affiliation": "School of Electronic and Information Engineering, South China University of Technology, Guangzhou, 510641, People's Republic of China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chengke",
+            "LastName": "Ye",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Guangdong Provincial Key Laboratory of Medical Image Processing, School of Biomedical Engineering, Southern Medical University, Guangzhou, 510515, People's Republic of China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Nonlocal total variation based on symmetric Kullback-Leibler divergence for the ultrasound image despeckling.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12880-017-0231-7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 28
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2342"
+        },
+        "Title": "BMC medical imaging"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Kullback-Leibler (KL) divergence"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Nonlocal total variation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Spatiogram"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Speckle reduction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ultrasound image"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2004 Apr;13(4):600-12",
+        "PMID": {
+          "Version": 1,
+          "content": 15376593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2004 Mar;42(2):189-92",
+        "PMID": {
+          "Version": 1,
+          "content": 15125148
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2002;11(11):1260-70",
+        "PMID": {
+          "Version": 1,
+          "content": 18249696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 Nov;25(11):1483-91",
+        "PMID": {
+          "Version": 1,
+          "content": 17117777
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 1985 Feb;7(2):165-77",
+        "PMID": {
+          "Version": 1,
+          "content": 21869255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 1982 Feb;4(2):157-66",
+        "PMID": {
+          "Version": 1,
+          "content": 21869022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2001 Aug;20(8):772-83",
+        "PMID": {
+          "Version": 1,
+          "content": 11513028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrasound Med Biol. 2010 Aug;36(8):1353-63",
+        "PMID": {
+          "Version": 1,
+          "content": 20691924
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2007 Aug;16(8):2080-95",
+        "PMID": {
+          "Version": 1,
+          "content": 17688213
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Ultrason (2001). 2017 Jul;44(3):227-237",
+        "PMID": {
+          "Version": 1,
+          "content": 28012088
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2007 May;26(5):712-27",
+        "PMID": {
+          "Version": 1,
+          "content": 17518065
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 1980 Feb;2(2):165-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21868887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2007 May;16(5):1412-24",
+        "PMID": {
+          "Version": 1,
+          "content": 17491469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 Feb;25(2):229-40",
+        "PMID": {
+          "Version": 1,
+          "content": 16468457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ultrason Imaging. 2016 Jul;38(4):254-75",
+        "PMID": {
+          "Version": 1,
+          "content": 26316172
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2009 Oct;18(10):2221-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19482578
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2012 Jan;16(1):18-27",
+        "PMID": {
+          "Version": 1,
+          "content": 21570894
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29179695
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29179695,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12880-017-0231-7",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12880-017-0231-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5704627",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

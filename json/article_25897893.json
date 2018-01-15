@@ -1,0 +1,1111 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101532965,
+      "Country": "United States",
+      "ISSNLinking": "1949-2553",
+      "MedlineTA": "Oncotarget"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "CONFLICTS OF INTEREST No potential conflicts of interest were disclosed.",
+    "Article": {
+      "Pagination": {"MedlinePgn": "87494-87511"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Detection and diagnosis of cancer are especially important for early prevention and effective treatments. Traditional methods of cancer detection are usually time-consuming and expensive. Liquid biopsy, a newly proposed noninvasive detection approach, can promote the accuracy and decrease the cost of detection according to a personalized expression profile. However, few studies have been performed to analyze this type of data, which can promote more effective methods for detection of different cancer subtypes. In this study, we applied some reliable machine learning algorithms to analyze data retrieved from patients who had one of six cancer subtypes (breast cancer, colorectal cancer, glioblastoma, hepatobiliary cancer, lung cancer and pancreatic cancer) as well as healthy persons. Quantitative gene expression profiles were used to encode each sample. Then, they were analyzed by the maximum relevance minimum redundancy method. Two feature lists were obtained in which genes were ranked rigorously. The incremental feature selection method was applied to the mRMR feature list to extract the optimal feature subset, which can be used in the support vector machine algorithm to determine the best performance for the detection of cancer subtypes and healthy controls. The ten-fold cross-validation for the constructed optimal classification model yielded an overall accuracy of 0.751. On the other hand, we extracted the top eighteen features (genes), including TTN, RHOH, RPS20, TRBC2, in another feature list, the MaxRel feature list, and performed a detailed analysis of them. The results indicated that these genes could be important biomarkers for discriminating different cancer subtypes and healthy controls."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yu-Hang",
+            "EqualContrib": "Y",
+            "LastName": "Zhang",
+            "Initials": "YH",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of General Surgery, Shanghai Jiao Tong University Affiliated Sixth People's Hospital, Shanghai 200233, People's Republic of China."},
+              {"Affiliation": "Institute of Health Sciences, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai 200031, People's Republic of China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tao",
+            "EqualContrib": "Y",
+            "LastName": "Huang",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Institute of Health Sciences, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai 200031, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lei",
+            "EqualContrib": "Y",
+            "LastName": "Chen",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "College of Information Engineering, Shanghai Maritime University, Shanghai 201306, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "YaoChen",
+            "LastName": "Xu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai 200031, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yu",
+            "LastName": "Hu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Institute of Health Sciences, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai 200031, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lan-Dian",
+            "LastName": "Hu",
+            "Initials": "LD",
+            "AffiliationInfo": {"Affiliation": "Institute of Health Sciences, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai 200031, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yudong",
+            "LastName": "Cai",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Life Sciences, Shanghai University, Shanghai 200444, People's Republic of China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiangyin",
+            "LastName": "Kong",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Institute of Health Sciences, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai 200031, People's Republic of China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Identifying and analyzing different cancer subtypes using RNA-seq data of blood platelets.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.18632/oncotarget.20903"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 50,
+          "Volume": 8,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Oncotarget",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1949-2553"
+        },
+        "Title": "Oncotarget"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "RNA-seq data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "cancer detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "liquid biopsy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "maximum relevance minimum redundancy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "support vector machine"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 May 12;9(5):e97002",
+        "PMID": {
+          "Version": 1,
+          "content": 24818961
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2016 Feb 26;16:165",
+        "PMID": {
+          "Version": 1,
+          "content": 26920143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 2016 Apr 22;473(1):296-302",
+        "PMID": {
+          "Version": 1,
+          "content": 27016481
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Discov. 2012 Nov;2(11):974-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23093252
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2014 Apr;61(4):1071-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24658232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biol. 1999 Apr;19(4):3095-102",
+        "PMID": {
+          "Version": 1,
+          "content": 10082576
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacogenomics. 2016 Feb;17 (3):183-6",
+        "PMID": {
+          "Version": 1,
+          "content": 26799583
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Surg Infect (Larchmt). 2009 Aug;10(4):317-21",
+        "PMID": {
+          "Version": 1,
+          "content": 19673597
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Proteome Res. 2012 Feb 3;11(2):1240-50",
+        "PMID": {
+          "Version": 1,
+          "content": 22133146
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Chem. 2015 Mar;61(3):514-22",
+        "PMID": {
+          "Version": 1,
+          "content": 25605683
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2013 May 9;121(19):3997-4006, S1-15",
+        "PMID": {
+          "Version": 1,
+          "content": 23532734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Mar 15;6:23075",
+        "PMID": {
+          "Version": 1,
+          "content": 26975620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Oncol. 2016 Nov;49(5):1953-1962",
+        "PMID": {
+          "Version": 1,
+          "content": 27633352
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Food Chem Toxicol. 2011 Jul;49(7):1626-32",
+        "PMID": {
+          "Version": 1,
+          "content": 21515330
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncol Rep. 2015 Nov;34(5):2267-72",
+        "PMID": {
+          "Version": 1,
+          "content": 26323242
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Immunol Immunother. 2016 Nov;65(11):1353-1364",
+        "PMID": {
+          "Version": 1,
+          "content": 27581603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Biol Int. 2012 Sep;36(9):803-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22582734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2002 May 1;62(9):2625-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11980659
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comb Chem High Throughput Screen. 2017;20(2):96-106",
+        "PMID": {
+          "Version": 1,
+          "content": 28000567
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Adolesc Young Adult Oncol. 2015 Sep;4(3):141-50",
+        "PMID": {
+          "Version": 1,
+          "content": 26421222
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2015 Nov 17;6(36):38617-27",
+        "PMID": {
+          "Version": 1,
+          "content": 26415219
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncogene. 1996 Jul 4;13(1):213-21",
+        "PMID": {
+          "Version": 1,
+          "content": 8700550
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2016;2016:8351204",
+        "PMID": {
+          "Version": 1,
+          "content": 26955638
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncology (Williston Park). 2016 Apr;30(4):348, 352",
+        "PMID": {
+          "Version": 1,
+          "content": 27085334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2013 Dec 20;288(51):36451-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24189071
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2016 Apr;54(4):561-73",
+        "PMID": {
+          "Version": 1,
+          "content": 26345243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2006 Sep 12;6:223",
+        "PMID": {
+          "Version": 1,
+          "content": 16968546
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastrointest Endosc. 2016 May;83(5):866-79",
+        "PMID": {
+          "Version": 1,
+          "content": 26632523
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Can Urol Assoc J. 2012 Apr;6(2):97-101",
+        "PMID": {
+          "Version": 1,
+          "content": 22511415
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Mol Biol. 2009 Aug 03;10:78",
+        "PMID": {
+          "Version": 1,
+          "content": 19650912
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comb Chem High Throughput Screen. 2017;20(7):612-621",
+        "PMID": {
+          "Version": 1,
+          "content": 28292249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Onco Targets Ther. 2015 Jul 08;8:1691-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26185457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "In Vivo. 2005 May-Jun;19(3):583-90",
+        "PMID": {
+          "Version": 1,
+          "content": 15875780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood Cells Mol Dis. 2007 Jul-Aug;39(1):35-43",
+        "PMID": {
+          "Version": 1,
+          "content": 17376718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Aug 27;162(5):1029-38",
+        "PMID": {
+          "Version": 1,
+          "content": 26317469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Breast Cancer Res. 2009;11(4):R60",
+        "PMID": {
+          "Version": 1,
+          "content": 19671159
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2015;2015:425810",
+        "PMID": {
+          "Version": 1,
+          "content": 26543860
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Oncol. 2016 Jul;33(7):61",
+        "PMID": {
+          "Version": 1,
+          "content": 27225938
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2014 Apr;10(4):868-77",
+        "PMID": {
+          "Version": 1,
+          "content": 24492783
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Discov. 2016 Jul;6(7):686",
+        "PMID": {
+          "Version": 1,
+          "content": 27287288
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Mar 30;10(3):e0123147",
+        "PMID": {
+          "Version": 1,
+          "content": 25822500
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Immunol. 2013 Jan 21;14:3",
+        "PMID": {
+          "Version": 1,
+          "content": 23336327
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Gynaecol Oncol. 2015 ;36(6):672-6",
+        "PMID": {
+          "Version": 1,
+          "content": 26775349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(4):e35254",
+        "PMID": {
+          "Version": 1,
+          "content": 22514724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Pathol. 2011 Feb;42(2):194-203",
+        "PMID": {
+          "Version": 1,
+          "content": 21040949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2014 Nov 1;74(21):6022-35",
+        "PMID": {
+          "Version": 1,
+          "content": 25209187
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biokhimiia. 1978 Feb;43(2):229-34",
+        "PMID": {
+          "Version": 1,
+          "content": 348242
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comb Chem High Throughput Screen. 2017;20(2):164-173",
+        "PMID": {
+          "Version": 1,
+          "content": 28029071
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Cardiol. 2016 Jun 1;212:232-4",
+        "PMID": {
+          "Version": 1,
+          "content": 27043064
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 2016 Oct 14;119(9):1017-1029",
+        "PMID": {
+          "Version": 1,
+          "content": 27650557
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncogene. 2015 Mar 19;34(12 ):1487-98",
+        "PMID": {
+          "Version": 1,
+          "content": 24704832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Cell. 2015 Nov 9;28(5):666-676",
+        "PMID": {
+          "Version": 1,
+          "content": 26525104
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2005 Aug;27(8):1226-38",
+        "PMID": {
+          "Version": 1,
+          "content": 16119262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biosci Rep. 2015 Oct 02;35(6):null",
+        "PMID": {
+          "Version": 1,
+          "content": 26431963
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 May 19;5:10266",
+        "PMID": {
+          "Version": 1,
+          "content": 25988257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Asian Pac J Cancer Prev. 2013;14(12):7127-31",
+        "PMID": {
+          "Version": 1,
+          "content": 24460263
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stem Cells Int. 2016;2016:5481493",
+        "PMID": {
+          "Version": 1,
+          "content": 27057172
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2008 Sep 16;9 Suppl 2:S27",
+        "PMID": {
+          "Version": 1,
+          "content": 18831793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Feb 17;7:42768",
+        "PMID": {
+          "Version": 1,
+          "content": 28211542
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2014 May 30;5(10):3012-22",
+        "PMID": {
+          "Version": 1,
+          "content": 24931142
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 2007 Aug 15;179(4):2627-33",
+        "PMID": {
+          "Version": 1,
+          "content": 17675526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Biochim Biophys Sin (Shanghai). 2014 Apr;46(4):330-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24457517
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Nov 11;8(11):e78790",
+        "PMID": {
+          "Version": 1,
+          "content": 24244363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anticancer Res. 1989 Jan-Feb;9(1):21-7",
+        "PMID": {
+          "Version": 1,
+          "content": 2539773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chronic Dis. 1966 Aug;19(8):819-45",
+        "PMID": {
+          "Version": 1,
+          "content": 5338509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cancer. 2013 Feb 01;13:44",
+        "PMID": {
+          "Version": 1,
+          "content": 23374247
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Urologe A. 2007 Oct;46(10):W1435-46; quiz W1447-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17665166
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastroenterology. 2014 Sep;147(3):595-598.e5",
+        "PMID": {
+          "Version": 1,
+          "content": 24941021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2017 Jan 3;18(1):9",
+        "PMID": {
+          "Version": 1,
+          "content": 28049413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Oct 06;9(10 ):e108743",
+        "PMID": {
+          "Version": 1,
+          "content": 25285958
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Surg Pathol. 2016 Aug;40(8):1075-83",
+        "PMID": {
+          "Version": 1,
+          "content": 26975041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gene. 2016 Jan 15;576(1 Pt 3):421-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26526135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2017 Feb;76:27-36",
+        "PMID": {
+          "Version": 1,
+          "content": 28363286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Adv Nutr. 2016 Mar 15;7(2):418-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26980827
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 2016 Nov;1860(11 Pt B):2750-5",
+        "PMID": {
+          "Version": 1,
+          "content": 27266344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 Apr 6;12 (4):e0175185",
+        "PMID": {
+          "Version": 1,
+          "content": 28384236
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Blood Cancer. 2014 Sep;61(9):1620-4",
+        "PMID": {
+          "Version": 1,
+          "content": 24803392
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Med Rep. 2015 Feb;11(2):1421-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25373323
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Ther Med. 2010 May;1(3):419-423",
+        "PMID": {
+          "Version": 1,
+          "content": 22993556
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Oct 27;10(10):e0141334",
+        "PMID": {
+          "Version": 1,
+          "content": 26506620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Sep 09;11(9):e0162806",
+        "PMID": {
+          "Version": 1,
+          "content": 27611996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Endocrinol. 2014 Jan 25;382(1):673-82",
+        "PMID": {
+          "Version": 1,
+          "content": 23791814
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pediatr Hematol Oncol. 2007 Aug;29(8):561-5",
+        "PMID": {
+          "Version": 1,
+          "content": 17762498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hepatogastroenterology. 2008 May-Jun;55(84):865-72",
+        "PMID": {
+          "Version": 1,
+          "content": 18705285
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Mar 02;6:22519",
+        "PMID": {
+          "Version": 1,
+          "content": 26931825
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Biol Ther. 2005 Feb;4(2):242-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15846068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Cell. 2008 Dec;19(12):5279-88",
+        "PMID": {
+          "Version": 1,
+          "content": 18829863
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Natl Cancer Inst. 2015 May 13;107(8):null",
+        "PMID": {
+          "Version": 1,
+          "content": 25971300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Cancer. 2014 May;5(5-6):152-3",
+        "PMID": {
+          "Version": 1,
+          "content": 25061498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Haematol. 2015 Mar;168(6):854-64",
+        "PMID": {
+          "Version": 1,
+          "content": 25424902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Pharm Biopharm. 2014 May;87(1):55-63",
+        "PMID": {
+          "Version": 1,
+          "content": 24525073
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Pathol. 2010 May;176(5):2490-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20348242
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Jul 16;8(7):e68667",
+        "PMID": {
+          "Version": 1,
+          "content": 23874713
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Cell Res. 2013 Sep 10;319(15):2375-83",
+        "PMID": {
+          "Version": 1,
+          "content": 23850828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pathol. 2015 Mar;235(4):571-80",
+        "PMID": {
+          "Version": 1,
+          "content": 25424858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comb Chem High Throughput Screen. 2016;19(2):136-43",
+        "PMID": {
+          "Version": 1,
+          "content": 26552441
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chin Med J (Engl). 2016 Feb 20;129(4):448-55",
+        "PMID": {
+          "Version": 1,
+          "content": 26879019
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Oncol. 1989;28(1):1-5",
+        "PMID": {
+          "Version": 1,
+          "content": 2539844
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Mol Med. 2007 Sep;7(6):532-40",
+        "PMID": {
+          "Version": 1,
+          "content": 17896990
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 1972 Jan 18;259(1):112-6",
+        "PMID": {
+          "Version": 1,
+          "content": 4622203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Urol Int. 2015;94(1):1-24",
+        "PMID": {
+          "Version": 1,
+          "content": 25501325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biol. 2016 Apr 15;36(9):1354-65",
+        "PMID": {
+          "Version": 1,
+          "content": 26929199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomol Struct Dyn. 2017 Feb;35(2):312-329",
+        "PMID": {
+          "Version": 1,
+          "content": 26750516
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncogene. 2003 Mar 27;22(12):1817-21",
+        "PMID": {
+          "Version": 1,
+          "content": 12660817
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Genet Genomics. 2016 Dec;291(6):2065-2079",
+        "PMID": {
+          "Version": 1,
+          "content": 27530612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(9):e25297",
+        "PMID": {
+          "Version": 1,
+          "content": 21980418
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 2013 Oct 25;440(3):364-70",
+        "PMID": {
+          "Version": 1,
+          "content": 23998936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 Oct 12;20(15):2479-81",
+        "PMID": {
+          "Version": 1,
+          "content": 15073010
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Pharmacol. 2015 Jul 22;6:147",
+        "PMID": {
+          "Version": 1,
+          "content": 26257651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Jan 26;7(4):4490-506",
+        "PMID": {
+          "Version": 1,
+          "content": 26683224
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Oncol. 2007 Nov;31(5):1029-37",
+        "PMID": {
+          "Version": 1,
+          "content": 17912428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Biol Ther. 2015 ;16(6):821-33",
+        "PMID": {
+          "Version": 1,
+          "content": 25897893
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29152097
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29152097,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.18632/oncotarget.20903",
+        "IdType": "doi"
+      },
+      {
+        "content": 20903,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5675649",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

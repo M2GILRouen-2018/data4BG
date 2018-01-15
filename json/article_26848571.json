@@ -1,0 +1,713 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "JFD has no conflicts of interest in relation to this manuscript. JAP has recently received grant/research support from the National Health and Medical Research Council (NHMRC), BUPA Foundation, Amgen,/GlaxoSmithKline/Osteoporosis Australia/Australian and New Zealand Bone and Mineral Society, Western Alliance, Barwon Health, Deakin University and the Geelong Community Foundation. MB has received Grant/Research Support from the NIH, Cooperative Research Centre, Simons Autism Foundation, Cancer Council of Victoria, Stanley Medical Research Foundation, MBF, NHMRC, Beyond Blue, Rotary Health, Geelong Medical Research Foundation, Bristol Myers Squibb, Eli Lilly, Glaxo SmithKline, Meat and Livestock Board, Organon, Novartis, Mayne Pharma, Servier and Woolworths, has been a speaker for Astra Zeneca, Bristol Myers Squibb, Eli Lilly, Glaxo SmithKline, Janssen Cilag, Lundbeck, Merck, Pfizer, Sanofi Synthelabo, Servier, Solvay and Wyeth, and served as a consultant to Astra Zeneca, Bioadvantex, Bristol Myers Squibb, Eli Lilly, Glaxo SmithKline, Janssen Cilag, Lundbeck Merck and Servier. Drs Copolov, MB and Bush are co-inventors of provisional patent 02799377.3-2107-AU02 \u201cModulation of physiological process and agents useful for same\u201d. MB and Laupu are co-authors of provisional patent 2014900627 \u201cModulation of diseases of the central nervous system and related disorders\u201d. MB is supported by a NHMRC Senior Principal Research Fellowship 1059660. LJW is supported by a NHMRC Career Development Fellowship 1064272. SD has received grants/research support from the Stanley Medical Research Institute, NHMRC, Beyond Blue, ARHRF, Simons Foundation, Geelong Medical Research Foundation, Fondation FondaMental, Eli Lilly, Glaxo SmithKline, Organon, Mayne Pharma and Servier, speaker\u2019s fees from Eli Lilly, advisory board fees from Eli Lilly and Novartis, and conference travel support from Servier. FNJ has received Grant/Research support from the Brain and Behaviour Research Institute, the National Health and Medical Research Council (NHMRC), Australian Rotary Health, the Geelong Medical Research Foundation, the Ian Potter Foundation, Eli Lilly, the Meat and Livestock Board and The University of Melbourne and has received speakers honoraria from Sanofi-Synthelabo, Janssen Cilag, Servier, Pfizer, Health Ed, Network Nutrition, Angelini Farmaceutica, and Eli Lilly. She is supported by an NHMRC Career Development Fellowship (#1108125). DM has received grant/research support from the Australian research Council (ARC), Mental Illness Research Fund (MIRF), Victorian Department of Justice, Beyond Blue, Swinburne University of Technology, Federal University. This does not alter our adherence to PLOS ONE policies on sharing data and materials.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 14
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0167055"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "09"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Depression is commonly comorbid with many other somatic diseases and symptoms. Identification of individuals in clusters with comorbid symptoms may reveal new pathophysiological mechanisms and treatment targets. The aim of this research was to combine machine-learning (ML) algorithms with traditional regression techniques by utilising self-reported medical symptoms to identify and describe clusters of individuals with increased rates of depression from a large cross-sectional community based population epidemiological study."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "A multi-staged methodology utilising ML and traditional statistical techniques was performed using the community based population National Health and Nutrition Examination Study (2009-2010) (N = 3,922). A Self-organised Mapping (SOM) ML algorithm, combined with hierarchical clustering, was performed to create participant clusters based on 68 medical symptoms. Binary logistic regression, controlling for sociodemographic confounders, was used to then identify the key clusters of participants with higher levels of depression (PHQ-9≥10, n = 377). Finally, a Multiple Additive Regression Tree boosted ML algorithm was run to identify the important medical symptoms for each key cluster within 17 broad categories: heart, liver, thyroid, respiratory, diabetes, arthritis, fractures and osteoporosis, skeletal pain, blood pressure, blood transfusion, cholesterol, vision, hearing, psoriasis, weight, bowels and urinary."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Five clusters of participants, based on medical symptoms, were identified to have significantly increased rates of depression compared to the cluster with the lowest rate: odds ratios ranged from 2.24 (95% CI 1.56, 3.24) to 6.33 (95% CI 1.67, 24.02). The ML boosted regression algorithm identified three key medical condition categories as being significantly more common in these clusters: bowel, pain and urinary symptoms. Bowel-related symptoms was found to dominate the relative importance of symptoms within the five key clusters."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "This methodology shows promise for the identification of conditions in general populations and supports the current focus on the potential importance of bowel symptoms and the gut in mental health research."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joanna F",
+            "LastName": "Dipnall",
+            "Initials": "JF",
+            "AffiliationInfo": [
+              {"Affiliation": "IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia."},
+              {"Affiliation": "Department of Statistics, Data Science and Epidemiology, Swinburne University of Technology, Melbourne, Victoria, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Julie A",
+            "LastName": "Pasco",
+            "Initials": "JA",
+            "AffiliationInfo": [
+              {"Affiliation": "IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia."},
+              {"Affiliation": "Melbourne Clinical School-Western Campus, The University of Melbourne, St Albans, VIC, Australia."},
+              {"Affiliation": "Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia."},
+              {"Affiliation": "University Hospital Geelong, Geelong VIC Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Berk",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia."},
+              {"Affiliation": "University Hospital Geelong, Geelong VIC Australia."},
+              {"Affiliation": "Department of Psychiatry, The University of Melbourne, Parkville, VIC, Australia."},
+              {"Affiliation": "Florey Institute of Neuroscience and Mental Health, Parkville, VIC, Australia."},
+              {"Affiliation": "Orygen, the National Centre of Excellence in Youth Mental Health, Parkville, VIC, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lana J",
+            "LastName": "Williams",
+            "Initials": "LJ",
+            "AffiliationInfo": [
+              {"Affiliation": "IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia."},
+              {"Affiliation": "University Hospital Geelong, Geelong VIC Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seetal",
+            "LastName": "Dodd",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia."},
+              {"Affiliation": "University Hospital Geelong, Geelong VIC Australia."},
+              {"Affiliation": "Department of Psychiatry, The University of Melbourne, Parkville, VIC, Australia."},
+              {"Affiliation": "Orygen, the National Centre of Excellence in Youth Mental Health, Parkville, VIC, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Felice N",
+            "LastName": "Jacka",
+            "Initials": "FN",
+            "AffiliationInfo": [
+              {"Affiliation": "IMPACT Strategic Research Centre, School of Medicine, Deakin University, Geelong, VIC, Australia."},
+              {"Affiliation": "Department of Psychiatry, The University of Melbourne, Parkville, VIC, Australia."},
+              {"Affiliation": "Centre for Adolescent Health, Murdoch Children's Research Institute, Melbourne, Australia."},
+              {"Affiliation": "Black Dog Institute, Sydney, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Denny",
+            "LastName": "Meyer",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, Data Science and Epidemiology, Swinburne University of Technology, Melbourne, Victoria, Australia."}
+          }
+        ]
+      },
+      "ArticleTitle": "Into the Bowels of Depression: Unravelling Medical Symptoms Associated with Depression by Applying Machine-Learning Techniques to a Community Based Population Sample.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0167055"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 11,
+          "PubDate": {"Year": 2016},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": "09"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D019058",
+        "MajorTopicYN": "N",
+        "content": "Community Networks"
+      }},
+      {"DescriptorName": {
+        "UI": "D015897",
+        "MajorTopicYN": "N",
+        "content": "Comorbidity"
+      }},
+      {"DescriptorName": {
+        "UI": "D003430",
+        "MajorTopicYN": "N",
+        "content": "Cross-Sectional Studies"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "N",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000523",
+            "MajorTopicYN": "N",
+            "content": "psychology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003863",
+          "MajorTopicYN": "N",
+          "content": "Depression"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "N",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "N",
+            "content": "epidemiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003866",
+          "MajorTopicYN": "N",
+          "content": "Depressive Disorder"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "N",
+            "content": "epidemiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D005767",
+          "MajorTopicYN": "N",
+          "content": "Gastrointestinal Diseases"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D016015",
+        "MajorTopicYN": "Y",
+        "content": "Logistic Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "N",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D009749",
+          "MajorTopicYN": "N",
+          "content": "Nutrition Surveys"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011159",
+          "MajorTopicYN": "N",
+          "content": "Population Surveillance"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D057566",
+        "MajorTopicYN": "N",
+        "content": "Self Report"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 14
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2011 Oct 7;334(6052):105-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21885731
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Gen Intern Med. 2001 Sep;16(9):606-13",
+        "PMID": {
+          "Version": 1,
+          "content": 11556941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Gen Psychiatry. 2010 Mar;67(3):220-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20194822
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Arch Psychiatry Clin Neurosci. 2014 Dec;264(8):651-60",
+        "PMID": {
+          "Version": 1,
+          "content": 24705634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2012 Oct;13(10):701-12",
+        "PMID": {
+          "Version": 1,
+          "content": 22968153
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Psychiatry. 2015 Jan;28(1):1-6",
+        "PMID": {
+          "Version": 1,
+          "content": 25415497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Aliment Pharmacol Ther. 2005 Jul 15;22(2):101-10",
+        "PMID": {
+          "Version": 1,
+          "content": 16011668
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med J Aust. 2013 Sep 16;199(6 Suppl):S9-12",
+        "PMID": {
+          "Version": 1,
+          "content": 25370291
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dialogues Clin Neurosci. 2006;8(2):227-39",
+        "PMID": {
+          "Version": 1,
+          "content": 16889108
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Electroencephalogr Clin Neurophysiol. 1996 Sep;99(3):257-66",
+        "PMID": {
+          "Version": 1,
+          "content": 8862115
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Affect Disord. 2012 Dec 1;141(1):55-62",
+        "PMID": {
+          "Version": 1,
+          "content": 22410503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 29;9(1):e87657",
+        "PMID": {
+          "Version": 1,
+          "content": 24489946
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2008 Dec;31(12):2383-90",
+        "PMID": {
+          "Version": 1,
+          "content": 19033418
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet Psychiatry. 2016 Jan;3(1):13-5",
+        "PMID": {
+          "Version": 1,
+          "content": 26772057
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med. 2013 May 15;11:129",
+        "PMID": {
+          "Version": 1,
+          "content": 23672628
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet Psychiatry. 2016 Mar;3(3):243-50",
+        "PMID": {
+          "Version": 1,
+          "content": 26803397
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2014 Oct 1;69(3):237-46",
+        "PMID": {
+          "Version": 1,
+          "content": 25025851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastroenterology. 2002 Apr;122(4):1140-56",
+        "PMID": {
+          "Version": 1,
+          "content": 11910364
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Natl Cancer Inst Monogr. 2004;(32):57-71",
+        "PMID": {
+          "Version": 1,
+          "content": 15263042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastroenterology. 2014 May;146(6):1564-72",
+        "PMID": {
+          "Version": 1,
+          "content": 24503132
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Paediatr. 1999 Sep;88(9):969-74",
+        "PMID": {
+          "Version": 1,
+          "content": 10519339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Psychiatry. 2013 Jul 24;13:194",
+        "PMID": {
+          "Version": 1,
+          "content": 23883104
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 2000;11(3):586-600",
+        "PMID": {
+          "Version": 1,
+          "content": 18249787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 1999 Oct 28;341(18):1329-35",
+        "PMID": {
+          "Version": 1,
+          "content": 10536124
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Jan 23;505(7484):559-63",
+        "PMID": {
+          "Version": 1,
+          "content": 24336217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jan 28;9(1):e85733",
+        "PMID": {
+          "Version": 1,
+          "content": 24489669
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Scand J Gastroenterol. 2013 Mar;48(3):295-301",
+        "PMID": {
+          "Version": 1,
+          "content": 23320464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 1992 Jul 18;305(6846):152-6",
+        "PMID": {
+          "Version": 1,
+          "content": 1515829
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Psychiatry. 2017 Jan;39:40-50",
+        "PMID": {
+          "Version": 1,
+          "content": 27810617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Gastroenterol. 2010 Aug 05;10:88",
+        "PMID": {
+          "Version": 1,
+          "content": 20687933
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Board Fam Med. 2011 Jan-Feb;24(1):33-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21209342
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(10 ):e47713",
+        "PMID": {
+          "Version": 1,
+          "content": 23091640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2004 Jul;114(1):169-76",
+        "PMID": {
+          "Version": 1,
+          "content": 15231924
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med. 2013 Apr 24;11:110",
+        "PMID": {
+          "Version": 1,
+          "content": 23618390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Affect Disord. 2014 Feb;155:261-5",
+        "PMID": {
+          "Version": 1,
+          "content": 24308896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Affect Disord. 2015 Mar 15;174:215-24",
+        "PMID": {
+          "Version": 1,
+          "content": 25527991
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Bipolar Disord. 2015 Dec;3(1):21",
+        "PMID": {
+          "Version": 1,
+          "content": 26440506
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(12):e52771",
+        "PMID": {
+          "Version": 1,
+          "content": 23300767
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurorobot. 2013 Dec 04;7:21",
+        "PMID": {
+          "Version": 1,
+          "content": 24409142
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drugs Aging. 2016 Jan;33(1):21-5",
+        "PMID": {
+          "Version": 1,
+          "content": 26547857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Feb 05;11(2):e0148195",
+        "PMID": {
+          "Version": 1,
+          "content": 26848571
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 27935995
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27935995,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0167055",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-16-22658",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5147841",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

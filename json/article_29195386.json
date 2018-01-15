@@ -1,0 +1,112 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0405571",
+      "Country": "United States",
+      "ISSNLinking": "0034-6748",
+      "MedlineTA": "Rev Sci Instrum"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 115114},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Fitting a parametrized function to data is important for many researchers and scientists. If the model is non-linear and/or defect, it is not trivial to do correctly and to include an adequate uncertainty analysis. This work presents how the Levenberg-Marquardt algorithm for non-linear generalized least squares fitting can be used with a prior distribution for the parameters and how it can be combined with Gaussian processes to treat model defects. An example, where three peaks in a histogram are to be distinguished, is carefully studied. In particular, the probability r1 for a nuclear reaction to end up in one out of two overlapping peaks is studied. Synthetic data are used to investigate effects of linearizations and other assumptions. For perfect Gaussian peaks, it is seen that the estimated parameters are distributed close to the truth with good covariance estimates. This assumes that the method is applied correctly; for example, prior knowledge should be implemented using a prior distribution and not by assuming that some parameters are perfectly known (if they are not). It is also important to update the data covariance matrix using the fit if the uncertainties depend on the expected value of the data (e.g., for Poisson counting statistics or relative uncertainties). If a model defect is added to the peaks, such that their shape is unknown, a fit which assumes perfect Gaussian peaks becomes unable to reproduce the data, and the results for r1 become biased. It is, however, seen that it is possible to treat the model defect with a Gaussian process with a covariance function tailored for the situation, with hyper-parameters determined by leave-one-out cross validation. The resulting estimates for r1 are virtually unbiased, and the uncertainty estimates agree very well with the underlying uncertainty."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "P",
+            "LastName": "Helgesson",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "H",
+            "LastName": "Sjöstrand",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden."}
+          }
+        ]
+      },
+      "ArticleTitle": "Fitting a defect non-linear model with or without prior, distinguishing nuclear reaction products as an example.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1063/1.4993697"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 88,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Rev Sci Instrum",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1089-7623"
+        },
+        "Title": "The Review of scientific instruments"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29195386
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29195386,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1063/1.4993697",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

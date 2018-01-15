@@ -1,0 +1,315 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9801902,
+      "Country": "England",
+      "ISSNLinking": "1364-8535",
+      "MedlineTA": "Crit Care"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 282},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Early recognition and timely intervention are critical steps for the successful management of shock. The objective of this study was to develop a model to predict requirement for hemodynamic intervention in the pediatric intensive care unit (PICU); thus, clinicians can direct their care to patients likely to benefit from interventions to prevent further deterioration."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The model proposed in this study was trained on a retrospective cohort of all patients admitted to a tertiary PICU at a single center in the United States, and validated on another retrospective cohort of all patients admitted to the PICU at a single center in the United Kingdom. The PICU clinical information system database (Intellivue Clinical Information Portfolio, Philips, UK) was interrogated to collect physiological and laboratory data. The model was trained using a variant of AdaBoost, which learned a set of low-dimensional classifiers, each of which was age adjusted."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "A total of 7052 patients admitted to the US PICU was used for training the model, and a total of 970 patients admitted to the UK PICU was used for validation. On the training/validation datasets, the model showed better prediction of hemodynamic intervention (area under the receiver operating characteristic (AUROC)\u2009=\u20090.81/0.81) than systolic blood pressure-based (AUCROC\u2009=\u20090.58/0.67) or shock index-based (AUCROC\u2009=\u20090.63/0.65) models. Both of these models were age adjusted using the same classifier."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The proposed model reliably predicted the need for hemodynamic intervention in PICU patients and provides better classification performance when compared to systolic blood pressure-based or shock index-based models alone. This model could readily be built into a clinical information system to identify patients at risk of hemodynamic instability."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cristhian",
+            "LastName": "Potes",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Acute Care Solutions Department, Philips Research North America, 2 Canal Park, Cambridge, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bryan",
+            "LastName": "Conroy",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Acute Care Solutions Department, Philips Research North America, 2 Canal Park, Cambridge, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Minnan",
+            "LastName": "Xu-Wilson",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Acute Care Solutions Department, Philips Research North America, 2 Canal Park, Cambridge, MA, USA. Minnan.Xu@philips.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher",
+            "LastName": "Newth",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Children's Hospital Los Angeles, Los Angeles, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Inwald",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "St Mary's Hospital, Imperial College Healthcare NHS Trust, London, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joseph",
+            "LastName": "Frassica",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Philips Healthcare, Andover, MA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "A clinical prediction model to identify patients at high risk of hemodynamic instability in the pediatric intensive care unit.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13054-017-1874-z"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 21,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Crit Care",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1466-609X"
+        },
+        "Title": "Critical care (London, England)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Age-dependent features"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hemodynamic instability"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pediatric intensive care unit"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Predictive model"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Shock. 2016 Sep;46(3):279-86",
+        "PMID": {
+          "Version": 1,
+          "content": 27206274
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Dis Child. 2017 Jun;102(6):487-495",
+        "PMID": {
+          "Version": 1,
+          "content": 28292743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Crit Care. 2006 Sep;21(3):271-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16990097
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Intensive Care Med. 2016 Dec;42(12 ):1948-1957",
+        "PMID": {
+          "Version": 1,
+          "content": 27709263
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Crit Care Med. 2015 Sep;16(7):644-51",
+        "PMID": {
+          "Version": 1,
+          "content": 25901545
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Intensive Care Med. 2016 Nov 21;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27879296
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2013 Apr;131(4):e1150-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23478871
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2005 Mar-Apr;12(2):229-33",
+        "PMID": {
+          "Version": 1,
+          "content": 15561793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Crit Care Med. 2016 Nov;17 (11):1073-1079",
+        "PMID": {
+          "Version": 1,
+          "content": 27749512
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Dis Child. 2010 Sep;95(9):681-5",
+        "PMID": {
+          "Version": 1,
+          "content": 19666940
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2017 Aug 15;196 (4):494-501",
+        "PMID": {
+          "Version": 1,
+          "content": 28324661
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care. 2011 Aug 03;15(4):R184",
+        "PMID": {
+          "Version": 1,
+          "content": 21812993
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care Med. 2017 Jun;45(6):1061-1093",
+        "PMID": {
+          "Version": 1,
+          "content": 28509730
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29151364
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29151364,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13054-017-1874-z",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s13054-017-1874-z",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5694915",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

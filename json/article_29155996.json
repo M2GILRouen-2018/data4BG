@@ -1,0 +1,220 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9430800,
+      "Country": "England",
+      "ISSNLinking": "1067-5027",
+      "MedlineTA": "J Am Med Inform Assoc"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Objective",
+          "content": "We explored how a deep learning (DL) approach based on hierarchical attention networks (HANs) can improve model performance for multiple information extraction tasks from unstructured cancer pathology reports compared to conventional methods that do not sufﬁciently capture syntactic and semantic contexts from free-text documents."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Materials and Methods",
+          "content": "Data for our analyses were obtained from 942 deidentiﬁed pathology reports collected by the National Cancer Institute Surveillance, Epidemiology, and End Results program. The HAN was implemented for 2 information extraction tasks: (1) primary site, matched to 12 International Classification of Diseases for Oncology topography codes (7 breast, 5 lung primary sites), and (2) histological grade classiﬁcation, matched to G1-G4. Model performance metrics were compared to conventional machine learning (ML) approaches including naive Bayes, logistic regression, support vector machine, random forest, and extreme gradient boosting, and other DL models, including a recurrent neural network (RNN), a recurrent neural network with attention (RNN w/A), and a convolutional neural network."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "Our results demonstrate that for both information tasks, HAN performed signiﬁcantly better compared to the conventional ML and DL techniques. In particular, across the 2 tasks, the mean micro and macro F-scores for the HAN with pretraining were (0.852,0.708), compared to naive Bayes (0.518, 0.213), logistic regression (0.682, 0.453), support vector machine (0.634, 0.434), random forest (0.698, 0.508), extreme gradient boosting (0.696, 0.522), RNN (0.505, 0.301), RNN w/A (0.637, 0.471), and convolutional neural network (0.714, 0.460)."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Conclusions",
+          "content": "HAN-based DL models show promise in information abstraction tasks within unstructured clinical pathology reports."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shang",
+            "LastName": "Gao",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Computational Science and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael T",
+            "LastName": "Young",
+            "Initials": "MT",
+            "AffiliationInfo": {"Affiliation": "Computational Science and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John X",
+            "LastName": "Qiu",
+            "Initials": "JX",
+            "AffiliationInfo": {"Affiliation": "Computational Science and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hong-Jun",
+            "LastName": "Yoon",
+            "Initials": "HJ",
+            "AffiliationInfo": {"Affiliation": "Computational Science and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "James B",
+            "LastName": "Christian",
+            "Initials": "JB",
+            "AffiliationInfo": {"Affiliation": "Computational Science and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul A",
+            "LastName": "Fearn",
+            "Initials": "PA",
+            "AffiliationInfo": {"Affiliation": "Surveillance Informatics Branch, Division of Cancer Control and Population Sciences, National Cancer Institute, Bethesda, MD, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Georgia D",
+            "LastName": "Tourassi",
+            "Initials": "GD",
+            "AffiliationInfo": {"Affiliation": "Computational Science and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arvind",
+            "LastName": "Ramanthan",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Computational Science and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Hierarchical attention networks for information extraction from cancer pathology reports.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/jamia/ocx131"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 16
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Am Med Inform Assoc",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1527-974X"
+        },
+        "Title": "Journal of the American Medical Informatics Association : JAMIA"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "attention networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "clinical pathology reports"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "information retrieval"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "recurrent neural nets"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29155996
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29155996,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 4636780,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/jamia/ocx131",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

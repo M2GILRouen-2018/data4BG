@@ -1,0 +1,502 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 55},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D003160",
+          "content": "Comparative Study"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Biclustering techniques are capable of simultaneously clustering rows and columns of a data matrix. These techniques became very popular for the analysis of gene expression data, since a gene can take part of multiple biological pathways which in turn can be active only under specific experimental conditions. Several biclustering algorithms have been developed in the past recent years. In order to provide guidance regarding their choice, a few comparative studies were conducted and reported in the literature. In these studies, however, the performances of the methods were evaluated through external measures that have more recently been shown to have undesirable properties. Furthermore, they considered a limited number of algorithms and datasets."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We conducted a broader comparative study involving seventeen algorithms, which were run on three synthetic data collections and two real data collections with a more representative number of datasets. For the experiments with synthetic data, five different experimental scenarios were studied: different levels of noise, different numbers of implanted biclusters, different levels of symmetric bicluster overlap, different levels of asymmetric bicluster overlap and different bicluster sizes, for which the results were assessed with more suitable external measures. For the experiments with real datasets, the results were assessed by gene set enrichment and clustering accuracy."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We observed that each algorithm achieved satisfactory results in part of the biclustering tasks in which they were investigated. The choice of the best algorithm for some application thus depends on the task at hand and the types of patterns that one wants to detect."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8060-0350"
+            },
+            "ForeName": "Victor A",
+            "LastName": "Padilha",
+            "Initials": "VA",
+            "AffiliationInfo": {"Affiliation": "Institute of Mathematics and Computer Sciences, University of São Paulo, São Carlos, SP, Brazil. victorpadilha@usp.br."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ricardo J G B",
+            "LastName": "Campello",
+            "Initials": "RJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute of Mathematics and Computer Sciences, University of São Paulo, São Carlos, SP, Brazil."},
+              {"Affiliation": "College of Science and Engineering, James Cook University, Townsville, QLD, Australia."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "A systematic comparative evaluation of biclustering techniques.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1487-1"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Biclustering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Clustering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gene expression"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D030541",
+        "MajorTopicYN": "N",
+        "content": "Databases, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D005786",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Regulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D009369",
+          "MajorTopicYN": "N",
+          "content": "Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Jan 1;23(1):50-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17090578
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2009 Jan;10(1):57-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19015660
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pac Symp Biocomput. 2003;:77-88",
+        "PMID": {
+          "Version": 1,
+          "content": 12603019
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2000 Jan 1;28(1):27-30",
+        "PMID": {
+          "Version": 1,
+          "content": 10592173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 May 15;26(10):1376-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20371495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 Apr;13(4):703-16",
+        "PMID": {
+          "Version": 1,
+          "content": 12671006
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2014 Sep-Oct;11(5):942-54",
+        "PMID": {
+          "Version": 1,
+          "content": 26356865
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2015 Oct;57:163-80",
+        "PMID": {
+          "Version": 1,
+          "content": 26160444
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "OMICS. 2012 May;16(5):284-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22455463
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2003 Mar;67(3 Pt 1):031902",
+        "PMID": {
+          "Version": 1,
+          "content": 12689096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Dec 15;25(24):3267-74",
+        "PMID": {
+          "Version": 1,
+          "content": 19825796
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2008 Nov 27;9:497",
+        "PMID": {
+          "Version": 1,
+          "content": 19038021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Algorithms Mol Biol. 2011 Jun 23;6(1):18",
+        "PMID": {
+          "Version": 1,
+          "content": 21699691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2008;9 Suppl 1:S4",
+        "PMID": {
+          "Version": 1,
+          "content": 18366617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 1990 Jul;9(7):811-8",
+        "PMID": {
+          "Version": 1,
+          "content": 2218183
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Oct 1;27(19):2738-45",
+        "PMID": {
+          "Version": 1,
+          "content": 21824973
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2003;10(3-4):373-84",
+        "PMID": {
+          "Version": 1,
+          "content": 12935334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2004 Jan-Mar;1(1):24-45",
+        "PMID": {
+          "Version": 1,
+          "content": 17048406
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Aug;37(15):e101",
+        "PMID": {
+          "Version": 1,
+          "content": 19509312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2008 Jul-Sep;5(3):385-400",
+        "PMID": {
+          "Version": 1,
+          "content": 18670042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2002 Jan 1;30(1):207-10",
+        "PMID": {
+          "Version": 1,
+          "content": 11752295
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2013 May;14(3):279-92",
+        "PMID": {
+          "Version": 1,
+          "content": 22772837
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 May 1;22(9):1122-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16500941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2002 Aug;31(4):370-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12134151
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014;15 Suppl 2:S2",
+        "PMID": {
+          "Version": 1,
+          "content": 24564555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2013 Jul-Aug;10(4):845-57",
+        "PMID": {
+          "Version": 1,
+          "content": 24334380
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Jun 15;26(12):1520-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20418340
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2003 Sep 22;19(14):1787-99",
+        "PMID": {
+          "Version": 1,
+          "content": 14512350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2002;18 Suppl 1:S136-44",
+        "PMID": {
+          "Version": 1,
+          "content": 12169541
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2000 May;25(1):25-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10802651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 May 15;22(10):1282-3",
+        "PMID": {
+          "Version": 1,
+          "content": 16551664
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28114903
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114903,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1487-1",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1487-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5259837",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

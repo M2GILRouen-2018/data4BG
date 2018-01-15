@@ -1,0 +1,713 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "247-57"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016430",
+          "content": "Clinical Trial"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D016448",
+          "content": "Multicenter Study"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Juvenile idiopathic arthritis (JIA) is the leading cause of childhood disability from a musculoskeletal disorder. It generally affects large joints such as the knee and the ankle, often causing structural damage. Different factors contribute to the damage onset, including altered joint loading and other mechanical factors, associated with pain and inflammation. The prediction of patients' joint loading can hence be a valuable tool in understanding the disease mechanisms involved in structural damage progression. A number of lower-limb musculoskeletal models have been proposed to analyse the hip and knee joints, but juvenile models of the foot are still lacking. This paper presents a modelling pipeline that allows the creation of juvenile patient-specific models starting from lower limb kinematics and foot and ankle MRI data. This pipeline has been applied to data from three children with JIA and the importance of patient-specific parameters and modelling assumptions has been tested in a sensitivity analysis focused on the variation of the joint reaction forces. This analysis highlighted the criticality of patient-specific definition of the ankle joint axes and location of the Achilles tendon insertions. Patient-specific detection of the Tibialis Anterior, Tibialis Posterior, and Peroneus Longus origins and insertions were also shown to be important."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joe A I",
+            "LastName": "Prinold",
+            "Initials": "JA",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mechanical Engineering, University of Sheffield, Pam Liversidge Building, Sheffield, S13JD, UK."},
+              {"Affiliation": "INSIGNEO Institute for in silico Medicine, University of Sheffield, Sheffield, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Claudia",
+            "LastName": "Mazzà",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mechanical Engineering, University of Sheffield, Pam Liversidge Building, Sheffield, S13JD, UK. c.mazza@sheffield.ac.uk."},
+              {"Affiliation": "INSIGNEO Institute for in silico Medicine, University of Sheffield, Sheffield, UK. c.mazza@sheffield.ac.uk."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Roberto",
+            "LastName": "Di Marco",
+            "Initials": "R",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mechanical Engineering, University of Sheffield, Pam Liversidge Building, Sheffield, S13JD, UK."},
+              {"Affiliation": "Department of Mechanical and Aerospace Engineering, Sapienza University of Rome, Rome, Italy."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Iain",
+            "LastName": "Hannah",
+            "Initials": "I",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mechanical Engineering, University of Sheffield, Pam Liversidge Building, Sheffield, S13JD, UK."},
+              {"Affiliation": "INSIGNEO Institute for in silico Medicine, University of Sheffield, Sheffield, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Clara",
+            "LastName": "Malattia",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Pediatria II - Reumatologia, Istituto Giannina Gaslini, Genoa, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Silvia",
+            "LastName": "Magni-Manzoni",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Pediatric Rheumatology Unit, IRCCS Ospedale Pediatrico Bambino Gesù, Rome, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maurizio",
+            "LastName": "Petrarca",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Movement Analysis and Robotics Laboratory (MARLab), Neurorehabilitation Units, IRCCS Ospedale Pediatrico Bambino Gesù, Passoscuro, Rome, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anna B",
+            "LastName": "Ronchetti",
+            "Initials": "AB",
+            "AffiliationInfo": {"Affiliation": "UOC Medicina Fisica e Riabilitazione, IRCCS Istituto Giannina Gaslini, Genoa, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Laura",
+            "LastName": "Tanturri de Horatio",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Imaging, IRCCS Ospedale Pediatrico Bambino Gesù, Rome, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "E H Pieter",
+            "LastName": "van Dijkhuizen",
+            "Initials": "EH",
+            "AffiliationInfo": [
+              {"Affiliation": "Pediatria II - Reumatologia, Istituto Giannina Gaslini, Genoa, Italy."},
+              {"Affiliation": "Paediatric immunology, University Medical Centre Utrecht Wilhelmina Children's Hospital, Utrecht, The Netherlands."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stefan",
+            "LastName": "Wesarg",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Visual Healthcare Technologies, Fraunhofer IGD, Darmstadt, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marco",
+            "LastName": "Viceconti",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mechanical Engineering, University of Sheffield, Pam Liversidge Building, Sheffield, S13JD, UK."},
+              {"Affiliation": "INSIGNEO Institute for in silico Medicine, University of Sheffield, Sheffield, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "CollectiveName": "MD-PAEDIGREE Consortium"
+          }
+        ]
+      },
+      "ArticleTitle": "A Patient-Specific Foot Model for the Estimate of Ankle Joint Forces in Patients with Juvenile Idiopathic Arthritis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10439-015-1451-z"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Ann Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1573-9686"
+        },
+        "Title": "Annals of biomedical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2015,
+      "Day": 25
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2016,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2011 Dec;49(12):1425-35",
+        "PMID": {
+          "Version": 1,
+          "content": 22038240
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Biomech Biomed Engin. 2015;18(14):1555-63",
+        "PMID": {
+          "Version": 1,
+          "content": 24963785
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2012 Sep 21;45(14):2476-80",
+        "PMID": {
+          "Version": 1,
+          "content": 22867762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2013 Sep;51(9):953-63",
+        "PMID": {
+          "Version": 1,
+          "content": 23873010
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2013 Sep 3;46(13):2186-93",
+        "PMID": {
+          "Version": 1,
+          "content": 23891175
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Inst Mech Eng H. 2013 Oct;227(10):1041-57",
+        "PMID": {
+          "Version": 1,
+          "content": 23851656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Biomech (Bristol, Avon). 2014 Jan;29(1):1-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24216466
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2014 Mar;52(3):283-91",
+        "PMID": {
+          "Version": 1,
+          "content": 23543279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Orthop Res. 2014 Dec;32(12):1688-93",
+        "PMID": {
+          "Version": 1,
+          "content": 25130961
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014;9(11):e112625",
+        "PMID": {
+          "Version": 1,
+          "content": 25390896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Foot Ankle Int. 2015 Feb;36(2):211-24",
+        "PMID": {
+          "Version": 1,
+          "content": 25583955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2015 Jul 16;48(10):2116-23",
+        "PMID": {
+          "Version": 1,
+          "content": 25979383
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Aided Surg. 2000;5(2):108-19",
+        "PMID": {
+          "Version": 1,
+          "content": 10862133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2001 Jul;34(7):883-93",
+        "PMID": {
+          "Version": 1,
+          "content": 11410172
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech Eng. 2001 Dec;123(6):599-606",
+        "PMID": {
+          "Version": 1,
+          "content": 11783731
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Rheumatology (Oxford). 2002 Dec;41(12):1440-3",
+        "PMID": {
+          "Version": 1,
+          "content": 12468827
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 1982;15(9):627-34",
+        "PMID": {
+          "Version": 1,
+          "content": 7174695
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 1988;21(11):965-74",
+        "PMID": {
+          "Version": 1,
+          "content": 3253283
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Sports Med. 1990 Mar-Apr;18(2):196-200",
+        "PMID": {
+          "Version": 1,
+          "content": 2343988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 1990 Aug;37(8):757-67",
+        "PMID": {
+          "Version": 1,
+          "content": 2210784
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2005 Feb;21(2):226-37",
+        "PMID": {
+          "Version": 1,
+          "content": 15639401
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Foot Ankle Int. 2005 Dec;26(12):1067-73",
+        "PMID": {
+          "Version": 1,
+          "content": 16390641
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2006 Jun;23(4):401-10",
+        "PMID": {
+          "Version": 1,
+          "content": 15914005
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2007 Mar 3;369(9563):767-78",
+        "PMID": {
+          "Version": 1,
+          "content": 17336654
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Biomech (Bristol, Avon). 2007 Jul;22(6):639-44",
+        "PMID": {
+          "Version": 1,
+          "content": 17395346
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2007 Nov;54(11):1940-50",
+        "PMID": {
+          "Version": 1,
+          "content": 18018689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2008;41(6):1243-52",
+        "PMID": {
+          "Version": 1,
+          "content": 18346745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Shoulder Elbow Surg. 2008 Jul-Aug;17(4):650-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18430593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Biomech (Bristol, Avon). 2008 Aug;23(7):845-52",
+        "PMID": {
+          "Version": 1,
+          "content": 18304710
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2008 Oct;28(3):358-65",
+        "PMID": {
+          "Version": 1,
+          "content": 18571416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Rheumatol. 2010 Mar;22(2):213-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20010296
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Biomed Eng. 2010 Feb;38(2):269-79",
+        "PMID": {
+          "Version": 1,
+          "content": 19957039
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2010 Jun 18;43(9):1645-52",
+        "PMID": {
+          "Version": 1,
+          "content": 20385385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Biomed Eng. 2011 Jan;39(1):147-60",
+        "PMID": {
+          "Version": 1,
+          "content": 20862546
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2011 Feb;33(2):158-64",
+        "PMID": {
+          "Version": 1,
+          "content": 21247765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2011 Jul 28;44(11):2096-105",
+        "PMID": {
+          "Version": 1,
+          "content": 21703627
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2012 May 11;45(8):1463-71",
+        "PMID": {
+          "Version": 1,
+          "content": 22507351
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2015 Jan 21;48(2):233-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25512017
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2011 Aug 11;44(12):2185-93",
+        "PMID": {
+          "Version": 1,
+          "content": 21742331
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4690839"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0361512",
+      "Country": "United States",
+      "ISSNLinking": "0090-6964",
+      "MedlineTA": "Ann Biomed Eng"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2016,
+      "Day": 26
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Foot"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Lower-limb"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Musculoskeletal"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "NMS-Builder"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "OpenSim"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Sensitivity"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000293",
+        "MajorTopicYN": "N",
+        "content": "Adolescent"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D000843",
+          "MajorTopicYN": "Y",
+          "content": "Ankle Joint"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001171",
+          "MajorTopicYN": "Y",
+          "content": "Arthritis, Juvenile"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001696",
+        "MajorTopicYN": "N",
+        "content": "Biomechanical Phenomena"
+      }},
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D005528",
+          "MajorTopicYN": "Y",
+          "content": "Foot"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D057285",
+          "MajorTopicYN": "N",
+          "content": "Precision Medicine"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016474",
+        "MajorTopicYN": "N",
+        "content": "Weight-Bearing"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26374518
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2015,
+        "Day": 29,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2015,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26374518,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10439-015-1451-z",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10439-015-1451-z",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC4690839",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

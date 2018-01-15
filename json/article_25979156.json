@@ -1,0 +1,321 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101477954,
+      "Country": "Switzerland",
+      "ISSNLinking": "1662-5161",
+      "MedlineTA": "Front Hum Neurosci"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 534},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Part of the process of EEG microstate estimation involves clustering EEG channel data at the global field power (GFP) maxima, very commonly using a modified K-means approach. Clustering has also been done deterministically, despite there being uncertainties in multiple stages of the microstate analysis, including the GFP peak definition, the clustering itself and in the post-clustering assignment of microstates back onto the EEG timecourse of interest. We perform a fully probabilistic microstate clustering and labeling, to account for these sources of uncertainty using the closest probabilistic analog to KM called Fuzzy C-means (FCM). We train softmax multi-layer perceptrons (MLPs) using the KM and FCM-inferred cluster assignments as target labels, to then allow for probabilistic labeling of the full EEG data instead of the usual correlation-based deterministic microstate label assignment typically used. We assess the merits of the probabilistic analysis vs. the deterministic approaches in EEG data recorded while participants perform real or imagined motor movements from a publicly available data set of 109 subjects. Though FCM group template maps that are almost topographically identical to KM were found, there is considerable uncertainty in the subsequent assignment of microstate labels. In general, imagined motor movements are less predictable on a time point-by-time point basis, possibly reflecting the more exploratory nature of the brain state during imagined, compared to during real motor movements. We find that some relationships may be more evident using FCM than using KM and propose that future microstate analysis should preferably be performed probabilistically rather than deterministically, especially in situations such as with brain computer interfaces, where both training and applying models of microstates need to account for uncertainty. Probabilistic neural network-driven microstate assignment has a number of advantages that we have discussed, which are likely to be further developed and exploited in future studies. In conclusion, probabilistic clustering and a probabilistic neural network-driven approach to microstate analysis is likely to better model and reveal details and the variability hidden in current deterministic and binarized microstate assignment and analyses."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Martin",
+            "LastName": "Dinov",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Computational, Cognitive and Clinical Neuroimaging Laboratory, Division of Brain Sciences, The Centre for Restorative Neuroscience, Imperial College London, London, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert",
+            "LastName": "Leech",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Computational, Cognitive and Clinical Neuroimaging Laboratory, Division of Brain Sciences, The Centre for Restorative Neuroscience, Imperial College London, London, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "Modeling Uncertainties in EEG Microstates: Analysis of Real and Imagined Motor Movements Using Probabilistic Clustering-Driven Training of Probabilistic Neural Networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fnhum.2017.00534"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 11,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Hum Neurosci",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1662-5161"
+        },
+        "Title": "Frontiers in human neuroscience"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "EEG"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Fuzzy C-Means"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "K-Means"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "motor imagery"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "multi-layer perceptrons"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "probabilistic microstates"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Eng Med Biol Mag. 2010 May-Jun;29(3):44-56",
+        "PMID": {
+          "Version": 1,
+          "content": 20659857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 May 1;60(4):2062-72",
+        "PMID": {
+          "Version": 1,
+          "content": 22381593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Electroencephalogr Clin Neurophysiol. 1987 Sep;67(3):271-88",
+        "PMID": {
+          "Version": 1,
+          "content": 2441961
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2000 Jun 13;101(23):E215-20",
+        "PMID": {
+          "Version": 1,
+          "content": 10851218
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Oct 1;52(4):1149-61",
+        "PMID": {
+          "Version": 1,
+          "content": 20139014
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Neurophysiol. 2010 Dec;27(6):458-64",
+        "PMID": {
+          "Version": 1,
+          "content": 21076326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Oct 19;107(42):18179-84",
+        "PMID": {
+          "Version": 1,
+          "content": 20921381
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Jan 1;49(1):1073-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19646538
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2015 Mar 18;35(11):4626-34",
+        "PMID": {
+          "Version": 1,
+          "content": 25788679
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Hum Neurosci. 2016 Aug 03;10:369",
+        "PMID": {
+          "Version": 1,
+          "content": 27536225
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 1995 Jul;42(7):658-65",
+        "PMID": {
+          "Version": 1,
+          "content": 7622149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2004 Jun;51(6):1034-43",
+        "PMID": {
+          "Version": 1,
+          "content": 15188875
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Comput Neurosci. 2016 May 12;10:46",
+        "PMID": {
+          "Version": 1,
+          "content": 27242502
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Feb 26;110(9):3585-90",
+        "PMID": {
+          "Version": 1,
+          "content": 23401536
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2016 Jan 15;125:643-656",
+        "PMID": {
+          "Version": 1,
+          "content": 26285079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Dec 05;9(12):e114163",
+        "PMID": {
+          "Version": 1,
+          "content": 25479614
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Oct 1;52(4):1162-70",
+        "PMID": {
+          "Version": 1,
+          "content": 20188188
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2009 Dec 9;29(49):15595-600",
+        "PMID": {
+          "Version": 1,
+          "content": 20007483
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurosci Biobehav Rev. 2015 Feb;49:105-13",
+        "PMID": {
+          "Version": 1,
+          "content": 25526823
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Psychophysiol. 2015 Sep;97(3):210-20",
+        "PMID": {
+          "Version": 1,
+          "content": 25979156
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29163110
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29163110,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fnhum.2017.00534",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5671986",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

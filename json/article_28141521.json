@@ -1,0 +1,128 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "3128-3141"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Recently, feature fusion has demonstrated its effectiveness in image search. However, bad features and inappropriate parameters usually bring about false positive images, i.e., outliers, leading to inferior performance. Therefore, a major challenge of fusion scheme is how to be robust to outliers. Towards this goal, this paper proposes a rank-level framework for robust feature fusion. First, we define Rank Distance to measure the relevance of images at rank level. Based on it, Bayes similarity is introduced to evaluate the retrieval quality of individual features, through which true matches tend to obtain higher weight than outliers. Then, we construct the directed ImageGraph to encode the relationship of images. Each image is connected to its K nearest neighbors with an edge, and the edge is weighted by Bayes similarity. Multiple rank lists resulted from different methods are merged via ImageGraph. Furthermore, on the fused ImageGraph, local ranking is performed to re-order the initial rank lists. It aims at local optimization, and thus is more robust to global outliers. Extensive experiments on four benchmark data sets validate the effectiveness of our method. Besides, the proposed method outperforms two popular fusion schemes, and the results are competitive to the state-of-the-art."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ziqiong",
+            "LastName": "Liu",
+            "Initials": "Z"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shengjin",
+            "LastName": "Wang",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Liang",
+            "LastName": "Zheng",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qi",
+            "LastName": "Tian",
+            "Initials": "Q"
+          }
+        ]
+      },
+      "ArticleTitle": "Robust ImageGraph: Rank-Level Feature Fusion for Image Search.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2017.2660244"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 26,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28141521
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28141521,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2017.2660244",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

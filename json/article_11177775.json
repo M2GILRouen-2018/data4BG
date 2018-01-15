@@ -1,0 +1,556 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2014,
+      "Day": 28
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e87864"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": "04"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Drugs with similar side-effect profiles may share similar therapeutic properties through related mechanisms of action. In this study, a drug-drug network was constructed based on the similarities between their clinical side effects. The indications of a drug may be inferred by the enriched FDA-approved functions of its neighbouring drugs in the network. We systematically screened new indications for 1234 drugs with more than 2 network neighbours, 36.87% of the drugs achieved a performance score of Normalized Discounted Cumulative Gain in the top 5 positions (NDCG@5) ≥ 0.7, which means most of the known FDA-approved indications were well predicted at the top 5 positions. In particular, drugs for diabetes, obesity, laxatives and antimycobacterials had extremely high performance with more than 80% of them achieving NDCG@5 ≥ 0.7. Additionally, by manually checking the predicted 1858 drug-indication pairs with Expression Analysis Systematic Explorer (EASE) score ≤ 10(-5) (EASE score is a rigorously modified Fisher exact test p value), we found that 80.73% of such pairs could be verified by preclinical/clinical studies or scientific literature. Furthermore, our method could be extended to predict drugs not covered in the network. We took 98 external drugs not covered in the network as the test sample set. Based on our similarity criteria using side effects, we identified 41 drugs with significant similarities to other drugs in the network. Among them, 36.59% of the drugs achieved NDCG@5 ≥ 0.7. In all of the 106 drug-indication pairs with an EASE score ≤ 0.05, 50.94% of them are supported by FDA approval or preclinical/clinical studies. In summary, our method which is based on the indications enriched by network neighbors may provide new clues for drug repositioning using side effects."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hao",
+            "LastName": "Ye",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "R&D Information, AstraZeneca, Shanghai, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qi",
+            "LastName": "Liu",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "School of Life Sciences and Technology, Tongji University, Shanghai, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jia",
+            "LastName": "Wei",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "R&D Information, AstraZeneca, Shanghai, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Construction of drug network based on side effects and its application for drug repositioning.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0087864"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 9,
+          "PubDate": {"Year": 2014},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2014,
+      "Day": "07"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D062313",
+        "MajorTopicYN": "N",
+        "content": "Databases, Pharmaceutical"
+      }},
+      {"DescriptorName": {
+        "UI": "D058492",
+        "MajorTopicYN": "Y",
+        "content": "Drug Repositioning"
+      }},
+      {"DescriptorName": {
+        "UI": "D064420",
+        "MajorTopicYN": "Y",
+        "content": "Drug-Related Side Effects and Adverse Reactions"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "Y",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2006 Jul;24(7):805-15",
+        "PMID": {
+          "Version": 1,
+          "content": 16841068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2011 Jun;10(6):428-38",
+        "PMID": {
+          "Version": 1,
+          "content": 21629293
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2012 Apr;30(4):317-20",
+        "PMID": {
+          "Version": 1,
+          "content": 22491277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychopharmacology (Berl). 2009 Mar;203(1):155-60",
+        "PMID": {
+          "Version": 1,
+          "content": 18989660
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2003;4(10):R70",
+        "PMID": {
+          "Version": 1,
+          "content": 14519205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Exp Ther. 1992 Jan;260(1):275-85",
+        "PMID": {
+          "Version": 1,
+          "content": 1309873
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Psychopharmacol. 1999 Aug;19(4):329-35",
+        "PMID": {
+          "Version": 1,
+          "content": 10440460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2010;6:343",
+        "PMID": {
+          "Version": 1,
+          "content": 20087340
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Life Sci. 1998;63(12):PL175-80",
+        "PMID": {
+          "Version": 1,
+          "content": 9749830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Cell. 2012 Feb;3(2):132-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22426982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cleve Clin J Med. 2002;69 Suppl 1:SI5-12",
+        "PMID": {
+          "Version": 1,
+          "content": 12086294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Affect Disord. 2011 Mar;129(1-3):158-66",
+        "PMID": {
+          "Version": 1,
+          "content": 20828831
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2012 Aug 9;55(15):6832-48",
+        "PMID": {
+          "Version": 1,
+          "content": 22780961
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Pharmacol. 1992 Jan;105(1):147-51",
+        "PMID": {
+          "Version": 1,
+          "content": 1596676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2011;7:496",
+        "PMID": {
+          "Version": 1,
+          "content": 21654673
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Affect Disord. 2006 Feb;90(2-3):251-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16356553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Clin Pharmacol. 1996 Jan;41(1):7-12",
+        "PMID": {
+          "Version": 1,
+          "content": 8824687
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AAPS J. 2012 Dec;14(4):759-63",
+        "PMID": {
+          "Version": 1,
+          "content": 22826034
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2012 Jun;11(6):435-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22653208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Jul;39(Web Server issue):W492-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21558322
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Behav Pharmacol. 1994 Jun;5(3):344-350",
+        "PMID": {
+          "Version": 1,
+          "content": 11224284
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(12):e28025",
+        "PMID": {
+          "Version": 1,
+          "content": 22205936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Med. 2012 Jan 27;4(1):3",
+        "PMID": {
+          "Version": 1,
+          "content": 22283977
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2013 Jun;9(6):1268-81",
+        "PMID": {
+          "Version": 1,
+          "content": 23493874
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2004 Aug;3(8):711-5",
+        "PMID": {
+          "Version": 1,
+          "content": 15286737
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2009 Aug;8(8):609-10",
+        "PMID": {
+          "Version": 1,
+          "content": 19644471
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Affect Disord. 2011 Jan;128(1-2):41-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20619899
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2012 Sep;8(9):2373-84",
+        "PMID": {
+          "Version": 1,
+          "content": 22751809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Pharmacother. 2011 Oct;2(4):281-2",
+        "PMID": {
+          "Version": 1,
+          "content": 22025858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Indian J Pharmacol. 2008 Jun;40(3):129-30",
+        "PMID": {
+          "Version": 1,
+          "content": 20040941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2004 Aug;3(8):673-83",
+        "PMID": {
+          "Version": 1,
+          "content": 15286734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Interv Aging. 2009;4:109-13",
+        "PMID": {
+          "Version": 1,
+          "content": 19503773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Pharm Des. 2009;15(14):1612-22",
+        "PMID": {
+          "Version": 1,
+          "content": 19442177
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Invest. 1975 Nov;56(5):1181-8",
+        "PMID": {
+          "Version": 1,
+          "content": 1184744
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2006 Sep 29;313(5795):1929-35",
+        "PMID": {
+          "Version": 1,
+          "content": 17008526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacogenomics J. 2005;5(1):49-53",
+        "PMID": {
+          "Version": 1,
+          "content": 15520843
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Expert Opin Drug Saf. 2005 Jan;4(1):69-73",
+        "PMID": {
+          "Version": 1,
+          "content": 15709899
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Neurol Scand Suppl. 1994;154:7-14",
+        "PMID": {
+          "Version": 1,
+          "content": 7941964
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2009;4(1):44-57",
+        "PMID": {
+          "Version": 1,
+          "content": 19131956
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2010 Mar;9(3):203-14",
+        "PMID": {
+          "Version": 1,
+          "content": 20168317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Aug 17;107(33):14621-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20679242
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Psychiatry. 2010 Dec;25(8):476-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20619611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Med Chem. 2013;20(13):1646-61",
+        "PMID": {
+          "Version": 1,
+          "content": 23410165
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Psychopharmacol. 2008 Mar;23(2):121-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18023073
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Rheumatol Rep. 2001 Feb;3(1):86-91",
+        "PMID": {
+          "Version": 1,
+          "content": 11177775
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3913703"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 24505324
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2013,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2013,
+        "Day": 30,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24505324,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0087864",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-13-41463",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC3913703",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

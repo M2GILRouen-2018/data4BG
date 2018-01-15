@@ -1,0 +1,202 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9310752,
+      "Country": "Germany",
+      "ISSNLinking": "0968-5243",
+      "MedlineTA": "MAGMA"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Deutsche Forschungsgemeinschaft",
+          "Country": "United States",
+          "GrantID": "GL 785/1-1"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVES",
+          "content": "We aimed to develop the first fully automated 3D gallbladder segmentation approach to perform volumetric analysis in volume data of magnetic resonance (MR) cholangiopancreatography (MRCP) sequences. Volumetric gallbladder analysis is performed for non-contrast-enhanced and secretin-enhanced MRCP sequences."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "MATERIALS AND METHODS",
+          "content": "Native and secretin-enhanced MRCP volume data were produced with a 1.5-T MR system. Images of coronal maximum intensity projections (MIP) are used to automatically compute 2D characteristic shape features of the gallbladder in the MIP images. A gallbladder shape space is generated to derive 3D gallbladder shape features, which are then combined with 2D gallbladder shape features in a support vector machine approach to detect gallbladder regions in MRCP volume data. A region-based level set approach is used for fine segmentation. Volumetric analysis is performed for both sequences to calculate gallbladder volume differences between both sequences."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The approach presented achieves segmentation results with mean Dice coefficients of 0.917 in non-contrast-enhanced sequences and 0.904 in secretin-enhanced sequences."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "This is the first approach developed to detect and segment gallbladders in MR-based volume data automatically in both sequences. It can be used to perform gallbladder volume determination in epidemiological studies and to detect abnormal gallbladder volumes or shapes. The positive volume differences between both sequences may indicate the quantity of the pancreatobiliary reflux."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Oliver",
+            "LastName": "Gloger",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Institute for Community Medicine, Ernst Moritz Arndt University of Greifswald, Walther-Rathenau-Str. 48, 17475, Greifswald, Germany. gloger@uni-greifswald.de."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robin",
+            "LastName": "Bülow",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Institute for Diagnostic Radiology and Neuroradiology, Ernst Moritz Arndt University of Greifswald, Ferdinand-Sauerbruch-Str. 1, 17475, Greifswald, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Klaus",
+            "LastName": "Tönnies",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Simulation and Graphics, Otto von Guericke University of Magdeburg, Universitätsplatz 2, 39106, Magdeburg, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Henry",
+            "LastName": "Völzke",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Institute for Community Medicine, Ernst Moritz Arndt University of Greifswald, Walther-Rathenau-Str. 48, 17475, Greifswald, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic gallbladder segmentation using combined 2D and 3D shape features to perform volumetric analysis in native and secretin-enhanced MRCP sequences.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10334-017-0664-6"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 24
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "MAGMA",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1352-8661"
+        },
+        "Title": "Magma (New York, N.Y.)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Fourier descriptors"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Non-contrast-enhanced and secretin-enhanced magnetic resonance cholangiopancreatography volume data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Principal component analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Support vector machines"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 27
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29177771
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29177771,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10334-017-0664-6",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10334-017-0664-6",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

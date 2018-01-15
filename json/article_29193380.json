@@ -1,0 +1,233 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8505245,
+      "Country": "United States",
+      "ISSNLinking": "0740-3194",
+      "MedlineTA": "Magn Reson Med"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "P41 EB017183",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB000447",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB018308",
+            "Acronym": "EB"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 International Society for Magnetic Resonance in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Golden-angle radial sparse parallel (GRASP) MRI reconstruction requires gridding and regridding to transform data between radial and Cartesian k-space. These operations are repeatedly performed in each iteration, which makes the reconstruction computationally demanding. This work aimed to accelerate GRASP reconstruction using self-calibrating GRAPPA operator gridding (GROG) and to validate its performance in clinical imaging."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "GROG is an alternative gridding approach based on parallel imaging, in which k-space data acquired on a non-Cartesian grid are shifted onto a Cartesian k-space grid using information from multicoil arrays. For iterative non-Cartesian image reconstruction, GROG is performed only once as a preprocessing step. Therefore, the subsequent iterative reconstruction can be performed directly in Cartesian space, which significantly reduces computational burden. Here, a framework combining GROG with GRASP (GROG-GRASP) is first optimized and then compared with standard GRASP reconstruction in 22 prostate patients."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "GROG-GRASP achieved approximately 4.2-fold reduction in reconstruction time compared with GRASP (∼333\u2009min versus ∼78\u2009min) while maintaining image quality (structural similarity index ≈ 0.97 and root mean square error ≈ 0.007). Visual image quality assessment by two experienced radiologists did not show significant differences between the two reconstruction schemes. With a graphics processing unit implementation, image reconstruction time can be further reduced to approximately 14\u2009min."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The GRASP reconstruction can be substantially accelerated using GROG. This framework is promising toward broader clinical application of GRASP and other iterative non-Cartesian reconstruction methods. Magn Reson Med, 2017. © 2017 International Society for Magnetic Resonance in Medicine."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thomas",
+            "LastName": "Benkert",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Center for Advanced Imaging Innovation and Research (CAI2R), and Bernard and Irene Schwartz Center for Biomedical Imaging, Department of Radiology, New York University School of Medicine, New York, New York, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ye",
+            "LastName": "Tian",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiology and Imaging Sciences, University of Utah, Salt Lake City, Utah, USA."},
+              {"Affiliation": "Department of Physics and Astronomy, University of Utah, Salt Lake City, Utah, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chenchan",
+            "LastName": "Huang",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Center for Advanced Imaging Innovation and Research (CAI2R), and Bernard and Irene Schwartz Center for Biomedical Imaging, Department of Radiology, New York University School of Medicine, New York, New York, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Edward V R",
+            "LastName": "DiBella",
+            "Initials": "EVR",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and Imaging Sciences, University of Utah, Salt Lake City, Utah, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hersh",
+            "LastName": "Chandarana",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Center for Advanced Imaging Innovation and Research (CAI2R), and Bernard and Irene Schwartz Center for Biomedical Imaging, Department of Radiology, New York University School of Medicine, New York, New York, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Li",
+            "LastName": "Feng",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Center for Advanced Imaging Innovation and Research (CAI2R), and Bernard and Irene Schwartz Center for Biomedical Imaging, Department of Radiology, New York University School of Medicine, New York, New York, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Optimization and validation of accelerated golden-angle radial sparse MRI reconstruction with self-calibrating GRAPPA operator gridding.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mrm.27030"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 28
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Magn Reson Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1522-2594"
+        },
+        "Title": "Magnetic resonance in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "GROG-GRASP"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "gridding"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "iterative reconstruction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "non-Cartesian"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "07"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29193380
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29193380,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mrm.27030",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

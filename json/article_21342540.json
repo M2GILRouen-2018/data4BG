@@ -1,0 +1,833 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101319628,
+      "Country": "England",
+      "ISSNLinking": "1755-8794",
+      "MedlineTA": "BMC Med Genomics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2014,
+      "Day": 25
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 57},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The identification of genes involved in human complex diseases remains a great challenge in computational systems biology. Although methods have been developed to use disease phenotypic similarities with a protein-protein interaction network for the prioritization of candidate genes, other valuable omics data sources have been largely overlooked in these methods."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "With this understanding, we proposed a method called BRIDGE to prioritize candidate genes by integrating disease phenotypic similarities with such omics data as protein-protein interactions, gene sequence similarities, gene expression patterns, gene ontology annotations, and gene pathway memberships. BRIDGE utilizes a multiple regression model with lasso penalty to automatically weight different data sources and is capable of discovering genes associated with diseases whose genetic bases are completely unknown."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We conducted large-scale cross-validation experiments and demonstrated that more than 60% known disease genes can be ranked top one by BRIDGE in simulated linkage intervals, suggesting the superior performance of this method. We further performed two comprehensive case studies by applying BRIDGE to predict novel genes and transcriptional networks involved in obesity and type II diabetes."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The proposed method provides an effective and scalable way for integrating multi omics data to infer disease genes. Further applications of BRIDGE will be benefit to providing novel disease genes and underlying mechanisms of human diseases."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yong",
+            "LastName": "Chen",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xuebing",
+            "LastName": "Wu",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rui",
+            "LastName": "Jiang",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Automation, MOE Key Laboratory of Bioinformatics; Bioinformatics Division and Center for Synthetic & Systems Biology, TNLIST, Tsinghua University, Beijing 100084, China. ruijiang@tsinghua.edu.cn."}
+          }
+        ]
+      },
+      "ArticleTitle": "Integrating human omics data to prioritize candidate genes.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1755-8794-6-57"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 6,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2013,
+            "Day": 18
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Med Genomics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1755-8794"
+        },
+        "Title": "BMC medical genomics"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2013,
+      "Day": 24
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003924",
+          "MajorTopicYN": "N",
+          "content": "Diabetes Mellitus, Type 2"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D020869",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Profiling"
+      }},
+      {"DescriptorName": {
+        "UI": "D053263",
+        "MajorTopicYN": "N",
+        "content": "Gene Regulatory Networks"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D023281",
+          "MajorTopicYN": "N",
+          "content": "Genomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D020407",
+        "MajorTopicYN": "N",
+        "content": "Internet"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009765",
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D025941",
+        "MajorTopicYN": "N",
+        "content": "Protein Interaction Mapping"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D049490",
+          "MajorTopicYN": "N",
+          "content": "Systems Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D014584",
+        "MajorTopicYN": "N",
+        "content": "User-Computer Interface"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2015,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2011;5:55",
+        "PMID": {
+          "Version": 1,
+          "content": 21504591
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jul 1;27(13):i167-76",
+        "PMID": {
+          "Version": 1,
+          "content": 21685067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS J. 2012 Mar;279(5):678-96",
+        "PMID": {
+          "Version": 1,
+          "content": 22221742
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2011;5 Suppl 2:S2",
+        "PMID": {
+          "Version": 1,
+          "content": 22784573
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2013;2013:732650",
+        "PMID": {
+          "Version": 1,
+          "content": 24455720
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetologia. 1997 Jun;40(6):671-5",
+        "PMID": {
+          "Version": 1,
+          "content": 9222646
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 1998 May;21(5):810-6",
+        "PMID": {
+          "Version": 1,
+          "content": 9589246
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2005 Jan 1;33(Database issue):D556-61",
+        "PMID": {
+          "Version": 1,
+          "content": 15608261
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2005;33(5):1544-52",
+        "PMID": {
+          "Version": 1,
+          "content": 15767279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hepatology. 2005 Apr;41(4):887-95",
+        "PMID": {
+          "Version": 1,
+          "content": 15793852
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2005;6:55",
+        "PMID": {
+          "Version": 1,
+          "content": 15766383
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2005;6:60",
+        "PMID": {
+          "Version": 1,
+          "content": 15869710
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W393-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15980497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Panminerva Med. 2005 Dec;47(4):201-10",
+        "PMID": {
+          "Version": 1,
+          "content": 16489319
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2006 Mar;38(3):285-93",
+        "PMID": {
+          "Version": 1,
+          "content": 16501559
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Hum Genet. 2006 May;14(5):535-42",
+        "PMID": {
+          "Version": 1,
+          "content": 16493445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2006 May;24(5):537-44",
+        "PMID": {
+          "Version": 1,
+          "content": 16680138
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2006 May 19;125(4):801-14",
+        "PMID": {
+          "Version": 1,
+          "content": 16713569
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Behav. 2006 Jun 30;88(3):249-56",
+        "PMID": {
+          "Version": 1,
+          "content": 16782141
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetologia. 2006 Nov;49(11):2653-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17019604
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2007 Mar;25(3):309-16",
+        "PMID": {
+          "Version": 1,
+          "content": 17344885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Apr;80(4):588-604",
+        "PMID": {
+          "Version": 1,
+          "content": 17357067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2007 Apr 12;356(15):1499-501",
+        "PMID": {
+          "Version": 1,
+          "content": 17429082
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2007 May;30(5):1219-25",
+        "PMID": {
+          "Version": 1,
+          "content": 17259468
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 May 1;23(9):1132-40",
+        "PMID": {
+          "Version": 1,
+          "content": 17237041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 May 22;104(21):8685-90",
+        "PMID": {
+          "Version": 1,
+          "content": 17502601
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 May 15;23(10):1274-81",
+        "PMID": {
+          "Version": 1,
+          "content": 17344234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 2007 Jul;13(7):803-11",
+        "PMID": {
+          "Version": 1,
+          "content": 17603492
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2007 Jul 26;357(4):404-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17652657
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Pharmacol Ther. 2007 Nov;82(5):509-24",
+        "PMID": {
+          "Version": 1,
+          "content": 17851562
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2007 Dec;8(12):921-31",
+        "PMID": {
+          "Version": 1,
+          "content": 18007649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2007 Nov 16;318(5853):1108-13",
+        "PMID": {
+          "Version": 1,
+          "content": 17932254
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Nov 1;23(21):2949-51",
+        "PMID": {
+          "Version": 1,
+          "content": 17921491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2008 Mar 27;452(7186):423-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18344981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2008;4:189",
+        "PMID": {
+          "Version": 1,
+          "content": 18463613
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Jan;37(Database issue):D211-5",
+        "PMID": {
+          "Version": 1,
+          "content": 18940856
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Jan 1;25(1):98-104",
+        "PMID": {
+          "Version": 1,
+          "content": 19010805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2009 Jan;41(1):18-24",
+        "PMID": {
+          "Version": 1,
+          "content": 19079260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2009 Jan;41(1):25-34",
+        "PMID": {
+          "Version": 1,
+          "content": 19079261
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2009 Feb;41(2):157-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19151714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2009;10:22",
+        "PMID": {
+          "Version": 1,
+          "content": 19144180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2009 Apr;41(4):415-23",
+        "PMID": {
+          "Version": 1,
+          "content": 19270708
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2000 May;25(1):25-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10802651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Atherosclerosis. 2000 Sep;152(1):229-37",
+        "PMID": {
+          "Version": 1,
+          "content": 10996359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2002 May 14;99(10):6737-42",
+        "PMID": {
+          "Version": 1,
+          "content": 12011435
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2002 Jul;31(3):316-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12006977
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2002;18 Suppl 2:S110-5",
+        "PMID": {
+          "Version": 1,
+          "content": 12385992
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2003 Jan 1;31(1):374-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12520026
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2003 Mar;33 Suppl:228-37",
+        "PMID": {
+          "Version": 1,
+          "content": 12610532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2003;4(5):P3",
+        "PMID": {
+          "Version": 1,
+          "content": 12734009
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metabolism. 2003 Sep;52(9):1182-90",
+        "PMID": {
+          "Version": 1,
+          "content": 14506625
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pathol Int. 2003 Sep;53(9):591-5",
+        "PMID": {
+          "Version": 1,
+          "content": 14507315
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 Oct;13(10):2363-71",
+        "PMID": {
+          "Version": 1,
+          "content": 14525934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2003;4(11):R75",
+        "PMID": {
+          "Version": 1,
+          "content": 14611661
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Apr 20;101(16):6062-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15075390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004;32(10):3108-14",
+        "PMID": {
+          "Version": 1,
+          "content": 15181176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2004 Jul;5(7):545-51",
+        "PMID": {
+          "Version": 1,
+          "content": 15211356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Immunol. 2004 Sep;5(9):883-90",
+        "PMID": {
+          "Version": 1,
+          "content": 15334084
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 1993 Aug;4(4):332-3",
+        "PMID": {
+          "Version": 1,
+          "content": 8401577
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 2009 Apr;15(4):447-54",
+        "PMID": {
+          "Version": 1,
+          "content": 19270710
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009;10:62",
+        "PMID": {
+          "Version": 1,
+          "content": 19228411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Sep 10;461(7261):218-23",
+        "PMID": {
+          "Version": 1,
+          "content": 19741703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Nov 19;462(7271):307-14",
+        "PMID": {
+          "Version": 1,
+          "content": 19924209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2010 Jan 8;140(1):49-61",
+        "PMID": {
+          "Version": 1,
+          "content": 20079333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2010 Jan;6(1):e1000641",
+        "PMID": {
+          "Version": 1,
+          "content": 20090828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gerontology. 2010;56(2):141-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19828932
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 May 1;26(9):1219-24",
+        "PMID": {
+          "Version": 1,
+          "content": 20215462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Androl. 2010 May-Jun;31(3):263-70",
+        "PMID": {
+          "Version": 1,
+          "content": 19834133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011;12 Suppl 1:S11",
+        "PMID": {
+          "Version": 1,
+          "content": 21342540
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3878333"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 24344781
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2013,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2013,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24344781,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1755-8794-6-57",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1755-8794-6-57",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3878333",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

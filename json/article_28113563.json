@@ -1,0 +1,114 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101491191,
+      "Country": "United States",
+      "ISSNLinking": "1939-1412",
+      "MedlineTA": "IEEE Trans Haptics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The penalty method is a popular approach to resolving contact in haptic rendering. In simulations involving complex distributed contact, there are, however, many simultaneous individual contacts. These contacts have normals pointing in several directions, many of which may be parallel, causing the stiffness effectively to add up in a temporally highly-varying and unpredictable way. Consequently, penalty-based simulation suffers from stability problems. Previous methods tackled this problem using implicit integration, or simply by scaling the stiffness down globally by the number of contacts. Although this provides some control over the net stiffness, it leads to large penetrations, as small contacts are effectively ignored when compared to larger contacts. We propose an adaptive stiffness method that employs the Gauss map of the normal distribution to ensure a spatially uniform and controllable stiffness in all the contact directions. Combined with virtual coupling saturation, the penetration can be kept shallow all the while haptic simulation remains stable, even for large-scale complex geometry with complex distributed 6-DoF contact scenarios. Our method is fast and can be applied to any penalty-based formulation between rigid objects. While used primarily for rigid objects, we also apply our method to reduced deformable objects. We demonstrate the effectiveness of our approach on several challenging 6-DoF haptic rendering scenarios, such as car engine and landing gear virtual assembly."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hongyi",
+            "LastName": "Xu",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jernej",
+            "LastName": "Barbic",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "Adaptive 6-DoF Haptic Contact Stiffness Using the Gauss Map.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TOH.2016.2558185"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2016,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Haptics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2329-4051"
+        },
+        "Title": "IEEE transactions on haptics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113563
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113563,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TOH.2016.2558185",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

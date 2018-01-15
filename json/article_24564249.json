@@ -1,0 +1,390 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 393},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Dispersed biomedical databases limit user exploration to generate structured knowledge. Linked Data unifies data structures and makes the dispersed data easy to search across resources, but it lacks supporting human cognition to achieve insights. In addition, potential errors in the data are difficult to detect in their free formats. Devising a visualization that synthesizes multiple sources in such a way that links between data sources are transparent, and uncertainties, such as data conflicts, are salient is challenging."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "To investigate the requirements and challenges of uncertainty-aware visualizations of linked data, we developed MediSyn, a system that synthesizes medical datasets to support drug treatment selection. It uses a matrix-based layout to visually link drugs, targets (e.g., mutations), and tumor types. Data uncertainties are salient in MediSyn; for example, (i) missing data are exposed in the matrix view of drug-target relations; (ii) inconsistencies between datasets are shown via overlaid layers; and (iii) data credibility is conveyed through links to data provenance."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Through the synthesis of two manually curated datasets, cancer treatment biomarkers and drug-target bioactivities, a use case shows how MediSyn effectively supports the discovery of drug-repurposing opportunities. A study with six domain experts indicated that MediSyn benefited the drug selection and data inconsistency discovery. Though linked publication sources supported user exploration for further information, the causes of inconsistencies were not easy to find. Additionally, MediSyn could embrace more patient data to increase its informativeness. We derive design implications from the findings."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chen",
+            "LastName": "He",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Helsinki Institute for Information Technology HIIT, Department of Computer Science, University of Helsinki, Gustaf Hällströmin katu 2b, Helsinki, 00560, Finland. chen.he@helsinki.fi."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luana",
+            "LastName": "Micallef",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Helsinki Institute for Information Technology HIIT, Department of Computer Science, Aalto University, Konemiehentie 2, Espoo, 02150, Finland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zia-Ur-Rehman",
+            "LastName": "Tanoli",
+            "Initials": "ZU",
+            "AffiliationInfo": {"Affiliation": "Institute for Molecular Medicine Finland, University of Helsinki, Helsinki, 00014, Finland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Samuel",
+            "LastName": "Kaski",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Helsinki Institute for Information Technology HIIT, Department of Computer Science, Aalto University, Konemiehentie 2, Espoo, 02150, Finland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tero",
+            "LastName": "Aittokallio",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Institute for Molecular Medicine Finland, University of Helsinki, Helsinki, 00014, Finland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Giulio",
+            "LastName": "Jacucci",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Helsinki Institute for Information Technology HIIT, Department of Computer Science, University of Helsinki, Gustaf Hällströmin katu 2b, Helsinki, 00560, Finland."}
+          }
+        ]
+      },
+      "ArticleTitle": "MediSyn: uncertainty-aware visualization of multiple biomedical datasets to support drug treatment selection.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1785-7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Suppl 10",
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 13
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Interactive visualization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multiple datasets"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Uncertainty visualization"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D016208",
+        "MajorTopicYN": "Y",
+        "content": "Databases, Factual"
+      }},
+      {"DescriptorName": {
+        "UI": "D004358",
+        "MajorTopicYN": "Y",
+        "content": "Drug Therapy"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }},
+      {"DescriptorName": {
+        "UI": "D011795",
+        "MajorTopicYN": "N",
+        "content": "Surveys and Questionnaires"
+      }},
+      {"DescriptorName": {
+        "UI": "D035501",
+        "MajorTopicYN": "Y",
+        "content": "Uncertainty"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Mar 5;519(7541):102-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25686603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Vis Comput Graph. 2014 Dec;20(12):2082-91",
+        "PMID": {
+          "Version": 1,
+          "content": 26356922
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2011 Jul;12(4):357-68",
+        "PMID": {
+          "Version": 1,
+          "content": 21712342
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Vis Comput Graph. 2014 Dec;20(12):1983-92",
+        "PMID": {
+          "Version": 1,
+          "content": 26356912
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2011 May 16;3(1):19",
+        "PMID": {
+          "Version": 1,
+          "content": 21575203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2014 Feb;47:112-30",
+        "PMID": {
+          "Version": 1,
+          "content": 24135450
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2015 Dec;20(12 ):1433-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26148707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2008 Oct;41(5):706-16",
+        "PMID": {
+          "Version": 1,
+          "content": 18472304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Vis Comput Graph. 2014 Dec;20(12):1883-92",
+        "PMID": {
+          "Version": 1,
+          "content": 26356902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Vis Comput Graph. 2011 Dec;17(12):2291-300",
+        "PMID": {
+          "Version": 1,
+          "content": 22034349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Cell. 2015 Mar 9;27(3):382-96",
+        "PMID": {
+          "Version": 1,
+          "content": 25759023
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2012 Nov;17(21-22):1188-98",
+        "PMID": {
+          "Version": 1,
+          "content": 22683805
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Graph Forum. 2012 Jun;31(33):1175-1184",
+        "PMID": {
+          "Version": 1,
+          "content": 27942089
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Inform. 2012 Aug;31(8):537-541",
+        "PMID": {
+          "Version": 1,
+          "content": 23548981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Vis Comput Graph. 2014 Dec;20(12):2023-32",
+        "PMID": {
+          "Version": 1,
+          "content": 26356916
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2017 Jul;71:58-69",
+        "PMID": {
+          "Version": 1,
+          "content": 28549568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D1091-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24203711
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2010 Jan;15(1-2):3-15",
+        "PMID": {
+          "Version": 1,
+          "content": 19840866
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014;15 Suppl 1:S2",
+        "PMID": {
+          "Version": 1,
+          "content": 24564249
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28929971
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2018,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28929971,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1785-7",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1785-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5606218",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,338 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2015,
+      "Day": "04"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "179-88"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2014 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": "We propose a fast seed detection for automatic tracking of coronary arteries in coronary computed tomographic angiography (CCTA). To detect vessel regions, Hessian-based filtering is combined with a new local geometric feature that is based on the similarity of the consecutive cross-sections perpendicular to the vessel direction. It is in turn founded on the prior knowledge that a vessel segment is shaped like a cylinder in axial slices. To improve computational efficiency, an axial slice, which contains part of three main coronary arteries, is selected and regions of interest (ROIs) are extracted in the slice. Only for the voxels belonging to the ROIs, the proposed geometric feature is calculated. With the seed points, which are the centroids of the detected vessel regions, and their vessel directions, vessel tracking method can be used for artery extraction. Here a particle filtering-based tracking algorithm is tested. Using 19 clinical CCTA datasets, it is demonstrated that the proposed method detects seed points and can be used for full automatic coronary artery extraction. ROC (receiver operating characteristic) curve analysis shows the advantages of the proposed method."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dongjin",
+            "LastName": "Han",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Integrative Cardiovascular Imaging Research Center, Yonsei Cardiovascular Center, College of Medicine, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 120-752, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nam-Thai",
+            "LastName": "Doan",
+            "Initials": "NT",
+            "AffiliationInfo": {"Affiliation": "Division of Cardiology, Department of Medicine, Cedars-Sinai Heart Institute, 8700 Beverly Boulevard, South Taper Building 1258, Los Angeles, CA 90048, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hackjoon",
+            "LastName": "Shim",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Integrative Cardiovascular Imaging Research Center, Yonsei Cardiovascular Center, College of Medicine, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 120-752, Republic of Korea. Electronic address: hjshim@yuhs.ac."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Byunghwan",
+            "LastName": "Jeon",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Integrative Cardiovascular Imaging Research Center, Yonsei Cardiovascular Center, College of Medicine, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 120-752, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hyunna",
+            "LastName": "Lee",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Brain and Cognitive Sciences, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 151-742, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Youngtaek",
+            "LastName": "Hong",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Integrative Cardiovascular Imaging Research Center, Yonsei Cardiovascular Center, College of Medicine, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 120-752, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hyuk-Jae",
+            "LastName": "Chang",
+            "Initials": "HJ",
+            "AffiliationInfo": {"Affiliation": "Integrative Cardiovascular Imaging Research Center, Yonsei Cardiovascular Center, College of Medicine, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 120-752, Republic of Korea."}
+          }
+        ]
+      },
+      "ArticleTitle": "A fast seed detection using local geometrical feature for automatic tracking of coronary arteries in CTA.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2014.07.005"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(14)00293-4"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 117,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2014
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Centerline tracking"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Coronary artery segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Coronary computed tomographic angiography (CCTA)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ROC curve"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Seed detection"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2014,
+      "Day": 26
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {"DescriptorName": {
+        "UI": "D003199",
+        "MajorTopicYN": "N",
+        "content": "Computer Systems"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003331",
+          "MajorTopicYN": "N",
+          "content": "Coronary Vessels"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 25106730
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2014,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2014,
+        "Day": 15,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "07",
+        "Year": 2014,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25106730,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(14)00293-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2014.07.005",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

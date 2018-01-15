@@ -1,0 +1,187 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "22-36"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 10
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 The Authors. Published by Elsevier B.V. All rights reserved.",
+        "AbstractText": "Confirmation of pregnancy viability (presence of fetal cardiac activity) and diagnosis of fetal presentation (head or buttock in the maternal pelvis) are the first essential components of ultrasound assessment in obstetrics. The former is useful in assessing the presence of an on-going pregnancy and the latter is essential for labour management. We propose an automated framework for detection of fetal presentation and heartbeat from a predefined free-hand ultrasound sweep of the maternal abdomen. Our method exploits the presence of key anatomical sonographic image patterns in carefully designed scanning protocols to develop, for the first time, an automated framework allowing novice sonographers to detect fetal breech presentation and heartbeat from an ultrasound sweep. The framework consists of a classification regime for a frame by frame categorization of each 2D slice of the video. The classification scores are then regularized through a conditional random field model, taking into account the temporal relationship between the video frames. Subsequently, if consecutive frames of the fetal heart are detected, a kernelized linear dynamical model is used to identify whether a heartbeat can be detected in the sequence. In a dataset of 323 predefined free-hand videos, covering the mother's abdomen in a straight sweep, the fetal skull, abdomen, and heart were detected with a mean classification accuracy of 83.4%. Furthermore, for the detection of the heartbeat an overall classification accuracy of 93.1% was achieved."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "M A",
+            "LastName": "Maraci",
+            "Initials": "MA",
+            "AffiliationInfo": {"Affiliation": "Department of Engineering Science, Institute of Biomedical Engineering, University of Oxford, Oxford, UK. Electronic address: mohammad.maraci@eng.ox.ac.uk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C P",
+            "LastName": "Bridge",
+            "Initials": "CP",
+            "AffiliationInfo": {"Affiliation": "Department of Engineering Science, Institute of Biomedical Engineering, University of Oxford, Oxford, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "R",
+            "LastName": "Napolitano",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Nuffield Department of Obstetrics and Gynaecology, John Radcliffe Hospital, University of Oxford, Oxford, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "A",
+            "LastName": "Papageorghiou",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Nuffield Department of Obstetrics and Gynaecology, John Radcliffe Hospital, University of Oxford, Oxford, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "J A",
+            "LastName": "Noble",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Department of Engineering Science, Institute of Biomedical Engineering, University of Oxford, Oxford, UK."}
+          }
+        ]
+      },
+      "ArticleTitle": "A framework for analysis of linear ultrasound videos to detect fetal presentation and heartbeat.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1361-8415(17)30011-7"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.media.2017.01.003"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 37,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Fetal presentation and heartbeat"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ultrasound video"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28104551
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28104551,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(17)30011-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2017.01.003",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,352 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101477958,
+      "Country": "Switzerland",
+      "ISSNLinking": "1662-5218",
+      "MedlineTA": "Front Neurorobot"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 58},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "03"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper investigates two types of eye movements: vergence and saccades. Vergence eye movements are responsible for bringing the images of the two eyes into correspondence, whereas saccades drive gaze to interesting regions in the scene. Control of both vergence and saccades develops during early infancy. To date, these two types of eye movements have been studied separately. Here, we propose a computational model of an active vision system that integrates these two types of eye movements. We hypothesize that incorporating a saccade strategy driven by bottom-up attention will benefit the development of vergence control. The integrated system is based on the active efficient coding framework, which describes the joint development of sensory-processing and eye movement control to jointly optimize the coding efficiency of the sensory system. In the integrated system, we propose a binocular saliency model to drive saccades based on learned binocular feature extractors, which simultaneously encode both depth and texture information. Saliency in our model also depends on the current fixation point. This extends prior work, which focused on monocular images and saliency measures that are independent of the current fixation. Our results show that the proposed saliency-driven saccades lead to better vergence performance and faster learning in the overall system than random saccades. Faster learning is significant because it indicates that the system actively selects inputs for the most effective learning. This work suggests that saliency-driven saccades provide a scaffold for the development of vergence control during infancy."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qingpeng",
+            "LastName": "Zhu",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "Department of Electronic and Computer Engineering, Hong Kong University of Science and Technology, Hong Kong, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jochen",
+            "LastName": "Triesch",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Frankfurt Institute for Advanced Studies, Frankfurt am Main, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bertram E",
+            "LastName": "Shi",
+            "Initials": "BE",
+            "AffiliationInfo": {"Affiliation": "Department of Electronic and Computer Engineering, Hong Kong University of Science and Technology, Hong Kong, Hong Kong."}
+          }
+        ]
+      },
+      "ArticleTitle": "Joint Learning of Binocularly Driven Saccades and Vergence by Active Efficient Coding.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fnbot.2017.00058"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 11,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Neurorobot",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1662-5218"
+        },
+        "Title": "Frontiers in neurorobotics"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "active efficient coding"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "binocular saliency map"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "generative adaptive subspace self-organizing map"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "reinforcement learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "saccades"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "vergence"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Neurosci. 2013 Nov;38(10):3384-97",
+        "PMID": {
+          "Version": 1,
+          "content": 24103028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cogn Sci. 2002 Jan 1;6(1):9-16",
+        "PMID": {
+          "Version": 1,
+          "content": 11849610
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1990 Aug 31;249(4972):1037-41",
+        "PMID": {
+          "Version": 1,
+          "content": 2396096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2013 Jun;22(6):2151-65",
+        "PMID": {
+          "Version": 1,
+          "content": 23412612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 1995 Dec;35(23-24):3229-36",
+        "PMID": {
+          "Version": 1,
+          "content": 8560794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2009 Jun;31(6):989-1005",
+        "PMID": {
+          "Version": 1,
+          "content": 19372605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vis cogn. 2009 Aug 1;17(6-7):979-1003",
+        "PMID": {
+          "Version": 1,
+          "content": 21052485
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2008 Dec 16;8(7):32.1-20",
+        "PMID": {
+          "Version": 1,
+          "content": 19146264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 1977 Nov;40(6):1392-405",
+        "PMID": {
+          "Version": 1,
+          "content": 411898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2007 Feb 27;7(3):6",
+        "PMID": {
+          "Version": 1,
+          "content": 17461684
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Child Psychol. 1990 Feb;49(1):101-25",
+        "PMID": {
+          "Version": 1,
+          "content": 2303772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2009 Mar 13;9(3):5.1-24",
+        "PMID": {
+          "Version": 1,
+          "content": 19757944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2016 Nov 1;16(14 ):10",
+        "PMID": {
+          "Version": 1,
+          "content": 27832268
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Child Dev. 1991 Feb;62(1):44-54",
+        "PMID": {
+          "Version": 1,
+          "content": 2022137
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2017 Mar;39(3):576-588",
+        "PMID": {
+          "Version": 1,
+          "content": 28113265
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2004 Jun;5(6):495-501",
+        "PMID": {
+          "Version": 1,
+          "content": 15152199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Perception. 2004;33(12):1463-73",
+        "PMID": {
+          "Version": 1,
+          "content": 15729913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Psychol. 2001;52:337-67",
+        "PMID": {
+          "Version": 1,
+          "content": 11148309
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Psychol. 2013 Nov 05;4:800",
+        "PMID": {
+          "Version": 1,
+          "content": 24204350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cogn Neurosci. 2002 Nov 15;14(8):1256-63",
+        "PMID": {
+          "Version": 1,
+          "content": 12495530
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 1992 Nov;68(5):1624-41",
+        "PMID": {
+          "Version": 1,
+          "content": 1479435
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Child Psychol. 1977 Feb;23(1):133-50",
+        "PMID": {
+          "Version": 1,
+          "content": 839156
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Ophthalmol Vis Sci. 2002 Sep;43(9):2939-49",
+        "PMID": {
+          "Version": 1,
+          "content": 12202513
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29163121
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29163121,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fnbot.2017.00058",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5675843",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

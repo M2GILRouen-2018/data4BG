@@ -1,0 +1,273 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401260",
+      "Country": "United States",
+      "ISSNLinking": "0033-8419",
+      "MedlineTA": "Radiology"
+    },
+    "Owner": "NLM",
+    "CitationSubset": [
+      "AIM",
+      "IM"
+    ],
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "17-33"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Invasive coronary angiography (ICA) with measurement of fractional flow reserve (FFR) by means of a pressure wire technique is the established reference standard for the functional assessment of coronary artery disease (CAD) ( 1 , 2 ). Coronary computed tomographic (CT) angiography has emerged as a noninvasive method for direct assessment of CAD and plaque characterization with high diagnostic accuracy compared with ICA ( 3 , 4 ). However, the solely anatomic assessment provided with both coronary CT angiography and ICA has poor discriminatory power for ischemia-inducing lesions. FFR derived from standard coronary CT angiography (FFRCT) data sets by using any of several advanced computational analytic approaches enables combined anatomic and hemodynamic assessment of a coronary lesion by a single noninvasive test. Current technical approaches to the calculation of FFRCT include algorithms based on full- and reduced-order computational fluid dynamic modeling, as well as artificial intelligence deep machine learning ( 5 , 6 ). A growing body of evidence has validated the diagnostic accuracy of FFRCT techniques compared with invasive FFR. Improved therapeutic guidance has been demonstrated, showing the potential of FFRCT to streamline and rationalize the care of patients suspected of having CAD and improve outcomes while reducing overall health care costs ( 7 , 8 ). The purpose of this review is to describe the scientific principles, clinical validation, and implementation of various FFRCT approaches, their precursors, and related imaging tests. (©) RSNA, 2017."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christian",
+            "LastName": "Tesche",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "From the Division of Cardiovascular Imaging, Department of Radiology and Radiological Science (C.T., C.N.D.C., M.H.A., T.M.D., R.R.B., S.E.L., U.J.S.), and Division of Cardiology, Department of Medicine (R.R.B., S.E.L., D.H.S., U.J.S.), Medical University of South Carolina, Ashley River Tower, 25 Courtenay Dr, Charleston, SC 29425-2260."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Carlo N",
+            "LastName": "De Cecco",
+            "Initials": "CN",
+            "AffiliationInfo": {"Affiliation": "From the Division of Cardiovascular Imaging, Department of Radiology and Radiological Science (C.T., C.N.D.C., M.H.A., T.M.D., R.R.B., S.E.L., U.J.S.), and Division of Cardiology, Department of Medicine (R.R.B., S.E.L., D.H.S., U.J.S.), Medical University of South Carolina, Ashley River Tower, 25 Courtenay Dr, Charleston, SC 29425-2260."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Moritz H",
+            "LastName": "Albrecht",
+            "Initials": "MH",
+            "AffiliationInfo": {"Affiliation": "From the Division of Cardiovascular Imaging, Department of Radiology and Radiological Science (C.T., C.N.D.C., M.H.A., T.M.D., R.R.B., S.E.L., U.J.S.), and Division of Cardiology, Department of Medicine (R.R.B., S.E.L., D.H.S., U.J.S.), Medical University of South Carolina, Ashley River Tower, 25 Courtenay Dr, Charleston, SC 29425-2260."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Taylor M",
+            "LastName": "Duguay",
+            "Initials": "TM",
+            "AffiliationInfo": {"Affiliation": "From the Division of Cardiovascular Imaging, Department of Radiology and Radiological Science (C.T., C.N.D.C., M.H.A., T.M.D., R.R.B., S.E.L., U.J.S.), and Division of Cardiology, Department of Medicine (R.R.B., S.E.L., D.H.S., U.J.S.), Medical University of South Carolina, Ashley River Tower, 25 Courtenay Dr, Charleston, SC 29425-2260."}
+          },
+          {
+            "ValidYN": "Y",
+            "Suffix": "2nd",
+            "ForeName": "Richard R",
+            "LastName": "Bayer",
+            "Initials": "RR",
+            "AffiliationInfo": {"Affiliation": "From the Division of Cardiovascular Imaging, Department of Radiology and Radiological Science (C.T., C.N.D.C., M.H.A., T.M.D., R.R.B., S.E.L., U.J.S.), and Division of Cardiology, Department of Medicine (R.R.B., S.E.L., D.H.S., U.J.S.), Medical University of South Carolina, Ashley River Tower, 25 Courtenay Dr, Charleston, SC 29425-2260."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sheldon E",
+            "LastName": "Litwin",
+            "Initials": "SE",
+            "AffiliationInfo": {"Affiliation": "From the Division of Cardiovascular Imaging, Department of Radiology and Radiological Science (C.T., C.N.D.C., M.H.A., T.M.D., R.R.B., S.E.L., U.J.S.), and Division of Cardiology, Department of Medicine (R.R.B., S.E.L., D.H.S., U.J.S.), Medical University of South Carolina, Ashley River Tower, 25 Courtenay Dr, Charleston, SC 29425-2260."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel H",
+            "LastName": "Steinberg",
+            "Initials": "DH",
+            "AffiliationInfo": {"Affiliation": "From the Division of Cardiovascular Imaging, Department of Radiology and Radiological Science (C.T., C.N.D.C., M.H.A., T.M.D., R.R.B., S.E.L., U.J.S.), and Division of Cardiology, Department of Medicine (R.R.B., S.E.L., D.H.S., U.J.S.), Medical University of South Carolina, Ashley River Tower, 25 Courtenay Dr, Charleston, SC 29425-2260."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "U Joseph",
+            "LastName": "Schoepf",
+            "Initials": "UJ",
+            "AffiliationInfo": {"Affiliation": "From the Division of Cardiovascular Imaging, Department of Radiology and Radiological Science (C.T., C.N.D.C., M.H.A., T.M.D., R.R.B., S.E.L., U.J.S.), and Division of Cardiology, Department of Medicine (R.R.B., S.E.L., D.H.S., U.J.S.), Medical University of South Carolina, Ashley River Tower, 25 Courtenay Dr, Charleston, SC 29425-2260."}
+          }
+        ]
+      },
+      "ArticleTitle": "Coronary CT Angiography-derived Fractional Flow Reserve.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1148/radiol.2017162641"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 285,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Radiology",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1527-1315"
+        },
+        "Title": "Radiology"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 19
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D015331",
+        "MajorTopicYN": "N",
+        "content": "Cohort Studies"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          },
+          {
+            "UI": "Q000592",
+            "MajorTopicYN": "N",
+            "content": "standards"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D000072226",
+          "MajorTopicYN": "N",
+          "content": "Computed Tomography Angiography"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          },
+          {
+            "UI": "Q000592",
+            "MajorTopicYN": "N",
+            "content": "standards"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D023921",
+          "MajorTopicYN": "N",
+          "content": "Coronary Stenosis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D053805",
+          "MajorTopicYN": "N",
+          "content": "Fractional Flow Reserve, Myocardial"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": "05"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28926310
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28926310,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1148/radiol.2017162641",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

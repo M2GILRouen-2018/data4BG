@@ -1,0 +1,476 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101548923,
+      "Country": "Switzerland",
+      "ISSNLinking": "1663-9812",
+      "MedlineTA": "Front Pharmacol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 816},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "While pre-clinical Torsades de Pointes (TdP) risk classifiers had initially been based on drug-induced block of hERG potassium channels, it is now well established that improved risk prediction can be achieved by considering block of non-hERG ion channels. The current multi-channel TdP classifiers can be categorized into two classes. First, the classifiers that take as input the values of drug-induced block of ion channels (direct features). Second, the classifiers that are built on features extracted from output of the drug-induced multi-channel blockage simulations in the in-silico models (derived features). The classifiers built on derived features have thus far not consistently provided increased prediction accuracies, and hence casts doubt on the value of such approaches given the cost of including biophysical detail. Here, we propose a new two-step method for TdP risk classification, referred to as Multi-Channel Blockage at Early After Depolarization (MCB@EAD). In the first step, we classified the compound that produced insufficient hERG block as non-torsadogenic. In the second step, the role of non-hERG channels to modulate TdP risk are considered by constructing classifiers based on direct or derived features at critical hERG block concentrations that generates EADs in the computational cardiac cell models. MCB@EAD provides comparable or superior TdP risk classification of the drugs from the direct features in tests against published methods. TdP risk for the drugs highly correlated to the propensity to generate EADs in the model. However, the derived features of the biophysical models did not improve the predictive capability for TdP risk assessment."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jaimit",
+            "LastName": "Parikh",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "IBM T. J. Watson Research Center, Yorktown Heights, NY, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Viatcheslav",
+            "LastName": "Gurev",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "IBM T. J. Watson Research Center, Yorktown Heights, NY, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John J",
+            "LastName": "Rice",
+            "Initials": "JJ",
+            "AffiliationInfo": {"Affiliation": "IBM T. J. Watson Research Center, Yorktown Heights, NY, United States."}
+          }
+        ]
+      },
+      "ArticleTitle": "Novel Two-Step Classifier for Torsades de Pointes Risk Stratification from Direct Features.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fphar.2017.00816"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 8,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Pharmacol",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1663-9812"
+        },
+        "Title": "Frontiers in pharmacology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Torsades de Pointes"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "cardiac modeling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "classification and prediction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "early afterdepolarization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "machine-learning"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Toxicol Methods. 2014 Nov-Dec;70(3):246-54",
+        "PMID": {
+          "Version": 1,
+          "content": 25087753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Exp Ther. 2008 Feb;324(2):427-33",
+        "PMID": {
+          "Version": 1,
+          "content": 17986649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacol Rep. 2013;65(5):1281-93",
+        "PMID": {
+          "Version": 1,
+          "content": 24399724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Toxicol Methods. 2017 Jan - Feb;83:30-41",
+        "PMID": {
+          "Version": 1,
+          "content": 27546811
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Europace. 2007 Sep;9 Suppl 4:iv4-15",
+        "PMID": {
+          "Version": 1,
+          "content": 17766323
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Pharmacol Ther. 2016 Oct;100(4):371-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26950176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Pharmacol. 2015 Mar 24;6:59",
+        "PMID": {
+          "Version": 1,
+          "content": 25852560
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Wellcome Open Res. 2016 Nov 15;1:6",
+        "PMID": {
+          "Version": 1,
+          "content": 27918599
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 1983 Nov;2(5):806-17",
+        "PMID": {
+          "Version": 1,
+          "content": 6630761
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Cell Cardiol. 2016 Nov;100:25-34",
+        "PMID": {
+          "Version": 1,
+          "content": 27663173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2017 Jan;22(1):10-16",
+        "PMID": {
+          "Version": 1,
+          "content": 27717849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am Heart J. 2014 Mar;167(3):292-300",
+        "PMID": {
+          "Version": 1,
+          "content": 24576511
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Cell Cardiol. 2010 Jan;48(1):112-21",
+        "PMID": {
+          "Version": 1,
+          "content": 19835882
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomol Screen. 2016 Jan;21(1):1-11",
+        "PMID": {
+          "Version": 1,
+          "content": 26170255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacol Ther. 2011 Feb;129(2):109-19",
+        "PMID": {
+          "Version": 1,
+          "content": 20807552
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Channels (Austin). 2013 Jul-Aug;7(4):249-62",
+        "PMID": {
+          "Version": 1,
+          "content": 23696033
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Adv. 2015 May 01;1(4):e1400142",
+        "PMID": {
+          "Version": 1,
+          "content": 26601174
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 1978 Jul;25(4):389-92",
+        "PMID": {
+          "Version": 1,
+          "content": 689699
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Physiol. 2017 Aug 23;8:616",
+        "PMID": {
+          "Version": 1,
+          "content": 28878692
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2014 Jul 15;130(3):224-34",
+        "PMID": {
+          "Version": 1,
+          "content": 24895457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Toxicol Mech Methods. 2017 Feb;27(2):88-99",
+        "PMID": {
+          "Version": 1,
+          "content": 27813448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Toxicol Methods. 2017 Mar - Apr;84:111-127",
+        "PMID": {
+          "Version": 1,
+          "content": 27956204
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Arrhythm Electrophysiol. 2017 Feb;10 (2):e004628",
+        "PMID": {
+          "Version": 1,
+          "content": 28202629
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cardiovasc Electrophysiol. 2005 Sep;16(9):981-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16174020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2015 Jul 21;109(2):415-27",
+        "PMID": {
+          "Version": 1,
+          "content": 26200878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2006 Dec 7;51(23):6141-56",
+        "PMID": {
+          "Version": 1,
+          "content": 17110776
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2004 Aug 24;110(8):904-10",
+        "PMID": {
+          "Version": 1,
+          "content": 15302796
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cardiovasc Res. 2011 Jul 1;91(1):53-61",
+        "PMID": {
+          "Version": 1,
+          "content": 21300721
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2002 Feb 12;105(6):675-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11839619
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cardiovasc Res. 2003 Apr 1;58(1):32-45",
+        "PMID": {
+          "Version": 1,
+          "content": 12667944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Toxicol Methods. 2016 Sep-Oct;81:251-62",
+        "PMID": {
+          "Version": 1,
+          "content": 27060526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cardiovasc Res. 1999 May;42(2):530-42",
+        "PMID": {
+          "Version": 1,
+          "content": 10533588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2013;3:2100",
+        "PMID": {
+          "Version": 1,
+          "content": 23812503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 May;7(5):e1002061",
+        "PMID": {
+          "Version": 1,
+          "content": 21637795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Toxicol Methods. 2016 Sep-Oct;81:15-20",
+        "PMID": {
+          "Version": 1,
+          "content": 27282641
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Toxicol Methods. 2009 Jul-Aug;60(1):1-10",
+        "PMID": {
+          "Version": 1,
+          "content": 19439185
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Exp Ther. 1996 Feb;276(2):637-46",
+        "PMID": {
+          "Version": 1,
+          "content": 8632331
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Pharmacol. 2005 Feb;144(3):376-85",
+        "PMID": {
+          "Version": 1,
+          "content": 15655517
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Heart. 2000 Jun;83(6):661-6",
+        "PMID": {
+          "Version": 1,
+          "content": 10814624
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29184497
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29184497,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fphar.2017.00816",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5694470",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

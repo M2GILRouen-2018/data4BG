@@ -1,0 +1,524 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8005433,
+      "Country": "United States",
+      "ISSNLinking": "0195-9131",
+      "MedlineTA": "Med Sci Sports Exerc"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 19
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "933-40"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA164993",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "1R01CA164993-01A1",
+            "Acronym": "CA"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D003160",
+          "content": "Comparative Study"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE",
+          "content": "Accelerometers are a valuable tool for objective measurement of physical activity (PA). Wrist-worn devices may improve compliance over standard hip placement, but more research is needed to evaluate their validity for measuring PA in free-living settings. Traditional cut-point methods for accelerometers can be inaccurate and need testing in free living with wrist-worn devices. In this study, we developed and tested the performance of machine learning (ML) algorithms for classifying PA types from both hip and wrist accelerometer data."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "Forty overweight or obese women (mean age = 55.2 ± 15.3 yr; BMI = 32.0 ± 3.7) wore two ActiGraph GT3X+ accelerometers (right hip, nondominant wrist; ActiGraph, Pensacola, FL) for seven free-living days. Wearable cameras captured ground truth activity labels. A classifier consisting of a random forest and hidden Markov model classified the accelerometer data into four activities (sitting, standing, walking/running, and riding in a vehicle). Free-living wrist and hip ML classifiers were compared with each other, with traditional accelerometer cut points, and with an algorithm developed in a laboratory setting."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The ML classifier obtained average values of 89.4% and 84.6% balanced accuracy over the four activities using the hip and wrist accelerometer, respectively. In our data set with average values of 28.4 min of walking or running per day, the ML classifier predicted average values of 28.5 and 24.5 min of walking or running using the hip and wrist accelerometer, respectively. Intensity-based cut points and the laboratory algorithm significantly underestimated walking minutes."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Our results demonstrate the superior performance of our PA-type classification algorithm, particularly in comparison with traditional cut points. Although the hip algorithm performed better, additional compliance achieved with wrist devices might justify using a slightly lower performing algorithm."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Katherine",
+            "LastName": "Ellis",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "1Department of Electrical and Computer Engineering, University of California, San Diego, CA; 2Department of Family Medicine and Public Health, University of California, San Diego, CA; and 3Department of Mathematics and Statistics, University of Massachusetts, Amherst, MA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jacqueline",
+            "LastName": "Kerr",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Suneeta",
+            "LastName": "Godbole",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John",
+            "LastName": "Staudenmayer",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gert",
+            "LastName": "Lanckriet",
+            "Initials": "G"
+          }
+        ]
+      },
+      "ArticleTitle": "Hip and Wrist Accelerometer Algorithms for Free-Living Behavior Classification.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1249/MSS.0000000000000840"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 48,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Sci Sports Exerc",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1530-0315"
+        },
+        "Title": "Medicine and science in sports and exercise"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "04",
+      "Year": 2016,
+      "Day": 16
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000295",
+          "MajorTopicYN": "Y",
+          "content": "instrumentation"
+        },
+        "DescriptorName": {
+          "UI": "D061725",
+          "MajorTopicYN": "N",
+          "content": "Accelerometry"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000145",
+          "MajorTopicYN": "N",
+          "content": "classification"
+        },
+        "DescriptorName": {
+          "UI": "D000203",
+          "MajorTopicYN": "N",
+          "content": "Activities of Daily Living"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D015444",
+        "MajorTopicYN": "Y",
+        "content": "Exercise"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006615",
+        "MajorTopicYN": "N",
+        "content": "Hip"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D008390",
+        "MajorTopicYN": "N",
+        "content": "Markov Chains"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018670",
+          "MajorTopicYN": "N",
+          "content": "Monitoring, Ambulatory"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D009765",
+        "MajorTopicYN": "N",
+        "content": "Obesity"
+      }},
+      {"DescriptorName": {
+        "UI": "D050177",
+        "MajorTopicYN": "N",
+        "content": "Overweight"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D014953",
+        "MajorTopicYN": "N",
+        "content": "Wrist"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Behav Med. 2000 Fall;22(4):294-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11253440
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 1998 May;30(5):777-81",
+        "PMID": {
+          "Version": 1,
+          "content": 9588623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Inf Technol Biomed. 2006 Jan;10(1):156-67",
+        "PMID": {
+          "Version": 1,
+          "content": 16445260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2008 Jan;40(1):181-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18091006
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 2009 Sep;107(3):655-61",
+        "PMID": {
+          "Version": 1,
+          "content": 19556460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 2009 Oct;107(4):1300-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19644028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gait Posture. 2010 Mar;31(3):370-4",
+        "PMID": {
+          "Version": 1,
+          "content": 20138524
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2011 Feb;43(2):357-64",
+        "PMID": {
+          "Version": 1,
+          "content": 20581716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2011 Jun;43(6):1085-93",
+        "PMID": {
+          "Version": 1,
+          "content": 21088628
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(7):e22922",
+        "PMID": {
+          "Version": 1,
+          "content": 21829556
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Memory. 2011 Oct;19(7):785-95",
+        "PMID": {
+          "Version": 1,
+          "content": 20845223
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2012 Jan;44(1 Suppl 1):S32-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22157772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Acad Nutr Diet. 2013 Feb;113(2):288-96",
+        "PMID": {
+          "Version": 1,
+          "content": 23127511
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Sci Med Sport. 2013 Mar;16(2):124-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22770768
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Prev Med. 2013 Mar;44(3):290-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23415127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Causes Control. 2013 Apr;24(4):695-704",
+        "PMID": {
+          "Version": 1,
+          "content": 23378138
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Behav Nutr Phys Act. 2013;10:22",
+        "PMID": {
+          "Version": 1,
+          "content": 23406270
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2013 May;45(5):964-75",
+        "PMID": {
+          "Version": 1,
+          "content": 23247702
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(4):e61691",
+        "PMID": {
+          "Version": 1,
+          "content": 23626718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2013 Nov;45(11):2193-203",
+        "PMID": {
+          "Version": 1,
+          "content": 23604069
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2013 Nov 12;128(20):2259-79",
+        "PMID": {
+          "Version": 1,
+          "content": 24126387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2014 Feb;46(2):386-97",
+        "PMID": {
+          "Version": 1,
+          "content": 23860415
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2014 Sep;46(9):1816-24",
+        "PMID": {
+          "Version": 1,
+          "content": 24887173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2014 Sep;46(9):1859-66",
+        "PMID": {
+          "Version": 1,
+          "content": 25134005
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 2015 Mar 15;118(6):716-22",
+        "PMID": {
+          "Version": 1,
+          "content": 25593289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Sci Sports Exerc. 2015 Oct;47(10):2129-39",
+        "PMID": {
+          "Version": 1,
+          "content": 25785929
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS742618 [Available on 05/01/17]"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC4833514 [Available on 05/01/17]"
+      }
+    ],
+    "PMID": {
+      "Version": 1,
+      "content": 26673126
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26673126,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1249/MSS.0000000000000840",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4833514",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS742618",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

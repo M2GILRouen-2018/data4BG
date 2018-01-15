@@ -1,0 +1,253 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 15
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "299-310"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2016 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "To evaluate a novel 4D Monte Carlo simulation tool by comparing calculations to physical measurements using a respiratory motion phantom."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We used a dynamic Quasar phantom in both stationary and breathing states (sinusoidal motion of amplitude of 1.8 cm and period of 3.3 s) for dose measurements on an Elekta Agility linear accelerator. Gafchromic EBT3 film and the RADPOS 4D dosimetry system were placed inside the lung insert of the phantom to measure dose profiles and point-dose values at the center of the spherical tumor inside the insert. Both a static 4 × 4 cm2 field and a VMAT plan were delivered. Static and 4D Monte Carlo simulations of the treatment deliveries were performed using DOSXYZnrc and a modified version of the defDOSXYZnrc user code that allows modeling of the continuous motion of both machine and patient. DICOM treatment plan files and linac delivery log files were used to generate corresponding input files. The phantom motion recorded by RADPOS during beam delivery was incorporated into the input files for the 4DdefDOSXYZnrc simulations."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "For stationary phantom simulations, all point-dose values from MC simulations at the tumor center agreed within 1% with film and within 2% with RADPOS. More than 98% of the voxels from simulated dose profiles passed a 1D gamma of 2%/2-mm criteria against measured dose profiles. Similar results were observed when applying a 2D gamma analysis with a 2%/2-mm criteria to compare 2D dose distributions of Monte Carlo simulations against measurements. For simulations on the moving phantom, MC-calculated dose values at the center of the tumor were found to be within 1% of film and within 2σ of experimental uncertainties which are 2.8% of the RADPOS measurements. 1D gamma comparisons of the dose profiles were better than 91%, and 2D gamma comparisons of the 2D dose distributions were found to be better than 94%."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "Our 4D Monte Carlo method using defDOSXYZnrc can be used to accurately calculate the dose distribution in continuously moving anatomy for various treatment techniques. This work, if extended to deformable anatomies, can be used to reconstruct patient delivered dose for use in adaptive radiation therapy."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sara",
+            "LastName": "Gholampourkashi",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Carleton Laboratory for Radiotherapy Physics, Carleton University, 1125 Colonel By Drive, Ottawa, ON, K1S 5B6, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Miro",
+            "LastName": "Vujicic",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Medical Physics, The Ottawa Hospital Cancer Centre, 501 Smyth Road, Box 927, Ottawa, ON, K1H 8L6, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jason",
+            "LastName": "Belec",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Medical Physics, The Ottawa Hospital Cancer Centre, 501 Smyth Road, Box 927, Ottawa, ON, K1H 8L6, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joanna E",
+            "LastName": "Cygler",
+            "Initials": "JE",
+            "AffiliationInfo": [
+              {"Affiliation": "Carleton Laboratory for Radiotherapy Physics, Carleton University, 1125 Colonel By Drive, Ottawa, ON, K1S 5B6, Canada."},
+              {"Affiliation": "Department of Medical Physics, The Ottawa Hospital Cancer Centre, 501 Smyth Road, Box 927, Ottawa, ON, K1H 8L6, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emily",
+            "LastName": "Heath",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Carleton Laboratory for Radiotherapy Physics, Carleton University, 1125 Colonel By Drive, Ottawa, ON, K1S 5B6, Canada."}
+          }
+        ]
+      },
+      "ArticleTitle": "Experimental verification of 4D Monte Carlo simulations of dose delivery to a moving anatomy.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12023"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "4D dose calculation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Monte Carlo"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "RADPOS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "VMAT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "respiratory motion"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "Y",
+        "content": "Monte Carlo Method"
+      }},
+      {"DescriptorName": {
+        "UI": "D009068",
+        "MajorTopicYN": "Y",
+        "content": "Movement"
+      }},
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000295",
+          "MajorTopicYN": "Y",
+          "content": "instrumentation"
+        },
+        "DescriptorName": {
+          "UI": "D011874",
+          "MajorTopicYN": "N",
+          "content": "Radiometry"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011879",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy Dosage"
+      }},
+      {"DescriptorName": {
+        "UI": "D011880",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy Planning, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D012119",
+        "MajorTopicYN": "N",
+        "content": "Respiration"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 15
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28102956
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 29,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "02",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28102956,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12023",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

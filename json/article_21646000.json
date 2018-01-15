@@ -1,0 +1,256 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8915031,
+      "Country": "Netherlands",
+      "ISSNLinking": "0933-3657",
+      "MedlineTA": "Artif Intell Med"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2011,
+      "Day": 27
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "77-90"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2011,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2011 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "Coronary artery disease has been described as one of the curses of the western world, as it is one of its most important causes of mortality. Therefore, clinicians seek to improve diagnostic procedures, especially those that allow them to reach reliable early diagnoses. In the clinical setting, coronary artery disease diagnostics are typically performed in a sequential manner. The four diagnostic levels consist of evaluation of (1) signs and symptoms of the disease and electrocardiogram at rest, (2) sequential electrocardiogram testing during the controlled exercise, (3) myocardial perfusion scintigraphy, and (4) finally coronary angiography, that is considered as the \"gold standard\" reference method. Our study focuses on improving diagnostic performance of the third, virtually non-invasive, diagnostic level."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS AND MATERIALS",
+            "content": "Myocardial scintigraphy results in a series of medical images that are obtained by relatively inexpensive means. In clinical practice, these images are manually described (parameterized) by expert physicians. In the paper we present an innovative alternative to manual image evaluation-an automatic image parameterization on multiple resolutions, based on texture description with specialized association rules. Extracted image parameters are combined into more informative composite parameters by means of principal component analysis, and finally used to build automatic classifiers with machine learning methods."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Our experiments with synthetic datasets show that association-rule-based multi-resolution image parameterization works very well for scintigraphic images of the heart. In coronary artery disease diagnostics we confirm these results as our approach significantly improves on clinical results in terms of diagnostic performance. We improve diagnostic accuracy by 17%, specificity by 12% and sensitivity by 22%. We also significantly improve the number of reliably diagnosed patients by 19% for positive diagnoses, and 16% for negative diagnoses, so that no costly further tests are necessary for them."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Multi-resolution image parameterization equals or even betters that of the physicians in terms of the diagnostic quality of image parameters. By using these parameters for building machine learning classifiers, we can significantly improve diagnostic performance with respect to the results of clinical practice, affect process rationalization, as well as possibly provide novel insights into the diagnostic problems, features and/or processes."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matjaž",
+            "LastName": "Kukar",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Faculty of Computer and Information Science, University of Ljubljana, Tržaška 25, SI-1001 Ljubljana, Slovenia. matjaz.kukar@fri.uni-lj.si"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Igor",
+            "LastName": "Kononenko",
+            "Initials": "I"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ciril",
+            "LastName": "Grošelj",
+            "Initials": "C"
+          }
+        ]
+      },
+      "ArticleTitle": "Modern parameterization and explanation techniques in diagnostic decision support system: a case study in diagnostics of coronary artery disease.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1016/j.artmed.2011.04.009"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 52,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2011
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Artif Intell Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1873-2860"
+        },
+        "Title": "Artificial intelligence in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2011,
+      "Day": "04"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "N",
+        "content": "Artificial Intelligence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D020000",
+        "MajorTopicYN": "Y",
+        "content": "Decision Support Systems, Clinical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D006321",
+          "MajorTopicYN": "N",
+          "content": "Heart"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D055414",
+        "MajorTopicYN": "Y",
+        "content": "Myocardial Perfusion Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D025341",
+        "MajorTopicYN": "N",
+        "content": "Principal Component Analysis"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 21646000
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2011,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2011,
+        "Day": 10,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "04",
+        "Year": 2011,
+        "Day": 17,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 6,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 6,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 21646000,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0933-3657(11)00050-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.artmed.2011.04.009",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

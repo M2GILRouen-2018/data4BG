@@ -1,0 +1,235 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1-13"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": "In this paper, we introduce a simple, yet powerful pipeline for medical image segmentation that combines Fully Convolutional Networks (FCNs) with Fully Convolutional Residual Networks (FC-ResNets). We propose and examine a design that takes particular advantage of recent advances in the understanding of both Convolutional Neural Networks as well as ResNets. Our approach focuses upon the importance of a trainable pre-processing when using FC-ResNets and we show that a low-capacity FCN model can serve as a pre-processor to normalize medical input data. In our image segmentation pipeline, we use FCNs to obtain normalized images, which are then iteratively refined by means of a FC-ResNet to generate a segmentation prediction. As in other fully convolutional approaches, our pipeline can be used off-the-shelf on different image modalities. We show that using this pipeline, we exhibit state-of-the-art performance on the challenging Electron Microscopy benchmark, when compared to other 2D methods. We improve segmentation results on CT images of liver lesions, when contrasting with standard FCN methods. Moreover, when applying our 2D pipeline on a challenging 3D MRI prostate segmentation challenge we reach results that are competitive even when compared to 3D methods. The obtained results illustrate the strong potential and versatility of the pipeline by achieving accurate segmentations on a variety of image modalities and different anatomical regions."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michal",
+            "LastName": "Drozdzal",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Montreal Institute for Learning Algorithms, Montréal, Canada; École Polytechnique de Montréal, Montréal, Canada; Imagia Inc., Montréal, Canada. Electronic address: michal.drozdzal@umontreal.ca."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gabriel",
+            "LastName": "Chartrand",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Imagia Inc., Montréal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eugene",
+            "LastName": "Vorontsov",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Montreal Institute for Learning Algorithms, Montréal, Canada; École Polytechnique de Montréal, Montréal, Canada; Imagia Inc., Montréal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mahsa",
+            "LastName": "Shakeri",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "École Polytechnique de Montréal, Montréal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lisa",
+            "LastName": "Di Jorio",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Imagia Inc., Montréal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "An",
+            "LastName": "Tang",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "CHUM Research Center, Montréal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adriana",
+            "LastName": "Romero",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Montreal Institute for Learning Algorithms, Montréal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yoshua",
+            "LastName": "Bengio",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Montreal Institute for Learning Algorithms, Montréal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chris",
+            "LastName": "Pal",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Montreal Institute for Learning Algorithms, Montréal, Canada; École Polytechnique de Montréal, Montréal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Samuel",
+            "LastName": "Kadoury",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "École Polytechnique de Montréal, Montréal, Canada; CHUM Research Center, Montréal, Canada."}
+          }
+        ]
+      },
+      "ArticleTitle": "Learning normalized inputs for iterative estimation in medical image segmentation.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1361-8415(17)30163-9"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.media.2017.11.005"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 14
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Computed Tomography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Electron microscopy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Fully convolutionl networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ResNets"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29169029
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29169029,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(17)30163-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2017.11.005",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

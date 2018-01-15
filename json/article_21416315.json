@@ -1,0 +1,1594 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101183755,
+      "Country": "United States",
+      "ISSNLinking": "1544-9173",
+      "MedlineTA": "PLoS Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D029681",
+          "content": "Arabidopsis Proteins"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D010937",
+          "content": "Plant Growth Regulators"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D000040",
+          "content": "Abscisic Acid"
+        },
+        "RegistryNumber": "72S9A8J5GW"
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D000071636",
+          "content": "Protein Phosphatase 2C"
+        },
+        "RegistryNumber": "EC 3.1.3.16"
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D002118",
+          "content": "Calcium"
+        },
+        "RegistryNumber": "SY7Q814VUP"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e2003451"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Stomata, microscopic pores in leaf surfaces through which water loss and carbon dioxide uptake occur, are closed in response to drought by the phytohormone abscisic acid (ABA). This process is vital for drought tolerance and has been the topic of extensive experimental investigation in the last decades. Although a core signaling chain has been elucidated consisting of ABA binding to receptors, which alleviates negative regulation by protein phosphatases 2C (PP2Cs) of the protein kinase OPEN STOMATA 1 (OST1) and ultimately results in activation of anion channels, osmotic water loss, and stomatal closure, over 70 additional components have been identified, yet their relationships with each other and the core components are poorly elucidated. We integrated and processed hundreds of disparate observations regarding ABA signal transduction responses underlying stomatal closure into a network of 84 nodes and 156 edges and, as a result, established those relationships, including identification of a 36-node, strongly connected (feedback-rich) component as well as its in- and out-components. The network's domination by a feedback-rich component may reflect a general feature of rapid signaling events. We developed a discrete dynamic model of this network and elucidated the effects of ABA plus knockout or constitutive activity of 79 nodes on both the outcome of the system (closure) and the status of all internal nodes. The model, with more than 1024 system states, is far from fully determined by the available data, yet model results agree with existing experiments in 82 cases and disagree in only 17 cases, a validation rate of 75%. Our results reveal nodes that could be engineered to impact stomatal closure in a controlled fashion and also provide over 140 novel predictions for which experimental data are currently lacking. Noting the paucity of wet-bench data regarding combinatorial effects of ABA and internal node activation, we experimentally confirmed several predictions of the model with regard to reactive oxygen species, cytosolic Ca2+ (Ca2+c), and heterotrimeric G-protein signaling. We analyzed dynamics-determining positive and negative feedback loops, thereby elucidating the attractor (dynamic behavior) repertoire of the system and the groups of nodes that determine each attractor. Based on this analysis, we predict the likely presence of a previously unrecognized feedback mechanism dependent on Ca2+c. This mechanism would provide model agreement with 10 additional experimental observations, for a validation rate of 85%. Our research underscores the importance of feedback regulation in generating robust and adaptable biological responses. The high validation rate of our model illustrates the advantages of discrete dynamic modeling for complex, nonlinear systems common in biology."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-9485-0828"
+            },
+            "ForeName": "Réka",
+            "LastName": "Albert",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Physics, Pennsylvania State University, University Park, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Biswa R",
+            "LastName": "Acharya",
+            "Initials": "BR",
+            "AffiliationInfo": {"Affiliation": "Biology Department, Pennsylvania State University, University Park, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Byeong Wook",
+            "LastName": "Jeon",
+            "Initials": "BW",
+            "AffiliationInfo": {"Affiliation": "Biology Department, Pennsylvania State University, University Park, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jorge G T",
+            "LastName": "Zañudo",
+            "Initials": "JGT",
+            "AffiliationInfo": {"Affiliation": "Department of Physics, Pennsylvania State University, University Park, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mengmeng",
+            "LastName": "Zhu",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Biology Department, Pennsylvania State University, University Park, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Karim",
+            "LastName": "Osman",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Biology Department, Pennsylvania State University, University Park, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sarah M",
+            "LastName": "Assmann",
+            "Initials": "SM",
+            "AffiliationInfo": {"Affiliation": "Biology Department, Pennsylvania State University, University Park, Pennsylvania, United States of America."}
+          }
+        ]
+      },
+      "ArticleTitle": "A new discrete dynamic model of ABA-induced stomatal closure predicts key feedback loops.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pbio.2003451"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 15,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1545-7885"
+        },
+        "Title": "PLoS biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D000040",
+          "MajorTopicYN": "N",
+          "content": "Abscisic Acid"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017360",
+        "MajorTopicYN": "N",
+        "content": "Arabidopsis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D029681",
+          "MajorTopicYN": "N",
+          "content": "Arabidopsis Proteins"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D002118",
+          "MajorTopicYN": "N",
+          "content": "Calcium"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D025461",
+        "MajorTopicYN": "N",
+        "content": "Feedback, Physiological"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D010937",
+          "MajorTopicYN": "N",
+          "content": "Plant Growth Regulators"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D054046",
+          "MajorTopicYN": "N",
+          "content": "Plant Stomata"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D000071636",
+          "MajorTopicYN": "N",
+          "content": "Protein Phosphatase 2C"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015398",
+        "MajorTopicYN": "N",
+        "content": "Signal Transduction"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2007 Jan 19;282(3):1916-24",
+        "PMID": {
+          "Version": 1,
+          "content": 17098742
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Source Code Biol Med. 2008 Nov 14;3:16",
+        "PMID": {
+          "Version": 1,
+          "content": 19014577
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Feb 16;107(7):3251-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20133698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2001 May;26(3):351-62",
+        "PMID": {
+          "Version": 1,
+          "content": 11439123
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Cell Biol. 2001 Jul;3(7):679-82",
+        "PMID": {
+          "Version": 1,
+          "content": 11433301
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Planta. 2002 Mar;214(5):775-82",
+        "PMID": {
+          "Version": 1,
+          "content": 11882947
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2008 Nov 24;2:99",
+        "PMID": {
+          "Version": 1,
+          "content": 19025648
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell Environ. 2008 Mar;31(3):366-77",
+        "PMID": {
+          "Version": 1,
+          "content": 18088331
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2013 Jun;25(6):2202-16",
+        "PMID": {
+          "Version": 1,
+          "content": 23757398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2002 Nov;14(11):2849-61",
+        "PMID": {
+          "Version": 1,
+          "content": 12417706
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2009 May 22;324(5930):1068-71",
+        "PMID": {
+          "Version": 1,
+          "content": 19407142
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Bot. 2007;58(1):83-102",
+        "PMID": {
+          "Version": 1,
+          "content": 17110589
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2006 Apr 14;312(5771):264-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16614222
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2003 Apr;131(4):1623-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12692321
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2009 Jul;150(3):1345-55",
+        "PMID": {
+          "Version": 1,
+          "content": 19458118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2001 Feb;25(3):295-303",
+        "PMID": {
+          "Version": 1,
+          "content": 11208021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1990 Aug 23;346(6286):769-71",
+        "PMID": {
+          "Version": 1,
+          "content": 2388697
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Cell. 2007 Oct;18(10):3873-82",
+        "PMID": {
+          "Version": 1,
+          "content": 17652457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2009 Sep 17;583(18):2982-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19716822
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Plant Res. 2012 May;125(3):439-49",
+        "PMID": {
+          "Version": 1,
+          "content": 21910031
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Planta. 1977 Jan;134(1):77-81",
+        "PMID": {
+          "Version": 1,
+          "content": 24419583
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2002;14 Suppl:S401-17",
+        "PMID": {
+          "Version": 1,
+          "content": 12045291
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Sep 4;109(36):14693-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22908257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2012 May 7;586(9):1253-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22500990
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Oct 18;102(42):15144-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16217022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2007 Aug;3(8):e163",
+        "PMID": {
+          "Version": 1,
+          "content": 17722974
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2007 Mar;143(3):1140-51",
+        "PMID": {
+          "Version": 1,
+          "content": 17259289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2011 Sep;67(5):840-51",
+        "PMID": {
+          "Version": 1,
+          "content": 21575088
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2013 Oct;163(2):591-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23922271
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 1995 Aug;7(8):1333-1342",
+        "PMID": {
+          "Version": 1,
+          "content": 12242406
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 1999 Sep;11(9):1785-98",
+        "PMID": {
+          "Version": 1,
+          "content": 10488243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Mol Biol. 2015 Jun;88(3):313-24",
+        "PMID": {
+          "Version": 1,
+          "content": 25969135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2011 Aug;23(8):2895-908",
+        "PMID": {
+          "Version": 1,
+          "content": 21862707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1998 Dec 22;95(26):15837-42",
+        "PMID": {
+          "Version": 1,
+          "content": 9861057
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "New Phytol. 2015 Oct;208(2):342-53",
+        "PMID": {
+          "Version": 1,
+          "content": 26308648
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Plant. 2011 Jul;4(4):562-80",
+        "PMID": {
+          "Version": 1,
+          "content": 21746700
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2013 Feb;25(2):558-71",
+        "PMID": {
+          "Version": 1,
+          "content": 23396828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2009 May 22;324(5930):1064-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19407143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Planta. 2014 Mar;239(3):565-75",
+        "PMID": {
+          "Version": 1,
+          "content": 24271006
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2003 Aug 19;100(17):10091-5",
+        "PMID": {
+          "Version": 1,
+          "content": 12913129
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Plant. 2012 Nov;5(6):1409-12",
+        "PMID": {
+          "Version": 1,
+          "content": 22933711
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2002 Jun;30(5):601-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12047634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cells. 2012 Jun;33(6):617-26",
+        "PMID": {
+          "Version": 1,
+          "content": 22610367
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2003 Jun 5;423(6940):651-4",
+        "PMID": {
+          "Version": 1,
+          "content": 12789341
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Jun 26;109(26):10593-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22689970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1999 Feb 16;96(4):1779-84",
+        "PMID": {
+          "Version": 1,
+          "content": 9990101
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2013 Oct;163(2):504-13",
+        "PMID": {
+          "Version": 1,
+          "content": 23766366
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2011 Apr 15;286(15):13336-45",
+        "PMID": {
+          "Version": 1,
+          "content": 21330371
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell Environ. 2011 Apr;34(4):535-53",
+        "PMID": {
+          "Version": 1,
+          "content": 21309807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1999 Oct 12;96(21):12192-7",
+        "PMID": {
+          "Version": 1,
+          "content": 10518598
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Plant Biol. 2016 Oct;33:157-167",
+        "PMID": {
+          "Version": 1,
+          "content": 27518594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2012 Mar 9;287(11):8286-96",
+        "PMID": {
+          "Version": 1,
+          "content": 22275366
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Signal. 2011 May 17;4(173):ra32",
+        "PMID": {
+          "Version": 1,
+          "content": 21586729
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Biochem. 1996 Oct 1;241(1):193-200",
+        "PMID": {
+          "Version": 1,
+          "content": 8898906
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Oct 13;106(41):17588-93",
+        "PMID": {
+          "Version": 1,
+          "content": 19805022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2002 Dec 10;99(25):16314-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12446847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2010 Oct 21;266(4):641-56",
+        "PMID": {
+          "Version": 1,
+          "content": 20659480
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Plant Physiol. 2003 May;160(5):493-501",
+        "PMID": {
+          "Version": 1,
+          "content": 12806777
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2004 Dec;136(4):4150-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15563626
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2010 Sep;63(6):1054-62",
+        "PMID": {
+          "Version": 1,
+          "content": 20626656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 1985 Dec;79(4):1003-5",
+        "PMID": {
+          "Version": 1,
+          "content": 16664518
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 1998 Mar 6;424(1-2):100-4",
+        "PMID": {
+          "Version": 1,
+          "content": 9537523
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Jul 20;101(29):10554-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15247428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2003 Apr;34(1):47-55",
+        "PMID": {
+          "Version": 1,
+          "content": 12662308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2015 Jul;27(7):1945-54",
+        "PMID": {
+          "Version": 1,
+          "content": 26163575
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2003 Apr 29;100(9):5549-54",
+        "PMID": {
+          "Version": 1,
+          "content": 12671068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2008 Jun 17;105(24):8476-81",
+        "PMID": {
+          "Version": 1,
+          "content": 18541915
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Dec 15;106(50):21425-30",
+        "PMID": {
+          "Version": 1,
+          "content": 19955405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2004 Apr;134(4):1536-45",
+        "PMID": {
+          "Version": 1,
+          "content": 15064385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2003 May;132(1):92-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12746515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chaos. 2013 Jun;23(2):025111",
+        "PMID": {
+          "Version": 1,
+          "content": 23822509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Plants. 2015 Aug 04;1:15118",
+        "PMID": {
+          "Version": 1,
+          "content": 27250549
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Plant Biol. 2010;61:561-91",
+        "PMID": {
+          "Version": 1,
+          "content": 20192751
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2004 May;38(3):381-95",
+        "PMID": {
+          "Version": 1,
+          "content": 15086800
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Plant Biol. 2006;57:781-803",
+        "PMID": {
+          "Version": 1,
+          "content": 16669782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Plant Biol. 2015 Dec;28:154-62",
+        "PMID": {
+          "Version": 1,
+          "content": 26599955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Integr Plant Biol. 2012 Mar;54(3):180-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22251383
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Dec 1;106(48):20520-5",
+        "PMID": {
+          "Version": 1,
+          "content": 19910530
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Dec 15;106(50):21419-24",
+        "PMID": {
+          "Version": 1,
+          "content": 19955427
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 1999 Feb;119(2):627-34",
+        "PMID": {
+          "Version": 1,
+          "content": 9952459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Signal. 1999 May;11(5):309-16",
+        "PMID": {
+          "Version": 1,
+          "content": 10376802
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Plant. 2008 Mar;1(2):347-58",
+        "PMID": {
+          "Version": 1,
+          "content": 19825544
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Signal Behav. 2014;9(11):e972845",
+        "PMID": {
+          "Version": 1,
+          "content": 25482764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2001 Aug;126(4):1438-48",
+        "PMID": {
+          "Version": 1,
+          "content": 11500543
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Integr Plant Biol. 2012 Mar;54(3):169-79",
+        "PMID": {
+          "Version": 1,
+          "content": 22233300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2009 Jul;59(2):207-20",
+        "PMID": {
+          "Version": 1,
+          "content": 19302418
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Jun 22;101(25):9508-13",
+        "PMID": {
+          "Version": 1,
+          "content": 15197253
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 1984 Dec;76(4):1029-35",
+        "PMID": {
+          "Version": 1,
+          "content": 16663944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Mol Biol. 2016;1363:89-121",
+        "PMID": {
+          "Version": 1,
+          "content": 26577784
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2009 Aug;21(8):2357-77",
+        "PMID": {
+          "Version": 1,
+          "content": 19690149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2012 Jun;24(6):2483-96",
+        "PMID": {
+          "Version": 1,
+          "content": 22739828
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Biol. 1998 Oct 5;143(1):65-79",
+        "PMID": {
+          "Version": 1,
+          "content": 9763421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 1995 Aug;7(8):1207-1219",
+        "PMID": {
+          "Version": 1,
+          "content": 12242404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2016 Aug 19;10 (1):78",
+        "PMID": {
+          "Version": 1,
+          "content": 27542373
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2001 Nov;13(11):2513-23",
+        "PMID": {
+          "Version": 1,
+          "content": 11701885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "New Phytol. 2013 Dec;200(4):1049-63",
+        "PMID": {
+          "Version": 1,
+          "content": 24033256
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2013 Jul 15;62(1):3-12",
+        "PMID": {
+          "Version": 1,
+          "content": 23142247
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell Physiol. 2008 Sep;49(9):1396-401",
+        "PMID": {
+          "Version": 1,
+          "content": 18650210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2011 Jun;23(6):2314-30",
+        "PMID": {
+          "Version": 1,
+          "content": 21719691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2006 Aug;141(4):1389-99",
+        "PMID": {
+          "Version": 1,
+          "content": 16798945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2003 Feb;131(2):385-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12586862
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2008 Mar 27;452(7186):487-91",
+        "PMID": {
+          "Version": 1,
+          "content": 18305484
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "New Phytol. 2005 Sep;167(3):665-91",
+        "PMID": {
+          "Version": 1,
+          "content": 16101906
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 1997 Mar;9(3):409-23",
+        "PMID": {
+          "Version": 1,
+          "content": 9090884
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Planta. 2012 Dec;236(6):1899-907",
+        "PMID": {
+          "Version": 1,
+          "content": 22932846
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Plant. 2012 May;5(3):601-10",
+        "PMID": {
+          "Version": 1,
+          "content": 22402260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Nov 13;10(11):e1003930",
+        "PMID": {
+          "Version": 1,
+          "content": 25393147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2010 Jan;61(2):290-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19874541
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2008 Oct;56(1):64-72",
+        "PMID": {
+          "Version": 1,
+          "content": 18557834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Rev. 2012 Oct;92(4):1777-811",
+        "PMID": {
+          "Version": 1,
+          "content": 23073631
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2012 May;24(5):2200-12",
+        "PMID": {
+          "Version": 1,
+          "content": 22589465
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell Environ. 2008 Feb;31(2):187-94",
+        "PMID": {
+          "Version": 1,
+          "content": 17996010
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2006 Oct;4(10):e312",
+        "PMID": {
+          "Version": 1,
+          "content": 16968132
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell Environ. 2008 Nov;31(11):1717-24",
+        "PMID": {
+          "Version": 1,
+          "content": 18721267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2015 Jul 20;4:null",
+        "PMID": {
+          "Version": 1,
+          "content": 26192964
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2012 May;24(5):2031-40",
+        "PMID": {
+          "Version": 1,
+          "content": 22570440
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2001 Nov 23;508(3):443-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11728469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2013 May;74(3):372-82",
+        "PMID": {
+          "Version": 1,
+          "content": 23452338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2006 Jan;140(1):127-39",
+        "PMID": {
+          "Version": 1,
+          "content": 16361522
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2006 Oct;4(10):e327",
+        "PMID": {
+          "Version": 1,
+          "content": 17032064
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Signal. 2011 Nov 29;4(201):re4",
+        "PMID": {
+          "Version": 1,
+          "content": 22126965
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell Physiol. 2010 Mar;51(3):354-65",
+        "PMID": {
+          "Version": 1,
+          "content": 20154005
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Mol Biol. 2009 Mar;69(4):451-62",
+        "PMID": {
+          "Version": 1,
+          "content": 19031047
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 2001 Jul 15;15(14):1808-16",
+        "PMID": {
+          "Version": 1,
+          "content": 11459830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2004 Dec;136(4):4275-84",
+        "PMID": {
+          "Version": 1,
+          "content": 15563619
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Bot. 2011 Apr;62(7):2371-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21262908
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2001 Mar 29;410(6828):596-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11279499
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 1998 Jan 23;1389(3):222-72",
+        "PMID": {
+          "Version": 1,
+          "content": 9512651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 1999 Oct;11(10):1897-910",
+        "PMID": {
+          "Version": 1,
+          "content": 10521520
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Plant Physiol. 2016 Sep 20;203:84-94",
+        "PMID": {
+          "Version": 1,
+          "content": 27083537
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2008 Aug;147(4):1690-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18583529
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Apr 27;107(17):8023-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20385816
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2004 Jun;16(6):1616-32",
+        "PMID": {
+          "Version": 1,
+          "content": 15155892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "New Phytol. 2010 May;186(3):636-47",
+        "PMID": {
+          "Version": 1,
+          "content": 20298482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEBS Lett. 2000 Dec 8;486(2):93-8",
+        "PMID": {
+          "Version": 1,
+          "content": 11113445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2010 Feb;152(2):470-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20032076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Biochem Biophys. 1997 Jan 15;337(2):345-50",
+        "PMID": {
+          "Version": 1,
+          "content": 9016832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Theor Biol Med Model. 2006 Mar 16;3:13",
+        "PMID": {
+          "Version": 1,
+          "content": 16542429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2012 Jun;24(6):2546-61",
+        "PMID": {
+          "Version": 1,
+          "content": 22730405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Membr Biol. 1996 Dec;154(3):227-37",
+        "PMID": {
+          "Version": 1,
+          "content": 8952952
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1998 Oct 9;282(5387):287-90",
+        "PMID": {
+          "Version": 1,
+          "content": 9765153
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "New Phytol. 2014 Jul;203(1):44-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24800691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2002 Dec;14(12):3089-99",
+        "PMID": {
+          "Version": 1,
+          "content": 12468729
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2001 Aug 24;106(4):477-87",
+        "PMID": {
+          "Version": 1,
+          "content": 11525733
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 Jan 7;111(1):533-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24367097
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2012 Jul;159(3):1026-42",
+        "PMID": {
+          "Version": 1,
+          "content": 22635116
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 1999 Sep;19(6):735-47",
+        "PMID": {
+          "Version": 1,
+          "content": 10571859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Signal. 2014 Sep 09;7(342):ra86",
+        "PMID": {
+          "Version": 1,
+          "content": 25205850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 1997 Aug;114(4):1557-60",
+        "PMID": {
+          "Version": 1,
+          "content": 9276963
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2000 Jan 14;287(5451):300-3",
+        "PMID": {
+          "Version": 1,
+          "content": 10634783
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 2003 Jun 2;22(11):2623-33",
+        "PMID": {
+          "Version": 1,
+          "content": 12773379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell Physiol. 2010 Oct;51(10 ):1721-30",
+        "PMID": {
+          "Version": 1,
+          "content": 20739306
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Plant Sci. 2013 Oct 29;4:425",
+        "PMID": {
+          "Version": 1,
+          "content": 24194741
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "New Phytol. 2014 Mar;201(4):1121-40",
+        "PMID": {
+          "Version": 1,
+          "content": 24188383
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Methods. 2008 Feb 19;4:6",
+        "PMID": {
+          "Version": 1,
+          "content": 18284694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2002 Oct;14 (10 ):2399-412",
+        "PMID": {
+          "Version": 1,
+          "content": 12368494
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2001 Jun 15;292(5524):2070-2",
+        "PMID": {
+          "Version": 1,
+          "content": 11408655
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Jan 15;24(2):293-5",
+        "PMID": {
+          "Version": 1,
+          "content": 18033793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Plant Res. 2011 Jul;124(4):501-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21416315
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28937978
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28937978,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pbio.2003451",
+        "IdType": "doi"
+      },
+      {
+        "content": "pbio.2003451",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5627951",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

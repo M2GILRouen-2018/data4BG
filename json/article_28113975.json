@@ -1,0 +1,138 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Hashing or binary code learning has been recognized to accomplish efficient near neighbor search, and has thus attracted broad interests in recent retrieval, vision and learning studies. One main challenge of learning to hash arises from the involvement of discrete variables in binary code optimization. While the widely-used continuous relaxation may achieve high learning efficiency, the pursued codes are typically less effective due to accumulated quantization error. In this work, we propose a novel binary code optimization method, dubbed Discrete Proximal Linearized Minimization (DPLM), which directly handles the discrete constraints during the learning process. Specifically, the discrete (thus nonsmooth nonconvex) problem is reformulated as minimizing the sum of a smooth loss term with a nonsmooth indicator function. The obtained problem is then efficiently solved by an iterative procedure with each iteration admitting an analytical discrete solution, which is thus shown to converge very fast. In addition, the proposed method supports a large family of empirical loss functions, which is particularly instantiated in this work by both a supervised and an unsupervised hashing losses, together with the bits uncorrelation and balance constraints. In particular, the proposed DPLM with a supervised `2 loss encodes the whole NUS-WIDE database into 64-bit binary codes within 10 seconds on a standard desktop computer. The proposed approach is extensively evaluated on several large-scale datasets and the generated binary codes are shown to achieve very promising results on both retrieval and classification tasks."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fumin",
+            "LastName": "Shen",
+            "Initials": "F"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiang",
+            "LastName": "Zhou",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yang",
+            "LastName": "Yang",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jingkuan",
+            "LastName": "Song",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Heng",
+            "LastName": "Shen",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dacheng",
+            "LastName": "Tao",
+            "Initials": "D"
+          }
+        ]
+      },
+      "ArticleTitle": "A Fast Optimization Method for General Binary Code Learning.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2612883"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2016,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113975
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113975,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2612883",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,472 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "850-7"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Canadian Institutes of Health Research",
+          "Country": "Canada",
+          "GrantID": "HIR 08-374"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Published by the BMJ Publishing Group Limited. For permission to use (where not already granted under a licence) please go to http://group.bmj.com/group/rights-licensing/permissions.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVES",
+            "content": "Natural language processing (NLP) applications typically use regular expressions that have been developed manually by human experts. Our goal is to automate both the creation and utilization of regular expressions in text classification."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We designed a novel regular expression discovery (RED) algorithm and implemented two text classifiers based on RED. The RED+ALIGN classifier combines RED with an alignment algorithm, and RED+SVM combines RED with a support vector machine (SVM) classifier. Two clinical datasets were used for testing and evaluation: the SMOKE dataset, containing 1091 text snippets describing smoking status; and the PAIN dataset, containing 702 snippets describing pain status. We performed 10-fold cross-validation to calculate accuracy, precision, recall, and F-measure metrics. In the evaluation, an SVM classifier was trained as the control."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The two RED classifiers achieved 80.9-83.0% in overall accuracy on the two datasets, which is 1.3-3% higher than SVM's accuracy (p<0.001). Similarly, small but consistent improvements have been observed in precision, recall, and F-measure when RED classifiers are compared with SVM alone. More significantly, RED+ALIGN correctly classified many instances that were misclassified by the SVM classifier (8.1-10.3% of the total instances and 43.8-53.0% of SVM's misclassifications)."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Machine-generated regular expressions can be effectively used in clinical text classification. The regular expression-based classifier can be combined with other classifiers, like SVM, to improve classification performance."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Duy Duc An",
+            "LastName": "Bui",
+            "Initials": "DD",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Informatics, University of Utah, Salt Lake City, Utah, USA VA Salt Lake City Health Care System, Salt Lake City, Utah, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qing",
+            "LastName": "Zeng-Treitler",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Informatics, University of Utah, Salt Lake City, Utah, USA VA Salt Lake City Health Care System, Salt Lake City, Utah, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Learning regular expressions for clinical text classification.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1136/amiajnl-2013-002411"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 21,
+          "PubDate": {"MedlineDate": "2014 Sep-Oct"},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Am Med Inform Assoc",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1527-974X"
+        },
+        "Title": "Journal of the American Medical Informatics Association : JAMIA"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2014,
+      "Day": 13
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Springerplus. 2013 Jul 10;2:309",
+        "PMID": {
+          "Version": 1,
+          "content": 23961389
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2006;6:30",
+        "PMID": {
+          "Version": 1,
+          "content": 16872495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2008;:450-4",
+        "PMID": {
+          "Version": 1,
+          "content": 18998969
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2008 Jan-Feb;15(1):14-24",
+        "PMID": {
+          "Version": 1,
+          "content": 17947624
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2011 Jul-Aug;18(4):387-91",
+        "PMID": {
+          "Version": 1,
+          "content": 21672908
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Sep-Oct;19(5):809-16",
+        "PMID": {
+          "Version": 1,
+          "content": 22707743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2008;:141-5",
+        "PMID": {
+          "Version": 1,
+          "content": 18999067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Sep-Oct;19(5):833-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22542812
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Inform Insights. 2012;5(Suppl. 1):43-50",
+        "PMID": {
+          "Version": 1,
+          "content": 22879759
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Qual Saf Health Care. 2010 Dec;19(6):e55",
+        "PMID": {
+          "Version": 1,
+          "content": 20724392
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 May-Jun;19(3):368-74",
+        "PMID": {
+          "Version": 1,
+          "content": 21984605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Sep-Oct;19(5):913-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22291166
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Inf Med. 2006;45(3):246-52",
+        "PMID": {
+          "Version": 1,
+          "content": 16685332
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Healthc Inform Res. 2011 Dec;17(4):224-31",
+        "PMID": {
+          "Version": 1,
+          "content": 22259724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2014 Jan-Feb;21(1):27-30",
+        "PMID": {
+          "Version": 1,
+          "content": 23921192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2011;2011:934-43",
+        "PMID": {
+          "Version": 1,
+          "content": 22195152
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2008;:596-600",
+        "PMID": {
+          "Version": 1,
+          "content": 18998887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2009;2009:411-5",
+        "PMID": {
+          "Version": 1,
+          "content": 20351890
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2007;7:32",
+        "PMID": {
+          "Version": 1,
+          "content": 17961241
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2007 May-Jun;14(3):304-11",
+        "PMID": {
+          "Version": 1,
+          "content": 17329723
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Inform Insights. 2012;5(Suppl. 1):77-85",
+        "PMID": {
+          "Version": 1,
+          "content": 22879763
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2001 Oct;34(5):301-10",
+        "PMID": {
+          "Version": 1,
+          "content": 12123149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Inform Insights. 2012;5(Suppl. 1):125-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22879768
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Inform Insights. 2013 Jul 22;6:35-45",
+        "PMID": {
+          "Version": 1,
+          "content": 23926434
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2013 Dec;46(6):998-1005",
+        "PMID": {
+          "Version": 1,
+          "content": 24025513
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Med Inform. 2009 Apr;78 Suppl 1:S34-42",
+        "PMID": {
+          "Version": 1,
+          "content": 18938105
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4147608"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9430800,
+      "Country": "England",
+      "ISSNLinking": "1067-5027",
+      "MedlineTA": "J Am Med Inform Assoc"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2014,
+      "Day": 13
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine Learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Natural Language Processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Regular Expressions"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Support Vector Machines"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Text Classification"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "N",
+        "content": "Artificial Intelligence"
+      }},
+      {"DescriptorName": {
+        "UI": "D001330",
+        "MajorTopicYN": "N",
+        "content": "Automatic Data Processing"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000145",
+          "MajorTopicYN": "Y",
+          "content": "classification"
+        },
+        "DescriptorName": {
+          "UI": "D016347",
+          "MajorTopicYN": "N",
+          "content": "Medical Records Systems, Computerized"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D009323",
+        "MajorTopicYN": "Y",
+        "content": "Natural Language Processing"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000145",
+          "MajorTopicYN": "N",
+          "content": "classification"
+        },
+        "DescriptorName": {
+          "UI": "D010146",
+          "MajorTopicYN": "N",
+          "content": "Pain"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012907",
+        "MajorTopicYN": "N",
+        "content": "Smoking"
+      }},
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 24578357
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 3,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 3,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24578357,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "amiajnl-2013-002411",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1136/amiajnl-2013-002411",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4147608",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

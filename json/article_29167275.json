@@ -1,0 +1,400 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9502500,
+      "Country": "United States",
+      "ISSNLinking": "1078-0432",
+      "MedlineTA": "Clin Cancer Res"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "T90 DA022759",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R90 DA023427",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 CA154601",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U24 CA180927",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "P41 EB015896",
+            "Acronym": "EB"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright ©2017, American Association for Cancer Research.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Isocitrate dehydrogenase (<IDH) mutations in glioma patients confer longer survival and may guide treatment decision-making. We aimed to predict the IDH status of gliomas from MR imaging by applying a residual convolutional neural network to pre-operative radiographic data."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "EXPERIMENTAL DESIGN",
+            "content": "Preoperative imaging was acquired for 201 patients from the Hospital of University of Pennsylvania (HUP), 157 patients from Brigham and Women's Hospital (BWH), and 138 patients from The Cancer Imaging Archive (TCIA) and divided into training, validation, and testing sets. We trained a residual convolutional neural network for each MR sequence (FLAIR, T2, T1 pre-contrast, and T1 post-contrast) and built a predictive model from the outputs. To increase the size of training set and prevent overfitting, we augmented the training set images by introducing random rotations, translations, flips, shearing, and zooming."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "With our neural network model, we achieved IDH prediction accuracies of 82.8% (AUC = 0.90), 83.0% (AUC = 0.93), and 85.7% (AUC = 0.94) within training, validation, and testing sets, respectively. When age at diagnosis was incorporated into the model, the training, validation, and testing accuracies increased to 87.3% (AUC = 0.93), 87.6% (AUC = 0.95), and 89.1% (AUC = 0.95), respectively."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": " We developed a deep learning technique to non-invasively predict IDH genotype in grade II-IV glioma using conventional MR imaging using a multi-institutional dataset."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ken",
+            "LastName": "Chang",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Harrison X",
+            "LastName": "Bai",
+            "Initials": "HX",
+            "AffiliationInfo": {"Affiliation": "Radiology, Hospital of the University of Pennsylvannia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hao",
+            "LastName": "Zhou",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Neurology, Xiangya Hospital, Central South University."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chang",
+            "LastName": "Su",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Yale School of Medicine."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wenya Linda",
+            "LastName": "Bi",
+            "Initials": "WL",
+            "AffiliationInfo": {"Affiliation": "Department of Neurosurgery, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ena",
+            "LastName": "Agbodza",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "University of Pennsylvannia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vasileios K",
+            "LastName": "Kavouridis",
+            "Initials": "VK",
+            "AffiliationInfo": {"Affiliation": "Neurosurgery, Computational Neuroscience Outcomes Center, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joeky T",
+            "LastName": "Senders",
+            "Initials": "JT",
+            "AffiliationInfo": {"Affiliation": "Neurosurgery, Computational Neuroscience Outcomes Center, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alessandro",
+            "LastName": "Boaro",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Neurosurgery, Computational Neuroscience Outcomes Center, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew L",
+            "LastName": "Beers",
+            "Initials": "AL",
+            "AffiliationInfo": {"Affiliation": "Radiology, MGH/Harvard Medical School."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Biqi",
+            "LastName": "Zhang",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Radiology, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alexandra",
+            "LastName": "Capellini",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Radiology, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Weihua",
+            "LastName": "Liao",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Xiangya Hospital, Department of Radiology."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qin",
+            "LastName": "Shen",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "Radiology, Second Xiangya Hospital of Central South University."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xuejun",
+            "LastName": "Li",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Neurosurgery, Xiangya Hospital Central South University."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bo",
+            "LastName": "Xiao",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Neurology, Xiangya Hospital, Central South University."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jane",
+            "LastName": "Cryan",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Pathology, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shakti",
+            "LastName": "Ramkissoon",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Pathology, Foundation Medicine, Inc."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lori",
+            "LastName": "Ramkissoon",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Pathology, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Keith L",
+            "LastName": "Ligon",
+            "Initials": "KL",
+            "AffiliationInfo": {"Affiliation": "Department of Medical Oncology, Dana-Farber Cancer Institute."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patrick Y",
+            "LastName": "Wen",
+            "Initials": "PY",
+            "AffiliationInfo": {"Affiliation": "Center For Neuro-Oncology, Dana-Farber Cancer Institute."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ranjit S",
+            "LastName": "Bindra",
+            "Initials": "RS",
+            "AffiliationInfo": {"Affiliation": "Department of Therapeutic Radiology, Yale University School of Medicine."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John H",
+            "LastName": "Woo",
+            "Initials": "JH",
+            "AffiliationInfo": {"Affiliation": "Radiology, Hospital of the University of Pennsylvania."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Omar",
+            "LastName": "Arnaout",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Neurosurgery, Computational Neuroscience Outcomes Center, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elizabeth",
+            "LastName": "Gerstner",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Neurology, Massachusetts General Hospital, Harvard Medical School."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul J",
+            "LastName": "Zhang",
+            "Initials": "PJ",
+            "AffiliationInfo": {"Affiliation": "Pathology and Laboratory Medicine, University of Pennsylvania."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bruce",
+            "LastName": "Rosen",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "MGH, Harvard Medical School."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Li",
+            "LastName": "Yang",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Neurology, The Second Xiangya Hospital of Central South University."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Raymond Y",
+            "LastName": "Huang",
+            "Initials": "RY",
+            "AffiliationInfo": {"Affiliation": "Radiology, Brigham and Women's Hospital."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jayashree",
+            "LastName": "Kalpathy-Cramer",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital kalpathy@nmr.mgh.harvard.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Residual Convolutional Neural Network for Determination of IDH Status in Low- and High-grade Gliomas from MR Imaging.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "clincanres.2236.2017"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1158/1078-0432.CCR-17-2236"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Clin. Cancer Res.",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1078-0432"
+        },
+        "Title": "Clinical cancer research : an official journal of the American Association for Cancer Research"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29167275
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29167275,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1078-0432.CCR-17-2236",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1158/1078-0432.CCR-17-2236",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

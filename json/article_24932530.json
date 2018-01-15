@@ -1,0 +1,432 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101563288,
+      "Country": "England",
+      "ISSNLinking": "2045-2322",
+      "MedlineTA": "Sci Rep"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 11979},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Oral Squamous Cell Carcinoma (OSCC) is a common type of cancer of the oral epithelium. Despite their high impact on mortality, sufficient screening methods for early diagnosis of OSCC often lack accuracy and thus OSCCs are mostly diagnosed at a late stage. Early detection and accurate outline estimation of OSCCs would lead to a better curative outcome and a reduction in recurrence rates after surgical treatment. Confocal Laser Endomicroscopy (CLE) records sub-surface micro-anatomical images for in vivo cell structure analysis. Recent CLE studies showed great prospects for a reliable, real-time ultrastructural imaging of OSCC in situ. We present and evaluate a novel automatic approach for OSCC diagnosis using deep learning technologies on CLE images. The method is compared against textural feature-based machine learning approaches that represent the current state of the art. For this work, CLE image sequences (7894 images) from patients diagnosed with OSCC were obtained from 4 specific locations in the oral cavity, including the OSCC lesion. The present approach is found to outperform the state of the art in CLE image recognition with an area under the curve (AUC) of 0.96 and a mean accuracy of 88.3% (sensitivity 86.6%, specificity 90%)."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-5294-5247"
+            },
+            "ForeName": "Marc",
+            "LastName": "Aubreville",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Pattern Recognition Lab, Computer Science, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany. marc.aubreville@fau.de."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christian",
+            "LastName": "Knipfer",
+            "Initials": "C",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Oral and Maxillofacial Surgery, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."},
+              {"Affiliation": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicolai",
+            "LastName": "Oetter",
+            "Initials": "N",
+            "AffiliationInfo": [
+              {"Affiliation": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."},
+              {"Affiliation": "Department of Oral and Maxillofacial Surgery, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christian",
+            "LastName": "Jaremenko",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Pattern Recognition Lab, Computer Science, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Erik",
+            "LastName": "Rodner",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Computer Vision Group, Friedrich-Schiller-Universität Jena, Jena, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joachim",
+            "LastName": "Denzler",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Computer Vision Group, Friedrich-Schiller-Universität Jena, Jena, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher",
+            "LastName": "Bohr",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Otorhinolaryngology, Head and Neck Surgery, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Helmut",
+            "LastName": "Neumann",
+            "Initials": "H",
+            "AffiliationInfo": [
+              {"Affiliation": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."},
+              {"Affiliation": "First Department of Internal Medicine, University Hospital Mainz, Johannes Gutenberg-Universität Mainz, Mainz, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Florian",
+            "LastName": "Stelzle",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."},
+              {"Affiliation": "Department of Oral and Maxillofacial Surgery, University Hospital Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andreas",
+            "LastName": "Maier",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Pattern Recognition Lab, Computer Science, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."},
+              {"Affiliation": "Erlangen Graduate School in Advanced Optical Technologies (SAOT), Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic Classification of Cancerous Tissue in Laserendomicroscopy Images of the Oral Cavity using Deep Learning.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1038/s41598-017-12320-8"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 7,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sci Rep",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2045-2322"
+        },
+        "Title": "Scientific reports"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 25
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Cancer. 2015 Mar 1;136(5):E359-86",
+        "PMID": {
+          "Version": 1,
+          "content": 25220842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Histol Histopathol. 2011 Jul;26(7):867-72",
+        "PMID": {
+          "Version": 1,
+          "content": 21630216
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastroenterology. 2010 Aug;139(2):388-92, 392.e1-2",
+        "PMID": {
+          "Version": 1,
+          "content": 20561523
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Endoscopy. 2006 Dec;38(12):1275-83",
+        "PMID": {
+          "Version": 1,
+          "content": 17163333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oral Oncol. 2006 Mar;42(3):221-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16140566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2016 May;35(5):1285-98",
+        "PMID": {
+          "Version": 1,
+          "content": 26886976
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer. 2004 Sep 15;101(6):1375-81",
+        "PMID": {
+          "Version": 1,
+          "content": 15368325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Physiol. 2002 Nov;87(6):737-45",
+        "PMID": {
+          "Version": 1,
+          "content": 12447453
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 1968 Mar;195(1):215-43",
+        "PMID": {
+          "Version": 1,
+          "content": 4966457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Evid Based Dent Pract. 2013 Dec;13(4):151-4",
+        "PMID": {
+          "Version": 1,
+          "content": 24237736
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Opt Express. 2014 Aug 28;5(9):3252-65",
+        "PMID": {
+          "Version": 1,
+          "content": 25401036
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2006 Dec;28(12):2037-41",
+        "PMID": {
+          "Version": 1,
+          "content": 17108377
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Transl Med. 2016 Jun 03;14(1):159",
+        "PMID": {
+          "Version": 1,
+          "content": 27255924
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2016 May;35(5):1170-81",
+        "PMID": {
+          "Version": 1,
+          "content": 26441412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Head Neck. 2016 Apr;38 Suppl 1:E1419-26",
+        "PMID": {
+          "Version": 1,
+          "content": 26560348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2016;2016:6183218",
+        "PMID": {
+          "Version": 1,
+          "content": 27127791
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastrointest Endosc. 2011 Feb;73(2):338-44",
+        "PMID": {
+          "Version": 1,
+          "content": 21145055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2001 Dec 27;345(26):1890-900",
+        "PMID": {
+          "Version": 1,
+          "content": 11756581
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "World J Gastroenterol. 2012 Oct 21;18(39):5560-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23112548
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vasc Res. 2004 Sep-Oct;41(5):400-11",
+        "PMID": {
+          "Version": 1,
+          "content": 15467299
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oral Surg Oral Med Oral Pathol Oral Radiol Endod. 1995 Aug;80(2):188-91",
+        "PMID": {
+          "Version": 1,
+          "content": 7552884
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2017 Feb 2;542(7639):115-118",
+        "PMID": {
+          "Version": 1,
+          "content": 28117445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 May 23;6:26286",
+        "PMID": {
+          "Version": 1,
+          "content": 27212078
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Otolaryngol Head Neck Surg. 2014 Jul;151(1):73-80",
+        "PMID": {
+          "Version": 1,
+          "content": 24699456
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2010 Jun;49(2):117-25",
+        "PMID": {
+          "Version": 1,
+          "content": 20338737
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Clin Oncol. 2013 Jun;10(6):334-43",
+        "PMID": {
+          "Version": 1,
+          "content": 23689750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oral Oncol. 2014 Aug;50(8):711-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24932530
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28931888
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28931888,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1038/s41598-017-12320-8",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1038/s41598-017-12320-8",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5607286",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

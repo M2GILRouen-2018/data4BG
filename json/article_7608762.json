@@ -1,0 +1,453 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101142069,
+      "Country": "United States",
+      "ISSNLinking": "1539-2791",
+      "MedlineTA": "Neuroinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "5-12"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "It is well established that not only electrophysiology but also morphology plays an important role in shaping the functional properties of neurons. In order to properly quantify morphological features it is first necessary to translate observational histological data into 3-dimensional geometric reconstructions of the neuronal structures. This reconstruction process, independently of being manual or (semi-)automatic, requires several preparation steps (e.g. histological processing) before data acquisition using specialized software. Unfortunately these processing steps likely produce artifacts which are then carried to the reconstruction, such as tissue shrinkage and formation of swellings. If not accounted for and corrected, these artifacts can change significantly the results from morphometric analysis and computer simulations. Here we present N3DFix, an open-source software which uses a correction algorithm to automatically find and fix swelling artifacts in neuronal reconstructions. N3DFix works as a post-processing tool and therefore can be used in either manual or (semi-)automatic reconstructions. The algorithm's internal parameters have been defined using a \"ground truth\" dataset produced by a neuroanatomist, involving two complementary manual reconstruction procedures: in the first, neuronal topology was faithfully reconstructed, including all swelling artifacts; in the second procedure a meticulous correction of the artifacts was manually performed directly during neuronal tracing. The internal parameters of N3DFix were set to minimize the differences between manual amendments and the algorithm's corrections. It is shown that the performance of N3DFix is comparable to careful manual correction of the swelling artifacts. To promote easy access and wide adoption, N3DFix is available in NEURON, Vaa3D and Py3DN."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eduardo",
+            "LastName": "Conde-Sousa",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "CBMA - Centre of Molecular and Environmental Biology, Department of Biology, University of Minho, Braga, Portugal."},
+              {"Affiliation": "CIBIO-InBIO - Centro de Investigação em Biodiversidade e Recursos Genéticos, Universidade do Porto, Vairão, Portugal."},
+              {"Affiliation": "CMUP - Centro de Matemática, Universidade do Porto, Porto, Portugal."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter",
+            "LastName": "Szücs",
+            "Initials": "P",
+            "AffiliationInfo": [
+              {"Affiliation": "MTA-DE-NAP B-Pain Control Research Group, Debrecen, Hungary."},
+              {"Affiliation": "Department of Physiology, University of Debrecen, Debrecen, Hungary."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hanchuan",
+            "LastName": "Peng",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Allen Institute for Brain Science, Seattle, WA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paulo",
+            "LastName": "Aguiar",
+            "Initials": "P",
+            "AffiliationInfo": [
+              {"Affiliation": "CMUP - Centro de Matemática, Universidade do Porto, Porto, Portugal. pauloaguiar@ineb.up.pt."},
+              {"Affiliation": "i3S - Instituto de Investigação e Inovação em Saúde, Universidade do Porto, Porto, Portugal. pauloaguiar@ineb.up.pt."},
+              {"Affiliation": "INEB - Instituto de Engenharia Biomédica, Universidade do Porto, Porto, Portugal. pauloaguiar@ineb.up.pt."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "N3DFix: an Algorithm for Automatic Removal of Swelling Artifacts in Neuronal Reconstructions.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s12021-016-9308-7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 15,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Neuroinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1559-0089"
+        },
+        "Title": "Neuroinformatics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Artifact removal algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Morphometric analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Neuronal reconstruction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Neuronal simulations"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Swelling artifacts"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2016,
+      "Day": 14
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "Y",
+        "content": "Artifacts"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D021621",
+        "MajorTopicYN": "Y",
+        "content": "Imaging, Three-Dimensional"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000166",
+          "MajorTopicYN": "Y",
+          "content": "cytology"
+        },
+        "DescriptorName": {
+          "UI": "D009474",
+          "MajorTopicYN": "N",
+          "content": "Neurons"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D051381",
+        "MajorTopicYN": "N",
+        "content": "Rats"
+      }},
+      {"DescriptorName": {
+        "UI": "D017208",
+        "MajorTopicYN": "N",
+        "content": "Rats, Wistar"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000166",
+          "MajorTopicYN": "Y",
+          "content": "cytology"
+        },
+        "DescriptorName": {
+          "UI": "D066148",
+          "MajorTopicYN": "N",
+          "content": "Spinal Cord Dorsal Horn"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "07"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 2002 Apr 1;540(Pt 1):189-207",
+        "PMID": {
+          "Version": 1,
+          "content": 11927679
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2011 Sep;9(2-3):193-217",
+        "PMID": {
+          "Version": 1,
+          "content": 21399937
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Neurosci. 2004 Jul-Aug;17(1):7-11",
+        "PMID": {
+          "Version": 1,
+          "content": 15218350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2015 Jul 15;87(2):252-6",
+        "PMID": {
+          "Version": 1,
+          "content": 26182412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2015 Jan;24(1):374-89",
+        "PMID": {
+          "Version": 1,
+          "content": 25494506
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2013 Oct;11(4):393-403",
+        "PMID": {
+          "Version": 1,
+          "content": 23765606
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Am. 2012 Jun;306(6):50-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22649994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 2010 Nov 15;588(Pt 22):4489-505",
+        "PMID": {
+          "Version": 1,
+          "content": 20876196
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroanat. 2014 Jul 11;8:65",
+        "PMID": {
+          "Version": 1,
+          "content": 25071470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2014 Jan;9(1):193-208",
+        "PMID": {
+          "Version": 1,
+          "content": 24385149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2012 Feb 02;7(2):394-407",
+        "PMID": {
+          "Version": 1,
+          "content": 22301777
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2010 Apr;28(4):348-53",
+        "PMID": {
+          "Version": 1,
+          "content": 20231818
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2012 Apr 23;6:49",
+        "PMID": {
+          "Version": 1,
+          "content": 22536169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans R Soc Lond B Biol Sci. 2015 May 19;370(1668):null",
+        "PMID": {
+          "Version": 1,
+          "content": 25823863
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 1998 Oct 1;84(1-2):49-54",
+        "PMID": {
+          "Version": 1,
+          "content": 9821633
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 1990 Sep-Oct;14(5):307-17",
+        "PMID": {
+          "Version": 1,
+          "content": 2224829
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 2005 Oct 1;568(Pt 1):69-82",
+        "PMID": {
+          "Version": 1,
+          "content": 16002454
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cytometry A. 2009 Apr;75(4):371-6",
+        "PMID": {
+          "Version": 1,
+          "content": 18937344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2007 Aug 29;27(35):9247-51",
+        "PMID": {
+          "Version": 1,
+          "content": 17728438
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain Res. 2002 Jun 21;941(1-2):11-28",
+        "PMID": {
+          "Version": 1,
+          "content": 12031543
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2008;3(5):866-76",
+        "PMID": {
+          "Version": 1,
+          "content": 18451794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 1997 Aug 15;9(6):1179-209",
+        "PMID": {
+          "Version": 1,
+          "content": 9248061
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2014 Oct;12(4):619-22",
+        "PMID": {
+          "Version": 1,
+          "content": 24924300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 1995 Mar;15(3 Pt 1):1669-82",
+        "PMID": {
+          "Version": 1,
+          "content": 7891127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroinform. 2012 Mar 16;6:4",
+        "PMID": {
+          "Version": 1,
+          "content": 22438842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 1995 Mar;73(3):1157-68",
+        "PMID": {
+          "Version": 1,
+          "content": 7608762
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 27412029
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27412029,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s12021-016-9308-7",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s12021-016-9308-7",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

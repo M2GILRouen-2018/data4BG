@@ -1,0 +1,209 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "05"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0188428"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "As the energy consumption has been surging in an unsustainable way, it is important to understand the impact of existing architecture designs from energy efficiency perspective, which is especially valuable for High Performance Computing (HPC) and datacenter environment hosting tens of thousands of servers. One obstacle hindering the advance of comprehensive evaluation on energy efficiency is the deficient power measuring approach. Most of the energy study relies on either external power meters or power models, both of these two methods contain intrinsic drawbacks in their practical adoption and measuring accuracy. Fortunately, the advent of Intel Running Average Power Limit (RAPL) interfaces has promoted the power measurement ability into next level, with higher accuracy and finer time resolution. Therefore, we argue it is the exact time to conduct an in-depth evaluation of the existing architecture designs to understand their impact on system energy efficiency. In this paper, we leverage representative benchmark suites including serial and parallel workloads from diverse domains to evaluate the architecture features such as Non Uniform Memory Access (NUMA), Simultaneous Multithreading (SMT) and Turbo Boost. The energy is tracked at subcomponent level such as Central Processing Unit (CPU) cores, uncore components and Dynamic Random-Access Memory (DRAM) through exploiting the power measurement ability exposed by RAPL. The experiments reveal non-intuitive results: 1) the mismatch between local compute and remote memory node caused by NUMA effect not only generates dramatic power and energy surge but also deteriorates the energy efficiency significantly; 2) for multithreaded application such as the Princeton Application Repository for Shared-Memory Computers (PARSEC), most of the workloads benefit a notable increase of energy efficiency using SMT, with more than 40% decline in average power consumption; 3) Turbo Boost is effective to accelerate the workload execution and further preserve the energy, however it may not be applicable on system with tight power budget."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shijie",
+            "LastName": "Yu",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-1101-7927"
+            },
+            "ForeName": "Hailong",
+            "LastName": "Yang",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rui",
+            "LastName": "Wang",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhongzhi",
+            "LastName": "Luan",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Depei",
+            "LastName": "Qian",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Sino-German Joint Software Institute, School of Computer Science and Engineering, Beihang University, Beijing, China."},
+              {"Affiliation": "School of Data and Computer Science, Sun Yat-sen University, Guangzhou, China."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Evaluating architecture impact on system energy efficiency.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0188428"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001108",
+        "MajorTopicYN": "N",
+        "content": "Architecture"
+      }},
+      {"DescriptorName": {
+        "UI": "D003205",
+        "MajorTopicYN": "Y",
+        "content": "Computing Methodologies"
+      }},
+      {"DescriptorName": {
+        "UI": "D004526",
+        "MajorTopicYN": "Y",
+        "content": "Efficiency"
+      }},
+      {"DescriptorName": {
+        "UI": "D011211",
+        "MajorTopicYN": "Y",
+        "content": "Electric Power Supplies"
+      }},
+      {"DescriptorName": {
+        "UI": "D055585",
+        "MajorTopicYN": "N",
+        "content": "Physical Phenomena"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": {
+      "RefType": "Cites",
+      "RefSource": "IEEE Trans Cybern. 2017 Aug 22;:null",
+      "PMID": {
+        "Version": 1,
+        "content": 28841563
+      }
+    }},
+    "PMID": {
+      "Version": 1,
+      "content": 29161317
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29161317,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0188428",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-22534",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5697812",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

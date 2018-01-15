@@ -1,0 +1,653 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 15
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "158-170"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB008374",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NIA NIH HHS",
+            "Country": "United States",
+            "GrantID": "K01 AG049089",
+            "Acronym": "AG"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB006733",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NIA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 AG042599",
+            "Acronym": "AG"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "P50 MH064065",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NINDS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 NS055754",
+            "Acronym": "NS"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 MH070890",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB009634",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NICHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HD053000",
+            "Acronym": "HD"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 MH070890",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 MH110274",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 MH100217",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NICHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "R21 HD081467",
+            "Acronym": "HD"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2016 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Many brain development studies have been devoted to investigate dynamic structural and functional changes in the first year of life. To quantitatively measure brain development in such a dynamic period, accurate image registration for different infant subjects with possible large age gap is of high demand. Although many state-of-the-art image registration methods have been proposed for young and elderly brain images, very few registration methods work for infant brain images acquired in the first year of life, because of (a) large anatomical changes due to fast brain development and (b) dynamic appearance changes due to white-matter myelination."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "To address these two difficulties, we propose a learning-based registration method to not only align the anatomical structures but also alleviate the appearance differences between two arbitrary infant MR images (with large age gap) by leveraging the regression forest to predict both the initial displacement vector and appearance changes. Specifically, in the training stage, two regression models are trained separately, with (a) one model learning the relationship between local image appearance (of one development phase) and its displacement toward the template (of another development phase) and (b) another model learning the local appearance changes between the two brain development phases. Then, in the testing stage, to register a new infant image to the template, we first predict both its voxel-wise displacement and appearance changes by the two learned regression models. Since such initializations can alleviate significant appearance and shape differences between new infant image and the template, it is easy to just use a conventional registration method to refine the remaining registration."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "We apply our proposed registration method to align 24 infant subjects at five different time points (i.e., 2-week-old, 3-month-old, 6-month-old, 9-month-old, and 12-month-old), and achieve more accurate and robust registration results, compared to the state-of-the-art registration methods."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The proposed learning-based registration method addresses the challenging task of registering infant brain images and achieves higher registration accuracy compared with other counterpart registration methods."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shunbo",
+            "LastName": "Hu",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Information, Linyi University, Linyi, 276005, China."},
+              {"Affiliation": "Department of Radiology and BRIC, University of North Carolina, Chapel Hill, NC, 27599, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lifang",
+            "LastName": "Wei",
+            "Initials": "L",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiology and BRIC, University of North Carolina, Chapel Hill, NC, 27599, USA."},
+              {"Affiliation": "College of Computer and Information Sciences, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yaozong",
+            "LastName": "Gao",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina, Chapel Hill, NC, 27599, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yanrong",
+            "LastName": "Guo",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina, Chapel Hill, NC, 27599, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guorong",
+            "LastName": "Wu",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina, Chapel Hill, NC, 27599, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dinggang",
+            "LastName": "Shen",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiology and BRIC, University of North Carolina, Chapel Hill, NC, 27599, USA."},
+              {"Affiliation": "Department of Brain and Cognitive Engineering, Korea University, Seoul, 02841, Korea."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Learning-based deformable image registration for infant MR images in the first year of life.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12007"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "deformable image registration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "infant brain MR image"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "regression forest"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000254",
+            "MajorTopicYN": "N",
+            "content": "growth & development"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D007223",
+        "MajorTopicYN": "N",
+        "content": "Infant"
+      }},
+      {"DescriptorName": {
+        "UI": "D007231",
+        "MajorTopicYN": "N",
+        "content": "Infant, Newborn"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Imaging"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Mar;45(1 Suppl):S61-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19041946
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2013 Apr;11(2):211-25",
+        "PMID": {
+          "Version": 1,
+          "content": 23055044
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2004;23 Suppl 1:S139-50",
+        "PMID": {
+          "Version": 1,
+          "content": 15501083
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Aug 15;62(2):782-90",
+        "PMID": {
+          "Version": 1,
+          "content": 21979382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2008;11(Pt 2):905-13",
+        "PMID": {
+          "Version": 1,
+          "content": 18982691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(9):e44596",
+        "PMID": {
+          "Version": 1,
+          "content": 23049751
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Inf Process Med Imaging. 2007;20:495-506",
+        "PMID": {
+          "Version": 1,
+          "content": 17633724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2008 Nov 19;28(47):12176-82",
+        "PMID": {
+          "Version": 1,
+          "content": 19020011
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Mar;45(1 Suppl):S173-86",
+        "PMID": {
+          "Version": 1,
+          "content": 19059349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cereb Cortex. 2013 Sep;23(9):2100-17",
+        "PMID": {
+          "Version": 1,
+          "content": 22772652
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2011;14(Pt 3):313-21",
+        "PMID": {
+          "Version": 1,
+          "content": 22003714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2015 Mar;108:160-72",
+        "PMID": {
+          "Version": 1,
+          "content": 25541188
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 1996 Mar;1(1):35-51",
+        "PMID": {
+          "Version": 1,
+          "content": 9873920
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Feb;17(1):87-97",
+        "PMID": {
+          "Version": 1,
+          "content": 9617910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cogn Sci. 2005 Mar;9(3):104-10",
+        "PMID": {
+          "Version": 1,
+          "content": 15737818
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1997 Apr;16(2):187-98",
+        "PMID": {
+          "Version": 1,
+          "content": 9101328
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2013 Dec;17(8):1293-303",
+        "PMID": {
+          "Version": 1,
+          "content": 23410511
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Jan;29(1):196-205",
+        "PMID": {
+          "Version": 1,
+          "content": 19923044
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2014 Sep;35(9):4475-87",
+        "PMID": {
+          "Version": 1,
+          "content": 24578096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Oct 1;47(4):1277-87",
+        "PMID": {
+          "Version": 1,
+          "content": 19285145
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007 Oct 15;38(1):95-113",
+        "PMID": {
+          "Version": 1,
+          "content": 17761438
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2007;10(Pt 2):319-26",
+        "PMID": {
+          "Version": 1,
+          "content": 18044584
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Jul;32(7):1153-90",
+        "PMID": {
+          "Version": 1,
+          "content": 23739795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Jul 1;46(3):786-802",
+        "PMID": {
+          "Version": 1,
+          "content": 19195496
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2010 Oct;32(10):1744-57",
+        "PMID": {
+          "Version": 1,
+          "content": 20724753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroscience. 2014 Sep 12;276:48-71",
+        "PMID": {
+          "Version": 1,
+          "content": 24378955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Aug 15;47(2):549-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19398022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2010 Sep 9;67(5):728-34",
+        "PMID": {
+          "Version": 1,
+          "content": 20826305
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Mar;29(3):650-68",
+        "PMID": {
+          "Version": 1,
+          "content": 19709963
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2004 Apr;21(4):1508-17",
+        "PMID": {
+          "Version": 1,
+          "content": 15050575
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Sep;62(3):1975-86",
+        "PMID": {
+          "Version": 1,
+          "content": 22634859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2014 Dec;18(8):1262-73",
+        "PMID": {
+          "Version": 1,
+          "content": 25042602
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2006 Oct;10(5):740-51",
+        "PMID": {
+          "Version": 1,
+          "content": 16887376
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 May;25(5):602-11",
+        "PMID": {
+          "Version": 1,
+          "content": 16689264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2002 Nov;21(11):1421-39",
+        "PMID": {
+          "Version": 1,
+          "content": 12575879
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2008;11(Pt 1):754-61",
+        "PMID": {
+          "Version": 1,
+          "content": 18979814
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28102945
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "01",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28102945,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12007",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5339889",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS831314",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

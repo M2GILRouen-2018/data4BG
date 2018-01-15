@@ -1,0 +1,938 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9878362,
+      "Country": "United States",
+      "ISSNLinking": "0192-8651",
+      "MedlineTA": "J Comput Chem"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "2641-2663"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "F31 CA134201",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "F32 GM105400",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 DA035923",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM083669",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 Wiley Periodicals, Inc.",
+        "AbstractText": "De novo design can be used to explore vast areas of chemical space in computational lead discovery. As a complement to virtual screening, from-scratch construction of molecules is not limited to compounds in pre-existing vendor catalogs. Here, we present an iterative fragment growth method, integrated into the program DOCK, in which new molecules are built using rules for allowable connections based on known molecules. The method leverages DOCK's advanced scoring and pruning approaches and users can define very specific criteria in terms of properties or features to customize growth toward a particular region of chemical space. The code was validated using three increasingly difficult classes of calculations: (1) Rebuilding known X-ray ligands taken from 663 complexes using only their component parts (focused libraries), (2) construction of new ligands in 57 drug target sites using a library derived from ∼13M drug-like compounds (generic libraries), and (3) application to a challenging protein-protein interface on the viral drug target HIVgp41. The computational testing confirms that the de novo DOCK routines are robust and working as envisioned, and the compelling results highlight the potential utility for designing new molecules against a wide variety of important protein targets. © 2017 Wiley Periodicals, Inc."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "William J",
+            "LastName": "Allen",
+            "Initials": "WJ",
+            "AffiliationInfo": {"Affiliation": "Department of Applied Mathematics and Statistics, Stony Brook University, Stony Brook, New York, 11794."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brian C",
+            "LastName": "Fochtman",
+            "Initials": "BC",
+            "AffiliationInfo": {"Affiliation": "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, New York, 11794."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Trent E",
+            "LastName": "Balius",
+            "Initials": "TE",
+            "AffiliationInfo": {"Affiliation": "Department of Pharmaceutical Chemistry, University of California, San Francisco, San Francisco, California, 94158."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-0525-6147"
+            },
+            "ForeName": "Robert C",
+            "LastName": "Rizzo",
+            "Initials": "RC",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Applied Mathematics and Statistics, Stony Brook University, Stony Brook, New York, 11794."},
+              {"Affiliation": "Institute of Chemical Biology and Drug Discovery, Stony Brook University, Stony Brook, New York, 11794."},
+              {"Affiliation": "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, New York, 11794."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Customizable de novo design strategies for DOCK: Application to HIVgp41 and other therapeutic targets.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/jcc.25052"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 30,
+          "Volume": 38,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Comput Chem",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1096-987X"
+        },
+        "Title": "Journal of computational chemistry"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "DOCK"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ZINC"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "chemical space"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "de novo design"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "drug discovery"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "footprint similarity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "fragment libraries"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "scoring functions"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "structure-based design"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 31
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Graph Model. 2013 Jul;44:104-12",
+        "PMID": {
+          "Version": 1,
+          "content": 23792207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Graph Model. 2015 Nov;62:235-44",
+        "PMID": {
+          "Version": 1,
+          "content": 26521207
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Phys Chem B. 2015 Jan 22;119(3):1083-102",
+        "PMID": {
+          "Version": 1,
+          "content": 25229837
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Expert Opin Drug Discov. 2014 Jul;9(7):803-17",
+        "PMID": {
+          "Version": 1,
+          "content": 24793080
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Graph Model. 2006 Oct;25(2):247-60",
+        "PMID": {
+          "Version": 1,
+          "content": 16458552
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr HIV Res. 2016;14 (3):283-94",
+        "PMID": {
+          "Version": 1,
+          "content": 26957202
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Top Med Chem. 2011 Dec;11(24):2959-84",
+        "PMID": {
+          "Version": 1,
+          "content": 22044229
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2012 Jan 23;52(1):210-24",
+        "PMID": {
+          "Version": 1,
+          "content": 22133077
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today Technol. 2013 Dec;10(4):e453-60",
+        "PMID": {
+          "Version": 1,
+          "content": 24451634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2000 Jan 1;28(1):235-42",
+        "PMID": {
+          "Version": 1,
+          "content": 10592235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioorg Med Chem Lett. 2009 Jun 1;19(11):2935-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19414257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2002 Dec;23(16):1623-41",
+        "PMID": {
+          "Version": 1,
+          "content": 12395429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2002 Jul;16(7):459-78",
+        "PMID": {
+          "Version": 1,
+          "content": 12510880
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2006 Nov 15;65(3):712-25",
+        "PMID": {
+          "Version": 1,
+          "content": 16981200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Top Med Chem. 2010;10(1):14-32",
+        "PMID": {
+          "Version": 1,
+          "content": 19929832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2005 Apr 7;48(7):2457-68",
+        "PMID": {
+          "Version": 1,
+          "content": 15801836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2004 Jul 15;25(9):1157-74",
+        "PMID": {
+          "Version": 1,
+          "content": 15116359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2004 Mar 19;303(5665):1813-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15031495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 1999 Dec 16;42(25):5095-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10602694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 2001 Apr;10(4):689-96",
+        "PMID": {
+          "Version": 1,
+          "content": 11274459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Biophys J. 2011 Apr;40(4):349-57",
+        "PMID": {
+          "Version": 1,
+          "content": 21258789
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2013 May 30;34(14 ):1226-1240",
+        "PMID": {
+          "Version": 1,
+          "content": 23436713
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2013 Jun 24;53(6):1518-27",
+        "PMID": {
+          "Version": 1,
+          "content": 23617275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2005 Jan-Feb;45(1):177-82",
+        "PMID": {
+          "Version": 1,
+          "content": 15667143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Dec 16;432(7019):862-5",
+        "PMID": {
+          "Version": 1,
+          "content": 15602552
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Dec 16;432(7019):855-61",
+        "PMID": {
+          "Version": 1,
+          "content": 15602551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 1991;11(4):314-28",
+        "PMID": {
+          "Version": 1,
+          "content": 1758885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioorg Med Chem Lett. 2015 Sep 15;25(18):3784-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26259807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Angew Chem Int Ed Engl. 2014 Apr 14;53(16):4244-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24623390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Res Rev. 2013 May;33(3):554-98",
+        "PMID": {
+          "Version": 1,
+          "content": 22430881
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2011 Jul 22;410(4):582-608",
+        "PMID": {
+          "Version": 1,
+          "content": 21762802
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Comput Sci. 2004 Sep-Oct;44(5):1708-18",
+        "PMID": {
+          "Version": 1,
+          "content": 15446830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2017 Mar 27;57(3):417-427",
+        "PMID": {
+          "Version": 1,
+          "content": 28165734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioorg Med Chem. 2014 Jan 1;22(1):651-61",
+        "PMID": {
+          "Version": 1,
+          "content": 24315195
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 1992 Feb;6(1):61-78",
+        "PMID": {
+          "Version": 1,
+          "content": 1583540
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Oct 01;8(10):e75992",
+        "PMID": {
+          "Version": 1,
+          "content": 24098414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2010 Nov 22;50(11):1986-2000",
+        "PMID": {
+          "Version": 1,
+          "content": 21033739
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biology (Basel). 2012 Aug 20;1(2):311-38",
+        "PMID": {
+          "Version": 1,
+          "content": 23730525
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Inform. 2014 Dec;33(11-12):779-89",
+        "PMID": {
+          "Version": 1,
+          "content": 27485424
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2004 Oct;25(13):1605-12",
+        "PMID": {
+          "Version": 1,
+          "content": 15264254
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acc Chem Res. 2009 Jun 16;42(6):724-33",
+        "PMID": {
+          "Version": 1,
+          "content": 19317443
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 1998 Nov;12(6):597-604",
+        "PMID": {
+          "Version": 1,
+          "content": 9879507
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Biochem Biotechnol. 2015 Oct;177(4):861-78",
+        "PMID": {
+          "Version": 1,
+          "content": 26299376
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2009 Mar;49(3):658-69",
+        "PMID": {
+          "Version": 1,
+          "content": 19265417
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 1988 Apr;31(4):722-9",
+        "PMID": {
+          "Version": 1,
+          "content": 3127588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioorg Med Chem Lett. 2006 Feb;16(3):663-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16263277
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioorg Med Chem. 2016 Oct 15;24(20):4875-4889",
+        "PMID": {
+          "Version": 1,
+          "content": 27543389
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2016 May 12;59(9):4103-20",
+        "PMID": {
+          "Version": 1,
+          "content": 26913380
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2004 Dec 16;432(7019):824-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15602547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2007 May 15;67(3):630-42",
+        "PMID": {
+          "Version": 1,
+          "content": 17335007
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2011 May 23;51(5):1083-91",
+        "PMID": {
+          "Version": 1,
+          "content": 21513346
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2014 Apr 28;54(4):1235-41",
+        "PMID": {
+          "Version": 1,
+          "content": 24611712
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2008 Oct;22(10):761-72",
+        "PMID": {
+          "Version": 1,
+          "content": 18612831
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2010 Apr;9(4):273-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20357802
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ChemMedChem. 2010 Nov 8;5(11):1813-24",
+        "PMID": {
+          "Version": 1,
+          "content": 20845360
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2003 Oct;17(10):621-41",
+        "PMID": {
+          "Version": 1,
+          "content": 15068363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2012 Jan;26(1):115-20",
+        "PMID": {
+          "Version": 1,
+          "content": 22127731
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Jul;38(Web Server issue):W615-21",
+        "PMID": {
+          "Version": 1,
+          "content": 20444867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2009 Feb;49(2):295-307",
+        "PMID": {
+          "Version": 1,
+          "content": 19434831
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Chem Biol. 2009 Aug;5(8):536-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19620992
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2007 Nov 1;50(22):5324-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17918923
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2014 Feb 24;54(2):518-29",
+        "PMID": {
+          "Version": 1,
+          "content": 24410429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioorg Med Chem Lett. 2012 Apr 15;22(8):3011-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22425565
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2008 May 14;130(19):6099-113",
+        "PMID": {
+          "Version": 1,
+          "content": 18412349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1998 Dec 22;95(26):15613-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9861018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Soc Trans. 2003 Jun;31(Pt 3):603-6",
+        "PMID": {
+          "Version": 1,
+          "content": 12773164
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2011 Jul 30;32(10):2273-89",
+        "PMID": {
+          "Version": 1,
+          "content": 21541962
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2015 Nov 23;55(11):2324-37",
+        "PMID": {
+          "Version": 1,
+          "content": 26479676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2013 Apr 11;56(7):3115-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23509929
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 1996 Jul 19;39(15):2887-93",
+        "PMID": {
+          "Version": 1,
+          "content": 8709122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 1993 Apr;7(2):127-53",
+        "PMID": {
+          "Version": 1,
+          "content": 8320553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Angew Chem Int Ed Engl. 2000 Nov 17;39(22):4130-4133",
+        "PMID": {
+          "Version": 1,
+          "content": 11093229
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2015 Jun 5;36(15):1132-56",
+        "PMID": {
+          "Version": 1,
+          "content": 25914306
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "RNA. 2009 Jun;15(6):1219-30",
+        "PMID": {
+          "Version": 1,
+          "content": 19369428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2016 May 12;59(9):4171-88",
+        "PMID": {
+          "Version": 1,
+          "content": 26356253
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2001 Feb 15;42(3):296-318",
+        "PMID": {
+          "Version": 1,
+          "content": 11151003
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2011 Oct 07;3:33",
+        "PMID": {
+          "Version": 1,
+          "content": 21982300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 1998 Nov;4(11):1302-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9809555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Comput Sci. 2004 Jan-Feb;44(1):170-8",
+        "PMID": {
+          "Version": 1,
+          "content": 14741025
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Antimicrob Agents Chemother. 2004 Nov;48(11):4349-59",
+        "PMID": {
+          "Version": 1,
+          "content": 15504864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2009 Jul;49(7):1630-42",
+        "PMID": {
+          "Version": 1,
+          "content": 19527020
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2006 Mar-Apr;46(2):642-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16562994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2012 Jun;26(6):749-73",
+        "PMID": {
+          "Version": 1,
+          "content": 22569593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2001 Oct;15(10):911-33",
+        "PMID": {
+          "Version": 1,
+          "content": 11918076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2017 Mar 23;60(6):2165-2168",
+        "PMID": {
+          "Version": 1,
+          "content": 28244745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2012 Jul 23;52(7):1757-68",
+        "PMID": {
+          "Version": 1,
+          "content": 22587354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(12 ):e50968",
+        "PMID": {
+          "Version": 1,
+          "content": 23236415
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28940386
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2018,
+        "Day": 15,
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28940386,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/jcc.25052",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5659719",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS900627",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

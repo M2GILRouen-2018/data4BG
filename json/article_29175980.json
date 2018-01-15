@@ -1,0 +1,249 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0217410",
+      "Country": "United States",
+      "ISSNLinking": "0161-5505",
+      "MedlineTA": "J Nucl Med"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 by the Society of Nuclear Medicine and Molecular Imaging, Inc.",
+        "AbstractText": "Gliomas are the most common types of tumors in the brain. While the definite diagnosis is routinely made ex vivo by histopathologic and molecular examination, diagnostic work-up of patients with suspected glioma is mainly done by using magnetic resonance imaging (MRI). Nevertheless, L-S-methyl-11C-methionine (11C-MET) Positron Emission Tomography (PET) holds a great potential in characterization of gliomas. The aim of this study was to establish machine learning (ML) driven survival models for glioma built on 11C-MET-PET, ex vivo and patient characteristics. Methods: 70 patients with a treatment naïve glioma, who had a positive 11C-MET-PET and histopathology-derived ex vivo feature extraction, such as World Health Organization (WHO) 2007 tumor grade, histology and isocitrate dehydrogenase (IDH1-R132H) mutation status were included. The 11C-MET-positive primary tumors were delineated semi-automatically on PET images followed by the feature extraction of tumor-to-background ratio based general and higher-order textural features by applying five different binning approaches. In vivo and ex vivo features, as well as patient characteristics (age, weight, height, body-mass-index, Karnofsky-score) were merged to characterize the tumors. Machine learning approaches were utilized to identify relevant in vivo, ex vivo and patient features and their relative weights for 36 months survival prediction. The resulting feature weights were used to establish three predictive models per binning configuration based on a combination of: in vivo/ex vivo and clinical patient information (M36IEP), in vivo and patient-only information (M36IP), and in vivo only (M36I). In addition a binning-independent ex vivo and patient-only (M36EP) model was created. The established models were validated in a Monte Carlo (MC) cross-validation scheme. Results: Most prominent ML-selected and -weighted features were patient and ex vivo based followed by in vivo features. The highest area under the curve (AUC) values of our models as revealed by the MC cross-validation were: 0.9 (M36IEP), 0.87 (M36EP), 0.77 (M36IP) and 0.72 (M36I). Conclusion: Survival prediction of glioma patients based on amino acid PET using computer-supported predictive models based on in vivo, ex vivo and patient features is highly accurate."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Laszlo",
+            "LastName": "Papp",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nina",
+            "LastName": "Poetsch",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marko",
+            "LastName": "Grahovac",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Victor",
+            "LastName": "Schmidbauer",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adelheid",
+            "LastName": "Woehrer",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthias",
+            "LastName": "Preusser",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Markus",
+            "LastName": "Mitterhauser",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Barbara",
+            "LastName": "Kiesel",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wolfgang",
+            "LastName": "Wadsak",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thomas",
+            "LastName": "Beyer",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marcus",
+            "LastName": "Hacker",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tatjana",
+            "LastName": "Traub-Weidinger",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Medical University of Vienna, Austria."}
+          }
+        ]
+      },
+      "ArticleTitle": "Glioma survival prediction with the combined analysis of in vivo 11C-MET-PET, ex vivo and patient features by supervised machine learning.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "jnumed.117.202267"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.2967/jnumed.117.202267"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 24
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Nucl. Med.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1535-5667"
+        },
+        "Title": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Oncology: Brain"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PET"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Statistical Analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "amino-acid PET"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "glioma"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "radiomics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "survival"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 27
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29175980
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29175980,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "jnumed.117.202267",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.2967/jnumed.117.202267",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,120 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9885960,
+      "Country": "United States",
+      "ISSNLinking": "0098-5589",
+      "MedlineTA": "IEEE Trans Pattern Anal Mach Intell"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Given a set of detections, detected at each time instant independently, we investigate how to associate them across time. This is done by propagating labels on a set of graphs, each graph capturing how either the spatiotemporal or the appearance cues promote the assignment of identical or distinct labels to a pair of detections. The graph construction is motivated by a locally linear embedding of the detection features. Interestingly, the neighborhood of a node in appearance graph is defined to include all the nodes for which the appearance feature is available (even if they are temporally distant). This gives our framework the uncommon ability to exploit the appearance features that are available only sporadically. Once the graphs have been defined, multi-object tracking is formulated as the problem of finding a label assignment that is consistent with the constraints captured each graph, which results into a difference of convex (DC) program. We propose to decompose the global objective function into node-wise subproblems. This not only allows a computationally efficient solution, but also supports an incremental and scalable construction of the graph, thereby making the framework applicable to large graphs and practical tracking scenarios. Moreover, it opens the possibility of parallel implementation."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Amit",
+            "LastName": "K C",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Laurent",
+            "LastName": "Jacques",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christophe",
+            "LastName": "De Vleeschouwer",
+            "Initials": "C"
+          }
+        ]
+      },
+      "ArticleTitle": "Discriminative and Efficient Label Propagation on Complementary Graphs for Multi-Object Tracking.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TPAMI.2016.2533391"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2016,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Pattern Anal Mach Intell",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1939-3539"
+        },
+        "Title": "IEEE transactions on pattern analysis and machine intelligence"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113448
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113448,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TPAMI.2016.2533391",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

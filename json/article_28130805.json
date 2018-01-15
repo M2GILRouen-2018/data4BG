@@ -1,0 +1,239 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9105850,
+      "Country": "United States",
+      "ISSNLinking": "1053-1807",
+      "MedlineTA": "J Magn Reson Imaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1209-1219"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 International Society for Magnetic Resonance in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "To propose a robust and accurate method for straightening magnetic resonance (MR) images of the spinal cord, based on spinal cord segmentation, that preserves spinal cord topology and that works for any MRI contrast, in a context of spinal cord template-based analysis."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "MATERIALS AND METHODS",
+            "content": "The spinal cord curvature was computed using an iterative Non-Uniform Rational B-Spline (NURBS) approximation. Forward and inverse deformation fields for straightening were computed by solving analytically the straightening equations for each image voxel. Computational speed-up was accomplished by solving all voxel equation systems as one single system. Straightening accuracy (mean and maximum distance from straight line), computational time, and robustness to spinal cord length was evaluated using the proposed and the standard straightening method (label-based spline deformation) on 3T T2 - and T1 -weighted images from 57 healthy subjects and 33 patients with spinal cord compression due to degenerative cervical myelopathy (DCM)."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The proposed algorithm was more accurate, more robust, and faster than the standard method (mean distance\u2009=\u20090.80 vs. 0.83\u2009mm, maximum distance\u2009=\u20091.49 vs. 1.78\u2009mm, time\u2009=\u200971 vs. 174 sec for the healthy population and mean distance\u2009=\u20090.65 vs. 0.68\u2009mm, maximum distance\u2009=\u20091.28 vs. 1.55\u2009mm, time\u2009=\u200932 vs. 60 sec for the DCM population)."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "A novel image straightening method that enables template-based analysis of quantitative spinal cord MRI data is introduced. This algorithm works for any MRI contrast and was validated on healthy and patient populations. The presented method is implemented in the Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "LEVEL OF EVIDENCE",
+            "content": "1 Technical Efficacy: Stage 1 J. Magn. Reson. Imaging 2017;46:1209-1219."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Benjamin",
+            "LastName": "De Leener",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gabriel",
+            "LastName": "Mangeat",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sara",
+            "LastName": "Dupont",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Allan R",
+            "LastName": "Martin",
+            "Initials": "AR",
+            "AffiliationInfo": {"Affiliation": "Division of Neurosurgery, Department of Surgery, University of Toronto, Toronto, ON, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Virginie",
+            "LastName": "Callot",
+            "Initials": "V",
+            "AffiliationInfo": [
+              {"Affiliation": "Aix-Marseille Université, CNRS, CRMBM UMR 7339, Marseille, France."},
+              {"Affiliation": "AP-HM, Hopital de la Timone, Pôle d'imagerie médicale, CEMEREM, Marseille, France."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nikola",
+            "LastName": "Stikov",
+            "Initials": "N",
+            "AffiliationInfo": [
+              {"Affiliation": "NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada."},
+              {"Affiliation": "Montreal Heart Institute, Montreal, QC, Canada."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael G",
+            "LastName": "Fehlings",
+            "Initials": "MG",
+            "AffiliationInfo": {"Affiliation": "Division of Neurosurgery, Department of Surgery, University of Toronto, Toronto, ON, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Julien",
+            "LastName": "Cohen-Adad",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "NeuroPoly Lab, Institute of Biomedical Engineering, Polytechnique Montreal, Montreal, QC, Canada."},
+              {"Affiliation": "Functional Neuroimaging Unit, CRIUGM, Université de Montréal, Montreal, QC, Canada."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Topologically preserving straightening of spinal cord MRI.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/jmri.25622"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 46,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Magn Reson Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1522-2586"
+        },
+        "Title": "Journal of magnetic resonance imaging : JMRI"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "MR image analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "NURBS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SCT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "deformation field"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "spinal cord"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "straightening"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 12
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28130805
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 18,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28130805,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/jmri.25622",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

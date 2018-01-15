@@ -1,0 +1,230 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This work presents a new on-line adaptive filter, which is based on a similarity analysis between standard electrode locations, in order to reduce artifacts and common interferences throughout electroencephalography (EEG) signals, but preserving the useful information. Standard deviation and Concordance Correlation Coefficient (CCC) between target electrodes and its correspondent neighbor electrodes are analyzed on sliding windows to select those neighbors that are highly correlated. Afterwards, a model based on CCC is applied to provide higher values of weight to those correlated electrodes with lower similarity to the target electrode. The approach was applied to brain computer-interfaces (BCIs) based on Canonical Correlation Analysis (CCA) to recognize 40 targets of steady-state visual evoked potential (SSVEP), providing an accuracy (ACC) of 86.44 ± 2.81%. In addition, also using this approach, features of low frequency were selected in the pre-processing stage of another BCI to recognize gait planning. In this case, the recognition was significantly ( p < 0.01 ) improved for most of the subjects ( A C C ≥ 74.79 % ) , when compared with other BCIs based on Common Spatial Pattern, Filter Bank-Common Spatial Pattern, and Riemannian Geometry."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Denis",
+            "LastName": "Delisle-Rodriguez",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Postgraduate Program in Electrical Engineering, Federal University of Espirito Santo, 29075-910 Vitoria, Brazil. delisle05@gmail.com."},
+              {"Affiliation": "Center of Medical Biophysics, University of Oriente, 90500 Santiago de Cuba, Cuba. delisle05@gmail.com."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ana Cecilia",
+            "LastName": "Villa-Parra",
+            "Initials": "AC",
+            "AffiliationInfo": [
+              {"Affiliation": "Postgraduate Program in Electrical Engineering, Federal University of Espirito Santo, 29075-910 Vitoria, Brazil. acvillap@ieee.org."},
+              {"Affiliation": "Biomedical Engineering Research Group GIIB, Universidad Politécnica Salesiana, 010105 Cuenca, Ecuador. acvillap@ieee.org."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Teodiano",
+            "LastName": "Bastos-Filho",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Postgraduate Program in Electrical Engineering, Federal University of Espirito Santo, 29075-910 Vitoria, Brazil. teodiano.bastos@ufes.br."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alberto",
+            "LastName": "López-Delis",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Center of Medical Biophysics, University of Oriente, 90500 Santiago de Cuba, Cuba. lopez.delis69@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anselmo",
+            "LastName": "Frizera-Neto",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Postgraduate Program in Electrical Engineering, Federal University of Espirito Santo, 29075-910 Vitoria, Brazil. frizera@ieee.org."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sridhar",
+            "LastName": "Krishnan",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computer Engineering, Ryerson University, Toronto, ON M5B 2K3, Canada. krishnan@ryerson.ca."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eduardo",
+            "LastName": "Rocon",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Centre for Automation and Robotics, CSIC-UPM, 28500 Madrid, Spain. e.rocon@csic.es."}
+          }
+        ]
+      },
+      "ArticleTitle": "Adaptive Spatial Filter Based on Similarity Indices to Preserve the Neural Information on EEG Signals during On-Line Processing.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2725"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17122725"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "EEG"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "EOG"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Laplacian"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "SSVEP"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "artifact reduction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "brain-computer interface"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "feature selection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "gait planning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "spatial filter"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29186848
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186848,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17122725",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17122725",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

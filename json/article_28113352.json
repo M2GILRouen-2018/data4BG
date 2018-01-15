@@ -1,0 +1,114 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101616214,
+      "Country": "United States",
+      "ISSNLinking": "2162-237X",
+      "MedlineTA": "IEEE Trans Neural Netw Learn Syst"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper proposes the multicolumn RBF network (MCRN) as a method to improve the accuracy and speed of a traditional radial basis function network (RBFN). The RBFN, as a fully connected artificial neural network (ANN), suffers from costly kernel inner-product calculations due to the use of many instances as the centers of hidden units. This issue is not critical for small datasets, as adding more hidden units will not burden the computation time. However, for larger datasets, the RBFN requires many hidden units with several kernel computations to generalize the problem. The MCRN mechanism is constructed based on dividing a dataset into smaller subsets using the k-d tree algorithm. N resultant subsets are considered as separate training datasets to train $N$ individual RBFNs. Those small RBFNs are stacked in parallel and bulged into the MCRN structure during testing. The MCRN is considered as a well-developed and easy-to-use parallel structure, because each individual ANN has been trained on its own subsets and is completely separate from the other ANNs. This parallelized structure reduces the testing time compared with that of a single but larger RBFN, which cannot be easily parallelized due to its fully connected structure. Small informative subsets provide the MCRN with a regional experience to specify the problem instead of generalizing it. The MCRN has been tested on many benchmark datasets and has shown better accuracy and great improvements in training and testing times compared with a single RBFN. The MCRN also shows good results compared with those of some machine learning techniques, such as the support vector machine and k-nearest neighbors."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ammar O",
+            "LastName": "Hoori",
+            "Initials": "AO"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuichi",
+            "LastName": "Motai",
+            "Initials": "Y"
+          }
+        ]
+      },
+      "ArticleTitle": "Multicolumn RBF Network.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TNNLS.2017.2650865"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Neural Netw Learn Syst",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2162-2388"
+        },
+        "Title": "IEEE transactions on neural networks and learning systems"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113352
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113352,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TNNLS.2017.2650865",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

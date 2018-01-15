@@ -1,0 +1,629 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D010100",
+        "content": "Oxygen"
+      },
+      "RegistryNumber": "S88TT14065"
+    }},
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": 13
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1275-84"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "5R01 CA139043",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "EB015908",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA139043",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "P41 EB015908",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 CA142543",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NCRR NIH HHS",
+            "Country": "United States",
+            "GrantID": "S10 RR028011",
+            "Acronym": "RR"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "1P30 EB015908",
+            "Acronym": "EB"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE",
+          "content": "Radiation therapy is one of the most common treatments in the fight against prostate cancer, since it is used to control the tumor (early stages), to slow its progression, and even to control pain (metastasis). Although many factors (e.g., tumor oxygenation) are known to influence treatment efficacy, radiotherapy doses and fractionation schedules are often prescribed according to the principle \"one-fits-all,\" with little personalization. Therefore, the authors aim at predicting the outcome of radiation therapy a priori starting from morphologic and functional information to move a step forward in the treatment customization."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The authors propose a two-step protocol to predict the effects of radiation therapy on individual basis. First, one macroscopic mathematical model of tumor evolution was trained on tumor volume progression, measured by caliper, of eighteen Dunning R3327-AT1 bearing rats. Nine rats inhaled 100% O2 during irradiation (oxy), while the others were allowed to breathe air. Second, a supervised learning of the weight and biases of two feedforward neural networks was performed to predict the radio-sensitivity (target) from the initial volume and oxygenation-related information (inputs) for each rat group (air and oxygen breathing). To this purpose, four MRI-based indices related to blood and tissue oxygenation were computed, namely, the variation of signal intensity ΔSI in interleaved blood oxygen level dependent and tissue oxygen level dependent (IBT) sequences as well as changes in longitudinal ΔR1 and transverse ΔR2(*) relaxation rates."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "An inverse correlation of the radio-sensitivity parameter, assessed by the model, was found with respect the ΔR2(*) (-0.65) for the oxy group. A further subdivision according to positive and negative values of ΔR2(*) showed a larger average radio-sensitivity for the oxy rats with ΔR2(*)<0 and a significant difference in the two distributions (p < 0.05). Finally, a leave-one-out procedure yielded a radio-sensitivity error lower than 20% in both neural networks."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "While preliminary, these specific results suggest that subjects affected by the same pathology can benefit differently from the same irradiation modalities and support the usefulness of IBT in discriminating between different responses."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Antonella",
+            "LastName": "Belfatto",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Electronics, Information and Bioengineering, Politecnico di Milano University, Milan 20133, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Derek A",
+            "LastName": "White",
+            "Initials": "DA",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, The University of Texas Southwestern Medical Center, Dallas, Texas 75390."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ralph P",
+            "LastName": "Mason",
+            "Initials": "RP",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, The University of Texas Southwestern Medical Center, Dallas, Texas 75390."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhang",
+            "LastName": "Zhang",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, The University of Texas Southwestern Medical Center, Dallas, Texas 75390."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Strahinja",
+            "LastName": "Stojadinovic",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, The University of Texas Southwestern Medical Center, Dallas, Texas 75390."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guido",
+            "LastName": "Baroni",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Electronics, Information and Bioengineering, Politecnico di Milano University, Milan 20133, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pietro",
+            "LastName": "Cerveri",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Electronics, Information and Bioengineering, Politecnico di Milano University, Milan 20133, Italy."}
+          }
+        ]
+      },
+      "ArticleTitle": "Tumor radio-sensitivity assessment by means of volume data and magnetic resonance indices measured on prostate tumor bearing rats.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1118/1.4941746"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 43,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "03",
+      "Year": 2016,
+      "Day": "03"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D019583",
+        "MajorTopicYN": "N",
+        "content": "Dose Fractionation"
+      }},
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "N",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "N",
+        "content": "Neural Networks (Computer)"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D010100",
+          "MajorTopicYN": "N",
+          "content": "Oxygen"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "Y",
+            "content": "pathology"
+          },
+          {
+            "UI": "Q000532",
+            "MajorTopicYN": "N",
+            "content": "radiotherapy"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D011471",
+          "MajorTopicYN": "N",
+          "content": "Prostatic Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011836",
+        "MajorTopicYN": "Y",
+        "content": "Radiation Tolerance"
+      }},
+      {"DescriptorName": {
+        "UI": "D051381",
+        "MajorTopicYN": "N",
+        "content": "Rats"
+      }},
+      {"DescriptorName": {
+        "UI": "D047368",
+        "MajorTopicYN": "Y",
+        "content": "Tumor Burden"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2011 Jan 1;79(1):239-46",
+        "PMID": {
+          "Version": 1,
+          "content": 20934276
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 Jan;42(1):90-102",
+        "PMID": {
+          "Version": 1,
+          "content": 25563250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Semin Radiat Oncol. 2004 Jul;14(3):198-206",
+        "PMID": {
+          "Version": 1,
+          "content": 15254862
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biomed Eng. 2011 Aug 15;13:127-55",
+        "PMID": {
+          "Version": 1,
+          "content": 21529163
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2010 Jan;94(1):121-2; author reply 122-3",
+        "PMID": {
+          "Version": 1,
+          "content": 19892421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Biomed Comput. 1982 Jan;13(1):19-36",
+        "PMID": {
+          "Version": 1,
+          "content": 7061168
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Res. 2004 Jul;162(1):71-83",
+        "PMID": {
+          "Version": 1,
+          "content": 15222799
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE J Biomed Health Inform. 2016 Mar;20(2):596-605",
+        "PMID": {
+          "Version": 1,
+          "content": 25647734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Cancer Res. 2012 Apr 1;18(7):2108-14",
+        "PMID": {
+          "Version": 1,
+          "content": 22465832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2014 May;71(5):1863-73",
+        "PMID": {
+          "Version": 1,
+          "content": 23813468
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Res. 1998 Oct;150(4):423-30",
+        "PMID": {
+          "Version": 1,
+          "content": 9768856
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Radiol. 1989 Aug;62(740):679-94",
+        "PMID": {
+          "Version": 1,
+          "content": 2670032
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Technol Cancer Res Treat. 2016 Feb;15(1):146-58",
+        "PMID": {
+          "Version": 1,
+          "content": 25759423
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2004 Mar 1;58(3):750-7",
+        "PMID": {
+          "Version": 1,
+          "content": 14967430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2010 Nov 15;78(4):1193-200",
+        "PMID": {
+          "Version": 1,
+          "content": 20813466
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2010 Jan 15;70(2):463-70",
+        "PMID": {
+          "Version": 1,
+          "content": 20068180
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 Jun;42(6):2753-6",
+        "PMID": {
+          "Version": 1,
+          "content": 26127027
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Cancer Res. 2009 Mar 1;15(5):1721-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19240176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2012 Jan;35(1):20-31",
+        "PMID": {
+          "Version": 1,
+          "content": 22174000
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Urology. 2002 Oct;60(4):634-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12385924
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Prolif. 1994 Feb;27(2):73-94",
+        "PMID": {
+          "Version": 1,
+          "content": 10465028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2011 Jan;98 (1):109-16",
+        "PMID": {
+          "Version": 1,
+          "content": 21056487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Pharm Des. 2014;20(30):4934-40",
+        "PMID": {
+          "Version": 1,
+          "content": 24283955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiat Res. 2003 May;159(5):621-31",
+        "PMID": {
+          "Version": 1,
+          "content": 12710873
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Clin Oncol. 2013 Jan;10(1):27-40",
+        "PMID": {
+          "Version": 1,
+          "content": 23165123
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2013 Jul;70(1):136-46",
+        "PMID": {
+          "Version": 1,
+          "content": 22926895
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2015 Jun;115(3):327-34",
+        "PMID": {
+          "Version": 1,
+          "content": 26058991
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 1998 Apr 1;41(1):151-9",
+        "PMID": {
+          "Version": 1,
+          "content": 9588930
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Res. 2013 Apr 15;73(8):2407-11",
+        "PMID": {
+          "Version": 1,
+          "content": 23393201
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Oncol. 2014 Aug;53(8):1035-40",
+        "PMID": {
+          "Version": 1,
+          "content": 24957551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2004 Apr;19(4):482-8",
+        "PMID": {
+          "Version": 1,
+          "content": 15065173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2002 Dec;48(6):980-6",
+        "PMID": {
+          "Version": 1,
+          "content": 12465107
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Radiol. 2006 Nov;79(947):905-11",
+        "PMID": {
+          "Version": 1,
+          "content": 16885177
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2007 Mar 15;67(4):1179-86",
+        "PMID": {
+          "Version": 1,
+          "content": 17336219
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 1993;11(7):1007-17",
+        "PMID": {
+          "Version": 1,
+          "content": 8231664
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2001 Mar 15;49(4):1171-82",
+        "PMID": {
+          "Version": 1,
+          "content": 11240261
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2009 Aug;62(2):357-64",
+        "PMID": {
+          "Version": 1,
+          "content": 19526495
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26936712
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 3,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 4,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 3,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 5,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26936712,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1118/1.4941746",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5148178",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

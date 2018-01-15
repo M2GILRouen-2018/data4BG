@@ -1,0 +1,412 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D000596",
+        "content": "Amino Acids"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "137-148"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 CA022453",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 ES020957",
+            "Acronym": "ES"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 CA151557",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIH HHS",
+            "Country": "United States",
+            "GrantID": "S10 OD010700",
+            "Acronym": "OD"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D023361",
+          "content": "Validation Studies"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Stable isotope labeling by amino acids in cell culture (SILAC) is a practical and powerful approach for quantitative proteomic analysis. A key advantage of SILAC is the ability to simultaneously detect the isotopically labeled peptides in a single instrument run and so guarantee relative quantitation for a large number of peptides without introducing any variation caused by separate experiment. However, there are a few approaches available to assessing protein ratios and none of the existing algorithms pays considerable attention to the proteins having only one peptide hit."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We introduce new quantitative approaches to dealing with SILAC protein-level summary using classification-based methodologies, such as Gaussian mixture models with EM algorithms and its Bayesian approach as well as K-means clustering. In addition, a new approach is developed using Gaussian mixture model and a stochastic, metaheuristic global optimization algorithm, particle swarm optimization (PSO), to avoid either a premature convergence or being stuck in a local optimum."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Our simulation studies show that the newly developed PSO-based method performs the best among others in terms of F1 score and the proposed methods further demonstrate the ability of detecting potential markers through real SILAC experimental data."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "No matter how many peptide hits the protein has, the developed approach can be applicable, rescuing many proteins doomed to removal. Furthermore, no additional correction for multiple comparisons is necessary for the developed methods, enabling direct interpretation of the analysis outcomes."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seongho",
+            "LastName": "Kim",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Biostatistics Core, Karmanos Cancer Institute, Wayne State University, Detroit, MI 48201, USA; Department of Oncology, Wayne State University, Detroit, MI 48201, USA. Electronic address: kimse@karmanos.org."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicholas",
+            "LastName": "Carruthers",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Proteomics Core, Karmanos Cancer Institute, Wayne State University, Detroit, MI 48201, USA; Institute of Environmental Health Sciences, Wayne State University, Detroit, MI 48201, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joohyoung",
+            "LastName": "Lee",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Biostatistics Core, Karmanos Cancer Institute, Wayne State University, Detroit, MI 48201, USA; Department of Family Medicine and Public Health Sciences, Wayne State University, Detroit, MI 48201, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sreenivasa",
+            "LastName": "Chinni",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Urology, School of Medicine, Wayne State University, Detroit, MI 48201, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul",
+            "LastName": "Stemmer",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Proteomics Core, Karmanos Cancer Institute, Wayne State University, Detroit, MI 48201, USA; Institute of Environmental Health Sciences, Wayne State University, Detroit, MI 48201, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Classification-based quantitative analysis of stable isotope labeling by amino acids in cell culture (SILAC) data.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30136-5"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.09.017"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "Y",
+          "content": "Classification"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Mass spectrometry"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Particle swarm optimization"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "Proteomics"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "SILAC"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000737",
+          "MajorTopicYN": "Y",
+          "content": "chemistry"
+        },
+        "DescriptorName": {
+          "UI": "D000596",
+          "MajorTopicYN": "N",
+          "content": "Amino Acids"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D018929",
+        "MajorTopicYN": "N",
+        "content": "Cell Culture Techniques"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007553",
+        "MajorTopicYN": "Y",
+        "content": "Isotope Labeling"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2012;13 Suppl 16:S12",
+        "PMID": {
+          "Version": 1,
+          "content": 23176165
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2015 Aug;15(15):2580-91",
+        "PMID": {
+          "Version": 1,
+          "content": 25913743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Urol Oncol. 2014 Jan;32(1):25.e1-12",
+        "PMID": {
+          "Version": 1,
+          "content": 23410945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2002 May;1(5):376-86",
+        "PMID": {
+          "Version": 1,
+          "content": 12118079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Proteome Res. 2014 Sep 5;13(9):4184-91",
+        "PMID": {
+          "Version": 1,
+          "content": 25058807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Chem. 2012 May 15;84(10):4535-43",
+        "PMID": {
+          "Version": 1,
+          "content": 22519468
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2008 Dec;26(12):1367-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19029910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009 Oct 14;4(10):e7454",
+        "PMID": {
+          "Version": 1,
+          "content": 19829701
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2010 Mar;10(6):1150-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20101611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2006;1(6):2650-60",
+        "PMID": {
+          "Version": 1,
+          "content": 17406521
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2001 Oct;19(10):946-51",
+        "PMID": {
+          "Version": 1,
+          "content": 11581660
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Epidemiol Biomarkers Prev. 2004 Mar;13(3):383-90",
+        "PMID": {
+          "Version": 1,
+          "content": 15006913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2006 Dec;7(12 ):952-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17139335
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28110720
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2016,
+        "Day": 16,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": "02",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110720,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30136-5",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.09.017",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5260509",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS818024",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

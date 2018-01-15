@@ -1,0 +1,184 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1681-1688"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIGMS NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 GM081871",
+          "Acronym": "GM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "Protein complexes are one of the keys to studying the behavior of a cell system. Many biological functions are carried out by protein complexes. During the past decade, the main strategy used to identify protein complexes from high-throughput network data has been to extract near-cliques or highly dense subgraphs from a single protein-protein interaction (PPI) network. Although experimental PPI data have increased significantly over recent years, most PPI networks still have many false positive interactions and false negative edge loss due to the limitations of high-throughput experiments. In particular, the false negative errors restrict the search space of such conventional protein complex identification approaches. Thus, it has become one of the most challenging tasks in systems biology to automatically identify protein complexes."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "In this study, we propose a new algorithm, NEOComplex ( NE CC- and O rtholog-based Complex identification by multiple network alignment), which integrates functional orthology information that can be obtained from different types of multiple network alignment (MNA) approaches to expand the search space of protein complex detection. As part of our approach, we also define a new edge clustering coefficient (NECC) to assign weights to interaction edges in PPI networks so that protein complexes can be identified more accurately. The NECC is based on the intuition that there is functional information captured in the common neighbors of the common neighbors as well. Our results show that our algorithm outperforms well-known protein complex identification tools in a balance between precision and recall on three eukaryotic species: human, yeast, and fly. As a result of MNAs of the species, the proposed approach can tolerate edge loss in PPI networks and even discover sparse protein complexes which have traditionally been a challenge to predict."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability and Implementation",
+          "content": "http://acolab.ie.nthu.edu.tw/bionetwork/NEOComplex."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "bab@csail.mit.edu or csliao@ie.nthu.edu.tw."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cheng-Yu",
+            "LastName": "Ma",
+            "Initials": "CY",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computer Science, National Tsing Hua University, Hsinchu, Taiwan."},
+              {"Affiliation": "Department of Computer Science and Computer Engineering, La Trobe University, Melbourne, Vic. 3086, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yi-Ping Phoebe",
+            "LastName": "Chen",
+            "Initials": "YP",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Computer Engineering, La Trobe University, Melbourne, Vic. 3086, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bonnie",
+            "LastName": "Berger",
+            "Initials": "B",
+            "AffiliationInfo": [
+              {"Affiliation": "Computer Science and Artificial Intelligence Laboratory."},
+              {"Affiliation": "Department of Mathematics and Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chung-Shou",
+            "LastName": "Liao",
+            "Initials": "CS",
+            "AffiliationInfo": {"Affiliation": "Department of Industrial Engineering and Engineering Management, National Tsing Hua University, Hsinchu, Taiwan."}
+          }
+        ]
+      },
+      "ArticleTitle": "Identification of protein complexes by integrating multiple alignment of protein interaction networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx043"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 33,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28130237
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28130237,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btx043",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx043",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

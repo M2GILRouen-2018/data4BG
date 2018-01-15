@@ -1,0 +1,216 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7704869,
+      "Country": "United States",
+      "ISSNLinking": "0140-0118",
+      "MedlineTA": "Med Biol Eng Comput"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL094315",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NCRR NIH HHS",
+            "Country": "United States",
+            "GrantID": "S10 RR022421",
+            "Acronym": "RR"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 HL114494",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Quantitative computed tomography (QCT) of the lungs plays an increasing role in identifying sub-phenotypes of pathologies previously lumped into broad categories such as chronic obstructive pulmonary disease and asthma. Methods for image matching and linking multiple lung volumes have proven useful in linking structure to function and in the identification of regional longitudinal changes. Here, we seek to improve the accuracy of image matching via the use of a symmetric multi-level non-rigid registration employing an inverse consistent (IC) transformation whereby images are registered both in the forward and reverse directions. To develop the symmetric method, two similarity measures, the sum of squared intensity difference (SSD) and the sum of squared tissue volume difference (SSTVD), were used. The method is based on a novel generic mathematical framework to include forward and backward transformations, simultaneously, eliminating the need to compute the inverse transformation. Two implementations were used to assess the proposed method: a two-dimensional (2-D) implementation using synthetic examples with SSD, and a multi-core CPU and graphics processing unit (GPU) implementation with SSTVD for three-dimensional (3-D) human lung datasets (six normal adults studied at total lung capacity (TLC) and functional residual capacity (FRC)). Success was evaluated in terms of the IC transformation consistency serving to link TLC to FRC. 2-D registration on synthetic images, using both symmetric and non-symmetric SSD methods, and comparison of displacement fields showed that the symmetric method gave a symmetrical grid shape and reduced IC errors, with the mean values of IC errors decreased by 37%. Results for both symmetric and non-symmetric transformations of human datasets showed that the symmetric method gave better results for IC errors in all cases, with mean values of IC errors for the symmetric method lower than the non-symmetric methods using both SSD and SSTVD. The GPU version demonstrated an average of 43 times speedup and ~5.2 times speedup over the single-threaded and 12-threaded CPU versions, respectively. Run times with the GPU were as fast as 2 min. The symmetric method improved the inverse consistency, aiding the use of image registration in the QCT-based evaluation of the lung."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Babak",
+            "LastName": "Haghighi",
+            "Initials": "B",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mechanical and Industrial Engineering, The University of Iowa, Iowa City, IO, 52242, USA."},
+              {"Affiliation": "IIHR-Hydroscience & Engineering, The University of Iowa, Iowa City, IO, 52242, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nathan",
+            "LastName": "D Ellingwood",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "IIHR-Hydroscience & Engineering, The University of Iowa, Iowa City, IO, 52242, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Youbing",
+            "LastName": "Yin",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Mechanical and Industrial Engineering, The University of Iowa, Iowa City, IO, 52242, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric A",
+            "LastName": "Hoffman",
+            "Initials": "EA",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biomedical Engineering, The University of Iowa, Iowa City, IO, 52242, USA."},
+              {"Affiliation": "Department of Internal Medicine, The University of Iowa, Iowa City, IO, 52242, USA."},
+              {"Affiliation": "Department of Radiology, The University of Iowa, Iowa City, IO, 52242, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ching-Long",
+            "LastName": "Lin",
+            "Initials": "CL",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mechanical and Industrial Engineering, The University of Iowa, Iowa City, IO, 52242, USA. ching-long-lin@uiowa.edu."},
+              {"Affiliation": "IIHR-Hydroscience & Engineering, The University of Iowa, Iowa City, IO, 52242, USA. ching-long-lin@uiowa.edu."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "A GPU-based symmetric non-rigid image registration method in human lung.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s11517-017-1690-2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Biol Eng Comput",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1741-0444"
+        },
+        "Title": "Medical & biological engineering & computing"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "GPU"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Inverse consistency error"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Lung"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Non-rigid registration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Symmetric similarity measure"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": "01"
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 12
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28762017
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 21,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28762017,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s11517-017-1690-2",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s11517-017-1690-2",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

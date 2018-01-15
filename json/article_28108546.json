@@ -1,0 +1,187 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9430800,
+      "Country": "England",
+      "ISSNLinking": "1067-5027",
+      "MedlineTA": "J Am Med Inform Assoc"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "709-716"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Objective",
+          "content": "Every year, thousands of patients die waiting for disability benefits from the Social Security Administration. Some qualify for expedited service under the Compassionate Allowance (CAL) initiative, but CAL software focuses exclusively on information from a single form field. This paper describes the development of a supplemental process for identifying some overlooked but gravely ill applicants, through automatic annotation of health records accompanying new claims. We explore improved prioritization instead of fully autonomous claims approval."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Materials and Methods",
+          "content": "We developed a sample of claims containing medical records at the moment of arrival in a single office. A series of tools annotated both patient records and public Web page descriptions of CAL medical conditions. We trained random forests to identify CAL patients and validated each model with 10-fold cross validation."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "Our main model, a general CAL classifier, had an area under the receiver operating characteristic curve of 0.915. Combining this classifier with existing software improved sensitivity from 0.960 to 0.994, detecting every deceased patient, but reducing positive predictive value to 0.216."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Discussion",
+          "content": "True positive CAL identification is a priority, given CAL patient mortality. Mere prioritization of the false positives would not create a meaningful burden in terms of manual review. Death certificate data suggest the presence of truly ill patients among putative false positives."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Conclusion",
+          "content": "To a limited extent, it is possible to identify gravely ill Social Security disability applicants by analyzing annotations of unstructured electronic health records, and the level of identification is sufficient to be useful in prioritizing case reviews."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kenneth",
+            "LastName": "Abbott",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Minnesota Disability Determination Services, Saint Paul, Minnesota, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yen-Yi",
+            "LastName": "Ho",
+            "Initials": "YY",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, College of Arts and Sciences, University of South Carolina, Columbia, SC, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jennifer",
+            "LastName": "Erickson",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Minnesota Disability Determination Services, Saint Paul, Minnesota, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic health record review to help prioritize gravely ill Social Security disability applicants.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/jamia/ocw159"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 24,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Am Med Inform Assoc",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1527-974X"
+        },
+        "Title": "Journal of the American Medical Informatics Association : JAMIA"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Social Security"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "disability"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "government"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "health records"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "natural language processing"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28108546
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28108546,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "ocw159",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/jamia/ocw159",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

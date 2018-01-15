@@ -1,0 +1,453 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 20
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0182438"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHGRI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HG006292",
+            "Acronym": "HG"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL129132",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR001111",
+            "Acronym": "TR"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In the current precision medicine era, more and more samples get genotyped and sequenced. Both researchers and commercial companies expend significant time and resources to reduce the error rate. However, it has been reported that there is a sample mix-up rate of between 0.1% and 1%, not to mention the possibly higher mix-up rate during the down-stream genetic reporting processes. Even on the low end of this estimate, this translates to a significant number of mislabeled samples, especially over the projected one billion people that will be sequenced within the next decade. Here, we first describe a method to identify a small set of Single nucleotide polymorphisms (SNPs) that can uniquely identify a personal genome, which utilizes allele frequencies of five major continental populations reported in the 1000 genomes project and the ExAC Consortium. To make this panel more informative, we added four SNPs that are commonly used to predict ABO blood type, and another two SNPs that are capable of predicting sex. We then implement a web interface (http://qrcme.tech), nicknamed QRC (for QR code based Concordance check), which is capable of extracting the relevant ID SNPs from a raw genetic data, coding its genotype as a quick response (QR) code, and comparing QR codes to report the concordance of underlying genetic datasets. The resulting 80 fingerprinting SNPs represent a significant decrease in complexity and the number of markers used for genetic data labelling and tracking. Our method and web tool is easily accessible to both researchers and the general public who consider the accuracy of complex genetic data as a prerequisite towards precision medicine."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yonghong",
+            "LastName": "Du",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Statistics, Beijing Normal University, Beijing, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joshua S",
+            "LastName": "Martin",
+            "Initials": "JS",
+            "AffiliationInfo": {"Affiliation": "Department of Genetics, University of North Carolina Chapel Hill, Chapel Hill, North Carolina, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John",
+            "LastName": "McGee",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "NC Translational and Clinical Sciences Institute, University of North Carolina Chapel Hill, Chapel Hill, North Carolina, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuchen",
+            "LastName": "Yang",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Genetics, University of North Carolina Chapel Hill, Chapel Hill, North Carolina, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric Yi",
+            "LastName": "Liu",
+            "Initials": "EY",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of North Carolina Chapel Hill, Chapel Hill, North Carolina, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yingrui",
+            "LastName": "Sun",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematics & Statistics, Boston University, Boston, Massachusetts, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthias",
+            "LastName": "Geihs",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, Technische Universität Darmstadt, Darmstadt, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xuejun",
+            "LastName": "Kong",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Beth Israel Deaconess Medical Center, Boston, Massachusetts, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric Lingfeng",
+            "LastName": "Zhou",
+            "Initials": "EL",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of North Carolina Chapel Hill, Chapel Hill, North Carolina, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yun",
+            "LastName": "Li",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Genetics, University of North Carolina Chapel Hill, Chapel Hill, North Carolina, United States of America."},
+              {"Affiliation": "Department of Computer Science, University of North Carolina Chapel Hill, Chapel Hill, North Carolina, United States of America."},
+              {"Affiliation": "Department of Biostatistics, University of North Carolina Chapel Hill, Chapel Hill, North Carolina, United States of America."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-9441-4698"
+            },
+            "ForeName": "Jie",
+            "LastName": "Huang",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "Boston VA Research Institute, Boston, Massachusetts, United States of America."},
+              {"Affiliation": "Brigham Women's Hospital Division of Aging, Harvard Medical School, Boston, Massachusetts, United States of America."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "A SNP panel and online tool for checking genotype concordance through comparing QR codes.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0182438"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D005787",
+        "MajorTopicYN": "N",
+        "content": "Gene Frequency"
+      }},
+      {"DescriptorName": {
+        "UI": "D015894",
+        "MajorTopicYN": "N",
+        "content": "Genome, Human"
+      }},
+      {"DescriptorName": {
+        "UI": "D005838",
+        "MajorTopicYN": "N",
+        "content": "Genotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D020407",
+        "MajorTopicYN": "N",
+        "content": "Internet"
+      }},
+      {"DescriptorName": {
+        "UI": "D020641",
+        "MajorTopicYN": "Y",
+        "content": "Polymorphism, Single Nucleotide"
+      }},
+      {"DescriptorName": {
+        "UI": "D014584",
+        "MajorTopicYN": "Y",
+        "content": "User-Computer Interface"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Oct 1;526(7571):68-74",
+        "PMID": {
+          "Version": 1,
+          "content": 26432245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 2005 Dec;34(6):1243-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16131516
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2015 Jun 4;372(23 ):2235-42",
+        "PMID": {
+          "Version": 1,
+          "content": 26014595
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2015 Aug;200(4):1051-60",
+        "PMID": {
+          "Version": 1,
+          "content": 26092718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Protoc Hum Genet. 2011 Jan;Chapter 1:Unit1.19",
+        "PMID": {
+          "Version": 1,
+          "content": 21234875
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 May 15;5:10247",
+        "PMID": {
+          "Version": 1,
+          "content": 25975447
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1990 May 17;345(6272):229-33",
+        "PMID": {
+          "Version": 1,
+          "content": 2333095
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Epidemiol. 2016 Feb;70:214-23",
+        "PMID": {
+          "Version": 1,
+          "content": 26441289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Legal Med. 2017 Feb 27;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28243773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2016 Jul;39(7):1080-4",
+        "PMID": {
+          "Version": 1,
+          "content": 27289128
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Legal Med. 2016 Jan;130(1):81-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26297200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jun;40(11):4774-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22362730
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2016 Aug 17;536(7616):285-91",
+        "PMID": {
+          "Version": 1,
+          "content": 27535533
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Legal Med. 2010 Mar;124(2):125-31",
+        "PMID": {
+          "Version": 1,
+          "content": 19921517
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2015 Mar 31;12 (3):e1001779",
+        "PMID": {
+          "Version": 1,
+          "content": 25826379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Proc. 2009 Dec 15;3 Suppl 7:S57",
+        "PMID": {
+          "Version": 1,
+          "content": 20018050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Sep;81(3):559-75",
+        "PMID": {
+          "Version": 1,
+          "content": 17701901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Nov 5;527(7576):S2-4",
+        "PMID": {
+          "Version": 1,
+          "content": 26536222
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunohematology. 2009;25(2):48-59",
+        "PMID": {
+          "Version": 1,
+          "content": 19927620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 1992 Aug 31;187(1):366-74",
+        "PMID": {
+          "Version": 1,
+          "content": 1520322
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(5):e35146",
+        "PMID": {
+          "Version": 1,
+          "content": 22574113
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genet. 2010 Mar;127(3):315-24",
+        "PMID": {
+          "Version": 1,
+          "content": 19937056
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28926565
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28926565,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0182438",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-10519",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5604942",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

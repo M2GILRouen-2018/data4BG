@@ -1,0 +1,217 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e230-e241"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Low-dose CT (LDCT) technique can reduce the x-ray radiation exposure to patients at the cost of degraded images with severe noise and artifacts. Non-local means (NLM) filtering has shown its potential in improving LDCT image quality. However, currently most NLM-based approaches employ a weighted average operation directly on all neighbor pixels with a fixed filtering parameter throughout the NLM filtering process, ignoring the non-stationary noise nature of LDCT images. In this paper, an adaptive NLM filtering scheme on local principle neighborhoods (PC-NLM) is proposed for structure-preserving noise/artifacts reduction in LDCT images."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Instead of using neighboring patches directly, in the PC-NLM scheme, the principle component analysis (PCA) is first applied on local neighboring patches of the target patch to decompose the local patches into uncorrelated principle components (PCs), then a NLM filtering is used to regularize each PC of the target patch and finally the regularized components is transformed to get the target patch in image domain. Especially, in the NLM scheme, the filtering parameter is estimated adaptively from local noise level of the neighborhood as well as the signal-to-noise ratio (SNR) of the corresponding PC, which guarantees a \"weaker\" NLM filtering on PCs with higher SNR and a \"stronger\" filtering on PCs with lower SNR. The PC-NLM procedure is iteratively performed several times for better removal of the noise and artifacts, and an adaptive iteration strategy is developed to reduce the computational load by determining whether a patch should be processed or not in next round of the PC-NLM filtering."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The effectiveness of the presented PC-NLM algorithm is validated by experimental phantom studies and clinical studies. The results show that it can achieve promising gain over some state-of-the-art methods in terms of artifact suppression and structure preservation."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "With the use of PCA on local neighborhoods to extract principal structural components, as well as adaptive NLM filtering on PCs of the target patch using filtering parameter estimated based on the local noise level and corresponding SNR, the proposed PC-NLM method shows its efficacy in preserving fine anatomical structures and suppressing noise/artifacts in LDCT images."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuanke",
+            "LastName": "Zhang",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, Shaanxi, 710032, China."},
+              {"Affiliation": "School of Information Science and Engineering, Qufu Normal University, Rizhao, Shandong, 276826, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hongbing",
+            "LastName": "Lu",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, Shaanxi, 710032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Junyan",
+            "LastName": "Rong",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Fourth Military Medical University, Xi'an, Shaanxi, 710032, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jing",
+            "LastName": "Meng",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Information Science and Engineering, Qufu Normal University, Rizhao, Shandong, 276826, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Junliang",
+            "LastName": "Shang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Information Science and Engineering, Qufu Normal University, Rizhao, Shandong, 276826, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pinghong",
+            "LastName": "Ren",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "School of Information Science and Engineering, Qufu Normal University, Rizhao, Shandong, 276826, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Junying",
+            "LastName": "Zhang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science and Technology, Xidian University, Xi'an, Shaanxi, 710071, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Adaptive non-local means on local principle neighborhood for noise/artifacts reduction in low-dose CT images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12388"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "artifacts suppression"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "low-dose CT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "nonlocal means (NLM)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "parameter estimation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "principle component analysis (PCA)"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28901609
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28901609,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12388",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,262 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8310780,
+      "Country": "United States",
+      "ISSNLinking": "0278-0062",
+      "MedlineTA": "IEEE Trans Med Imaging"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "734-744"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "06"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this paper, we investigate the automatic detection of white and brown adipose tissues using Positron Emission Tomography/Computed Tomography (PET/CT) scans, and develop methods for the quantification of these tissues at the whole-body and body-region levels. We propose a patient-specific automatic adiposity analysis system with two modules. In the first module, we detect white adipose tissue (WAT) and its two sub-types from CT scans: Visceral Adipose Tissue (VAT) and Subcutaneous Adipose Tissue (SAT). This process relies conventionally on manual or semi-automated segmentation, leading to inefficient solutions. Our novel framework addresses this challenge by proposing an unsupervised learning method to separate VAT from SAT in the abdominal region for the clinical quantification of central obesity. This step is followed by a context driven label fusion algorithm through sparse 3D Conditional Random Fields (CRF) for volumetric adiposity analysis. In the second module, we automatically detect, segment, and quantify brown adipose tissue (BAT) using PET scans because unlike WAT, BAT is metabolically active. After identifying BAT regions using PET, we perform a co-segmentation procedure utilizing asymmetric complementary information from PET and CT. Finally, we present a new probabilistic distance metric for differentiating BAT from non-BAT regions. Both modules are integrated via an automatic body-region detection unit based on one-shot learning. Experimental evaluations conducted on 151 PET/CT scans achieve state-of-the-art performances in both central obesity as well as brown adiposity quantification."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sarfaraz",
+            "LastName": "Hussein",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aileen",
+            "LastName": "Green",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arjun",
+            "LastName": "Watane",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Reiter",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xinjian",
+            "LastName": "Chen",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Georgios Z",
+            "LastName": "Papadakis",
+            "Initials": "GZ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bradford",
+            "LastName": "Wood",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aaron",
+            "LastName": "Cypess",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Medhat",
+            "LastName": "Osman",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ulas",
+            "LastName": "Bagci",
+            "Initials": "U"
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic Segmentation and Quantification of White and Brown Adipose Tissues from PET/CT Scans.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TMI.2016.2636188"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 36,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Med Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-254X"
+        },
+        "Title": "IEEE transactions on medical imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D002001",
+          "MajorTopicYN": "N",
+          "content": "Adipose Tissue, Brown"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D052436",
+          "MajorTopicYN": "N",
+          "content": "Adipose Tissue, White"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D000072078",
+          "MajorTopicYN": "N",
+          "content": "Positron Emission Tomography Computed Tomography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D051598",
+          "MajorTopicYN": "N",
+          "content": "Whole Body Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D055815",
+        "MajorTopicYN": "N",
+        "content": "Young Adult"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114010
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114010,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TMI.2016.2636188",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

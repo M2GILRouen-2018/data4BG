@@ -1,0 +1,555 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8806104,
+      "Country": "United States",
+      "ISSNLinking": "0895-6111",
+      "MedlineTA": "Comput Med Imaging Graph"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2012,
+      "Day": 17
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1-10"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL092044",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL106545",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL106545-01",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL06545",
+            "Acronym": "HL"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2011,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2011 Elsevier Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "RATIONAL AND OBJECTIVES",
+            "content": "To evaluate our prototype method for segmentation and tracking of the coronary arterial tree, which is the foundation for a computer-aided detection (CADe) system to be developed to assist radiologists in detecting non-calcified plaques in coronary CT angiography (cCTA) scans."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "MATERIALS AND METHODS",
+            "content": "The heart region was first extracted by a morphological operation and an adaptive thresholding method based on expectation-maximization (EM) estimation. The vascular structures within the heart region were enhanced and segmented using a multiscale coronary response (MSCAR) method that combined 3D multiscale filtering, analysis of the eigenvalues of Hessian matrices and EM estimation segmentation. After the segmentation of vascular structures, the coronary arteries were tracked by a 3D dynamic balloon tracking (DBT) method. The DBT method started at two manually identified seed points located at the origins of the left and right coronary arteries (LCA and RCA) for extraction of the arterial trees. The coronary arterial trees of a data set containing 20 ECG-gated contrast-enhanced cCTA scans were extracted by our MSCAR-DBT method and a clinical GE Advantage workstation. Two experienced thoracic radiologists visually examined the coronary arteries on the original cCTA scans and the rendered volume of segmented vessels to count the untracked false-negative (FN) segments and false positives (FPs) for both methods."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "For the visible coronary arterial segments in the 20 cases, the radiologists identified that 25 segments were missed by our MSCAR-DBT method, ranging from 0 to 5 FN segments in individual cases, and that 55 artery segments were missed by the GE software, ranging from 0 to 7 FN segments in individual cases. 19 and 15 FPs were identified in our and the GE coronary trees, ranging from 0 to 4 FPs for both methods in individual cases, respectively."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The preliminary study demonstrates the feasibility of our MSCAR-DBT method for segmentation and tracking coronary artery trees. The results indicated that both our method and GE software can extract coronary artery trees reasonably well and the performance of our method is superior to that of GE software in this small data set. Further studies are underway to develop methods for improvement of the segmentation and tracking accuracy."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chuan",
+            "LastName": "Zhou",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Michigan, Ann Arbor 48109, USA. chuan@umich.edu"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Heang-Ping",
+            "LastName": "Chan",
+            "Initials": "HP"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aamer",
+            "LastName": "Chughtai",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Smita",
+            "LastName": "Patel",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lubomir M",
+            "LastName": "Hadjiiski",
+            "Initials": "LM"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jun",
+            "LastName": "Wei",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ella A",
+            "LastName": "Kazerooni",
+            "Initials": "EA"
+          }
+        ]
+      },
+      "ArticleTitle": "Automated coronary artery tree extraction in coronary CT angiography using a multiscale enhancement and dynamic balloon tracking (MSCAR-DBT) method.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1016/j.compmedimag.2011.04.001"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 36,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2012
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Med Imaging Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1879-0771"
+        },
+        "Title": "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2011,
+      "Day": 19
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D002114",
+          "MajorTopicYN": "N",
+          "content": "Calcinosis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006328",
+        "MajorTopicYN": "N",
+        "content": "Cardiac Catheterization"
+      }},
+      {"DescriptorName": {
+        "UI": "D002404",
+        "MajorTopicYN": "N",
+        "content": "Catheterization"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 1998 Mar;206(3):823-9",
+        "PMID": {
+          "Version": 1,
+          "content": 9494508
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2009 Jan 27;119(3):e21-181",
+        "PMID": {
+          "Version": 1,
+          "content": 19075105
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1975 Apr;51(4 Suppl):5-40",
+        "PMID": {
+          "Version": 1,
+          "content": 1116248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Screen. 1999;6(3):152-8",
+        "PMID": {
+          "Version": 1,
+          "content": 10572847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2003 Aug;30(8):2040-51",
+        "PMID": {
+          "Version": 1,
+          "content": 12945970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2002 Feb;21(2):61-75",
+        "PMID": {
+          "Version": 1,
+          "content": 11929106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2001 Sep;5(3):195-206",
+        "PMID": {
+          "Version": 1,
+          "content": 11524226
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2007 Sep 18;50(12):1161-70",
+        "PMID": {
+          "Version": 1,
+          "content": 17868808
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1996;15(1):51-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18215888
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2007 Dec;34(12):4567-77",
+        "PMID": {
+          "Version": 1,
+          "content": 18196782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Assist Tomogr. 2001 Jul-Aug;25(4):587-97",
+        "PMID": {
+          "Version": 1,
+          "content": 11473191
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1996;15(3):377-85",
+        "PMID": {
+          "Version": 1,
+          "content": 18215918
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 1998 Mar-Apr;22(2):157-67",
+        "PMID": {
+          "Version": 1,
+          "content": 9719856
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 1998 Jun;2(2):143-68",
+        "PMID": {
+          "Version": 1,
+          "content": 10646760
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Cardiol. 2006 Jan 15;97(2):173-4",
+        "PMID": {
+          "Version": 1,
+          "content": 16442357
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2006 Oct 17;114(16):1761-91",
+        "PMID": {
+          "Version": 1,
+          "content": 17015792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2006 Jul 26;296(4):403-11",
+        "PMID": {
+          "Version": 1,
+          "content": 16868298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2009 Dec;36(12):5568-79",
+        "PMID": {
+          "Version": 1,
+          "content": 20095269
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2008 Nov 18;52(21):1724-32",
+        "PMID": {
+          "Version": 1,
+          "content": 19007693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2009 Oct;13(5):701-14",
+        "PMID": {
+          "Version": 1,
+          "content": 19632885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2000 Jun;4(2):73-91",
+        "PMID": {
+          "Version": 1,
+          "content": 10972323
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS292828"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC3175011"
+      }
+    ],
+    "PMID": {
+      "Version": 1,
+      "content": 21601422
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2010,
+        "Day": 16,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2011,
+        "Day": "01",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "04",
+        "Year": 2011,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 5,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 21601422,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0895-6111(11)00061-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.compmedimag.2011.04.001",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3175011",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS292828",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

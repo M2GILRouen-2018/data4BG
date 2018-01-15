@@ -1,0 +1,146 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9891704,
+      "Country": "United States",
+      "ISSNLinking": "1077-2626",
+      "MedlineTA": "IEEE Trans Vis Comput Graph"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "2042-2055"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Non-rigid registration finds many applications such as photogrammetry, motion tracking, model retrieval, and object recognition. In this paper we propose a novel convex hull aided registration method (CHARM) to match two point sets subject to a non-rigid transformation. First, two convex hulls are extracted from the source and target respectively. Then, all points of the point sets are projected onto the reference plane through each triangular facet of the hulls. From these projections, invariant features are extracted and matched optimally. The matched feature point pairs are mapped back onto the triangular facets of the convex hulls to remove outliers that are outside any relevant triangular facet. The rigid transformation from the source to the target is robustly estimated by the random sample consensus (RANSAC) scheme through minimizing the distance between the matched feature point pairs. Finally, these feature points are utilized as the control points to achieve non-rigid deformation in the form of thin-plate spline of the entire source point set towards the target one. The experimental results based on both synthetic and real data show that the proposed algorithm outperforms several state-of-the-art ones with respect to sampling, rotational angle, and data noise. In addition, the proposed CHARM algorithm also shows higher computational efficiency compared to these methods."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jingfan",
+            "LastName": "Fan",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jian",
+            "LastName": "Yang",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yitian",
+            "LastName": "Zhao",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Danni",
+            "LastName": "Ai",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yonghuai",
+            "LastName": "Liu",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ge",
+            "LastName": "Wang",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yongtian",
+            "LastName": "Wang",
+            "Initials": "Y"
+          }
+        ]
+      },
+      "ArticleTitle": "Convex Hull Aided Registration Method (CHARM).",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TVCG.2016.2602858"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 23,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Vis Comput Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0506"
+        },
+        "Title": "IEEE transactions on visualization and computer graphics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": "05"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113589
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113589,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TVCG.2016.2602858",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

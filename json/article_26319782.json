@@ -1,0 +1,872 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101532965,
+      "Country": "United States",
+      "ISSNLinking": "1949-2553",
+      "MedlineTA": "Oncotarget"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "CONFLICTS OF INTEREST The authors declare no conflicts of interest.",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 25
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "58494-58503"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Recommended by the World Health Organization (WHO), drug compounds have been classified into 14 main ATC (Anatomical Therapeutic Chemical) classes according to their therapeutic and chemical characteristics. Given an uncharacterized compound, can we develop a computational method to fast identify which ATC class or classes it belongs to? The information thus obtained will timely help adjusting our focus and selection, significantly speeding up the drug development process. But this problem is by no means an easy one since some drug compounds may belong to two or more than two ATC classes. To address this problem, using the DO (Drug Ontology) approach based on the ChEBI (Chemical Entities of Biological Interest) database, we developed a predictor called iATC-mDO. Subsequently, hybridizing it with an existing drug ATC classifier, we constructed a predictor called iATC-mHyb. It has been demonstrated by the rigorous cross-validation and from five different measuring angles that iATC-mHyb is remarkably superior to the best existing predictor in identifying the ATC classes for drug compounds. To convenience most experimental scientists, a user-friendly web-server for iATC-mHyd has been established at http://www.jci-bioinfo.cn/iATC-mHyb, by which users can easily get their desired results without the need to go through the complicated mathematical equations involved."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiang",
+            "LastName": "Cheng",
+            "Initials": "X",
+            "AffiliationInfo": [
+              {"Affiliation": "College of Information Science and Technology, Donghua University, Shanghai 201620, China."},
+              {"Affiliation": "Computer Department, Jingdezhen Ceramic Institute, Jingdezhen 333001, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shu-Guang",
+            "LastName": "Zhao",
+            "Initials": "SG",
+            "AffiliationInfo": {"Affiliation": "College of Information Science and Technology, Donghua University, Shanghai 201620, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xuan",
+            "LastName": "Xiao",
+            "Initials": "X",
+            "AffiliationInfo": [
+              {"Affiliation": "Computer Department, Jingdezhen Ceramic Institute, Jingdezhen 333001, China."},
+              {"Affiliation": "Gordon Life Science Institute, Boston, MA 02478, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kuo-Chen",
+            "LastName": "Chou",
+            "Initials": "KC",
+            "AffiliationInfo": [
+              {"Affiliation": "Gordon Life Science Institute, Boston, MA 02478, USA."},
+              {"Affiliation": "Center for Informational Biology, University of Electronic Science and Technology of China, Chengdu 610054, China."},
+              {"Affiliation": "Center of Excellence in Genomic Medicine Research (CEGMR), King Abdulaziz University, Jeddah 21589, Saudi Arabia."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "iATC-mHyb: a hybrid multi-label classifier for predicting the classification of anatomical therapeutic chemicals.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.18632/oncotarget.17028"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 35,
+          "Volume": 8,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2017,
+            "Day": 29
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Oncotarget",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1949-2553"
+        },
+        "Title": "Oncotarget"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "ATC classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Chou's five intuitive metrics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "drug ontology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "multi-label system"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 25
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biopolymers. 2007 Feb 15;85(3):233-40",
+        "PMID": {
+          "Version": 1,
+          "content": 17120237
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2003 Jan 1;50(1):44-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12471598
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Biochem. 2016 Mar 15;497:60-7",
+        "PMID": {
+          "Version": 1,
+          "content": 26748145
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Biochem. 2009 Nov 15;394(2):269-74",
+        "PMID": {
+          "Version": 1,
+          "content": 19651102
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Jun 28;5(6):e11335",
+        "PMID": {
+          "Version": 1,
+          "content": 20596258
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2017 Jan 17;8(3):4208-4217",
+        "PMID": {
+          "Version": 1,
+          "content": 27926534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2015 Jan 21;365:96-103",
+        "PMID": {
+          "Version": 1,
+          "content": 25454009
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 May 1;20(7):1151-6",
+        "PMID": {
+          "Version": 1,
+          "content": 14764553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Aug 9;7(32):51270-51283",
+        "PMID": {
+          "Version": 1,
+          "content": 27323404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2017 Mar 7;416:81-87",
+        "PMID": {
+          "Version": 1,
+          "content": 28077336
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2011 Mar 21;273(1):236-47",
+        "PMID": {
+          "Version": 1,
+          "content": 21168420
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2016 Dec 21;411:1-5",
+        "PMID": {
+          "Version": 1,
+          "content": 27615149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Apr 01;5(4):e9931",
+        "PMID": {
+          "Version": 1,
+          "content": 20368981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Proteome Res. 2006 Aug;5(8):1888-97",
+        "PMID": {
+          "Version": 1,
+          "content": 16889410
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2017 Feb 7;414:128-136",
+        "PMID": {
+          "Version": 1,
+          "content": 27916703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Biochem. 2015 Apr 1;474:69-77",
+        "PMID": {
+          "Version": 1,
+          "content": 25596338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Membr Biol. 2013 Apr;246(4):327-34",
+        "PMID": {
+          "Version": 1,
+          "content": 23546013
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2013 Apr 5;9(4):634-44",
+        "PMID": {
+          "Version": 1,
+          "content": 23370050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2015 Nov;122(2):165-74",
+        "PMID": {
+          "Version": 1,
+          "content": 26233307
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Aug 15;31(16):2639-45",
+        "PMID": {
+          "Version": 1,
+          "content": 25900916
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 2003 Nov 21;311(3):743-7",
+        "PMID": {
+          "Version": 1,
+          "content": 14623335
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Inform. 2015 Jan;34(1):8-17",
+        "PMID": {
+          "Version": 1,
+          "content": 27490858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2015 Nov 21;385:153-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26362104
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2013 Oct 03;1:e171",
+        "PMID": {
+          "Version": 1,
+          "content": 24109555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Dec 1;42(21):12961-72",
+        "PMID": {
+          "Version": 1,
+          "content": 25361964
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Sep 01;6:32333",
+        "PMID": {
+          "Version": 1,
+          "content": 27581095
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2010 May 21;264(2):326-33",
+        "PMID": {
+          "Version": 1,
+          "content": 20093124
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Feb 1;33(3):341-346",
+        "PMID": {
+          "Version": 1,
+          "content": 28172617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Feb 1;32(3):362-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26476782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Biochem. 2016 Mar 15;497:48-56",
+        "PMID": {
+          "Version": 1,
+          "content": 26723495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ther Nucleic Acids. 2016;5:e332",
+        "PMID": {
+          "Version": 1,
+          "content": 28427142
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2014 Nov 7;360:109-116",
+        "PMID": {
+          "Version": 1,
+          "content": 25026218
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2014 Apr;10(4):868-77",
+        "PMID": {
+          "Version": 1,
+          "content": 24492783
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2008 Jul 1;36(Web Server issue):W55-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18499712
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(4):e35254",
+        "PMID": {
+          "Version": 1,
+          "content": 22514724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2016 Mar;107(2-3):69-75",
+        "PMID": {
+          "Version": 1,
+          "content": 26724497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 2004 Aug 6;320(4):1236-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15249222
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomol Struct Dyn. 2010 Oct;28(2):175-86",
+        "PMID": {
+          "Version": 1,
+          "content": 20645651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2016 Apr 7;394:223-230",
+        "PMID": {
+          "Version": 1,
+          "content": 26807806
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2008;3(2):153-62",
+        "PMID": {
+          "Version": 1,
+          "content": 18274516
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2015 Jan 7;364:284-94",
+        "PMID": {
+          "Version": 1,
+          "content": 25264267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Biophys Res Commun. 2007 Apr 20;355(4):1006-11",
+        "PMID": {
+          "Version": 1,
+          "content": 17346678
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2017 Feb 21;8(8):13338-13343",
+        "PMID": {
+          "Version": 1,
+          "content": 28076851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Jun 7;7(23):34558-70",
+        "PMID": {
+          "Version": 1,
+          "content": 27153555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Pept Lett. 2012 Jan;19(1):4-14",
+        "PMID": {
+          "Version": 1,
+          "content": 21919865
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004 Jan 1;32(Database issue):D277-80",
+        "PMID": {
+          "Version": 1,
+          "content": 14681412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Oct 15;32(20):3116-3123",
+        "PMID": {
+          "Version": 1,
+          "content": 27334473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Oct 15;32(20):3133-3141",
+        "PMID": {
+          "Version": 1,
+          "content": 27354696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2008 Jan;36(Database issue):D344-50",
+        "PMID": {
+          "Version": 1,
+          "content": 17932057
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Feb 13;7:42362",
+        "PMID": {
+          "Version": 1,
+          "content": 28205576
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2012 Feb;8(2):629-41",
+        "PMID": {
+          "Version": 1,
+          "content": 22134333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2005 Mar-Apr;45(2):407-13",
+        "PMID": {
+          "Version": 1,
+          "content": 15807506
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2005 May 7;234(1):145-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15721043
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Proteome Res. 2006 Feb;5(2):316-22",
+        "PMID": {
+          "Version": 1,
+          "content": 16457597
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Molecules. 2010 Nov 12;15(11):8177-92",
+        "PMID": {
+          "Version": 1,
+          "content": 21076385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Protein Chem. 1998 Nov;17(8):729-38",
+        "PMID": {
+          "Version": 1,
+          "content": 9988519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jul 1;43(W1):W65-71",
+        "PMID": {
+          "Version": 1,
+          "content": 25958395
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Biochem. 2007 Feb 15;100(3):665-78",
+        "PMID": {
+          "Version": 1,
+          "content": 16983686
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Proteome Res. 2006 Dec;5(12):3420-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17137343
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Proteome Res. 2007 May;6(5):1728-34",
+        "PMID": {
+          "Version": 1,
+          "content": 17397210
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2017 Feb 21;415:13-19",
+        "PMID": {
+          "Version": 1,
+          "content": 27939596
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Mol Sci. 2014 Jan 24;15(2):1746-66",
+        "PMID": {
+          "Version": 1,
+          "content": 24469313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Aug 15;32(16):2411-8",
+        "PMID": {
+          "Version": 1,
+          "content": 27153623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Biochem. 2013 May 15;436(2):168-77",
+        "PMID": {
+          "Version": 1,
+          "content": 23395824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Sci. 2004 Nov;13(11):2857-63",
+        "PMID": {
+          "Version": 1,
+          "content": 15498934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Jul 12;7(28):44310-44321",
+        "PMID": {
+          "Version": 1,
+          "content": 27322424
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Biochem. 2006 Oct 1;99(2):517-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16639720
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2015 Jan 21;365:197-203",
+        "PMID": {
+          "Version": 1,
+          "content": 25452135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2015 Jul 21;377:47-56",
+        "PMID": {
+          "Version": 1,
+          "content": 25908206
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Mar 29;7(13):16895-909",
+        "PMID": {
+          "Version": 1,
+          "content": 26942877
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Pept Lett. 2009;16(12):1478-84",
+        "PMID": {
+          "Version": 1,
+          "content": 20001911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Jun 7;7(23):34180-9",
+        "PMID": {
+          "Version": 1,
+          "content": 27147572
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2011 Sep 7;284(1):42-51",
+        "PMID": {
+          "Version": 1,
+          "content": 21684290
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Rev Biochem Mol Biol. 1995;30(4):275-349",
+        "PMID": {
+          "Version": 1,
+          "content": 7587280
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Biochem. 2015 Dec 1;490:26-33",
+        "PMID": {
+          "Version": 1,
+          "content": 26314792
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2011 Dec;7(12):3287-97",
+        "PMID": {
+          "Version": 1,
+          "content": 21984117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Jan 1;33(1):35-41",
+        "PMID": {
+          "Version": 1,
+          "content": 27531102
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011 Mar 30;6(3):e18258",
+        "PMID": {
+          "Version": 1,
+          "content": 21483473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Oct 25;7(43):69783-69793",
+        "PMID": {
+          "Version": 1,
+          "content": 27626500
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2013 Jun;9(6):1092-100",
+        "PMID": {
+          "Version": 1,
+          "content": 23536215
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Apr 1;41(6):e68",
+        "PMID": {
+          "Version": 1,
+          "content": 23303794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Jan 1;21(1):10-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15308540
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2001 May 15;43(3):246-55",
+        "PMID": {
+          "Version": 1,
+          "content": 11288174
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Chem. 2015;11(3):218-34",
+        "PMID": {
+          "Version": 1,
+          "content": 25548930
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Genet Genomics. 2016 Feb;291(1):285-96",
+        "PMID": {
+          "Version": 1,
+          "content": 26319782
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28938573
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28938573,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.18632/oncotarget.17028",
+        "IdType": "doi"
+      },
+      {
+        "content": 17028,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5601669",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,379 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2012,
+      "Day": "09"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "S3"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2011,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The interactions among genetic factors related to diseases are called epistasis. With the availability of genotyped data from genome-wide association studies, it is now possible to computationally unravel epistasis related to the susceptibility to common complex human diseases such as asthma, diabetes, and hypertension. However, the difficulties of detecting epistatic interaction arose from the large number of genetic factors and the enormous size of possible combinations of genetic factors. Most computational methods to detect epistatic interactions are predictor-based methods and can not find true causal factor elements. Moreover, they are both time-consuming and sample-consuming."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We propose a new and fast Markov Blanket-based method, FEPI-MB (Fast EPistatic Interactions detection using Markov Blanket), for epistatic interactions detection. The Markov Blanket is a minimal set of variables that can completely shield the target variable from all other variables. Learning of Markov blankets can be used to detect epistatic interactions by a heuristic search for a minimal set of SNPs, which may cause the disease. Experimental results on both simulated data sets and a real data set demonstrate that FEPI-MB significantly outperforms other existing methods and is capable of finding SNPs that have a strong association with common diseases."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "FEPI-MB algorithm outperforms other computational methods for detection of epistatic interactions in terms of both the power and sample-efficiency. Moreover, compared to other Markov Blanket learning methods, FEPI-MB is more time-efficient and achieves a better performance."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bing",
+            "LastName": "Han",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Bioinformatics and Computational Life Sciences Laboratory, Information and Telecommunication Technology Center, Department of Electrical Engineering and Computer Science, The University of Kansas, 1520 West 15th Street, Lawrence, KS 66045, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xue-Wen",
+            "LastName": "Chen",
+            "Initials": "XW"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zohreh",
+            "LastName": "Talebizadeh",
+            "Initials": "Z"
+          }
+        ]
+      },
+      "ArticleTitle": "FEPI-MB: identifying SNPs-disease association using a Markov Blanket-based approach.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1471-2105-12-S12-S3"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": "12 Suppl 12",
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2011,
+            "Day": 24
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2011,
+      "Day": 15
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "N",
+        "content": "Artificial Intelligence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D004194",
+          "MajorTopicYN": "N",
+          "content": "Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D004843",
+        "MajorTopicYN": "Y",
+        "content": "Epistasis, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D055106",
+        "MajorTopicYN": "N",
+        "content": "Genome-Wide Association Study"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008390",
+        "MajorTopicYN": "N",
+        "content": "Markov Chains"
+      }},
+      {"DescriptorName": {
+        "UI": "D020641",
+        "MajorTopicYN": "N",
+        "content": "Polymorphism, Single Nucleotide"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2015,
+      "Day": 29
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2001 Jul;69(1):138-47",
+        "PMID": {
+          "Version": 1,
+          "content": 11404819
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010;11 Suppl 3:S5",
+        "PMID": {
+          "Version": 1,
+          "content": 20438652
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2002 Jan 1;30(1):52-5",
+        "PMID": {
+          "Version": 1,
+          "content": 11752252
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2002 Mar 1;11(5):559-68",
+        "PMID": {
+          "Version": 1,
+          "content": 11875050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2002 Oct 1;11(20):2463-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12351582
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2003 Feb;24(2):150-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12548676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2003;:21-5",
+        "PMID": {
+          "Version": 1,
+          "content": 14728126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pediatr Ophthalmol Strabismus. 1984 Jan-Feb;21(1):28-32",
+        "PMID": {
+          "Version": 1,
+          "content": 6423801
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genet. 1995 Jan;95(1):71-4",
+        "PMID": {
+          "Version": 1,
+          "content": 7814030
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2005 Feb;6(2):95-108",
+        "PMID": {
+          "Version": 1,
+          "content": 15716906
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2005 Apr;37(4):413-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15793588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2005 Apr 15;308(5720):385-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15761122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Bioinformatics. 2006;5(2):77-88",
+        "PMID": {
+          "Version": 1,
+          "content": 16722772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Hered. 2007;63(2):67-84",
+        "PMID": {
+          "Version": 1,
+          "content": 17283436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2007 Sep;39(9):1167-73",
+        "PMID": {
+          "Version": 1,
+          "content": 17721534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2008 Jan;9(1):30-50",
+        "PMID": {
+          "Version": 1,
+          "content": 17429103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2008 Feb;32(2):152-67",
+        "PMID": {
+          "Version": 1,
+          "content": 17968988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009;10 Suppl 1:S65",
+        "PMID": {
+          "Version": 1,
+          "content": 19208169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2010 Feb 12;86(2):240-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20159111
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncogene. 2001 May 17;20(22):2844-53",
+        "PMID": {
+          "Version": 1,
+          "content": 11420696
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3247084"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 22168374
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 22168374,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1471-2105-12-S12-S3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1471-2105-12-S12-S3",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3247084",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

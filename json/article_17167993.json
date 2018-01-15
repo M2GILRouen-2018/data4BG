@@ -1,0 +1,666 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e215-e229"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIBIB NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 EB020366",
+          "Acronym": "EB"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "X-ray scatter is a significant barrier to image quality improvements in cone-beam computed tomography (CBCT). A moving blocker-based strategy was previously proposed to simultaneously estimate scatter and reconstruct the complete volume within the field of view (FOV) from a single CBCT scan. A blocker consisting of lead stripes is inserted between the X-ray source and the imaging object, and moves back and forth along the rotation axis during gantry rotation. While promising results were obtained in our previous studies, the geometric design and moving speed of the blocker were set empirically. The goal of this work is to optimize the geometry and speed of the moving block system."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Performance of the blocker was examined through Monte Carlo (MC) simulation and experimental studies with various geometry designs and moving speeds. All hypothetical designs employed an anthropomorphic pelvic phantom. The scatter estimation accuracy was quantified by using lead stripes ranging from 5 to 100 pixels on the detector plane. An iterative reconstruction based on total variation minimization was used to reconstruct CBCT images from unblocked projection data after scatter correction. The reconstructed image was evaluated under various combinations of lead strip width and interspace (ranging from 10 to 60 pixels) and different moving speed (ranging from 1 to 30 pixels per projection)."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "MC simulation showed that the scatter estimation error varied from 0.8% to 5.8%. Phantom experiment showed that CT number error in the reconstructed CBCT images varied from 13 to 35. Highest reconstruction accuracy was achieved when the strip width was 20 pixels and interspace was 60 pixels and the moving speed was 15 pixels per projection."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Scatter estimation can be achieved in a large range of lead strip width and interspace combinations. The moving speed does not have a very strong effect on reconstruction result if it is above 5 pixels per projection. Geometry design of the blocker affected image reconstruction accuracy more. The optimal geometry of the blocker has a strip width of 20 pixels and an interspace three times the strip width, which means 25% detector is covered by the blocker, while the optimal moving speed is 15 pixels per projection."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xi",
+            "LastName": "Chen",
+            "Initials": "X",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA."},
+              {"Affiliation": "Institute of Image Processing and Pattern Recognition, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, China."},
+              {"Affiliation": "Beijing Center for Mathematics and Information Interdisciplinary Sciences, Beijing 10048, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Luo",
+            "LastName": "Ouyang",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hao",
+            "LastName": "Yan",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Cyber Medical Corporation, Xi'an, Shaanxi 710018, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xun",
+            "LastName": "Jia",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bin",
+            "LastName": "Li",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, Guangdong 510515, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qingwen",
+            "LastName": "Lyu",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong 510515, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "You",
+            "LastName": "Zhang",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jing",
+            "LastName": "Wang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Texas Southwestern Medical Center, Dallas, TX 75235, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Optimization of the geometry and speed of a moving blocker system for cone-beam computed tomography scatter correction.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12326"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "cone-beam CT"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "imaging artifacts"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "moving blocker"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "optimization"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "scatter correction"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 30
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Dec;39(12):7650-61",
+        "PMID": {
+          "Version": 1,
+          "content": 23231313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2001 Feb;28(2):220-31",
+        "PMID": {
+          "Version": 1,
+          "content": 11243347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2016 Mar;43(3):1057-64",
+        "PMID": {
+          "Version": 1,
+          "content": 26936693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Feb;37(2):934-46",
+        "PMID": {
+          "Version": 1,
+          "content": 20229902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2009 Jun;36(6):2258-68",
+        "PMID": {
+          "Version": 1,
+          "content": 19610315
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2005 Jun;32(6):1676-83",
+        "PMID": {
+          "Version": 1,
+          "content": 16013726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Radiol. 1999;9(3):563-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10087134
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 Jan;42(1):469-78",
+        "PMID": {
+          "Version": 1,
+          "content": 25563286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 May;39(5):2386-95",
+        "PMID": {
+          "Version": 1,
+          "content": 22559608
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1988 Sep-Oct;15(5):713-20",
+        "PMID": {
+          "Version": 1,
+          "content": 3185407
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Feb 7;52(3):685-705",
+        "PMID": {
+          "Version": 1,
+          "content": 17228114
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2010 Nov 7;55(21):6353-75",
+        "PMID": {
+          "Version": 1,
+          "content": 20938067
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2000 Mar;27(3):462-71",
+        "PMID": {
+          "Version": 1,
+          "content": 10757598
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2016 Nov;43(11):6199",
+        "PMID": {
+          "Version": 1,
+          "content": 27806607
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2000 Mar;27(3):485-98",
+        "PMID": {
+          "Version": 1,
+          "content": 10757601
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2010 Nov 21;55(22):6695-720",
+        "PMID": {
+          "Version": 1,
+          "content": 21030750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2007 Oct;85(1):116-25",
+        "PMID": {
+          "Version": 1,
+          "content": 17707938
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2015 Jan;42(1):54-68",
+        "PMID": {
+          "Version": 1,
+          "content": 25563247
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2012 Nov 7;57(21):6849-67",
+        "PMID": {
+          "Version": 1,
+          "content": 23038048
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Aug;37(8):4029-37",
+        "PMID": {
+          "Version": 1,
+          "content": 20879564
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2011 Apr;38(4):2233-40",
+        "PMID": {
+          "Version": 1,
+          "content": 21626957
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2014 Mar 7;59(5):1239-53",
+        "PMID": {
+          "Version": 1,
+          "content": 24556699
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2009 Mar;36(3):741-52",
+        "PMID": {
+          "Version": 1,
+          "content": 19378735
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc SPIE Int Soc Opt Eng. 2006 Feb 28;6142:6142341-6142347",
+        "PMID": {
+          "Version": 1,
+          "content": 18509508
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2009 May 7;54(9):2791-805",
+        "PMID": {
+          "Version": 1,
+          "content": 19369711
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Radiat Oncol Biol Phys. 2002 Aug 1;53(5):1337-49",
+        "PMID": {
+          "Version": 1,
+          "content": 12128137
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 Oct;25(10):1272-83",
+        "PMID": {
+          "Version": 1,
+          "content": 17024831
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2013 Jan;40(1):011907",
+        "PMID": {
+          "Version": 1,
+          "content": 23298098
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2011 Nov;38(11):6027-38",
+        "PMID": {
+          "Version": 1,
+          "content": 22047367
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1999 Dec;26(12):2635-47",
+        "PMID": {
+          "Version": 1,
+          "content": 10619249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Nov;37(11):5792-800",
+        "PMID": {
+          "Version": 1,
+          "content": 21158291
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2004 May;31(5):1195-202",
+        "PMID": {
+          "Version": 1,
+          "content": 15191309
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Dec;39(12):7368-78",
+        "PMID": {
+          "Version": 1,
+          "content": 23231286
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Dosim. 2006 Summer;31(2):91-112",
+        "PMID": {
+          "Version": 1,
+          "content": 16690451
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2013 Dec;40(12 ):121701",
+        "PMID": {
+          "Version": 1,
+          "content": 24320487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Sep 7;53(17):4777-807",
+        "PMID": {
+          "Version": 1,
+          "content": 18701771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1988 Jul-Aug;15(4):567-75",
+        "PMID": {
+          "Version": 1,
+          "content": 3211049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1988 Sep-Oct;15(5):721-5",
+        "PMID": {
+          "Version": 1,
+          "content": 3185408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2008 Dec 7;53(23):6729-48",
+        "PMID": {
+          "Version": 1,
+          "content": 18997269
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2006 Nov;33(11):4320-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17153411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2015 May 7;60(9):3567-87",
+        "PMID": {
+          "Version": 1,
+          "content": 25860299
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2012 Aug;39(8):5099-110",
+        "PMID": {
+          "Version": 1,
+          "content": 22894435
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiother Oncol. 2005 Jun;75(3):279-86",
+        "PMID": {
+          "Version": 1,
+          "content": 15890424
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Mar 21;52(6):1595-615",
+        "PMID": {
+          "Version": 1,
+          "content": 17327651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2013 Jul;40(7):071903",
+        "PMID": {
+          "Version": 1,
+          "content": 23822440
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1985 Mar-Apr;12(2):252-5",
+        "PMID": {
+          "Version": 1,
+          "content": 4000088
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2006 Jan;33(1):187-97",
+        "PMID": {
+          "Version": 1,
+          "content": 16485425
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Nov;37(11):5634-44",
+        "PMID": {
+          "Version": 1,
+          "content": 21158275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 Jul;25(7):817-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16827483
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Aug 7;52(15):4633-52",
+        "PMID": {
+          "Version": 1,
+          "content": 17634655
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2016 Sep;43(9):5084",
+        "PMID": {
+          "Version": 1,
+          "content": 27587039
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2006 Dec;25(12):1573-87",
+        "PMID": {
+          "Version": 1,
+          "content": 17167993
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28901608
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "09",
+        "Year": 2018,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28901608,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12326",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5619659",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS875341",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

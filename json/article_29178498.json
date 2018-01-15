@@ -1,0 +1,218 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "To develop a practical approach for accurate contour deformation when deformable image registration (DIR) is used for atlas-based segmentation or contour propagation in image-guided radiotherapy."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We developed a contour deformation approach based on 3D mesh operations. The 2D contours represented by a series of points in each slice were first converted to a 3D triangular mesh, which was deformed by the deformation vectors resulting from DIR. A set of parallel 2D planes then cut through the deformed 3D mesh, generating unordered points and line segments, to be reorganized into a set of 2D contour points. The reorganization problem was equivalent to solving the \"Chinese postman problem\" (CPP) by traversing a graph built from the unordered points with the least cost. Alternatively, deformation could be applied to a binary image converted from the original contours. The deformed binary image was then converted back into contours at the CT slice locations. We validated the mesh-based contour deformation approach using lung and heart contours from 10 patients with thoracic cancer."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "DIR could change the 3D mesh considerably, complicating 2D contour representations after deformation. CPP could effectively reorganize the points in 2D planes regardless of how complicated the 2D contours were. Among the 10 patients, the Dice similarity coefficient between the mesh-based contour and binary image-based contour was 97.6% ± 0.3% for lung and 97.5% ± 0.7% for heart, and the Hausdoroff distance between them was 19.8 ± 5.1 mm for lung and 6.1 ± 2.2 mm for heart. Subjective evaluation showed that the mesh-based approach could keep fine details, especially for the lung. The image-based approach seemed to overprocess contours and suffered from image resolution limits."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "We developed a practical approach for accurate contour deformation and demonstrated its effectiveness for both clinical and research applications."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jingqian",
+            "LastName": "Wang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yongbin",
+            "LastName": "Zhang",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "University of Cincinnati Medical Center, Cincinnati, OH, 45219, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lifei",
+            "LastName": "Zhang",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lei",
+            "LastName": "Dong",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Oncology, University of Pennsylvania, Philadelphia, PA, 19104, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter A",
+            "LastName": "Balter",
+            "Initials": "PA",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Laurence E",
+            "LastName": "Court",
+            "Initials": "LE",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinzhong",
+            "LastName": "Yang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Radiation Physics, The University of Texas MD Anderson Cancer Center, Houston, TX, 77030, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Technical Note: Solving the \"Chinese postman problem\" for effective contour deformation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12698"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Chinese postman problem"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "contour deformation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "deformable image registration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "graph theory"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "radiation treatment planning"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 18
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29178498
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29178498,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12698",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

@@ -1,0 +1,330 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101499225,
+      "Country": "Germany",
+      "ISSNLinking": "1861-6410",
+      "MedlineTA": "Int J Comput Assist Radiol Surg"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2013,
+      "Day": 24
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "829-36"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2012,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "A fully automated and efficient method for segmenting ten major structures within the heart in Cardiac CT Angiography data for the purposes of display or cardiac functional analysis."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "MATERIALS AND METHODS",
+          "content": "A spatially varying Gaussian classifier is a flexible model for segmentation, combining the advantages of atlas-based frameworks, with supervised intensity models. It is composed of an independent Gaussian classifier at each voxel and uses non-rigid registration for the initial spatial alignment. We show how this large model can be trained efficiently and present a novel smoothing technique based on normalised convolution to mitigate inherent overfitting issues. The 30 datasets used in this study are selected from a variety of different scanners in order to test the robustness and stability of the algorithm. The datasets were manually segmented by a trained clinician."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The method was evaluated in a leave-one-out fashion, and the results were compared to other state of the art methods in the field, with a mean surface-to-surface distance of between 0.61 and 2.12 mm for different compartments."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The accuracy of this method is comparable to other state of the art methods in the field. Its benefits lie in its conceptual simplicity and its general applicability. Only one non-rigid registration is required, giving it a speed advantage over multi-atlas approaches. Further accuracy may be achievable through the incorporation of an explicit shape model."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "S",
+            "LastName": "Murphy",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Toshiba Medical Visualization Systems Europe, Edinburgh, UK. smurphy@tmvse.com"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "A",
+            "LastName": "Akinyemi",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "J",
+            "LastName": "Steel",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Y",
+            "LastName": "Petillot",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "I",
+            "LastName": "Poole",
+            "Initials": "I"
+          }
+        ]
+      },
+      "ArticleTitle": "Multi-compartment heart segmentation in CT angiography using a spatially varying gaussian classifier.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s11548-012-0695-4"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 7,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2012
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Int J Comput Assist Radiol Surg",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1861-6429"
+        },
+        "Title": "International journal of computer assisted radiology and surgery"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 11,
+      "Year": 2012,
+      "Day": "01"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003327",
+          "MajorTopicYN": "N",
+          "content": "Coronary Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "04"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2008 Sep;27(9):1189-201",
+        "PMID": {
+          "Version": 1,
+          "content": 18753041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2002 Jan 31;33(3):341-55",
+        "PMID": {
+          "Version": 1,
+          "content": 11832223
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 1995 Jan-Feb;19(1):69-83",
+        "PMID": {
+          "Version": 1,
+          "content": 7736420
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2011;14(WS):38-46",
+        "PMID": {
+          "Version": 1,
+          "content": 24660167
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2001 May;20(5):415-23",
+        "PMID": {
+          "Version": 1,
+          "content": 11403200
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2004 Sep;8(3):255-65",
+        "PMID": {
+          "Version": 1,
+          "content": 15450220
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2008 Nov;27(11):1668-81",
+        "PMID": {
+          "Version": 1,
+          "content": 18955181
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2011 Dec;15(6):863-76",
+        "PMID": {
+          "Version": 1,
+          "content": 21737337
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2003 Nov;20(3):1425-37",
+        "PMID": {
+          "Version": 1,
+          "content": 14642457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2010 Dec;37(12):6279-91",
+        "PMID": {
+          "Version": 1,
+          "content": 21302784
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 1996 Jun;1(2):91-108",
+        "PMID": {
+          "Version": 1,
+          "content": 9873923
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2004 Jul;23(7):903-21",
+        "PMID": {
+          "Version": 1,
+          "content": 15250643
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 22644384
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2012,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2012,
+        "Day": 19,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 5,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 22644384,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s11548-012-0695-4",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

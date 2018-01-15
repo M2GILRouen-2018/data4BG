@@ -1,0 +1,312 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0187602"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Statistical approaches for inferring the spatial distribution of taxa (Species Distribution Models, SDMs) commonly rely on available occurrence data, which is often clumped and geographically restricted. Although available SDM methods address some of these factors, they could be more directly and accurately modelled using a spatially-explicit approach. Software to fit models with spatial autocorrelation parameters in SDMs are now widely available, but whether such approaches for inferring SDMs aid predictions compared to other methodologies is unknown. Here, within a simulated environment using 1000 generated species' ranges, we compared the performance of two commonly used non-spatial SDM methods (Maximum Entropy Modelling, MAXENT and boosted regression trees, BRT), to a spatial Bayesian SDM method (fitted using R-INLA), when the underlying data exhibit varying combinations of clumping and geographic restriction. Finally, we tested how any recommended methodological settings designed to account for spatially non-random patterns in the data impact inference. Spatial Bayesian SDM method was the most consistently accurate method, being in the top 2 most accurate methods in 7 out of 8 data sampling scenarios. Within high-coverage sample datasets, all methods performed fairly similarly. When sampling points were randomly spread, BRT had a 1-3% greater accuracy over the other methods and when samples were clumped, the spatial Bayesian SDM method had a 4%-8% better AUC score. Alternatively, when sampling points were restricted to a small section of the true range all methods were on average 10-12% less accurate, with greater variation among the methods. Model inference under the recommended settings to account for autocorrelation was not impacted by clumping or restriction of data, except for the complexity of the spatial regression term in the spatial Bayesian model. Methods, such as those made available by R-INLA, can be successfully used to account for spatial autocorrelation in an SDM context and, by taking account of random effects, produce outputs that can better elucidate the role of covariates in predicting species occurrence. Given that it is often unclear what the drivers are behind data clumping in an empirical occurrence dataset, or indeed how geographically restricted these data are, spatially-explicit Bayesian SDMs may be the better choice when modelling the spatial distribution of target species."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8615-1798"
+            },
+            "ForeName": "David W",
+            "LastName": "Redding",
+            "Initials": "DW",
+            "AffiliationInfo": {"Affiliation": "Centre for Biodiversity and Environment Research, Department of Genetics, Evolution and Environment, University College London, London, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tim C D",
+            "LastName": "Lucas",
+            "Initials": "TCD",
+            "AffiliationInfo": [
+              {"Affiliation": "Centre for Biodiversity and Environment Research, Department of Genetics, Evolution and Environment, University College London, London, United Kingdom."},
+              {"Affiliation": "Big Data Institute, University of Oxford, Oxford, United Kingdom."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tim M",
+            "LastName": "Blackburn",
+            "Initials": "TM",
+            "AffiliationInfo": [
+              {"Affiliation": "Centre for Biodiversity and Environment Research, Department of Genetics, Evolution and Environment, University College London, London, United Kingdom."},
+              {"Affiliation": "Institute of Zoology, Zoological Society of London, London, United Kingdom."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kate E",
+            "LastName": "Jones",
+            "Initials": "KE",
+            "AffiliationInfo": [
+              {"Affiliation": "Centre for Biodiversity and Environment Research, Department of Genetics, Evolution and Environment, University College London, London, United Kingdom."},
+              {"Affiliation": "Institute of Zoology, Zoological Society of London, London, United Kingdom."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Evaluating Bayesian spatial methods for modelling species distributions with clumped and restricted occurrence data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0187602"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "Y",
+        "content": "Bayes Theorem"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "Y",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D058974",
+        "MajorTopicYN": "Y",
+        "content": "Phylogeography"
+      }},
+      {"DescriptorName": {
+        "UI": "D013045",
+        "MajorTopicYN": "Y",
+        "content": "Species Specificity"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Emerg Infect Dis. 2006 Dec;12(12):1822-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17326931
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Nov 18;8(11):e79168",
+        "PMID": {
+          "Version": 1,
+          "content": 24260167
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Negl Trop Dis. 2008;2(10):e313",
+        "PMID": {
+          "Version": 1,
+          "content": 18958165
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ecol Lett. 2015 Dec;18(12):1321-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26439311
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Glob Chang Biol. 2014 Aug;20(8):2566-79",
+        "PMID": {
+          "Version": 1,
+          "content": 24845950
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 May 12;9(5):e97122",
+        "PMID": {
+          "Version": 1,
+          "content": 24818607
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(2):e55158",
+        "PMID": {
+          "Version": 1,
+          "content": 23457462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2015 Jun 6;12(107):null",
+        "PMID": {
+          "Version": 1,
+          "content": 25948612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2010 Jun 01;8(6):e1000385",
+        "PMID": {
+          "Version": 1,
+          "content": 20532234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Ecol Evol. 2015 Dec;30(12 ):766-79",
+        "PMID": {
+          "Version": 1,
+          "content": 26519235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ecol Appl. 2009 Jan;19(1):181-97",
+        "PMID": {
+          "Version": 1,
+          "content": 19323182
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ecology. 2017 Mar;98 (3):632-646",
+        "PMID": {
+          "Version": 1,
+          "content": 27935640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2013 Mar;69(1):274-81",
+        "PMID": {
+          "Version": 1,
+          "content": 23379623
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ecol Lett. 2013 Dec;16(12):1424-35",
+        "PMID": {
+          "Version": 1,
+          "content": 24134332
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ecology. 2013 Jul;94(7):1456-63",
+        "PMID": {
+          "Version": 1,
+          "content": 23951705
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29190296
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29190296,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0187602",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-09661",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5708625",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

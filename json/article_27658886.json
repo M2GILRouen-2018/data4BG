@@ -1,0 +1,424 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101563288,
+      "Country": "England",
+      "ISSNLinking": "2045-2322",
+      "MedlineTA": "Sci Rep"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 16417},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Gestational diabetes mellitus (GDM) is conventionally confirmed with oral glucose tolerance test (OGTT) in 24 to 28 weeks of gestation, but it is still uncertain whether it can be predicted with secondary use of electronic health records (EHRs) in early pregnancy. To this purpose, the cost-sensitive hybrid model (CSHM) and five conventional machine learning methods are used to construct the predictive models, capturing the future risks of GDM in the temporally aggregated EHRs. The experimental data sources from a nested case-control study cohort, containing 33,935 gestational women in West China Second Hospital. After data cleaning, 4,378 cases and 50 attributes are stored and collected for the data set. Through selecting the most feasible method, the cost parameter of CSHM is adapted to deal with imbalance of the dataset. In the experiment, 3940 samples are used for training and the rest 438 samples for testing. Although the accuracy of positive samples is barely acceptable (62.16%), the results suggest that the vast majority (98.4%) of those predicted positive instances are real positives. To our knowledge, this is the first study to apply machine learning models with EHRs to predict GDM, which will facilitate personalized medicine in maternal health management in the future."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hang",
+            "LastName": "Qiu",
+            "Initials": "H",
+            "AffiliationInfo": [
+              {"Affiliation": "Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China."},
+              {"Affiliation": "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hai-Yan",
+            "LastName": "Yu",
+            "Initials": "HY",
+            "AffiliationInfo": [
+              {"Affiliation": "Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China. yhy188@gmail.com."},
+              {"Affiliation": "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China. yhy188@gmail.com."},
+              {"Affiliation": "School of Economics and Management, Chongqing University of Posts and Telecommunications, Chongqing, 400065, Chongqing, China. yhy188@gmail.com."},
+              {"Affiliation": "Department of Statistics, The Pennsylvania State University, University Park, PA, 16802-2111, United States. yhy188@gmail.com."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Li-Ya",
+            "LastName": "Wang",
+            "Initials": "LY",
+            "AffiliationInfo": {"Affiliation": "Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qiang",
+            "LastName": "Yao",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "Division of Obstetrics, West China Second University Hospital, Sichuan University, Chengdu, 610041, Sichuan, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Si-Nan",
+            "LastName": "Wu",
+            "Initials": "SN",
+            "AffiliationInfo": {"Affiliation": "Division of Information Management, West China Second University Hospital, Sichuan University, Chengdu, 610041, Sichuan, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Can",
+            "LastName": "Yin",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Chengdu Shulianyikang Technology Co., Ltd, Chengdu, 610041, Sichuan, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bo",
+            "LastName": "Fu",
+            "Initials": "B",
+            "AffiliationInfo": [
+              {"Affiliation": "Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China."},
+              {"Affiliation": "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiao-Juan",
+            "LastName": "Zhu",
+            "Initials": "XJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Big Data Research Center, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China."},
+              {"Affiliation": "School of Computer Science and Engineering, University of Electronic Science and Technology of China, Chengdu, 611731, Sichuan, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yan-Long",
+            "LastName": "Zhang",
+            "Initials": "YL",
+            "AffiliationInfo": {"Affiliation": "Chengdu Shulianyikang Technology Co., Ltd, Chengdu, 610041, Sichuan, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yong",
+            "LastName": "Xing",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Chengdu Shulianyikang Technology Co., Ltd, Chengdu, 610041, Sichuan, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jun",
+            "LastName": "Deng",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Chengdu Shulianyikang Technology Co., Ltd, Chengdu, 610041, Sichuan, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hao",
+            "LastName": "Yang",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science, Chengdu University of Information Technology, Chengdu, 610225, Sichuan, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shun-Dong",
+            "LastName": "Lei",
+            "Initials": "SD",
+            "AffiliationInfo": {"Affiliation": "Division of Information Management, West China Second University Hospital, Sichuan University, Chengdu, 610041, Sichuan, China. tomlsd@163.com."}
+          }
+        ]
+      },
+      "ArticleTitle": "Electronic Health Record Driven Prediction for Gestational Diabetes Mellitus in Early Pregnancy.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1038/s41598-017-16665-y"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 7,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sci Rep",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2045-2322"
+        },
+        "Title": "Scientific reports"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes. 2010 Dec;59(12):3017-22",
+        "PMID": {
+          "Version": 1,
+          "content": 20876721
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Int. 2017 Jan;98 :89-95",
+        "PMID": {
+          "Version": 1,
+          "content": 27743729
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Feb 08;7:42192",
+        "PMID": {
+          "Version": 1,
+          "content": 28176850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Med Inform. 2017 Mar;99:45-52",
+        "PMID": {
+          "Version": 1,
+          "content": 28118921
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Endocrinol Metab. 2002 Mar;87(3):1189-93",
+        "PMID": {
+          "Version": 1,
+          "content": 11889186
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Jun 14;6:27855",
+        "PMID": {
+          "Version": 1,
+          "content": 27297679
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2009 May 23;373(9677):1743-4",
+        "PMID": {
+          "Version": 1,
+          "content": 19465216
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prenat Diagn. 2016 Feb;36(2):192-3",
+        "PMID": {
+          "Version": 1,
+          "content": 26547816
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Diabetes. 2016 May;8(3):300-2",
+        "PMID": {
+          "Version": 1,
+          "content": 26778343
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Med Inform. 2017 Jan;97:120-127",
+        "PMID": {
+          "Version": 1,
+          "content": 27919371
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2016 Jan 12;352:h6898",
+        "PMID": {
+          "Version": 1,
+          "content": 26759275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Jun 06;6:27291",
+        "PMID": {
+          "Version": 1,
+          "content": 27264612
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 May 17;6:26094",
+        "PMID": {
+          "Version": 1,
+          "content": 27185194
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Clin Inform. 2015 Nov 11;6(4):669-76",
+        "PMID": {
+          "Version": 1,
+          "content": 26767062
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Mar 17;12:77",
+        "PMID": {
+          "Version": 1,
+          "content": 21414208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Jun 02;5:10702",
+        "PMID": {
+          "Version": 1,
+          "content": 26031755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1988 Sep;44(3):837-45",
+        "PMID": {
+          "Version": 1,
+          "content": 3203132
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2017 Feb;40(2):210-217",
+        "PMID": {
+          "Version": 1,
+          "content": 27920019
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2013 Jun;36(6):e76",
+        "PMID": {
+          "Version": 1,
+          "content": 23704684
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Mar 08;7:43620",
+        "PMID": {
+          "Version": 1,
+          "content": 28272552
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 1998 Aug;21 Suppl 2:B161-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9704245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2014 Sep 28;33(22):3946-59",
+        "PMID": {
+          "Version": 1,
+          "content": 24825728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 2016 Feb;45(1):160-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26748845
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2016 Dec;64:20-24",
+        "PMID": {
+          "Version": 1,
+          "content": 27658886
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29180800
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29180800,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1038/s41598-017-16665-y",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1038/s41598-017-16665-y",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5703904",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

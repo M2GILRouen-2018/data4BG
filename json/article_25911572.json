@@ -1,0 +1,674 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2016,
+      "Day": 13
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0136651"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIAMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "K08 AR060257",
+            "Acronym": "AR"
+          },
+          {
+            "Agency": "NIDDK NIH HHS",
+            "Country": "United States",
+            "GrantID": "K23 DK097142",
+            "Acronym": "DK"
+          },
+          {
+            "Agency": "NIAMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "K24 AR052403",
+            "Acronym": "AR"
+          },
+          {
+            "Agency": "NLM NIH HHS",
+            "Country": "United States",
+            "GrantID": "U54LM008748",
+            "Acronym": "LM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Typically, algorithms to classify phenotypes using electronic medical record (EMR) data were developed to perform well in a specific patient population. There is increasing interest in analyses which can allow study of a specific outcome across different diseases. Such a study in the EMR would require an algorithm that can be applied across different patient populations. Our objectives were: (1) to develop an algorithm that would enable the study of coronary artery disease (CAD) across diverse patient populations; (2) to study the impact of adding narrative data extracted using natural language processing (NLP) in the algorithm. Additionally, we demonstrate how to implement CAD algorithm to compare risk across 3 chronic diseases in a preliminary study."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "METHODS AND RESULTS",
+          "content": "We studied 3 established EMR based patient cohorts: diabetes mellitus (DM, n = 65,099), inflammatory bowel disease (IBD, n = 10,974), and rheumatoid arthritis (RA, n = 4,453) from two large academic centers. We developed a CAD algorithm using NLP in addition to structured data (e.g. ICD9 codes) in the RA cohort and validated it in the DM and IBD cohorts. The CAD algorithm using NLP in addition to structured data achieved specificity >95% with a positive predictive value (PPV) 90% in the training (RA) and validation sets (IBD and DM). The addition of NLP data improved the sensitivity for all cohorts, classifying an additional 17% of CAD subjects in IBD and 10% in DM while maintaining PPV of 90%. The algorithm classified 16,488 DM (26.1%), 457 IBD (4.2%), and 245 RA (5.0%) with CAD. In a cross-sectional analysis, CAD risk was 63% lower in RA and 68% lower in IBD compared to DM (p<0.0001) after adjusting for traditional cardiovascular risk factors."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We developed and validated a CAD algorithm that performed well across diverse patient populations. The addition of NLP into the CAD algorithm improved the sensitivity of the algorithm, particularly in cohorts where the prevalence of CAD was low. Preliminary data suggest that CAD risk was significantly lower in RA and IBD compared to DM."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Katherine P",
+            "LastName": "Liao",
+            "Initials": "KP",
+            "AffiliationInfo": {"Affiliation": "Division of Rheumatology, Brigham and Women's Hospital, Boston, Massachusetts, 02115, United States of America; Harvard Medical School, Boston, Massachusetts, 02115, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ashwin N",
+            "LastName": "Ananthakrishnan",
+            "Initials": "AN",
+            "AffiliationInfo": {"Affiliation": "Harvard Medical School, Boston, Massachusetts, 02115, United States of America; Division of Gastroenterology, Massachusetts General Hospital, Boston, Massachusetts, 02114, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vishesh",
+            "LastName": "Kumar",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Harvard Medical School, Boston, Massachusetts, 02115, United States of America; Center for Systems Biology, Massachusetts General Hospital, Boston, Massachusetts, 02114, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zongqi",
+            "LastName": "Xia",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Harvard Medical School, Boston, Massachusetts, 02115, United States of America; Department of Neurology, Brigham and Women's Hospital, Boston, Massachusetts, 02115, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew",
+            "LastName": "Cagan",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Research Computing, Partners Healthcare, Charlestown, Massachusetts, 02125, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vivian S",
+            "LastName": "Gainer",
+            "Initials": "VS",
+            "AffiliationInfo": {"Affiliation": "Research Computing, Partners Healthcare, Charlestown, Massachusetts, 02125, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sergey",
+            "LastName": "Goryachev",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Research Computing, Partners Healthcare, Charlestown, Massachusetts, 02125, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pei",
+            "LastName": "Chen",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Children's Hospital Informatics Program, Boston Children's Hospital, Boston, Massachusetts, 02115, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guergana K",
+            "LastName": "Savova",
+            "Initials": "GK",
+            "AffiliationInfo": {"Affiliation": "Harvard Medical School, Boston, Massachusetts, 02115, United States of America; Children's Hospital Informatics Program, Boston Children's Hospital, Boston, Massachusetts, 02115, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Denis",
+            "LastName": "Agniel",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, 02115, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Susanne",
+            "LastName": "Churchill",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Partners Healthcare Information Systems, Boston, Massachusetts, 02115, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jaeyoung",
+            "LastName": "Lee",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Tufts University School of Medicine, Boston, Massachusetts, 02111, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shawn N",
+            "LastName": "Murphy",
+            "Initials": "SN",
+            "AffiliationInfo": {"Affiliation": "Harvard Medical School, Boston, Massachusetts, 02115, United States of America; Department of Neurology, Massachusetts General Hospital, Boston, Massachusetts, 02114, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert M",
+            "LastName": "Plenge",
+            "Initials": "RM",
+            "AffiliationInfo": {"Affiliation": "Division of Rheumatology, Brigham and Women's Hospital, Boston, Massachusetts, 02115, United States of America; Harvard Medical School, Boston, Massachusetts, 02115, United States of America; Division of Genetics, Brigham and Women's Hospital, Boston, Massachusetts, 02115, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter",
+            "LastName": "Szolovits",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Computer Science and Artificial Intelligence Laboratory (CSAIL), Massachusetts Institute of Technology, Cambridge, Massachusetts, 02139, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Isaac",
+            "LastName": "Kohane",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Harvard Medical School, Boston, Massachusetts, 02115, United States of America; Children's Hospital Informatics Program, Boston Children's Hospital, Boston, Massachusetts, 02115, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stanley Y",
+            "LastName": "Shaw",
+            "Initials": "SY",
+            "AffiliationInfo": {"Affiliation": "Harvard Medical School, Boston, Massachusetts, 02115, United States of America; Center for Systems Biology, Massachusetts General Hospital, Boston, Massachusetts, 02114, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elizabeth W",
+            "LastName": "Karlson",
+            "Initials": "EW",
+            "AffiliationInfo": {"Affiliation": "Division of Rheumatology, Brigham and Women's Hospital, Boston, Massachusetts, 02115, United States of America; Harvard Medical School, Boston, Massachusetts, 02115, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tianxi",
+            "LastName": "Cai",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Children's Hospital Informatics Program, Boston Children's Hospital, Boston, Massachusetts, 02115, United States of America."}
+          }
+        ]
+      },
+      "ArticleTitle": "Methods to Develop an Electronic Medical Record Phenotype Algorithm to Compare the Risk of Coronary Artery Disease across 3 Chronic Disease Cohorts.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0136651"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 10,
+          "PubDate": {"Year": 2015},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2015,
+      "Day": 25
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "N",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001172",
+          "MajorTopicYN": "N",
+          "content": "Arthritis, Rheumatoid"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "Y",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "Y",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003920",
+          "MajorTopicYN": "N",
+          "content": "Diabetes Mellitus"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D057286",
+        "MajorTopicYN": "Y",
+        "content": "Electronic Health Records"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "N",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D006949",
+          "MajorTopicYN": "N",
+          "content": "Hyperlipidemias"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000453",
+            "MajorTopicYN": "N",
+            "content": "epidemiology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D015212",
+          "MajorTopicYN": "N",
+          "content": "Inflammatory Bowel Diseases"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D009323",
+        "MajorTopicYN": "N",
+        "content": "Natural Language Processing"
+      }},
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "N",
+        "content": "Phenotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D012307",
+        "MajorTopicYN": "N",
+        "content": "Risk Factors"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": "09"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2001 Jul 11;286(2):180-7",
+        "PMID": {
+          "Version": 1,
+          "content": 11448281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Care Res (Hoboken). 2010 Aug;62(8):1120-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20235204
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Diabetes Care. 2004 Oct;27(10):2299-305",
+        "PMID": {
+          "Version": 1,
+          "content": 15451891
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1998 May 12;97(18):1837-47",
+        "PMID": {
+          "Version": 1,
+          "content": 9603539
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2006;6:30",
+        "PMID": {
+          "Version": 1,
+          "content": 16872495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Res Ther. 2008;10(2):R30",
+        "PMID": {
+          "Version": 1,
+          "content": 18325087
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Rheum Dis. 2011 Jun;70(6):929-34",
+        "PMID": {
+          "Version": 1,
+          "content": 21389043
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Cardiol. 2011 Jul;26(4):327-33",
+        "PMID": {
+          "Version": 1,
+          "content": 21499088
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Mar-Apr;19(2):212-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22101970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2012 Jun;19(e1):e162-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22374935
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Rheum Dis. 2012 Sep;71(9):1524-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22425941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Inflamm Bowel Dis. 2013 Jun;19(7):1411-20",
+        "PMID": {
+          "Version": 1,
+          "content": 23567779
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(11):e78927",
+        "PMID": {
+          "Version": 1,
+          "content": 24244385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Gastroenterol Hepatol. 2014 Mar;12(3):382-93.e1: quiz e22",
+        "PMID": {
+          "Version": 1,
+          "content": 23978350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2014 Oct;51:280-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24960203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Gastroenterol Hepatol. 2014 Nov;12(11):1905-10",
+        "PMID": {
+          "Version": 1,
+          "content": 24632349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2003 Mar 11;107(9):1303-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12628952
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Inflamm Bowel Dis. 2008 Oct;14 Suppl 2:S4-5",
+        "PMID": {
+          "Version": 1,
+          "content": 18816745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Rheum Dis. 2009 Sep;68(9):1395-400",
+        "PMID": {
+          "Version": 1,
+          "content": 18697775
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Health Serv Res. 2009;9:170",
+        "PMID": {
+          "Version": 1,
+          "content": 19772639
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arthritis Rheum. 2009 Oct;60(10):2861-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19790058
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2015;350:h1885",
+        "PMID": {
+          "Version": 1,
+          "content": 25911572
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4547801"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26301417
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2014,
+        "Day": 29,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2015,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 8,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26301417,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0136651",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-14-43453",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC4547801",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

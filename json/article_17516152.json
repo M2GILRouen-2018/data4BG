@@ -1,0 +1,337 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101096520,
+      "Country": "United States",
+      "ISSNLinking": "1567-567X",
+      "MedlineTA": "J Pharmacokinet Pharmacodyn"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 30
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "55-66"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "One important aim in population pharmacokinetics (PK) and pharmacodynamics is identification and quantification of the relationships between the parameters and covariates. Lasso has been suggested as a technique for simultaneous estimation and covariate selection. In linear regression, it has been shown that Lasso possesses no oracle properties, which means it asymptotically performs as though the true underlying model was given in advance. Adaptive Lasso (ALasso) with appropriate initial weights is claimed to possess oracle properties; however, it can lead to poor predictive performance when there is multicollinearity between covariates. This simulation study implemented a new version of ALasso, called adjusted ALasso (AALasso), to take into account the ratio of the standard error of the maximum likelihood (ML) estimator to the ML coefficient as the initial weight in ALasso to deal with multicollinearity in non-linear mixed-effect models. The performance of AALasso was compared with that of ALasso and Lasso. PK data was simulated in four set-ups from a one-compartment bolus input model. Covariates were created by sampling from a multivariate standard normal distribution with no, low (0.2), moderate (0.5) or high (0.7) correlation. The true covariates influenced only clearance at different magnitudes. AALasso, ALasso and Lasso were compared in terms of mean absolute prediction error and error of the estimated covariate coefficient. The results show that AALasso performed better in small data sets, even in those in which a high correlation existed between covariates. This makes AALasso a promising method for covariate selection in nonlinear mixed-effect models."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elham",
+            "LastName": "Haem",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biostatistics, Shiraz University of Medical Sciences School of Medicine, Shiraz, Iran."},
+              {"Affiliation": "Department of Pharmaceutical Biosciences, Uppsala University, Uppsala, Sweden."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kajsa",
+            "LastName": "Harling",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Pharmaceutical Biosciences, Uppsala University, Uppsala, Sweden."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seyyed Mohammad Taghi",
+            "LastName": "Ayatollahi",
+            "Initials": "SM",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Shiraz University of Medical Sciences School of Medicine, Shiraz, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Najaf",
+            "LastName": "Zare",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, Infertility Research Center, Shiraz University of Medical Sciences, Shiraz, Iran. najafzare@sums.ac.ir."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mats O",
+            "LastName": "Karlsson",
+            "Initials": "MO",
+            "AffiliationInfo": {"Affiliation": "Department of Pharmaceutical Biosciences, Uppsala University, Uppsala, Sweden."}
+          }
+        ]
+      },
+      "ArticleTitle": "Adjusted adaptive Lasso for covariate model-building in nonlinear mixed-effect pharmacokinetic models.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10928-017-9504-6"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Pharmacokinet Pharmacodyn",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1573-8744"
+        },
+        "Title": "Journal of pharmacokinetics and pharmacodynamics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Adaptive Lasso"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Covariate model building"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Lasso"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Mixed effects modeling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multicollinearity"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "Y",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D015999",
+        "MajorTopicYN": "N",
+        "content": "Multivariate Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D017711",
+        "MajorTopicYN": "N",
+        "content": "Nonlinear Dynamics"
+      }},
+      {"DescriptorName": {
+        "UI": "D010599",
+        "MajorTopicYN": "Y",
+        "content": "Pharmacokinetics"
+      }},
+      {"DescriptorName": {
+        "UI": "D012044",
+        "MajorTopicYN": "N",
+        "content": "Regression Analysis"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 30
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharmacogenet Genomics. 2013 Mar;23(3):167-74",
+        "PMID": {
+          "Version": 1,
+          "content": 23337849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AAPS J. 2015 May;17(3):597-608",
+        "PMID": {
+          "Version": 1,
+          "content": 25693489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "CPT Pharmacometrics Syst Pharmacol. 2014 Apr 09;3:e109",
+        "PMID": {
+          "Version": 1,
+          "content": 24717242
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2004 Apr;31(2):109-34",
+        "PMID": {
+          "Version": 1,
+          "content": 15379381
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "CPT Pharmacometrics Syst Pharmacol. 2016 Mar;5(3):123-31",
+        "PMID": {
+          "Version": 1,
+          "content": 27069775
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2016 Dec;43(6):583-596",
+        "PMID": {
+          "Version": 1,
+          "content": 27730482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2008 Jul 25;4(7):e1000130",
+        "PMID": {
+          "Version": 1,
+          "content": 18654633
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AAPS PharmSci. 2002;4(4):E27",
+        "PMID": {
+          "Version": 1,
+          "content": 12645999
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 1997 Feb 28;16(4):385-95",
+        "PMID": {
+          "Version": 1,
+          "content": 9044528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009 Nov 24;10:384",
+        "PMID": {
+          "Version": 1,
+          "content": 19930695
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharm Res. 1998 Sep;15(9):1463-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9755901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharm Res. 1999 May;16(5):709-17",
+        "PMID": {
+          "Version": 1,
+          "content": 10350015
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2007 Aug;34(4):485-517",
+        "PMID": {
+          "Version": 1,
+          "content": 17516152
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28144841
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28144841,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10928-017-9504-6",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10928-017-9504-6",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

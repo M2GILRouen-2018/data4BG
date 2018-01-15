@@ -1,0 +1,468 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors have declared that no competing interests exist.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0170165"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Darkfield and confocal laser scanning microscopy both allow for a simultaneous observation of live cells and single nanoparticles. Accordingly, a characterization of nanoparticle uptake and intracellular mobility appears possible within living cells. Single particle tracking allows to measure the size of a diffusing particle close to a cell. However, within the more complex system of a cell's cytoplasm normal, confined or anomalous diffusion together with directed motion may occur. In this work we present a method to automatically classify and segment single trajectories into their respective motion types. Single trajectories were found to contain more than one motion type. We have trained a random forest with 9 different features. The average error over all motion types for synthetic trajectories was 7.2%. The software was successfully applied to trajectories of positive controls for normal- and constrained diffusion. Trajectories captured by nanoparticle tracking analysis served as positive control for normal diffusion. Nanoparticles inserted into a diblock copolymer membrane was used to generate constrained diffusion. Finally we segmented trajectories of diffusing (nano-)particles in V79 cells captured with both darkfield- and confocal laser scanning microscopy. The software called \"TraJClassifier\" is freely available as ImageJ/Fiji plugin via https://git.io/v6uz2."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-1550-8275"
+            },
+            "ForeName": "Thorsten",
+            "LastName": "Wagner",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Biomedical Imaging Group, Department of Informatics, University of Applied Sciences and Arts Dortmund, Dortmund, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alexandra",
+            "LastName": "Kroll",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "EAWAG, Swiss Federal Institute of Aquatic Science and Technology, Dübendorf, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chandrashekara R",
+            "LastName": "Haramagatti",
+            "Initials": "CR",
+            "AffiliationInfo": {"Affiliation": "Experimental Physics IV and Bayreuth Insitute for Macromolecular Research, University of Bayreuth, Bayreuth, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hans-Gerd",
+            "LastName": "Lipinski",
+            "Initials": "HG",
+            "AffiliationInfo": {"Affiliation": "Biomedical Imaging Group, Department of Informatics, University of Applied Sciences and Arts Dortmund, Dortmund, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Martin",
+            "LastName": "Wiemann",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "IBE R&D gGmbH Institute for Lung Health, Münster, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Classification and Segmentation of Nanoparticle Diffusion Trajectories in Cellular Micro Environments.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0170165"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D003585",
+        "MajorTopicYN": "Y",
+        "content": "Cell Biology"
+      }},
+      {"DescriptorName": {
+        "UI": "D004058",
+        "MajorTopicYN": "N",
+        "content": "Diffusion"
+      }},
+      {"DescriptorName": {
+        "UI": "D018613",
+        "MajorTopicYN": "N",
+        "content": "Microscopy, Confocal"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "N",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D053758",
+        "MajorTopicYN": "Y",
+        "content": "Nanoparticles"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 10
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2008 Jan 1;94(1):90-4",
+        "PMID": {
+          "Version": 1,
+          "content": 17827216
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 Aug 5;111(31):11413-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25056965
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bull Math Biol. 1985;47(2):273-86",
+        "PMID": {
+          "Version": 1,
+          "content": 4027437
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2008 Aug;5(8):695-702",
+        "PMID": {
+          "Version": 1,
+          "content": 18641657
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomaterials. 2012 Apr;33(10):2952-60",
+        "PMID": {
+          "Version": 1,
+          "content": 22245558
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2012 Aug 8;103(3):616-26",
+        "PMID": {
+          "Version": 1,
+          "content": 22947879
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nanobiotechnology. 2014 Feb 03;12:5",
+        "PMID": {
+          "Version": 1,
+          "content": 24491160
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1974 Jul 5;250(461):54-6",
+        "PMID": {
+          "Version": 1,
+          "content": 4841158
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Mar;10(3):265-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23396281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nanobiotechnology. 2010 Dec 20;8:33",
+        "PMID": {
+          "Version": 1,
+          "content": 21167077
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Chem Chem Phys. 2011 Feb 14;13(6):2278-84",
+        "PMID": {
+          "Version": 1,
+          "content": 21116554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2002 Oct;83(4):2109-17",
+        "PMID": {
+          "Version": 1,
+          "content": 12324428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chemphyschem. 2009 Jul 13;10 (9-10):1559-66",
+        "PMID": {
+          "Version": 1,
+          "content": 19507205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ther. 2011 Jul;19(7):1199-211",
+        "PMID": {
+          "Version": 1,
+          "content": 21654634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biophys Biomol Struct. 1997;26:373-99",
+        "PMID": {
+          "Version": 1,
+          "content": 9241424
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Chem Chem Phys. 2014 May 7;16(17 ):7686-91",
+        "PMID": {
+          "Version": 1,
+          "content": 24651929
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "In Vitro Cell Dev Biol Anim. 1997 Feb;33(2):110-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9081218
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2007 Nov 28;129(47):14759-66",
+        "PMID": {
+          "Version": 1,
+          "content": 17983227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2001 Oct;81(4):2226-40",
+        "PMID": {
+          "Version": 1,
+          "content": 11566793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2012 Dec 19;103(12):2411-22",
+        "PMID": {
+          "Version": 1,
+          "content": 23260043
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E. 2016 Aug;94(2-1):022401",
+        "PMID": {
+          "Version": 1,
+          "content": 27627329
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2008 Dec 12;101(24):248103",
+        "PMID": {
+          "Version": 1,
+          "content": 19113674
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jun 28;9(7):676-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22743772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Rep Prog Phys. 2013 Apr;76(4):046602",
+        "PMID": {
+          "Version": 1,
+          "content": 23481518
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2006 Nov 1;91(9):3542-59",
+        "PMID": {
+          "Version": 1,
+          "content": 16891360
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2016 Oct 3;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27713081
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Pharm. 2014 Dec 1;11(12):4363-73",
+        "PMID": {
+          "Version": 1,
+          "content": 25327847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Nanomedicine. 2007;2(4):735-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18203439
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 1993 Jun;64(6):1766-80",
+        "PMID": {
+          "Version": 1,
+          "content": 8369407
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 2016 Oct;1858(10):2451-67",
+        "PMID": {
+          "Version": 1,
+          "content": 26826272
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2010 Oct;82(4 Pt 1):041914",
+        "PMID": {
+          "Version": 1,
+          "content": 21230320
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Struct Biol. 2007 Sep;159(3):347-58",
+        "PMID": {
+          "Version": 1,
+          "content": 17532228
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev Lett. 2004 Aug 13;93(7):078102",
+        "PMID": {
+          "Version": 1,
+          "content": 15324280
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2010 Jul;82(1 Pt 1):011917",
+        "PMID": {
+          "Version": 1,
+          "content": 20866658
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28107406
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 30,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28107406,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0170165",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-16-45687",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5249096",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,195 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100970413,
+      "Country": "United States",
+      "ISSNLinking": "1532-0464",
+      "MedlineTA": "J Biomed Inform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "92-103"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier Inc. All rights reserved.",
+        "AbstractText": "A multitude of information sources is present in the electronic health record (EHR), each of which can contain clues to automatically assign diagnosis and procedure codes. These sources however show information overlap and quality differences, which complicates the retrieval of these clues. Through feature selection, a denser representation with a consistent quality and less information overlap can be obtained. We introduce and compare coverage-based feature selection methods, based on confidence and information gain. These approaches were evaluated over a range of medical specialties, with seven different medical specialties for ICD-9-CM code prediction (six at the Antwerp University Hospital and one in the MIMIC-III dataset) and two different medical specialties for ICD-10-CM code prediction. Using confidence coverage to integrate all sources in an EHR shows a consistent improvement in F-measure (49.83% for diagnosis codes on average), both compared with the baseline (44.25% for diagnosis codes on average) and with using the best standalone source (44.41% for diagnosis codes on average). Confidence coverage creates a concise patient stay representation independent of a rigid framework such as UMLS, and contains easily interpretable features. Confidence coverage has several advantages to a baseline setup. In our baseline setup, feature selection was limited to a filter removing features with less than five total occurrences in the trainingset. Prediction results improved consistently when using multiple heterogeneous sources to predict clinical codes, while reducing the number of features and the processing time."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elyne",
+            "LastName": "Scheurwegs",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "University of Antwerp, Advanced Database Research and Modelling Research Group (ADReM), Middelheimlaan 1, B-2020 Antwerp, Belgium; University of Antwerp, Computational Linguistics and Psycholinguistics (CLiPS) Research Center, Lange Winkelstraat 40-42, B-2000 Antwerp, Belgium. Electronic address: elyne.scheurwegs@uantwerpen.be."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Boris",
+            "LastName": "Cule",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "University of Antwerp, Advanced Database Research and Modelling Research Group (ADReM), Middelheimlaan 1, B-2020 Antwerp, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kim",
+            "LastName": "Luyckx",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Antwerp University Hospital, ICT Department, Wilrijkstraat 10, B-2650 Edegem, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Léon",
+            "LastName": "Luyten",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Antwerp University Hospital, Medical Information Department, Wilrijkstraat 10, B-2650 Edegem, Belgium."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Walter",
+            "LastName": "Daelemans",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "University of Antwerp, Computational Linguistics and Psycholinguistics (CLiPS) Research Center, Lange Winkelstraat 40-42, B-2000 Antwerp, Belgium."}
+          }
+        ]
+      },
+      "ArticleTitle": "Selecting relevant features from the electronic health record for clinical code prediction.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1532-0464(17)30201-0"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jbi.2017.09.004"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 74,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Biomed Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1532-0480"
+        },
+        "Title": "Journal of biomedical informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Clinical coding"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Data integration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Data representation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "EHR mining"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Feature selection"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 14
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28919106
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28919106,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1532-0464(17)30201-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jbi.2017.09.004",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

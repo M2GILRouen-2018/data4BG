@@ -1,0 +1,272 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8208130,
+      "Country": "Netherlands",
+      "ISSNLinking": "0158-9938",
+      "MedlineTA": "Australas Phys Eng Sci Med"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 24
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "69-84"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Breast-region segmentation is an important step for density estimation and Computer-Aided Diagnosis (CAD) systems in Magnetic Resonance Imaging (MRI). Detection of breast-chest wall boundary is often a difficult task due to similarity between gray-level values of fibroglandular tissue and pectoral muscle. This paper proposes a robust breast-region segmentation method which is applicable for both complex cases with fibroglandular tissue connected to the pectoral muscle, and simple cases with high contrast boundaries. We present a decision-making framework based on geometric features and support vector machine (SVM) to classify breasts in two main groups, complex and simple. For complex cases, breast segmentation is done using a combination of intensity-based and atlas-based techniques; however, only intensity-based operation is employed for simple cases. A novel atlas-based method, that is called localized-atlas, accomplishes the processes of atlas construction and registration based on the region of interest (ROI). Atlas-based segmentation is performed by relying on the chest wall template. Our approach is validated using a dataset of 210 cases. Based on similarity between automatic and manual segmentation results, the proposed method achieves Dice similarity coefficient, Jaccard coefficient, total overlap, false negative, and false positive values of 96.3, 92.9, 97.4, 2.61 and 4.77%, respectively. The localization error of the breast-chest wall boundary is 1.97 mm, in terms of averaged deviation distance. The achieved results prove that the suggested framework performs the breast segmentation with negligible errors and efficient computational time for different breasts from the viewpoints of size, shape, and density pattern."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aida",
+            "LastName": "Fooladivanda",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Iran University of Science and Technology (IUST), Tehran, Iran. a_fooladivanda@iust.ac.ir."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shahriar B",
+            "LastName": "Shokouhi",
+            "Initials": "SB",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Iran University of Science and Technology (IUST), Tehran, Iran."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nasrin",
+            "LastName": "Ahmadinejad",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Advanced Diagnostic and Interventional Radiology Research Center (ADIR), Tehran University of Medical Science, Tehran, Iran."}
+          }
+        ]
+      },
+      "ArticleTitle": "Localized-atlas-based segmentation of breast MRI in a decision-making framework.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s13246-016-0513-3"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 40,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Australas Phys Eng Sci Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1879-5447"
+        },
+        "Title": "Australasian physical & engineering sciences in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Atlas-based segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Breast MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Breast segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Geometric features"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Localized-atlas"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Support vector machine (SVM)"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000716",
+        "MajorTopicYN": "N",
+        "content": "Anatomy, Artistic"
+      }},
+      {"DescriptorName": {
+        "UI": "D019540",
+        "MajorTopicYN": "N",
+        "content": "Area Under Curve"
+      }},
+      {"DescriptorName": {
+        "UI": "D001271",
+        "MajorTopicYN": "Y",
+        "content": "Atlases as Topic"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000033",
+          "MajorTopicYN": "Y",
+          "content": "anatomy & histology"
+        },
+        "DescriptorName": {
+          "UI": "D001940",
+          "MajorTopicYN": "N",
+          "content": "Breast"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003657",
+        "MajorTopicYN": "Y",
+        "content": "Decision Making"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "Y",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000033",
+          "MajorTopicYN": "N",
+          "content": "anatomy & histology"
+        },
+        "DescriptorName": {
+          "UI": "D035441",
+          "MajorTopicYN": "N",
+          "content": "Thoracic Wall"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D055815",
+        "MajorTopicYN": "N",
+        "content": "Young Adult"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 24
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28116639
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2015,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28116639,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s13246-016-0513-3",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s13246-016-0513-3",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

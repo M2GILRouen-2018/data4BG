@@ -1,0 +1,661 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 20141073},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCRR NIH HHS",
+          "Country": "United States",
+          "GrantID": "P20RR016461",
+          "Acronym": "RR"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Computational modelling of physical and biochemical processes has emerged as a means of evaluating medical devices, offering new insights that explain current performance, inform future designs and even enable personalized use. Yet resource limitations force one to compromise with reduced order computational models and idealized assumptions that yield either qualitative descriptions or approximate, quantitative solutions to problems of interest. Considering endovascular drug delivery as an exemplary scenario, we used a supervised machine learning framework to process data generated from low fidelity coarse meshes and predict high fidelity solutions on refined mesh configurations. We considered two models simulating drug delivery to the arterial wall: (i) two-dimensional drug-coated balloons and (ii) three-dimensional drug-eluting stents. Simulations were performed on computational mesh configurations of increasing density. Supervised learners based on Gaussian process modelling were constructed from combinations of coarse mesh setting solutions of drug concentrations and nearest neighbourhood distance information as inputs, and higher fidelity mesh solutions as outputs. These learners were then used as computationally inexpensive surrogates to extend predictions using low fidelity information to higher levels of mesh refinement. The cross-validated, supervised learner-based predictions improved fidelity as compared with computational simulations performed at coarse level meshes--a result consistent across all outputs and computational models considered. Supervised learning on coarse mesh solutions can augment traditional physics-based modelling of complex physiologic phenomena. By obtaining efficient solutions at a fraction of the computational cost, this framework has the potential to transform how modelling approaches can be applied in the evaluation of medical technologies and their real-time administration in an increasingly personalized fashion."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kumaran",
+            "LastName": "Kolandaivelu",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA Cardiovascular Division, Brigham and Women's Hospital, 75 Francis Street, Boston, MA 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Caroline C",
+            "LastName": "O'Brien",
+            "Initials": "CC",
+            "AffiliationInfo": {"Affiliation": "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tarek",
+            "LastName": "Shazly",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "College of Engineering and Computing, University of South Carolina, Columbia, SC 29208, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elazer R",
+            "LastName": "Edelman",
+            "Initials": "ER",
+            "AffiliationInfo": {"Affiliation": "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA David H. Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA Cardiovascular Division, Brigham and Women's Hospital, 75 Francis Street, Boston, MA 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vijaya B",
+            "LastName": "Kolachalama",
+            "Initials": "VB",
+            "AffiliationInfo": {"Affiliation": "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA Charles Stark Draper Laboratory, 555 Technology Square, Cambridge, MA 02139, USA vkolachalama@draper.com."}
+          }
+        ]
+      },
+      "ArticleTitle": "Enhancing physiologic simulations using supervised learning on coarse mesh solutions.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1098/rsif.2014.1073"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": 20141073
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 104,
+          "Volume": 12,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2015,
+            "Day": "06"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J R Soc Interface",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1742-5662"
+        },
+        "Title": "Journal of the Royal Society, Interface"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2015,
+      "Day": "05"
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2013 May 21;127(20):2047-55",
+        "PMID": {
+          "Version": 1,
+          "content": 23584359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2011 Feb 22;123(7):779-97",
+        "PMID": {
+          "Version": 1,
+          "content": 21343594
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2010 Jun 22;121(24):2672-80",
+        "PMID": {
+          "Version": 1,
+          "content": 20566965
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Control Release. 2009 Jan 5;133(1):24-30",
+        "PMID": {
+          "Version": 1,
+          "content": 18926864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomaterials. 2011 Nov;32(31):7755-73",
+        "PMID": {
+          "Version": 1,
+          "content": 21821283
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Control Release. 2013 Jun 10;168(2):115-24",
+        "PMID": {
+          "Version": 1,
+          "content": 23541929
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2014 May 13;63(18):1913-5",
+        "PMID": {
+          "Version": 1,
+          "content": 24657698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2013;16(Pt 3):323-30",
+        "PMID": {
+          "Version": 1,
+          "content": 24505777
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2012 Sep 26;308(12):1237-45",
+        "PMID": {
+          "Version": 1,
+          "content": 22922562
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Biomed Eng. 2012 Apr;40(4):955-65",
+        "PMID": {
+          "Version": 1,
+          "content": 22042625
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2006 Feb 21;47(4):708-14",
+        "PMID": {
+          "Version": 1,
+          "content": 16487832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Cardiol. 2014 Jan;11(1):13-23",
+        "PMID": {
+          "Version": 1,
+          "content": 24189405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2001 Apr 3;103(13):1740-5",
+        "PMID": {
+          "Version": 1,
+          "content": 11282904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2008 Mar;55(3):1176-84",
+        "PMID": {
+          "Version": 1,
+          "content": 18334411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2014 Aug 22;47(11):2547-55",
+        "PMID": {
+          "Version": 1,
+          "content": 24998989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2007 May;45(5):505-13",
+        "PMID": {
+          "Version": 1,
+          "content": 17375345
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Cardiovasc Interv. 2009 Aug;2(4):352-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20031739
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2014 Mar 3;47(4):908-21",
+        "PMID": {
+          "Version": 1,
+          "content": 24495755
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomech Model Mechanobiol. 2012 Jan;11(1-2):61-82",
+        "PMID": {
+          "Version": 1,
+          "content": 21373889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2013 Jul 6;10(84):20130193",
+        "PMID": {
+          "Version": 1,
+          "content": 23676893
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Biomed Eng. 2010 Jan;38(1):88-99",
+        "PMID": {
+          "Version": 1,
+          "content": 19898936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharm Sci. 2001 Sep;90(9):1324-35",
+        "PMID": {
+          "Version": 1,
+          "content": 11745785
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Eng Online. 2007;6:47",
+        "PMID": {
+          "Version": 1,
+          "content": 18078522
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Eng Phys. 2014 Apr;36(4):467-76",
+        "PMID": {
+          "Version": 1,
+          "content": 24613503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Control Release. 2010 Mar 19;142(3):332-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19925836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Med. 2004;55:169-78",
+        "PMID": {
+          "Version": 1,
+          "content": 14746515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2012 Apr 10;59(15):1337-49",
+        "PMID": {
+          "Version": 1,
+          "content": 22480478
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Biomater. 2013 Apr;9(4):6052-61",
+        "PMID": {
+          "Version": 1,
+          "content": 23261926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech. 2012 Jul 26;45(11):1952-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22704609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Jun 22;101(25):9463-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15197278
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech Eng. 2012 Jan;134(1):011002",
+        "PMID": {
+          "Version": 1,
+          "content": 22482657
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2010;13(Pt 3):375-82",
+        "PMID": {
+          "Version": 1,
+          "content": 20879422
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Eng Online. 2008;7:23",
+        "PMID": {
+          "Version": 1,
+          "content": 18684321
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009;4(12):e8105",
+        "PMID": {
+          "Version": 1,
+          "content": 19956555
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EuroIntervention. 2005 Aug;1(2):219-27",
+        "PMID": {
+          "Version": 1,
+          "content": 19758907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2011 Apr 5;123(13):1400-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21422389
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JACC Cardiovasc Interv. 2014 Jan;7(1):72-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24332418
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Eng Phys. 2013 Sep;35(9):1272-81",
+        "PMID": {
+          "Version": 1,
+          "content": 23428836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Eng Online. 2011;10:33",
+        "PMID": {
+          "Version": 1,
+          "content": 21521508
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2001 Jul 31;104(5):600-5",
+        "PMID": {
+          "Version": 1,
+          "content": 11479260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Eng Phys. 2011 Dec;33(10):1183-92",
+        "PMID": {
+          "Version": 1,
+          "content": 21658986
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2013 Jan 17;368(3):254-65",
+        "PMID": {
+          "Version": 1,
+          "content": 23323902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JACC Cardiovasc Interv. 2014 Aug;7(8):827-39",
+        "PMID": {
+          "Version": 1,
+          "content": 25147028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2013 Jun 4;61(22):2233-41",
+        "PMID": {
+          "Version": 1,
+          "content": 23562923
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4345474"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101217269,
+      "Country": "England",
+      "ISSNLinking": "1742-5662",
+      "MedlineTA": "J R Soc Interface"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2015,
+      "Day": 30
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian process"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "computational modelling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "drug-coated balloons"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "drug-eluting stents"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "nearest neighbours"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000187",
+            "MajorTopicYN": "N",
+            "content": "drug effects"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "Y",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001158",
+          "MajorTopicYN": "N",
+          "content": "Arteries"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "N",
+        "content": "Artificial Intelligence"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000188",
+          "MajorTopicYN": "N",
+          "content": "drug therapy"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000187",
+          "MajorTopicYN": "N",
+          "content": "drug effects"
+        },
+        "DescriptorName": {
+          "UI": "D003331",
+          "MajorTopicYN": "N",
+          "content": "Coronary Vessels"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016503",
+        "MajorTopicYN": "Y",
+        "content": "Drug Delivery Systems"
+      }},
+      {"DescriptorName": {
+        "UI": "D054855",
+        "MajorTopicYN": "Y",
+        "content": "Drug-Eluting Stents"
+      }},
+      {"DescriptorName": {
+        "UI": "D020342",
+        "MajorTopicYN": "N",
+        "content": "Finite Element Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D016011",
+        "MajorTopicYN": "N",
+        "content": "Normal Distribution"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 25652458
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25652458,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "rsif.2014.1073",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1098/rsif.2014.1073",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4345474",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

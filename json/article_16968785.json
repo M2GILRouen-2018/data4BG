@@ -1,0 +1,417 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2009,
+      "Day": 21
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "i204-12"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "MOTIVATION",
+          "content": "Many complex disease syndromes such as asthma consist of a large number of highly related, rather than independent, clinical phenotypes, raising a new technical challenge in identifying genetic variations associated simultaneously with correlated traits. Although a causal genetic variation may influence a group of highly correlated traits jointly, most of the previous association analyses considered each phenotype separately, or combined results from a set of single-phenotype analyses."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We propose a new statistical framework called graph-guided fused lasso to address this issue in a principled way. Our approach represents the dependency structure among the quantitative traits explicitly as a network, and leverages this trait network to encode structured regularizations in a multivariate regression model over the genotypes and traits, so that the genetic markers that jointly influence subgroups of highly correlated traits can be detected with high sensitivity and specificity. While most of the traditional methods examined each phenotype independently, our approach analyzes all of the traits jointly in a single statistical method to discover the genetic markers that perturb a subset of correlated traits jointly rather than a single trait. Using simulated datasets based on the HapMap consortium data and an asthma dataset, we compare the performance of our method with the single-marker analysis, and other sparse regression methods that do not use any structural information in the traits. Our results show that there is a significant advantage in detecting the true causal single nucleotide polymorphisms when we incorporate the correlation pattern in traits using our proposed methods."
+        },
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "AVAILABILITY",
+          "content": "Software for GFlasso is available at http://www.sailing.cs.cmu.edu/gflasso.html."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seyoung",
+            "LastName": "Kim",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "School of Computer Science, Carnegie Mellon University, Pittsburgh, USA. sssykim@cs.cmu.edu"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kyung-Ah",
+            "LastName": "Sohn",
+            "Initials": "KA"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric P",
+            "LastName": "Xing",
+            "Initials": "EP"
+          }
+        ]
+      },
+      "ArticleTitle": "A multivariate regression approach to association analysis of a quantitative trait network.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btp218"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 25,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2009,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "05",
+      "Year": 2009,
+      "Day": 29
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D053263",
+          "MajorTopicYN": "N",
+          "content": "Gene Regulatory Networks"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D055106",
+        "MajorTopicYN": "Y",
+        "content": "Genome-Wide Association Study"
+      }},
+      {"DescriptorName": {
+        "UI": "D008957",
+        "MajorTopicYN": "N",
+        "content": "Models, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "N",
+        "content": "Phenotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D020641",
+        "MajorTopicYN": "N",
+        "content": "Polymorphism, Single Nucleotide"
+      }},
+      {"DescriptorName": {
+        "UI": "D040641",
+        "MajorTopicYN": "Y",
+        "content": "Quantitative Trait Loci"
+      }},
+      {"DescriptorName": {
+        "UI": "D012044",
+        "MajorTopicYN": "N",
+        "content": "Regression Analysis"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2009 Aug;16(8):1023-34",
+        "PMID": {
+          "Version": 1,
+          "content": 19630539
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2003 Dec;165(4):2213-33",
+        "PMID": {
+          "Version": 1,
+          "content": 14704198
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2008 Feb;82(2):375-85",
+        "PMID": {
+          "Version": 1,
+          "content": 18252218
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2005 Oct 27;437(7063):1299-320",
+        "PMID": {
+          "Version": 1,
+          "content": 16255080
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2008 Mar 27;452(7186):423-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18344981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2008 Jul;40(7):854-61",
+        "PMID": {
+          "Version": 1,
+          "content": 18552845
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Jun;21 Suppl 1:i213-21",
+        "PMID": {
+          "Version": 1,
+          "content": 15961460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2000 Oct 24;97(22):12182-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11027309
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2008 Mar 27;452(7186):429-35",
+        "PMID": {
+          "Version": 1,
+          "content": 18344982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2005 Feb;169(2):1045-59",
+        "PMID": {
+          "Version": 1,
+          "content": 15489509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2005 Oct 27;437(7063):1365-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16251966
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2007 Jun 7;447(7145):661-78",
+        "PMID": {
+          "Version": 1,
+          "content": 17554300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2008 Jul;9(3):432-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18079126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2000 Oct;156(2):899-911",
+        "PMID": {
+          "Version": 1,
+          "content": 11014835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Aug;81(2):304-20",
+        "PMID": {
+          "Version": 1,
+          "content": 17668380
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 Sep 22;20(14):2242-50",
+        "PMID": {
+          "Version": 1,
+          "content": 15130938
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2003 Jun;34(2):166-76",
+        "PMID": {
+          "Version": 1,
+          "content": 12740579
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Appl Genet Mol Biol. 2005;4:Article17",
+        "PMID": {
+          "Version": 1,
+          "content": 16646834
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Apr;80(4):705-15",
+        "PMID": {
+          "Version": 1,
+          "content": 17357076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Theor Appl Genet. 1996 Jun;92(8):998-1002",
+        "PMID": {
+          "Version": 1,
+          "content": 24166627
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2007 Mar 15;175(6):570-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17170387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2007 Feb;119(2):405-13",
+        "PMID": {
+          "Version": 1,
+          "content": 17291857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2004 Feb 6;303(5659):799-805",
+        "PMID": {
+          "Version": 1,
+          "content": 14764868
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 Sep 19;103(38):14062-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16968785
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC2687972"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 19477989
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 5,
+        "Year": 2009,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2009,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 30,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2009,
+        "Minute": 0,
+        "Hour": 9,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 19477989,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btp218",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btp218",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC2687972",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

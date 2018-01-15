@@ -1,0 +1,444 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9441104,
+      "Country": "India",
+      "ISSNLinking": "0971-6203",
+      "MedlineTA": "J Med Phys"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "There are no conflicts of interest.",
+    "Article": {
+      "Pagination": {"MedlinePgn": "254-265"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The proposed framework is obtained by casting the noise removal problem into a variational framework. This framework automatically identifies the various types of noise present in the magnetic resonance image and filters them by choosing an appropriate filter. This filter includes two terms: the first term is a data likelihood term and the second term is a prior function. The first term is obtained by minimizing the negative log likelihood of the corresponding probability density functions: Gaussian or Rayleigh or Rician. Further, due to the ill-posedness of the likelihood term, a prior function is needed. This paper examines three partial differential equation based priors which include total variation based prior, anisotropic diffusion based prior, and a complex diffusion (CD) based prior. A regularization parameter is used to balance the trade-off between data fidelity term and prior. The finite difference scheme is used for discretization of the proposed method. The performance analysis and comparative study of the proposed method with other standard methods is presented for brain web dataset at varying noise levels in terms of peak signal-to-noise ratio, mean square error, structure similarity index map, and correlation parameter. From the simulation results, it is observed that the proposed framework with CD based prior is performing better in comparison to other priors in consideration."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ram Bharos",
+            "LastName": "Yadav",
+            "Initials": "RB",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology, BHU, Varanasi, Uttar Pradesh, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Subodh",
+            "LastName": "Srivastava",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology, BHU, Varanasi, Uttar Pradesh, India."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rajeev",
+            "LastName": "Srivastava",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology, BHU, Varanasi, Uttar Pradesh, India."}
+          }
+        ]
+      },
+      "ArticleTitle": "A partial differential equation-based general framework adapted to Rayleigh's, Rician's and Gaussian's distributed noise for restoration and enhancement of magnetic resonance image.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.4103/0971-6203.195190"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 41,
+          "PubDate": {"MedlineDate": "2016 Oct-Dec"},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "J Med Phys",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0971-6203"
+        },
+        "Title": "Journal of medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian's"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Rayleigh"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Rayleigh's"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Rician noise reduction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Rician's probability distribution function"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "nonlinear partial differential equation-based filter"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "two-dimensional magnetic resonance images"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2008 Aug;17(8):1383-98",
+        "PMID": {
+          "Version": 1,
+          "content": 18632347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2007 Mar 7;52(5):1335-48",
+        "PMID": {
+          "Version": 1,
+          "content": 17301458
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2008;11(Pt 2):171-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18982603
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2005 Dec;14(12):2091-106",
+        "PMID": {
+          "Version": 1,
+          "content": 16370462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1993;12(2):153-66",
+        "PMID": {
+          "Version": 1,
+          "content": 18218403
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 1999;8(10):1408-19",
+        "PMID": {
+          "Version": 1,
+          "content": 18267412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2009 Oct;18(10):2265-74",
+        "PMID": {
+          "Version": 1,
+          "content": 19546041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2008 Oct;27(10):1389-403",
+        "PMID": {
+          "Version": 1,
+          "content": 18815091
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2004 Oct;52(4):798-806",
+        "PMID": {
+          "Version": 1,
+          "content": 15389962
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 1998;16(1):87-90",
+        "PMID": {
+          "Version": 1,
+          "content": 9436952
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2004 Apr;13(4):600-12",
+        "PMID": {
+          "Version": 1,
+          "content": 15376593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 2013 Sep;31(7):1206-17",
+        "PMID": {
+          "Version": 1,
+          "content": 23668996
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2008 Apr;27(4):425-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18390341
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Jun;17(3):357-61",
+        "PMID": {
+          "Version": 1,
+          "content": 9735899
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 1991 Oct;21(2):288-95",
+        "PMID": {
+          "Version": 1,
+          "content": 1745127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2010 Aug 21;55(16):N441-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20679694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2003 Sep;22(9):1089-99",
+        "PMID": {
+          "Version": 1,
+          "content": 12956264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 2009 Dec;27(10):1397-409",
+        "PMID": {
+          "Version": 1,
+          "content": 19570640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2008 Aug;12(4):514-23",
+        "PMID": {
+          "Version": 1,
+          "content": 18381247
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2010 Jan;31(1):192-203",
+        "PMID": {
+          "Version": 1,
+          "content": 20027588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 2010 Jun;28(5):739-52",
+        "PMID": {
+          "Version": 1,
+          "content": 20456894
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1993 Jul-Aug;20(4):1077-8",
+        "PMID": {
+          "Version": 1,
+          "content": 8413015
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1985 Sep-Oct;12(5):586-91",
+        "PMID": {
+          "Version": 1,
+          "content": 4046992
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1985 Mar-Apr;12(2):232-3",
+        "PMID": {
+          "Version": 1,
+          "content": 4000083
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Inf Process Med Imaging. 2005;19:677-88",
+        "PMID": {
+          "Version": 1,
+          "content": 17354735
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 1995 Dec;34(6):910-4",
+        "PMID": {
+          "Version": 1,
+          "content": 8598820
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 2010 Mar;34(2):167-76",
+        "PMID": {
+          "Version": 1,
+          "content": 19782533
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2009 Mar;56(3):666-74",
+        "PMID": {
+          "Version": 1,
+          "content": 19389683
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Feb;29(2):302-10",
+        "PMID": {
+          "Version": 1,
+          "content": 19605318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2004 Mar;51(3):586-94",
+        "PMID": {
+          "Version": 1,
+          "content": 15004801
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2004 Aug;26(8):1020-36",
+        "PMID": {
+          "Version": 1,
+          "content": 15641732
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2000;9(10):1723-30",
+        "PMID": {
+          "Version": 1,
+          "content": 18262911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2006;9(Pt 2):33-40",
+        "PMID": {
+          "Version": 1,
+          "content": 17354753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2006;9(Pt 1):117-25",
+        "PMID": {
+          "Version": 1,
+          "content": 17354881
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 2010 Dec;28(10):1485-96",
+        "PMID": {
+          "Version": 1,
+          "content": 20850239
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28144118
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28144118,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.4103/0971-6203.195190",
+        "IdType": "doi"
+      },
+      {
+        "content": "JMP-41-254",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5228049",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

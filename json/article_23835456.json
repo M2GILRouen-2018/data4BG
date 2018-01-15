@@ -1,0 +1,271 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9806357,
+      "Country": "Netherlands",
+      "ISSNLinking": "1387-1307",
+      "MedlineTA": "J Clin Monit Comput"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "5-11"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Blood pressure management is a central concern in critical care patients. For a variety of reasons, titration of vasopressor infusions may be an ideal use-case for computer assistance. Using our previous experience gained in the bench-to-bedside development of a computer-assisted fluid management system, we have developed a novel controller for this purpose. The aim of this preliminary study was to assess the feasibility of using this controller in simulated patients to maintain a target blood pressure in both stable and variable blood-pressure scenarios. We tested the controller in two sets of simulation scenarios: one with stable underlying blood pressure and a second with variable underlying blood pressure. In addition, in the variable phase of the study, we tested infusion-line delays of 8-60 s. The primary outcome for both testing conditions (stable and variable) was % case time in target range. We determined a priori that acceptable performance on the first phase of the protocol would require greater than 95% case-time in-target given the simple nature of the protocol, and for the second phase of the study 80% or greater given the erratic nature of the blood pressure changes taking place. 250 distinct cases for each simulation condition, both managed and unmanaged, were run over 4 days. In the stable hemodynamic conditions, the unmanaged group had an MAP of 57.5\u2009±\u20094.6 mmHg and spent only 5.6% of case time in-target. The managed group had an MAP of 70.3\u2009±\u20092.6 and spent a total of 99.5% of case time in-target (p\u2009<\u20090.00001 for both comparisons between groups). In the variable hemodynamic conditions, the unmanaged group had an MAP of 53.1\u2009±\u20095.0 mmHg and spent 0% of case time in-target. The managed group had an MAP of 70.5\u2009±\u20093.2 mmHg (p\u2009<\u20090.00001 compared to unmanaged group) and spent 88.6% of case time in-target (p\u2009<\u20090.00001 compared to unmanaged group), with 6.4% of case time over and 5.1% of case time under target. Increasing infusion lag increased coefficient of variation by about 10% per 15 s of lag (p\u2009=\u20090.001). This study demonstrated that this novel controller for vasopressor administration is able to main a target mean arterial pressure in a simulated physiologic model in the face of random disturbances and infusion-line lag."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joseph",
+            "LastName": "Rinehart",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology & Perioperative Care, University of California Irvine, 101 The City Dr. South, Orange, CA, 92868, USA. jrinehar@uci.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Ma",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology & Perioperative Care, University of California Irvine, 101 The City Dr. South, Orange, CA, 92868, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael-David",
+            "LastName": "Calderon",
+            "Initials": "MD",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology & Perioperative Care, University of California Irvine, 101 The City Dr. South, Orange, CA, 92868, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maxime",
+            "LastName": "Cannesson",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology, University of California Los Angeles, Los Angeles, CA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Feasibility of automated titration of vasopressor infusions using a novel closed-loop controller.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10877-017-9981-6"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 32,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Clin Monit Comput",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1573-2614"
+        },
+        "Title": "Journal of clinical monitoring and computing"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Automated titration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Blood-pressure management"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Closed-loop"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Sepsis management"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Vasopressor"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "05"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care Med. 2010 Oct;38(10 Suppl):S613-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21164405
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesthesiology. 2005 Aug;103(2):344-52",
+        "PMID": {
+          "Version": 1,
+          "content": 16052117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesth Analg. 2012 Jan;114(1):130-43",
+        "PMID": {
+          "Version": 1,
+          "content": 21965362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2014;2014:1949-52",
+        "PMID": {
+          "Version": 1,
+          "content": 25570362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int Anesthesiol Clin. 2015 Spring;53(2):91-101",
+        "PMID": {
+          "Version": 1,
+          "content": 25807021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2014 Apr 24;370(17):1583-93",
+        "PMID": {
+          "Version": 1,
+          "content": 24635770
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Best Pract Res Clin Endocrinol Metab. 2015 Jun;29(3):315-25",
+        "PMID": {
+          "Version": 1,
+          "content": 26051293
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesth Analg. 2013 Nov;117(5):1110-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23835454
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Care. 2011;15(6):R278",
+        "PMID": {
+          "Version": 1,
+          "content": 22112587
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Intensive Care. 2015 Dec;5(1):41",
+        "PMID": {
+          "Version": 1,
+          "content": 26573630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Anaesthesiol. 2009 Dec;22(6):757-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19812483
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesth Analg. 2013 Nov;117(5):1130-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23835456
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28124225
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "05",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28124225,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10877-017-9981-6",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10877-017-9981-6",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

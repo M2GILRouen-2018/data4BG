@@ -1,0 +1,261 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "2985093R",
+      "Country": "United States",
+      "ISSNLinking": "0017-9078",
+      "MedlineTA": "Health Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D002588",
+          "content": "Cesium Radioisotopes"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D003301",
+          "content": "Copper Radioisotopes"
+        },
+        "RegistryNumber": 0
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 30
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "276-281"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "For Cs and Co gamma ray spectra, gamma ray energy is proportional to the amplitude of the pulse signal, and energy resolution can be improved by pulse signal processing with mathematical algorithms. Influenced by system measurement noise and baseline fluctuation, the pulse amplitude is difficult to calculate accurately. A method that combines the Kalman filter baseline estimation with the non-linear exponential fitting has been used. By this method, the pulse signal is divided into two parts: one is the raising edge before the pulse peak, and another is after the pulse peak. The pulse amplitude equals the difference between the pulse starting height and the pulse peak height. The pulse starting height is obtained by Kalman filter baseline estimation on the rising edge of the pulse starting point. The pulse peak height is calculated by nonlinear exponential fitting on the falling edge of the pulse highest point. When the sampling rate is 100 MHz, the pulse signals obtained from a Cd(Zn)Te detector are analyzed by this method. Results have shown that the processed pulses have a more distinguishable amplitude distribution; energy resolution for the Cs spectrum is approximately 2.97% at 662 keV (~19.66 keV FWHM), and for the Co spectrum it is 2.61% at 1,332 keV (~34.76 keV FWHM)."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Huiping",
+            "LastName": "Guo",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "*Hi-Tech Institute of Xi'an, Xi'an 710025, China; \u2020High-Tech Institute of Baoji, Baoji 721000, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chenyang",
+            "LastName": "Tian",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hongbin",
+            "LastName": "Xue",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ning",
+            "LastName": "Lv",
+            "Initials": "N"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yingguang",
+            "LastName": "Wei",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guangzhi",
+            "LastName": "Fu",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wenhui",
+            "LastName": "Lv",
+            "Initials": "W"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kuo",
+            "LastName": "Zhao",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yijie",
+            "LastName": "Hou",
+            "Initials": "Y"
+          }
+        ]
+      },
+      "ArticleTitle": "Exploiting Kalman Filtering Non-linear Exponential Fitting to Promote the Energy Resolution of 137Cs and 60Co Gamma Ray Spectra.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1097/HP.0000000000000606"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 112,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Health Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1538-5159"
+        },
+        "Title": "Health physics"
+      },
+      "PubModel": "Print"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000032",
+          "MajorTopicYN": "Y",
+          "content": "analysis"
+        },
+        "DescriptorName": {
+          "UI": "D002588",
+          "MajorTopicYN": "N",
+          "content": "Cesium Radioisotopes"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000032",
+          "MajorTopicYN": "Y",
+          "content": "analysis"
+        },
+        "DescriptorName": {
+          "UI": "D003301",
+          "MajorTopicYN": "N",
+          "content": "Copper Radioisotopes"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005720",
+        "MajorTopicYN": "Y",
+        "content": "Gamma Rays"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D017711",
+        "MajorTopicYN": "N",
+        "content": "Nonlinear Dynamics"
+      }},
+      {"DescriptorName": {
+        "UI": "D009716",
+        "MajorTopicYN": "N",
+        "content": "Numerical Analysis, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D012815",
+        "MajorTopicYN": "Y",
+        "content": "Signal Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D013051",
+        "MajorTopicYN": "N",
+        "content": "Spectrometry, Gamma"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 30
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28121728
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28121728,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1097/HP.0000000000000606",
+        "IdType": "doi"
+      },
+      {
+        "content": "00004032-201703000-00006",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

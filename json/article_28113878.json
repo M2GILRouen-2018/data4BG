@@ -1,0 +1,124 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101609393,
+      "Country": "United States",
+      "ISSNLinking": "2168-2267",
+      "MedlineTA": "IEEE Trans Cybern"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "818-829"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this paper, we advance graph classification to handle multi-graph learning for complicated objects, where each object is represented as a bag of graphs and the label is only available to each bag but not individual graphs. In addition, when training classifiers, users are only given a handful of positive bags and many unlabeled bags, and the learning objective is to train models to classify previously unseen graph bags with maximum accuracy. To achieve the goal, we propose a positive and unlabeled multi-graph learning (puMGL) framework to first select informative subgraphs to convert graphs into a feature space. To utilize unlabeled bags for learning, puMGL assigns a confidence weight to each bag and dynamically adjusts its weight value to select \"reliable negative bags.\" A number of representative graphs, selected from positive bags and identified reliable negative graph bags, form a \"margin graph pool\" which serves as the base for deriving subgraph patterns, training graph classifiers, and further updating the bag weight values. A closed-loop iterative process helps discover optimal subgraphs from positive and unlabeled graph bags for learning. Experimental comparisons demonstrate the performance of puMGL for classifying real-world complicated objects."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "LastName": "Jia Wu"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Shirui Pan"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Xingquan Zhu"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Chengqi Zhang"
+          },
+          {
+            "ValidYN": "Y",
+            "LastName": "Xindong Wu"
+          }
+        ]
+      },
+      "ArticleTitle": "Positive and Unlabeled Multi-Graph Learning.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TCYB.2016.2527239"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 47,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Cybern",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2168-2275"
+        },
+        "Title": "IEEE transactions on cybernetics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113878
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113878,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TCYB.2016.2527239",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

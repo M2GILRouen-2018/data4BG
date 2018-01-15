@@ -1,0 +1,280 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2014,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "649-70"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2013 Elsevier B.V. All rights reserved.",
+        "AbstractText": "Intravascular ultrasound (IVUS) is a catheter-based medical imaging technique that produces cross-sectional images of blood vessels and is particularly useful for studying atherosclerosis. In this paper, we present a computational method for the delineation of the luminal border in IVUS B-mode images. The method is based in the minimization of a probabilistic cost function (that deforms a parametric curve) which defines a probability field that is regularized with respect to the given likelihoods of the pixels belonging to blood and non-blood. These likelihoods are obtained by a Support Vector Machine classifier trained using samples of the lumen and non-lumen regions provided by the user in the first frame of the sequence to be segmented. In addition, an optimization strategy is introduced in which the direction of the steepest descent and Broyden-Fletcher-Goldfarb-Shanno optimization methods are linearly combined to improve convergence. Our proposed method (MRK) is capable of segmenting IVUS B-mode images from different systems and transducer frequencies without the need of any parameter tuning, and it is robust with respect to changes of the B-mode reconstruction parameters which are subjectively adjusted by the interventionist. We validated the proposed method on six 20MHz and six 40MHz IVUS stationary sequences corresponding to regions with different degrees of stenosis, and evaluated its performance by comparing the segmentation results with manual segmentation by two observers. Furthermore, we compared our method with the segmentation results on the same sequences as provided by the authors of three other segmentation methods available in the literature. The performance of all methods was quantified using Dice and Jaccard similarity indexes, Hausdorff distance, linear regression and Bland-Altman analysis. The results indicate the advantages of our method for the segmentation of the lumen contour."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "E Gerardo",
+            "LastName": "Mendizabal-Ruiz",
+            "Initials": "EG",
+            "AffiliationInfo": {"Affiliation": "Computational Biomedicine Lab, Department of Computer Science, University of Houston, Houston, TX, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mariano",
+            "LastName": "Rivera",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ioannis A",
+            "LastName": "Kakadiaris",
+            "Initials": "IA"
+          }
+        ]
+      },
+      "ArticleTitle": "Segmentation of the luminal border in intravascular ultrasound B-mode images using a probabilistic approach.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.media.2013.02.003"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1361-8415(13)00011-X"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2013
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2013,
+      "Day": "04"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D023921",
+          "MajorTopicYN": "N",
+          "content": "Coronary Stenosis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003627",
+        "MajorTopicYN": "N",
+        "content": "Data Interpretation, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D004452",
+          "MajorTopicYN": "N",
+          "content": "Echocardiography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007089",
+          "MajorTopicYN": "N",
+          "content": "Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018084",
+          "MajorTopicYN": "N",
+          "content": "Ultrasonography, Interventional"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 23490618
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2012,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2013,
+        "Day": 28,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "02",
+        "Year": 2013,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 3,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 3,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23490618,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(13)00011-X",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2013.02.003",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

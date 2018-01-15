@@ -1,0 +1,288 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101695557,
+      "Country": "United States",
+      "MedlineTA": "J Physiother Phys Rehabil"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIGMS NIH HHS",
+          "Country": "United States",
+          "GrantID": "P20 GM104420",
+          "Acronym": "GM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "The objective of the proposed research is to develop a methodology for modeling and evaluation of human motions, which will potentially benefit patients undertaking a physical rehabilitation therapy (e.g., following a stroke or due to other medical conditions). The ultimate aim is to allow patients to perform home-based rehabilitation exercises using a sensory system for capturing the motions, where an algorithm will retrieve the trajectories of a patient's exercises, will perform data analysis by comparing the performed motions to a reference model of prescribed motions, and will send the analysis results to the patient's physician with recommendations for improvement."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The modeling approach employs an artificial neural network, consisting of layers of recurrent neuron units and layers of neuron units for estimating a mixture density function over the spatio-temporal dependencies within the human motion sequences. Input data are sequences of motions related to a prescribed exercise by a physiotherapist to a patient, and recorded with a motion capture system. An autoencoder subnet is employed for reducing the dimensionality of captured sequences of human motions, complemented with a mixture density subnet for probabilistic modeling of the motion data using a mixture of Gaussian distributions."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The proposed neural network architecture produced a model for sets of human motions represented with a mixture of Gaussian density functions. The mean log-likelihood of observed sequences was employed as a performance metric in evaluating the consistency of a subject's performance relative to the reference dataset of motions. A publically available dataset of human motions captured with Microsoft Kinect was used for validation of the proposed method."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The article presents a novel approach for modeling and evaluation of human motions with a potential application in home-based physical therapy and rehabilitation. The described approach employs the recent progress in the field of machine learning and neural networks in developing a parametric model of human motions, by exploiting the representational power of these algorithms to encode nonlinear input-output dependencies over long temporal horizons."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "A",
+            "LastName": "Vakanski",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Industrial Technology, University of Idaho, Idaho Falls, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "J M",
+            "LastName": "Ferguson",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Center for Modeling Complex Interactions, University of Idaho, Moscow, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "S",
+            "LastName": "Lee",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Statistical Science, University of Idaho, Moscow, United States."}
+          }
+        ]
+      },
+      "ArticleTitle": "Mathematical Modeling and Evaluation of Human Motions in Physical Therapy Using Mixture Density Neural Networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "pii",
+        "content": 118
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 1,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "J Physiother Phys Rehabil",
+        "Title": "Journal of physiotherapy & physical rehabilitation"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Auto-encoder"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Mathematical model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Mixture density network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Neural networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Performance metric"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Physical rehabilitation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Recurrent neural networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Time series"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 1969 Oct;9(10):1233-51",
+        "PMID": {
+          "Version": 1,
+          "content": 5824412
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Phys Med Rehabil. 2014 Aug;2(4):null",
+        "PMID": {
+          "Version": 1,
+          "content": 26824053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Cybern. 1988;59(4-5):291-4",
+        "PMID": {
+          "Version": 1,
+          "content": 3196773
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Ther. 2007 Sep;87(9):1132-43",
+        "PMID": {
+          "Version": 1,
+          "content": 17609331
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Ther. 2011 Jul;91(7):1018-29",
+        "PMID": {
+          "Version": 1,
+          "content": 21566066
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Syst Man Cybern B Cybern. 2012 Aug;42(4):1039-52",
+        "PMID": {
+          "Version": 1,
+          "content": 22411023
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 1997 Nov 15;9(8):1735-80",
+        "PMID": {
+          "Version": 1,
+          "content": 9377276
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Top Stroke Rehabil. 2017 Mar;24(2):142-148",
+        "PMID": {
+          "Version": 1,
+          "content": 27334684
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Netw. 2015 Jan;61:85-117",
+        "PMID": {
+          "Version": 1,
+          "content": 25462637
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Eng. 2014;2014:846514",
+        "PMID": {
+          "Version": 1,
+          "content": 27006935
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Syst Man Cybern B Cybern. 2007 Apr;37(2):286-98",
+        "PMID": {
+          "Version": 1,
+          "content": 17416157
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Man Ther. 2010 Jun;15(3):220-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20163979
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28111643
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28111643,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "PMC5242735",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS827516",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

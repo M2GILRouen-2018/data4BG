@@ -1,0 +1,207 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8915031,
+      "Country": "Netherlands",
+      "ISSNLinking": "0933-3657",
+      "MedlineTA": "Artif Intell Med"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "The use of artificial intelligence techniques to find out which Single Nucleotide Polymorphisms (SNPs) promote the development of a disease is one of the features of medical research, as such techniques may potentially aid early diagnosis and help in the prescription of preventive measures. In particular, the aim is to help physicians to identify the relevant SNPs related to Type 2 diabetes, and to build a decision-support tool for risk prediction."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We use the Random Forest (RF) technique in order to search for the most important attributes (SNPs) related to diabetes, giving a weight (degree of importance), ranging between 0 and 1, to each attribute. Support Vector Machines and Logistic Regression have also been used since they are two other machine learning techniques that are well-established in the health community. Their performance has been compared to that achieved by RF. Furthermore, the relevance of the attributes obtained through the use of RF has then been used to perform predictions with k-Nearest Neighbour method weighting attributes in the similarity measure according to the relevance of the attributes with RF."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Testing is performed on a set of 677 subjects. RF is able to handle the complexity of features' interactions, overfitting, and unknown attribute values, providing the SNPs' relevance with an up to 0.89 area under the ROC curve in terms of risk prediction. RF outperforms all the other tested machine learning techniques in terms of prediction accuracy, and in terms of the stability of the estimated relevance of the attributes."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The Random Forest is a useful method for learning predictive models and the relevance of SNPs without any underlying assumption."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Beatriz",
+            "LastName": "López",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "University of Girona, Campus Montilivi, building EPS4, 17071 Girona, Spain. Electronic address: beatriz.lopez@udg.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ferran",
+            "LastName": "Torrent-Fontbona",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "University of Girona, Campus Montilivi, building EPS4, 17071 Girona, Spain. Electronic address: ferran.torrent@udg.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ramón",
+            "LastName": "Viñas",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "University of Girona, Campus Montilivi, building EPS4, 17071 Girona, Spain. Electronic address: rvinast@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "José Manuel",
+            "LastName": "Fernández-Real",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Biomedical Research Institute of Girona, Avda. de França, s/n, 17007 Girona, Spain; CIBERobn Pathophysiology of Obesity and Nutrition, Instituto de Salud Carlos III, Madrid, Spain. Electronic address: jmfreal@idibgi.org."}
+          }
+        ]
+      },
+      "ArticleTitle": "Single Nucleotide Polymorphism relevance learning with Random Forests for Type 2 diabetes risk prediction.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0933-3657(17)30068-4"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.artmed.2017.09.005"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Artif Intell Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1873-2860"
+        },
+        "Title": "Artificial intelligence in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Feature learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Gini importance"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Predictive model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Random Forest"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Type 2 diabetes"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 25
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28943335
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28943335,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0933-3657(17)30068-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.artmed.2017.09.005",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

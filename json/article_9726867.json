@@ -1,0 +1,297 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 13
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0184554"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In microbiology it is diagnostically useful to recognize various genera and species of bacteria. It can be achieved using computer-aided methods, which make the recognition processes more automatic and thus significantly reduce the time necessary for the classification. Moreover, in case of diagnostic uncertainty (the misleading similarity in shape or structure of bacterial cells), such methods can minimize the risk of incorrect recognition. In this article, we apply the state of the art method for texture analysis to classify genera and species of bacteria. This method uses deep Convolutional Neural Networks to obtain image descriptors, which are then encoded and classified with Support Vector Machine or Random Forest. To evaluate this approach and to make it comparable with other approaches, we provide a new dataset of images. DIBaS dataset (Digital Image of Bacterial Species) contains 660 images with 33 different genera and species of bacteria."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-3063-3621"
+            },
+            "ForeName": "Bartosz",
+            "LastName": "Zieliński",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Faculty of Mathematics and Computer Science, Jagiellonian University, 6 Łojasiewicza Street, 30-348 Kraków, Poland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anna",
+            "LastName": "Plichta",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, Cracow University of Technology, 24 Warszawska Street, 31-422 Kraków, Poland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Krzysztof",
+            "LastName": "Misztal",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Faculty of Mathematics and Computer Science, Jagiellonian University, 6 Łojasiewicza Street, 30-348 Kraków, Poland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Przemysław",
+            "LastName": "Spurek",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Faculty of Mathematics and Computer Science, Jagiellonian University, 6 Łojasiewicza Street, 30-348 Kraków, Poland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Monika",
+            "LastName": "Brzychczy-Włoch",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Bacteriology, Microbial Ecology and Parasitology, Chair of Microbiology, Jagiellonian University Medical College, 18 Czysta Street, 31-121 Kraków, Poland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dorota",
+            "LastName": "Ochońska",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Infection Epidemiology, Chair of Microbiology, Faculty of Medicine, Jagiellonian University Medical College, 18 Czysta Street, 31-121 Kraków, Poland."}
+          }
+        ]
+      },
+      "ArticleTitle": "Deep learning approach to bacterial colony classification.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0184554"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000145",
+          "MajorTopicYN": "Y",
+          "content": "classification"
+        },
+        "DescriptorName": {
+          "UI": "D001419",
+          "MajorTopicYN": "N",
+          "content": "Bacteria"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016208",
+        "MajorTopicYN": "N",
+        "content": "Databases, Factual"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "Y",
+        "content": "Neural Networks (Computer)"
+      }},
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 13
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Comput Vis. 2016;118:65-94",
+        "PMID": {
+          "Version": 1,
+          "content": 27471340
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Microsc. 2006 Aug;223(Pt 2):120-32",
+        "PMID": {
+          "Version": 1,
+          "content": 16911072
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Sci. 2013 Dec 15;126(Pt 24):5529-39",
+        "PMID": {
+          "Version": 1,
+          "content": 24259662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Feb 15;30(4):472-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24318998
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Sep 03;9(9):e106691",
+        "PMID": {
+          "Version": 1,
+          "content": 25184541
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Syst Appl Microbiol. 2011 Feb;34(1):20-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21295428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2004 Jul;23(7):807-20",
+        "PMID": {
+          "Version": 1,
+          "content": 15250633
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE J Biomed Health Inform. 2013 Jan;17(1):232-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23060342
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microb Ecol. 2001 Apr;41(3):173-194",
+        "PMID": {
+          "Version": 1,
+          "content": 11391457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Jan 1;33(1):35-41",
+        "PMID": {
+          "Version": 1,
+          "content": 27531102
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 1998 Sep;64(9):3246-55",
+        "PMID": {
+          "Version": 1,
+          "content": 9726867
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28910352
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28910352,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0184554",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-20371",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5599001",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

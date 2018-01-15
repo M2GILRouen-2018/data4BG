@@ -1,0 +1,106 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A new filter is presented which has better edge and detail preserving properties than a median, noise reduction capability similar to a Gaussian, and is applicable to many signal and noise types. It is built on a definition of signal as bitonic, i.e. containing only one local maxima or minima within the filter range. This definition is based on data ranking rather than value, hence the bitonic filter comprises a combination of non-linear morphological and linear operators. It has no data-level-sensitive parameters and can locally adapt to the signal and noise levels in an image, precisely preserving both smooth and discontinuous signals of any level when there is no noise, but also reducing noise in other areas without creating additional artefactual noise. Both the basis and the performance of the filter are examined in detail, and it is shown to be a significant improvement on the Gaussian and median. It is also compared over various noisy images to the image-guided filter, anisotropic diffusion, non-local means, the grain filter, and self-dual forms of levelling and rank filters. In terms of signal-to-noise, the bitonic filter outperforms all these except non-local means, and sometimes anisotropic diffusion. However it gives good visual results in all circumstances, with characteristics which make it appropriate particularly for signals or images with varying noise, or features at varying levels. The bitonic has very few parameters, does not require optimisation nor prior knowledge of noise levels, does not have any problems with stability, and is reasonably fast to implement. Despite its non-linearity, it hence represents a very practical operation with general applicability."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "ForeName": "Graham",
+          "LastName": "Treece",
+          "Initials": "G"
+        }
+      },
+      "ArticleTitle": "The Bitonic Filter: Linear Filtering in an Edge-preserving Morphological Framework.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2605302"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2016,
+            "Day": "02"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113372
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113372,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2605302",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

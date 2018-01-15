@@ -1,0 +1,246 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9711271,
+      "Country": "United States",
+      "MedlineTA": "Pac Symp Biocomput"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "300-311"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In our recent Asthma Mobile Health Study (AMHS), thousands of asthma patients across the country contributed medical data through the iPhone Asthma Health App on a daily basis for an extended period of time. The collected data included daily self-reported asthma symptoms, symptom triggers, and real time geographic location information. The AMHS is just one of many studies occurring in the context of now many thousands of mobile health apps aimed at improving wellness and better managing chronic disease conditions, leveraging the passive and active collection of data from mobile, handheld smart devices. The ability to identify patient groups or patterns of symptoms that might predict adverse outcomes such as asthma exacerbations or hospitalizations from these types of large, prospectively collected data sets, would be of significant general interest. However, conventional clustering methods cannot be applied to these types of longitudinally collected data, especially survey data actively collected from app users, given heterogeneous patterns of missing values due to: 1) varying survey response rates among different users, 2) varying survey response rates over time of each user, and 3) non-overlapping periods of enrollment among different users. To handle such complicated missing data structure, we proposed a probability imputation model to infer missing data. We also employed a consensus clustering strategy in tandem with the multiple imputation procedure. Through simulation studies under a range of scenarios reflecting real data conditions, we identified favorable performance of the proposed method over other strategies that impute the missing value through low-rank matrix completion. When applying the proposed new method to study asthma triggers and symptoms collected as part of the AMHS, we identified several patient groups with distinct phenotype patterns. Further validation of the methods described in this paper might be used to identify clinically important patterns in large data sets with complicated missing data structure, improving the ability to use such data sets to identify at-risk populations for potential intervention."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicole",
+            "LastName": "Tignor",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pei",
+            "LastName": "Wang",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicholas",
+            "LastName": "Genes",
+            "Initials": "N"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Linda",
+            "LastName": "Rogers",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Steven G",
+            "LastName": "Hershman",
+            "Initials": "SG"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Erick R",
+            "LastName": "Scott",
+            "Initials": "ER"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Micol",
+            "LastName": "Zweig",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yu-Feng",
+            "LastName": "Yvonne Chan",
+            "Initials": "YF"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric E",
+            "LastName": "Schadt",
+            "Initials": "EE"
+          }
+        ]
+      },
+      "ArticleTitle": "METHODS FOR CLUSTERING TIME SERIES DATA ACQUIRED FROM MOBILE HEALTH APPS.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1142/9789813207813_0029"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 22,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Pac Symp Biocomput",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2335-6936"
+        },
+        "Title": "Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 29
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "N",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000628",
+            "MajorTopicYN": "N",
+            "content": "therapy"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001249",
+          "MajorTopicYN": "N",
+          "content": "Asthma"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D040421",
+        "MajorTopicYN": "N",
+        "content": "Cell Phones"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D003625",
+        "MajorTopicYN": "N",
+        "content": "Data Collection"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D063731",
+        "MajorTopicYN": "Y",
+        "content": "Mobile Applications"
+      }},
+      {"DescriptorName": {
+        "UI": "D011795",
+        "MajorTopicYN": "N",
+        "content": "Surveys and Questionnaires"
+      }},
+      {"DescriptorName": {
+        "UI": "D017216",
+        "MajorTopicYN": "Y",
+        "content": "Telemedicine"
+      }},
+      {"DescriptorName": {
+        "UI": "D013997",
+        "MajorTopicYN": "N",
+        "content": "Time Factors"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 16
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 27896984
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27896984,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "9789813207813_0029",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1142/9789813207813_0029",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

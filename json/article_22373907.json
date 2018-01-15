@@ -1,0 +1,435 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965258,
+      "Country": "England",
+      "ISSNLinking": "1471-2164",
+      "MedlineTA": "BMC Genomics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 749},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "A genomic signal track is a set of genomic intervals associated with values of various types, such as measurements from high-throughput experiments. Analysis of signal tracks requires complex computational methods, which often make the analysts focus too much on the detailed computational steps rather than on their biological questions."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Here we propose Signal Track Query Language (STQL) for simple analysis of signal tracks. It is a Structured Query Language (SQL)-like declarative language, which means one only specifies what computations need to be done but not how these computations are to be carried out. STQL provides a rich set of constructs for manipulating genomic intervals and their values. To run STQL queries, we have developed the Signal Track Analytical Research Tool (START, http://yiplab.cse.cuhk.edu.hk/start/ ), a system that includes a Web-based user interface and a back-end execution system. The user interface helps users select data from our database of around 10,000 commonly-used public signal tracks, manage their own tracks, and construct, store and share STQL queries. The back-end system automatically translates STQL queries into optimized low-level programs and runs them on a computer cluster in parallel. We use STQL to perform 14 representative analytical tasks. By repeating these analyses using bedtools, Galaxy and custom Python scripts, we show that the STQL solution is usually the simplest, and the parallel execution achieves significant speed-up with large data files. Finally, we describe how a biologist with minimal formal training in computer programming self-learned STQL to analyze DNA methylation data we produced from 60 pairs of hepatocellular carcinoma (HCC) samples."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Overall, STQL and START provide a generic way for analyzing a large number of genomic signal tracks in parallel easily."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xinjie",
+            "LastName": "Zhu",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, The University of Hong Kong, Pokfulam Road, Hong Kong, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qiang",
+            "LastName": "Zhang",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "School of Computing, Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric Dun",
+            "LastName": "Ho",
+            "Initials": "ED",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ken Hung-On",
+            "LastName": "Yu",
+            "Initials": "KH",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong."},
+              {"Affiliation": "Department of Anatomical and Cellular Pathology, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chris",
+            "LastName": "Liu",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tim H",
+            "LastName": "Huang",
+            "Initials": "TH",
+            "AffiliationInfo": {"Affiliation": "Department of Molecular Medicine, University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alfred Sze-Lok",
+            "LastName": "Cheng",
+            "Initials": "AS",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Sciences, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ben",
+            "LastName": "Kao",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, The University of Hong Kong, Pokfulam Road, Hong Kong, Hong Kong. kao@cs.hku.hk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric",
+            "LastName": "Lo",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong. ericlo@cse.cuhk.edu.hk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kevin Y",
+            "LastName": "Yip",
+            "Initials": "KY",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong. kevinyip@cse.cuhk.edu.hk."},
+              {"Affiliation": "Hong Kong Bioinformatics Centre, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong. kevinyip@cse.cuhk.edu.hk."},
+              {"Affiliation": "CUHK-BGI Innovation Institute of Trans-omics, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong. kevinyip@cse.cuhk.edu.hk."},
+              {"Affiliation": "Hong Kong Institute of Diabetes and Obesity, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong. kevinyip@cse.cuhk.edu.hk."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "START: a system for flexible analysis of hundreds of genomic signal tracks in few lines of SQL-like queries.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12864-017-4071-1"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Genomics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2164"
+        },
+        "Title": "BMC genomics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Data analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Human genomics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Signal tracks"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 23
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 11
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 2000 Apr 15;95(8):2691-8",
+        "PMID": {
+          "Version": 1,
+          "content": 10753852
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Feb 19;518(7539):317-30",
+        "PMID": {
+          "Version": 1,
+          "content": 25693563
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 1996 Jan 1;10(1):70-9",
+        "PMID": {
+          "Version": 1,
+          "content": 8557196
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(8):R86",
+        "PMID": {
+          "Version": 1,
+          "content": 20738864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Sep 15;30(18):2652-3",
+        "PMID": {
+          "Version": 1,
+          "content": 24845651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Cell. 2011 Mar 8;19(3):347-58",
+        "PMID": {
+          "Version": 1,
+          "content": 21397858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2012 Sep 26;13(9):R48",
+        "PMID": {
+          "Version": 1,
+          "content": 22950945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2001 Jan 1;29(1):308-11",
+        "PMID": {
+          "Version": 1,
+          "content": 11125122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Apr 11;153(2):307-19",
+        "PMID": {
+          "Version": 1,
+          "content": 23582322
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Sep 6;489(7414):57-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22955616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2012 Sep;22(9):1760-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22955987
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 2012 Sep 1;26(17 ):1959-71",
+        "PMID": {
+          "Version": 1,
+          "content": 22948661
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Mar 15;26(6):841-2",
+        "PMID": {
+          "Version": 1,
+          "content": 20110278
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Jan 1;30(1):1-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23751181
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Jun 15;31(12):1881-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25649616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2014 Mar 27;507(7493):455-461",
+        "PMID": {
+          "Version": 1,
+          "content": 24670763
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Dec 1;29(23):3014-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24021384
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Cancer Res. 2013 Nov 15;19(22):6272-85",
+        "PMID": {
+          "Version": 1,
+          "content": 24077349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2013 Jan-Feb;10(1):200-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23702556
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2013 Oct;45(10):1113-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24071849
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2017 Jan 4;45(D1):D626-D634",
+        "PMID": {
+          "Version": 1,
+          "content": 27899642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Jan 1;30(1):119-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24149054
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hepatology. 2013 Apr;57(4):1407-15",
+        "PMID": {
+          "Version": 1,
+          "content": 22890726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Feb 28;9(3):215-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22373907
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28938868
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28938868,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12864-017-4071-1",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12864-017-4071-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5610441",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

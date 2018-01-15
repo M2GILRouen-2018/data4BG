@@ -1,0 +1,153 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 1300217,
+      "Country": "United States",
+      "ISSNLinking": "0003-3022",
+      "MedlineTA": "Anesthesiology"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The discrepancy between predicted effect-site concentration and measured bispectral index is problematic during intravenous anesthesia with target-controlled infusion of propofol and remifentanil. We hypothesized that bispectral index during total intravenous anesthesia would be more accurately predicted by a deep learning approach."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "Long short-term memory and the feed-forward neural network were sequenced to simulate the pharmacokinetic and pharmacodynamic parts of an empirical model, respectively, to predict intraoperative bispectral index during combined use of propofol and remifentanil. Inputs of long short-term memory were infusion histories of propofol and remifentanil, which were retrieved from target-controlled infusion pumps for 1,800 s at 10-s intervals. Inputs of the feed-forward network were the outputs of long short-term memory and demographic data such as age, sex, weight, and height. The final output of the feed-forward network was the bispectral index. The performance of bispectral index prediction was compared between the deep learning model and previously reported response surface model."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The model hyperparameters comprised 8 memory cells in the long short-term memory layer and 16 nodes in the hidden layer of the feed-forward network. The model training and testing were performed with separate data sets of 131 and 100 cases. The concordance correlation coefficient (95% CI) were 0.561 (0.560 to 0.562) in the deep learning model, which was significantly larger than that in the response surface model (0.265 [0.263 to 0.266], P < 0.001)."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The deep learning model-predicted bispectral index during target-controlled infusion of propofol and remifentanil more accurately compared to the traditional model. The deep learning approach in anesthetic pharmacology seems promising because of its excellent performance and extensibility."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hyung-Chul",
+            "LastName": "Lee",
+            "Initials": "HC",
+            "AffiliationInfo": {"Affiliation": "From the Department of Anesthesiology and Pain Medicine, Seoul National University College of Medicine, Seoul National University Hospital, Seoul, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ho-Geol",
+            "LastName": "Ryu",
+            "Initials": "HG"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eun-Jin",
+            "LastName": "Chung",
+            "Initials": "EJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chul-Woo",
+            "LastName": "Jung",
+            "Initials": "CW"
+          }
+        ]
+      },
+      "ArticleTitle": "Prediction of Bispectral Index during Target-controlled Infusion of Propofol and Remifentanil: A Deep Learning Approach.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1097/ALN.0000000000001892"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Anesthesiology",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1528-1175"
+        },
+        "Title": "Anesthesiology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 27
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 27
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28953500
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28953500,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1097/ALN.0000000000001892",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

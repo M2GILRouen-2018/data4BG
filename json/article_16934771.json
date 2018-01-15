@@ -1,0 +1,449 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0251711",
+      "Country": "United States",
+      "ISSNLinking": "0001-8244",
+      "MedlineTA": "Behav Genet"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "55-66"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 DA005147",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIAAA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R37 AA009367",
+            "Acronym": "AA"
+          },
+          {
+            "Agency": "NIAAA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 AA009367",
+            "Acronym": "AA"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM113250",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIAAA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 AA011886",
+            "Acronym": "AA"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL105397",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 DA024417",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL116720",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 DA042755",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 DA024417",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 MH066140",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R37 DA005147",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 DA033958",
+            "Acronym": "DA"
+          },
+          {
+            "Agency": "NIDA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 DA013240",
+            "Acronym": "DA"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 17
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In genome-wide association studies (GWAS), it has been increasingly recognized that, as a complementary approach to standard single SNP analyses, it may be beneficial to analyze a group of functionally related SNPs together. Among the existent population-based SNP-set association tests, two adaptive tests, the aSPU test and the aSPUpath test, offer a powerful and general approach at the gene- and pathway-levels by data-adaptively combining the results across multiple SNPs (and genes) such that high statistical power can be maintained across a wide range of scenarios. We extend the aSPU and the aSPUpath test to familial data under the framework of the generalized linear mixed models (GLMMs), which can take account of both subject relatedness and possible population structure. As in population-based GWAS, the proposed aSPU and aSPUpath tests require only fitting a single and common GLMM (under the null hypothesis) for all the SNPs, thus are computationally efficient and feasible for large GWAS data. We illustrate our approaches in identifying genes and pathways associated with alcohol dependence in the Minnesota Twin Family Study. The aSPU test detected a gene associated with the trait, in contrast to none by the standard single SNP analysis. Our aSPU test also controlled Type I errors satisfactorily in a small simulation study. We provide R code to conduct the aSPU and aSPUpath tests for familial and other correlated data."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jun Young",
+            "LastName": "Park",
+            "Initials": "JY",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, University of Minnesota, A460 Mayo Building, MMC 303, 420 Delaware St. SE, Minneapolis, MN, 55455, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chong",
+            "LastName": "Wu",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, University of Minnesota, A460 Mayo Building, MMC 303, 420 Delaware St. SE, Minneapolis, MN, 55455, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Saonli",
+            "LastName": "Basu",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, University of Minnesota, A460 Mayo Building, MMC 303, 420 Delaware St. SE, Minneapolis, MN, 55455, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matt",
+            "LastName": "McGue",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Psychology, University of Minnesota, Minneapolis, MN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Pan",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Division of Biostatistics, University of Minnesota, A460 Mayo Building, MMC 303, 420 Delaware St. SE, Minneapolis, MN, 55455, USA. weip@biostat.umn.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Adaptive SNP-Set Association Testing in Generalized Linear Mixed Models with Application to Family Studies.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10519-017-9883-x"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 48,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2018
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Behav. Genet.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1573-3297"
+        },
+        "Title": "Behavior genetics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Alcohol dependence"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "GEE"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "GLMM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "GWAS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Score test"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "aSPU"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1999 Dec;55(4):997-1004",
+        "PMID": {
+          "Version": 1,
+          "content": 11315092
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2016 Apr 7;98 (4):653-66",
+        "PMID": {
+          "Version": 1,
+          "content": 27018471
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2006 Aug;38(8):904-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16862161
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Twin Res. 2002 Oct;5(5):482-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12537881
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Expert Opin Ther Targets. 2006 Apr;10(2):211-29",
+        "PMID": {
+          "Version": 1,
+          "content": 16548771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2014 Aug;197(4):1081-95",
+        "PMID": {
+          "Version": 1,
+          "content": 24831820
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2010 Jun 11;86(6):929-42",
+        "PMID": {
+          "Version": 1,
+          "content": 20560208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2017 Jan;41(1):81-93",
+        "PMID": {
+          "Version": 1,
+          "content": 27859628
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2008 Feb;82(2):386-97",
+        "PMID": {
+          "Version": 1,
+          "content": 18252219
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2016 Jun;203(2):715-31",
+        "PMID": {
+          "Version": 1,
+          "content": 27075728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2006 Nov;79(5):792-806",
+        "PMID": {
+          "Version": 1,
+          "content": 17033957
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Behav Genet. 2011 Jul;41(4):459-75",
+        "PMID": {
+          "Version": 1,
+          "content": 21153693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2011 May;35(4):211-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21308765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2015 Jul 2;97(1):86-98",
+        "PMID": {
+          "Version": 1,
+          "content": 26119817
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Twin Res Hum Genet. 2012 Dec;15(6):767-74",
+        "PMID": {
+          "Version": 1,
+          "content": 23363460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2014 Aug 1;96:309-25",
+        "PMID": {
+          "Version": 1,
+          "content": 24704269
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Expert Opin Ther Targets. 2003 Aug;7(4):495-511",
+        "PMID": {
+          "Version": 1,
+          "content": 12885269
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Jan;38(Database issue):D355-60",
+        "PMID": {
+          "Version": 1,
+          "content": 19880382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2015 Sep;39(6):469-79",
+        "PMID": {
+          "Version": 1,
+          "content": 26198454
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Psychiatry. 2007 Jan 15;61(2):174-80",
+        "PMID": {
+          "Version": 1,
+          "content": 16934771
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29150721
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "01",
+        "Year": 2019,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29150721,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10519-017-9883-x",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10519-017-9883-x",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5754233",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS921214",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

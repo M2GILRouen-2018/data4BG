@@ -1,0 +1,344 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8215016,
+      "Country": "England",
+      "ISSNLinking": "0277-6715",
+      "MedlineTA": "Stat Med"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "3537-48"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM114290",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR000064",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR001427",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P01 CA142538",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "K23 GM102697",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 ES021900",
+            "Acronym": "ES"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 John Wiley & Sons, Ltd.",
+        "AbstractText": "Propensity score (PS) methods have been used extensively to adjust for confounding factors in the statistical analysis of observational data in comparative effectiveness research. There are four major PS-based adjustment approaches: PS matching, PS stratification, covariate adjustment by PS, and PS-based inverse probability weighting. Though covariate adjustment by PS is one of the most frequently used PS-based methods in clinical research, the conventional variance estimation of the treatment effects estimate under covariate adjustment by PS is biased. As Stampf et al. have shown, this bias in variance estimation is likely to lead to invalid statistical inference and could result in erroneous public health conclusions (e.g., food and drug safety and adverse events surveillance). To address this issue, we propose a two-stage analytic procedure to develop a valid variance estimator for the covariate adjustment by PS analysis strategy. We also carry out a simple empirical bootstrap resampling scheme. Both proposed procedures are implemented in an R function for public use. Extensive simulation results demonstrate the bias in the conventional variance estimator and show that both proposed variance estimators offer valid estimates for the true variance, and they are robust to complex confounding structures. The proposed methods are illustrated for a post-surgery pain study. Copyright © 2016 John Wiley & Sons, Ltd."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Baiming",
+            "LastName": "Zou",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of Florida, Gainesville, 32611, FL, U.S.A."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fei",
+            "LastName": "Zou",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of North Carolina - Chapel Hill, Chapel Hill, NC, 27599, U.S.A."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jonathan J",
+            "LastName": "Shuster",
+            "Initials": "JJ",
+            "AffiliationInfo": {"Affiliation": "Department of Health Outcomes and Policy, University of Florida, Gainesville, FL, 32611, U.S.A."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patrick J",
+            "LastName": "Tighe",
+            "Initials": "PJ",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology, University of Florida, Gainesville, FL, 32611, U.S.A."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gary G",
+            "LastName": "Koch",
+            "Initials": "GG",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of North Carolina - Chapel Hill, Chapel Hill, NC, 27599, U.S.A."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haibo",
+            "LastName": "Zhou",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of North Carolina - Chapel Hill, Chapel Hill, NC, 27599, U.S.A."}
+          }
+        ]
+      },
+      "ArticleTitle": "On variance estimate for covariate adjustment by propensity score analysis.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/sim.6943"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 20,
+          "Volume": 35,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2016,
+            "Day": 10
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Stat Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1097-0258"
+        },
+        "Title": "Statistics in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bootstrap"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "comparative effectiveness research"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "confounding factors"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "joint likelihood"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "propensity score"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "two-stage regression"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2016,
+      "Day": 25
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 10
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2010 Mar 30;29(7-8):760-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20213703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2007 Dec 30;26(30):5529-44",
+        "PMID": {
+          "Version": 1,
+          "content": 18058851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2013 Jul 20;32(16):2837-49",
+        "PMID": {
+          "Version": 1,
+          "content": 23239115
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2006 Jan 26;354(4):353-65",
+        "PMID": {
+          "Version": 1,
+          "content": 16436767
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2014 Jan 15;33(1):74-87",
+        "PMID": {
+          "Version": 1,
+          "content": 23787715
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Intern Med. 1997 Oct 15;127(8 Pt 2):757-63",
+        "PMID": {
+          "Version": 1,
+          "content": 9382394
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2006 Apr 22;367(9519):1319-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16631910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Multivariate Behav Res. 2011 May;46(3):399-424",
+        "PMID": {
+          "Version": 1,
+          "content": 21818162
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2013 Mar;69(1):263-73",
+        "PMID": {
+          "Version": 1,
+          "content": 23379793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 1989 Apr;8(4):467-75",
+        "PMID": {
+          "Version": 1,
+          "content": 2727470
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS766745 [Available on 09/10/17]"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC4961520 [Available on 09/10/17]"
+      }
+    ],
+    "PMID": {
+      "Version": 1,
+      "content": 26999553
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2015,
+        "Day": "05",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2016,
+        "Day": 25,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "02",
+        "Year": 2016,
+        "Day": 29,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 3,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 3,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26999553,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/sim.6943",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4961520",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS766745",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

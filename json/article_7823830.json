@@ -1,0 +1,709 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "398-412"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIH HHS",
+            "Country": "United States",
+            "GrantID": "DP1 OD003646",
+            "Acronym": "OD"
+          },
+          {
+            "Agency": "NIH HHS",
+            "Country": "United States",
+            "GrantID": "DP2 OD006454",
+            "Acronym": "OD"
+          },
+          {
+            "Agency": "NINDS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R44 NS071988",
+            "Acronym": "NS"
+          },
+          {
+            "Agency": "NINDS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R43 NS071988",
+            "Acronym": "NS"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM104948",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NCRR NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 RR025758",
+            "Acronym": "RR"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": "05"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2015 Elsevier Inc. All rights reserved.",
+        "AbstractText": "Combining electroencephalogram (EEG) recording and functional magnetic resonance imaging (fMRI) offers the potential for imaging brain activity with high spatial and temporal resolution. This potential remains limited by the significant ballistocardiogram (BCG) artifacts induced in the EEG by cardiac pulsation-related head movement within the magnetic field. We model the BCG artifact using a harmonic basis, pose the artifact removal problem as a local harmonic regression analysis, and develop an efficient maximum likelihood algorithm to estimate and remove BCG artifacts. Our analysis paradigm accounts for time-frequency overlap between the BCG artifacts and neurophysiologic EEG signals, and tracks the spatiotemporal variations in both the artifact and the signal. We evaluate performance on: simulated oscillatory and evoked responses constructed with realistic artifacts; actual anesthesia-induced oscillatory recordings; and actual visual evoked potential recordings. In each case, the local harmonic regression analysis effectively removes the BCG artifacts, and recovers the neurophysiologic EEG signals. We further show that our algorithm outperforms commonly used reference-based and component analysis techniques, particularly in low SNR conditions, the presence of significant time-frequency overlap between the artifact and the signal, and/or large spatiotemporal variations in the BCG. Because our algorithm does not require reference signals and has low computational complexity, it offers a practical tool for removing BCG artifacts from EEG data recorded in combination with fMRI."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pavitra",
+            "LastName": "Krishnaswamy",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA; Harvard-MIT Division of Health Sciences and Technology (HST), Cambridge, MA, USA. Electronic address: pavitrak@mit.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Giorgio",
+            "LastName": "Bonmassar",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Massachusetts General Hospital (MGH), Harvard Medical School, Boston, MA, USA; MGH/HST Athinoula A. Martinos Center for Biomedical Imaging, Charlestown, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Catherine",
+            "LastName": "Poulsen",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Electrical Geodesics, Inc., Eugene, OR, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eric T",
+            "LastName": "Pierce",
+            "Initials": "ET",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesia, Critical Care and Pain Medicine, Massachusetts General Hospital, Harvard Medical School, Boston, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patrick L",
+            "LastName": "Purdon",
+            "Initials": "PL",
+            "AffiliationInfo": {"Affiliation": "MGH/HST Athinoula A. Martinos Center for Biomedical Imaging, Charlestown, MA, USA; Department of Anesthesia, Critical Care and Pain Medicine, Massachusetts General Hospital, Harvard Medical School, Boston, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emery N",
+            "LastName": "Brown",
+            "Initials": "EN",
+            "AffiliationInfo": {"Affiliation": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA; Harvard-MIT Division of Health Sciences and Technology (HST), Cambridge, MA, USA; Department of Anesthesia, Critical Care and Pain Medicine, Massachusetts General Hospital, Harvard Medical School, Boston, MA, USA; Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA. Electronic address: enb@neurostat.mit.edu."}
+          }
+        ]
+      },
+      "ArticleTitle": "Reference-free removal of EEG-fMRI ballistocardiogram artifacts with harmonic regression.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1053-8119(15)00593-5"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.neuroimage.2015.06.088"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 128,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Neuroimage",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1095-9572"
+        },
+        "Title": "NeuroImage"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2016,
+      "Day": 22
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 24
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2005 Nov 15;28(3):720-37",
+        "PMID": {
+          "Version": 1,
+          "content": 16150610
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroreport. 2002 Dec 20;13(18):2487-92",
+        "PMID": {
+          "Version": 1,
+          "content": 12499854
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Neurophysiol. 2000 Jan;17(1):43-58",
+        "PMID": {
+          "Version": 1,
+          "content": 10709810
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2008 Apr 1;40(2):515-28",
+        "PMID": {
+          "Version": 1,
+          "content": 18201910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2014 Feb 1;86:446-60",
+        "PMID": {
+          "Version": 1,
+          "content": 24161808
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Enzymol. 2004;383:382-405",
+        "PMID": {
+          "Version": 1,
+          "content": 15063659
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brain. 1999 Sep;122 ( Pt 9):1679-88",
+        "PMID": {
+          "Version": 1,
+          "content": 10468507
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2006 Jul;53(7):1294-308",
+        "PMID": {
+          "Version": 1,
+          "content": 16830934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann N Y Acad Sci. 2009 Mar;1157:61-70",
+        "PMID": {
+          "Version": 1,
+          "content": 19351356
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2014 Jun 23;8:163",
+        "PMID": {
+          "Version": 1,
+          "content": 25002836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2008 Nov 15;175(2):165-86",
+        "PMID": {
+          "Version": 1,
+          "content": 18761038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Mar 19;110(12):E1142-51",
+        "PMID": {
+          "Version": 1,
+          "content": 23487781
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Electroencephalogr Clin Neurophysiol. 1993 Dec;87(6):417-20",
+        "PMID": {
+          "Version": 1,
+          "content": 7508375
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2005 Dec 14;25(50):11730-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16354931
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(6):e20490",
+        "PMID": {
+          "Version": 1,
+          "content": 21687727
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Neurophysiol. 2000 Nov;111(11):1974-80",
+        "PMID": {
+          "Version": 1,
+          "content": 11068232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2013 May 1;71:75-83",
+        "PMID": {
+          "Version": 1,
+          "content": 23313417
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007 Oct 15;38(1):124-37",
+        "PMID": {
+          "Version": 1,
+          "content": 17766149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007 Jan 15;34(2):598-607",
+        "PMID": {
+          "Version": 1,
+          "content": 17112747
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2001 Jun;13(6 Pt 1):1035-43",
+        "PMID": {
+          "Version": 1,
+          "content": 11352609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2001 Sep;14(3):780-7",
+        "PMID": {
+          "Version": 1,
+          "content": 11506550
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2004 Mar 15;134(1):9-21",
+        "PMID": {
+          "Version": 1,
+          "content": 15102499
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Psychophysiol. 2008 Mar;67(3):189-99",
+        "PMID": {
+          "Version": 1,
+          "content": 17683819
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2014 Jan 1;84:307-19",
+        "PMID": {
+          "Version": 1,
+          "content": 23994127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2000 Aug;12(2):230-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10913328
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2008 Apr 15;40(3):1090-104",
+        "PMID": {
+          "Version": 1,
+          "content": 18296069
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Sep 15;58(2):508-25",
+        "PMID": {
+          "Version": 1,
+          "content": 21723949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2013;2013:5426-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24110963
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 2004 Dec;22(10):1445-55",
+        "PMID": {
+          "Version": 1,
+          "content": 15707794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2005 Jan 1;24(1):50-60",
+        "PMID": {
+          "Version": 1,
+          "content": 15588596
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 1998 Oct;8(3):229-39",
+        "PMID": {
+          "Version": 1,
+          "content": 9758737
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Apr 15;50(3):920-34",
+        "PMID": {
+          "Version": 1,
+          "content": 20074647
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 2006 Jul;24(6):801-12",
+        "PMID": {
+          "Version": 1,
+          "content": 16824975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2004 Aug;22(4):1534-42",
+        "PMID": {
+          "Version": 1,
+          "content": 15275910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2003 Sep 16;100(19):11053-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12958209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurology. 2002 Mar 26;58(6):976-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11914422
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Imaging. 2000 Sep;18(7):881-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11027883
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007 Jan 15;34(2):587-97",
+        "PMID": {
+          "Version": 1,
+          "content": 17112746
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroreport. 1999 Jun 23;10(9):1893-7",
+        "PMID": {
+          "Version": 1,
+          "content": 10501528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2002 Aug;16(4):1127-41",
+        "PMID": {
+          "Version": 1,
+          "content": 12202099
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Neurophysiol. 2006 Mar;117(3):668-80",
+        "PMID": {
+          "Version": 1,
+          "content": 16458592
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 2004 May 30;135(1-2):193-203",
+        "PMID": {
+          "Version": 1,
+          "content": 15020103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2005 Nov 15;28(3):708-19",
+        "PMID": {
+          "Version": 1,
+          "content": 16112589
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Enzymol. 1994;240:171-81",
+        "PMID": {
+          "Version": 1,
+          "content": 7823830
+        }
+      }
+    ]},
+    "OtherID": [
+      {
+        "Source": "NLM",
+        "content": "NIHMS757639 [Available on 03/01/17]"
+      },
+      {
+        "Source": "NLM",
+        "content": "PMC4761527 [Available on 03/01/17]"
+      }
+    ],
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9215515,
+      "Country": "United States",
+      "ISSNLinking": "1053-8119",
+      "MedlineTA": "Neuroimage"
+    },
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": 13
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Artifact removal"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ballistocardiogram"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "EEG-fMRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Functional neuroimaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pulse artifact"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Regression"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "Y",
+        "content": "Artifacts"
+      }},
+      {"DescriptorName": {
+        "UI": "D001450",
+        "MajorTopicYN": "N",
+        "content": "Ballistocardiography"
+      }},
+      {"DescriptorName": {
+        "UI": "D004569",
+        "MajorTopicYN": "Y",
+        "content": "Electroencephalography"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D064847",
+          "MajorTopicYN": "N",
+          "content": "Multimodal Imaging"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D059906",
+          "MajorTopicYN": "N",
+          "content": "Neuroimaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012815",
+        "MajorTopicYN": "Y",
+        "content": "Signal Processing, Computer-Assisted"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 26151100
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2015,
+        "Day": 12,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2015,
+        "Day": 20,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "06",
+        "Year": 2015,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 7,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26151100,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1053-8119(15)00593-5",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.neuroimage.2015.06.088",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4761527",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS757639",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

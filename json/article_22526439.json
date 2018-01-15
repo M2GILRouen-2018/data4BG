@@ -1,0 +1,267 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101249582,
+      "Country": "Germany",
+      "MedlineTA": "Med Image Comput Comput Assist Interv"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "92-99"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NINDS NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 NS055951",
+          "Acronym": "NS"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "04"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The falx cerebri is a meningeal projection of dura in the brain, separating the cerebral hemispheres. It has stiffer mechanical properties than surrounding tissue and must be accurately segmented for building computational models of traumatic brain injury. In this work, we propose a method to segment the falx using T1-weighted magnetic resonance images (MRI) and susceptibility-weighted MRI (SWI). Multi-atlas whole brain segmentation is performed using the T1-weighted MRI and the gray matter cerebrum labels are extended into the longitudinal fissure using fast marching to find an initial estimate of the falx. To correct the falx boundaries, we register and then deform a set of SWI with manually delineated falx boundaries into the subject space. The continuous-STAPLE algorithm fuses sets of corresponding points to produce an estimate of the corrected falx boundary. Correspondence between points on the deformed falx boundaries is obtained using coherent point drift. We compare our method to manual ground truth, a multi-atlas approach without correction, and single-atlas approaches."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeffrey",
+            "LastName": "Glaister",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Dept. of Electrical and Computer Engineering, Johns Hopkins University, Baltimore, MD 21218, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aaron",
+            "LastName": "Carass",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Dept. of Electrical and Computer Engineering, Johns Hopkins University, Baltimore, MD 21218, USA."},
+              {"Affiliation": "Dept. of Computer Science, Johns Hopkins University, Baltimore, MD 21218, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dzung L",
+            "LastName": "Pham",
+            "Initials": "DL",
+            "AffiliationInfo": {"Affiliation": "CNRM, Henry Jackson Foundation, Bethesda, MD 20817, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John A",
+            "LastName": "Butman",
+            "Initials": "JA",
+            "AffiliationInfo": {"Affiliation": "Radiology and Imaging Sciences, NIH, Bethesda, MD 20892, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jerry L",
+            "LastName": "Prince",
+            "Initials": "JL",
+            "AffiliationInfo": [
+              {"Affiliation": "Dept. of Electrical and Computer Engineering, Johns Hopkins University, Baltimore, MD 21218, USA."},
+              {"Affiliation": "Dept. of Computer Science, Johns Hopkins University, Baltimore, MD 21218, USA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Falx Cerebri Segmentation via Multi-atlas Boundary Fusion.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/978-3-319-66182-7_11"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 10433,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Med Image Comput Comput Assist Interv",
+        "Title": "Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Falx cerebri"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "boundary fusion"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "segmentation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2009 Nov 03;9 Suppl 1:S4",
+        "PMID": {
+          "Version": 1,
+          "content": 19891798
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2016 Sep;138:197-210",
+        "PMID": {
+          "Version": 1,
+          "content": 27184203
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2009 Jun;28(6):838-46",
+        "PMID": {
+          "Version": 1,
+          "content": 19272988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2008 Feb;12(1):26-41",
+        "PMID": {
+          "Version": 1,
+          "content": 17659998
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 1996 Sep;34(5):375-81",
+        "PMID": {
+          "Version": 1,
+          "content": 8945864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2012 Dec 05;6:171",
+        "PMID": {
+          "Version": 1,
+          "content": 23227001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2013 Mar;35(3):611-23",
+        "PMID": {
+          "Version": 1,
+          "content": 22732662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2010 Dec;32(12):2262-75",
+        "PMID": {
+          "Version": 1,
+          "content": 20975122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2011 Mar;58(3):499-508",
+        "PMID": {
+          "Version": 1,
+          "content": 21097376
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomech Eng. 1991 Aug;113(3):276-83",
+        "PMID": {
+          "Version": 1,
+          "content": 1921354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Childs Nerv Syst. 2012 Jun;28(6):827-37",
+        "PMID": {
+          "Version": 1,
+          "content": 22526439
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28944346
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28944346,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/978-3-319-66182-7_11",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5607028",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS899435",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

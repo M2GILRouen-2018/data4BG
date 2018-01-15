@@ -1,0 +1,709 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors have declared that no competing interests exist.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005342"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL132389",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL126524",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R21 HL126193",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL093711",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 GM007171",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "To understand how excitable tissues give rise to arrhythmias, it is crucially necessary to understand the electrical dynamics of cells in the context of their environment. Multicellular monolayer cultures have proven useful for investigating arrhythmias and other conduction anomalies, and because of their relatively simple structure, these constructs lend themselves to paired computational studies that often help elucidate mechanisms of the observed behavior. However, tissue cultures of cardiomyocyte monolayers currently require the use of neonatal cells with ionic properties that change rapidly during development and have thus been poorly characterized and modeled to date. Recently, Kirkton and Bursac demonstrated the ability to create biosynthetic excitable tissues from genetically engineered and immortalized HEK293 cells with well-characterized electrical properties and the ability to propagate action potentials. In this study, we developed and validated a computational model of these excitable HEK293 cells (called \"Ex293\" cells) using existing electrophysiological data and a genetic search algorithm. In order to reproduce not only the mean but also the variability of experimental observations, we examined what sources of variation were required in the computational model. Random cell-to-cell and inter-monolayer variation in both ionic conductances and tissue conductivity was necessary to explain the experimentally observed variability in action potential shape and macroscopic conduction, and the spatial organization of cell-to-cell conductance variation was found to not impact macroscopic behavior; the resulting model accurately reproduces both normal and drug-modified conduction behavior. The development of a computational Ex293 cell and tissue model provides a novel framework to perform paired computational-experimental studies to study normal and abnormal conduction in multidimensional excitable tissue, and the methodology of modeling variation can be applied to models of any excitable cell."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-9436-2058"
+            },
+            "ForeName": "Tanmay A",
+            "LastName": "Gokhale",
+            "Initials": "TA",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biomedical Engineering, Duke University, Durham, North Carolina, United States of America."},
+              {"Affiliation": "Medical Scientist Training Program, Duke University, Durham, North Carolina, United States of America."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jong M",
+            "LastName": "Kim",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Duke University, Durham, North Carolina, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert D",
+            "LastName": "Kirkton",
+            "Initials": "RD",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Duke University, Durham, North Carolina, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nenad",
+            "LastName": "Bursac",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Duke University, Durham, North Carolina, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Craig S",
+            "LastName": "Henriquez",
+            "Initials": "CS",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Engineering, Duke University, Durham, North Carolina, United States of America."}
+          }
+        ]
+      },
+      "ArticleTitle": "Modeling an Excitable Biosynthetic Tissue with Inherent Variability for Paired Computational-Experimental Studies.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005342"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D054849",
+        "MajorTopicYN": "N",
+        "content": "Cardiac Electrophysiology"
+      }},
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "Y",
+        "content": "Computational Biology"
+      }},
+      {"DescriptorName": {
+        "UI": "D057809",
+        "MajorTopicYN": "N",
+        "content": "HEK293 Cells"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008955",
+        "MajorTopicYN": "Y",
+        "content": "Models, Cardiovascular"
+      }},
+      {"DescriptorName": {
+        "UI": "D046509",
+        "MajorTopicYN": "Y",
+        "content": "Tissue Culture Techniques"
+      }},
+      {"DescriptorName": {
+        "UI": "D023822",
+        "MajorTopicYN": "Y",
+        "content": "Tissue Engineering"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2011 Dec 21;101(12):2892-902",
+        "PMID": {
+          "Version": 1,
+          "content": 22208187
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2010 May 19;98(9):1762-71",
+        "PMID": {
+          "Version": 1,
+          "content": 20441739
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prog Biophys Mol Biol. 2006 Jan-Apr;90(1-3):26-37",
+        "PMID": {
+          "Version": 1,
+          "content": 15979128
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2003 Jul;285(1):H449-56",
+        "PMID": {
+          "Version": 1,
+          "content": 12623789
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2015 Jan 21;365:325-36",
+        "PMID": {
+          "Version": 1,
+          "content": 25451525
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2009 Oct;297(4):H1436-45",
+        "PMID": {
+          "Version": 1,
+          "content": 19648254
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Physiol. 2009 May;94(5):486-95",
+        "PMID": {
+          "Version": 1,
+          "content": 19139063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2005 Sep;43(5):561-71",
+        "PMID": {
+          "Version": 1,
+          "content": 16411628
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Jun 4;110(23):E2098-105",
+        "PMID": {
+          "Version": 1,
+          "content": 23690584
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Pharmacol. 2014 May 5;730:164-70",
+        "PMID": {
+          "Version": 1,
+          "content": 24631257
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1998 Dec 15;98(24):2753-9",
+        "PMID": {
+          "Version": 1,
+          "content": 9851963
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Europace. 2012 Nov;14 Suppl 5:v40-v49",
+        "PMID": {
+          "Version": 1,
+          "content": 23104914
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Mol Neurobiol. 2004 Jun;24(3):317-30",
+        "PMID": {
+          "Version": 1,
+          "content": 15206817
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 1995 Mar 15;14(6):1084-90",
+        "PMID": {
+          "Version": 1,
+          "content": 7720699
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Math Methods Med. 2013;2013:951234",
+        "PMID": {
+          "Version": 1,
+          "content": 23935704
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 2001 Jul 15;534(Pt. 2):381-93",
+        "PMID": {
+          "Version": 1,
+          "content": 11454958
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol. 1998 Dec;275(6 Pt 2):H2016-24",
+        "PMID": {
+          "Version": 1,
+          "content": 9843800
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Membr Biol. 2006;213(1):19-29",
+        "PMID": {
+          "Version": 1,
+          "content": 17347781
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Pharmacol. 1996 Jun;118(3):748-54",
+        "PMID": {
+          "Version": 1,
+          "content": 8762103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cardiovasc Res. 2012 Feb 1;93(2):263-71",
+        "PMID": {
+          "Version": 1,
+          "content": 22072633
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 1984 Feb;347:641-57",
+        "PMID": {
+          "Version": 1,
+          "content": 6323703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 1991 Jan;68(1):114-30",
+        "PMID": {
+          "Version": 1,
+          "content": 1984856
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2011 Jul 21;281(1):84-96",
+        "PMID": {
+          "Version": 1,
+          "content": 21530545
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 1992 Sep;71(3):535-46",
+        "PMID": {
+          "Version": 1,
+          "content": 1323431
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Methods. 1998 Jun 1;81(1-2):73-83",
+        "PMID": {
+          "Version": 1,
+          "content": 9696312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(2):e56359",
+        "PMID": {
+          "Version": 1,
+          "content": 23437117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Aug 26;9(8):e105897",
+        "PMID": {
+          "Version": 1,
+          "content": 25157495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2015 Apr 30;11(4):e1004242",
+        "PMID": {
+          "Version": 1,
+          "content": 25928268
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2016 Oct 18;7:13132",
+        "PMID": {
+          "Version": 1,
+          "content": 27752065
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Cell Cardiol. 1995 Jan;27(1):673-91",
+        "PMID": {
+          "Version": 1,
+          "content": 7760386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biochem. 2002 Sep;238(1-2):69-79",
+        "PMID": {
+          "Version": 1,
+          "content": 12349911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2012 Apr 1;302(7):H1466-80",
+        "PMID": {
+          "Version": 1,
+          "content": 22198175
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prog Biophys Mol Biol. 2011 Jan;104(1-3):22-48",
+        "PMID": {
+          "Version": 1,
+          "content": 20553746
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 2012 Jun 1;590(11):2555-67",
+        "PMID": {
+          "Version": 1,
+          "content": 22495591
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2014 May;306(9):H1341-52",
+        "PMID": {
+          "Version": 1,
+          "content": 24610922
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 2015 Sep 15;593(18):4201-23",
+        "PMID": {
+          "Version": 1,
+          "content": 26131924
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurosci Lett. 2010 Jan 22;469(2):268-72",
+        "PMID": {
+          "Version": 1,
+          "content": 20006571
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Arrhythm Electrophysiol. 2013 Dec;6(6):1200-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24235268
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cardiovasc Res. 2003 Aug 1;59(2):328-38",
+        "PMID": {
+          "Version": 1,
+          "content": 12909316
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2003 Aug 19;108(7):882-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12860907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Pain. 2007 Jan 19;3:3",
+        "PMID": {
+          "Version": 1,
+          "content": 17239250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Pharmacol. 2007 Jul 12;567(1-2):10-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17482592
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 1993 Apr;10(4):667-78",
+        "PMID": {
+          "Version": 1,
+          "content": 8386527
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009 Dec 23;4(12):e8432",
+        "PMID": {
+          "Version": 1,
+          "content": 20037651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci Res. 1998 Jun 1;52(5):612-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9632317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2000 Mar;278(3):H677-87",
+        "PMID": {
+          "Version": 1,
+          "content": 10710334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2004 Apr;286(4):H1573-89",
+        "PMID": {
+          "Version": 1,
+          "content": 14656705
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2009 May 6;96(9):3873-85",
+        "PMID": {
+          "Version": 1,
+          "content": 19413993
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2011;2:300",
+        "PMID": {
+          "Version": 1,
+          "content": 21556054
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Toxicol Methods. 2005 May-Jun;51(3):187-200",
+        "PMID": {
+          "Version": 1,
+          "content": 15862464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 1989 Nov;65(5):1426-40",
+        "PMID": {
+          "Version": 1,
+          "content": 2805251
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol. 1996 Oct;271(4 Pt 2):H1666-96",
+        "PMID": {
+          "Version": 1,
+          "content": 8897964
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Cell Cardiol. 2016 Jul;96:49-62",
+        "PMID": {
+          "Version": 1,
+          "content": 26611884
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2005 Apr 29;280(17):16790-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15741171
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Arrhythm Electrophysiol. 2010 Apr;3(2):195-203",
+        "PMID": {
+          "Version": 1,
+          "content": 20133934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 2002 Dec 13;91(12):e45-54",
+        "PMID": {
+          "Version": 1,
+          "content": 12480825
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Sep 24;9(9):e107984",
+        "PMID": {
+          "Version": 1,
+          "content": 25250956
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28107358
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 31,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28107358,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005342",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-16-01007",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5291544",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

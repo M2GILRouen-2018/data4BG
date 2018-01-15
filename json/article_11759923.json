@@ -1,0 +1,691 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0188094"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The coexistence of obstructive sleep apnea syndrome (OSAS) and chronic obstructive pulmonary disease (COPD) leads to increased morbidity and mortality. The development of home-based screening tests is essential to expedite diagnosis. Nevertheless, there is still very limited evidence on the effectiveness of portable monitoring to diagnose OSAS in patients with pulmonary comorbidities."
+        },
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVE",
+          "content": "To assess the influence of suffering from COPD in the performance of an oximetry-based screening test for moderate-to-severe OSAS, both in the hospital and at home."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "A total of 407 patients showing moderate-to-high clinical suspicion of OSAS were involved in the study. All subjects underwent (i) supervised portable oximetry simultaneously to in-hospital polysomnography (PSG) and (ii) unsupervised portable oximetry at home. A regression-based multilayer perceptron (MLP) artificial neural network (ANN) was trained to estimate the apnea-hypopnea index (AHI) from portable oximetry recordings. Two independent validation datasets were analyzed: COPD versus non-COPD."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The portable oximetry-based MLP ANN reached similar intra-class correlation coefficient (ICC) values between the estimated AHI and the actual AHI for the non-COPD and the COPD groups either in the hospital (non-COPD: 0.937, 0.909-0.956 CI95%; COPD: 0.936, 0.899-0.960 CI95%) and at home (non-COPD: 0.731, 0.631-0.808 CI95%; COPD: 0.788, 0.678-0.864 CI95%). Regarding the area under the receiver operating characteristics curve (AUC), no statistically significant differences (p >0.01) between COPD and non-COPD groups were found in both settings, particularly for severe OSAS (AHI ≥30 events/h): 0.97 (0.92-0.99 CI95%) non-COPD vs. 0.98 (0.92-1.0 CI95%) COPD in the hospital, and 0.87 (0.79-0.92 CI95%) non-COPD vs. 0.86 (0.75-0.93 CI95%) COPD at home."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The agreement and the diagnostic performance of the estimated AHI from automated analysis of portable oximetry were similar regardless of the presence of COPD both in-lab and at-home. Particularly, portable oximetry could be used as an abbreviated screening test for moderate-to-severe OSAS in patients with COPD."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ana M",
+            "LastName": "Andrés-Blanco",
+            "Initials": "AM",
+            "AffiliationInfo": {"Affiliation": "Pneumology Service, Río Hortega University Hospital, Valladolid, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel",
+            "LastName": "Álvarez",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Pneumology Service, Río Hortega University Hospital, Valladolid, Spain."},
+              {"Affiliation": "Biomedical Engineering Group, University of Valladolid, Valladolid, Spain."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrea",
+            "LastName": "Crespo",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Pneumology Service, Río Hortega University Hospital, Valladolid, Spain."},
+              {"Affiliation": "Biomedical Engineering Group, University of Valladolid, Valladolid, Spain."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C Ainhoa",
+            "LastName": "Arroyo",
+            "Initials": "CA",
+            "AffiliationInfo": {"Affiliation": "Pneumology Service, Río Hortega University Hospital, Valladolid, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ana",
+            "LastName": "Cerezo-Hernández",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Pneumology Service, Río Hortega University Hospital, Valladolid, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gonzalo C",
+            "LastName": "Gutiérrez-Tobal",
+            "Initials": "GC",
+            "AffiliationInfo": {"Affiliation": "Biomedical Engineering Group, University of Valladolid, Valladolid, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Roberto",
+            "LastName": "Hornero",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Biomedical Engineering Group, University of Valladolid, Valladolid, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-4554-2167"
+            },
+            "ForeName": "Félix",
+            "LastName": "Del Campo",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "Pneumology Service, Río Hortega University Hospital, Valladolid, Spain."},
+              {"Affiliation": "Biomedical Engineering Group, University of Valladolid, Valladolid, Spain."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Assessment of automated analysis of portable oximetry as a screening test for moderate-to-severe sleep apnea in patients with chronic obstructive pulmonary disease.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0188094"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "N",
+        "content": "Automation"
+      }},
+      {"DescriptorName": {
+        "UI": "D019992",
+        "MajorTopicYN": "N",
+        "content": "Databases as Topic"
+      }},
+      {"DescriptorName": {
+        "UI": "D003710",
+        "MajorTopicYN": "N",
+        "content": "Demography"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008403",
+        "MajorTopicYN": "Y",
+        "content": "Mass Screening"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "N",
+        "content": "Neural Networks (Computer)"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010092",
+          "MajorTopicYN": "N",
+          "content": "Oximetry"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017286",
+        "MajorTopicYN": "N",
+        "content": "Polysomnography"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "Y",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D029424",
+          "MajorTopicYN": "N",
+          "content": "Pulmonary Disease, Chronic Obstructive"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012372",
+        "MajorTopicYN": "N",
+        "content": "ROC Curve"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "Y",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D012891",
+          "MajorTopicYN": "N",
+          "content": "Sleep Apnea Syndromes"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Intern Med. 2014 Aug 5;161(3):210-20",
+        "PMID": {
+          "Version": 1,
+          "content": 25089864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2016 Apr;149(4):1074-81",
+        "PMID": {
+          "Version": 1,
+          "content": 26539918
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2003 Nov;124(5):1694-701",
+        "PMID": {
+          "Version": 1,
+          "content": 14605037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Sleep Med. 2007 Dec 15;3(7):737-47",
+        "PMID": {
+          "Version": 1,
+          "content": 18198809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2006 Jun;37(2):111-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16386411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ Open. 2015 Jun 30;5(6):e007956",
+        "PMID": {
+          "Version": 1,
+          "content": 26129636
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2013 Dec;51(12):1367-80",
+        "PMID": {
+          "Version": 1,
+          "content": 24057145
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Sleep Med. 2017 Mar 15;13(3):479-504",
+        "PMID": {
+          "Version": 1,
+          "content": 28162150
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sleep Breath. 2011 Dec;15(4):679-86",
+        "PMID": {
+          "Version": 1,
+          "content": 20890768
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2010 Sep;48(9):895-902",
+        "PMID": {
+          "Version": 1,
+          "content": 20574725
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesth Analg. 2012 May;114(5):993-1000",
+        "PMID": {
+          "Version": 1,
+          "content": 22366847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Oct 4;11(10 ):e0163439",
+        "PMID": {
+          "Version": 1,
+          "content": 27701416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Eng Phys. 2007 Dec;29(10):1073-83",
+        "PMID": {
+          "Version": 1,
+          "content": 17204443
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sleep Med. 2012 Sep;13(8):1033-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22841038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Meas. 2011 Mar;32(3):287-303",
+        "PMID": {
+          "Version": 1,
+          "content": 21285482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2000 Jun;278(6):H2039-49",
+        "PMID": {
+          "Version": 1,
+          "content": 10843903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Chron Obstruct Pulmon Dis. 2016 Mar 30;11:665-73",
+        "PMID": {
+          "Version": 1,
+          "content": 27099484
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 2015 Dec;277(3):826-32",
+        "PMID": {
+          "Version": 1,
+          "content": 26509226
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sleep. 1999 Feb 1;22(1):105-11",
+        "PMID": {
+          "Version": 1,
+          "content": 9989371
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2016 Mar;63(3):636-46",
+        "PMID": {
+          "Version": 1,
+          "content": 26276985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Biol Eng Comput. 2013 Mar;51(3):305-15",
+        "PMID": {
+          "Version": 1,
+          "content": 23160897
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Nov 23;11(11):e0167031",
+        "PMID": {
+          "Version": 1,
+          "content": 27880845
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Respir J. 2013 Apr;41(4):879-87",
+        "PMID": {
+          "Version": 1,
+          "content": 22878873
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Laryngoscope. 2017 Dec;127(12 ):2891-2896",
+        "PMID": {
+          "Version": 1,
+          "content": 28626986
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Sleep Med. 2009 Jun 15;5(3):263-76",
+        "PMID": {
+          "Version": 1,
+          "content": 19960649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2012 Jan;59(1):141-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21926015
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 1991 May;99(5):1151-7",
+        "PMID": {
+          "Version": 1,
+          "content": 2019170
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2004 Apr 28;291(16):2013-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15113821
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2001 Aug;120(2):625-33",
+        "PMID": {
+          "Version": 1,
+          "content": 11502669
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2017 Dec;152(6):1318-1326",
+        "PMID": {
+          "Version": 1,
+          "content": 28442310
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Chron Obstruct Pulmon Dis. 2014 Apr 08;9:349-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24748786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Respirology. 2017 Apr;22(3):575-601",
+        "PMID": {
+          "Version": 1,
+          "content": 28150362
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Neural Syst. 2013 Oct;23(5):1350020",
+        "PMID": {
+          "Version": 1,
+          "content": 23924411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sleep Breath. 2016 May;20(2):509-14",
+        "PMID": {
+          "Version": 1,
+          "content": 26087718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Nov 17;9(11):e112959",
+        "PMID": {
+          "Version": 1,
+          "content": 25401696
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sleep. 1998 Nov 1;21(7):759-67",
+        "PMID": {
+          "Version": 1,
+          "content": 11300121
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2017 Jun 14;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28622666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Eng Phys. 2012 Oct;34(8):1049-57",
+        "PMID": {
+          "Version": 1,
+          "content": 22154238
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Can Respir J. 2014 May-Jun;21(3):171-5",
+        "PMID": {
+          "Version": 1,
+          "content": 24524112
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2010 Dec;57(12):2816-24",
+        "PMID": {
+          "Version": 1,
+          "content": 20624698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sleep. 2014 Dec 01;37(12):1953-61",
+        "PMID": {
+          "Version": 1,
+          "content": 25325484
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Breathe (Sheff). 2017 Jun;13(2):137-140",
+        "PMID": {
+          "Version": 1,
+          "content": 28620435
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2003 May;123(5):1567-76",
+        "PMID": {
+          "Version": 1,
+          "content": 12740275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2008 Oct;92(1):79-89",
+        "PMID": {
+          "Version": 1,
+          "content": 18672313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2001 Dec;48(12):1424-33",
+        "PMID": {
+          "Version": 1,
+          "content": 11759923
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29176802
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29176802,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0188094",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-27039",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5703515",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

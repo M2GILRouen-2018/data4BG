@@ -1,0 +1,751 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101319161,
+      "Country": "England",
+      "ISSNLinking": "1756-0381",
+      "MedlineTA": "BioData Min"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 31},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "Wellcome Trust",
+          "Country": "United Kingdom"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D016454",
+          "content": "Review"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The ability of external investigators to reproduce published scientific findings is critical for the evaluation and validation of biomedical research by the wider community. However, a substantial proportion of health research using electronic health records (EHR), data collected and generated during clinical care, is potentially not reproducible mainly due to the fact that the implementation details of most data preprocessing, cleaning, phenotyping and analysis approaches are not systematically made available or shared. With the complexity, volume and variety of electronic health record data sources made available for research steadily increasing, it is critical to ensure that scientific findings from EHR data are reproducible and replicable by researchers. Reporting guidelines, such as RECORD and STROBE, have set a solid foundation by recommending a series of items for researchers to include in their research outputs. Researchers however often lack the technical tools and methodological approaches to actuate such recommendations in an efficient and sustainable manner."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "In this paper, we review and propose a series of methods and tools utilized in adjunct scientific disciplines that can be used to enhance the reproducibility of research using electronic health records and enable researchers to report analytical approaches in a transparent manner. Specifically, we discuss the adoption of scientific software engineering principles and best-practices such as test-driven development, source code revision control systems, literate programming and the standardization and re-use of common data management and analytical approaches."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The adoption of such approaches will enable scientists to systematically document and share EHR analytical workflows and increase the reproducibility of biomedical research using such complex data sources."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0001-9612-7791"
+            },
+            "ForeName": "Spiros",
+            "LastName": "Denaxas",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {
+                "Identifier": [
+                  {
+                    "Source": "ISNI",
+                    "content": "0000000121901201"
+                  },
+                  {
+                    "Source": "GRID",
+                    "content": "grid.83440.3b"
+                  }
+                ],
+                "Affiliation": "Institute of Health Informatics, University College London, 222 Euston Road, London, NW1 2DA UK."
+              },
+              {"Affiliation": "Farr Institute of Health Informatics Research, 222 Euston Road, London, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kenan",
+            "LastName": "Direk",
+            "Initials": "K",
+            "AffiliationInfo": [
+              {
+                "Identifier": [
+                  {
+                    "Source": "ISNI",
+                    "content": "0000000121901201"
+                  },
+                  {
+                    "Source": "GRID",
+                    "content": "grid.83440.3b"
+                  }
+                ],
+                "Affiliation": "Institute of Health Informatics, University College London, 222 Euston Road, London, NW1 2DA UK."
+              },
+              {"Affiliation": "Farr Institute of Health Informatics Research, 222 Euston Road, London, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arturo",
+            "LastName": "Gonzalez-Izquierdo",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {
+                "Identifier": [
+                  {
+                    "Source": "ISNI",
+                    "content": "0000000121901201"
+                  },
+                  {
+                    "Source": "GRID",
+                    "content": "grid.83440.3b"
+                  }
+                ],
+                "Affiliation": "Institute of Health Informatics, University College London, 222 Euston Road, London, NW1 2DA UK."
+              },
+              {"Affiliation": "Farr Institute of Health Informatics Research, 222 Euston Road, London, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maria",
+            "LastName": "Pikoula",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {
+                "Identifier": [
+                  {
+                    "Source": "ISNI",
+                    "content": "0000000121901201"
+                  },
+                  {
+                    "Source": "GRID",
+                    "content": "grid.83440.3b"
+                  }
+                ],
+                "Affiliation": "Institute of Health Informatics, University College London, 222 Euston Road, London, NW1 2DA UK."
+              },
+              {"Affiliation": "Farr Institute of Health Informatics Research, 222 Euston Road, London, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aylin",
+            "LastName": "Cakiroglu",
+            "Initials": "A",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0004 1795 1830"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.451388.3"
+                }
+              ],
+              "Affiliation": "The Francis Crick Institute, 1 Midland Road, London, NW1 1AT UK."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jason",
+            "LastName": "Moore",
+            "Initials": "J",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0004 1936 8972"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.25879.31"
+                }
+              ],
+              "Affiliation": "Institute of Biomedical Informatics, University of Pennsylvania, Richards Medical Research Laboratories, 3700 Hamilton Walk, Philadelphia, 19104 USA."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Harry",
+            "LastName": "Hemingway",
+            "Initials": "H",
+            "AffiliationInfo": [
+              {
+                "Identifier": [
+                  {
+                    "Source": "ISNI",
+                    "content": "0000000121901201"
+                  },
+                  {
+                    "Source": "GRID",
+                    "content": "grid.83440.3b"
+                  }
+                ],
+                "Affiliation": "Institute of Health Informatics, University College London, 222 Euston Road, London, NW1 2DA UK."
+              },
+              {"Affiliation": "Farr Institute of Health Informatics Research, 222 Euston Road, London, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Liam",
+            "LastName": "Smeeth",
+            "Initials": "L",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0004 0425 469X"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.8991.9"
+                }
+              ],
+              "Affiliation": "EHR Research Group, Department of Non-communicable Disease Epidemiology, London School of Hygiene and Tropical Medicine, Keppel Streeet, London, WC1E 7HT UK."
+            }
+          }
+        ]
+      },
+      "ArticleTitle": "Methods for enhancing the reproducibility of biomedical research findings using electronic health records.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13040-017-0151-7"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 10,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "BioData Min",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1756-0381"
+        },
+        "Title": "BioData mining"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Biomedical research"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Electronic health records"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Reproducibility"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Transparency"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2010 Dec 02;11 Suppl 4:S27",
+        "PMID": {
+          "Version": 1,
+          "content": 21143811
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 2012 Dec;41(6):1625-38",
+        "PMID": {
+          "Version": 1,
+          "content": 23220717
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 Jan 17;343(6168):229",
+        "PMID": {
+          "Version": 1,
+          "content": 24436391
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2015 Sep;16(5):901-3",
+        "PMID": {
+          "Version": 1,
+          "content": 25433467
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2016 Jan 04;14(1):e1002333",
+        "PMID": {
+          "Version": 1,
+          "content": 26726926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2013 Jun;20(e1):e147-54",
+        "PMID": {
+          "Version": 1,
+          "content": 23531748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet Diabetes Endocrinol. 2015 Feb;3(2):105-13",
+        "PMID": {
+          "Version": 1,
+          "content": 25466521
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Heart J. 2014 Apr;35(13):844-52",
+        "PMID": {
+          "Version": 1,
+          "content": 24353280
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jul;41(Web Server issue):W557-61",
+        "PMID": {
+          "Version": 1,
+          "content": 23640334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BioData Min. 2016 Sep 22;9:29",
+        "PMID": {
+          "Version": 1,
+          "content": 27688810
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2009 Jul;10(3):405-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19535325
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Surg. 2014 Dec;12(12):1495-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25046131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 2015 Jan 2;116(1):116-26",
+        "PMID": {
+          "Version": 1,
+          "content": 25552691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Med. 2013 Oct;15(10):761-71",
+        "PMID": {
+          "Version": 1,
+          "content": 23743551
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2005 Aug;2(8):e124",
+        "PMID": {
+          "Version": 1,
+          "content": 16060722
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2010 Jan 22;327(5964):415-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20093459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Genet. 2012 Apr;131(4):639-52",
+        "PMID": {
+          "Version": 1,
+          "content": 22037903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2013 Jan 1;20(1):117-21",
+        "PMID": {
+          "Version": 1,
+          "content": 22955496
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans A Math Phys Eng Sci. 2008 Sep 13;366(1878):3111-36",
+        "PMID": {
+          "Version": 1,
+          "content": 18565813
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2016 Jun 22;353:i3163",
+        "PMID": {
+          "Version": 1,
+          "content": 27334486
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Jun 18;9(6):e99825",
+        "PMID": {
+          "Version": 1,
+          "content": 24941260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2015 Feb 26;372(9):793-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25635347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiome. 2014 Mar 07;2(1):8",
+        "PMID": {
+          "Version": 1,
+          "content": 24602292
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 May 9;417(6885):119-20",
+        "PMID": {
+          "Version": 1,
+          "content": 12000935
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2004;5(10):R80",
+        "PMID": {
+          "Version": 1,
+          "content": 15461798
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet. 2014 May 31;383(9932):1899-911",
+        "PMID": {
+          "Version": 1,
+          "content": 24881994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2013 Oct;9(10):e1003285",
+        "PMID": {
+          "Version": 1,
+          "content": 24204232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 2006;121:279-90",
+        "PMID": {
+          "Version": 1,
+          "content": 17095826
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012;8(12):e1002802",
+        "PMID": {
+          "Version": 1,
+          "content": 23236269
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2016 Apr 6;8(333):333ps8",
+        "PMID": {
+          "Version": 1,
+          "content": 27053770
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2016 Jun 1;8(341):341ps12",
+        "PMID": {
+          "Version": 1,
+          "content": 27252173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ Open. 2016 Oct 11;6(10 ):e012785",
+        "PMID": {
+          "Version": 1,
+          "content": 27729352
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Data. 2016 May 24;3:160035",
+        "PMID": {
+          "Version": 1,
+          "content": 27219127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2017 Jan 5;13(1):e1005265",
+        "PMID": {
+          "Version": 1,
+          "content": 28056032
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2015 Oct 06;12(10):e1001885",
+        "PMID": {
+          "Version": 1,
+          "content": 26440803
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2014 Jun 25;311(24):2479-80",
+        "PMID": {
+          "Version": 1,
+          "content": 24854141
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2017 Mar 9;13(3):e1005209",
+        "PMID": {
+          "Version": 1,
+          "content": 28278228
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2016 Mar 12;17 :127",
+        "PMID": {
+          "Version": 1,
+          "content": 26968893
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2015 Mar 31;12 (3):e1001779",
+        "PMID": {
+          "Version": 1,
+          "content": 25826379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2005 Oct;15(10):1451-5",
+        "PMID": {
+          "Version": 1,
+          "content": 16169926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2017 Apr;35(4):342-346",
+        "PMID": {
+          "Version": 1,
+          "content": 28288103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Jun 1;25(11):1422-3",
+        "PMID": {
+          "Version": 1,
+          "content": 19304878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMJ. 2017 Mar 22;356:j909",
+        "PMID": {
+          "Version": 1,
+          "content": 28331015
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Semantics. 2012 Dec 17;3(1):10",
+        "PMID": {
+          "Version": 1,
+          "content": 23244446
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 Feb 23;12 (2):e0171784",
+        "PMID": {
+          "Version": 1,
+          "content": 28231289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2011 Apr 20;3(79):79re1",
+        "PMID": {
+          "Version": 1,
+          "content": 21508311
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Oct 1;28(19):2520-2",
+        "PMID": {
+          "Version": 1,
+          "content": 22908215
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2015 Nov;22(6):1220-30",
+        "PMID": {
+          "Version": 1,
+          "content": 26342218
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Epidemiol. 2005 Mar 15;161(6):585-94",
+        "PMID": {
+          "Version": 1,
+          "content": 15746475
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2011 Dec 15;5:198",
+        "PMID": {
+          "Version": 1,
+          "content": 22172142
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Heart Fail. 2017 Sep;19(9):1119-1127",
+        "PMID": {
+          "Version": 1,
+          "content": 28008698
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28912836
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28912836,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13040-017-0151-7",
+        "IdType": "doi"
+      },
+      {
+        "content": 151,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5594436",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

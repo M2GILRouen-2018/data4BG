@@ -1,0 +1,132 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Graph model is emerging as a very effective tool for learning the complex structures and relationships hidden in data. Generally, the critical purpose of graph-oriented learning algorithms is to construct an informative graph for image clustering and classification tasks. In addition to the classical K-nearestneighbor and r-neighborhood methods for graph construction, l1-graph and its variants are emerging methods for finding the neighboring samples of a center datum, where the corresponding ingoing edge weights are simultaneously derived by the sparse reconstruction coefficients of the remaining samples. However, the pair-wise links of l1-graph are not capable of capturing the high order relationships between the center datum and its prominent data in sparse reconstruction. Meanwhile, from the perspective of variable selection, the l1 norm sparse constraint, regarded as a LASSO model, tends to select only one datum from a group of data that are highly correlated and ignore the others. To simultaneously cope with these drawbacks, we propose a new elastic net hypergraph learning model, which consists of two steps. In the first step, the Robust Matrix Elastic Net model is constructed to find the canonically related samples in a somewhat greedy way, achieving the grouping effect by adding the l2 penalty to the l1 constraint. In the second step, hypergraph is used to represent the high order relationships between each datum and its prominent samples by regarding them as a hyperedge. Subsequently, hypergraph Laplacian matrix is constructed for further analysis. New hypergraph learning algorithms, including unsupervised clustering and multi-class semisupervised classification, are then derived. Extensive experiments on face and handwriting databases demonstrate the effectiveness of the proposed method."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qingshan",
+            "LastName": "Liu",
+            "Initials": "Q"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yubao",
+            "LastName": "Sun",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cantian",
+            "LastName": "Wang",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tongliang",
+            "LastName": "Liu",
+            "Initials": "T"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dacheng",
+            "LastName": "Tao",
+            "Initials": "D"
+          }
+        ]
+      },
+      "ArticleTitle": "Elastic Net Hypergraph Learning for Image Clustering and Semi-supervised Classification.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2621671"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2016,
+            "Day": 26
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113763
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113763,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2621671",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

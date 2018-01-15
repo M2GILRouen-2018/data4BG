@@ -1,0 +1,589 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0411011",
+      "Country": "England",
+      "ISSNLinking": "0305-1048",
+      "MedlineTA": "Nucleic Acids Res"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "12877-12887"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM106056",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NHGRI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HG003008",
+            "Acronym": "HG"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 GM103804",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author(s) 2017. Published by Oxford University Press on behalf of Nucleic Acids Research.",
+        "AbstractText": "Uncovering the mechanisms that affect the binding specificity of transcription factors (TFs) is critical for understanding the principles of gene regulation. Although sequence-based models have been used successfully to predict TF binding specificities, we found that including DNA shape information in these models improved their accuracy and interpretability. Previously, we developed a method for modeling DNA binding specificities based on DNA shape features extracted from Monte Carlo (MC) simulations. Prediction accuracies of our models, however, have not yet been compared to accuracies of models incorporating DNA shape information extracted from X-ray crystallography (XRC) data or Molecular Dynamics (MD) simulations. Here, we integrated DNA shape information extracted from MC or MD simulations and XRC data into predictive models of TF binding and compared their performance. Models that incorporated structural information consistently showed improved performance over sequence-based models regardless of data source. Furthermore, we derived and validated nine additional DNA shape features beyond our original set of four features. The expanded repertoire of 13 distinct DNA shape features, including six intra-base pair and six inter-base pair parameters and minor groove width, is available in our R/Bioconductor package DNAshapeR and enables a comprehensive structural description of the double helix on a genome-wide scale."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinsen",
+            "LastName": "Li",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Computational Biology and Bioinformatics Program, Departments of Biological Sciences, Chemistry, Physics & Astronomy, and Computer Science, University of Southern California, Los Angeles, CA 90089, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jared M",
+            "LastName": "Sagendorf",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Computational Biology and Bioinformatics Program, Departments of Biological Sciences, Chemistry, Physics & Astronomy, and Computer Science, University of Southern California, Los Angeles, CA 90089, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tsu-Pei",
+            "LastName": "Chiu",
+            "Initials": "TP",
+            "AffiliationInfo": {"Affiliation": "Computational Biology and Bioinformatics Program, Departments of Biological Sciences, Chemistry, Physics & Astronomy, and Computer Science, University of Southern California, Los Angeles, CA 90089, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marco",
+            "LastName": "Pasi",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Centre for Biomolecular Sciences and School of Pharmacy, University of Nottingham, Nottingham NG7 2RD, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alberto",
+            "LastName": "Perez",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Laufer Center for Physical and Quantitative Biology, Stony Brook University, Stony Brook, NY 11794, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Remo",
+            "LastName": "Rohs",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Computational Biology and Bioinformatics Program, Departments of Biological Sciences, Chemistry, Physics & Astronomy, and Computer Science, University of Southern California, Los Angeles, CA 90089, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Expanding the repertoire of DNA shape features for genome-scale studies of transcription factor binding.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/nar/gkx1145"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 22,
+          "Volume": 45,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Nucleic Acids Res.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1362-4962"
+        },
+        "Title": "Nucleic acids research"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Oct 29;461(7268):1248-53",
+        "PMID": {
+          "Version": 1,
+          "content": 19865164
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2000 Jan;16(1):16-23",
+        "PMID": {
+          "Version": 1,
+          "content": 10812473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2001 Nov;8(5):937-46",
+        "PMID": {
+          "Version": 1,
+          "content": 11741530
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Biochem Sci. 2014 Sep;39(9):381-99",
+        "PMID": {
+          "Version": 1,
+          "content": 25129887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2006 Nov;24(11):1429-35",
+        "PMID": {
+          "Version": 1,
+          "content": 16998473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2000 Jan 1;28(1):235-42",
+        "PMID": {
+          "Version": 1,
+          "content": 10592235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2010 Jun;20(6):861-73",
+        "PMID": {
+          "Version": 1,
+          "content": 20378718
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2013 Feb;31(2):126-34",
+        "PMID": {
+          "Version": 1,
+          "content": 23354101
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2013 Apr 25;3(4):1117-27",
+        "PMID": {
+          "Version": 1,
+          "content": 23545501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2013 Apr 25;3(4):1093-104",
+        "PMID": {
+          "Version": 1,
+          "content": 23562153
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biochem. 2010;79:233-69",
+        "PMID": {
+          "Version": 1,
+          "content": 20334529
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jul;41(Web Server issue):W56-62",
+        "PMID": {
+          "Version": 1,
+          "content": 23703209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2016 Oct 20;167(3):709-721.e12",
+        "PMID": {
+          "Version": 1,
+          "content": 27768892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jul 27;44(13):e120",
+        "PMID": {
+          "Version": 1,
+          "content": 27257066
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2001 Oct 12;313(1):229-37",
+        "PMID": {
+          "Version": 1,
+          "content": 11601858
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochemistry. 2017 Jul 25;56(29):3745-3753",
+        "PMID": {
+          "Version": 1,
+          "content": 28644006
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2016 Sep 01;7:12621",
+        "PMID": {
+          "Version": 1,
+          "content": 27581526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2005 Dec;89(6):3721-40",
+        "PMID": {
+          "Version": 1,
+          "content": 16169978
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 Apr 14;112(15):4654-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25775564
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Funct Genomics. 2015 Jan;14(1):61-73",
+        "PMID": {
+          "Version": 1,
+          "content": 25319759
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2016 Sep 8;537(7619):244-248",
+        "PMID": {
+          "Version": 1,
+          "content": 27580037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Mol Biol Educ. 2012 Nov-Dec;40(6):400-1",
+        "PMID": {
+          "Version": 1,
+          "content": 23166030
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2012 Jul;191(3):781-90",
+        "PMID": {
+          "Version": 1,
+          "content": 22505627
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2016 Jan;13(1):55-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26569599
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jan;43(1):84-94",
+        "PMID": {
+          "Version": 1,
+          "content": 25432957
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2014 Jul;15(7):453-68",
+        "PMID": {
+          "Version": 1,
+          "content": 24913666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Nov;40(21):10668-78",
+        "PMID": {
+          "Version": 1,
+          "content": 23012264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2000;1(1):REVIEWS001",
+        "PMID": {
+          "Version": 1,
+          "content": 11104519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Nov 1;31(21):3445-50",
+        "PMID": {
+          "Version": 1,
+          "content": 26130577
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2011 Dec 9;147(6):1270-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22153072
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Jun 22;7(1):4071",
+        "PMID": {
+          "Version": 1,
+          "content": 28642456
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2014 Apr;15(4):272-86",
+        "PMID": {
+          "Version": 1,
+          "content": 24614317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2017 Feb 6;13(2):910",
+        "PMID": {
+          "Version": 1,
+          "content": 28167566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Syst. 2016 Sep 28;3(3):278-286.e4",
+        "PMID": {
+          "Version": 1,
+          "content": 27546793
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Apr 15;32(8):1211-3",
+        "PMID": {
+          "Version": 1,
+          "content": 26668005
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D148-55",
+        "PMID": {
+          "Version": 1,
+          "content": 24214955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1998 Sep 15;95(19):11163-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9736707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Struct Biol. 2009 Apr;19(2):171-7",
+        "PMID": {
+          "Version": 1,
+          "content": 19362815
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Apr 9;161(2):307-18",
+        "PMID": {
+          "Version": 1,
+          "content": 25843630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2003 Sep 1;31(17):5108-21",
+        "PMID": {
+          "Version": 1,
+          "content": 12930962
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jul 27;44(13):6055-69",
+        "PMID": {
+          "Version": 1,
+          "content": 27288444
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2008 Aug 22;4(8):e1000154",
+        "PMID": {
+          "Version": 1,
+          "content": 18725950
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Sep;41(17):8368-76",
+        "PMID": {
+          "Version": 1,
+          "content": 23836939
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomol Struct Dyn. 1989 Feb;6(4):655-67",
+        "PMID": {
+          "Version": 1,
+          "content": 2619933
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2009 Mar 6;386(4):1054-65",
+        "PMID": {
+          "Version": 1,
+          "content": 19244617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 1992 Sep;63(3):751-9",
+        "PMID": {
+          "Version": 1,
+          "content": 1384741
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Structure. 2005 Oct;13(10):1499-509",
+        "PMID": {
+          "Version": 1,
+          "content": 16216581
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Oct 29;42(19):12272-83",
+        "PMID": {
+          "Version": 1,
+          "content": 25260586
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Oct 1;33(19):3003-3010",
+        "PMID": {
+          "Version": 1,
+          "content": 28541376
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1994 Mar 31;368(6470):469-73",
+        "PMID": {
+          "Version": 1,
+          "content": 8133895
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29165643
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 30,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29165643,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 4634013,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/nar/gkx1145",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5728407",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

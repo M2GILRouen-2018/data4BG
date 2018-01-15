@@ -1,0 +1,264 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 24
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2206-2218"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 16
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "GOAL",
+          "content": "We use noninvasive data (body surface potential mapping, BSPM) to personalize the main parameters of a cardiac electrophysiological (EP) model for predicting the response to different pacing conditions."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "First, an efficient forward model is proposed, coupling the Mitchell-Schaeffer transmembrane potential model with a current dipole formulation. Then, we estimate the main parameters of the cardiac model: activation onset location and tissue conductivity. A large patient-specific database of simulated BSPM is generated, from which specific features are extracted to train a machine learning algorithm. The activation onset location is computed from a Kernel Ridge Regression and a second regression calibrates the global ventricular conductivity."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The evaluation of the results is done both on a benchmark dataset of a patient with premature ventricular contraction (PVC) and on five nonischaemic implanted cardiac resynchonization therapy (CRT) patients with a total of 21 different pacing conditions. Good personalization results were found in terms of the activation onset location for the PVC (mean distance error, MDE = 20.3 mm), for the pacing sites (MDE = 21.7 mm) and for the CRT patients (MDE = 24.6 mm). We tested the predictive power of the personalized model for biventricular pacing and showed that we could predict the new electrical activity patterns with a good accuracy in terms of BSPM signals."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "We have personalized the cardiac EP model and predicted new patient-specific pacing conditions."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "SIGNIFICANCE",
+          "content": "This is an encouraging first step towards a noninvasive preoperative prediction of the response to different pacing conditions to assist clinicians for CRT patient selection and therapy planning."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sophie",
+            "LastName": "Giffard-Roisin",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thomas",
+            "LastName": "Jackson",
+            "Initials": "T"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lauren",
+            "LastName": "Fovargue",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jack",
+            "LastName": "Lee",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Herve",
+            "LastName": "Delingette",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Reza",
+            "LastName": "Razavi",
+            "Initials": "R"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicholas",
+            "LastName": "Ayache",
+            "Initials": "N"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maxime",
+            "LastName": "Sermesant",
+            "Initials": "M"
+          }
+        ]
+      },
+      "ArticleTitle": "Noninvasive Personalization of a Cardiac Electrophysiology Model From Body Surface Potential Mapping.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2629849"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018780",
+          "MajorTopicYN": "N",
+          "content": "Body Surface Potential Mapping"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D003936",
+          "MajorTopicYN": "N",
+          "content": "Diagnosis, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D006329",
+          "MajorTopicYN": "N",
+          "content": "Heart Conduction System"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008955",
+        "MajorTopicYN": "Y",
+        "content": "Models, Cardiovascular"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D018802",
+          "MajorTopicYN": "N",
+          "content": "Patient-Centered Care"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 24
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113292
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113292,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2629849",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

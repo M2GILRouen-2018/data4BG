@@ -1,0 +1,609 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2015,
+      "Day": 29
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "i181-9"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 ES015794",
+            "Acronym": "ES"
+          },
+          {
+            "Agency": "NIAID NIH HHS",
+            "Country": "United States",
+            "GrantID": "U19-AI077439",
+            "Acronym": "AI"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R25 CA113710",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "K23 HL004464",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-HL004464",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIEHS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-ES015794",
+            "Acronym": "ES"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R25-CA113710",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL078885",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "K25HL121295",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 GM007546",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIAID NIH HHS",
+            "Country": "United States",
+            "GrantID": "U19 AI077439",
+            "Acronym": "AI"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-HL078885",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIMHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "P60MD006902",
+            "Acronym": "MD"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL104608",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIMHD NIH HHS",
+            "Country": "United States",
+            "GrantID": "P60 MD006902",
+            "Acronym": "MD"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32-GM007546",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-HL104608",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01-HL088133",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "K25 HL121295",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL088133",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 GM007175",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        },
+        {
+          "UI": "D013487",
+          "content": "Research Support, U.S. Gov't, P.H.S."
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© The Author 2015. Published by Oxford University Press.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "MOTIVATION",
+            "content": "Approaches to identifying new risk loci, training risk prediction models, imputing untyped variants and fine-mapping causal variants from summary statistics of genome-wide association studies are playing an increasingly important role in the human genetics community. Current summary statistics-based methods rely on global 'best guess' reference panels to model the genetic correlation structure of the dataset being studied. This approach, especially in admixed populations, has the potential to produce misleading results, ignores variation in local structure and is not feasible when appropriate reference panels are missing or small. Here, we develop a method, Adapt-Mix, that combines information across all available reference panels to produce estimates of local genetic correlation structure for summary statistics-based methods in arbitrary populations."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "We applied Adapt-Mix to estimate the genetic correlation structure of both admixed and non-admixed individuals using simulated and real data. We evaluated our method by measuring the performance of two summary statistics-based methods: imputation and joint-testing. When using our method as opposed to the current standard of 'best guess' reference panels, we observed a 28% decrease in mean-squared error for imputation and a 73.7% decrease in mean-squared error for joint-testing."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "AVAILABILITY AND IMPLEMENTATION",
+            "content": "Our method is publicly available in a software package called ADAPT-Mix available at https://github.com/dpark27/adapt_mix."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Danny S",
+            "LastName": "Park",
+            "Initials": "DS",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brielin",
+            "LastName": "Brown",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Celeste",
+            "LastName": "Eng",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Scott",
+            "LastName": "Huntsman",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Donglei",
+            "LastName": "Hu",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dara G",
+            "LastName": "Torgerson",
+            "Initials": "DG",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Esteban G",
+            "LastName": "Burchard",
+            "Initials": "EG",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Noah",
+            "LastName": "Zaitlen",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, Department of Computer Science, University of California Berkeley, Berkeley and Department of Medicine, University of California San Francisco, San Francisco, CA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Adapt-Mix: learning local genetic correlation structure improves summary statistics-based analyses.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btv230"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 31,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2015,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2015,
+      "Day": 15
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003627",
+        "MajorTopicYN": "N",
+        "content": "Data Interpretation, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D055106",
+          "MajorTopicYN": "N",
+          "content": "Genome-Wide Association Study"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005838",
+        "MajorTopicYN": "N",
+        "content": "Genotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D010641",
+        "MajorTopicYN": "N",
+        "content": "Phenotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D020641",
+        "MajorTopicYN": "N",
+        "content": "Polymorphism, Single Nucleotide"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2016,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2008 Mar;4(3):e1000037",
+        "PMID": {
+          "Version": 1,
+          "content": 18369456
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2015 Mar;47(3):291-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25642630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Hered. 2009;68(2):73-86",
+        "PMID": {
+          "Version": 1,
+          "content": 19365134
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2009 Jun;5(6):e1000529",
+        "PMID": {
+          "Version": 1,
+          "content": 19543373
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Sep 24;461(7263):489-94",
+        "PMID": {
+          "Version": 1,
+          "content": 19779445
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Jan 12;107(2):786-91",
+        "PMID": {
+          "Version": 1,
+          "content": 20080753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2010 Jul 9;87(1):139-45",
+        "PMID": {
+          "Version": 1,
+          "content": 20598278
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2010 Nov;42(11):937-48",
+        "PMID": {
+          "Version": 1,
+          "content": 20935630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2010 Dec;42(12):1049-51",
+        "PMID": {
+          "Version": 1,
+          "content": 21057501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2011 Jan;35(1):1-10",
+        "PMID": {
+          "Version": 1,
+          "content": 21181893
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 Apr;43(4):339-44",
+        "PMID": {
+          "Version": 1,
+          "content": 21378988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 Apr;43(4):333-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21378990
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2011 Jul;7(7):e1002198",
+        "PMID": {
+          "Version": 1,
+          "content": 21829380
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2012 Apr;44(4):369-75, S1-3",
+        "PMID": {
+          "Version": 1,
+          "content": 22426310
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 May 15;28(10):1359-67",
+        "PMID": {
+          "Version": 1,
+          "content": 22495753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Nov 1;491(7422):56-65",
+        "PMID": {
+          "Version": 1,
+          "content": 23128226
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2013 Jan 18;339(6117):321-4",
+        "PMID": {
+          "Version": 1,
+          "content": 23329047
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 2013 Apr 1;187(7):697-702",
+        "PMID": {
+          "Version": 1,
+          "content": 23392439
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2013 Apr;9(4):e1003449",
+        "PMID": {
+          "Version": 1,
+          "content": 23637621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Oct 15;30(20):2906-14",
+        "PMID": {
+          "Version": 1,
+          "content": 24990607
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2013 Sep 5;93(3):422-38",
+        "PMID": {
+          "Version": 1,
+          "content": 23932107
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Jun 1;29(11):1407-15",
+        "PMID": {
+          "Version": 1,
+          "content": 23572411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2014 Oct;198(2):497-508",
+        "PMID": {
+          "Version": 1,
+          "content": 25104515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2014 Oct;10(10):e1004722",
+        "PMID": {
+          "Version": 1,
+          "content": 25357204
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 May 26;106(21):8611-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19433783
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4553832"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26072481
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 6,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 6,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26072481,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btv230",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btv230",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4553832",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

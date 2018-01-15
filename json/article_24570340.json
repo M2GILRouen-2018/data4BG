@@ -1,0 +1,291 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101223209,
+      "Country": "United States",
+      "ISSNLinking": "1550-7416",
+      "MedlineTA": "AAPS J"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 5},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Repeated time-to-event (RTTE) models are the preferred method to characterize the repeated occurrence of clinical events. Commonly used diagnostics for parametric RTTE models require representative simulations, which may be difficult to generate in situations with dose titration or informative dropout. Here, we present a novel simulation-free diagnostic tool for parametric RTTE models; the kernel-based visual hazard comparison (kbVHC). The kbVHC aims to evaluate whether the mean predicted hazard rate of a parametric RTTE model is an adequate approximation of the true hazard rate. Because the true hazard rate cannot be directly observed, the predicted hazard is compared to a non-parametric kernel estimator of the hazard rate. With the degree of smoothing of the kernel estimator being determined by its bandwidth, the local kernel bandwidth is set to the lowest value that results in a bootstrap coefficient of variation (CV) of the hazard rate that is equal to or lower than a user-defined target value (CVtarget). The kbVHC was evaluated in simulated scenarios with different number of subjects, hazard rates, CVtarget values, and hazard models (Weibull, Gompertz, and circadian-varying hazard). The kbVHC was able to distinguish between Weibull and Gompertz hazard models, even when the hazard rate was relatively low (<\u20092 events per subject). Additionally, it was more sensitive than the Kaplan-Meier VPC to detect circadian variation of the hazard rate. An additional useful feature of the kernel estimator is that it can be generated prior to model development to explore the shape of the hazard rate function."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sebastiaan C",
+            "LastName": "Goulooze",
+            "Initials": "SC",
+            "AffiliationInfo": {"Affiliation": "Division of Systems Biomedicine and Pharmacology, Leiden Academic Centre for Drug Research, Leiden University, Einsteinweg 55, 2333, CC, Leiden, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pyry A J",
+            "LastName": "Välitalo",
+            "Initials": "PAJ",
+            "AffiliationInfo": {"Affiliation": "Division of Systems Biomedicine and Pharmacology, Leiden Academic Centre for Drug Research, Leiden University, Einsteinweg 55, 2333, CC, Leiden, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Catherijne A J",
+            "LastName": "Knibbe",
+            "Initials": "CAJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Division of Systems Biomedicine and Pharmacology, Leiden Academic Centre for Drug Research, Leiden University, Einsteinweg 55, 2333, CC, Leiden, The Netherlands."},
+              {"Affiliation": "Department of Clinical Pharmacy, St. Antonius Hospital, Nieuwegein, The Netherlands."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elke H J",
+            "LastName": "Krekels",
+            "Initials": "EHJ",
+            "AffiliationInfo": {"Affiliation": "Division of Systems Biomedicine and Pharmacology, Leiden Academic Centre for Drug Research, Leiden University, Einsteinweg 55, 2333, CC, Leiden, The Netherlands. e.krekels@lacdr.leidenuniv.nl."}
+          }
+        ]
+      },
+      "ArticleTitle": "Kernel-Based Visual Hazard Comparison (kbVHC): a Simulation-Free Diagnostic for Parametric Repeated Time-to-Event Models.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1208/s12248-017-0162-9"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 20,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "AAPS J",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1550-7416"
+        },
+        "Title": "The AAPS journal"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "model diagnostics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "non-linear mixed effect models"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pharmacodynamics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pharmacometrics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "repeated time-to-event models"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 1994 Mar;50(1):61-76",
+        "PMID": {
+          "Version": 1,
+          "content": 8086616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AAPS J. 2009 Sep;11(3):558-69",
+        "PMID": {
+          "Version": 1,
+          "content": 19649712
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharm Res. 2016 Dec;33(12 ):2979-2988",
+        "PMID": {
+          "Version": 1,
+          "content": 27604892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AAPS J. 2011 Mar;13(1):83-91",
+        "PMID": {
+          "Version": 1,
+          "content": 21229340
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "CPT Pharmacometrics Syst Pharmacol. 2013 May 15;2:e43",
+        "PMID": {
+          "Version": 1,
+          "content": 23887725
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "CPT Pharmacometrics Syst Pharmacol. 2014 Aug 13;3:e129",
+        "PMID": {
+          "Version": 1,
+          "content": 25116273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anesthesiology. 2015 Dec;123(6):1411-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26495978
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Biopharm. 1999 Dec;27(6):625-44",
+        "PMID": {
+          "Version": 1,
+          "content": 11153449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Scand Stat Theory Appl. 2005 Mar;32(1):77-91",
+        "PMID": {
+          "Version": 1,
+          "content": 24062598
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2016 Feb;43(1):57-71",
+        "PMID": {
+          "Version": 1,
+          "content": 26563504
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Pharmacol Ther. 2007 Jul;82(1):17-20",
+        "PMID": {
+          "Version": 1,
+          "content": 17571070
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacol Exp Ther. 2011 Dec;339(3):878-85",
+        "PMID": {
+          "Version": 1,
+          "content": 21890509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pharm Res. 2016 May;33(5):1093-103",
+        "PMID": {
+          "Version": 1,
+          "content": 26753622
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AAPS J. 2014 May;16(3):415-23",
+        "PMID": {
+          "Version": 1,
+          "content": 24570340
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29181697
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29181697,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1208/s12248-017-0162-9",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1208/s12248-017-0162-9",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

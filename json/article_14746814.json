@@ -1,0 +1,719 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0113724",
+      "Country": "United States",
+      "ISSNLinking": "0022-538X",
+      "MedlineTA": "J Virol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D018925",
+          "content": "Chemokines"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D016207",
+          "content": "Cytokines"
+        },
+        "RegistryNumber": 0
+      }
+    ]},
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "06"
+    },
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 American Society for Microbiology.",
+        "AbstractText": "Immunosenescence, an age-related decline in immune function, is a major contributor to morbidity and mortality in the elderly. Older hosts exhibit a delayed onset of immunity and prolonged inflammation after an infection, leading to excess damage and a greater likelihood of death. Our study applies a rule-based model to infer which components of the immune response are most changed in an aged host. Two groups of BALB/c mice (aged 12 to 16 weeks and 72 to 76 weeks) were infected with 2 inocula: a survivable dose of 50 PFU and a lethal dose of 500 PFU. Data were measured at 10 points over 19 days in the sublethal case and at 6 points over 7 days in the lethal case, after which all mice had died. Data varied primarily in the onset of immunity, particularly the inflammatory response, which led to a 2-day delay in the clearance of the virus from older hosts in the sublethal cohort. We developed a Boolean model to describe the interactions between the virus and 21 immune components, including cells, chemokines, and cytokines, of innate and adaptive immunity. The model identifies distinct sets of rules for each age group by using Boolean operators to describe the complex series of interactions that activate and deactivate immune components. Our model accurately simulates the immune responses of mice of both ages and with both inocula included in the data (95% accurate for younger mice and 94% accurate for older mice) and shows distinct rule choices for the innate immunity arm of the model between younger and aging mice in response to influenza A virus infection.IMPORTANCE Influenza virus infection causes high morbidity and mortality rates every year, especially in the elderly. The elderly tend to have a delayed onset of many immune responses as well as prolonged inflammatory responses, leading to an overall weakened response to infection. Many of the details of immune mechanisms that change with age are currently not well understood. We present a rule-based model of the intrahost immune response to influenza virus infection. The model is fit to experimental data for young and old mice infected with influenza virus. We generated distinct sets of rules for each age group to capture the temporal differences seen in the immune responses of these mice. These rules describe a network of interactions leading to either clearance of the virus or death of the host, depending on the initial dosage of the virus. Our models clearly demonstrate differences in these two age groups, particularly in the innate immune responses."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ericka",
+            "LastName": "Keef",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematics, Carlow University, Pittsburgh, Pennsylvania, USA edkeef@carlow.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Li Ang",
+            "LastName": "Zhang",
+            "Initials": "LA",
+            "AffiliationInfo": {"Affiliation": "Department of Chemical and Petroleum Engineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Swigon",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Mathematics, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."},
+              {"Affiliation": "McGowan Institute for Regenerative Medicine, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alisa",
+            "LastName": "Urbano",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "G Bard",
+            "LastName": "Ermentrout",
+            "Initials": "GB",
+            "AffiliationInfo": {"Affiliation": "Department of Mathematics, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Matuszewski",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Chemical and Petroleum Engineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Franklin R",
+            "LastName": "Toapanta",
+            "Initials": "FR",
+            "AffiliationInfo": {"Affiliation": "Center for Vaccine Research, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ted M",
+            "LastName": "Ross",
+            "Initials": "TM",
+            "AffiliationInfo": {"Affiliation": "Center for Vaccine Research, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert S",
+            "LastName": "Parker",
+            "Initials": "RS",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Chemical and Petroleum Engineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."},
+              {"Affiliation": "Department of Critical Care Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."},
+              {"Affiliation": "Department of Bioengineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."},
+              {"Affiliation": "McGowan Institute for Regenerative Medicine, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gilles",
+            "LastName": "Clermont",
+            "Initials": "G",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Chemical and Petroleum Engineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."},
+              {"Affiliation": "Department of Critical Care Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."},
+              {"Affiliation": "Department of Bioengineering, Swanson School of Engineering, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."},
+              {"Affiliation": "McGowan Institute for Regenerative Medicine, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Discrete Dynamical Modeling of Influenza Virus Infection Suggests Age-Dependent Differences in Immunity.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "e00395-17"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1128/JVI.00395-17"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 23,
+          "Volume": 91,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Virol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1098-5514"
+        },
+        "Title": "Journal of virology"
+      },
+      "PubModel": "Electronic-Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "host-pathogen interactions"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "immunosenescence"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "influenza"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "mathematical modeling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "viral clearance"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D056704",
+        "MajorTopicYN": "N",
+        "content": "Adaptive Immunity"
+      }},
+      {"DescriptorName": {
+        "UI": "D000367",
+        "MajorTopicYN": "N",
+        "content": "Age Factors"
+      }},
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000276",
+          "MajorTopicYN": "N",
+          "content": "immunology"
+        },
+        "DescriptorName": {
+          "UI": "D018925",
+          "MajorTopicYN": "N",
+          "content": "Chemokines"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000276",
+          "MajorTopicYN": "N",
+          "content": "immunology"
+        },
+        "DescriptorName": {
+          "UI": "D016207",
+          "MajorTopicYN": "N",
+          "content": "Cytokines"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D054884",
+        "MajorTopicYN": "Y",
+        "content": "Host-Pathogen Interactions"
+      }},
+      {"DescriptorName": {
+        "UI": "D007113",
+        "MajorTopicYN": "N",
+        "content": "Immunity, Innate"
+      }},
+      {"DescriptorName": {
+        "UI": "D000068884",
+        "MajorTopicYN": "Y",
+        "content": "Immunosenescence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000276",
+          "MajorTopicYN": "N",
+          "content": "immunology"
+        },
+        "DescriptorName": {
+          "UI": "D053118",
+          "MajorTopicYN": "N",
+          "content": "Influenza A Virus, H1N1 Subtype"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000821",
+          "MajorTopicYN": "N",
+          "content": "virology"
+        },
+        "DescriptorName": {
+          "UI": "D008168",
+          "MajorTopicYN": "N",
+          "content": "Lung"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D051379",
+        "MajorTopicYN": "N",
+        "content": "Mice"
+      }},
+      {"DescriptorName": {
+        "UI": "D008807",
+        "MajorTopicYN": "N",
+        "content": "Mice, Inbred BALB C"
+      }},
+      {"DescriptorName": {
+        "UI": "D018448",
+        "MajorTopicYN": "Y",
+        "content": "Models, Immunological"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000276",
+            "MajorTopicYN": "Y",
+            "content": "immunology"
+          },
+          {
+            "UI": "Q000821",
+            "MajorTopicYN": "N",
+            "content": "virology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009976",
+          "MajorTopicYN": "N",
+          "content": "Orthomyxoviridae Infections"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016019",
+        "MajorTopicYN": "N",
+        "content": "Survival Analysis"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "06"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Virol. 2014 Apr;88(8):4123-31",
+        "PMID": {
+          "Version": 1,
+          "content": 24478442
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Immunol. 2002 Sep;2(9):706-13",
+        "PMID": {
+          "Version": 1,
+          "content": 12209139
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Infect Dis. 2000 Aug;31(2):578-85",
+        "PMID": {
+          "Version": 1,
+          "content": 10987724
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Sep 1;30(17):i445-52",
+        "PMID": {
+          "Version": 1,
+          "content": 25161232
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Respir Physiol. 2001 Oct;128(1):23-31",
+        "PMID": {
+          "Version": 1,
+          "content": 11535259
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 1998 Mar 15;160(6):2637-44",
+        "PMID": {
+          "Version": 1,
+          "content": 9510161
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Aging Cell. 2004 Aug;3(4):161-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15268749
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vaccine. 2000 Feb 25;18(16):1717-20",
+        "PMID": {
+          "Version": 1,
+          "content": 10689155
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Infect Immun. 2013 Dec;81(12 ):4615-25",
+        "PMID": {
+          "Version": 1,
+          "content": 24082075
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Life Sci. 2000 Sep 15;67(17):2125-35",
+        "PMID": {
+          "Version": 1,
+          "content": 11057762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mech Ageing Dev. 2000 Aug 15;117(1-3):57-68",
+        "PMID": {
+          "Version": 1,
+          "content": 10958923
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann N Y Acad Sci. 2000 Jun;908:244-54",
+        "PMID": {
+          "Version": 1,
+          "content": 10911963
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2012 Jan;8(1):e1002345",
+        "PMID": {
+          "Version": 1,
+          "content": 22253585
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comp Biochem Physiol A Comp Physiol. 1985;81(4):935-8",
+        "PMID": {
+          "Version": 1,
+          "content": 2863082
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Gerontol A Biol Sci Med Sci. 1995 Nov;50(6):B378-82",
+        "PMID": {
+          "Version": 1,
+          "content": 7583794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Aging (Milano). 1995 Oct;7(5):379-84",
+        "PMID": {
+          "Version": 1,
+          "content": 8719605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Med. 1978 Oct 1;148(4):996-1006",
+        "PMID": {
+          "Version": 1,
+          "content": 81262
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Immunol. 2013 Dec;13(12):875-87",
+        "PMID": {
+          "Version": 1,
+          "content": 24157572
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "MMWR Recomm Rep. 2006 Jul 28;55(RR-10):1-42",
+        "PMID": {
+          "Version": 1,
+          "content": 16874296
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2007 Jun;3(6):e109",
+        "PMID": {
+          "Version": 1,
+          "content": 17559300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Med. 2006 Nov;12(11):1301-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17041596
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2010 Mar;6(3):516-30",
+        "PMID": {
+          "Version": 1,
+          "content": 20174680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol. 2010 Mar 1;184(5):2518-27",
+        "PMID": {
+          "Version": 1,
+          "content": 20100933
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Crit Rev Eukaryot Gene Expr. 2010;20(2):87-103",
+        "PMID": {
+          "Version": 1,
+          "content": 21133840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Exp Gerontol. 1999 Jun;34(3):435-43",
+        "PMID": {
+          "Version": 1,
+          "content": 10433398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bioinform Comput Biol. 2009 Apr;7(2):323-38",
+        "PMID": {
+          "Version": 1,
+          "content": 19340918
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet Infect Dis. 2006 Sep;6(9):557-69",
+        "PMID": {
+          "Version": 1,
+          "content": 16931407
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mech Ageing Dev. 2001 Oct;122(15):1899-913",
+        "PMID": {
+          "Version": 1,
+          "content": 11557288
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 1996 Dec;98(6 Pt 1):1080-7",
+        "PMID": {
+          "Version": 1,
+          "content": 8977509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mech Ageing Dev. 1993 Oct 1;71(1-2):143-54",
+        "PMID": {
+          "Version": 1,
+          "content": 8309279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Immunol. 2014 Oct 21;5:508",
+        "PMID": {
+          "Version": 1,
+          "content": 25374568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Blood. 1998 Jan 1;91(1):173-80",
+        "PMID": {
+          "Version": 1,
+          "content": 9414282
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2015 Jun 7;374:83-93",
+        "PMID": {
+          "Version": 1,
+          "content": 25843213
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FASEB J. 1994 Oct;8(13):1041-7",
+        "PMID": {
+          "Version": 1,
+          "content": 7926369
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J R Soc Interface. 2009 Jul 6;6(36):599-612",
+        "PMID": {
+          "Version": 1,
+          "content": 18952547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbes Infect. 2001 Aug;3(10):851-7",
+        "PMID": {
+          "Version": 1,
+          "content": 11580980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Med Okayama. 1985 Dec;39(6):447-51",
+        "PMID": {
+          "Version": 1,
+          "content": 4091040
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Respir Res. 2009 Nov 18;10:112",
+        "PMID": {
+          "Version": 1,
+          "content": 19922665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunity. 2002 Sep;17(3):289-301",
+        "PMID": {
+          "Version": 1,
+          "content": 12354382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Immunology. 2009 Mar;126(3):386-93",
+        "PMID": {
+          "Version": 1,
+          "content": 18759749
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cytokine Growth Factor Rev. 2004 Feb;15(1):61-76",
+        "PMID": {
+          "Version": 1,
+          "content": 14746814
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28904202
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": "05",
+        "Year": 2018,
+        "Day": 14,
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28904202,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "JVI.00395-17",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1128/JVI.00395-17",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5686742",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

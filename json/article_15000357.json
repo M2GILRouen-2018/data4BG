@@ -1,0 +1,355 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101147518,
+      "Country": "England",
+      "ISSNLinking": "1475-925X",
+      "MedlineTA": "Biomed Eng Online"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2011,
+      "Day": 21
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 40},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2010,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Segmentation of the coronary angiogram is important in computer-assisted artery motion analysis or reconstruction of 3D vascular structures from a single-plan or biplane angiographic system. Developing fully automated and accurate vessel segmentation algorithms is highly challenging, especially when extracting vascular structures with large variations in image intensities and noise, as well as with variable cross-sections or vascular lesions."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "This paper presents a novel tracking method for automatic segmentation of the coronary artery tree in X-ray angiographic images, based on probabilistic vessel tracking and fuzzy structure pattern inferring. The method is composed of two main steps: preprocessing and tracking. In preprocessing, multiscale Gabor filtering and Hessian matrix analysis were used to enhance and extract vessel features from the original angiographic image, leading to a vessel feature map as well as a vessel direction map. In tracking, a seed point was first automatically detected by analyzing the vessel feature map. Subsequently, two operators [e.g., a probabilistic tracking operator (PTO) and a vessel structure pattern detector (SPD)] worked together based on the detected seed point to extract vessel segments or branches one at a time. The local structure pattern was inferred by a multi-feature based fuzzy inferring function employed in the SPD. The identified structure pattern, such as crossing or bifurcation, was used to control the tracking process, for example, to keep tracking the current segment or start tracking a new one, depending on the detected pattern."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "By appropriate integration of these advanced preprocessing and tracking steps, our tracking algorithm is able to extract both vessel axis lines and edge points, as well as measure the arterial diameters in various complicated cases. For example, it can walk across gaps along the longitudinal vessel direction, manage varying vessel curvatures, and adapt to varying vessel widths in situations with arterial stenoses and aneurysms."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Our algorithm performs well in terms of robustness, automation, adaptability, and applicability. In particular, the successful development of two novel operators, namely, PTO and SPD, ensures the performance of our algorithm in vessel tracking."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhou",
+            "LastName": "Shoujun",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "School of Biomedical Engineering, Southern Medical University, Guangzhou, 510515, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yang",
+            "LastName": "Jian",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wang",
+            "LastName": "Yongtian",
+            "Initials": "W"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chen",
+            "LastName": "Wufan",
+            "Initials": "C"
+          }
+        ]
+      },
+      "ArticleTitle": "Automatic segmentation of coronary angiograms based on fuzzy inferring and probabilistic tracking.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1475-925X-9-40"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 9,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2010,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Biomed Eng Online",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1475-925X"
+        },
+        "Title": "Biomedical engineering online"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "09",
+      "Year": 2010,
+      "Day": "07"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "N",
+        "content": "Automation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D023921",
+          "MajorTopicYN": "N",
+          "content": "Coronary Stenosis"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000033",
+            "MajorTopicYN": "N",
+            "content": "anatomy & histology"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003331",
+          "MajorTopicYN": "N",
+          "content": "Coronary Vessels"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017143",
+        "MajorTopicYN": "Y",
+        "content": "Fuzzy Logic"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011336",
+        "MajorTopicYN": "N",
+        "content": "Probability"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Syst Man Cybern B Cybern. 2003;33(4):554-61",
+        "PMID": {
+          "Version": 1,
+          "content": 18238205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Apr;17(2):263-73",
+        "PMID": {
+          "Version": 1,
+          "content": 9688158
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1998 Feb;17(1):121-37",
+        "PMID": {
+          "Version": 1,
+          "content": 9617913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1975 Apr;51(4 Suppl):5-40",
+        "PMID": {
+          "Version": 1,
+          "content": 1116248
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2009 Jul;18(7):1563-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19414289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ J. 2003 Dec;67(12):1003-6",
+        "PMID": {
+          "Version": 1,
+          "content": 14639014
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1999 Oct;18(10):1003-15",
+        "PMID": {
+          "Version": 1,
+          "content": 10628959
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 1998 Jun;2(2):143-68",
+        "PMID": {
+          "Version": 1,
+          "content": 10646760
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2004 Jan;23(1):130-3",
+        "PMID": {
+          "Version": 1,
+          "content": 14719694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Inf Technol Biomed. 2003 Dec;7(4):302-17",
+        "PMID": {
+          "Version": 1,
+          "content": 15000357
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC2936371"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 20727131
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2010,
+        "Day": 16,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2010,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 8,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 20727131,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1475-925X-9-40",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1475-925X-9-40",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC2936371",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,528 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 530},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "National Science Foundation",
+          "Country": "United States",
+          "GrantID": "DBI-1651614"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 29
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Transcription factors (TFs) form a complex regulatory network within the cell that is crucial to cell functioning and human health. While methods to establish where a TF binds to DNA are well established, these methods provide no information describing how TFs interact with one another when they do bind. TFs tend to bind the genome in clusters, and current methods to identify these clusters are either limited in scope, unable to detect relationships beyond motif similarity, or not applied to TF-TF interactions."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "Here, we present a proximity-based graph clustering approach to identify TF clusters using either ChIP-seq or motif search data. We use TF co-occurrence to construct a filtered, normalized adjacency matrix and use the Markov Clustering Algorithm to partition the graph while maintaining TF-cluster and cluster-cluster interactions. We then apply our graph structure beyond clustering, using it to increase the accuracy of motif-based TFBS searching for an example TF."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We show that our method produces small, manageable clusters that encapsulate many known, experimentally validated transcription factor interactions and that our method is capable of capturing interactions that motif similarity methods might miss. Our graph structure is able to significantly increase the accuracy of motif TFBS searching, demonstrating that the TF-TF connections within the graph correlate with biological TF-TF interactions."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The interactions identified by our method correspond to biological reality and allow for fast exploration of TF clustering and regulatory dynamics."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-5927-1428"
+            },
+            "ForeName": "Maxwell",
+            "LastName": "Spadafore",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "University of Michigan Medical School, 1301 Catherine, Ann Arbor, 48109-5624, USA. maxspad@umich.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kayvan",
+            "LastName": "Najarian",
+            "Initials": "K",
+            "AffiliationInfo": [
+              {"Affiliation": "University of Michigan Department of Computational Medicine and Bioinformatics, 100 Washtenaw Avenue, Ann Arbor, 48109, USA."},
+              {"Affiliation": "University of Michigan Medical School Department of Emergency Medicine, 1500 E Medical Center Drive, Ann Arbor, 48109, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alan P",
+            "LastName": "Boyle",
+            "Initials": "AP",
+            "AffiliationInfo": [
+              {"Affiliation": "University of Michigan Department of Computational Medicine and Bioinformatics, 100 Washtenaw Avenue, Ann Arbor, 48109, USA."},
+              {"Affiliation": "University of Michigan Department of Genetics, 1241 E Catherine, Ann Arbor, 48109, USA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "A proximity-based graph clustering method for the identification and application of transcription factor clusters.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1935-y"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 29
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Genome regulation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Graph clustering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Graph theory"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Network analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "TF clusters"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Transcription factors"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2001 Sep 21;106(6):697-708",
+        "PMID": {
+          "Version": 1,
+          "content": 11572776
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 Jun 7;108(23):9566-71",
+        "PMID": {
+          "Version": 1,
+          "content": 21606361
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Genet. 2000 Apr;57(4):253-66",
+        "PMID": {
+          "Version": 1,
+          "content": 10845565
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gene. 1999 Jun 24;234(1):61-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10393239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2003 Nov 21;278(47):46278-87",
+        "PMID": {
+          "Version": 1,
+          "content": 12972432
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biol. 1992 Sep;12(9):4209-14",
+        "PMID": {
+          "Version": 1,
+          "content": 1508214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biol. 1996 Nov;16(11):6083-95",
+        "PMID": {
+          "Version": 1,
+          "content": 8887638
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Nov 09;12:436",
+        "PMID": {
+          "Version": 1,
+          "content": 22070249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2006 Aug 24;7:389",
+        "PMID": {
+          "Version": 1,
+          "content": 16930469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Jan 20;5(1):e8797",
+        "PMID": {
+          "Version": 1,
+          "content": 20098703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jan;43(Database issue):D447-52",
+        "PMID": {
+          "Version": 1,
+          "content": 25352553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2005 Oct 20;437(7062):1173-8",
+        "PMID": {
+          "Version": 1,
+          "content": 16189514
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 Nov;13(11):2498-504",
+        "PMID": {
+          "Version": 1,
+          "content": 14597658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2010 Jul-Sep;7(3):400-11",
+        "PMID": {
+          "Version": 1,
+          "content": 20671313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Protein Pept Lett. 2014;21(8):766-78",
+        "PMID": {
+          "Version": 1,
+          "content": 23855673
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1994 Feb 10;367(6463):568-72",
+        "PMID": {
+          "Version": 1,
+          "content": 8107826
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 Sep 6;489(7414):57-74",
+        "PMID": {
+          "Version": 1,
+          "content": 22955616
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2009 Apr;10 (4):252-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19274049
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Oct 24;155(3):713-24",
+        "PMID": {
+          "Version": 1,
+          "content": 24243024
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2004 May 14;117(4):421-6",
+        "PMID": {
+          "Version": 1,
+          "content": 15137936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2005 Nov 18;280(46):38365-75",
+        "PMID": {
+          "Version": 1,
+          "content": 16087680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Proc. 2013 Dec 20;7(Suppl 7):S6",
+        "PMID": {
+          "Version": 1,
+          "content": 24564962
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Invest. 2007 Dec;117(12):3890-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18060035
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem J. 2005 Jun 1;388(Pt 2):407-18",
+        "PMID": {
+          "Version": 1,
+          "content": 15656786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2004 Feb 23;5(1):16",
+        "PMID": {
+          "Version": 1,
+          "content": 15053842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1997 Mar 18;94(6):2609-14",
+        "PMID": {
+          "Version": 1,
+          "content": 9122243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Mol Biol. 2008;484:505-21",
+        "PMID": {
+          "Version": 1,
+          "content": 18592198
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1994 Jun 7;91(12):5647-51",
+        "PMID": {
+          "Version": 1,
+          "content": 8202542
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 1988 Aug 12;54(4):541-52",
+        "PMID": {
+          "Version": 1,
+          "content": 3135940
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochim Biophys Acta. 2012 Jan;1822(1):42-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21236338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jan;41(Database issue):D188-94",
+        "PMID": {
+          "Version": 1,
+          "content": 23193294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Mar;42(5):2976-87",
+        "PMID": {
+          "Version": 1,
+          "content": 24335146
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2009 Oct;10(10):669-80",
+        "PMID": {
+          "Version": 1,
+          "content": 19736561
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biotechnol. 2010 May;45(1):87-100",
+        "PMID": {
+          "Version": 1,
+          "content": 20077036
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2003 Jul 1;31(13):3576-9",
+        "PMID": {
+          "Version": 1,
+          "content": 12824369
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2006 Nov 06;7:488",
+        "PMID": {
+          "Version": 1,
+          "content": 17087821
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2003 Jul 1;31(13):3666-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12824389
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2002 May 24;277(21):18365-72",
+        "PMID": {
+          "Version": 1,
+          "content": 11904294
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Syst Bioinformatics Conf. 2008;7:73-84",
+        "PMID": {
+          "Version": 1,
+          "content": 19642270
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29187152
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29187152,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1935-y",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1935-y",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5706350",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

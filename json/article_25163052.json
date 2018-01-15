@@ -1,0 +1,271 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2015,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "284-95"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Water permeability of the plasma membrane plays an important role in making optimal cryopreservation protocols for different types of cells. To quantify water permeability effectively, automated cell volume segmentation during freezing is necessary. Unfortunately, there exists so far no efficient and accurate segmentation method to handle this kind of image processing task gracefully. The existence of extracellular ice and variable background present significant challenges for most traditional segmentation algorithms. In this paper, we propose a novel approach to reliably extract cells from the extracellular ice, which attaches to or surrounds cells. Our method operates on temporal image sequences and is composed of two steps. First, for each image from the sequence, a greedy search strategy is employed to track approximate locations of cells in motion. Second, we utilize a localized competitive active contour model to obtain the contour of each cell. Based on the first step's result, the initial contour for level set evolution can be determined appropriately, thus considerably easing the pain of initialization for an active contour model. Experimental results demonstrate that the proposed method is efficient and effective in segmenting cells during freezing."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pengxiang",
+            "LastName": "Wu",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jingru",
+            "LastName": "Yi",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gang",
+            "LastName": "Zhao",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhangjin",
+            "LastName": "Huang",
+            "Initials": "Z"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bensheng",
+            "LastName": "Qiu",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dayong",
+            "LastName": "Gao",
+            "Initials": "D"
+          }
+        ]
+      },
+      "ArticleTitle": "Active contour-based cell segmentation during freezing and its application in cryopreservation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2014.2350011"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 62,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2015
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2014,
+      "Day": 23
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D002465",
+          "MajorTopicYN": "N",
+          "content": "Cell Movement"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D048429",
+        "MajorTopicYN": "N",
+        "content": "Cell Size"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D058948",
+          "MajorTopicYN": "N",
+          "content": "Cell Tracking"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D015925",
+          "MajorTopicYN": "N",
+          "content": "Cryopreservation"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005615",
+        "MajorTopicYN": "N",
+        "content": "Freezing"
+      }},
+      {"DescriptorName": {
+        "UI": "D006367",
+        "MajorTopicYN": "N",
+        "content": "HeLa Cells"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008853",
+          "MajorTopicYN": "N",
+          "content": "Microscopy"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D013382",
+        "MajorTopicYN": "Y",
+        "content": "Subtraction Technique"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2014,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 25163052
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25163052,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2014.2350011",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

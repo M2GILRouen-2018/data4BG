@@ -1,0 +1,328 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7806056,
+      "Country": "United States",
+      "ISSNLinking": "0148-5598",
+      "MedlineTA": "J Med Syst"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 2},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "Natural Science Foundation of China",
+            "Country": "United States",
+            "GrantID": 61602250
+          },
+          {
+            "Agency": "Natural Science Foundation of Jiangsu Province",
+            "Country": "United States",
+            "GrantID": "BK20150983"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 17
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Alcohol use disorder (AUD) is an important brain disease. It alters the brain structure. Recently, scholars tend to use computer vision based techniques to detect AUD. We collected 235 subjects, 114 alcoholic and 121 non-alcoholic. Among the 235 image, 100 images were used as training set, and data augmentation method was used. The rest 135 images were used as test set. Further, we chose the latest powerful technique-convolutional neural network (CNN) based on convolutional layer, rectified linear unit layer, pooling layer, fully connected layer, and softmax layer. We also compared three different pooling techniques: max pooling, average pooling, and stochastic pooling. The results showed that our method achieved a sensitivity of 96.88%, a specificity of 97.18%, and an accuracy of 97.04%. Our method was better than three state-of-the-art approaches. Besides, stochastic pooling performed better than other max pooling and average pooling. We validated CNN with five convolution layers and two fully connected layers performed the best. The GPU yielded a 149× acceleration in training and a 166× acceleration in test, compared to CPU."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shui-Hua",
+            "LastName": "Wang",
+            "Initials": "SH",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Informatics, University of Leicester, Leicester, LE1 7RH, UK."},
+              {"Affiliation": "School of Electronic Science and Engineering, Nanjing University, Nanjing, Jiangsu, 210046, China."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yi-Ding",
+            "LastName": "Lv",
+            "Initials": "YD",
+            "AffiliationInfo": {"Affiliation": "Department of Psychiatry, Nanjing Brain Hospital, Nanjing Medical University, Nanjing, Jiangsu, 210029, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yuxiu",
+            "LastName": "Sui",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Psychiatry, Nanjing Brain Hospital, Nanjing Medical University, Nanjing, Jiangsu, 210029, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shuai",
+            "LastName": "Liu",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "College of Computer Science, Inner Mongolia University, Hohhot, 010012, China. cs_liushuai@imu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Su-Jing",
+            "LastName": "Wang",
+            "Initials": "SJ",
+            "AffiliationInfo": {"Affiliation": "Key Laboratory of Behavior Sciences, Institute of Psychology, Chinese Academy of Sciences, Beijing, 100101, China. wangsujing@psych.ac.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yu-Dong",
+            "LastName": "Zhang",
+            "Initials": "YD",
+            "AffiliationInfo": {"Affiliation": "Department of Informatics, University of Leicester, Leicester, LE1 7RH, UK. yudongzhang@ieee.org."}
+          }
+        ]
+      },
+      "ArticleTitle": "Alcoholism Detection by Data Augmentation and Convolutional Neural Network with Stochastic Pooling.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10916-017-0845-x"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 42,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 17
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Med Syst",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1573-689X"
+        },
+        "Title": "Journal of medical systems"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Alcohol use disorder"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Average pooling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Convolutional neural network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Data augmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Graphical processing unit"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Max pooling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Stochastic pooling"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Alcohol Clin Exp Res. 2016 Jun;40(6):1262-72",
+        "PMID": {
+          "Version": 1,
+          "content": 27130832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Korean J Gastroenterol. 2015 May;65(5):321-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25998980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Alcohol Alcohol. 2016 Mar;51(2):215-23",
+        "PMID": {
+          "Version": 1,
+          "content": 26294678
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2017 Mar 15;7:44531",
+        "PMID": {
+          "Version": 1,
+          "content": 28295046
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Digit Imaging. 2017 Aug;30(4):460-468",
+        "PMID": {
+          "Version": 1,
+          "content": 28600640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nihon Arukoru Yakubutsu Igakkai Zasshi. 2012 Jun;47(3):125-34",
+        "PMID": {
+          "Version": 1,
+          "content": 22894053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurol. 2011 May;7(5):284-94",
+        "PMID": {
+          "Version": 1,
+          "content": 21487421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Addict Behav. 2017 Sep;72 :8-13",
+        "PMID": {
+          "Version": 1,
+          "content": 28319814
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med Sci. 2014;13(2):67-72",
+        "PMID": {
+          "Version": 1,
+          "content": 24769635
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 Feb 21;12 (2):e0171472",
+        "PMID": {
+          "Version": 1,
+          "content": 28222114
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ScientificWorldJournal. 2012;2012:180469",
+        "PMID": {
+          "Version": 1,
+          "content": 23213281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Inst Mech Eng H. 2014 Mar;228(3):303-18",
+        "PMID": {
+          "Version": 1,
+          "content": 24534419
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2017 Nov;83:44-51",
+        "PMID": {
+          "Version": 1,
+          "content": 28559133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 Jun 13;12 (6):e0179140",
+        "PMID": {
+          "Version": 1,
+          "content": 28609440
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29159706
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29159706,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10916-017-0845-x",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10916-017-0845-x",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

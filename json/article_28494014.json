@@ -1,0 +1,528 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 17
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0184661"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Quality control of MRI is essential for excluding problematic acquisitions and avoiding bias in subsequent image processing and analysis. Visual inspection is subjective and impractical for large scale datasets. Although automated quality assessments have been demonstrated on single-site datasets, it is unclear that solutions can generalize to unseen data acquired at new sites. Here, we introduce the MRI Quality Control tool (MRIQC), a tool for extracting quality measures and fitting a binary (accept/exclude) classifier. Our tool can be run both locally and as a free online service via the OpenNeuro.org portal. The classifier is trained on a publicly available, multi-site dataset (17 sites, N = 1102). We perform model selection evaluating different normalization and feature exclusion approaches aimed at maximizing across-site generalization and estimate an accuracy of 76%±13% on new sites, using leave-one-site-out cross-validation. We confirm that result on a held-out dataset (2 sites, N = 265) also obtaining a 76% accuracy. Even though the performance of the trained classifier is statistically above chance, we show that it is susceptible to site effects and unable to account for artifacts specific to new sites. MRIQC performs with high accuracy in intra-site prediction, but performance on unseen sites leaves space for improvement which might require more labeled data and new approaches to the between-site variability. Overcoming these limitations is crucial for a more objective quality assessment of neuroimaging data, and to enable the analysis of extremely large and multi-site samples."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8435-6191"
+            },
+            "ForeName": "Oscar",
+            "LastName": "Esteban",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Department of Psychology, Stanford University, Stanford, California, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3748-6289"
+            },
+            "ForeName": "Daniel",
+            "LastName": "Birman",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Psychology, Stanford University, Stanford, California, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8479-6365"
+            },
+            "ForeName": "Marie",
+            "LastName": "Schaer",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Psychiatry, University of Geneva School of Medicine, Geneva, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-4023-419X"
+            },
+            "ForeName": "Oluwasanmi O",
+            "LastName": "Koyejo",
+            "Initials": "OO",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of Illinois at Urbana-Champaign, Urbana-Champaign, Illinois, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-6755-0259"
+            },
+            "ForeName": "Russell A",
+            "LastName": "Poldrack",
+            "Initials": "RA",
+            "AffiliationInfo": {"Affiliation": "Department of Psychology, Stanford University, Stanford, California, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3321-7583"
+            },
+            "ForeName": "Krzysztof J",
+            "LastName": "Gorgolewski",
+            "Initials": "KJ",
+            "AffiliationInfo": {"Affiliation": "Department of Psychology, Stanford University, Stanford, California, United States of America."}
+          }
+        ]
+      },
+      "ArticleTitle": "MRIQC: Advancing the automatic prediction of image quality in MRI from unseen sites.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0184661"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "N",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007089",
+          "MajorTopicYN": "N",
+          "content": "Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008279",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D059906",
+          "MajorTopicYN": "N",
+          "content": "Neuroimaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015588",
+        "MajorTopicYN": "N",
+        "content": "Observer Variation"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 17
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Acad Radiol. 1995 Apr;2(4):277-81",
+        "PMID": {
+          "Version": 1,
+          "content": 9419562
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2016 Nov;19(11):1523-1536",
+        "PMID": {
+          "Version": 1,
+          "content": 27643430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Aug 15;62(2):782-90",
+        "PMID": {
+          "Version": 1,
+          "content": 21979382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiology. 1989 Oct;173(1):265-7",
+        "PMID": {
+          "Version": 1,
+          "content": 2781018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroinform. 2011 Aug 22;5:13",
+        "PMID": {
+          "Version": 1,
+          "content": 21897815
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroinform. 2016 Mar 15;10:10",
+        "PMID": {
+          "Version": 1,
+          "content": 27014050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Psychiatry. 2014 Jun;19(6):659-67",
+        "PMID": {
+          "Version": 1,
+          "content": 23774715
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2006 Summer;4(3):243-62",
+        "PMID": {
+          "Version": 1,
+          "content": 16943630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2008 Aug;29(8):958-72",
+        "PMID": {
+          "Version": 1,
+          "content": 17636563
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "NMR Biomed. 1997 Jun-Aug;10(4-5):171-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9430344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2014 Mar;88:79-90",
+        "PMID": {
+          "Version": 1,
+          "content": 24269273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Fam Med. 2005 May;37(5):360-3",
+        "PMID": {
+          "Version": 1,
+          "content": 15883903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2015 Feb 15;107:107-15",
+        "PMID": {
+          "Version": 1,
+          "content": 25498430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2007 Aug;26(2):375-85",
+        "PMID": {
+          "Version": 1,
+          "content": 17622966
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Data. 2016 Dec 06;3:160110",
+        "PMID": {
+          "Version": 1,
+          "content": 27922632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Feb 1;59(3):2142-54",
+        "PMID": {
+          "Version": 1,
+          "content": 22019881
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Magn Reson Imaging. 2008 Aug;28(2):308-19",
+        "PMID": {
+          "Version": 1,
+          "content": 18666143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 1990 Mar-Apr;17(2):287-95",
+        "PMID": {
+          "Version": 1,
+          "content": 2333055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroinform. 2013 Jul 08;7:12",
+        "PMID": {
+          "Version": 1,
+          "content": 23847528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Aug 15;62(2):774-81",
+        "PMID": {
+          "Version": 1,
+          "content": 22248573
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2016 Dec 06;10 :558",
+        "PMID": {
+          "Version": 1,
+          "content": 27999528
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2017 Mar 9;13(3):e1005209",
+        "PMID": {
+          "Version": 1,
+          "content": 28278228
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Oct 1;62(4):2222-31",
+        "PMID": {
+          "Version": 1,
+          "content": 22366334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2010 Oct;11(10 ):733-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20838408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Data. 2016 Jun 21;3:160044",
+        "PMID": {
+          "Version": 1,
+          "content": 27326542
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2017 Feb 15;147:736-745",
+        "PMID": {
+          "Version": 1,
+          "content": 27865923
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2016 Jul;37(7):2385-97",
+        "PMID": {
+          "Version": 1,
+          "content": 27004471
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Digit Imaging. 2006 Jun;19(2):140-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16598643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2009 Aug;62(2):365-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19526493
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1997 Dec;16(6):903-10",
+        "PMID": {
+          "Version": 1,
+          "content": 9533590
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroinform. 2016 Dec 19;10 :52",
+        "PMID": {
+          "Version": 1,
+          "content": 28066227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 May 11;12 (5):e0177459",
+        "PMID": {
+          "Version": 1,
+          "content": 28494014
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28945803
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28945803,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0184661",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-07871",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5612458",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

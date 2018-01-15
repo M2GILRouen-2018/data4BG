@@ -1,0 +1,346 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7905558,
+      "Country": "Netherlands",
+      "ISSNLinking": "0165-0270",
+      "MedlineTA": "J Neurosci Methods"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D005456",
+        "content": "Fluorescent Dyes"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 21
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "101-118"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "BACKGROUND",
+            "content": "Accurate reconstruction of the morphology of single neurons is important for morphometric studies and for developing compartmental models. However, manual morphological reconstruction can be extremely time-consuming and error-prone and algorithms for automatic reconstruction can be challenged when applied to neurons with a high density of extensively branching processes."
+          },
+          {
+            "NlmCategory": "UNASSIGNED",
+            "Label": "NEW METHOD",
+            "content": "We present a procedure for semi-automatic reconstruction specifically adapted for densely branching neurons such as the AII amacrine cell found in mammalian retinas. We used whole-cell recording to fill AII amacrine cells in rat retinal slices with fluorescent dyes and acquired digital image stacks with multi-photon excitation microscopy. Our reconstruction algorithm combines elements of existing procedures, with segmentation based on adaptive thresholding and reconstruction based on a minimal spanning tree. We improved this workflow with an algorithm that reconnects neuron segments that are disconnected after adaptive thresholding, using paths extracted from the image stacks with the Fast Marching method."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "By reducing the likelihood that disconnected segments were incorrectly connected to neighboring segments, our procedure generated excellent morphological reconstructions of AII amacrine cells."
+          },
+          {
+            "NlmCategory": "UNASSIGNED",
+            "Label": "COMPARISON WITH EXISTING METHODS",
+            "content": "Reconstructing an AII amacrine cell required about 2h computing time, compared to 2-4days for manual reconstruction. To evaluate the performance of our method relative to manual reconstruction, we performed detailed analysis using a measure of tree structure similarity (DIADEM score), the degree of projection area overlap (Dice coefficient), and branch statistics."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "We expect our procedure to be generally useful for morphological reconstruction of neurons filled with fluorescent dyes."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bas-Jan",
+            "LastName": "Zandt",
+            "Initials": "BJ",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedicine, University of Bergen, Bergen, Norway."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Are",
+            "LastName": "Losnegård",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedicine, University of Bergen, Bergen, Norway."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Erlend",
+            "LastName": "Hodneland",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedicine, University of Bergen, Bergen, Norway."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Margaret Lin",
+            "LastName": "Veruki",
+            "Initials": "ML",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedicine, University of Bergen, Bergen, Norway."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Arvid",
+            "LastName": "Lundervold",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedicine, University of Bergen, Bergen, Norway; Department of Radiology, Haukeland University Hospital, Bergen, Norway."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Espen",
+            "LastName": "Hartveit",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedicine, University of Bergen, Bergen, Norway. Electronic address: espen.hartveit@biomed.uib.no."}
+          }
+        ]
+      },
+      "ArticleTitle": "Semi-automatic 3D morphological reconstruction of neurons with densely branching morphology: Application to retinal AII amacrine cells imaged with multi-photon excitation microscopy.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0165-0270(17)30008-0"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jneumeth.2017.01.008"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 279,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Neurosci. Methods",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-678X"
+        },
+        "Title": "Journal of neuroscience methods"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "3D microscopy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Adaptive thresholding"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Computational neuroanatomy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Fast Marching"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Morphology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Neuronal reconstruction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Two-photon microscopy"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000166",
+          "MajorTopicYN": "Y",
+          "content": "cytology"
+        },
+        "DescriptorName": {
+          "UI": "D025042",
+          "MajorTopicYN": "N",
+          "content": "Amacrine Cells"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D005456",
+        "MajorTopicYN": "N",
+        "content": "Fluorescent Dyes"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D008856",
+          "MajorTopicYN": "N",
+          "content": "Microscopy, Fluorescence"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D018408",
+        "MajorTopicYN": "N",
+        "content": "Patch-Clamp Techniques"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D051381",
+        "MajorTopicYN": "N",
+        "content": "Rats"
+      }},
+      {"DescriptorName": {
+        "UI": "D013997",
+        "MajorTopicYN": "N",
+        "content": "Time Factors"
+      }},
+      {"DescriptorName": {
+        "UI": "D046509",
+        "MajorTopicYN": "N",
+        "content": "Tissue Culture Techniques"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28115187
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 26,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28115187,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0165-0270(17)30008-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jneumeth.2017.01.008",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

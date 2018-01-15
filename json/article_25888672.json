@@ -1,0 +1,642 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101528555,
+      "Country": "England",
+      "ISSNLinking": "2041-1723",
+      "MedlineTA": "Nat Commun"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The Broad Institute and MIT may seek to file for intellectual property on and/or commercialize aspects of this work. J.D.J., A.B.K., D.F., T.V., R.P.B., B.B., J.G., J.N. and S.E. declare no competing interests.",
+    "Article": {
+      "Pagination": {"MedlinePgn": 13919},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIAID NIH HHS",
+            "Country": "United States",
+            "GrantID": "K08 AI119157",
+            "Acronym": "AI"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 GM087237",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Low-cost shotgun DNA sequencing is transforming the microbial sciences. Sequencing instruments are so effective that sample preparation is now the key limiting factor. Here, we introduce a microfluidic sample preparation platform that integrates the key steps in cells to sequence library sample preparation for up to 96 samples and reduces DNA input requirements 100-fold while maintaining or improving data quality. The general-purpose microarchitecture we demonstrate supports workflows with arbitrary numbers of reaction and clean-up or capture steps. By reducing the sample quantity requirements, we enabled low-input (∼10,000 cells) whole-genome shotgun (WGS) sequencing of Mycobacterium tuberculosis and soil micro-colonies with superior results. We also leveraged the enhanced throughput to sequence ∼400 clinical Pseudomonas aeruginosa libraries and demonstrate excellent single-nucleotide polymorphism detection performance that explained phenotypically observed antibiotic resistance. Fully-integrated lab-on-chip sample preparation overcomes technical barriers to enable broader deployment of genomics across many basic research and translational applications."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Soohong",
+            "LastName": "Kim",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "The Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02142, USA."},
+              {"Affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joachim",
+            "LastName": "De Jonghe",
+            "Initials": "J",
+            "AffiliationInfo": [
+              {"Affiliation": "The Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02142, USA."},
+              {"Affiliation": "Department of Biochemistry, University of Cambridge, Cambridge CB2 1GA, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anthony B",
+            "LastName": "Kulesa",
+            "Initials": "AB",
+            "AffiliationInfo": [
+              {"Affiliation": "The Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02142, USA."},
+              {"Affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Feldman",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "The Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02142, USA."},
+              {"Affiliation": "Department of Physics, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-0949-1291"
+            },
+            "ForeName": "Tommi",
+            "LastName": "Vatanen",
+            "Initials": "T",
+            "AffiliationInfo": [
+              {"Affiliation": "The Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02142, USA."},
+              {"Affiliation": "Department of Computer Science, Aalto University School of Science, Espoo 02150, Finland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Roby P",
+            "LastName": "Bhattacharyya",
+            "Initials": "RP",
+            "AffiliationInfo": [
+              {"Affiliation": "The Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02142, USA."},
+              {"Affiliation": "Division of Infectious Diseases, Massachusetts General Hospital, Boston, Massachusetts 02114, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8593-0762"
+            },
+            "ForeName": "Brittany",
+            "LastName": "Berdy",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Biology, Northeastern University, Boston, Massachusetts 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "James",
+            "LastName": "Gomez",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "The Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02142, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jill",
+            "LastName": "Nolan",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "The Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02142, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Slava",
+            "LastName": "Epstein",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Biology, Northeastern University, Boston, Massachusetts 02115, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul C",
+            "LastName": "Blainey",
+            "Initials": "PC",
+            "AffiliationInfo": [
+              {"Affiliation": "The Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02142, USA."},
+              {"Affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "High-throughput automated microfluidic sample preparation for accurate microbial genomics.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1038/ncomms13919"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 8,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 27
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Nat Commun",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2041-1723"
+        },
+        "Title": "Nature communications"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "07"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(11):R116",
+        "PMID": {
+          "Version": 1,
+          "content": 21114842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEMS Microbiol Rev. 2013 May;37(3):407-27",
+        "PMID": {
+          "Version": 1,
+          "content": 23298390
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2014 Jan 09;2:e243",
+        "PMID": {
+          "Version": 1,
+          "content": 24482762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Chem. 2006 Feb 1;78(3):788-92",
+        "PMID": {
+          "Version": 1,
+          "content": 16448052
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2010 Apr;76(8):2445-50",
+        "PMID": {
+          "Version": 1,
+          "content": 20173072
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2014 Jan;15(1):56-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24322726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2013 May;23(5):878-88",
+        "PMID": {
+          "Version": 1,
+          "content": 23493677
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2007 Aug;4(8):651-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17558387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 May 30;103(22):8487-92",
+        "PMID": {
+          "Version": 1,
+          "content": 16687478
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Microbiol. 2010 Jul;59(Pt 7):804-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20339018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2014 Mar;46(3):305-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24509479
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Biol. 2014 Nov 12;12:87",
+        "PMID": {
+          "Version": 1,
+          "content": 25387460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2012 May 09;486(7402):222-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22699611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nat Prod. 2012 Mar 23;75(3):311-35",
+        "PMID": {
+          "Version": 1,
+          "content": 22316239
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Clin Pathol. 1966 Apr;45(4):493-6",
+        "PMID": {
+          "Version": 1,
+          "content": 5325707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Nov 19;9(11):e112963",
+        "PMID": {
+          "Version": 1,
+          "content": 25409509
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2012 Aug;30(8):777-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22820318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Microbiol. 2016 Mar;14(3):135-49",
+        "PMID": {
+          "Version": 1,
+          "content": 26876034
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Mar;8(3):242-5",
+        "PMID": {
+          "Version": 1,
+          "content": 21297618
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Microbiol. 2015 Mar 21;15:66",
+        "PMID": {
+          "Version": 1,
+          "content": 25880246
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med. 2016 Mar 23;14 :46",
+        "PMID": {
+          "Version": 1,
+          "content": 27004841
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Transl Med. 2012 Aug 22;4(148):148ra116",
+        "PMID": {
+          "Version": 1,
+          "content": 22914622
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2012 Jan;22(1):125-33",
+        "PMID": {
+          "Version": 1,
+          "content": 22090378
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Sep 4;109(36):14508-13",
+        "PMID": {
+          "Version": 1,
+          "content": 22853953
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jul 1;43(W1):W237-43",
+        "PMID": {
+          "Version": 1,
+          "content": 25948579
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2005 Jul 1;309(5731):137-40",
+        "PMID": {
+          "Version": 1,
+          "content": 15994559
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis Exp. 2015 Sep 24;(103):null",
+        "PMID": {
+          "Version": 1,
+          "content": 26436576
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2014 Jan;46(1):82-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24316980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2015 Jan;47(1):57-64",
+        "PMID": {
+          "Version": 1,
+          "content": 25401299
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Antimicrob Agents Chemother. 2013 Mar;57(3):1361-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23274661
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Jul 22;8(7):e68988",
+        "PMID": {
+          "Version": 1,
+          "content": 23894387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Jul 24;8(7):e64084",
+        "PMID": {
+          "Version": 1,
+          "content": 23894273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Environ Health. 1984 Nov-Dec;39(6):401-8",
+        "PMID": {
+          "Version": 1,
+          "content": 6524959
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Jan 22;517(7535):455-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25561178
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2014 Jul;24(7):1180-92",
+        "PMID": {
+          "Version": 1,
+          "content": 24899342
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Mol Biol. 2011;733:241-55",
+        "PMID": {
+          "Version": 1,
+          "content": 21431775
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Aug 19;9(8):e105585",
+        "PMID": {
+          "Version": 1,
+          "content": 25136831
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2014 Apr 29;111(17):E1768-76",
+        "PMID": {
+          "Version": 1,
+          "content": 24733896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 1995 Nov 25;23(22):4742-3",
+        "PMID": {
+          "Version": 1,
+          "content": 8524672
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Antimicrob Agents Chemother. 2001 Feb;45(2):480-4",
+        "PMID": {
+          "Version": 1,
+          "content": 11158744
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 Nov 10;112(45):14024-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26512100
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jan 4;44(D1):D646-53",
+        "PMID": {
+          "Version": 1,
+          "content": 26578582
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biophys Biomol Struct. 2007;36:213-31",
+        "PMID": {
+          "Version": 1,
+          "content": 17269901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Ophthalmol. 2003 Oct;87(10):1238-40",
+        "PMID": {
+          "Version": 1,
+          "content": 14507757
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2015 Jul;81(13):4442-50",
+        "PMID": {
+          "Version": 1,
+          "content": 25911475
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Dec;10(12):1213-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24097267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 1981 Jul 10;9(13):3015-27",
+        "PMID": {
+          "Version": 1,
+          "content": 6269069
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2014 Jun 19;370(25):2408-17",
+        "PMID": {
+          "Version": 1,
+          "content": 24896819
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Infect Dis. 2015 Aug 1;61(3):305-12",
+        "PMID": {
+          "Version": 1,
+          "content": 25888672
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28128213
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28128213,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "ncomms13919",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1038/ncomms13919",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5290157",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

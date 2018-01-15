@@ -1,0 +1,200 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1647-1655"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 GM067553",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NHGRI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HG008133",
+            "Acronym": "HG"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 HL111527",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30 CA016086",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM101237",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "Mutations (or Single Nucleotide Variants) in folded RiboNucleic Acid structures that cause local or global conformational change are riboSNitches. Predicting riboSNitches is challenging, as it requires making two, albeit related, structure predictions. The data most often used to experimentally validate riboSNitch predictions is Selective 2' Hydroxyl Acylation by Primer Extension, or SHAPE. Experimentally establishing a riboSNitch requires the quantitative comparison of two SHAPE traces: wild-type (WT) and mutant. Historically, SHAPE data was collected on electropherograms and change in structure was evaluated by 'gel gazing.' SHAPE data is now routinely collected with next generation sequencing and/or capillary sequencers. We aim to establish a classifier capable of simulating human 'gazing' by identifying features of the SHAPE profile that human experts agree 'looks' like a riboSNitch."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "We find strong quantitative agreement between experts when RNA scientists 'gaze' at SHAPE data and identify riboSNitches. We identify dynamic time warping and seven other features predictive of the human consensus. The classSNitch classifier reported here accurately reproduces human consensus for 167 mutant/WT comparisons with an Area Under the Curve (AUC) above 0.8. When we analyze 2019 mutant traces for 17 different RNAs, we find that features of the WT SHAPE reactivity allow us to improve thermodynamic structure predictions of riboSNitches. This is significant, as accurate RNA structural analysis and prediction is likely to become an important aspect of precision medicine."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability and Implementation",
+          "content": "The classSNitch R package is freely available at http://classsnitch.r-forge.r-project.org ."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "alain@email.unc.edu."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chanin Tolson",
+            "LastName": "Woods",
+            "Initials": "CT",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biology."},
+              {"Affiliation": "Curriculum in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alain",
+            "LastName": "Laederach",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biology."},
+              {"Affiliation": "Curriculum in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Classification of RNA structure change by 'gazing' at experimental data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx041"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 33,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 15
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28130241
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28130241,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btx041",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx041",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5447233",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

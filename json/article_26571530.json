@@ -1,0 +1,356 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101147197,
+      "Country": "United States",
+      "ISSNLinking": "1534-7362",
+      "MedlineTA": "J Vis"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 17
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 32},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Current top-performing blind perceptual image quality prediction models are generally trained on legacy databases of human quality opinion scores on synthetically distorted images. Therefore, they learn image features that effectively predict human visual quality judgments of inauthentic and usually isolated (single) distortions. However, real-world images usually contain complex composite mixtures of multiple distortions. We study the perceptually relevant natural scene statistics of such authentically distorted images in different color spaces and transform domains. We propose a \"bag of feature maps\" approach that avoids assumptions about the type of distortion(s) contained in an image and instead focuses on capturing consistencies-or departures therefrom-of the statistics of real-world images. Using a large database of authentically distorted images, human opinions of them, and bags of features computed on them, we train a regressor to conduct image quality prediction. We demonstrate the competence of the features toward improving automatic perceptual quality prediction by testing a learned algorithm using them on a benchmark legacy database as well as on a newly introduced distortion-realistic resource called the LIVE In the Wild Image Quality Challenge Database. We extensively evaluate the perceptual quality prediction model and algorithm and show that it is able to achieve good-quality prediction power that is better than other leading models."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Deepti",
+            "LastName": "Ghadiyaram",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, University of Texas at Austin, Austin, TX, USAdeepti@cs.utexas.eduhttps://www.cs.utexas.edu/~deepti/."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alan C",
+            "LastName": "Bovik",
+            "Initials": "AC",
+            "AffiliationInfo": {"Affiliation": "bovik@ece.utexas.eduhttp://live.ece.utexas.edu/bovik.php."}
+          }
+        ]
+      },
+      "ArticleTitle": "Perceptual quality prediction on authentically distorted images using a bag of features approach.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1167/17.1.32"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "01",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Vis",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1534-7362"
+        },
+        "Title": "Journal of vision"
+      },
+      "PubModel": "Print"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016208",
+        "MajorTopicYN": "N",
+        "content": "Databases, Factual"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "N",
+        "content": "Models, Theoretical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D010469",
+          "MajorTopicYN": "N",
+          "content": "Perceptual Distortion"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010781",
+          "MajorTopicYN": "N",
+          "content": "Photography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "05"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2011 Dec;20(12):3350-64",
+        "PMID": {
+          "Version": 1,
+          "content": 21521667
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Opt Soc Am A. 1987 Dec;4(12):2379-94",
+        "PMID": {
+          "Version": 1,
+          "content": 3430225
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2004 Apr;13(4):600-12",
+        "PMID": {
+          "Version": 1,
+          "content": 15376593
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2014 Mar;23(3):1352-65",
+        "PMID": {
+          "Version": 1,
+          "content": 24723532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2015 Jun;24(6):1879-92",
+        "PMID": {
+          "Version": 1,
+          "content": 25775489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2006 Nov;15(11):3440-51",
+        "PMID": {
+          "Version": 1,
+          "content": 17076403
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 1979;19(1):19-32",
+        "PMID": {
+          "Version": 1,
+          "content": 419698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2016 Jan;25(1):65-79",
+        "PMID": {
+          "Version": 1,
+          "content": 26540687
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2012 Aug;21(8):3339-52",
+        "PMID": {
+          "Version": 1,
+          "content": 22453635
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2005 Nov;14(11):1918-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16279189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2012 Dec;21(12):4695-708",
+        "PMID": {
+          "Version": 1,
+          "content": 22910118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2015 Aug;24(8):2579-91",
+        "PMID": {
+          "Version": 1,
+          "content": 25915960
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2009 Apr;18(4):717-28",
+        "PMID": {
+          "Version": 1,
+          "content": 19278916
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 1968 Aug;197(3):551-66",
+        "PMID": {
+          "Version": 1,
+          "content": 5666169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 1965 Dec;5(11):583-601",
+        "PMID": {
+          "Version": 1,
+          "content": 5862581
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vis Neurosci. 1992 Aug;9(2):181-97",
+        "PMID": {
+          "Version": 1,
+          "content": 1504027
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 1953 Jan;16(1):37-68",
+        "PMID": {
+          "Version": 1,
+          "content": 13035466
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Rev. 1957 Nov;64, Part 1(6):384-404",
+        "PMID": {
+          "Version": 1,
+          "content": 13505974
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2016 Jan;25(1):372-87",
+        "PMID": {
+          "Version": 1,
+          "content": 26571530
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28129417
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28129417,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 2599945,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1167/17.1.32",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5283082",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

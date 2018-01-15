@@ -1,0 +1,279 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101249582,
+      "Country": "Germany",
+      "MedlineTA": "Med Image Comput Comput Assist Interv"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 11,
+      "Year": 2011,
+      "Day": 15
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "403-10"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Cardiac computed tomography (CT) is the primary noninvasive imaging modality to diagnose coronary artery disease. Though various methods have been proposed for coronary artery segmentation, most rely on at least one user click to provide a seed point for initialization. Automatic detection of the coronary ostia (where coronaries originate from the aorta), including both the native coronary ostia and graft ostia of the bypass coronaries, can make the whole coronary exam workflow fully automatic, therefore increasing a physician's throughput. Anatomical structures (native coronary ostia) and pathological structures (graft ostia) often require significantly different detection methods. The native coronary ostia are well constrained by the surrounding structures, therefore are detected as a global object. Detecting the graft ostia is far more difficult due to the large variation in graft position. A new searching strategy is proposed to efficiently guide the focus of analysis and, at the same time, reduce the false positive detections. Since the bypass coronaries are grafted on the ascending aorta surface, the ascending aorta is first segmented to constrain the search. The quantitative prior distribution of the graft ostia on the aorta surface is learned from a training set to significantly reduce the searching space further. Efficient local image features are extracted around each candidate point on the aorta surface to train a detector. The proposed method is computationally efficient, taking about 0.40 seconds to detect both native and graft ostia in a volume with around 512 x 512 x 200 voxels."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yefeng",
+            "LastName": "Zheng",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Image Analytics & Informatics, Siemens Corporate Research, Princeton, NJ, USA. yefeng.zheng@siemens.com"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Huseyin",
+            "LastName": "Tek",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gareth",
+            "LastName": "Funka-Lea",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "S Kevin",
+            "LastName": "Zhou",
+            "Initials": "SK"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fernando",
+            "LastName": "Vega-Higuera",
+            "Initials": "F"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dorin",
+            "LastName": "Comaniciu",
+            "Initials": "D"
+          }
+        ]
+      },
+      "ArticleTitle": "Efficient detection of native and bypass coronary ostia in cardiac CT volumes: anatomical vs. pathological structures.",
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Pt 3",
+          "Volume": 14,
+          "PubDate": {"Year": 2011},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Med Image Comput Comput Assist Interv",
+        "Title": "Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": 10,
+      "Year": 2011,
+      "Day": 18
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "Y",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D001011",
+          "MajorTopicYN": "N",
+          "content": "Aorta"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D002306",
+        "MajorTopicYN": "N",
+        "content": "Cardiac Volume"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D002309",
+          "MajorTopicYN": "N",
+          "content": "Cardiology"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000473",
+            "MajorTopicYN": "N",
+            "content": "pathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D002318",
+          "MajorTopicYN": "N",
+          "content": "Cardiovascular Diseases"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D001026",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Bypass"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "Y",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D003327",
+          "MajorTopicYN": "N",
+          "content": "Coronary Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "Y",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D003331",
+          "MajorTopicYN": "N",
+          "content": "Coronary Vessels"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D003952",
+          "MajorTopicYN": "N",
+          "content": "Diagnostic Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "N",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D010363",
+        "MajorTopicYN": "N",
+        "content": "Pattern Recognition, Automated"
+      }},
+      {"DescriptorName": {
+        "UI": "D013997",
+        "MajorTopicYN": "N",
+        "content": "Time Factors"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2011,
+      "Day": 18
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 22003725
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 10,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": {
+      "content": 22003725,
+      "IdType": "pubmed"
+    }},
+    "PublicationStatus": "ppublish"
+  }
+}}

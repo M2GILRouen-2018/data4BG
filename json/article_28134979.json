@@ -1,0 +1,247 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 28
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1312-1323"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Accurate prostate delineation is necessary in radiotherapy processes for concentrating the dose onto the prostate and reducing side effects in neighboring organs. Currently, manual delineation is performed over magnetic resonance imaging (MRI) taking advantage of its high soft tissue contrast property. Nevertheless, as human intervention is a consuming task with high intra- and interobserver variability rates, (semi)-automatic organ delineation tools have emerged to cope with these challenges, reducing the time spent for these tasks. This work presents a multiresolution representation that defines a novel metric and allows to segment a new prostate by combining a set of most similar prostates in a dataset."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The proposed method starts by selecting the set of most similar prostates with respect to a new one using the proposed multiresolution representation. This representation characterizes the prostate through a set of salient points, extracted from a region of interest (ROI) that encloses the organ and refined using structural information, allowing to capture main relevant features of the organ boundary. Afterward, the new prostate is automatically segmented by combining the nonrigidly registered expert delineations associated to the previous selected similar prostates using a weighted patch-based strategy. Finally, the prostate contour is smoothed based on morphological operations."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The proposed approach was evaluated with respect to the expert manual segmentation under a leave-one-out scheme using two public datasets, obtaining averaged Dice coefficients of 82% ± 0.07 and 83% ± 0.06, and demonstrating a competitive performance with respect to atlas-based state-of-the-art methods."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The proposed multiresolution representation provides a feature space that follows a local salient point criteria and a global rule of the spatial configuration among these points to find out the most similar prostates. This strategy suggests an easy adaptation in the clinical routine, as supporting tool for annotation."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Charlens",
+            "LastName": "Alvarez",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Computer Imaging and Medical Application Laboratory-CIM@LAB, Universidad Nacional de Colombia, Bogotá, Colombia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fabio",
+            "LastName": "Martínez",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "Computer Imaging and Medical Application Laboratory-CIM@LAB, Universidad Nacional de Colombia, Bogotá, Colombia."},
+              {"Affiliation": "Escuela de Ingeniería de Sistemas e Informática, Universidad Industrial de Santander UIS, Bucaramanga, Colombia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Eduardo",
+            "LastName": "Romero",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Computer Imaging and Medical Application Laboratory-CIM@LAB, Universidad Nacional de Colombia, Bogotá, Colombia."}
+          }
+        ]
+      },
+      "ArticleTitle": "A multiresolution prostate representation for automatic segmentation in magnetic resonance images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12141"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "atlas-based approach"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "multiresolution representation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "prostate MR images"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "segmentation"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "N",
+        "content": "Automation"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016014",
+        "MajorTopicYN": "N",
+        "content": "Linear Models"
+      }},
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "Y",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D011467",
+          "MajorTopicYN": "N",
+          "content": "Prostate"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28134979
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 18,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28134979,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12141",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

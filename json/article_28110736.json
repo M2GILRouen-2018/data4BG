@@ -1,0 +1,261 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "329-339"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "This paper presents a novel method for Alzheimer's disease classification via an automatic 3D caudate nucleus segmentation."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The proposed method consists of segmentation and classification steps. In the segmentation step, we propose a novel level set cost function. The proposed cost function is constrained by a sparse representation of local image features using a dictionary learning method. We present coupled dictionaries: a feature dictionary of a grayscale brain image and a label dictionary of a caudate nucleus label image. Using online dictionary learning, the coupled dictionaries are learned from the training data. The learned coupled dictionaries are embedded into a level set function. In the classification step, a region-based feature dictionary is built. The region-based feature dictionary is learned from shape features of the caudate nucleus in the training data. The classification is based on the measure of the similarity between the sparse representation of region-based shape features of the segmented caudate in the test image and the region-based feature dictionary."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The experimental results demonstrate the superiority of our method over the state-of-the-art methods by achieving a high segmentation (91.5%) and classification (92.5%) accuracy."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "In this paper, we find that the study of the caudate nucleus atrophy gives an advantage over the study of whole brain structure atrophy to detect Alzheimer's disease."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Saif Dawood Salman",
+            "LastName": "Al-Shaikhli",
+            "Initials": "SD",
+            "AffiliationInfo": {"Affiliation": "School of Medicine, University of Pittsburgh, Pittsburgh, PA 15260, USA; Institut für Informationsverarbeitung, Leibniz Universität Hannover, Appelstr. 9A, 30167 Hannover, Germany. Electronic address: shaikhli@tnt.uni-hannover.de."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael Ying",
+            "LastName": "Yang",
+            "Initials": "MY",
+            "AffiliationInfo": {"Affiliation": "ITC - Faculty of Geo-Information Science and Earth Observation, Department of Earth Observation Science, University of Twente, Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bodo",
+            "LastName": "Rosenhahn",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Institut für Informationsverarbeitung, Leibniz Universität Hannover, Appelstr. 9A, 30167 Hannover, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Alzheimer's disease detection via automatic 3D caudate nucleus segmentation using coupled dictionary learning with level set formulation.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30190-0"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.09.007"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "3D segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Alzheimer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Caudate nucleus"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Dictionary learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MRI-T1 medical image"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "N",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D000544",
+          "MajorTopicYN": "N",
+          "content": "Alzheimer Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "Y",
+        "content": "Automation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D002421",
+          "MajorTopicYN": "N",
+          "content": "Caudate Nucleus"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D021621",
+        "MajorTopicYN": "Y",
+        "content": "Imaging, Three-Dimensional"
+      }},
+      {"DescriptorName": {
+        "UI": "D007858",
+        "MajorTopicYN": "Y",
+        "content": "Learning"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28110736
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": "07",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110736,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30190-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.09.007",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

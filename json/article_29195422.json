@@ -1,0 +1,126 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7503051,
+      "Country": "United States",
+      "ISSNLinking": "0001-4966",
+      "MedlineTA": "J Acoust Soc Am"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 3165},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Goodness of pronunciation (GOP) is the most widely used method for automatic mispronunciation detection. In this paper, a transfer learning approach to GOP based mispronunciation detection when applying maximum F1-score criterion (MFC) training to deep neural network (DNN)-hidden Markov model based acoustic models is proposed. Rather than train the whole network using MFC, a DNN is used, whose hidden layers are borrowed from native speech recognition with only the softmax layer trained according to the MFC objective function. As a result, significant mispronunciation detection improvement is obtained. In light of this, the two-stage transfer learning based GOP is investigated in depth. The first stage exploits the hidden layer(s) to extract phonetic-discriminating features. The second stage uses a trainable softmax layer to learn the human standard for judgment. The validation is carried out by experimenting with different mispronunciation detection architectures using acoustic models trained by different criteria. It is found that it is preferable to use frame-level cross-entropy to train the hidden layer parameters. Classifier based mispronunciation detection is further experimented with using features computed by transfer learning based GOP and it is shown that it also helps to achieve better results."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hao",
+            "LastName": "Huang",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "School of Information Science and Engineering, Xinjiang University, Shangli Road, Urumqi 830046, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haihua",
+            "LastName": "Xu",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Temasek Laboratories, Nanyang Technological University, 50 Nanyang Drive, Singapore 637553, Singapore."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ying",
+            "LastName": "Hu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Information Science and Engineering, Xinjiang University, Shangli Road, Urumqi 830046, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gang",
+            "LastName": "Zhou",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "School of Information Science and Engineering, Xinjiang University, Shangli Road, Urumqi 830046, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "A transfer learning approach to goodness of pronunciation based automatic mispronunciation detection.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1121/1.5011159"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 142,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Acoust. Soc. Am.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1520-8524"
+        },
+        "Title": "The Journal of the Acoustical Society of America"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29195422
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29195422,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1121/1.5011159",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

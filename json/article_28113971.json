@@ -1,0 +1,126 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "One of the most challenging issues in color guided depth map restoration is the inconsistency between color edges in guidance color images and depth discontinuities on depth maps. This makes the restored depth map suffer from texture copy artifacts and blurring depth discontinuities. To handle this problem, most state-of-the-art methods design complex guidance weight based on guidance color images and heuristically make use of the bicubic interpolation of the input depth map. In this paper, we show that using bicubic interpolated depth map can blur depth discontinuities when the upsampling factor is large and the input depth map contains large holes and heavy noise. In contrast, we propose a robust optimization framework for color guided depth map restoration. By adopting a robust penalty function to model the smoothness term of our model, we show that the proposed method is robust against the inconsistency between color edges and depth discontinuities even when we use simple guidance weight. To the best of our knowledge, we are the first to solve this problem with a principled mathematical formulation rather than previous heuristic weighting schemes. The proposed robust method performs well in suppressing texture copy artifacts. Moreover, it can better preserve sharp depth discontinuities than previous heuristic weighting schemes. Through comprehensive experiments on both simulated data and real data, we show promising performance of the proposed method."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Liu",
+            "Initials": "W"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiaogang",
+            "LastName": "Chen",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jie",
+            "LastName": "Yang",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qiang",
+            "LastName": "Wu",
+            "Initials": "Q"
+          }
+        ]
+      },
+      "ArticleTitle": "Robust Color Guided Depth Map Restoration.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2612826"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2016,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113971
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113971,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2612826",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

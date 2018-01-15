@@ -1,0 +1,181 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9430800,
+      "Country": "England",
+      "ISSNLinking": "1067-5027",
+      "MedlineTA": "J Am Med Inform Assoc"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "845-850"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Objective",
+          "content": "Comorbidity adjustment is often performed during outcomes and health care resource utilization research. Our goal was to develop an efficient algorithm in structured query language (SQL) to determine the Elixhauser comorbidity index."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Materials and Methods",
+          "content": "We wrote an SQL algorithm to calculate the Elixhauser comorbidities from Diagnosis Related Group and International Classification of Diseases (ICD) codes. Validation was by comparison to expected comorbidities from combinations of these codes and to the 2013 Nationwide Readmissions Database (NRD)."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "The SQL algorithm matched perfectly with expected comorbidities for all combinations of ICD-9 or ICD-10, and Diagnosis Related Groups. Of 13\u2009585\u2009859 evaluable NRD records, the algorithm matched 100% of the listed comorbidities. Processing time was ∼0.05\u2009ms/record."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Discussion",
+          "content": "The SQL Elixhauser code was efficient and computationally identical to the SAS algorithm used for the NRD."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Conclusions",
+          "content": "This algorithm may be useful where preprocessing of large datasets in a relational database environment and comorbidity determination is desired before statistical analysis. A validated SQL procedure to calculate Elixhauser comorbidities and the van Walraven index from ICD-9 or ICD-10 discharge diagnosis codes has been published."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Richard H",
+            "LastName": "Epstein",
+            "Initials": "RH",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology, Perioperative Medicine and Pain Management, University of Miami, Miami, FL, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Franklin",
+            "LastName": "Dexter",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Division of Management Consulting, Department of Anesthesia, University of Iowa, Iowa City, IA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Development and validation of a structured query language implementation of the Elixhauser comorbidity index.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/jamia/ocw181"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 24,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Am Med Inform Assoc",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1527-974X"
+        },
+        "Title": "Journal of the American Medical Informatics Association : JAMIA"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "algorithms"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "comorbidity"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "computing methodologies"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "software validation"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 24
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28339644
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 21,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28339644,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 3001935,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/jamia/ocw181",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

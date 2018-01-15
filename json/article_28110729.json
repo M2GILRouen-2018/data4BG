@@ -1,0 +1,237 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "247-259"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Epileptic seizure detection is traditionally performed by expert clinicians based on visual observation of EEG signals. This process is time-consuming, burdensome, reliant on expensive human resources, and subject to error and bias. In epilepsy research, on the other hand, manual detection is unsuitable for handling large data-sets. A computerized seizure identification scheme can eradicate the aforementioned problems, aid clinicians, and benefit epilepsy research."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "In this work, a new automated epilepsy diagnosis scheme based on Tunable-Q factor wavelet transform (TQWT) and bootstrap aggregating (Bagging) using Electroencephalogram (EEG) signals is proposed. Until now, this is the first time spectral features in the TQWT domain in conjunction with Bagging are employed for epilepsy seizure identification to the best of the authors' knowledge. At first, we decompose the EEG signal segments into sub-bands using TQWT. We then extract various spectral features from the TQWT sub-bands. The suitability of spectral features in the TQWT domain is established through statistical measures and graphical analyses. Afterwards, Bagging is employed for epileptic seizure classification. The efficacy of Bagging in the proposed detection scheme is also studied in this research. The effects of various TQWT and Bagging parameters are investigated. The optimal choices of these parameters are also determined. The performance of the proposed scheme is studied using a publicly available benchmark EEG database for various classification cases that include inter-ictal (seizure-free interval), ictal (seizure) and healthy; seizure and non-seizure; ictal and inter-ictal; and seizure and healthy."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "In comparison with the state-of-the-art algorithms, the performance of the proposed method is superior in terms of sensitivity, specificity, and accuracy."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The seizure detection method proposed herein therefore can alleviate the burden of medical professionals of analyzing a large bulk of data by visual inspection, speed-up epilepsy diagnosis and benefit epilepsy research."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ahnaf Rashik",
+            "LastName": "Hassan",
+            "Initials": "AR",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Electronic Engineering, Bangladesh University of Engineering and Technology, Dhaka 1000, Bangladesh."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Siuly",
+            "LastName": "Siuly",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Centre for Applied Informatics, Victoria University, Melbourne, VIC 8001, Australia. Electronic address: siuly.siuly@vu.edu.au."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yanchun",
+            "LastName": "Zhang",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Centre for Applied Informatics, Victoria University, Melbourne, VIC 8001, Australia."}
+          }
+        ]
+      },
+      "ArticleTitle": "Epileptic seizure detection in EEG signals using tunable-Q factor wavelet transform and bootstrap aggregating.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30437-0"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.09.008"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bagging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "EEG"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Epilepsy seizure"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "TQWT"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D004569",
+        "MajorTopicYN": "Y",
+        "content": "Electroencephalography"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D004827",
+          "MajorTopicYN": "N",
+          "content": "Epilepsy"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D058067",
+        "MajorTopicYN": "N",
+        "content": "Wavelet Analysis"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28110729
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 24,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "09",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110729,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30437-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.09.008",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

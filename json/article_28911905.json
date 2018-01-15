@@ -1,0 +1,220 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8915031,
+      "Country": "Netherlands",
+      "ISSNLinking": "0933-3657",
+      "MedlineTA": "Artif Intell Med"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "47-59"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "MOTIVATION",
+            "content": "Superparamagnetic relaxometry (SPMR) is an emerging technology that holds potential for use in early cancer detection. Measurement of the magnetic field after the excitation of cancer-bound superparamagnetic iron oxide nanoparticles (SPIONs) enables the reconstruction of SPIONs spatial distribution and hence tumor detection. However, image reconstruction often requires solving an ill-posed inverse problem that is computationally challenging and sensitive to measurement uncertainty. Moreover, an additional image processing module is required to automatically detect and localize the tumor in the reconstructed image."
+          },
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "OBJECTIVE",
+            "content": "Our goal is to examine the use of data-driven machine learning technique to detect a weak signal induced by a small cluster of SPIONs (surrogate tumor) in presence of background signal and measurement uncertainty. We aim to investigate the performance of both data-driven and image reconstruction models to characterize situations that one can replace the computationally-challenging reconstruction technique by the data-driven model."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We utilize Gaussian process (GP) classification model and a physics-based image reconstruction method, tailored to SPMR datasets that are obtained from (i) in silico simulations designed based on mouse cancer models and (ii) phantom experiments using MagSense system (Imagion Biosystems, Inc.). We investigate the performance of the GP classifier against the reconstruction technique, for different levels of measurement noise, different scenarios of SPIONs distribution, and different concentrations of SPIONs at the surrogate tumor."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "In our in silico source detection analysis, we were able to achieve high sensitivity results using GP model that outperformed the image reconstruction model for various choices of SPIONs concentration at the surrogate tumor and measurement noise levels. Moreover, in our phantom studies we were able to detect the surrogate tumor phantoms with 5% and 7.3% of the total used SPIONs, surrounded by 9 low-concentration phantoms with accuracies of 87.5% and 96.4%, respectively."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The GP framework provides acceptable classification accuracies when dealing with in silico and phantom SPMR datasets and can outperform an image reconstruction method for binary classification of SPMR data."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Javad",
+            "LastName": "Sovizi",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States. Electronic address: jsovizi@mdanderson.org."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kelsey B",
+            "LastName": "Mathieu",
+            "Initials": "KB",
+            "AffiliationInfo": {"Affiliation": "Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sara L",
+            "LastName": "Thrower",
+            "Initials": "SL",
+            "AffiliationInfo": {"Affiliation": "Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wolfgang",
+            "LastName": "Stefan",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John D",
+            "LastName": "Hazle",
+            "Initials": "JD",
+            "AffiliationInfo": {"Affiliation": "Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Fuentes",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Imaging Physics, The University of Texas MD Anderson Cancer Center, United States."}
+          }
+        ]
+      },
+      "ArticleTitle": "Gaussian process classification of superparamagnetic relaxometry data: Phantom study.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0933-3657(17)30130-6"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.artmed.2017.07.001"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 82,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Artif Intell Med",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1873-2860"
+        },
+        "Title": "Artificial intelligence in medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Gaussian process"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Superparamagnetic relaxometry"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Weak source detection"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 28
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28911905
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": "03",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28911905,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0933-3657(17)30130-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.artmed.2017.07.001",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

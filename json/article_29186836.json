@@ -1,0 +1,169 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper presents a distributed coordination methodology for multi-robot systems, based on nearest-neighbor interactions. Among many interesting tasks that may be performed using swarm robots, we propose a biologically-inspired control law for a shepherding task, whereby a group of external agents drives another group of agents to a desired location. First, we generated sheep-like robots that act like a flock. We assume that each agent is capable of measuring the relative location and velocity to each of its neighbors within a limited sensing area. Then, we designed a control strategy for shepherd-like robots that have information regarding where to go and a steering ability to control the flock, according to the robots' position relative to the flock. We define several independent behavior rules; each agent calculates to what extent it will move by summarizing each rule. The flocking sheep agents detect the steering agents and try to avoid them; this tendency leads to movement of the flock. Each steering agent only needs to focus on guiding the nearest flocking agent to the desired location. Without centralized coordination, multiple steering agents produce an arc formation to control the flock effectively. In addition, we propose a new rule for collecting behavior, whereby a scattered flock or multiple flocks are consolidated. From simulation results with multiple robots, we show that each robot performs actions for the shepherding behavior, and only a few steering agents are needed to control the whole flock. The results are displayed in maps that trace the paths of the flock and steering robots. Performance is evaluated via time cost and path accuracy to demonstrate the effectiveness of this approach."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wonki",
+            "LastName": "Lee",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "Biological Cybernetics Lab, School of Electrical and Electronic Engineering, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 120-749, Korea. wonkilee@yonsei.ac.kr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "DaeEun",
+            "LastName": "Kim",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Biological Cybernetics Lab, School of Electrical and Electronic Engineering, Yonsei University, 50 Yonsei-ro, Seodaemun-gu, Seoul 120-749, Korea. daeeun@yonsei.ac.kr."}
+          }
+        ]
+      },
+      "ArticleTitle": "Autonomous Shepherding Behaviors of Multiple Target Steering Robots.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E2729"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17122729"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 25
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "collecting behavior"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "multiple steering agents"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "nearest-neighbor interactions"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "shepherding task"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29186836
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186836,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17122729",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17122729",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

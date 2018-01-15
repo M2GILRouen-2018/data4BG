@@ -1,0 +1,479 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9114088,
+      "Country": "France",
+      "ISSNLinking": "0999-193X",
+      "MedlineTA": "Genet Sel Evol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 70},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "The increasing availability of whole-genome sequence data is expected to increase the accuracy of genomic prediction. However, results from simulation studies and analysis of real data do not always show an increase in accuracy from sequence data compared to high-density (HD) single nucleotide polymorphism (SNP) chip genotypes. In addition, the sheer number of variants makes analysis of all variants and accurate estimation of all effects computationally challenging. Our objective was to find a strategy to approximate the analysis of whole-sequence data with a Bayesian variable selection model. Using a simulated dataset, we applied a Bayes R hybrid model to analyse whole-sequence data, test the effect of dropping a proportion of variants during the analysis, and test how the analysis can be split into separate analyses per chromosome to reduce the elapsed computing time. We also investigated the effect of imputation errors on prediction accuracy. Subsequently, we applied the approach to a dataset that contained imputed sequences and records for production and fertility traits for 38,492 Holstein, Jersey, Australian Red and crossbred bulls and cows."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "With the simulated dataset, we found that prediction accuracy was highly increased for a breed that was not represented in the training population for sequence data compared to HD SNP data. Either dropping part of the variants during the analysis or splitting the analysis into separate analyses per chromosome decreased accuracy compared to analysing whole-sequence data. First, dropping variants from each chromosome and reanalysing the retained variants together resulted in an accuracy similar to that obtained when analysing whole-sequence data. Adding imputation errors decreased prediction accuracy, especially for errors in the validation population. With real data, using sequence variants resulted in accuracies that were similar to those obtained with the HD SNPs."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We present an efficient approach to approximate analysis of whole-sequence data with a Bayesian variable selection model. The lack of increase in prediction accuracy when applied to real data could be due to imputation errors, which demonstrates the importance of developing more accurate methods of imputation or directly genotyping sequence variants that have a major effect in the prediction equation."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-9292-8636"
+            },
+            "ForeName": "Irene",
+            "LastName": "van den Berg",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Faculty of Veterinary and Agricultural Science, University of Melbourne, Parkville, VIC, Australia. irene.vandenberg@unimelb.edu.au."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Phil J",
+            "LastName": "Bowman",
+            "Initials": "PJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia."},
+              {"Affiliation": "School of Applied Systems Biology, La Trobe University, Bundoora, VIC, 3083, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Iona M",
+            "LastName": "MacLeod",
+            "Initials": "IM",
+            "AffiliationInfo": {"Affiliation": "Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ben J",
+            "LastName": "Hayes",
+            "Initials": "BJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia."},
+              {"Affiliation": "Queensland Alliance for Agriculture and Food Innovation, Centre for Animal Science, University of Queensland, St Lucia, QLD, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tingting",
+            "LastName": "Wang",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sunduimijid",
+            "LastName": "Bolormaa",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mike E",
+            "LastName": "Goddard",
+            "Initials": "ME",
+            "AffiliationInfo": [
+              {"Affiliation": "Faculty of Veterinary and Agricultural Science, University of Melbourne, Parkville, VIC, Australia."},
+              {"Affiliation": "Agriculture Victoria, AgriBio, Centre for AgriBioscience, Bundoora, VIC, 3083, Australia."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Multi-breed genomic prediction using Bayes R with sequence data and dropping variants with a small effect.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12711-017-0347-9"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 49,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Genet. Sel. Evol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1297-9686"
+        },
+        "Title": "Genetics, selection, evolution : GSE"
+      },
+      "PubModel": "Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D001315",
+        "MajorTopicYN": "N",
+        "content": "Australia"
+      }},
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {"DescriptorName": {
+        "UI": "D001947",
+        "MajorTopicYN": "Y",
+        "content": "Breeding"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D002417",
+          "MajorTopicYN": "N",
+          "content": "Cattle"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D030541",
+        "MajorTopicYN": "N",
+        "content": "Databases, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D023281",
+          "MajorTopicYN": "N",
+          "content": "Genomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005838",
+        "MajorTopicYN": "N",
+        "content": "Genotype"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008957",
+        "MajorTopicYN": "Y",
+        "content": "Models, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D020641",
+        "MajorTopicYN": "N",
+        "content": "Polymorphism, Single Nucleotide"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "G3 (Bethesda). 2016 Aug 09;6(8):2553-61",
+        "PMID": {
+          "Version": 1,
+          "content": 27317779
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2016 Jun 29;48(1):49",
+        "PMID": {
+          "Version": 1,
+          "content": 27357580
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2014 Aug;46(8):858-65",
+        "PMID": {
+          "Version": 1,
+          "content": 25017103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009;4(4):e5350",
+        "PMID": {
+          "Version": 1,
+          "content": 19390634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2016 Feb 27;17:144",
+        "PMID": {
+          "Version": 1,
+          "content": 26920147
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2014 Jun 17;15:478",
+        "PMID": {
+          "Version": 1,
+          "content": 24935670
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2008 Jul;179(3):1503-12",
+        "PMID": {
+          "Version": 1,
+          "content": 18622038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 May 07;10(5):e0126880",
+        "PMID": {
+          "Version": 1,
+          "content": 25950439
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Aug 15;27(16):2300-1",
+        "PMID": {
+          "Version": 1,
+          "content": 21697123
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2015 Sep 17;47:71",
+        "PMID": {
+          "Version": 1,
+          "content": 26381777
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Animal. 2016 Jun;10 (6):1042-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26781646
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Anim Breed Genet. 2016 Jun;133(3):167-79",
+        "PMID": {
+          "Version": 1,
+          "content": 26776363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2017 Jan 16;49(1):8",
+        "PMID": {
+          "Version": 1,
+          "content": 28093063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2015 Apr 30;47:34",
+        "PMID": {
+          "Version": 1,
+          "content": 25926276
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2014 Aug 27;15:728",
+        "PMID": {
+          "Version": 1,
+          "content": 25164068
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2015 May 09;47:43",
+        "PMID": {
+          "Version": 1,
+          "content": 25956961
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2016 Nov 4;48(1):83",
+        "PMID": {
+          "Version": 1,
+          "content": 27809758
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Sep;81(3):559-75",
+        "PMID": {
+          "Version": 1,
+          "content": 17701901
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2015 Apr 17;47:29",
+        "PMID": {
+          "Version": 1,
+          "content": 25887988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2014 Dec;198(4):1671-84",
+        "PMID": {
+          "Version": 1,
+          "content": 25233989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2016 Sep 21;17(1):744",
+        "PMID": {
+          "Version": 1,
+          "content": 27654580
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2016 Dec 1;48(1):95",
+        "PMID": {
+          "Version": 1,
+          "content": 27905878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Sel Evol. 2009 Dec 31;41:55",
+        "PMID": {
+          "Version": 1,
+          "content": 20043827
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Dairy Sci. 2015 Jun;98(6):4107-16",
+        "PMID": {
+          "Version": 1,
+          "content": 25892697
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28934948
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28934948,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12711-017-0347-9",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12711-017-0347-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5609075",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

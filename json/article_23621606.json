@@ -1,0 +1,436 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101525347,
+      "Country": "United States",
+      "ISSNLinking": "2156-1125",
+      "MedlineTA": "Proceedings (IEEE Int Conf Bioinformatics Biomed)"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1706-1713"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM117594",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R41 GM116300",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 19
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Most of the existing research in assembly pathway prediction/analysis of viral capsids makes the simplifying assumption that the configuration of the intermediate states can be extracted directly from the final configuration of the entire capsid. This assumption does not take into account the conformational changes of the constituent proteins as well as minor changes to the binding interfaces that continue throughout the assembly process until stabilization. This paper presents a statistical-ensemble based approach which samples the configurational space for each monomer with the relative local orientation between monomers, to capture the uncertainties in binding and conformations. Furthermore, instead of using larger capsomers (trimers, pentamers) as building blocks, we allow all possible subassemblies to bind in all possible combinations. We represent the resulting assembly graph in two different ways: First, we use the Wilcoxon signed rank measure to compare the distributions of binding free energy computed on the sampled conformations to predict likely pathways. Second, we represent chemical equilibrium aspects of the transitions as a Bayesian Factor graph where both associations and dissociations are modeled based on concentrations and the binding free energies. We applied these protocols on the feline panleukopenia virus and the Nudaurelia capensis virus. Results from these experiments showed significant departure from those one would obtain if only the static configurations of the proteins were considered. Hence, we establish the importance of an uncertainty-aware protocol for pathway analysis, and provide a statistical framework as an important first step towards assembly pathway prediction with high statistical confidence."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "N",
+            "LastName": "Clement",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, The University of Texas at Austin, Austin, TX 78712."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "M",
+            "LastName": "Rasheed",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, The University of Texas at Austin, Austin, TX 78712."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C",
+            "LastName": "Bajaj",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, The University of Texas at Austin, Austin, TX 78712."}
+          }
+        ]
+      },
+      "ArticleTitle": "Uncertainty Quantified Computational Analysis of the Energetics of Virus Capsid Assembly.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/BIBM.2016.7822775"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 2016,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Proceedings (IEEE Int Conf Bioinformatics Biomed)",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2156-1125"
+        },
+        "Title": "Proceedings. IEEE International Conference on Bioinformatics and Biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "graphical models"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "proteins"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "uncertainty propagation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "viral assembly"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 25
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2008 May;77(5 Pt 1):051902",
+        "PMID": {
+          "Version": 1,
+          "content": 18643097
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bull Math Biol. 2011 Apr;73(4):726-53",
+        "PMID": {
+          "Version": 1,
+          "content": 21174231
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Rev E Stat Nonlin Soft Matter Phys. 2004 Nov;70(5 Pt 1):051905",
+        "PMID": {
+          "Version": 1,
+          "content": 15600654
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2007 Feb 9;366(1):14-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17157314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Multiscale Model Simul. 2015;13(4):1327-1353",
+        "PMID": {
+          "Version": 1,
+          "content": 26766929
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1994 Aug 2;91(16):7732-6",
+        "PMID": {
+          "Version": 1,
+          "content": 8052652
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nano Lett. 2008 Nov;8(11):3850-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18950240
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Virology. 2004 Jan 5;318(1):192-203",
+        "PMID": {
+          "Version": 1,
+          "content": 14972547
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Biotechnol. 2013 Aug;24(4):620-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23465756
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Biol. 2010 Dec 09;7(4):045001",
+        "PMID": {
+          "Version": 1,
+          "content": 21149970
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jan 1;27(1):55-62",
+        "PMID": {
+          "Version": 1,
+          "content": 21115440
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2010 Mar 04;5(3):e9423",
+        "PMID": {
+          "Version": 1,
+          "content": 20209096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2000 Jul 14;300(3):597-610",
+        "PMID": {
+          "Version": 1,
+          "content": 10884355
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Adv Chem Phys. 2014;155:1-68",
+        "PMID": {
+          "Version": 1,
+          "content": 25663722
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009;4(5):e5569",
+        "PMID": {
+          "Version": 1,
+          "content": 19440379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2012 Oct 3;103(7):1545-54",
+        "PMID": {
+          "Version": 1,
+          "content": 23062347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2006 Jul 1;91(1):42-54",
+        "PMID": {
+          "Version": 1,
+          "content": 16565055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Chem. 2005 Dec;26(16):1668-88",
+        "PMID": {
+          "Version": 1,
+          "content": 16200636
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 1998 Dec;75(6):2626-36",
+        "PMID": {
+          "Version": 1,
+          "content": 9826587
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cold Spring Harb Symp Quant Biol. 1962;27:1-24",
+        "PMID": {
+          "Version": 1,
+          "content": 14019094
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Math Biol. 2009 Sep;59(3):287-313",
+        "PMID": {
+          "Version": 1,
+          "content": 18979101
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2008 Aug 13;130(32):10643-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18642918
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Microbiol. 2011 Jan;19(1):14-23",
+        "PMID": {
+          "Version": 1,
+          "content": 21163649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 1994 Aug 5;241(1):59-67",
+        "PMID": {
+          "Version": 1,
+          "content": 8051707
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2008 Mar;70(4):1219-27",
+        "PMID": {
+          "Version": 1,
+          "content": 17847101
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomacromolecules. 2010 Feb 8;11(2):439-42",
+        "PMID": {
+          "Version": 1,
+          "content": 20136150
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteins. 2008 Nov 15;73(3):644-55",
+        "PMID": {
+          "Version": 1,
+          "content": 18491385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Acta Crystallogr A. 2006 Sep;62(Pt 5):319-30",
+        "PMID": {
+          "Version": 1,
+          "content": 16926480
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Procedia Eng. 2015;124:213-225",
+        "PMID": {
+          "Version": 1,
+          "content": 27563368
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Biol. 2002 Dec 6;324(4):723-37",
+        "PMID": {
+          "Version": 1,
+          "content": 12460573
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "SIAM J Sci Comput. 2010 Jan 20;31(6):4524-4552",
+        "PMID": {
+          "Version": 1,
+          "content": 20200598
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mol Recognit. 2005 Nov-Dec;18(6):479-90",
+        "PMID": {
+          "Version": 1,
+          "content": 16193532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 2013 May 22;135(20):7738-43",
+        "PMID": {
+          "Version": 1,
+          "content": 23621606
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28936368
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28936368,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/BIBM.2016.7822775",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5604467",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS894982",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

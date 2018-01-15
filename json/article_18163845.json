@@ -1,0 +1,478 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 402},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "We present a software workflow capable of building large scale, highly detailed and realistic volumetric models of neocortical circuits from the morphological skeletons of their digitally reconstructed neurons. The limitations of the existing approaches for creating those models are explained, and then, a multi-stage pipeline is discussed to overcome those limitations. Starting from the neuronal morphologies, we create smooth piecewise watertight polygonal models that can be efficiently utilized to synthesize continuous and plausible volumetric models of the neurons with solid voxelization. The somata of the neurons are reconstructed on a physically-plausible basis relying on the physics engine in Blender."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Our pipeline is applied to create 55 exemplar neurons representing the various morphological types that are reconstructed from the somatsensory cortex of a juvenile rat. The pipeline is then used to reconstruct a volumetric slice of a cortical circuit model that contains ∼210,000 neurons. The applicability of our pipeline to create highly realistic volumetric models of neocortical circuits is demonstrated with an in silico imaging experiment that simulates tissue visualization with brightfield microscopy. The results were evaluated with a group of domain experts to address their demands and also to extend the workflow based on their feedback."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "A systematic workflow is presented to create large scale synthetic tissue models of the neocortical circuitry. This workflow is fundamental to enlarge the scale of in silico neuroscientific optical experiments from several tens of cubic micrometers to a few cubic millimeters."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "AMS SUBJECT CLASSIFICATION",
+          "content": "Modelling and Simulation."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marwan",
+            "LastName": "Abdellah",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Blue Brain Project (BBP), École Polytechnique Fédérale de Lausanne (EPFL), Biotech Campus, Chemin des Mines 9, Geneva, 1202, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Juan",
+            "LastName": "Hernando",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Blue Brain Project (BBP), École Polytechnique Fédérale de Lausanne (EPFL), Biotech Campus, Chemin des Mines 9, Geneva, 1202, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicolas",
+            "LastName": "Antille",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Blue Brain Project (BBP), École Polytechnique Fédérale de Lausanne (EPFL), Biotech Campus, Chemin des Mines 9, Geneva, 1202, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stefan",
+            "LastName": "Eilemann",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Blue Brain Project (BBP), École Polytechnique Fédérale de Lausanne (EPFL), Biotech Campus, Chemin des Mines 9, Geneva, 1202, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Henry",
+            "LastName": "Markram",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Blue Brain Project (BBP), École Polytechnique Fédérale de Lausanne (EPFL), Biotech Campus, Chemin des Mines 9, Geneva, 1202, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Felix",
+            "LastName": "Schürmann",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Blue Brain Project (BBP), École Polytechnique Fédérale de Lausanne (EPFL), Biotech Campus, Chemin des Mines 9, Geneva, 1202, Switzerland. felix.schuermann@epfl.ch."}
+          }
+        ]
+      },
+      "ArticleTitle": "Reconstruction and visualization of large-scale volumetric models of neocortical circuits for physically-plausible in silico optical studies.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1788-4"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Suppl 10",
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 13
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "In silico neuroscience"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Modeling and simulation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Neocortical brain models"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Polygonal and volumetric models"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "Y",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "Y",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D008853",
+        "MajorTopicYN": "N",
+        "content": "Microscopy"
+      }},
+      {"DescriptorName": {
+        "UI": "D008959",
+        "MajorTopicYN": "Y",
+        "content": "Models, Neurological"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D019579",
+          "MajorTopicYN": "N",
+          "content": "Neocortex"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009415",
+          "MajorTopicYN": "N",
+          "content": "Nerve Net"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "N",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009474",
+          "MajorTopicYN": "N",
+          "content": "Neurons"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D055620",
+        "MajorTopicYN": "Y",
+        "content": "Optical Phenomena"
+      }},
+      {"DescriptorName": {
+        "UI": "D051381",
+        "MajorTopicYN": "N",
+        "content": "Rats"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Neurosci. 2006 Feb;7(2):153-60",
+        "PMID": {
+          "Version": 1,
+          "content": 16429124
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Oct 15;461(7266):908-15",
+        "PMID": {
+          "Version": 1,
+          "content": 19829370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neuroanat. 2013 Jun 03;7:15",
+        "PMID": {
+          "Version": 1,
+          "content": 23761740
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neural Circuits. 2015 Oct 08;9:44",
+        "PMID": {
+          "Version": 1,
+          "content": 26500503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015;16 Suppl 11:S8",
+        "PMID": {
+          "Version": 1,
+          "content": 26329404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2015 Jul;13(3):259-60",
+        "PMID": {
+          "Version": 1,
+          "content": 25920534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Vis Comput Graph. 2012 Feb;18(2):214-27",
+        "PMID": {
+          "Version": 1,
+          "content": 21383404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comp Neurol. 2002 Feb 18;443(4):346-67",
+        "PMID": {
+          "Version": 1,
+          "content": 11807843
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2007 Apr 19;54(2):219-35",
+        "PMID": {
+          "Version": 1,
+          "content": 17442244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Struct Biol. 2007 Mar;157(3):470-80",
+        "PMID": {
+          "Version": 1,
+          "content": 17187988
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol Paris. 2010 Jan-Mar;104(1-2):40-50",
+        "PMID": {
+          "Version": 1,
+          "content": 19909809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2003 Jun 10;100(12):7319-24",
+        "PMID": {
+          "Version": 1,
+          "content": 12777621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 Oct 8;163(2):456-92",
+        "PMID": {
+          "Version": 1,
+          "content": 26451489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Med Imaging Graph. 1990 Sep-Oct;14(5):307-17",
+        "PMID": {
+          "Version": 1,
+          "content": 2224829
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Opt. 2014;19(7):75001",
+        "PMID": {
+          "Version": 1,
+          "content": 24996660
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2011 May 3;108(18):7595-600",
+        "PMID": {
+          "Version": 1,
+          "content": 21504945
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2013;2013:5934-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24111090
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 May 5;10(6):540-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23817127
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2006 Oct 5;443(7111):527-33",
+        "PMID": {
+          "Version": 1,
+          "content": 17024084
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2008 Sep;6(3):241-52",
+        "PMID": {
+          "Version": 1,
+          "content": 18949582
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2017 Feb 15;18(Suppl 2):62",
+        "PMID": {
+          "Version": 1,
+          "content": 28251871
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microsc Microanal. 2003 Aug;9(4):296-310",
+        "PMID": {
+          "Version": 1,
+          "content": 12901764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2014 Jul;9(7):1682-97",
+        "PMID": {
+          "Version": 1,
+          "content": 24945384
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2009 Sep;7(3):195-210",
+        "PMID": {
+          "Version": 1,
+          "content": 19672726
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Opt. 2007 Nov-Dec;12(6):064029",
+        "PMID": {
+          "Version": 1,
+          "content": 18163845
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28929974
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2018,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28929974,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1788-4",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1788-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5606217",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

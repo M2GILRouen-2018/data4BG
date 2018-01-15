@@ -1,0 +1,126 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Confidence estimation is essential for refining stereo matching results through a post-processing step. This problem has recently been studied using a learning-based approach, which demonstrates a substantial improvement on conventional simple non-learning based methods. However, the formulation of learning-based methods that individually estimates the confidence of each pixel disregards spatial coherency that might exist in the confidence map, thus providing a limited performance under challenging conditions. Our key observation is that the confidence features and resulting confidence maps are smoothly varying in the spatial domain, and highly correlated within the local regions of an image. We present a new approach that imposes spatial consistency on the confidence estimation. Specifically, a set of robust confidence features is extracted from each superpixel decomposed using the Gaussian mixture model (GMM), and then these features are concatenated with pixel-level confidence features. The features are then enhanced through adaptive filtering in the feature domain. In addition, the resulting confidence map, estimated using the confidence features with a random regression forest, is further improved through K-nearest neighbor (K-NN) based aggregation scheme on both pixel-and superpixel-level. To validate the proposed confidence estimation scheme, we employ cost modulation or ground control points (GCPs) based optimization in stereo matching. Experimental results demonstrate that the proposed method outperforms state-of-the-art approaches on various benchmarks including challenging outdoor scenes."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sunok",
+            "LastName": "Kim",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dongbo",
+            "LastName": "Min",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seungryong",
+            "LastName": "Kim",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kwanghoon",
+            "LastName": "Sohn",
+            "Initials": "K"
+          }
+        ]
+      },
+      "ArticleTitle": "Feature Augmentation for Learning Confidence Measure in Stereo Matching.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2017.2750404"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": "08"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 14
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28910763
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28910763,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2017.2750404",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

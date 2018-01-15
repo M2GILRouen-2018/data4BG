@@ -1,0 +1,247 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "203-212"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "In computational neuroimaging, brain parcellation methods subdivide the brain into individual regions that can be used to build a network to study its structure and function. Using anatomical or functional connectivity, hierarchical clustering methods aim to offer a meaningful parcellation of the brain at each level of granularity. However, some of these methods have been only applied to small regions and strongly depend on the similarity measure used to merge regions. The aim of this work is to present a robust whole-brain hierarchical parcellation that preserves the global structure of the network."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Brain regions are modeled as a random walk on the connectome. From this model, a Markov process is derived, where the different nodes represent brain regions and in which the structure can be quantified. Functional or anatomical brain regions are clustered by using an agglomerative information bottleneck method that minimizes the overall loss of information of the structure by using mutual information as a similarity measure."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The method is tested with synthetic models, structural and functional human connectomes and is compared with the classic k-means. Results show that the parcellated networks preserve the main properties and are consistent across subjects."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "This work provides a new framework to study the human connectome using functional or anatomical connectivity at different levels."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ester",
+            "LastName": "Bonmati",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Institute of Informatics and Applications, University of Girona, Campus Montilivi, 17003 Girona, Spain. Electronic address: ester.bonmati@imae.udg.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anton",
+            "LastName": "Bardera",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Institute of Informatics and Applications, University of Girona, Campus Montilivi, 17003 Girona, Spain."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Imma",
+            "LastName": "Boada",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Institute of Informatics and Applications, University of Girona, Campus Montilivi, 17003 Girona, Spain."}
+          }
+        ]
+      },
+      "ArticleTitle": "Brain parcellation based on information theory.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(15)30323-0"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.07.012"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 151,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Brain parcellation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hierarchical clustering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Human brain connectome"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Markov process"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Mutual information"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D063132",
+        "MajorTopicYN": "Y",
+        "content": "Connectome"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007257",
+        "MajorTopicYN": "Y",
+        "content": "Information Theory"
+      }},
+      {"DescriptorName": {
+        "UI": "D059906",
+        "MajorTopicYN": "Y",
+        "content": "Neuroimaging"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28947002
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2015,
+        "Day": 10,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28947002,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(15)30323-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.07.012",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

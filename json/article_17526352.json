@@ -1,0 +1,295 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101478481,
+      "Country": "Switzerland",
+      "ISSNLinking": "1662-453X",
+      "MedlineTA": "Front Neurosci"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 496},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "06"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Artificial neural networks (ANNs) trained using backpropagation are powerful learning architectures that have achieved state-of-the-art performance in various benchmarks. Significant effort has been devoted to developing custom silicon devices to accelerate inference in ANNs. Accelerating the training phase, however, has attracted relatively little attention. In this paper, we describe a hardware-efficient on-line learning technique for feedforward multi-layer ANNs that is based on pipelined backpropagation. Learning is performed in parallel with inference in the forward pass, removing the need for an explicit backward pass and requiring no extra weight lookup. By using binary state variables in the feedforward network and ternary errors in truncated-error backpropagation, the need for any multiplications in the forward and backward passes is removed, and memory requirements for the pipelining are drastically reduced. Further reduction in addition operations owing to the sparsity in the forward neural and backpropagating error signal paths contributes to highly efficient hardware implementation. For proof-of-concept validation, we demonstrate on-line learning of MNIST handwritten digit classification on a Spartan 6 FPGA interfacing with an external 1Gb DDR2 DRAM, that shows small degradation in test error performance compared to an equivalently sized binary ANN trained off-line using standard back-propagation and exact errors. Our results highlight an attractive synergy between pipelined backpropagation and binary-state networks in substantially reducing computation and memory requirements, making pipelined on-line learning practical in deep networks."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hesham",
+            "LastName": "Mostafa",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Institute for Neural Computation, University of California, San DiegoSan Diego, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bruno",
+            "LastName": "Pedroni",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Bioengineering, University of California, San DiegoSan Diego, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sadique",
+            "LastName": "Sheik",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "BioCircuits Institute, University of California, San DiegoSan Diego, CA, United States."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gert",
+            "LastName": "Cauwenberghs",
+            "Initials": "G",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute for Neural Computation, University of California, San DiegoSan Diego, CA, United States."},
+              {"Affiliation": "Department of Bioengineering, University of California, San DiegoSan Diego, CA, United States."},
+              {"Affiliation": "BioCircuits Institute, University of California, San DiegoSan Diego, CA, United States."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Hardware-Efficient On-line Learning through Pipelined Truncated-Error Backpropagation in Binary-State Networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fnins.2017.00496"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 11,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Neurosci",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1662-4548"
+        },
+        "Title": "Frontiers in neuroscience"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "binary neural networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "hardware accelerators"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "online learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "pipelined backpropagation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "supervised learning"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 24
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurobiol. 2010 Jun;20(3):288-95",
+        "PMID": {
+          "Version": 1,
+          "content": 20493680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw Learn Syst. 2017 Aug 01;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28783639
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 1996;7(2):346-61",
+        "PMID": {
+          "Version": 1,
+          "content": 18255589
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw Learn Syst. 2017 Oct;28(10 ):2408-2422",
+        "PMID": {
+          "Version": 1,
+          "content": 27483491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2017 Jun 21;11:324",
+        "PMID": {
+          "Version": 1,
+          "content": 28680387
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 1993;4(6):970-81",
+        "PMID": {
+          "Version": 1,
+          "content": 18276527
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2016 Oct 11;113(41):11441-11446",
+        "PMID": {
+          "Version": 1,
+          "content": 27651489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw Learn Syst. 2016 Sep;27(9):1840-50",
+        "PMID": {
+          "Version": 1,
+          "content": 26277004
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2015 Jul 09;9:222",
+        "PMID": {
+          "Version": 1,
+          "content": 26217169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2015 Apr 29;9:141",
+        "PMID": {
+          "Version": 1,
+          "content": 25972778
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2016 Nov 08;10 :508",
+        "PMID": {
+          "Version": 1,
+          "content": 27877107
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Neurosci. 2013 Oct 08;7:178",
+        "PMID": {
+          "Version": 1,
+          "content": 24115919
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 May 28;521(7553):436-44",
+        "PMID": {
+          "Version": 1,
+          "content": 26017442
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 Aug 8;345(6197):668-73",
+        "PMID": {
+          "Version": 1,
+          "content": 25104385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 2007 May;18(3):880-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17526352
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28932180
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28932180,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fnins.2017.00496",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5592276",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

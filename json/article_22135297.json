@@ -1,0 +1,561 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101301827,
+      "Country": "England",
+      "ISSNLinking": "1752-0509",
+      "MedlineTA": "BMC Syst Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D035683",
+          "content": "MicroRNAs"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D012333",
+          "content": "RNA, Messenger"
+        },
+        "RegistryNumber": 0
+      }
+    ]},
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 16
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 125},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "05"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "MicroRNAs (miRNAs) play important regulatory roles in the wide range of biological processes by inducing target mRNA degradation or translational repression. Based on the correlation between expression profiles of a miRNA and its target mRNA, various computational methods have previously been proposed to identify miRNA-mRNA association networks by incorporating the matched miRNA and mRNA expression profiles. However, there remain three major issues to be resolved in the conventional computation approaches for inferring miRNA-mRNA association networks from expression profiles. 1) Inferred correlations from the observed expression profiles using conventional correlation-based methods include numerous erroneous links or over-estimated edge weight due to the transitive information flow among direct associations. 2) Due to the high-dimension-low-sample-size problem on the microarray dataset, it is difficult to obtain an accurate and reliable estimate of the empirical correlations between all pairs of expression profiles. 3) Because the previously proposed computational methods usually suffer from varying performance across different datasets, a more reliable model that guarantees optimal or suboptimal performance across different datasets is highly needed."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "In this paper, we present DMirNet, a new framework for identifying direct miRNA-mRNA association networks. To tackle the aforementioned issues, DMirNet incorporates 1) three direct correlation estimation methods (namely Corpcor, SPACE, Network deconvolution) to infer direct miRNA-mRNA association networks, 2) the bootstrapping method to fully utilize insufficient training expression profiles, and 3) a rank-based Ensemble aggregation to build a reliable and robust model across different datasets. Our empirical experiments on three datasets demonstrate the combinatorial effects of necessary components in DMirNet. Additional performance comparison experiments show that DMirNet outperforms the state-of-the-art Ensemble-based model [1] which has shown the best performance across the same three datasets, with a factor of up to 1.29. Further, we identify 43 putative novel multi-cancer-related miRNA-mRNA association relationships from an inferred Top 1000 direct miRNA-mRNA association network."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "We believe that DMirNet is a promising method to identify novel direct miRNA-mRNA relations and to elucidate the direct miRNA-mRNA association networks. Since DMirNet infers direct relationships from the observed data, DMirNet can contribute to reconstructing various direct regulatory pathways, including, but not limited to, the direct miRNA-mRNA association networks."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Minsu",
+            "LastName": "Lee",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, Ewha Womans University, Seoul, South Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "HyungJune",
+            "LastName": "Lee",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science and Engineering, Ewha Womans University, Seoul, South Korea. hyungjune.lee@ewha.ac.kr."}
+          }
+        ]
+      },
+      "ArticleTitle": "DMirNet: Inferring direct microRNA-mRNA association networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12918-016-0373-1"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Suppl 5",
+          "Volume": 10,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016,
+            "Day": "05"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Syst Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1752-0509"
+        },
+        "Title": "BMC systems biology"
+      },
+      "PubModel": "Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D053263",
+        "MajorTopicYN": "Y",
+        "content": "Gene Regulatory Networks"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D035683",
+          "MajorTopicYN": "N",
+          "content": "MicroRNAs"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D020411",
+        "MajorTopicYN": "N",
+        "content": "Oligonucleotide Array Sequence Analysis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D012333",
+          "MajorTopicYN": "N",
+          "content": "RNA, Messenger"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D059467",
+        "MajorTopicYN": "N",
+        "content": "Transcriptome"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Appl Genet Mol Biol. 2005;4:Article32",
+        "PMID": {
+          "Version": 1,
+          "content": 16646851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2013 Jun 19;7:47",
+        "PMID": {
+          "Version": 1,
+          "content": 23782521
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Dec 30;10(12):e0145386",
+        "PMID": {
+          "Version": 1,
+          "content": 26716983
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2015 Jan 28;5:7922",
+        "PMID": {
+          "Version": 1,
+          "content": 25628250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Dec;41(22):e203",
+        "PMID": {
+          "Version": 1,
+          "content": 24194606
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 2013 Jul 15;27(14):1624-32",
+        "PMID": {
+          "Version": 1,
+          "content": 23824327
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Nov 12;9(11):e106319",
+        "PMID": {
+          "Version": 1,
+          "content": 25390635
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Jan;37(Database issue):D105-10",
+        "PMID": {
+          "Version": 1,
+          "content": 18996891
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jul 15;9(8):796-804",
+        "PMID": {
+          "Version": 1,
+          "content": 22796662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Proc. 2015 Aug 13;9(Suppl 6 Proceedings of the 5th Symposium on Biological Data):S2",
+        "PMID": {
+          "Version": 1,
+          "content": 26361498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009 Dec 10;10:408",
+        "PMID": {
+          "Version": 1,
+          "content": 20003267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2005 Jan 14;120(1):15-20",
+        "PMID": {
+          "Version": 1,
+          "content": 15652477
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 Nov;13(11):2498-504",
+        "PMID": {
+          "Version": 1,
+          "content": 14597658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009 Feb 19;10:62",
+        "PMID": {
+          "Version": 1,
+          "content": 19228411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Jun 26;10(6):e0131627",
+        "PMID": {
+          "Version": 1,
+          "content": 26114448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2016 Jan 11;17 Suppl 1:7",
+        "PMID": {
+          "Version": 1,
+          "content": 26817421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2002 Jan 1;30(1):42-6",
+        "PMID": {
+          "Version": 1,
+          "content": 11752249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D78-85",
+        "PMID": {
+          "Version": 1,
+          "content": 24304892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2011 Sep;11(17):3531-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21751348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Apr 15;25(8):1091-3",
+        "PMID": {
+          "Version": 1,
+          "content": 19237447
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2015;2015:501262",
+        "PMID": {
+          "Version": 1,
+          "content": 25874214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Aug 15;28(16):2202-4",
+        "PMID": {
+          "Version": 1,
+          "content": 22718784
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Stat Assoc. 2009 Jun 1;104(486):735-746",
+        "PMID": {
+          "Version": 1,
+          "content": 19881892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2012 Jun 15;6:68",
+        "PMID": {
+          "Version": 1,
+          "content": 22703586
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2014 Dec;52:438-47",
+        "PMID": {
+          "Version": 1,
+          "content": 25181465
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Cancer. 2006 Apr;6(4):259-69",
+        "PMID": {
+          "Version": 1,
+          "content": 16557279
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Struct Mol Biol. 2013 Nov;20(11):1325-32",
+        "PMID": {
+          "Version": 1,
+          "content": 24096364
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2013 Aug;31(8):726-33",
+        "PMID": {
+          "Version": 1,
+          "content": 23851448
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2004 Jan 23;116(2):281-97",
+        "PMID": {
+          "Version": 1,
+          "content": 14744438
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2006;2:46",
+        "PMID": {
+          "Version": 1,
+          "content": 16969338
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2012 Sep 7;337(6099):1159, 1161",
+        "PMID": {
+          "Version": 1,
+          "content": 22955811
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Cancer. 2010 Aug 10;103(4):532-41",
+        "PMID": {
+          "Version": 1,
+          "content": 20664596
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2015 Oct 12;16:767",
+        "PMID": {
+          "Version": 1,
+          "content": 26459852
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2006 Jun;38 Suppl:S8-13",
+        "PMID": {
+          "Version": 1,
+          "content": 16736023
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Mar 15;29(6):765-71",
+        "PMID": {
+          "Version": 1,
+          "content": 23365408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2009 Jan 23;136(2):215-33",
+        "PMID": {
+          "Version": 1,
+          "content": 19167326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2006 Sep 18;7:411",
+        "PMID": {
+          "Version": 1,
+          "content": 16978421
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2010 Apr 2;141(1):129-41",
+        "PMID": {
+          "Version": 1,
+          "content": 20371350
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2003;5(1):R1",
+        "PMID": {
+          "Version": 1,
+          "content": 14709173
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 May 1;23(9):1141-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17350973
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2011 Oct;44(5):839-47",
+        "PMID": {
+          "Version": 1,
+          "content": 21605702
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D222-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22135297
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28105958
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28105958,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12918-016-0373-1",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12918-016-0373-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5249041",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

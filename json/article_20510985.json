@@ -1,0 +1,453 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0188684"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D023361",
+          "content": "Validation Studies"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Motion analysis of the hyoid bone via videofluoroscopic study has been used in clinical research, but the classical manual tracking method is generally labor intensive and time consuming. Although some automatic tracking methods have been developed, masked points could not be tracked and smoothing and segmentation, which are necessary for functional motion analysis prior to registration, were not provided by the previous software. We developed software to track the hyoid bone motion semi-automatically. It works even in the situation where the hyoid bone is masked by the mandible and has been validated in dysphagia patients with stroke. In addition, we added the function of semi-automatic smoothing and segmentation. A total of 30 patients' data were used to develop the software, and data collected from 17 patients were used for validation, of which the trajectories of 8 patients were partly masked. Pearson correlation coefficients between the manual and automatic tracking are high and statistically significant (0.942 to 0.991, P-value<0.0001). Relative errors between automatic tracking and manual tracking in terms of the x-axis, y-axis and 2D range of hyoid bone excursion range from 3.3% to 9.2%. We also developed an automatic method to segment each hyoid bone trajectory into four phases (elevation phase, anterior movement phase, descending phase and returning phase). The semi-automatic hyoid bone tracking from VFSS data by our software is valid compared to the conventional manual tracking method. In addition, the ability of automatic indication to switch the automatic mode to manual mode in extreme cases and calibration without attaching the radiopaque object is convenient and useful for users. Semi-automatic smoothing and segmentation provide further information for functional motion analysis which is beneficial to further statistical analysis such as functional classification and prognostication for dysphagia. Therefore, this software could provide the researchers in the field of dysphagia with a convenient, useful, and all-in-one platform for analyzing the hyoid bone motion. Further development of our method to track the other swallowing related structures or objects such as epiglottis and bolus and to carry out the 2D curve registration may be needed for a more comprehensive functional data analysis for dysphagia with big data."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-1199-5707"
+            },
+            "ForeName": "Won-Seok",
+            "LastName": "Kim",
+            "Initials": "WS",
+            "AffiliationInfo": {"Affiliation": "Department of Rehabilitation Medicine, Seoul National University College of Medicine, Seoul National University Bundang Hospital, Seongnam-si, Gyeonggi-do, Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pengcheng",
+            "LastName": "Zeng",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "School of Mathematics & Statistics, University of Newcastle, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-2924-1137"
+            },
+            "ForeName": "Jian Qing",
+            "LastName": "Shi",
+            "Initials": "JQ",
+            "AffiliationInfo": {"Affiliation": "School of Mathematics & Statistics, University of Newcastle, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Youngjo",
+            "LastName": "Lee",
+            "Initials": "Y",
+            "AffiliationInfo": [
+              {"Affiliation": "Data Science for Knowledge Creation Research Center, Seoul National University, Seoul, Korea."},
+              {"Affiliation": "Department of Statistics, Seoul National University, Seoul, Korea."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nam-Jong",
+            "LastName": "Paik",
+            "Initials": "NJ",
+            "AffiliationInfo": {"Affiliation": "Department of Rehabilitation Medicine, Seoul National University College of Medicine, Seoul National University Bundang Hospital, Seongnam-si, Gyeonggi-do, Korea."}
+          }
+        ]
+      },
+      "ArticleTitle": "Semi-automatic tracking, smoothing and segmentation of hyoid bone motion from videofluoroscopic swallowing study.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0188684"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "Y",
+        "content": "Automation"
+      }},
+      {"DescriptorName": {
+        "UI": "D003679",
+        "MajorTopicYN": "Y",
+        "content": "Deglutition"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D005471",
+          "MajorTopicYN": "N",
+          "content": "Fluoroscopy"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "Y",
+            "content": "physiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D006928",
+          "MajorTopicYN": "N",
+          "content": "Hyoid Bone"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Oral Rehabil. 2015 May;42(5):331-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25488830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Radiol Phys Technol. 2011 Jan;4(1):73-7",
+        "PMID": {
+          "Version": 1,
+          "content": 20945118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Artif Intell Med. 2011 May;52(1):17-25",
+        "PMID": {
+          "Version": 1,
+          "content": 21549579
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2014 Jun;29(3):295-304",
+        "PMID": {
+          "Version": 1,
+          "content": 24562507
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2001 Spring;16(2):97-109",
+        "PMID": {
+          "Version": 1,
+          "content": 11305227
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurology. 2007 Jan 30;68(5):384-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17082464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lancet Neurol. 2003 Jan;2(1):43-53",
+        "PMID": {
+          "Version": 1,
+          "content": 12849300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2007 Jan;22(1):1-10",
+        "PMID": {
+          "Version": 1,
+          "content": 16718620
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2014;2014:738971",
+        "PMID": {
+          "Version": 1,
+          "content": 24779015
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Jul 1;46(3):726-38",
+        "PMID": {
+          "Version": 1,
+          "content": 19245840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Electromyogr Kinesiol. 2008 Apr;18(2):329-35",
+        "PMID": {
+          "Version": 1,
+          "content": 17187991
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Arch Otorhinolaryngol. 2017 Feb;274(2):597-606",
+        "PMID": {
+          "Version": 1,
+          "content": 27086361
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2011 Jun;26(2):171-82",
+        "PMID": {
+          "Version": 1,
+          "content": 21165750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Sep 01;11(9):e0162257",
+        "PMID": {
+          "Version": 1,
+          "content": 27583413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 2012 May;112(10 ):1698-705",
+        "PMID": {
+          "Version": 1,
+          "content": 22403349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2013 Dec;28(4):548-56",
+        "PMID": {
+          "Version": 1,
+          "content": 23605128
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2014 Apr;29(2):269-76",
+        "PMID": {
+          "Version": 1,
+          "content": 24445381
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Med. 2015 Oct;128(10):1138.e17-23",
+        "PMID": {
+          "Version": 1,
+          "content": 26007674
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Otolaryngol. 2011 Feb;36(1):30-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21414151
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2010 Dec;25(4):298-306",
+        "PMID": {
+          "Version": 1,
+          "content": 19856024
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2017 Jun;32(3):393-400",
+        "PMID": {
+          "Version": 1,
+          "content": 28013388
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2011 Jul;33(7):1415-28",
+        "PMID": {
+          "Version": 1,
+          "content": 20921581
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2004 Dec;51(12):2103-12",
+        "PMID": {
+          "Version": 1,
+          "content": 15605857
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dysphagia. 2011 Mar;26(1):41-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20058029
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Methods Programs Biomed. 2016 Oct;134:79-88",
+        "PMID": {
+          "Version": 1,
+          "content": 27480734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hippocampus. 2009 Jun;19(6):579-87",
+        "PMID": {
+          "Version": 1,
+          "content": 19437497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Laryngoscope. 2015 Feb;125(2):389-95",
+        "PMID": {
+          "Version": 1,
+          "content": 25093527
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Phys Med Rehabil. 2010 Jun;91(6):926-31",
+        "PMID": {
+          "Version": 1,
+          "content": 20510985
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29182687
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 29,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29182687,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0188684",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-00340",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5705154",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

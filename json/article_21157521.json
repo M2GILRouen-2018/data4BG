@@ -1,0 +1,439 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2015,
+      "Day": "06"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "6535-66"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": "09"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Building upon the findings from the field of automated recognition of respiratory sound patterns, we propose a wearable wireless sensor implementing on-board respiratory sound acquisition and classification, to enable continuous monitoring of symptoms, such as asthmatic wheezing. Low-power consumption of such a sensor is required in order to achieve long autonomy. Considering that the power consumption of its radio is kept minimal if transmitting only upon (rare) occurrences of wheezing, we focus on optimizing the power consumption of the digital signal processor (DSP). Based on a comprehensive review of asthmatic wheeze detection algorithms, we analyze the computational complexity of common features drawn from short-time Fourier transform (STFT) and decision tree classification. Four algorithms were implemented on a low-power TMS320C5505 DSP. Their classification accuracies were evaluated on a dataset of prerecorded respiratory sounds in two operating scenarios of different detection fidelities. The execution times of all algorithms were measured. The best classification accuracy of over 92%, while occupying only 2.6% of the DSP's processing time, is obtained for the algorithm featuring the time-frequency tracking of shapes of crests originating from wheezing, with spectral features modeled using energy."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dinko",
+            "LastName": "Oletic",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Faculty of Electrical Engineering and Computing, University of Zagreb, Unska 3, 10000 Zagreb,Croatia. dinko.oletic@fer.hr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bruno",
+            "LastName": "Arsenali",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Faculty of Electrical Engineering and Computing, University of Zagreb, Unska 3, 10000 Zagreb,Croatia. barsenal@umcutrecht.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vedran",
+            "LastName": "Bilas",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "Faculty of Electrical Engineering and Computing, University of Zagreb, Unska 3, 10000 Zagreb,Croatia. vedran.bilas@fer.hr."}
+          }
+        ]
+      },
+      "ArticleTitle": "Low-power wearable respiratory sound sensing.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3390/s140406535"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 14,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2014,
+            "Day": "09"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "04",
+      "Year": 2014,
+      "Day": 11
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000162",
+        "MajorTopicYN": "N",
+        "content": "Acoustics"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "N",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D001249",
+          "MajorTopicYN": "N",
+          "content": "Asthma"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003663",
+        "MajorTopicYN": "N",
+        "content": "Decision Trees"
+      }},
+      {"DescriptorName": {
+        "UI": "D011211",
+        "MajorTopicYN": "Y",
+        "content": "Electric Power Supplies"
+      }},
+      {"DescriptorName": {
+        "UI": "D005583",
+        "MajorTopicYN": "N",
+        "content": "Fourier Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D012372",
+        "MajorTopicYN": "N",
+        "content": "ROC Curve"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D012135",
+          "MajorTopicYN": "N",
+          "content": "Respiratory Sounds"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012815",
+        "MajorTopicYN": "N",
+        "content": "Signal Processing, Computer-Assisted"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000295",
+          "MajorTopicYN": "Y",
+          "content": "instrumentation"
+        },
+        "DescriptorName": {
+          "UI": "D013686",
+          "MajorTopicYN": "N",
+          "content": "Telemetry"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D013997",
+        "MajorTopicYN": "N",
+        "content": "Time Factors"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2007 Aug;37(8):1073-83",
+        "PMID": {
+          "Version": 1,
+          "content": 17113064
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2004 Jan;51(1):182-6",
+        "PMID": {
+          "Version": 1,
+          "content": 14723508
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2012;12 (6):7917-37",
+        "PMID": {
+          "Version": 1,
+          "content": 22969379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 1993 Nov;104(5):1518-25",
+        "PMID": {
+          "Version": 1,
+          "content": 8222817
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2009 Sep;39(9):824-43",
+        "PMID": {
+          "Version": 1,
+          "content": 19631934
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2010;10(12):10837-62",
+        "PMID": {
+          "Version": 1,
+          "content": 22163501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 1992 Feb;72(2):629-35",
+        "PMID": {
+          "Version": 1,
+          "content": 1559941
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2011;11(7):6799-815",
+        "PMID": {
+          "Version": 1,
+          "content": 22163986
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Braz J Med Biol Res. 2009 Jul;42(7):674-84",
+        "PMID": {
+          "Version": 1,
+          "content": 19578648
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Inst Mech Eng H. 2005 May;219(3):219-27",
+        "PMID": {
+          "Version": 1,
+          "content": 15934398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Respir Crit Care Med. 1997 Sep;156(3 Pt 1):974-87",
+        "PMID": {
+          "Version": 1,
+          "content": 9310022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Prim Care Respir J. 2009 Mar;18(1):10-4",
+        "PMID": {
+          "Version": 1,
+          "content": 19172211
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Asthma. 2010 Apr;47(3):290-4",
+        "PMID": {
+          "Version": 1,
+          "content": 20394513
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Technol Health Care. 1998 Jun;6(1):33-40",
+        "PMID": {
+          "Version": 1,
+          "content": 9754682
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Respir J. 2003 Apr;21(4):621-6",
+        "PMID": {
+          "Version": 1,
+          "content": 12762346
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Appl Physiol (1985). 2006 Aug;101(2):469-76",
+        "PMID": {
+          "Version": 1,
+          "content": 16627681
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2011;11(6):5561-95",
+        "PMID": {
+          "Version": 1,
+          "content": 22163914
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2008;2008:1890-3",
+        "PMID": {
+          "Version": 1,
+          "content": 19163058
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2008 Mar;133(3):729-36",
+        "PMID": {
+          "Version": 1,
+          "content": 18198265
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Respir Med. 2011 Sep;105(9):1396-403",
+        "PMID": {
+          "Version": 1,
+          "content": 21676606
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Proc IEEE Eng Med Biol Soc. 2009;2009:2617-20",
+        "PMID": {
+          "Version": 1,
+          "content": 19965225
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Med Circ Respirat Pulm Med. 2008 May 16;2:45-58",
+        "PMID": {
+          "Version": 1,
+          "content": 21157521
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4029681"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 24721769
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2013,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2014,
+        "Day": 19,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "03",
+        "Year": 2014,
+        "Day": 30,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 4,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 4,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24721769,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s140406535",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s140406535",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC4029681",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

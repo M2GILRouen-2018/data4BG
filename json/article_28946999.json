@@ -1,0 +1,237 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "171-177"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVES",
+            "content": "We introduce the R-package GenomicTools to perform, among others, a Multifactor Dimensionality Reduction (MDR) for the identification of SNP-SNP interactions. The package further provides a new class of tests for an (exploratory) Quantitative Trait Loci analysis that overcomes some of the limitations of other popular (e)QTL approaches. Popular (e)QTL approaches that use linear models or ANOVA are often based on over-simplified models that have weak statistical properties and which are not robust against outlying observations."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHOD",
+            "content": "The algorithm to calculate the MDR is well established. To speed up its calculation in R, we implemented it in C++. Further, our implementation also supports the combination of several MDR results to an MDR ensemble classifier. The (e)QTL test procedure is based on a generalized Mann-Whitney test that is tailored for directional alternatives, as they are present in an (e)QTL analysis."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Our package GenomicTools provides functions to determine SNP combinations that have the highest accuracy for a MDR classification problem. It also provides functions to combine the best MDR results to a joined ensemble classifier for improved classification results. Further, the (e)QTL analysis is based on a solid statistical theory. In addition, informative visualizations of the results are provided."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The here presented new class of tests and methods have an easy to apply syntax, so that also researchers inexperienced in R are able to apply our proposed methods and implementations. The package creates publication ready Figures and hence could be a valuable tool for genomic data analysis."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "ForeName": "Daniel",
+          "LastName": "Fischer",
+          "Initials": "D",
+          "AffiliationInfo": {"Affiliation": "Natural Resources Institute Finland (Luke), Myllytie 1, Jokioinen, Finland; University of Tampere, School of Health Sciences, Tampere, Finland. Electronic address: http://genomictools.danielfischer.name."}
+        }
+      },
+      "ArticleTitle": "The R-package GenomicTools for multifactor dimensionality reduction and the analysis of (exploratory) Quantitative Trait Loci.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30854-9"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.08.012"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 151,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "MDR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "QTL"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "R-package"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "eQTL"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "Y",
+        "content": "Computational Biology"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D023281",
+          "MajorTopicYN": "N",
+          "content": "Genomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008957",
+        "MajorTopicYN": "N",
+        "content": "Models, Genetic"
+      }},
+      {"DescriptorName": {
+        "UI": "D058011",
+        "MajorTopicYN": "Y",
+        "content": "Multifactor Dimensionality Reduction"
+      }},
+      {"DescriptorName": {
+        "UI": "D020641",
+        "MajorTopicYN": "N",
+        "content": "Polymorphism, Single Nucleotide"
+      }},
+      {"DescriptorName": {
+        "UI": "D040641",
+        "MajorTopicYN": "Y",
+        "content": "Quantitative Trait Loci"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28946999
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28946999,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30854-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.08.012",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

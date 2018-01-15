@@ -1,0 +1,1200 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101284307,
+      "Country": "England",
+      "ISSNLinking": "1750-2799",
+      "MedlineTA": "Nat Protoc"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 12
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2590-2622"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Our understanding of endocytic pathway dynamics is restricted by the diffraction limit of light microscopy. Although super-resolution techniques can overcome this issue, highly crowded cellular environments, such as nerve terminals, can also dramatically limit the tracking of multiple endocytic vesicles such as synaptic vesicles (SVs), which in turn restricts the analytical dissection of their discrete diffusional and transport states. We recently introduced a pulse-chase technique for subdiffractional tracking of internalized molecules (sdTIM) that allows the visualization of fluorescently tagged molecules trapped in individual signaling endosomes and SVs in presynapses or axons with 30- to 50-nm localization precision. We originally developed this approach for tracking single molecules of botulinum neurotoxin type A, which undergoes activity-dependent internalization and retrograde transport in autophagosomes. This method was then adapted to localize the signaling endosomes containing cholera toxin subunit-B that undergo retrograde transport in axons and to track SVs in the crowded environment of hippocampal presynapses. We describe (i) the construction of a custom-made microfluidic device that enables control over neuronal orientation; (ii) the 3D printing of a perfusion system for sdTIM experiments performed on glass-bottom dishes; (iii) the dissection, culturing and transfection of hippocampal neurons in microfluidic devices; and (iv) guidance on how to perform the pulse-chase experiments and data analysis. In addition, we describe the use of single-molecule-tracking analytical tools to reveal the average and the heterogeneous single-molecule mobility behaviors. We also discuss alternative reagents and equipment that can, in principle, be used for sdTIM experiments and describe how to adapt sdTIM to image nanocluster formation and/or tubulation in early endosomes during sorting events. The procedures described in this protocol take ∼1 week."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-4533-0455"
+            },
+            "ForeName": "Merja",
+            "LastName": "Joensuu",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Clem Jones Centre for Ageing Dementia Research, The University of Queensland, Brisbane, Queensland, Australia."},
+              {"Affiliation": "Queensland Brain Institute, The University of Queensland, Brisbane, Queensland, Australia."},
+              {"Affiliation": "Minerva Foundation Institute for Medical Research, Helsinki, Finland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-0929-8627"
+            },
+            "ForeName": "Ramon",
+            "LastName": "Martínez-Mármol",
+            "Initials": "R",
+            "AffiliationInfo": [
+              {"Affiliation": "Clem Jones Centre for Ageing Dementia Research, The University of Queensland, Brisbane, Queensland, Australia."},
+              {"Affiliation": "Queensland Brain Institute, The University of Queensland, Brisbane, Queensland, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-5569-8731"
+            },
+            "ForeName": "Pranesh",
+            "LastName": "Padmanabhan",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Queensland Brain Institute, The University of Queensland, Brisbane, Queensland, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nick R",
+            "LastName": "Glass",
+            "Initials": "NR",
+            "AffiliationInfo": {"Affiliation": "Australian Institute for Bioengineering and Nanotechnology, The University of Queensland, Brisbane, Queensland, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7668-1039"
+            },
+            "ForeName": "Nela",
+            "LastName": "Durisic",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Queensland Brain Institute, The University of Queensland, Brisbane, Queensland, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew",
+            "LastName": "Pelekanos",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Clem Jones Centre for Ageing Dementia Research, The University of Queensland, Brisbane, Queensland, Australia."},
+              {"Affiliation": "Queensland Brain Institute, The University of Queensland, Brisbane, Queensland, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8648-5413"
+            },
+            "ForeName": "Mahdie",
+            "LastName": "Mollazade",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "Clem Jones Centre for Ageing Dementia Research, The University of Queensland, Brisbane, Queensland, Australia."},
+              {"Affiliation": "Queensland Brain Institute, The University of Queensland, Brisbane, Queensland, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-3585-559X"
+            },
+            "ForeName": "Giuseppe",
+            "LastName": "Balistreri",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Division of General Microbiology, Department of Biosciences, University of Helsinki, Helsinki, Finland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rumelo",
+            "LastName": "Amor",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Queensland Brain Institute, The University of Queensland, Brisbane, Queensland, Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-1920-8229"
+            },
+            "ForeName": "Justin J",
+            "LastName": "Cooper-White",
+            "Initials": "JJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Australian Institute for Bioengineering and Nanotechnology, The University of Queensland, Brisbane, Queensland, Australia."},
+              {"Affiliation": "Division of General Microbiology, Department of Biosciences, University of Helsinki, Helsinki, Finland."},
+              {"Affiliation": "School of Chemical Engineering, The University of Queensland, Brisbane, Queensland, Australia."},
+              {"Affiliation": "Materials Science and Engineering Division, CSIRO, Clayton, Victoria, Australia."},
+              {"Affiliation": "UQ Centre for Stem Cell Ageing and Regenerative Engineering, The University of Queensland, Brisbane, Queensland, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9789-9355"
+            },
+            "ForeName": "Geoffrey J",
+            "LastName": "Goodhill",
+            "Initials": "GJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Queensland Brain Institute, The University of Queensland, Brisbane, Queensland, Australia."},
+              {"Affiliation": "School of Mathematics and Physics, The University of Queensland, Brisbane, Queensland, Australia."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-6400-1107"
+            },
+            "ForeName": "Frédéric A",
+            "LastName": "Meunier",
+            "Initials": "FA",
+            "AffiliationInfo": [
+              {"Affiliation": "Clem Jones Centre for Ageing Dementia Research, The University of Queensland, Brisbane, Queensland, Australia."},
+              {"Affiliation": "Queensland Brain Institute, The University of Queensland, Brisbane, Queensland, Australia."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Visualizing endocytic recycling and trafficking in live neurons by subdiffractional tracking of internalized molecules.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1038/nprot.2017.116"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 12,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Nat Protoc",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1750-2799"
+        },
+        "Title": "Nature protocols"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D018929",
+          "MajorTopicYN": "N",
+          "content": "Cell Culture Techniques"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D002470",
+        "MajorTopicYN": "N",
+        "content": "Cell Survival"
+      }},
+      {"DescriptorName": {
+        "UI": "D002478",
+        "MajorTopicYN": "N",
+        "content": "Cells, Cultured"
+      }},
+      {"DescriptorName": {
+        "UI": "D004705",
+        "MajorTopicYN": "Y",
+        "content": "Endocytosis"
+      }},
+      {"DescriptorName": {
+        "UI": "D004867",
+        "MajorTopicYN": "N",
+        "content": "Equipment Design"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000166",
+          "MajorTopicYN": "N",
+          "content": "cytology"
+        },
+        "DescriptorName": {
+          "UI": "D006624",
+          "MajorTopicYN": "N",
+          "content": "Hippocampus"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D056656",
+        "MajorTopicYN": "Y",
+        "content": "Lab-On-A-Chip Devices"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000166",
+          "MajorTopicYN": "Y",
+          "content": "cytology"
+        },
+        "DescriptorName": {
+          "UI": "D009474",
+          "MajorTopicYN": "N",
+          "content": "Neurons"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D061848",
+          "MajorTopicYN": "N",
+          "content": "Optical Imaging"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "N",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D010477",
+          "MajorTopicYN": "N",
+          "content": "Perfusion"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D066330",
+        "MajorTopicYN": "N",
+        "content": "Printing, Three-Dimensional"
+      }},
+      {"DescriptorName": {
+        "UI": "D051381",
+        "MajorTopicYN": "N",
+        "content": "Rats"
+      }},
+      {"DescriptorName": {
+        "UI": "D017207",
+        "MajorTopicYN": "N",
+        "content": "Rats, Sprague-Dawley"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "N",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D014162",
+          "MajorTopicYN": "N",
+          "content": "Transfection"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2008 Feb;5(2):155-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18193054
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Aug 21;104(34):13666-71",
+        "PMID": {
+          "Version": 1,
+          "content": 17698956
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2016 Feb 12;11(2):e0149457",
+        "PMID": {
+          "Version": 1,
+          "content": 26871701
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Jul 04;6:29132",
+        "PMID": {
+          "Version": 1,
+          "content": 27374400
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2008 Apr 11;320(5873):246-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18292304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 2017 May 15;36(10 ):1392-1411",
+        "PMID": {
+          "Version": 1,
+          "content": 28331029
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2011 Aug 11;71(3):474-87",
+        "PMID": {
+          "Version": 1,
+          "content": 21835344
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cell Biol. 2010 Nov;20(11):650-61",
+        "PMID": {
+          "Version": 1,
+          "content": 20888769
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2011 Jun 12;14 (7):833-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21666673
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2012 Mar 11;15(5):738-45",
+        "PMID": {
+          "Version": 1,
+          "content": 22406549
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 Mar;11(3):281-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24441936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2006 Feb 24;124(4):715-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16497583
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2017 Jan 03;8:13660",
+        "PMID": {
+          "Version": 1,
+          "content": 28045048
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2013 Nov 20;80(4):934-46",
+        "PMID": {
+          "Version": 1,
+          "content": 24210904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2013 Aug 7;33(32):13204-24",
+        "PMID": {
+          "Version": 1,
+          "content": 23926273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biull Eksp Biol Med. 1985 Jan;99(1):35-8",
+        "PMID": {
+          "Version": 1,
+          "content": 2981577
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dev Neurobiol. 2012 Jan;72(1):134-44",
+        "PMID": {
+          "Version": 1,
+          "content": 21563316
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ACS Nano. 2014 Mar 25;8(3):1972-94",
+        "PMID": {
+          "Version": 1,
+          "content": 24559246
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Mar;10(3):265-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23396281
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Traffic. 2015 Aug;16(8):814-31",
+        "PMID": {
+          "Version": 1,
+          "content": 25869659
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Microsc. 2009 Oct;236(1):35-43",
+        "PMID": {
+          "Version": 1,
+          "content": 19772534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Cell Biol. 1989;31:553-69",
+        "PMID": {
+          "Version": 1,
+          "content": 2674632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biophotonics. 2008 Sep;1(4):287-98",
+        "PMID": {
+          "Version": 1,
+          "content": 19343652
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2015 May;16(5):311-21",
+        "PMID": {
+          "Version": 1,
+          "content": 25857812
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Biol. 2016 Oct 24;215(2):277-292",
+        "PMID": {
+          "Version": 1,
+          "content": 27810917
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Elife. 2017 Apr 22;6:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28432787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lab Chip. 2010 Oct 7;10(19):2566-73",
+        "PMID": {
+          "Version": 1,
+          "content": 20623041
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Microbiol. 2013 Oct;21(10):522-33",
+        "PMID": {
+          "Version": 1,
+          "content": 23916730
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2015 Feb 18;85(4):787-803",
+        "PMID": {
+          "Version": 1,
+          "content": 25661182
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2005 Nov;89(5):3615-27",
+        "PMID": {
+          "Version": 1,
+          "content": 16113110
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2005 Feb 17;45(4):563-73",
+        "PMID": {
+          "Version": 1,
+          "content": 15721242
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ther. 2011 Jul;19(7):1199-211",
+        "PMID": {
+          "Version": 1,
+          "content": 21654634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Jan 25;6:19654",
+        "PMID": {
+          "Version": 1,
+          "content": 26805017
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2009 Sep;10(9):609-22",
+        "PMID": {
+          "Version": 1,
+          "content": 19696798
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Reprod Dev. 2015 Jul-Aug;82(7-8):518-29",
+        "PMID": {
+          "Version": 1,
+          "content": 26153368
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2008 Dec;9(12):929-43",
+        "PMID": {
+          "Version": 1,
+          "content": 19002208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2005 Nov 23;25(47):11034-44",
+        "PMID": {
+          "Version": 1,
+          "content": 16306416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2004 Mar 26;303(5666):2037-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15044806
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2017 Apr 5;94(1):65-73.e3",
+        "PMID": {
+          "Version": 1,
+          "content": 28343869
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Opt Express. 2016 Dec 26;24(26):29556-29567",
+        "PMID": {
+          "Version": 1,
+          "content": 28059342
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Microbiol. 2007 Mar;5(3):197-208",
+        "PMID": {
+          "Version": 1,
+          "content": 17304249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1998 Jul 9;394(6689):192-5",
+        "PMID": {
+          "Version": 1,
+          "content": 9671304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2008 Feb;5(2):159-61",
+        "PMID": {
+          "Version": 1,
+          "content": 18176568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2011 Sep 28;31(39):14032-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21957264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2010 Jul 21;99(2):675-84",
+        "PMID": {
+          "Version": 1,
+          "content": 20643088
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Sci. 2013 Mar 15;126(Pt 6):1289-95",
+        "PMID": {
+          "Version": 1,
+          "content": 23641066
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 Feb;11(2):156-62",
+        "PMID": {
+          "Version": 1,
+          "content": 24390439
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2016 Aug 12;7:12471",
+        "PMID": {
+          "Version": 1,
+          "content": 27514992
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cold Spring Harb Perspect Biol. 2014 Feb 01;6(2):null",
+        "PMID": {
+          "Version": 1,
+          "content": 24492712
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 2011 Oct 14;286(41):35966-76",
+        "PMID": {
+          "Version": 1,
+          "content": 21832053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2010 Nov 24;143(5):761-73",
+        "PMID": {
+          "Version": 1,
+          "content": 21111236
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Virol. 2013 Feb;3(1):34-43",
+        "PMID": {
+          "Version": 1,
+          "content": 23395264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Soc Trans. 2015 Feb;43(1):33-47",
+        "PMID": {
+          "Version": 1,
+          "content": 25619244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Mol Med. 2015 Sep;21(9):560-70",
+        "PMID": {
+          "Version": 1,
+          "content": 26186888
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2015 Apr 15;35(15):6179-94",
+        "PMID": {
+          "Version": 1,
+          "content": 25878289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2010 Jan 27;30(4):1363-76",
+        "PMID": {
+          "Version": 1,
+          "content": 20107062
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Biochem. 2009;78:857-902",
+        "PMID": {
+          "Version": 1,
+          "content": 19317650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Opt Express. 2012 Jan 30;20(3):2081-95",
+        "PMID": {
+          "Version": 1,
+          "content": 22330449
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(5):e38045",
+        "PMID": {
+          "Version": 1,
+          "content": 22666444
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Nov;10(11):1122-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24097271
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Chem Biol. 2014 Jun;20:22-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24793374
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2012 Jun 28;9(7):676-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22743772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2009 Sep;10(9):597-608",
+        "PMID": {
+          "Version": 1,
+          "content": 19696797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Opt Express. 2015 Jun 1;23(11):15003-11",
+        "PMID": {
+          "Version": 1,
+          "content": 26072856
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2008 Jul;9(7):574-82",
+        "PMID": {
+          "Version": 1,
+          "content": 18523436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2015 Jan 22;6:5980",
+        "PMID": {
+          "Version": 1,
+          "content": 25609143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Neurobiol. 2016 Aug;39:139-45",
+        "PMID": {
+          "Version": 1,
+          "content": 27327126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Biol. 2011 Dec 26;195(7):1071-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22123832
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2016 Sep 08;34(9):933-941",
+        "PMID": {
+          "Version": 1,
+          "content": 27606440
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Virol. 2015 Nov;2(1):497-524",
+        "PMID": {
+          "Version": 1,
+          "content": 26958926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cell Biol. 2013 Feb;23(2):90-101",
+        "PMID": {
+          "Version": 1,
+          "content": 23164733
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2017 Feb 15;115:80-90",
+        "PMID": {
+          "Version": 1,
+          "content": 27713081
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Mol Biol. 2013;950:95-110",
+        "PMID": {
+          "Version": 1,
+          "content": 23086872
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2015 Sep 24;6:8392",
+        "PMID": {
+          "Version": 1,
+          "content": 26399746
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Opt Express. 2014 Mar 24;22(6):7028-39",
+        "PMID": {
+          "Version": 1,
+          "content": 24664051
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Mar 3;106(9):2995-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19211795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2014 May 30;344(6187):1023-8",
+        "PMID": {
+          "Version": 1,
+          "content": 24876496
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biophys J. 2010 Aug 9;99(4):1303-10",
+        "PMID": {
+          "Version": 1,
+          "content": 20713016
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Apr 30;8(4):e62918",
+        "PMID": {
+          "Version": 1,
+          "content": 23646160
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 Aug 28;349(6251):aab3500",
+        "PMID": {
+          "Version": 1,
+          "content": 26315442
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Sep;12(9):838-40",
+        "PMID": {
+          "Version": 1,
+          "content": 26192083
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Nov 06;8(12):1027-36",
+        "PMID": {
+          "Version": 1,
+          "content": 22056676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Drug Discov. 2017 May;16(5):315-337",
+        "PMID": {
+          "Version": 1,
+          "content": 28303026
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2008 Feb 8;319(5864):810-3",
+        "PMID": {
+          "Version": 1,
+          "content": 18174397
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biochem. 2016 Aug;160(2):77-85",
+        "PMID": {
+          "Version": 1,
+          "content": 27318359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Host Microbe. 2013 Apr 17;13(4):379-93",
+        "PMID": {
+          "Version": 1,
+          "content": 23601101
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Viruses. 2014 Mar 19;6(3):1365-78",
+        "PMID": {
+          "Version": 1,
+          "content": 24651030
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2010 Jul;11(7):466",
+        "PMID": {
+          "Version": 1,
+          "content": 20571585
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Cell Biol. 2000 Apr;2(4):197-204",
+        "PMID": {
+          "Version": 1,
+          "content": 10783237
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2009 Jun;12(6):751-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19430474
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2016 Sep 30;7:12976",
+        "PMID": {
+          "Version": 1,
+          "content": 27687129
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2016 Jan 21;529(7586):408-12",
+        "PMID": {
+          "Version": 1,
+          "content": 26760201
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Cell. 2015 May 1;26(9):1743-51",
+        "PMID": {
+          "Version": 1,
+          "content": 25717185
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Mol Cell Biol. 2006 Dec;7(12):897-908",
+        "PMID": {
+          "Version": 1,
+          "content": 17139330
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbes Infect. 2017 Mar;19(3):157-165",
+        "PMID": {
+          "Version": 1,
+          "content": 27884799
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Traffic. 2012 Jan;13(1):94-107",
+        "PMID": {
+          "Version": 1,
+          "content": 21973056
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2017 Apr;12 (4):748-763",
+        "PMID": {
+          "Version": 1,
+          "content": 28277548
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans R Soc Lond B Biol Sci. 1999 Feb 28;354(1381):259-68",
+        "PMID": {
+          "Version": 1,
+          "content": 10212474
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur Phys J C Part Fields. 2015;75(10):466",
+        "PMID": {
+          "Version": 1,
+          "content": 26457062
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29189775
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29189775,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "nprot.2017.116",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1038/nprot.2017.116",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,188 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 17
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A precise GNSS (Global Navigation Satellite System) localization is vital for autonomous road vehicles, especially in cluttered or urban environments where satellites are occluded, preventing accurate positioning. We propose to fuse GPS (Global Positioning System) data with fisheye stereovision to face this problem independently to additional data, possibly outdated, unavailable, and needing correlation with reality. Our stereoscope is sky-facing with 360° × 180° fisheye cameras to observe surrounding obstacles. We propose a 3D modelling and plane extraction through following steps: stereoscope self-calibration for decalibration robustness, stereo matching considering neighbours epipolar curves to compute 3D, and robust plane fitting based on generated cartography and Hough transform. We use these 3D data with GPS raw data to estimate NLOS (Non Line Of Sight) reflected signals pseudorange delay. We exploit extracted planes to build a visibility mask for NLOS detection. A simplified 3D canyon model allows to compute reflections pseudorange delays. In the end, GPS positioning is computed considering corrected pseudoranges. With experimentations on real fixed scenes, we show generated 3D models reaching metric accuracy and improvement of horizontal GPS positioning accuracy by more than 50%. The proposed procedure is effective, and the proposed NLOS detection outperforms CN0-based methods (Carrier-to-receiver Noise density)."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Julien",
+            "LastName": "Moreau",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "UTBM IRTES-SET, Rue Ernest Thierry Mieg, 90010 Belfort CEDEX, France. julien.moreau@ifsttar.fr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sébastien",
+            "LastName": "Ambellouis",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "IFSTTAR-COSYS-LEOST, 20 rue Élysée Reclus, BP 70317 59666 Villeneuve d'Ascq CEDEX, France. sebastien.ambellouis@ifsttar.fr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yassine",
+            "LastName": "Ruichek",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "UTBM IRTES-SET, Rue Ernest Thierry Mieg, 90010 Belfort CEDEX, France. yassine.ruichek@utbm.fr."}
+          }
+        ]
+      },
+      "ArticleTitle": "Fisheye-Based Method for GPS Localization Improvement in Unknown Semi-Obstructed Areas.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E119"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17010119"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 17
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "3D point cloud"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "GPS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "fisheye stereovision"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "vehicle positioning"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": {
+      "RefType": "Cites",
+      "RefSource": "Sensors (Basel). 2015 Jul 17;15(7):17329-49",
+      "PMID": {
+        "Version": 1,
+        "content": 26193278
+      }
+    }},
+    "PMID": {
+      "Version": 1,
+      "content": 28106746
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 27,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28106746,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17010119",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17010119",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5298692",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

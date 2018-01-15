@@ -1,0 +1,718 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101603425,
+      "Country": "United States",
+      "MedlineTA": "PeerJ"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare there are no competing interests.",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e3817"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Viral metagenomics (viromics) is increasingly used to obtain uncultivated viral genomes, evaluate community diversity, and assess ecological hypotheses. While viromic experimental methods are relatively mature and widely accepted by the research community, robust bioinformatics standards remain to be established. Here we used in silico mock viral communities to evaluate the viromic sequence-to-ecological-inference pipeline, including (i) read pre-processing and metagenome assembly, (ii) thresholds applied to estimate viral relative abundances based on read mapping to assembled contigs, and (iii) normalization methods applied to the matrix of viral relative abundances for alpha and beta diversity estimates."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Tools specifically designed for metagenomes, specifically metaSPAdes, MEGAHIT, and IDBA-UD, were the most effective at assembling viromes. Read pre-processing, such as partitioning, had virtually no impact on assembly output, but may be useful when hardware is limited. Viral populations with 2-5 × coverage typically assembled well, whereas lesser coverage led to fragmented assembly. Strain heterogeneity within populations hampered assembly, especially when strains were closely related (average nucleotide identity, or ANI ≥97%) and when the most abundant strain represented <50% of the population. Viral community composition assessments based on read recruitment were generally accurate when the following thresholds for detection were applied: (i) ≥10 kb contig lengths to define populations, (ii) coverage defined from reads mapping at ≥90% identity, and (iii) ≥75% of contig length with ≥1 × coverage. Finally, although data are limited to the most abundant viruses in a community, alpha and beta diversity patterns were robustly estimated (±10%) when comparing samples of similar sequencing depth, but more divergent (up to 80%) when sequencing depth was uneven across the dataset. In the latter cases, the use of normalization methods specifically developed for metagenomes provided the best estimates."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "These simulations provide benchmarks for selecting analysis cut-offs and establish that an optimized sample-to-ecological-inference viromics pipeline is robust for making ecological inferences from natural viral communities. Continued development to better accessing RNA, rare, and/or diverse viral populations and improved reference viral genome availability will alleviate many of viromics remaining limitations."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Simon",
+            "LastName": "Roux",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Microbiology, Ohio State University, Columbus, OH, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joanne B",
+            "LastName": "Emerson",
+            "Initials": "JB",
+            "AffiliationInfo": {"Affiliation": "Department of Microbiology, Ohio State University, Columbus, OH, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emiley A",
+            "LastName": "Eloe-Fadrosh",
+            "Initials": "EA",
+            "AffiliationInfo": {"Affiliation": "Joint Genome Institute, Department of Energy, Walnut Creek, CA, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew B",
+            "LastName": "Sullivan",
+            "Initials": "MB",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Microbiology, Ohio State University, Columbus, OH, United States of America."},
+              {"Affiliation": "Department of Civil, Environmental and Geodetic Engineering, Ohio State University, Columbus, OH, United States of America."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Benchmarking viromics: an in silico evaluation of metagenome-enabled estimates of viral community composition and diversity.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.7717/peerj.3817"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 5,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "PeerJ",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "2167-8359"
+        },
+        "Title": "PeerJ"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Assembly"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Benchmarks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Metagenome"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Viral ecology"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Virome"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Virus"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Bioeng Biotechnol. 2015 Sep 17;3:141",
+        "PMID": {
+          "Version": 1,
+          "content": 26442255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISME J. 2013 Jun;7(6):1092-101",
+        "PMID": {
+          "Version": 1,
+          "content": 23407313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Microbiol. 2016 Jun;31:217-26",
+        "PMID": {
+          "Version": 1,
+          "content": 27196505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "F1000Res. 2015 Sep 25;4:900",
+        "PMID": {
+          "Version": 1,
+          "content": 26535114
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2017 Jun 23;8:15892",
+        "PMID": {
+          "Version": 1,
+          "content": 28643787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Jan 1;26(1):139-40",
+        "PMID": {
+          "Version": 1,
+          "content": 19910308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2017 Aug 8;35(8):725-731",
+        "PMID": {
+          "Version": 1,
+          "content": 28787424
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2016 Jun 1;102:3-11",
+        "PMID": {
+          "Version": 1,
+          "content": 27012178
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 Jan 18;12 (1):e0169662",
+        "PMID": {
+          "Version": 1,
+          "content": 28099457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Virol. 2016 Sep 29;3(1):197-214",
+        "PMID": {
+          "Version": 1,
+          "content": 27741409
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2011 Nov;77(21):7730-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21926220
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2013 Jan;14(1):56-66",
+        "PMID": {
+          "Version": 1,
+          "content": 22492192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2008 May 23;320(5879):1034-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18497287
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISME J. 2013 Mar;7(3):672-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23151645
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2014 Nov 18;15:989",
+        "PMID": {
+          "Version": 1,
+          "content": 25407630
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISME J. 2010 Jun;4(6):739-51",
+        "PMID": {
+          "Version": 1,
+          "content": 20147985
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2010;11(10):R106",
+        "PMID": {
+          "Version": 1,
+          "content": 20979621
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Nov 1;40(20):e155",
+        "PMID": {
+          "Version": 1,
+          "content": 22821567
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Jun 1;28(11):1420-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22495754
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Aug 30;102(35):12471-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16116082
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2011 Jul 1;333(6038):58-62",
+        "PMID": {
+          "Version": 1,
+          "content": 21719670
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 May 22;348(6237):1261498",
+        "PMID": {
+          "Version": 1,
+          "content": 25999515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Aug 1;30(15):2114-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24695404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Microbiol. 2014 Sep;16(9):2659-71",
+        "PMID": {
+          "Version": 1,
+          "content": 24102695
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Commun. 2014 Aug 14;5:4542",
+        "PMID": {
+          "Version": 1,
+          "content": 25119473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(2):e31386",
+        "PMID": {
+          "Version": 1,
+          "content": 22384016
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Microbiol. 2015 May 08;6:381",
+        "PMID": {
+          "Version": 1,
+          "content": 26005436
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "FEMS Microbiol Ecol. 2003 Feb 1;43(1):1-11",
+        "PMID": {
+          "Version": 1,
+          "content": 19719691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2017 Apr 13;18(1):296",
+        "PMID": {
+          "Version": 1,
+          "content": 28407798
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Microbiol. 2015 Mar;13(3):147-59",
+        "PMID": {
+          "Version": 1,
+          "content": 25639680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2012 Sep 28;337(6102):1661-5",
+        "PMID": {
+          "Version": 1,
+          "content": 23019650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2016 Nov 16;17 (1):930",
+        "PMID": {
+          "Version": 1,
+          "content": 27852226
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2015 Apr;25(4):534-43",
+        "PMID": {
+          "Version": 1,
+          "content": 25665577
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Microbiol. 2005 Jun;3(6):504-10",
+        "PMID": {
+          "Version": 1,
+          "content": 15886693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Mar 19;15:76",
+        "PMID": {
+          "Version": 1,
+          "content": 24646187
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Biol. 2015 Jan 20;13(1):e1002050",
+        "PMID": {
+          "Version": 1,
+          "content": 25602283
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Protoc Bioinformatics. 2003 Feb;Chapter 10:Unit 10.3",
+        "PMID": {
+          "Version": 1,
+          "content": 18428693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2016 Dec 8;4:e2777",
+        "PMID": {
+          "Version": 1,
+          "content": 28003936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISME J. 2015 Feb;9(2):472-84",
+        "PMID": {
+          "Version": 1,
+          "content": 25093636
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2017 Sep;24(9):874-881",
+        "PMID": {
+          "Version": 1,
+          "content": 28414526
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Microbiol. 2016 Nov;18(11):4240-4253",
+        "PMID": {
+          "Version": 1,
+          "content": 27696643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2014 Apr 03;10(4):e1003531",
+        "PMID": {
+          "Version": 1,
+          "content": 24699258
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Oct 04;8(10):e75448",
+        "PMID": {
+          "Version": 1,
+          "content": 24124490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Microbiol. 2013 Aug;15(8):2306-18",
+        "PMID": {
+          "Version": 1,
+          "content": 23489642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Microbiol. 2012 Aug;14(8):2171-83",
+        "PMID": {
+          "Version": 1,
+          "content": 22507260
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Microbiome. 2016 Mar 08;4:8",
+        "PMID": {
+          "Version": 1,
+          "content": 26951112
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Microbiol. 2013 Nov 15;13:259",
+        "PMID": {
+          "Version": 1,
+          "content": 24238386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2009 Dec;5(12):e1000593",
+        "PMID": {
+          "Version": 1,
+          "content": 20011103
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Appl Environ Microbiol. 2008 Jul;74(13):4164-74",
+        "PMID": {
+          "Version": 1,
+          "content": 18441115
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Microbiol. 2012 Sep;14(9):2526-37",
+        "PMID": {
+          "Version": 1,
+          "content": 22713159
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2013 Nov 07;14(11):R123",
+        "PMID": {
+          "Version": 1,
+          "content": 24200126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2013 Jan;23(1):111-20",
+        "PMID": {
+          "Version": 1,
+          "content": 22936250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Dec;10(12):1200-2",
+        "PMID": {
+          "Version": 1,
+          "content": 24076764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2014 Jan 18;15:37",
+        "PMID": {
+          "Version": 1,
+          "content": 24438450
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISME J. 2007 Aug;1(4):283-90",
+        "PMID": {
+          "Version": 1,
+          "content": 18043639
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Environ Microbiol. 2009 Nov;11(11):2893-903",
+        "PMID": {
+          "Version": 1,
+          "content": 19691502
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2015 Jul;25(7):1043-55",
+        "PMID": {
+          "Version": 1,
+          "content": 25977477
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(3):e33641",
+        "PMID": {
+          "Version": 1,
+          "content": 22432038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2007 Jun;4(6):495-500",
+        "PMID": {
+          "Version": 1,
+          "content": 17468765
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2017 May;27(5):824-834",
+        "PMID": {
+          "Version": 1,
+          "content": 28298430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Oct;30(19):2717-22",
+        "PMID": {
+          "Version": 1,
+          "content": 24947750
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ISME J. 2008 Sep;2(9):901-10",
+        "PMID": {
+          "Version": 1,
+          "content": 18528413
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2017 Jan 4;45(D1):D457-D465",
+        "PMID": {
+          "Version": 1,
+          "content": 27799466
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ecology. 2011 Apr;92(4):797-804",
+        "PMID": {
+          "Version": 1,
+          "content": 21661542
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PeerJ. 2017 May 3;5:e3243",
+        "PMID": {
+          "Version": 1,
+          "content": 28480138
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28948103
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28948103,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.7717/peerj.3817",
+        "IdType": "doi"
+      },
+      {
+        "content": 3817,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5610896",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

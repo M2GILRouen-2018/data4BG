@@ -1,0 +1,358 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100968545,
+      "Country": "England",
+      "ISSNLinking": "1471-2288",
+      "MedlineTA": "BMC Med Res Methodol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 154},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "National Research Foundation of Korea",
+            "Country": "United States",
+            "GrantID": "2009-0093815"
+          },
+          {
+            "Agency": "National Research Foundation of Korea",
+            "Country": "United States",
+            "GrantID": "2014R1A1A1006006"
+          },
+          {
+            "Agency": "Korea Health Industry Development Institute",
+            "Country": "Republic of Korea",
+            "GrantID": "HI17C0927"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Exploratory preclinical, as well as clinical trials, may involve a small number of patients, making it difficult to calculate and analyze the pharmacokinetic (PK) parameters, especially if the PK parameters show very high inter-individual variability (IIV). In this study, the performance of a classical first-order conditional estimation with interaction (FOCE-I) and expectation maximization (EM)-based Markov chain Monte Carlo Bayesian (BAYES) estimation methods were compared for estimating the population parameters and its distribution from data sets having a low number of subjects."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "In this study, 100 data sets were simulated with eight sampling points for each subject and with six different levels of IIV (5%, 10%, 20%, 30%, 50%, and 80%) in their PK parameter distribution. A stochastic simulation and estimation (SSE) study was performed to simultaneously simulate data sets and estimate the parameters using four different methods: FOCE-I only, BAYES(C) (FOCE-I and BAYES composite method), BAYES(F) (BAYES with all true initial parameters and fixed ω 2 ), and BAYES only. Relative root mean squared error (rRMSE) and relative estimation error (REE) were used to analyze the differences between true and estimated values. A case study was performed with a clinical data of theophylline available in NONMEM distribution media. NONMEM software assisted by Pirana, PsN, and Xpose was used to estimate population PK parameters, and R program was used to analyze and plot the results."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The rRMSE and REE values of all parameter (fixed effect and random effect) estimates showed that all four methods performed equally at the lower IIV levels, while the FOCE-I method performed better than other EM-based methods at higher IIV levels (greater than 30%). In general, estimates of random-effect parameters showed significant bias and imprecision, irrespective of the estimation method used and the level of IIV. Similar performance of the estimation methods was observed with theophylline dataset."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The classical FOCE-I method appeared to estimate the PK parameters more reliably than the BAYES method when using a simple model and data containing only a few subjects. EM-based estimation methods can be considered for adapting to the specific needs of a modeling project at later steps of modeling."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sudeep",
+            "LastName": "Pradhan",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "College of Pharmacy, Chungnam National University, Daejeon, 34134, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Byungjeong",
+            "LastName": "Song",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "College of Pharmacy, Chungnam National University, Daejeon, 34134, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jaeyeon",
+            "LastName": "Lee",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Academic Planning Department, Yonsung Fine Chemicals, Suwon, 16675, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jung-Woo",
+            "LastName": "Chae",
+            "Initials": "JW",
+            "AffiliationInfo": {"Affiliation": "Department of Pharmacy, Faculty of Science, National University of Singapore, Singapore, 117543, Singapore."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kyung Im",
+            "LastName": "Kim",
+            "Initials": "KI",
+            "AffiliationInfo": {"Affiliation": "College of Pharmacy, Korea University, Sejong, 30019, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hyun-Moon",
+            "LastName": "Back",
+            "Initials": "HM",
+            "AffiliationInfo": {"Affiliation": "College of Pharmacy, Chungnam National University, Daejeon, 34134, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nayoung",
+            "LastName": "Han",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "College of Pharmacy, Chungnam National University, Daejeon, 34134, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kwang-Il",
+            "LastName": "Kwon",
+            "Initials": "KI",
+            "AffiliationInfo": [
+              {"Affiliation": "College of Pharmacy, Chungnam National University, Daejeon, 34134, Republic of Korea. kwon@cnu.ac.kr."},
+              {"Affiliation": "College of Pharmacy, Chungnam National University, Daejeon, 305-764, South Korea. kwon@cnu.ac.kr."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hwi-Yeol",
+            "LastName": "Yun",
+            "Initials": "HY",
+            "AffiliationInfo": [
+              {"Affiliation": "College of Pharmacy, Chungnam National University, Daejeon, 34134, Republic of Korea. hyyun@cnu.ac.kr."},
+              {"Affiliation": "College of Pharmacy, Chungnam National University, Daejeon, 305-764, South Korea. hyyun@cnu.ac.kr."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Performance comparison of first-order conditional estimation with interaction and Bayesian estimation methods for estimating the population parameters and its distribution from data sets with a low number of subjects.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12874-017-0427-0"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017,
+            "Day": "01"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Med Res Methodol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2288"
+        },
+        "Title": "BMC medical research methodology"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Estimation methods"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Few subjects"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "First-order conditional estimation with interaction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Markov chain Monte Carlo Bayesian"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "NONMEM"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2009 Aug;36(4):367-79",
+        "PMID": {
+          "Version": 1,
+          "content": 19680795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2007 Oct;34(5):575-93",
+        "PMID": {
+          "Version": 1,
+          "content": 17620001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2016 Aug;43(4):359-70",
+        "PMID": {
+          "Version": 1,
+          "content": 27215925
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AAPS J. 2011 Mar;13(1):83-91",
+        "PMID": {
+          "Version": 1,
+          "content": 21229340
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2012 Feb;39(1):17-35",
+        "PMID": {
+          "Version": 1,
+          "content": 22101761
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "CPT Pharmacometrics Syst Pharmacol. 2013 Apr 17;2:e38",
+        "PMID": {
+          "Version": 1,
+          "content": 23887688
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AAPS J. 2007 Mar 02;9(1):E60-83",
+        "PMID": {
+          "Version": 1,
+          "content": 17408237
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AAPS J. 2012 Sep;14(3):420-32",
+        "PMID": {
+          "Version": 1,
+          "content": 22528503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2014 Jun;41(3):223-38",
+        "PMID": {
+          "Version": 1,
+          "content": 24801864
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Br J Clin Pharmacol. 2011 Jun;71(6):807-14",
+        "PMID": {
+          "Version": 1,
+          "content": 21204908
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "CPT Pharmacometrics Syst Pharmacol. 2013 Jun 26;2:e50",
+        "PMID": {
+          "Version": 1,
+          "content": 23836189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Pharmacokinet Pharmacodyn. 2009 Aug;36(4):353-66",
+        "PMID": {
+          "Version": 1,
+          "content": 19653080
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29191177
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29191177,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12874-017-0427-0",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12874-017-0427-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5709938",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

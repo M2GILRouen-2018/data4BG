@@ -1,0 +1,209 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401220",
+      "Country": "England",
+      "ISSNLinking": "0031-9155",
+      "MedlineTA": "Phys Med Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 12
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "4375-4389"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Near real-time application of Monte Carlo (MC) dose calculation in clinic and research is hindered by the long computational runtimes of established software. Currently, fast MC software solutions are available utilising accelerators such as graphical processing units (GPUs) or clusters based on central processing units (CPUs). Both platforms are expensive in terms of purchase costs and maintenance and, in case of the GPU, provide only limited scalability. In this work we propose a cloud-based MC solution, which offers high scalability of accurate photon dose calculations. The MC simulations run on a private virtual supercomputer that is formed in the cloud. Computational resources can be provisioned dynamically at low cost without upfront investment in expensive hardware. A client-server software solution has been developed which controls the simulations and transports data to and from the cloud efficiently and securely. The client application integrates seamlessly into a treatment planning system. It runs the MC simulation workflow automatically and securely exchanges simulation data with the server side application that controls the virtual supercomputer. Advanced encryption standards were used to add an additional security layer, which encrypts and decrypts patient data on-the-fly at the processor register level. We could show that our cloud-based MC framework enables near real-time dose computation. It delivers excellent linear scaling for high-resolution datasets with absolute runtimes of 1.1 seconds to 10.9\u2009seconds for simulating a clinical prostate and liver case up to 1% statistical uncertainty. The computation runtimes include the transportation of data to and from the cloud as well as process scheduling and synchronisation overhead. Cloud-based MC simulations offer a fast, affordable and easily accessible alternative for near real-time accurate dose calculations to currently used GPU or cluster solutions."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter",
+            "LastName": "Ziegenhein",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Joint Department of Physics at The Institute of Cancer Research and The Royal Marsden NHS Foundation Trust, London, SM2 5NG, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Igor N",
+            "LastName": "Kozin",
+            "Initials": "IN"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cornelis Ph",
+            "LastName": "Kamerling",
+            "Initials": "CP"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Uwe",
+            "LastName": "Oelfke",
+            "Initials": "U"
+          }
+        ]
+      },
+      "ArticleTitle": "Towards real-time photon Monte Carlo dose calculation in the cloud.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/1361-6560/aa5d4e"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 62,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017,
+            "Day": "07"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-6560"
+        },
+        "Title": "Physics in medicine and biology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000532",
+          "MajorTopicYN": "Y",
+          "content": "radiotherapy"
+        },
+        "DescriptorName": {
+          "UI": "D008113",
+          "MajorTopicYN": "N",
+          "content": "Liver Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "Y",
+        "content": "Monte Carlo Method"
+      }},
+      {"DescriptorName": {
+        "UI": "D017785",
+        "MajorTopicYN": "Y",
+        "content": "Photons"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000532",
+          "MajorTopicYN": "Y",
+          "content": "radiotherapy"
+        },
+        "DescriptorName": {
+          "UI": "D011471",
+          "MajorTopicYN": "N",
+          "content": "Prostatic Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011879",
+        "MajorTopicYN": "N",
+        "content": "Radiotherapy Dosage"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011880",
+          "MajorTopicYN": "N",
+          "content": "Radiotherapy Planning, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 12
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28141583
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28141583,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/1361-6560/aa5d4e",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

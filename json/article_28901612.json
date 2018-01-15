@@ -1,0 +1,183 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e138-e146"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "UNASSIGNED",
+            "Label": "PUPOSE",
+            "content": "In clinical computed tomography (CT), the image data is acquired during continuous rotation. If the time during which the signal is integrated (the frame time) is too long, the data is blurred in the view direction (i.e., azimuthal blur). This can be overcome by having a high angular sampling rate, but for systems with limited bandwidth, the increased amount of data can be a problem. In this paper, we evaluate the benefit of maintaining a high angular sampling rate on the CT gantry and performing a decimation (digital low-pass filtration followed by a downsampling) in the view direction before the bottleneck of the data transfer chain."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "A theoretical evaluation of the effects of the decimation is presented and the implementation of the digital filter is discussed. The compression scheme is evaluated on image data of a CATPHAN® 504 phantom and a human skull phantom."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "It is shown that digital decimation can be used to compress data before read-out with more remaining data fidelity compared to having longer frame times. Specifically, the method is shown to preserve the detail in the reconstruction of the CATPHAN resolution patterns and the human skull phantom. It is also demonstrated that the method can be used to prevent aliasing artifacts."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Decimation in the view direction is presented as an alternative to increasing the frame time for CT systems with limited bandwidth of the data read-out. The method can be used to either remove aliasing artifacts or preserve spatial resolution. The proposed compression scheme can be implemented on the CT gantry and thus reduce the bandwidth requirements on the data transfer."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Martin",
+            "LastName": "Sjölin",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Physics of Medical Imaging, KTH Royal Institute of Technology, Roslagstullsbacken 21, SE-106 91, Stockholm, Sweden."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mats",
+            "LastName": "Danielsson",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Physics of Medical Imaging, KTH Royal Institute of Technology, Roslagstullsbacken 21, SE-106 91, Stockholm, Sweden."}
+          }
+        ]
+      },
+      "ArticleTitle": "Compression of CT sinogram data by decimation in the view direction.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12181"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "FIR filter"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "compression"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "computed tomography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "decimation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "low-pass filter"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "sinogram"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28901612
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "04",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": "08",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28901612,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12181",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

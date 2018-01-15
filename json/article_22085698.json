@@ -1,0 +1,268 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101531992,
+      "Country": "England",
+      "MedlineTA": "J Biomed Semantics"
+    },
+    "Owner": "NLM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2012,
+      "Day": "02"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 2},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2012,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Rapid identification of subject experts for medical topics helps in improving the implementation of discoveries by speeding the time to market drugs and aiding in clinical trial recruitment, etc. Identifying such people who influence opinion through social network analysis is gaining prominence. In this work, we explore how to combine named entity recognition from unstructured news articles with social network analysis to discover opinion leaders for a given medical topic."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "We employed a Conditional Random Field algorithm to extract three categories of entities from health-related new articles: Person, Organization and Location. We used the latter two to disambiguate polysemy and synonymy for the person names, used simple rules to identify the subject experts, and then applied social network analysis techniques to discover the opinion leaders among them based on their media presence. A network was created by linking each pair of subject experts who are mentioned together in an article. The social network analysis metrics (including centrality metrics such as Betweenness, Closeness, Degree and Eigenvector) are used for ranking the subject experts based on their power in information flow."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We extracted 734,204 person mentions from 147,528 news articles related to obesity from January 1, 2007 through July 22, 2010. Of these, 147,879 mentions have been marked as subject experts. The F-score of extracting person names is 88.5%. More than 80% of the subject experts who rank among top 20 in at least one of the metrics could be considered as opinion leaders in obesity."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "The analysis of the network of subject experts with media presence revealed that an opinion leader might have fewer mentions in the news articles, but a high network centrality measure and vice-versa. Betweenness, Closeness and Degree centrality measures were shown to supplement frequency counts in the task of finding subject experts. Further, opinion leaders missed in scientific publication network analysis could be retrieved from news articles."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Siddhartha",
+            "LastName": "Jonnalagadda",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Lnx Research LLC, 750 The City Drive South #470, Orange, CA 92868, USA. sjonnalagadda@lnxresearch.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ryan",
+            "LastName": "Peeler",
+            "Initials": "R"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Philip",
+            "LastName": "Topham",
+            "Initials": "P"
+          }
+        ]
+      },
+      "ArticleTitle": "Discovering opinion leaders for medical topics using news articles.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/2041-1480-3-2"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 3,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2012,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Biomed Semantics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2041-1480"
+        },
+        "Title": "Journal of biomedical semantics"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "04",
+      "Year": 2012,
+      "Day": 30
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Pac Symp Biocomput. 2008;:652-63",
+        "PMID": {
+          "Version": 1,
+          "content": 18229723
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Discov Collab. 2010 Oct 04;5:50-75",
+        "PMID": {
+          "Version": 1,
+          "content": 20922666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2008 Nov-Dec;15(6):780-2",
+        "PMID": {
+          "Version": 1,
+          "content": 18756000
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cochrane Database Syst Rev. 2000;(2):CD000125",
+        "PMID": {
+          "Version": 1,
+          "content": 10796491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2007 Jul 26;357(4):370-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17652652
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 2003 Aug;32(4):634-6",
+        "PMID": {
+          "Version": 1,
+          "content": 12913042
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2009 Apr;42(2):390-405",
+        "PMID": {
+          "Version": 1,
+          "content": 19232399
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2009 Mar-Apr;16(2):247-55",
+        "PMID": {
+          "Version": 1,
+          "content": 19074302
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Health Educ Behav. 2007 Dec;34(6):881-96",
+        "PMID": {
+          "Version": 1,
+          "content": 17602096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2008 Nov 06;:870",
+        "PMID": {
+          "Version": 1,
+          "content": 18999104
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2012 Feb;45(1):129-40",
+        "PMID": {
+          "Version": 1,
+          "content": 22085698
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3338075"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 22420330
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2011,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2012,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 3,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 3,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2012,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 22420330,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "2041-1480-3-2",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/2041-1480-3-2",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3338075",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

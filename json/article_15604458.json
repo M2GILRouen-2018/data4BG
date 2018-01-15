@@ -1,0 +1,793 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors have declared that no competing interests exist.",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D010770",
+          "content": "Phosphotransferases"
+        },
+        "RegistryNumber": "EC 2.7.-"
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D010744",
+          "content": "Phosphoric Monoester Hydrolases"
+        },
+        "RegistryNumber": "EC 3.1.3.2"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005221"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Protein phosphorylation underlies cellular response pathways across eukaryotes and is governed by the opposing actions of phosphorylating kinases and de-phosphorylating phosphatases. While kinases and phosphatases have been extensively studied, their organization and the mechanisms by which they balance each other are not well understood. To address these questions we performed quantitative analyses of large-scale 'omics' datasets from yeast, fly, plant, mouse and human. We uncovered an asymmetric balance of a previously-hidden scale: Each organism contained many different kinase genes, and these were balanced by a small set of highly abundant phosphatase proteins. Kinases were much more responsive to perturbations at the gene and protein levels. In addition, kinases had diverse scales of phenotypic impact when manipulated. Phosphatases, in contrast, were stable, highly robust and flatly organized, with rather uniform impact downstream. We validated aspects of this organization experimentally in nematode, and supported additional aspects by theoretic analysis of the dynamics of protein phosphorylation. Our analyses explain the empirical bias in the protein phosphorylation field toward characterization and therapeutic targeting of kinases at the expense of phosphatases. We show quantitatively and broadly that this is not only a historical bias, but stems from wide-ranging differences in their organization and impact. The asymmetric balance between these opposing regulators of protein phosphorylation is also common to opposing regulators of two other post-translational modification systems, suggesting its fundamental value."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-5270-0266"
+            },
+            "ForeName": "Ilan",
+            "LastName": "Smoly",
+            "Initials": "I",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computer Science, Ben-Gurion University of the Negev, Beer-Sheva, Israel."},
+              {"Affiliation": "National Institute for Biotechnology in the Negev, Ben-Gurion University of the Negev, Beer-Sheva, Israel."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Netta",
+            "LastName": "Shemesh",
+            "Initials": "N",
+            "AffiliationInfo": [
+              {"Affiliation": "National Institute for Biotechnology in the Negev, Ben-Gurion University of the Negev, Beer-Sheva, Israel."},
+              {"Affiliation": "Department of Life Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michal",
+            "LastName": "Ziv-Ukelson",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Science, Ben-Gurion University of the Negev, Beer-Sheva, Israel."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Anat",
+            "LastName": "Ben-Zvi",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "National Institute for Biotechnology in the Negev, Ben-Gurion University of the Negev, Beer-Sheva, Israel."},
+              {"Affiliation": "Department of Life Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-8279-7898"
+            },
+            "ForeName": "Esti",
+            "LastName": "Yeger-Lotem",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "National Institute for Biotechnology in the Negev, Ben-Gurion University of the Negev, Beer-Sheva, Israel."},
+              {"Affiliation": "Department of Clinical Biochemistry and Pharmacology, Ben-Gurion University of the Negev, Beer-Sheva, Israel."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "An Asymmetrically Balanced Organization of Kinases versus Phosphatases across Eukaryotes Determines Their Distinct Impacts.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005221"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D017360",
+          "MajorTopicYN": "N",
+          "content": "Arabidopsis"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D004331",
+          "MajorTopicYN": "N",
+          "content": "Drosophila melanogaster"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D004789",
+          "MajorTopicYN": "N",
+          "content": "Enzyme Activation"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019143",
+        "MajorTopicYN": "Y",
+        "content": "Evolution, Molecular"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D015971",
+          "MajorTopicYN": "N",
+          "content": "Gene Expression Regulation, Enzymologic"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D014644",
+          "MajorTopicYN": "N",
+          "content": "Genetic Variation"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D051379",
+        "MajorTopicYN": "N",
+        "content": "Mice"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "N",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "Y",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D010744",
+          "MajorTopicYN": "N",
+          "content": "Phosphoric Monoester Hydrolases"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D010766",
+        "MajorTopicYN": "N",
+        "content": "Phosphorylation"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "N",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "Y",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "Y",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D010770",
+          "MajorTopicYN": "N",
+          "content": "Phosphotransferases"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D012441",
+          "MajorTopicYN": "N",
+          "content": "Saccharomyces cerevisiae"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D013045",
+        "MajorTopicYN": "N",
+        "content": "Species Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D015003",
+        "MajorTopicYN": "N",
+        "content": "Yeasts"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell. 2009 Mar 13;33(5):537-45",
+        "PMID": {
+          "Version": 1,
+          "content": 19285938
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D706-14",
+        "PMID": {
+          "Version": 1,
+          "content": 22127867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 Jan 27;7(1):e1001064",
+        "PMID": {
+          "Version": 1,
+          "content": 21298081
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2009 Sep 1;106(35):14914-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19706382
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cold Spring Harb Perspect Biol. 2014 May 01;6(5):a020644",
+        "PMID": {
+          "Version": 1,
+          "content": 24789824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jan;43(Database issue):D726-36",
+        "PMID": {
+          "Version": 1,
+          "content": 25348401
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Biochem Sci. 2002 Oct;27(10):514-20",
+        "PMID": {
+          "Version": 1,
+          "content": 12368087
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2009 Mar 6;136(5):952-63",
+        "PMID": {
+          "Version": 1,
+          "content": 19269370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 1995 Jan 27;80(2):225-36",
+        "PMID": {
+          "Version": 1,
+          "content": 7834742
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2012 Jul 17;8:599",
+        "PMID": {
+          "Version": 1,
+          "content": 22806145
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D789-93",
+        "PMID": {
+          "Version": 1,
+          "content": 24194605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D700-5",
+        "PMID": {
+          "Version": 1,
+          "content": 22110037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D1202-10",
+        "PMID": {
+          "Version": 1,
+          "content": 22140109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2003 Oct 16;425(6959):737-41",
+        "PMID": {
+          "Version": 1,
+          "content": 14562106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2003 Nov;13(11):2498-504",
+        "PMID": {
+          "Version": 1,
+          "content": 14597658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2008 Dec 30;105(52):21034-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19098097
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Signal. 2010 Nov 02;3(146):ra79",
+        "PMID": {
+          "Version": 1,
+          "content": 21045205
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2012 Aug;11(8):492-500",
+        "PMID": {
+          "Version": 1,
+          "content": 22535208
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2013 May;9(5):e1003484",
+        "PMID": {
+          "Version": 1,
+          "content": 23675308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 1999 Sep 17;274(38):26697-704",
+        "PMID": {
+          "Version": 1,
+          "content": 10480872
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2010 May 21;328(5981):1043-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20489023
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 1989 Dec 25;264(36):21435-8",
+        "PMID": {
+          "Version": 1,
+          "content": 2557326
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2010 Apr 13;107(15):6841-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20351254
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Cell Biol. 2003 Jun;5(6):545-51",
+        "PMID": {
+          "Version": 1,
+          "content": 12766774
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cold Spring Harb Perspect Biol. 2014 Oct 30;6(12):a022913",
+        "PMID": {
+          "Version": 1,
+          "content": 25359498
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Database (Oxford). 2011 Nov 13;2011:bar049",
+        "PMID": {
+          "Version": 1,
+          "content": 22083790
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 Aug 29;103(35):13004-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16916930
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2009;5:294",
+        "PMID": {
+          "Version": 1,
+          "content": 19690563
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2008 May 16;320(5878):938-41",
+        "PMID": {
+          "Version": 1,
+          "content": 18436743
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D841-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22121220
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Mol Biol. 2007;406:179-212",
+        "PMID": {
+          "Version": 1,
+          "content": 18287693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Biochem. 2001 Oct;268(19):5001-10",
+        "PMID": {
+          "Version": 1,
+          "content": 11589691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans R Soc Lond B Biol Sci. 2012 Sep 19;367(1602):2594-606",
+        "PMID": {
+          "Version": 1,
+          "content": 22889910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dev Cell. 2011 Jan 18;20(1):84-96",
+        "PMID": {
+          "Version": 1,
+          "content": 21238927
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2013 Dec 22;9:714",
+        "PMID": {
+          "Version": 1,
+          "content": 24366814
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biol Chem. 1955 Sep;216(1):121-32",
+        "PMID": {
+          "Version": 1,
+          "content": 13252012
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Rev. 2004 Jan;84(1):1-39",
+        "PMID": {
+          "Version": 1,
+          "content": 14715909
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2007 May;25(5):576-83",
+        "PMID": {
+          "Version": 1,
+          "content": 17450130
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2010 Dec 10;143(6):991-1004",
+        "PMID": {
+          "Version": 1,
+          "content": 21145464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2011 Jan;39(Database issue):D736-43",
+        "PMID": {
+          "Version": 1,
+          "content": 21036869
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jan;41(Database issue):D816-23",
+        "PMID": {
+          "Version": 1,
+          "content": 23203989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Jul 03;8(8):677-83",
+        "PMID": {
+          "Version": 1,
+          "content": 21725298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2007 Jan;35(Database issue):D472-5",
+        "PMID": {
+          "Version": 1,
+          "content": 17099225
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 Oct 3;103(40):14724-31",
+        "PMID": {
+          "Version": 1,
+          "content": 17003135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2014 Jan;42(Database issue):D1091-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24203711
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2000 May;25(1):25-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10802651
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2014 Apr 24;157(3):740-52",
+        "PMID": {
+          "Version": 1,
+          "content": 24766815
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jan;43(Database issue):D789-98",
+        "PMID": {
+          "Version": 1,
+          "content": 25428349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Jan;38(Database issue):D142-8",
+        "PMID": {
+          "Version": 1,
+          "content": 19843607
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Signal. 2010 Dec 21;3(153):rs4",
+        "PMID": {
+          "Version": 1,
+          "content": 21177495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2009 Oct 30;139(3):468-84",
+        "PMID": {
+          "Version": 1,
+          "content": 19879837
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2004 Dec 16;32(22):6643-9",
+        "PMID": {
+          "Version": 1,
+          "content": 15604458
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28135269
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 26,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 24,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28135269,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005221",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-16-00853",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5279721",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

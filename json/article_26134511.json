@@ -1,0 +1,348 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0401220",
+      "Country": "England",
+      "ISSNLinking": "0031-9155",
+      "MedlineTA": "Phys Med Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "02",
+      "Year": 2016,
+      "Day": "02"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "5601-25"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "1R42EB010404",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01CA116743",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01EB00267",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NLM NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01LM009362",
+            "Acronym": "LM"
+          },
+          {
+            "Agency": "NLM NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01LM009362-03S1",
+            "Acronym": "LM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D003160",
+          "content": "Comparative Study"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This paper describes the development and testing of VirtualDose--a software for reporting organ doses for adult and pediatric patients who undergo x-ray computed tomography (CT) examinations. The software is based on a comprehensive database of organ doses derived from Monte Carlo (MC) simulations involving a library of 25 anatomically realistic phantoms that represent patients of different ages, body sizes, body masses, and pregnant stages. Models of GE Lightspeed Pro 16 and Siemens SOMATOM Sensation 16 scanners were carefully validated for use in MC dose calculations. The software framework is designed with the 'software as a service (SaaS)' delivery concept under which multiple clients can access the web-based interface simultaneously from any computer without having to install software locally. The RESTful web service API also allows a third-party picture archiving and communication system software package to seamlessly integrate with VirtualDose's functions. Software testing showed that VirtualDose was compatible with numerous operating systems including Windows, Linux, Apple OS X, and mobile and portable devices. The organ doses from VirtualDose were compared against those reported by CT-Expo and ImPACT-two dosimetry tools that were based on the stylized pediatric and adult patient models that were known to be anatomically simple. The organ doses reported by VirtualDose differed from those reported by CT-Expo and ImPACT by as much as 300% in some of the patient models. These results confirm the conclusion from past studies that differences in anatomical realism offered by stylized and voxel phantoms have caused significant discrepancies in CT dose estimations."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aiping",
+            "LastName": "Ding",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Nuclear Engineering Program, Rensselaer Polytechnic Institute, Troy, NY 12180, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yiming",
+            "LastName": "Gao",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Haikuan",
+            "LastName": "Liu",
+            "Initials": "H"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Peter F",
+            "LastName": "Caracappa",
+            "Initials": "PF"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel J",
+            "LastName": "Long",
+            "Initials": "DJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wesley E",
+            "LastName": "Bolch",
+            "Initials": "WE"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bob",
+            "LastName": "Liu",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "X George",
+            "LastName": "Xu",
+            "Initials": "XG"
+          }
+        ]
+      },
+      "ArticleTitle": "VirtualDose: a software for reporting organ doses from CT for adult and pediatric patients.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1088/0031-9155/60/14/5601"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 14,
+          "Volume": 60,
+          "PubDate": {
+            "Month": "Jul",
+            "Year": 2015,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Phys Med Biol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-6560"
+        },
+        "Title": "Physics in medicine and biology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2015,
+      "Day": "07"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000293",
+        "MajorTopicYN": "N",
+        "content": "Adolescent"
+      }},
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D049628",
+        "MajorTopicYN": "N",
+        "content": "Body Size"
+      }},
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {"DescriptorName": {
+        "UI": "D002675",
+        "MajorTopicYN": "N",
+        "content": "Child, Preschool"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "Y",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D016208",
+        "MajorTopicYN": "N",
+        "content": "Databases, Factual"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007223",
+        "MajorTopicYN": "N",
+        "content": "Infant"
+      }},
+      {"DescriptorName": {
+        "UI": "D007231",
+        "MajorTopicYN": "N",
+        "content": "Infant, Newborn"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008962",
+        "MajorTopicYN": "N",
+        "content": "Models, Theoretical"
+      }},
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "N",
+        "content": "Monte Carlo Method"
+      }},
+      {"DescriptorName": {
+        "UI": "D009765",
+        "MajorTopicYN": "N",
+        "content": "Obesity"
+      }},
+      {"DescriptorName": {
+        "UI": "D009928",
+        "MajorTopicYN": "N",
+        "content": "Organ Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "Y",
+        "content": "Phantoms, Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D011247",
+        "MajorTopicYN": "N",
+        "content": "Pregnancy"
+      }},
+      {"DescriptorName": {
+        "UI": "D011829",
+        "MajorTopicYN": "N",
+        "content": "Radiation Dosage"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011874",
+          "MajorTopicYN": "N",
+          "content": "Radiometry"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000706",
+          "MajorTopicYN": "Y",
+          "content": "statistics & numerical data"
+        },
+        "DescriptorName": {
+          "UI": "D014915",
+          "MajorTopicYN": "N",
+          "content": "Whole-Body Counting"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "07",
+      "Year": 2015,
+      "Day": "07"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26134511
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 7,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26134511,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1088/0031-9155/60/14/5601",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

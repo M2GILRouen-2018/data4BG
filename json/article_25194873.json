@@ -1,0 +1,317 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0153605",
+      "Country": "United States",
+      "ISSNLinking": "0022-0736",
+      "MedlineTA": "J Electrocardiol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2015,
+      "Day": "09"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "890-4"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2014,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2014 Elsevier Inc. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "BACKGROUND",
+            "Label": "BACKGROUND",
+            "content": "Pre-hospital 12-lead ECG interpretation is important because pre-hospital activation of the coronary catheterization laboratory reduces ST-segment elevation myocardial infarction (STEMI) discovery-to-treatment time. In addition, some ECG features indicate higher risk in STEMI such as proximal left anterior descending (LAD) culprit lesion location. The challenging nature of the pre-hospital environment can lead to noisier ECGs which make automated STEMI detection difficult. We describe an automated system to classify lesion location as proximal LAD, LAD, right coronary artery (RCA) and left circumflex (LCx) and test the performance on pre-hospital 12-lead ECG."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The overall classifier was designed from three linked classifiers to separate LAD from non-LAD (RCA or LCx) in the first step, RCA from LCx in a second classifier and proximal from non-proximal LAD in the third classifier. The proximal LAD classifier was designed for high specificity because the output may be used in the decision to modify treatment. The LCx classifier was designed for high specificity because RCA is dominant in most people. The system was trained on a set of emergency department ECGs (n=181) and tested on a set of pre-hospital ECGs (n=80). Both sets were based on a sequential sample starting with symptoms suggesting acute coronary syndromes. Culprit lesion location was determined from coronary catheterization laboratory reports. Inclusion criteria included STEMI interpretation by computer and culprit lesion with 70% or more narrowing. Algorithm accuracy was measured on the test set by sensitivity (SE), specificity (SP), and positive predictive value (PPV)."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "SE, SP and PPV were 50, 100 and 100% respectively for proximal LAD lesion location; 90, 100 and 100% for all LAD; 98, 72 and 78% for RCA; and 50, 98 and 90% for LCx. Specificity and PPV were high for proximal LAD, LAD and LCx. Specificity and PPV are not as high for RCA by design since the RCA-LCx tradeoff favors high specificity in LCx."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "Although our test database is not large, algorithm performance suggests culprit lesion location can be reliably determined from pre-hospital ECG. Further research is needed however to evaluate the impact of automated culprit lesion location on patient treatment and outcomes."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Richard E",
+            "LastName": "Gregg",
+            "Initials": "RE",
+            "AffiliationInfo": {"Affiliation": "Advanced Algorithm Research Center, Philips Healthcare, Andover, MA, USA. Electronic address: rich.gregg@philips.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Saeed",
+            "LastName": "Babaeizadeh",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Advanced Algorithm Research Center, Philips Healthcare, Andover, MA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Detection of culprit coronary lesion location in pre-hospital 12-lead ECG.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jelectrocard.2014.07.014"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0022-0736(14)00288-X"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 47,
+          "PubDate": {"MedlineDate": "2014 Nov-Dec"},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Electrocardiol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1532-8430"
+        },
+        "Title": "Journal of electrocardiology"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "12-Lead ECG"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Culprit artery"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Infarct related artery"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "STEMI"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2014,
+      "Day": "02"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000150",
+            "MajorTopicYN": "N",
+            "content": "complications"
+          },
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D003936",
+          "MajorTopicYN": "N",
+          "content": "Diagnosis, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D004562",
+          "MajorTopicYN": "N",
+          "content": "Electrocardiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D004632",
+          "MajorTopicYN": "N",
+          "content": "Emergency Medical Services"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "Y",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000209",
+            "MajorTopicYN": "N",
+            "content": "etiology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D009203",
+          "MajorTopicYN": "N",
+          "content": "Myocardial Infarction"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2014,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 25194873
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2014,
+        "Day": 14,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 9,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 25194873,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0022-0736(14)00288-X",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jelectrocard.2014.07.014",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,138 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "05"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Segmenting objects of interest from 3D datasets is a common problem encountered in biological data. Small field of view and intrinsic biological variability combined with optically subtle changes of intensity, resolution and low contrast in images make the task of segmentation difficult, especially for microscopy of unstained living or freshly excised thick tissues. Incorporating shape information in addition to the appearance of the object of interest can often help improve segmentation performance. However, shapes of objects in tissue can be highly variable and design of a flexible shape model that encompasses these variations is challenging. To address such complex segmentation problems, we propose a unified probabilistic framework that can incorporate the uncertainty associated with complex shapes, variable appearance and unknown locations. The driving application which inspired the development of this framework is a biologically important segmentation problem: the task of automatically detecting and segmenting the dermal-epidermal junction (DEJ) in 3D reflectance confocal microscopy (RCM) images of human skin. RCM imaging allows noninvasive observation of cellular, nuclear and morphological detail. The DEJ is an important morphological feature as it is where disorder, disease and cancer usually start. Detecting the DEJ is challenging because it is a 2D surface in a 3D volume which has strong but highly variable number of irregularly spaced and variably shaped \"peaks and valleys\". In addition, RCM imaging resolution, contrast and intensity vary with depth. Thus a prior model needs to incorporate the intrinsic structure while allowing variability in essentially all its parameters. We propose a model which can incorporate objects of interest with complex shapes and variable appearance in an unsupervised setting by utilizing domain knowledge to build appropriate priors of the model. Our novel strategy to model this structure combines a spatial Poisson process with shape priors and performs inference using Gibbs sampling. Experimental results show that the proposed unsupervised model is able to automatically detect the DEJ with physiologically relevant accuracy in the range 10 - 20 μ m."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sindhu",
+            "LastName": "Ghanta",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael I",
+            "LastName": "Jordan",
+            "Initials": "MI"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kivanc",
+            "LastName": "Kose",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dana H",
+            "LastName": "Brooks",
+            "Initials": "DH"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Milind",
+            "LastName": "Rajadhyaksha",
+            "Initials": "M"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jennifer G",
+            "LastName": "Dy",
+            "Initials": "JG"
+          }
+        ]
+      },
+      "ArticleTitle": "A Marked Poisson Process Driven Latent Shape Model for 3D Segmentation of Reflectance Confocal Microscopy Image Stacks of Human Skin.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2615291"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2016,
+            "Day": "05"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113504
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113504,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2615291",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

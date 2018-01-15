@@ -1,0 +1,202 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "2242-2256"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "04"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Symmetry is an important feature of human anatomy and the absence of symmetry in medical images can indicate the presence of pathology. Quantification of image symmetry can then be used to improve the automatic analysis of medical images."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "A method is presented that computes both local and global symmetry in 2D medical images. A symmetry axis is determined to define for each position p in the image a mirrored position p' on the contralateral side of the axis. In the neighborhood of p', an optimally corresponding position ps is determined by minimizing a cost function d that combines intensity differences in a patch around p and the mirrored patch around ps and the spatial distance between p' and ps. The optimal value of d is used as a measure of local symmetry s. The average of all values of s, indicated as S, quantifies global symmetry. Starting from an initial approximation of the symmetry axis, the optimal orientation and position of the axis is determined by greedy minimization of S."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The method was evaluated in three experiments concerning abnormality detection in frontal chest radiographs. In the first experiment, global symmetry S was used to discriminate between 174 normal images and 174 images containing diffuse textural abnormalities from the publicly available CRASS database of tuberculosis suspects. Performance, measured as area under the receiver operating characteristic curve Az was 0.838. The second experiment investigated whether adding the local symmetry s as an additional feature to a set of 106 texture features resulted in improvements in classifying local patches in the same image database. We found that Az increased from 0.878 to 0.891 (P = 0.001). In the third experiment, it was shown that the contrast of pulmonary nodules, obtained from the publicly available JSRT database, increased significantly in the local symmetry map compared to the original image."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "We conclude that the proposed algorithm for symmetry computation provides informative features which can be used to improve abnormality detection in medical images both at a local and a global level."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Laurens",
+            "LastName": "Hogeweg",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Diagnostic Image Analysis Group, Radboud University Medical Center, Nijmegen, 6521GA, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Clara I",
+            "LastName": "Sánchez",
+            "Initials": "CI",
+            "AffiliationInfo": {"Affiliation": "Diagnostic Image Analysis Group, Radboud University Medical Center, Nijmegen, 6521GA, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pragnya",
+            "LastName": "Maduskar",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Diagnostic Image Analysis Group, Radboud University Medical Center, Nijmegen, 6521GA, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rick H H M",
+            "LastName": "Philipsen",
+            "Initials": "RHHM",
+            "AffiliationInfo": {"Affiliation": "Diagnostic Image Analysis Group, Radboud University Medical Center, Nijmegen, 6521GA, The Netherlands."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bram",
+            "LastName": "van Ginneken",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Diagnostic Image Analysis Group, Radboud University Medical Center, Nijmegen, 6521GA, The Netherlands."}
+          }
+        ]
+      },
+      "ArticleTitle": "Fast and effective quantification of symmetry in medical images for pathology detection: Application to chest radiography.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12127"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "chest radiography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "computer-aided detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "symmetry"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "symmetry axis"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 14
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28134985
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28134985,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12127",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

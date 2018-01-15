@@ -1,0 +1,179 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "e242-e254"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "In spectral CT, basis material decomposition is commonly used to generate a set of basis images showing the material composition at each point in the field of view. The noise in these images typically contains anticorrelations between the different basis images, which leads to increased noise in each basis image. These anticorrelations can be removed by changing the basis functions used in the material decomposition, but the resulting basis images can then no longer be used for quantitative measurements. Recent studies have demonstrated that reconstruction methods which take the anticorrelations into account give reduced noise in the reconstructed image. The purpose of this work is to analyze an analytically solvable denoising model problem and investigate its effect on the noise level and bias in the image as a function of spatial frequency."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHOD",
+            "content": "A denoising problem with a quadratic regularization term is studied as a mathematically tractable model for such a reconstruction method. An analytic formula for the resulting image in the spatial frequency domain is presented, and this formula is applied to a simple mathematical phantom consisting of an iodinated contrast agent insert embedded in soft tissue. We study the effect of the denoising on the image in terms of its transfer function and the visual appearance, the noise power spectrum and the Fourier component correlation coefficient of the resulting image, and compare the result to a denoising problem which does not model the anticorrelations in the image."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Including the anticorrelations in the noise model of the denoising method gives 3-40% lower noise standard deviation in the soft-tissue image while leaving the iodine standard deviation nearly unchanged (0-1% difference). It also gives a sharper edge-spread function. The studied denoising method preserves the noise level and the anticorrelated structure at low spatial frequencies but suppresses the noise and removes the anticorrelations at higher spatial frequencies. Cross-talk between images gives rise to artifacts at high spatial frequencies."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "Modeling anticorrelations in a denoising problem can decrease the noise level in the basis images by removing anticorrelations at high spatial frequencies while leaving low spatial frequencies unchanged. In this way, basis image cross-talk does not lead to low spatial frequency bias but it may cause artifacts at edges in the image. This theoretical insight will be useful for researchers analyzing and designing reconstruction algorithms for spectral CT."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mats",
+            "LastName": "Persson",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Physics, Royal Institute of Technology, SE-10691, Stockholm, Sweden."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Fredrik",
+            "LastName": "Grönberg",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Physics, Royal Institute of Technology, SE-10691, Stockholm, Sweden."}
+          }
+        ]
+      },
+      "ArticleTitle": "Bias-variance tradeoff in anticorrelated noise reduction for spectral CT.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12322"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "anticorrelated noise"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "basis material decomposition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "computed tomography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "denoising"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "spectral CT"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28901607
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": "01",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 18,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "04",
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28901607,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12322",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

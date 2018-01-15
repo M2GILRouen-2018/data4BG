@@ -1,0 +1,250 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1-13"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "This paper proposes a deep learning based ensemble regression estimator with asymptotic techniques, and offers a method that can decrease uncertainty for oscillometric blood pressure (BP) measurements using the bootstrap and Monte-Carlo approach. While the former is used to estimate SBP and DBP, the latter attempts to determine confidence intervals (CIs) for SBP and DBP based on oscillometric BP measurements."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHOD",
+            "content": "This work originally employs deep belief networks (DBN)-deep neural networks (DNN) to effectively estimate BPs based on oscillometric measurements. However, there are some inherent problems with these methods. First, it is not easy to determine the best DBN-DNN estimator, and worthy information might be omitted when selecting one DBN-DNN estimator and discarding the others. Additionally, our input feature vectors, obtained from only five measurements per subject, represent a very small sample size; this is a critical weakness when using the DBN-DNN technique and can cause overfitting or underfitting, depending on the structure of the algorithm. To address these problems, an ensemble with an asymptotic approach (based on combining the bootstrap with the DBN-DNN technique) is utilized to generate the pseudo features needed to estimate the SBP and DBP. In the first stage, the bootstrap-aggregation technique is used to create ensemble parameters. Afterward, the AdaBoost approach is employed for the second-stage SBP and DBP estimation. We then use the bootstrap and Monte-Carlo techniques in order to determine the CIs based on the target BP estimated using the DBN-DNN ensemble regression estimator with the asymptotic technique in the third stage."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The proposed method can mitigate the estimation uncertainty such as large the standard deviation of error (SDE) on comparing the proposed DBN-DNN ensemble regression estimator with the DBN-DNN single regression estimator, we identify that the SDEs of the SBP and DBP are reduced by 0.58 and 0.57\u202f mmHg, respectively. These indicate that the proposed method actually enhances the performance by 9.18% and 10.88% compared with the DBN-DNN single estimator."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The proposed methodology improves the accuracy of BP estimation and reduces the uncertainty for BP estimation."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Soojeong",
+            "LastName": "Lee",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "School of Electronic Engineering, Hanyang University, 222 Wangsimni-ro, Seongdong, Seoul 133-791, Republic of Korea."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joon-Hyuk",
+            "LastName": "Chang",
+            "Initials": "JH",
+            "AffiliationInfo": {"Affiliation": "School of Electronic Engineering, Hanyang University, 222 Wangsimni-ro, Seongdong, Seoul 133-791, Republic of Korea. Electronic address: jchang@hanyang.ac.kr."}
+          }
+        ]
+      },
+      "ArticleTitle": "Deep learning ensemble with asymptotic techniques for oscillometric blood pressure estimation.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(17)30327-9"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.08.005"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 151,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Blood pressure"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Bootstrap"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Confidence interval"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Deep neural networks"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Oscillometric measurement"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001794",
+        "MajorTopicYN": "N",
+        "content": "Blood Pressure"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D001795",
+          "MajorTopicYN": "N",
+          "content": "Blood Pressure Determination"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "Y",
+        "content": "Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D009010",
+        "MajorTopicYN": "N",
+        "content": "Monte Carlo Method"
+      }},
+      {"DescriptorName": {
+        "UI": "D016571",
+        "MajorTopicYN": "Y",
+        "content": "Neural Networks (Computer)"
+      }},
+      {"DescriptorName": {
+        "UI": "D009991",
+        "MajorTopicYN": "Y",
+        "content": "Oscillometry"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28946991
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28946991,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(17)30327-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.08.005",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

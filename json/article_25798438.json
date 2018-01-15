@@ -1,0 +1,512 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005839"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "01"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A metabolome-wide genome-wide association study (mGWAS) aims to discover the effects of genetic variants on metabolome phenotypes. Most mGWASes use as phenotypes concentrations of limited sets of metabolites that can be identified and quantified from spectral information. In contrast, in an untargeted mGWAS both identification and quantification are forgone and, instead, all measured metabolome features are tested for association with genetic variants. While the untargeted approach does not discard data that may have eluded identification, the interpretation of associated features remains a challenge. To address this issue, we developed metabomatching to identify the metabolites underlying significant associations observed in untargeted mGWASes on proton NMR metabolome data. Metabomatching capitalizes on genetic spiking, the concept that because metabolome features associated with a genetic variant tend to correspond to the peaks of the NMR spectrum of the underlying metabolite, genetic association can allow for identification. Applied to the untargeted mGWASes in the SHIP and CoLaus cohorts and using 180 reference NMR spectra of the urine metabolome database, metabomatching successfully identified the underlying metabolite in 14 of 19, and 8 of 9 associations, respectively. The accuracy and efficiency of our method make it a strong contender for facilitating or complementing metabolomics analyses in large cohorts, where the availability of genetic, or other data, enables our approach, but targeted quantification is limited."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-6713-2214"
+            },
+            "ForeName": "Rico",
+            "LastName": "Rueedi",
+            "Initials": "R",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland."},
+              {"Affiliation": "Swiss Institute of Bioinformatics, Lausanne, Switzerland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Roger",
+            "LastName": "Mallol",
+            "Initials": "R",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland."},
+              {"Affiliation": "Swiss Institute of Bioinformatics, Lausanne, Switzerland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-2495-4020"
+            },
+            "ForeName": "Johannes",
+            "LastName": "Raffler",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Institute of Bioinformatics and Systems Biology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-9216-8825"
+            },
+            "ForeName": "David",
+            "LastName": "Lamparter",
+            "Initials": "D",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland."},
+              {"Affiliation": "Swiss Institute of Bioinformatics, Lausanne, Switzerland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nele",
+            "LastName": "Friedrich",
+            "Initials": "N",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute of Clinical Chemistry and Laboratory Medicine, University Medicine Greifswald, Greifswald, Germany."},
+              {"Affiliation": "German Centre for Cardiovascular Research (DZHK), Partner site, Greifswald, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-0765-896X"
+            },
+            "ForeName": "Peter",
+            "LastName": "Vollenweider",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Department of Medicine, Internal Medicine, Lausanne University Hospital (CHUV), Lausanne, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-4193-788X"
+            },
+            "ForeName": "Gérard",
+            "LastName": "Waeber",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Medicine, Internal Medicine, Lausanne University Hospital (CHUV), Lausanne, Switzerland."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gabi",
+            "LastName": "Kastenmüller",
+            "Initials": "G",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute of Bioinformatics and Systems Biology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany."},
+              {"Affiliation": "German Center for Diabetes Research, Neuherberg, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zoltán",
+            "LastName": "Kutalik",
+            "Initials": "Z",
+            "AffiliationInfo": [
+              {"Affiliation": "Swiss Institute of Bioinformatics, Lausanne, Switzerland."},
+              {"Affiliation": "Institute of Social and Preventive Medicine, Lausanne University Hospital (CHUV), Lausanne, Switzerland."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-6785-9034"
+            },
+            "ForeName": "Sven",
+            "LastName": "Bergmann",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Computational Biology, University of Lausanne, Lausanne, Switzerland."},
+              {"Affiliation": "Swiss Institute of Bioinformatics, Lausanne, Switzerland."},
+              {"Affiliation": "Department of Integrative Biomedical Sciences, University of Cape Town, Cape Town, South Africa."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Metabomatching: Using genetic association to identify metabolites in proton NMR spectroscopy.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005839"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D030541",
+        "MajorTopicYN": "Y",
+        "content": "Databases, Genetic"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D055106",
+          "MajorTopicYN": "N",
+          "content": "Genome-Wide Association Study"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D009682",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Spectroscopy"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D055432",
+          "MajorTopicYN": "N",
+          "content": "Metabolomics"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Appl Genet Mol Biol. 2005;4:Article32",
+        "PMID": {
+          "Version": 1,
+          "content": 16646851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2008 Nov;4(11):e1000282",
+        "PMID": {
+          "Version": 1,
+          "content": 19043545
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 Jun;43(6):565-9",
+        "PMID": {
+          "Version": 1,
+          "content": 21572414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Epidemiol. 2011 Apr;40(2):294-307",
+        "PMID": {
+          "Version": 1,
+          "content": 20167617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Chem. 2014 Jun 3;86(11):5433-40",
+        "PMID": {
+          "Version": 1,
+          "content": 24796490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Oct 14;12:400",
+        "PMID": {
+          "Version": 1,
+          "content": 21999117
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2014 Feb 20;10(2):e1004132",
+        "PMID": {
+          "Version": 1,
+          "content": 24586186
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Jan;41(Database issue):D801-7",
+        "PMID": {
+          "Version": 1,
+          "content": 23161693
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2012 Jan 29;44(3):269-76",
+        "PMID": {
+          "Version": 1,
+          "content": 22286219
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2008 Jan;36(Database issue):D402-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17984079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Sep 04;8(9):e73076",
+        "PMID": {
+          "Version": 1,
+          "content": 24023812
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Biochem Biophys. 2016 Jan 1;589:168-76",
+        "PMID": {
+          "Version": 1,
+          "content": 26432701
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2015 Sep 09;11(9):e1005487",
+        "PMID": {
+          "Version": 1,
+          "content": 26352407
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Struct Biotechnol J. 2015 Jan 27;13:131-44",
+        "PMID": {
+          "Version": 1,
+          "content": 25750701
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2014 Jun;46(6):543-550",
+        "PMID": {
+          "Version": 1,
+          "content": 24816252
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2015 Jan 08;11(1):e1004835",
+        "PMID": {
+          "Version": 1,
+          "content": 25569235
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2011 Sep;7(9):e1002270",
+        "PMID": {
+          "Version": 1,
+          "content": 21931564
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2010 Feb;42(2):137-41",
+        "PMID": {
+          "Version": 1,
+          "content": 20037589
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2012 Nov;13(11):759-69",
+        "PMID": {
+          "Version": 1,
+          "content": 23032255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2012;8(10):e1003005",
+        "PMID": {
+          "Version": 1,
+          "content": 23093944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Chem. 2014 Jan 21;86(2):1160-9",
+        "PMID": {
+          "Version": 1,
+          "content": 24354303
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Med. 2013 Feb 15;5(2):13",
+        "PMID": {
+          "Version": 1,
+          "content": 23414815
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2011 Aug 31;477(7362):54-60",
+        "PMID": {
+          "Version": 1,
+          "content": 21886157
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Chem. 2015 Apr 21;87(8):4377-84",
+        "PMID": {
+          "Version": 1,
+          "content": 25803548
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Mol Genet. 2015 Oct 15;24(R1):R93-R101",
+        "PMID": {
+          "Version": 1,
+          "content": 26160913
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Cardiovasc Disord. 2008 Mar 17;8:6",
+        "PMID": {
+          "Version": 1,
+          "content": 18366642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Bioeng Biotechnol. 2015 Mar 05;3:23",
+        "PMID": {
+          "Version": 1,
+          "content": 25798438
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29194434
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29194434,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005839",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-00169",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5711027",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

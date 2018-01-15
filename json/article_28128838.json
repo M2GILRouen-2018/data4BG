@@ -1,0 +1,131 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101295070,
+      "Country": "England",
+      "ISSNLinking": "1744-683X",
+      "MedlineTA": "Soft Matter"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1594-1623"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We have extended an existing hybrid MD-SCF simulation technique that employs a coarsening step to enhance the computational efficiency of evaluating non-bonded particle interactions. This technique is conceptually equivalent to the single chain in mean-field (SCMF) method in polymer physics, in the sense that non-bonded interactions are derived from the non-ideal chemical potential in self-consistent field (SCF) theory, after a particle-to-field projection. In contrast to SCMF, however, MD-SCF evolves particle coordinates by the usual Newton's equation of motion. Since collisions are seriously affected by the softening of non-bonded interactions that originates from their evaluation at the coarser continuum level, we have devised a way to reinsert the effect of collisions on the structural evolution. Merging MD-SCF with multi-particle collision dynamics (MPCD), we mimic particle collisions at the level of computational cells and at the same time properly account for the momentum transfer that is important for a realistic system evolution. The resulting hybrid MD-SCF/MPCD method was validated for a particular coarse-grained model of phospholipids in aqueous solution, against reference full-particle simulations and the original MD-SCF model. We additionally implemented and tested an alternative and more isotropic finite difference gradient. Our results show that efficiency is improved by merging MD-SCF with MPCD, as properly accounting for hydrodynamic interactions considerably speeds up the phase separation dynamics, with negligible additional computational costs compared to efficient MD-SCF. This new method enables realistic simulations of large-scale systems that are needed to investigate the applications of self-assembled structures of lipids in nanotechnologies."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-8005-0697"
+            },
+            "ForeName": "G J A",
+            "LastName": "Sevink",
+            "Initials": "GJ",
+            "AffiliationInfo": {"Affiliation": "Leiden Institute of Chemistry, Leiden University, P.O. Box 9502, 2300 RA Leiden, The Netherlands. a.sevink@chem.leidenuniv.nl."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "F",
+            "LastName": "Schmid",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Institut for Physik, Johannes Gutenberg Univeristat Mainz, Staudingerweg 7-9, 55128 Mainz, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "T",
+            "LastName": "Kawakatsu",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Physics, Tohoku University, Aoba, Aoba-ku, Sendai 980-8578, Japan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "G",
+            "LastName": "Milano",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Dipartimento di Chimica e Biologia, Universit degli Studi di Salerno, via Ponte don Melillo, Fisciano, Italy."}
+          }
+        ]
+      },
+      "ArticleTitle": "Combining cell-based hydrodynamics with hybrid particle-field simulations: efficient and realistic simulation of structuring dynamics.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1039/c6sm02252a"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Soft Matter",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1744-6848"
+        },
+        "Title": "Soft matter"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 22
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28128838
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28128838,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1039/c6sm02252a",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

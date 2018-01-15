@@ -1,0 +1,265 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100883449,
+      "Country": "United States",
+      "ISSNLinking": "1531-605X",
+      "MedlineTA": "Proc AMIA Symp"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "03",
+      "Year": 2001,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "116-20"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NLM NIH HHS",
+            "Country": "United States",
+            "GrantID": "LM05627",
+            "Acronym": "LM"
+          },
+          {
+            "Agency": "NLM NIH HHS",
+            "Country": "United States",
+            "GrantID": "LM07079",
+            "Acronym": "LM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013487",
+          "content": "Research Support, U.S. Gov't, P.H.S."
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Management of many types of chronic diseases such as diabetes and asthma relies heavily on patients' self-monitoring of their disease conditions. In recent years, internet-based home telemonitoring systems that allow transmission of patient data to a central database and offer immediate access to the data by the care providers have become available. However, these systems often work with only one or a few types of medical devices and thus are limited in the types of diseases they can monitor. For example, a system designed to collect spirometry data from asthmatic patients cannot be easily adapted to collect blood glucose data from diabetic patients. This is because different medical devices produce different types of data and the existing telemonitoring systems are generally built around a proprietary data schema specific for the device used. In this paper, we describe a generic data schema for a telemonitoring system that is applicable to different types of medical devices and different diseases, and show an implementation of the schema in a relational database suitable for a variety of telemonitoring activities."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "J",
+            "LastName": "Cai",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Medical Informatics, Columbia University, New York, New York 10032, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "S",
+            "LastName": "Johnson",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "G",
+            "LastName": "Hripcsak",
+            "Initials": "G"
+          }
+        ]
+      },
+      "ArticleTitle": "Generic data modeling for home telemonitoring of chronically ill patients.",
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {"Year": 2000},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Proc AMIA Symp",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1531-605X"
+        },
+        "Title": "Proceedings. AMIA Symposium"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "01",
+      "Year": 2001,
+      "Day": 10
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "N",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D001249",
+          "MajorTopicYN": "N",
+          "content": "Asthma"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D002908",
+        "MajorTopicYN": "N",
+        "content": "Chronic Disease"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000295",
+          "MajorTopicYN": "N",
+          "content": "instrumentation"
+        },
+        "DescriptorName": {
+          "UI": "D015716",
+          "MajorTopicYN": "N",
+          "content": "Electrocardiography, Ambulatory"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "N",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D006973",
+          "MajorTopicYN": "N",
+          "content": "Hypertension"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000295",
+          "MajorTopicYN": "Y",
+          "content": "instrumentation"
+        },
+        "DescriptorName": {
+          "UI": "D008991",
+          "MajorTopicYN": "N",
+          "content": "Monitoring, Physiologic"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012648",
+        "MajorTopicYN": "Y",
+        "content": "Self Care"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000295",
+          "MajorTopicYN": "N",
+          "content": "instrumentation"
+        },
+        "DescriptorName": {
+          "UI": "D013147",
+          "MajorTopicYN": "N",
+          "content": "Spirometry"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017216",
+        "MajorTopicYN": "Y",
+        "content": "Telemedicine"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2016,
+      "Day": 21
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "MD Comput. 1988 Sep-Oct;5(5):34-47",
+        "PMID": {
+          "Version": 1,
+          "content": 3231034
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stud Health Technol Inform. 1998;52 Pt 1:272-6",
+        "PMID": {
+          "Version": 1,
+          "content": 10384460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Inform (Lond). 1996 Oct-Dec;21(4):283-95",
+        "PMID": {
+          "Version": 1,
+          "content": 9179833
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 1996 Sep-Oct;3(5):328-39",
+        "PMID": {
+          "Version": 1,
+          "content": 8880680
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC2243876"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 11079856
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 11,
+        "Year": 2000,
+        "Minute": 0,
+        "Hour": 11,
+        "Day": 18,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2001,
+        "Minute": 1,
+        "Hour": 10,
+        "Day": 10,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2000,
+        "Minute": 0,
+        "Hour": 11,
+        "Day": 18,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 11079856,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "D200744",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC2243876",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

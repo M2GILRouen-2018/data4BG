@@ -1,0 +1,277 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100970413,
+      "Country": "United States",
+      "ISSNLinking": "1532-0464",
+      "MedlineTA": "J Biomed Inform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017. Published by Elsevier Inc.",
+        "AbstractText": "The widespread adoption of electronic medical records (EMRs) in healthcare has provided vast new amounts of data for statistical machine learning researchers in their efforts to model and predict patient health status, potentially enabling novel advances in treatment. In the case of sepsis, a debilitating, dysregulated host response to infection, extracting subtle, uncataloged clinical phenotypes from the EMR with statistical machine learning methods has the potential to impact patient diagnosis and treatment early in the course of their hospitalization. However, there are significant barriers that must be overcome to extract these insights from EMR data. First, EMR datasets consist of both static and dynamic observations of discrete and continuous-valued variables, many of which may be missing, precluding the application of standard multivariate analysis techniques. Second, clinical populations observed via EMRs and relevant to the study and management of conditions like sepsis are often heterogeneous; properly accounting for this heterogeneity is critical. Here, we describe an unsupervised, probabilistic framework called a composite mixture model that can simultaneously accommodate the wide variety of observations frequently observed in EMR datasets, characterize heterogeneous clinical populations, and handle missing observations. We demonstrate the efficacy of our approach on a large-scale sepsis cohort, developing novel techniques built on our model-based clusters to track patient mortality risk over time and identify physiological trends and distinct subgroups of the dataset associated with elevated risk of mortality during hospitalization."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael B",
+            "LastName": "Mayhew",
+            "Initials": "MB",
+            "AffiliationInfo": {"Affiliation": "Computational Engineering Division, Lawrence Livermore National Laboratory, Livermore, California USA 94550. Electronic address: mmayhew@inflammatix.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brenden K",
+            "LastName": "Petersen",
+            "Initials": "BK",
+            "AffiliationInfo": {"Affiliation": "Computational Engineering Division, Lawrence Livermore National Laboratory, Livermore, California USA 94550. Electronic address: petersen33@llnl.gov."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ana Paula",
+            "LastName": "Sales",
+            "Initials": "AP",
+            "AffiliationInfo": {"Affiliation": "Computational Engineering Division, Lawrence Livermore National Laboratory, Livermore, California USA 94550. Electronic address: apsales@llnl.gov."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "John D",
+            "LastName": "Greene",
+            "Initials": "JD",
+            "AffiliationInfo": {"Affiliation": "Division of Research, Kaiser Permanente Northern California, Oakland, California USA 94611. Electronic address: john.d.greene@kp.org."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vincent X",
+            "LastName": "Liu",
+            "Initials": "VX",
+            "AffiliationInfo": {"Affiliation": "Division of Research, Kaiser Permanente Northern California, Oakland, California USA 94611. Electronic address: vincent.x.liu@kp.org."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Todd S",
+            "LastName": "Wasson",
+            "Initials": "TS",
+            "AffiliationInfo": {"Affiliation": "Computational Engineering Division, Lawrence Livermore National Laboratory, Livermore, California USA 94550. Electronic address: twasson@gmail.com."}
+          }
+        ]
+      },
+      "ArticleTitle": "Flexible, Cluster-Based Analysis of the Electronic Medical Record of Sepsis with Composite Mixture Models.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1532-0464(17)30269-1"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.jbi.2017.11.015"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 28
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Biomed Inform",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1532-0480"
+        },
+        "Title": "Journal of biomedical informatics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "AIC"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Akaike information criterion"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "BIC"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Bayesian information criterion"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "CMM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Cluster analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Composite mixture model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ED"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "EMR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Electronic health records"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "KPNC"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Kaiser Permanente Northern California"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MCAR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MICE"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Mixture modeling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "PAM"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Risk stratification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Sepsis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "composite mixture model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "electronic medical record"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "emergency department"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "missing completely at random"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "multivariate imputation using chained equations"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "partitioning around medoids"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29196114
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 28,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29196114,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1532-0464(17)30269-1",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.jbi.2017.11.015",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

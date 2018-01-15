@@ -1,0 +1,120 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We propose graph-driven approaches to image segmentation by developing diffusion processes defined on arbitrary graphs. We formulate a solution to the image segmentation problem modeled as the result of infectious wavefronts propagating on an image-driven graph where pixels correspond to nodes of an arbitrary graph. By relating the popular Susceptible - Infected - Recovered epidemic propagation model to the Random Walker algorithm, we develop the Normalized Random Walker and a lazy random walker variant. The underlying iterative solutions of these methods are derived as the result of infections transmitted on this arbitrary graph. The main idea is to incorporate a degree-aware term into the original Random Walker algorithm in order to account for the node centrality of every neighboring node and to weigh the contribution of every neighbor to the underlying diffusion process. Our lazy random walk variant models the tendency of patients or nodes to resist changes in their infection status. We also show how previous work can be naturally extended to take advantage of this degreeaware term which enables the design of other novel methods. Through an extensive experimental analysis, we demonstrate the reliability of our approach, its small computational burden and the dimensionality reduction capabilities of graph-driven approaches. Without applying any regular grid constraint, the proposed graph clustering scheme allows us to consider pixellevel, node-level approaches and multidimensional input data by naturally integrating the importance of each node to the final clustering or segmentation solution. A software release containing implementations of this work and supplementary material can be found at: http://cvsp.cs.ntua.gr/research/GraphClustering/."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christos G",
+            "LastName": "Bampis",
+            "Initials": "CG"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Petros",
+            "LastName": "Maragos",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alan C",
+            "LastName": "Bovik",
+            "Initials": "AC"
+          }
+        ]
+      },
+      "ArticleTitle": "Graph-Driven Diffusion and Random Walk Schemes for Image Segmentation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2621663"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2016,
+            "Day": 26
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113758
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113758,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2621663",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

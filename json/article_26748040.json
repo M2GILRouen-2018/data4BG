@@ -1,0 +1,313 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8806104,
+      "Country": "United States",
+      "ISSNLinking": "0895-6111",
+      "MedlineTA": "Comput Med Imaging Graph"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": 13
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "49-61"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2015 Elsevier Ltd. All rights reserved.",
+        "AbstractText": "Accurate coronary artery segmentation is a fundamental step in various medical imaging applications such as stenosis detection, 3D reconstruction and cardiac dynamics assessing. In this paper, a multiscale region growing (MSRG) method for coronary artery segmentation in 2D X-ray angiograms is proposed. First, a region growing rule incorporating both vesselness and direction information in a unique way is introduced. Then an iterative multiscale search based on this criterion is performed. Selected points in each step are considered as seeds for the following step. By combining vesselness and direction information in the growing rule, this method is able to avoid blockage caused by low vesselness values in vascular regions, which in turn, yields continuous vessel tree. Performing the process in a multiscale fashion helps to extract thin and peripheral vessels often missed by other segmentation methods. Quantitative evaluation performed on real angiography images shows that the proposed segmentation method identifies about 80% of the total coronary artery tree in relatively easy images and 70% in challenging cases with a mean precision of 82% and outperforms others segmentation methods in terms of sensitivity. The MSRG segmentation method was also implemented with different enhancement filters and it has been shown that the Frangi filter gives better results. The proposed segmentation method has proven to be tailored for coronary artery segmentation. It keeps an acceptable performance when dealing with challenging situations such as noise, stenosis and poor contrast."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Asma",
+            "LastName": "Kerkeni",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Laboratoire Technologie et Imagerie Médicale, Faculté de Médecine, Université de Monastir, Tunisia. Electronic address: asma.kerkeni@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Asma",
+            "LastName": "Benabdallah",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Laboratoire Technologie et Imagerie Médicale, Faculté de Médecine, Université de Monastir, Tunisia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Antoine",
+            "LastName": "Manzanera",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Unité d'Informatique et d'Ingénierie des Systèmes, ENSTA-ParisTech, Université de Paris-Saclay, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mohamed Hedi",
+            "LastName": "Bedoui",
+            "Initials": "MH",
+            "AffiliationInfo": {"Affiliation": "Laboratoire Technologie et Imagerie Médicale, Faculté de Médecine, Université de Monastir, Tunisia."}
+          }
+        ]
+      },
+      "ArticleTitle": "A coronary artery segmentation method based on multiscale analysis and region growing.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.compmedimag.2015.12.004"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0895-6111(15)00191-3"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 48,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Med Imaging Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1879-0771"
+        },
+        "Title": "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Coronary artery"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Direction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Hessian"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multiscale"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Region growing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Vesselness"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2016,
+      "Day": 16
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000188",
+          "MajorTopicYN": "Y",
+          "content": "drug therapy"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003331",
+          "MajorTopicYN": "N",
+          "content": "Coronary Vessels"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2016,
+      "Day": 30
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26748040
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2015,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Day": "02",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26748040,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0895-6111(15)00191-3",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.compmedimag.2015.12.004",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

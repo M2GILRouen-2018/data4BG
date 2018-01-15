@@ -1,0 +1,114 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Perceptual image quality assessment (IQA) attempts to use computational models to estimate the image quality in accordance with subjective evaluations. Reduced-reference (RR) image quality assessment (IQA) methods make use of partial information or features extracted from the reference image for estimating the quality of distorted images. Finding a balance between the number of RR features and accuracy of the estimated image quality is essential and important in IQA. In this paper we propose a training-free low-cost RRIQA method that requires a very small number of RR features (6 RR features). The proposed RRIQA algorithm is based on the discrete wavelet transform (DWT) of locally weighted gradient magnitudes.We apply human visual system's contrast sensitivity and neighborhood gradient information to weight the gradient magnitudes in a locally adaptive manner. The RR features are computed by measuring the entropy of each DWT subband, for each scale, and pooling the subband entropies along all orientations, resulting in L RR features (one average entropy per scale) for an L-level DWT. Extensive experiments performed on seven large-scale benchmark databases demonstrate that the proposed RRIQA method delivers highly competitive performance as compared to the state-of-the-art RRIQA models as well as full reference ones for both natural and texture images. The MATLAB source code of REDLOG and the evaluation results are publicly available online at https://http://lab.engineering.asu.edu/ivulab/software/redlog/."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "S Alireza",
+            "LastName": "Golestaneh",
+            "Initials": "SA"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lina",
+            "LastName": "Karam",
+            "Initials": "L"
+          }
+        ]
+      },
+      "ArticleTitle": "Reduced-Reference Quality Assessment Based on the Entropy of DWT Coefficients of Locally Weighted Gradient Magnitudes.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2601821"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2016,
+            "Day": 24
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113627
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113627,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2601821",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

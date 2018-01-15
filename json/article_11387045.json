@@ -1,0 +1,625 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors have declared that no competing interests exist.",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005068"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Due to its inherent neural delays, the visual system has an outdated access to sensory information about the current position of moving objects. In contrast, living organisms are remarkably able to track and intercept moving objects under a large range of challenging environmental conditions. Physiological, behavioral and psychophysical evidences strongly suggest that position coding is extrapolated using an explicit and reliable representation of object's motion but it is still unclear how these two representations interact. For instance, the so-called flash-lag effect supports the idea of a differential processing of position between moving and static objects. Although elucidating such mechanisms is crucial in our understanding of the dynamics of visual processing, a theory is still missing to explain the different facets of this visual illusion. Here, we reconsider several of the key aspects of the flash-lag effect in order to explore the role of motion upon neural coding of objects' position. First, we formalize the problem using a Bayesian modeling framework which includes a graded representation of the degree of belief about visual motion. We introduce a motion-based prediction model as a candidate explanation for the perception of coherent motion. By including the knowledge of a fixed delay, we can model the dynamics of sensory information integration by extrapolating the information acquired at previous instants in time. Next, we simulate the optimal estimation of object position with and without delay compensation and compared it with human perception under a broad range of different psychophysical conditions. Our computational study suggests that the explicit, probabilistic representation of velocity information is crucial in explaining position coding, and therefore the flash-lag effect. We discuss these theoretical results in light of the putative corrective mechanisms that can be used to cancel out the detrimental effects of neural delays and illuminate the more general question of the dynamical representation at the present time of spatial information in the visual pathways."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mina A",
+            "LastName": "Khoei",
+            "Initials": "MA",
+            "AffiliationInfo": {"Affiliation": "Institut de Neurosciences de la Timone, UMR7289, CNRS / Aix-Marseille Université, Marseille, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guillaume S",
+            "LastName": "Masson",
+            "Initials": "GS",
+            "AffiliationInfo": {"Affiliation": "Institut de Neurosciences de la Timone, UMR7289, CNRS / Aix-Marseille Université, Marseille, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-9536-010X"
+            },
+            "ForeName": "Laurent U",
+            "LastName": "Perrinet",
+            "Initials": "LU",
+            "AffiliationInfo": {"Affiliation": "Institut de Neurosciences de la Timone, UMR7289, CNRS / Aix-Marseille Université, Marseille, France."}
+          }
+        ]
+      },
+      "ArticleTitle": "The Flash-Lag Effect as a Motion-Based Predictive Shift.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005068"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008959",
+        "MajorTopicYN": "Y",
+        "content": "Models, Neurological"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009039",
+          "MajorTopicYN": "N",
+          "content": "Motion Perception"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D009415",
+          "MajorTopicYN": "N",
+          "content": "Nerve Net"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D011930",
+          "MajorTopicYN": "N",
+          "content": "Reaction Time"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D014793",
+          "MajorTopicYN": "N",
+          "content": "Visual Cortex"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2008 Oct 21;105(42):16338-43",
+        "PMID": {
+          "Version": 1,
+          "content": 18852459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2011 Nov 3;72(3):425-42",
+        "PMID": {
+          "Version": 1,
+          "content": 22078503
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol. 2004 May 1;556(Pt 3):971-82",
+        "PMID": {
+          "Version": 1,
+          "content": 14978201
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol Paris. 2013 Nov;107(5):409-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24036184
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Psychol. 2010 Nov 12;1:186",
+        "PMID": {
+          "Version": 1,
+          "content": 21897824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2007 Oct;47(22):2841-54",
+        "PMID": {
+          "Version": 1,
+          "content": 17868767
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2013 May 8;78(3):554-62",
+        "PMID": {
+          "Version": 1,
+          "content": 23664618
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2006 Dec;46(26):4375-81",
+        "PMID": {
+          "Version": 1,
+          "content": 17045627
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2000;40(2):201-15",
+        "PMID": {
+          "Version": 1,
+          "content": 10793897
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Cybern. 2003 May;88(5):409-17",
+        "PMID": {
+          "Version": 1,
+          "content": 12750903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 1995 Jan;35(1):65-77",
+        "PMID": {
+          "Version": 1,
+          "content": 7839611
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Comput Neurosci. 2013 Sep 17;7:112",
+        "PMID": {
+          "Version": 1,
+          "content": 24062680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Opt Soc Am A. 1985 Feb;2(2):284-99",
+        "PMID": {
+          "Version": 1,
+          "content": 3973762
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2000 Mar 17;287(5460):2036-8",
+        "PMID": {
+          "Version": 1,
+          "content": 10720334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1994 Jul 28;370(6487):256-7",
+        "PMID": {
+          "Version": 1,
+          "content": 8035873
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 1998 Dec;1(8):656-7",
+        "PMID": {
+          "Version": 1,
+          "content": 10196580
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Opt Soc Am A. 1985 Nov;2(11):1836-47",
+        "PMID": {
+          "Version": 1,
+          "content": 4067694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurosci. 2001 Oct 15;21(20):RC172",
+        "PMID": {
+          "Version": 1,
+          "content": 11588202
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurophysiol. 2006 Aug;96(2):775-84",
+        "PMID": {
+          "Version": 1,
+          "content": 16835365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Psychol Hum Percept Perform. 2009 Jun;35(3):611-26",
+        "PMID": {
+          "Version": 1,
+          "content": 19485681
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2004;44(22):2605-19",
+        "PMID": {
+          "Version": 1,
+          "content": 15358076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Perception. 2001;30(2):195-208",
+        "PMID": {
+          "Version": 1,
+          "content": 11296501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans A Math Phys Eng Sci. 2009 Mar 28;367(1891):1063-78",
+        "PMID": {
+          "Version": 1,
+          "content": 19218151
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cereb Cortex. 2013 Jan;23(1):241-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22302116
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 1999 Nov;39(22):3702-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10746140
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2010 May 27;66(4):477-91",
+        "PMID": {
+          "Version": 1,
+          "content": 20510853
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw. 2008 Oct;19(10):1678-88",
+        "PMID": {
+          "Version": 1,
+          "content": 18842473
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Physiol Paris. 2007 Jan-May;101(1-3):46-55",
+        "PMID": {
+          "Version": 1,
+          "content": 18042358
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurosci Biobehav Rev. 2012 Jan;36(1):1-25",
+        "PMID": {
+          "Version": 1,
+          "content": 21421006
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cogn Sci. 2002 Sep 1;6(9):387",
+        "PMID": {
+          "Version": 1,
+          "content": 12200181
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2001 Feb;41(4):529-39",
+        "PMID": {
+          "Version": 1,
+          "content": 11166055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2000 Aug 18;289(5482):1107a",
+        "PMID": {
+          "Version": 1,
+          "content": 17833394
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1999 Mar 25;398(6725):334-8",
+        "PMID": {
+          "Version": 1,
+          "content": 10192333
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Perception. 2002;31(10):1205-10",
+        "PMID": {
+          "Version": 1,
+          "content": 12430947
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 1984;24(1):33-9",
+        "PMID": {
+          "Version": 1,
+          "content": 6695505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cogn Sci. 2002 May 1;6(5):211-216",
+        "PMID": {
+          "Version": 1,
+          "content": 11983584
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vis. 2007 Mar 13;7(4):3",
+        "PMID": {
+          "Version": 1,
+          "content": 17461687
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2012 Oct;24(10):2726-50",
+        "PMID": {
+          "Version": 1,
+          "content": 22734489
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2012 Nov;15(11):1596-603",
+        "PMID": {
+          "Version": 1,
+          "content": 23023292
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2000;40(2):137-49",
+        "PMID": {
+          "Version": 1,
+          "content": 10793892
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Cybern. 2014 Dec;108(6):777-801",
+        "PMID": {
+          "Version": 1,
+          "content": 25128318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2000 Jan 6;403(6765):38-9",
+        "PMID": {
+          "Version": 1,
+          "content": 10638742
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vision Res. 2005 Sep;45(20):2620-30",
+        "PMID": {
+          "Version": 1,
+          "content": 15993457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2000 Aug;12(8):1839-67",
+        "PMID": {
+          "Version": 1,
+          "content": 10953241
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1998 Dec 3;396(6710):424",
+        "PMID": {
+          "Version": 1,
+          "content": 9853748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Psychol Bull. 2014 Jan;140(1):308-38",
+        "PMID": {
+          "Version": 1,
+          "content": 23796268
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013;8(3):e58788",
+        "PMID": {
+          "Version": 1,
+          "content": 23527024
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1958 Feb 15;181(4607):507-8",
+        "PMID": {
+          "Version": 1,
+          "content": 13517199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2001 Jun;13(6):1243-53",
+        "PMID": {
+          "Version": 1,
+          "content": 11387045
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28125585
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2015,
+        "Day": "09",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2016,
+        "Day": 21,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28125585,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005068",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-15-01338",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5268412",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

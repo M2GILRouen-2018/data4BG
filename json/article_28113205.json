@@ -1,0 +1,283 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1711-1720"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A novel fully automatic framework for aortic valve (AV) trunk segmentation in three-dimensional (3-D) transesophageal echocardiography (TEE) datasets is proposed. The methodology combines a previously presented semiautomatic segmentation strategy by using shape-based B-spline Explicit Active Surfaces with two novel algorithms to automate the quantification of relevant AV measures. The first combines a fast rotation-invariant 3-D generalized Hough transform with a vessel-like dark tube detector to initialize the segmentation. After segmenting the AV wall, the second algorithm focuses on aligning this surface with the reference ones in order to estimate the short-axis (SAx) planes (at the left ventricular outflow tract, annulus, sinuses of Valsalva, and sinotubular junction) in which to perform the measurements. The framework has been tested in 20 3-D-TEE datasets with both stenotic and nonstenotic AVs. The initialization algorithm presented a median error of around 3 mm for the AV axis endpoints, with an overall feasibility of 90%. In its turn, the SAx detection algorithm showed to be highly reproducible, with indistinguishable results compared with the variability found between the experts' defined planes. Automatically extracted measures at the four levels showed a good agreement with the experts' ones, with limits of agreement similar to the interobserver variability. Moreover, a validation set of 20 additional stenotic AV datasets corroborated the method's applicability and accuracy. The proposed approach mitigates the variability associated with the manual quantification while significantly reducing the required analysis time (12 s versus 5 to 10 min), which shows its appeal for automatic dimensioning of the AV morphology in 3-D-TEE for the planning of transcatheter AV implantation."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sandro",
+            "LastName": "Queiros",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alexandros",
+            "LastName": "Papachristidis",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pedro",
+            "LastName": "Morais",
+            "Initials": "P"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Konstantinos C",
+            "LastName": "Theodoropoulos",
+            "Initials": "KC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jaime C",
+            "LastName": "Fonseca",
+            "Initials": "JC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mark J",
+            "LastName": "Monaghan",
+            "Initials": "MJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joao L",
+            "LastName": "Vilaca",
+            "Initials": "JL"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jan",
+            "LastName": "Dhooge",
+            "Initials": "J"
+          }
+        ]
+      },
+      "ArticleTitle": "Fully Automatic 3-D-TEE Segmentation for the Planning of Transcatheter Aortic Valve Implantation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2617401"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000601",
+            "MajorTopicYN": "Y",
+            "content": "surgery"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001021",
+          "MajorTopicYN": "N",
+          "content": "Aortic Valve"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019560",
+          "MajorTopicYN": "N",
+          "content": "Echocardiography, Three-Dimensional"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017548",
+          "MajorTopicYN": "N",
+          "content": "Echocardiography, Transesophageal"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000069550",
+        "MajorTopicYN": "N",
+        "content": "Machine Learning"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011300",
+          "MajorTopicYN": "N",
+          "content": "Preoperative Care"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D025321",
+          "MajorTopicYN": "N",
+          "content": "Surgery, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D065467",
+          "MajorTopicYN": "N",
+          "content": "Transcatheter Aortic Valve Replacement"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113205
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113205,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2617401",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

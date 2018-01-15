@@ -1,0 +1,542 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2016,
+      "Day": "07"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1004755"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 MH071533",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 MH016804",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P30CA047904",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NHGRI NIH HHS",
+            "Country": "United States",
+            "GrantID": "HG007358",
+            "Acronym": "HG"
+          },
+          {
+            "Agency": "NIA NIH HHS",
+            "Country": "United States",
+            "GrantID": "AG05133",
+            "Acronym": "AG"
+          },
+          {
+            "Agency": "NIA NIH HHS",
+            "Country": "United States",
+            "GrantID": "P50 AG005133",
+            "Acronym": "AG"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "MH16804",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NIMH NIH HHS",
+            "Country": "United States",
+            "GrantID": "K01 MH107756",
+            "Acronym": "MH"
+          },
+          {
+            "Agency": "NIA NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 AG027224",
+            "Acronym": "AG"
+          },
+          {
+            "Agency": "BLRD VA",
+            "Country": "United States",
+            "GrantID": "I01 BX000452",
+            "Acronym": "BX"
+          },
+          {
+            "Agency": "NIA NIH HHS",
+            "Country": "United States",
+            "GrantID": "AG027224",
+            "Acronym": "AG"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D052061",
+          "content": "Research Support, N.I.H., Extramural"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 12
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Biological networks provide additional information for the analysis of human diseases, beyond the traditional analysis that focuses on single variables. Gaussian graphical model (GGM), a probability model that characterizes the conditional dependence structure of a set of random variables by a graph, has wide applications in the analysis of biological networks, such as inferring interaction or comparing differential networks. However, existing approaches are either not statistically rigorous or are inefficient for high-dimensional data that include tens of thousands of variables for making inference. In this study, we propose an efficient algorithm to implement the estimation of GGM and obtain p-value and confidence interval for each edge in the graph, based on a recent proposal by Ren et al., 2015. Through simulation studies, we demonstrate that the algorithm is faster by several orders of magnitude than the current implemented algorithm for Ren et al. without losing any accuracy. Then, we apply our algorithm to two real data sets: transcriptomic data from a study of childhood asthma and proteomic data from a study of Alzheimer's disease. We estimate the global gene or protein interaction networks for the disease and healthy samples. The resulting networks reveal interesting interactions and the differential networks between cases and controls show functional relevance to the diseases. In conclusion, we provide a computationally fast algorithm to implement a statistically sound procedure for constructing Gaussian graphical model and making inference with high-dimensional biological data. The algorithm has been implemented in an R package named \"FastGGM\"."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ting",
+            "LastName": "Wang",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Division of Pulmonary Medicine, Allergy and Immunology; Department of Pediatrics, Children's Hospital of Pittsburgh of UPMC, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhao",
+            "LastName": "Ren",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ying",
+            "LastName": "Ding",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of Pittsburgh Graduate School of Public Health, Pittsburgh, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhou",
+            "LastName": "Fang",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of Pittsburgh Graduate School of Public Health, Pittsburgh, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhe",
+            "LastName": "Sun",
+            "Initials": "Z",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of Pittsburgh Graduate School of Public Health, Pittsburgh, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew L",
+            "LastName": "MacDonald",
+            "Initials": "ML",
+            "AffiliationInfo": {"Affiliation": "Department of Psychiatry, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert A",
+            "LastName": "Sweet",
+            "Initials": "RA",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Psychiatry, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."},
+              {"Affiliation": "Department of Neurology, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."},
+              {"Affiliation": "VISN 4 Mental Illness Research, Education and Clinical Center (MIRECC), VA Pittsburgh Healthcare System, Pittsburgh, Pennsylvania, United States of America."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jieru",
+            "LastName": "Wang",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Division of Pulmonary Medicine, Allergy and Immunology; Department of Pediatrics, Children's Hospital of Pittsburgh of UPMC, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wei",
+            "LastName": "Chen",
+            "Initials": "W",
+            "AffiliationInfo": [
+              {"Affiliation": "Division of Pulmonary Medicine, Allergy and Immunology; Department of Pediatrics, Children's Hospital of Pittsburgh of UPMC, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."},
+              {"Affiliation": "Department of Biostatistics, University of Pittsburgh Graduate School of Public Health, Pittsburgh, Pennsylvania, United States of America."},
+              {"Affiliation": "Department of Human Genetics, University of Pittsburgh Graduate School of Public Health, Pittsburgh, Pennsylvania, United States of America."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "FastGGM: An Efficient Algorithm for the Inference of Gaussian Graphical Model in Biological Networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1004755"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 12,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2016,
+      "Day": 13
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          },
+          {
+            "UI": "Q000378",
+            "MajorTopicYN": "N",
+            "content": "metabolism"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001249",
+          "MajorTopicYN": "N",
+          "content": "Asthma"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D020869",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Profiling"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D053263",
+          "MajorTopicYN": "N",
+          "content": "Gene Regulatory Networks"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "N",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D016011",
+        "MajorTopicYN": "N",
+        "content": "Normal Distribution"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": "09"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Mach Learn Res. 2012 Apr;13:1059-1062",
+        "PMID": {
+          "Version": 1,
+          "content": 26834510
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2008 Jan;121(1):5-10; quiz 11-2",
+        "PMID": {
+          "Version": 1,
+          "content": 18036647
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Stat Softw. 2010;33(1):1-22",
+        "PMID": {
+          "Version": 1,
+          "content": 20808728
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2004 Feb;5(2):101-13",
+        "PMID": {
+          "Version": 1,
+          "content": 14735121
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biol Psychiatry. 2015 Jun 1;77(11):959-68",
+        "PMID": {
+          "Version": 1,
+          "content": 25433904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 Dec 12;20(18):3565-74",
+        "PMID": {
+          "Version": 1,
+          "content": 15284096
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013;14 Suppl 13:S8",
+        "PMID": {
+          "Version": 1,
+          "content": 24267288
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Oct 4;102(40):14410-5",
+        "PMID": {
+          "Version": 1,
+          "content": 16186482
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Allergy Asthma Immunol Res. 2015 Mar;7(2):106-17",
+        "PMID": {
+          "Version": 1,
+          "content": 25729617
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2012;8:565",
+        "PMID": {
+          "Version": 1,
+          "content": 22252388
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Appl Stat. 2011 Dec;5(4):2630-2650",
+        "PMID": {
+          "Version": 1,
+          "content": 22905077
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Toxicol In Vitro. 2004 Jun;18(3):377-91",
+        "PMID": {
+          "Version": 1,
+          "content": 15046786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Mar15;21(6):754-64",
+        "PMID": {
+          "Version": 1,
+          "content": 15479708
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2014 Dec 7;362:53-61",
+        "PMID": {
+          "Version": 1,
+          "content": 24726980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Multivar Anal. 2013 Apr 1;116:365-381",
+        "PMID": {
+          "Version": 1,
+          "content": 23687392
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Mar 15;28(6):815-22",
+        "PMID": {
+          "Version": 1,
+          "content": 22271267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Inform. 2014 Sep 21;13(Suppl 2):39-48",
+        "PMID": {
+          "Version": 1,
+          "content": 25288878
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2013 Apr;23(4):716-26",
+        "PMID": {
+          "Version": 1,
+          "content": 23345460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2003 Jan 1;31(1):68-71",
+        "PMID": {
+          "Version": 1,
+          "content": 12519949
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Appl Stat. 2010;4(4):2024-2048",
+        "PMID": {
+          "Version": 1,
+          "content": 23946863
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4752261"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26872036
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2015,
+        "Day": 30,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26872036,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1004755",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-15-01634",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC4752261",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

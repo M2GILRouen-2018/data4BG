@@ -1,0 +1,276 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "57-70"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 24
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Nuclei segmentation is a common process for quantitative analysis of histopathological images. However, this process generally results in overlapping of nuclei due to the nature of images, the sample preparation and staining, and image acquisition processes as well as insufficiency of 2D histopathological images to represent 3D characteristics of tissues. We present a novel algorithm to split overlapped nuclei."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The histopathological images are initially segmented by K-Means segmentation algorithm. Then, nuclei cluster are converted to binary image. The overlapping is detected by applying threshold area value to nuclei in the binary image. The splitting algorithm is applied to the overlapped nuclei. In first stage of splitting, circles are drawn on overlapped nuclei. The radius of the circles is calculated by using circle area formula, and each pixel's coordinates of overlapped nuclei are selected as center coordinates for each circle. The pixels in the circle that contains maximum number of intersected pixels in both the circle and the overlapped nuclei are removed from the overlapped nuclei, and the filled circle labeled as a nucleus."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "The algorithm has been tested on histopathological images of healthy and damaged kidney tissues and compared with the results provided by an expert and three related studies. The results demonstrated that the proposed splitting algorithm can segment the overlapping nuclei with accuracy of 84%."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "The study presents a novel algorithm splitting the overlapped nuclei in histopathological images and provides more accurate cell counting in histopathological analysis. Furthermore, the proposed splitting algorithm has the potential to be used in different fields to split any overlapped circular patterns."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Faruk",
+            "LastName": "Serin",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, Faculty of Engineering, Munzur University, Tunceli, Turkey. Electronic address: bmfarukserin@gmail.com."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Metin",
+            "LastName": "Erturkler",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, Faculty of Engineering, Inonu University, Malatya, Turkey."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mehmet",
+            "LastName": "Gul",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Embryology and Histology, Faculty of Medicine, Inonu University, Malatya, Turkey."}
+          }
+        ]
+      },
+      "ArticleTitle": "A novel overlapped nuclei splitting algorithm for histopathological images.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(17)30227-4"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.08.010"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 151,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "CAD"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Cell nuclei counting"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Histopathological analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Nuclei detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Nuclei splitting"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Overlapped nuclei"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {"DescriptorName": {
+        "UI": "D002467",
+        "MajorTopicYN": "Y",
+        "content": "Cell Nucleus"
+      }},
+      {"DescriptorName": {
+        "UI": "D006653",
+        "MajorTopicYN": "N",
+        "content": "Histology"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "Y",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "Y",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D007668",
+          "MajorTopicYN": "N",
+          "content": "Kidney"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D010336",
+        "MajorTopicYN": "N",
+        "content": "Pathology"
+      }},
+      {"DescriptorName": {
+        "UI": "D017207",
+        "MajorTopicYN": "N",
+        "content": "Rats, Sprague-Dawley"
+      }},
+      {"DescriptorName": {
+        "UI": "D013194",
+        "MajorTopicYN": "N",
+        "content": "Staining and Labeling"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28947006
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28947006,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(17)30227-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.08.010",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

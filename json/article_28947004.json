@@ -1,0 +1,242 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "33-43"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Elsevier B.V. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVE",
+            "content": "Registration is a critical step in group analysis of diffusion weighted images (DWI). Image registration is also necessary for construction of white matter atlases that can be used to identify white matter changes. A challenge in the registration of DWI is that the orientation of the fiber bundles should be considered in the process, making their registration more challenging than that of the scalar images. Most of the current registration methods use a model of diffusion profile, limiting the method to the used model."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "We propose a model-independent method for DWI registration. The proposed method uses a multi-level free-form deformation (FFD), a sparse similarity measure, and a dictionary. We also propose a synthesis K-SVD algorithm for sparse interpolation of images during the registration process. We utilize two dictionaries: analysis dictionary is learned based on diffusion signals while synthesis dictionary is generated based on image patches. The proposed multi-level approach registers anatomical structures at different scales. T-test is used to determine the significance of the differences between different methods."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "We have shown the efficiency of the proposed approach using real data. The method results in smaller generalized fractional anisotropy (GFA) root mean square (RMS) error (0.05 improvements, p\u202f=\u20090.0237) and angular error (0.37\u202f° improvement, p\u202f=\u20090.0330) compared to the large deformation diffeomorphic metric mapping (LDDMM) method and advanced normalization tools (ANTs)."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "Sparse registration of diffusion signals enables registration of diffusion weighted images without using a diffusion model."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Maryam",
+            "LastName": "Afzali",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Biomedical Signal and Image Processing Laboratory (BiSIPL), Sharif University of Technology, Tehran, Iran. Electronic address: afzali@ee.sharif.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Emad",
+            "LastName": "Fatemizadeh",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Biomedical Signal and Image Processing Laboratory (BiSIPL), Sharif University of Technology, Tehran, Iran. Electronic address: fatemizadeh@sharif.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hamid",
+            "LastName": "Soltanian-Zadeh",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Control and Intelligent Processing Center of Excellence (CIPCE), School of Electrical and Computer Engineering, University of Tehran, Tehran, Iran; School of Cognitive Sciences, Institute for Research in Fundamental Sciences (IPM), Tehran, Iran; Image Analysis Laboratory, Departments of Radiology and Research Administration, Henry Ford Health System, Detroit, Michigan, USA. Electronic address: hszadeh@ut.ac.ir."}
+          }
+        ]
+      },
+      "ArticleTitle": "Sparse registration of diffusion weighted images.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30400-X"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2017.08.003"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 151,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Diffusion weighted imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image interpolation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image registration"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "K-SVD algorithm"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Sparse representation"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D001921",
+          "MajorTopicYN": "N",
+          "content": "Brain"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D038524",
+        "MajorTopicYN": "Y",
+        "content": "Diffusion Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007089",
+        "MajorTopicYN": "Y",
+        "content": "Image Enhancement"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28947004
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2016,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "07",
+        "Year": 2017,
+        "Day": 21,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28947004,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30400-X",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2017.08.003",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

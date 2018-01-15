@@ -1,0 +1,144 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0045377",
+      "Country": "United States",
+      "ISSNLinking": "0020-9996",
+      "MedlineTA": "Invest Radiol"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "349-359"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "OBJECTIVES",
+          "content": "The performance of metal artifact reduction (MAR) methods in x-ray computed tomography (CT) suffers from incorrect identification of metallic implants in the artifact-affected volumetric images. The aim of this study was to investigate potential improvements of state-of-the-art MAR methods by using prior information on geometry and material of the implant."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "MATERIALS AND METHODS",
+          "content": "The influence of a novel prior knowledge-based segmentation (PS) compared with threshold-based segmentation (TS) on 2 MAR methods (linear interpolation [LI] and normalized-MAR [NORMAR]) was investigated. The segmentation is the initial step of both MAR methods. Prior knowledge-based segmentation uses 3-dimensional registered computer-aided design (CAD) data as prior knowledge to estimate the correct position and orientation of the metallic objects. Threshold-based segmentation uses an adaptive threshold to identify metal. Subsequently, for LI and NORMAR, the selected voxels are projected into the raw data domain to mark metal areas. Attenuation values in these areas are replaced by different interpolation schemes followed by a second reconstruction. Finally, the previously selected metal voxels are replaced by the metal voxels determined by PS or TS in the initial reconstruction. First, we investigated in an elaborate phantom study if the knowledge of the exact implant shape extracted from the CAD data provided by the manufacturer of the implant can improve the MAR result. Second, the leg of a human cadaver was scanned using a clinical CT system before and after the implantation of an artificial knee joint. The results were compared regarding segmentation accuracy, CT number accuracy, and the restoration of distorted structures."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The use of PS improved the efficacy of LI and NORMAR compared with TS. Artifacts caused by insufficient segmentation were reduced, and additional information was made available within the projection data. The estimation of the implant shape was more exact and not dependent on a threshold value. Consequently, the visibility of structures was improved when comparing the new approach to the standard method. This was further confirmed by improved CT value accuracy and reduced image noise."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The PS approach based on prior implant information provides image quality which is superior to TS-based MAR, especially when the shape of the metallic implant is complex. The new approach can be useful for improving MAR methods and dose calculations within radiation therapy based on the MAR corrected CT images."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Veikko",
+            "LastName": "Ruth",
+            "Initials": "V",
+            "AffiliationInfo": {"Affiliation": "From the *Institute of Medical Physics, University of Erlangen-Nürnberg, Germany; \u2020AB-CT - Advanced Breast-CT GmbH, Erlangen, Germany; and \u2021Institute of Radiology, University Hospital Erlangen, Erlangen, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel",
+            "LastName": "Kolditz",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christian",
+            "LastName": "Steiding",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Willi A",
+            "LastName": "Kalender",
+            "Initials": "WA"
+          }
+        ]
+      },
+      "ArticleTitle": "Metal Artifact Reduction in X-ray Computed Tomography Using Computer-Aided Design Data of Implants as Prior Information.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1097/RLI.0000000000000345"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 52,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Invest Radiol",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1536-0210"
+        },
+        "Title": "Investigative radiology"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": "02"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28106615
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28106615,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1097/RLI.0000000000000345",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

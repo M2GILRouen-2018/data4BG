@@ -1,0 +1,194 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "6166-6182"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "In functional MRI (fMRI), faster acquisition via undersampling of data can improve the spatial-temporal resolution trade-off and increase statistical robustness through increased degrees-of-freedom. High-quality reconstruction of fMRI data from undersampled measurements requires proper modeling of the data. We present an fMRI reconstruction approach based on modeling the fMRI signal as a sum of periodic and fixed rank components, for improved reconstruction from undersampled measurements."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The proposed approach decomposes the fMRI signal into a component which has a fixed rank and a component consisting of a sum of periodic signals which is sparse in the temporal Fourier domain. Data reconstruction is performed by solving a constrained problem that enforces a fixed, moderate rank on one of the components, and a limited number of temporal frequencies on the other. Our approach is coined PEAR - PEriodic And fixed Rank separation for fast fMRI."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Experimental results include purely synthetic simulation, a simulation with real timecourses and retrospective undersampling of a real fMRI dataset. Evaluation was performed both quantitatively and visually versus ground truth, comparing PEAR to two additional recent methods for fMRI reconstruction from undersampled measurements. Results demonstrate PEAR's improvement in estimating the timecourses and activation maps versus the methods compared against at acceleration ratios of R = 8,10.66 (for simulated data) and R = 6.66,10 (for real data)."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSIONS",
+            "content": "This paper presents PEAR, an undersampled fMRI reconstruction approach based on decomposing the fMRI signal to periodic and fixed rank components. PEAR results in reconstruction with higher fidelity than when using a fixed-rank based model or a conventional Low-rank + Sparse algorithm. We have shown that splitting the functional information between the components leads to better modeling of fMRI, over state-of-the-art methods."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lior",
+            "LastName": "Weizman",
+            "Initials": "L",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Electrical Engineering, Technion - Israel Institue of Technology, Haifa, Israel."},
+              {"Affiliation": "FMRIB Centre, University of Oxford, Oxford, UK."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Karla L",
+            "LastName": "Miller",
+            "Initials": "KL",
+            "AffiliationInfo": {"Affiliation": "FMRIB Centre, University of Oxford, Oxford, UK."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yonina C",
+            "LastName": "Eldar",
+            "Initials": "YC",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Technion - Israel Institue of Technology, Haifa, Israel."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mark",
+            "LastName": "Chiew",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "FMRIB Centre, University of Oxford, Oxford, UK."}
+          }
+        ]
+      },
+      "ArticleTitle": "PEAR: PEriodic And fixed Rank separation for fast fMRI.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12599"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 12,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "compressed sensing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "fMRI"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "low rank"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28945924
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 12,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28945924,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12599",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,505 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D012313",
+        "content": "RNA"
+      },
+      "RegistryNumber": "63231-63-0"
+    }},
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005851"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        "We propose a novel method and software tool, Strawberry, for transcript reconstruction and quantification from RNA-Seq data under the guidance of genome alignment and independent of gene annotation. Strawberry consists of two modules: assembly and quantification. The novelty of Strawberry is that the two modules use different optimization frameworks but utilize the same data graph structure, which allows a highly efficient, expandable and accurate algorithm for dealing large data. The assembly module parses aligned reads into splicing graphs, and uses network flow algorithms to select the most likely transcripts. The quantification module uses a latent class model to assign read counts from the nodes of splicing graphs to transcripts. Strawberry simultaneously estimates the transcript abundances and corrects for sequencing bias through an EM algorithm. Based on simulations, Strawberry outperforms Cufflinks and StringTie in terms of both assembly and quantification accuracies. Under the evaluation of a real data set, the estimated transcript expression by Strawberry has the highest correlation with Nanostring probe counts, an independent experiment measure for transcript expression.",
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "AVAILABILITY",
+          "content": "Strawberry is written in C++14, and is available as open source software at https://github.com/ruolin/strawberry under the MIT license."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-9059-6335"
+            },
+            "ForeName": "Ruolin",
+            "LastName": "Liu",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computational Engineering, Iowa State University, Ames, Iowa, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-4973-5641"
+            },
+            "ForeName": "Julie",
+            "LastName": "Dickerson",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Computational Engineering, Iowa State University, Ames, Iowa, United States of America."}
+          }
+        ]
+      },
+      "ArticleTitle": "Strawberry: Fast and accurate genome-guided transcript reconstruction and quantification from RNA-Seq.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005851"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D023281",
+          "MajorTopicYN": "N",
+          "content": "Genomics"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000032",
+            "MajorTopicYN": "N",
+            "content": "analysis"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D012313",
+          "MajorTopicYN": "N",
+          "content": "RNA"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D016415",
+          "MajorTopicYN": "N",
+          "content": "Sequence Alignment"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017423",
+          "MajorTopicYN": "N",
+          "content": "Sequence Analysis, RNA"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "Y",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2016 May;34(5):525-7",
+        "PMID": {
+          "Version": 1,
+          "content": 27043002
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Jun;8(6):469-77",
+        "PMID": {
+          "Version": 1,
+          "content": 21623353
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2010 Jul;38(12):e131",
+        "PMID": {
+          "Version": 1,
+          "content": 20395217
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Jan;10(1):71-3",
+        "PMID": {
+          "Version": 1,
+          "content": 23160280
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Appl Stat. 2014 Mar;8(1):309-330",
+        "PMID": {
+          "Version": 1,
+          "content": 24795787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Aug 04;12:323",
+        "PMID": {
+          "Version": 1,
+          "content": 21816040
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2013 Mar;23(3):519-29",
+        "PMID": {
+          "Version": 1,
+          "content": 23204306
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2013 Apr 25;14(4):R36",
+        "PMID": {
+          "Version": 1,
+          "content": 23618408
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2013 Sep 26;501(7468):506-11",
+        "PMID": {
+          "Version": 1,
+          "content": 24037378
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Dec 16;15:364",
+        "PMID": {
+          "Version": 1,
+          "content": 25511303
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Jan;40(Database issue):D1202-10",
+        "PMID": {
+          "Version": 1,
+          "content": 22140109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Jan 1;29(1):15-21",
+        "PMID": {
+          "Version": 1,
+          "content": 23104886
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2015 Mar;33(3):290-5",
+        "PMID": {
+          "Version": 1,
+          "content": 25690850
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2010 May;28(5):511-5",
+        "PMID": {
+          "Version": 1,
+          "content": 20436464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Sep 1;30(17):2447-55",
+        "PMID": {
+          "Version": 1,
+          "content": 24813214
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Sep 1;31(17):2778-84",
+        "PMID": {
+          "Version": 1,
+          "content": 25926345
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Feb 15;26(4):493-500",
+        "PMID": {
+          "Version": 1,
+          "content": 20022975
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2015 Apr;12(4):357-60",
+        "PMID": {
+          "Version": 1,
+          "content": 25751142
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Dec;10(12):1185-91",
+        "PMID": {
+          "Version": 1,
+          "content": 24185836
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Interface. 2015;8(4):437-445",
+        "PMID": {
+          "Version": 1,
+          "content": 27239250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Sci. 2011 Feb;26(1):null",
+        "PMID": {
+          "Version": 1,
+          "content": 24307754
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2013 Dec;10 (12 ):1177-84",
+        "PMID": {
+          "Version": 1,
+          "content": 24185837
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2011;12(3):R22",
+        "PMID": {
+          "Version": 1,
+          "content": 21410973
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013;14 Suppl 5:S14",
+        "PMID": {
+          "Version": 1,
+          "content": 23734605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 Nov 1;40(20):10073-83",
+        "PMID": {
+          "Version": 1,
+          "content": 22962361
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2002;18 Suppl 1:S181-8",
+        "PMID": {
+          "Version": 1,
+          "content": 12169546
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2014 Jun 30;15(6):R86",
+        "PMID": {
+          "Version": 1,
+          "content": 24981968
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Biol. 2011 Nov;18(11):1693-707",
+        "PMID": {
+          "Version": 1,
+          "content": 21951053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013;14 Suppl 5:S15",
+        "PMID": {
+          "Version": 1,
+          "content": 23734627
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2016 Dec;34(12 ):1287-1291",
+        "PMID": {
+          "Version": 1,
+          "content": 27669167
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 1996 Jun 15;34(3):353-67",
+        "PMID": {
+          "Version": 1,
+          "content": 8786136
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 May;40(10):e72",
+        "PMID": {
+          "Version": 1,
+          "content": 22323520
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014;15 Suppl 9:S5",
+        "PMID": {
+          "Version": 1,
+          "content": 25252805
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29176847
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29176847,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005851",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-00853",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5720828",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

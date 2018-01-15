@@ -1,0 +1,219 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101249582,
+      "Country": "Germany",
+      "MedlineTA": "Med Image Comput Comput Assist Interv"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2010,
+      "Day": "07"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "222-9"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We propose a recursive Bayesian model for the delineation of coronary arteries from 3D CT angiograms (cardiac CTA) and discuss the use of discrete minimal path techniques as an efficient optimization scheme for the propagation of model realizations on a discrete graph. Design issues such as the definition of a suitable accumulative metric are analyzed in the context of our probabilistic formulation. Our approach jointly optimizes the vascular centerline and associated radius on a 4D space+scale graph. It employs a simple heuristic scheme to dynamically limit scale-space exploration for increased computational performance. It incorporates prior knowledge on radius variations and derives the local data likelihood from a multiscale, oriented gradient flux-based feature. From minimal cost path techniques, it inherits practical properties such as computational efficiency and workflow versatility. We quantitatively evaluated a two-point interactive implementation on a large and varied cardiac CTA database. Additionally, results from the Rotterdam Coronary Artery Algorithm Evaluation Framework are provided for comparison with existing techniques. The scores obtained are excellent (97.5% average overlap with ground truth delineated by experts) and demonstrate the high potential of the method in terms of robustness to anomalies and poor image quality."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Lesage",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Siemens Corporate Research, Imaging and Visualization dept., Princeton NJ, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elsa D",
+            "LastName": "Angelini",
+            "Initials": "ED"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Isabelle",
+            "LastName": "Bloch",
+            "Initials": "I"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gareth",
+            "LastName": "Funka-Lea",
+            "Initials": "G"
+          }
+        ]
+      },
+      "ArticleTitle": "Bayesian maximal paths for coronary artery segmentation from 3D CT angiograms.",
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Pt 1",
+          "Volume": 12,
+          "PubDate": {"Year": 2009},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Med Image Comput Comput Assist Interv",
+        "Title": "Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "04",
+      "Year": 2010,
+      "Day": 29
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D003324",
+          "MajorTopicYN": "N",
+          "content": "Coronary Artery Disease"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 20425991
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 4,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2009,
+        "Minute": 0,
+        "Hour": 0,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2010,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": {
+      "content": 20425991,
+      "IdType": "pubmed"
+    }},
+    "PublicationStatus": "ppublish"
+  }
+}}

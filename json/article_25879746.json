@@ -1,0 +1,402 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9518021,
+      "Country": "United States",
+      "ISSNLinking": "1088-9051",
+      "MedlineTA": "Genome Res"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "491-499"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 Smith et al.; Published by Cold Spring Harbor Laboratory Press.",
+        "AbstractText": "Unique Molecular Identifiers (UMIs) are random oligonucleotide barcodes that are increasingly used in high-throughput sequencing experiments. Through a UMI, identical copies arising from distinct molecules can be distinguished from those arising through PCR amplification of the same molecule. However, bioinformatic methods to leverage the information from UMIs have yet to be formalized. In particular, sequencing errors in the UMI sequence are often ignored or else resolved in an ad hoc manner. We show that errors in the UMI sequence are common and introduce network-based methods to account for these errors when identifying PCR duplicates. Using these methods, we demonstrate improved quantification accuracy both under simulated conditions and real iCLIP and single-cell RNA-seq data sets. Reproducibility between iCLIP replicates and single-cell RNA-seq clustering are both improved using our proposed network-based method, demonstrating the value of properly accounting for errors in UMIs. These methods are implemented in the open source UMI-tools software package."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-0697-8777"
+            },
+            "ForeName": "Tom",
+            "LastName": "Smith",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Computational Genomics Analysis and Training Programme, MRC WIMM Centre for Computational Biology, University of Oxford, Oxford OX3 9DS, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-7720-0447"
+            },
+            "ForeName": "Andreas",
+            "LastName": "Heger",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Computational Genomics Analysis and Training Programme, MRC WIMM Centre for Computational Biology, University of Oxford, Oxford OX3 9DS, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-5038-0190"
+            },
+            "ForeName": "Ian",
+            "LastName": "Sudbery",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Department of Molecular Biology and Biotechnology, University of Sheffield, Sheffield S10 2TN, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "UMI-tools: modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1101/gr.209601.116"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 3,
+          "Volume": 27,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Genome Res.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1549-5469"
+        },
+        "Title": "Genome research"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 21
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem Genet. 2007 Dec;45(11-12):761-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17955361
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2015 Aug 05;16:578",
+        "PMID": {
+          "Version": 1,
+          "content": 26238335
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2011 Nov 20;9(1):72-4",
+        "PMID": {
+          "Version": 1,
+          "content": 22101854
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Jan 24;109(4):1347-52",
+        "PMID": {
+          "Version": 1,
+          "content": 22232676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2015 Apr;33(4):395-401",
+        "PMID": {
+          "Version": 1,
+          "content": 25751057
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2016 May;48(5):488-96",
+        "PMID": {
+          "Version": 1,
+          "content": 27064255
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Struct Mol Biol. 2010 Jul;17(7):909-15",
+        "PMID": {
+          "Version": 1,
+          "content": 20601959
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Commun Signal. 2008 Jun;2(1-2):25-45",
+        "PMID": {
+          "Version": 1,
+          "content": 18766469
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Neurosci. 2011 Apr;14(4):452-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21358640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 May 21;161(5):1187-201",
+        "PMID": {
+          "Version": 1,
+          "content": 26000487
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2014 Feb;11(2):163-6",
+        "PMID": {
+          "Version": 1,
+          "content": 24363023
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Aug 1;30(15):2114-20",
+        "PMID": {
+          "Version": 1,
+          "content": 24695404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2015 May 21;161(5):1202-14",
+        "PMID": {
+          "Version": 1,
+          "content": 26000488
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Sep 4;109(36):14508-13",
+        "PMID": {
+          "Version": 1,
+          "content": 22853953
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2011;6(12):e27310",
+        "PMID": {
+          "Version": 1,
+          "content": 22194782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2016 Mar 11;17 :125",
+        "PMID": {
+          "Version": 1,
+          "content": 26968756
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Med. 2015 Nov 20;7:121",
+        "PMID": {
+          "Version": 1,
+          "content": 26589402
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2009;10(3):R25",
+        "PMID": {
+          "Version": 1,
+          "content": 19261174
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2015 Mar;105(3):150-8",
+        "PMID": {
+          "Version": 1,
+          "content": 25543032
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Mar 31;43(6):e37",
+        "PMID": {
+          "Version": 1,
+          "content": 25586220
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2011;12(2):R18",
+        "PMID": {
+          "Version": 1,
+          "content": 21338519
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2015 Jan 16;16:10",
+        "PMID": {
+          "Version": 1,
+          "content": 25592313
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2014 Feb;15(2):121-32",
+        "PMID": {
+          "Version": 1,
+          "content": 24434847
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2003 Apr 21;221(4):615-24",
+        "PMID": {
+          "Version": 1,
+          "content": 12713944
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genes Dev. 2016 Mar 1;30(5):553-66",
+        "PMID": {
+          "Version": 1,
+          "content": 26944680
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Jul 15;25(14):1754-60",
+        "PMID": {
+          "Version": 1,
+          "content": 19451168
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2015 Jun 06;16:120",
+        "PMID": {
+          "Version": 1,
+          "content": 26047807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2013 Aug 13;110(33):13463-8",
+        "PMID": {
+          "Version": 1,
+          "content": 23898164
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods. 2013 Sep 1;63(1):41-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23816787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Virol J. 2015 Apr 09;12:55",
+        "PMID": {
+          "Version": 1,
+          "content": 25879746
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28100584
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 11,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 17,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28100584,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "gr.209601.116",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1101/gr.209601.116",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5340976",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,536 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101238922,
+      "Country": "United States",
+      "ISSNLinking": "1553-734X",
+      "MedlineTA": "PLoS Comput Biol"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e1005744"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Much laboratory work has been carried out to determine the gene regulatory network (GRN) that results in plant cells becoming flowers instead of leaves. However, this also involves the spatial distribution of different cell types, and poses the question of whether alternative networks could produce the same set of observed results. This issue has been addressed here through a survey of the published intercellular distribution of expressed regulatory genes and techniques both developed and applied to Boolean network models. This has uncovered a large number of models which are compatible with the currently available data. An exhaustive exploration had some success but proved to be unfeasible due to the massive number of alternative models, so genetic programming algorithms have also been employed. This approach allows exploration on the basis of both data-fitting criteria and parsimony of the regulatory processes, ruling out biologically unrealistic mechanisms. One of the conclusions is that, despite the multiplicity of acceptable models, an overall structure dominates, with differences mostly in alternative fine-grained regulatory interactions. The overall structure confirms the known interactions, including some that were not present in the training set, showing that current data are sufficient to determine the overall structure of the GRN. The model stresses the importance of relative spatial location, through explicit references to this aspect. This approach also provides a quantitative indication of how likely some regulatory interactions might be, and can be applied to the study of other developmental transitions."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-3489-5714"
+            },
+            "ForeName": "Jean-Louis",
+            "LastName": "Dinh",
+            "Initials": "JL",
+            "AffiliationInfo": {"Affiliation": "Centre for Plant Integrative Biology, School of Biosciences, University of Nottingham, Sutton Bonington, United Kingdom."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Etienne",
+            "LastName": "Farcot",
+            "Initials": "E",
+            "AffiliationInfo": [
+              {"Affiliation": "Centre for Plant Integrative Biology, School of Biosciences, University of Nottingham, Sutton Bonington, United Kingdom."},
+              {"Affiliation": "School of Mathematical Sciences, University of Nottingham, Nottingham, United Kingdom."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-5862-8296"
+            },
+            "ForeName": "Charlie",
+            "LastName": "Hodgman",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Centre for Plant Integrative Biology, School of Biosciences, University of Nottingham, Sutton Bonington, United Kingdom."}
+          }
+        ]
+      },
+      "ArticleTitle": "The logic of the floral transition: Reverse-engineering the switch controlling the identity of lateral organs.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pcbi.1005744"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS Comput. Biol.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1553-7358"
+        },
+        "Title": "PLoS computational biology"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D035264",
+          "MajorTopicYN": "N",
+          "content": "Flowers"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D020869",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Profiling"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D018506",
+          "MajorTopicYN": "N",
+          "content": "Gene Expression Regulation, Plant"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D053263",
+          "MajorTopicYN": "N",
+          "content": "Gene Regulatory Networks"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005818",
+        "MajorTopicYN": "N",
+        "content": "Genetic Engineering"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D063245",
+          "MajorTopicYN": "N",
+          "content": "Plant Development"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D018515",
+          "MajorTopicYN": "N",
+          "content": "Plant Leaves"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 18
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2007 Jun 19;17(12):1050-4",
+        "PMID": {
+          "Version": 1,
+          "content": 17540569
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 1994 Jan 14;76(1):131-43",
+        "PMID": {
+          "Version": 1,
+          "content": 7506995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2011 Dec;23(12):4318-33",
+        "PMID": {
+          "Version": 1,
+          "content": 22198150
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2008;3(10):e3553",
+        "PMID": {
+          "Version": 1,
+          "content": 18958283
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Syst Biol. 2011 Jul 05;7:508",
+        "PMID": {
+          "Version": 1,
+          "content": 21734647
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dev Cell. 2013 Mar 25;24(6):612-22",
+        "PMID": {
+          "Version": 1,
+          "content": 23537632
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2007 Oct;3(10):1871-78",
+        "PMID": {
+          "Version": 1,
+          "content": 17922568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2002 Nov 14;420(6912):206-10",
+        "PMID": {
+          "Version": 1,
+          "content": 12432404
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2003 Nov 20;426(6964):255-60",
+        "PMID": {
+          "Version": 1,
+          "content": 14628043
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2009 Aug 21;138(4):738-49",
+        "PMID": {
+          "Version": 1,
+          "content": 19703399
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2000 Apr;12(4):507-18",
+        "PMID": {
+          "Version": 1,
+          "content": 10760240
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2015 Feb 26;10(2):e0116973",
+        "PMID": {
+          "Version": 1,
+          "content": 25719734
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2007 Mar;19(3):767-78",
+        "PMID": {
+          "Version": 1,
+          "content": 17369370
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Plant. 2009 Jul;2(4):628-42",
+        "PMID": {
+          "Version": 1,
+          "content": 19825644
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 1992 May 29;69(5):843-59",
+        "PMID": {
+          "Version": 1,
+          "content": 1350515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2004 Nov;16(11):2923-39",
+        "PMID": {
+          "Version": 1,
+          "content": 15486106
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 1997 Jul;9(7):1067-1076",
+        "PMID": {
+          "Version": 1,
+          "content": 12237376
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1992 Nov 19;360(6401):273-7",
+        "PMID": {
+          "Version": 1,
+          "content": 1359429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2000 Jul 13;406(6792):188-92",
+        "PMID": {
+          "Version": 1,
+          "content": 10910359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1995 Oct 12;377(6549):522-4",
+        "PMID": {
+          "Version": 1,
+          "content": 7566148
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2012 Mar 6;109(10):4002-7",
+        "PMID": {
+          "Version": 1,
+          "content": 22345559
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2003 Mar;33(5):867-74",
+        "PMID": {
+          "Version": 1,
+          "content": 12609028
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2004 Aug;167(4):1721-37",
+        "PMID": {
+          "Version": 1,
+          "content": 15342511
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Development. 1997 Oct;124(19):3835-44",
+        "PMID": {
+          "Version": 1,
+          "content": 9367439
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Plant Sci. 1999 Feb;4(2):64-70",
+        "PMID": {
+          "Version": 1,
+          "content": 10234275
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2005 Aug 12;309(5737):1056-9",
+        "PMID": {
+          "Version": 1,
+          "content": 16099980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Syst Biol. 2009 Sep 28;3:98",
+        "PMID": {
+          "Version": 1,
+          "content": 19785753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Theor Biol Med Model. 2006 Mar 16;3:13",
+        "PMID": {
+          "Version": 1,
+          "content": 16542429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1996 Nov 7;384(6604):59-62",
+        "PMID": {
+          "Version": 1,
+          "content": 8900276
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 1995 Oct 12;377(6549):495-500",
+        "PMID": {
+          "Version": 1,
+          "content": 7566146
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Development. 2009 Oct;136(20):3379-91",
+        "PMID": {
+          "Version": 1,
+          "content": 19783733
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2013 Mar;25(3):820-33",
+        "PMID": {
+          "Version": 1,
+          "content": 23543784
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2010 Apr 30;141(3):550, 550.e1-2",
+        "PMID": {
+          "Version": 1,
+          "content": 20434991
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2010 Apr 2;328(5974):85-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20360106
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28931004
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28931004,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pcbi.1005744",
+        "IdType": "doi"
+      },
+      {
+        "content": "PCOMPBIOL-D-17-00204",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5624648",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

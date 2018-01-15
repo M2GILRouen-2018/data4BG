@@ -1,0 +1,120 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9882735,
+      "Country": "United States",
+      "ISSNLinking": "0885-3010",
+      "MedlineTA": "IEEE Trans Ultrason Ferroelectr Freq Control"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Eigen-filters with attenuation response adapted to clutter statistics in color flow imaging (CFI) have shown improved flow detection sensitivity in the presence of tissue motion. Nevertheless, its practical adoption in clinical use is not straightforward due to the high computational cost for solving eigen-decompositions. Here, we provide a pedagogical description of how a real-time computing framework for eigen-based clutter filtering can be developed through a single-instruction, multiple data (SIMD) computing approach that can be implemented on a graphical processing unit (GPU). Emphasis is placed on the single-ensemble-based eigen-filtering approach (Hankel-SVD) since it is algorithmically compatible with GPU-based SIMD computing. The key algebraic principles and the corresponding SIMD algorithm are explained, and annotations on how such algorithm can be rationally implemented on the GPU are presented. Real-time efficacy of our framework was experimentally investigated on a single GPU device (GTX Titan X), and the computing throughput for varying scan depths and slow-time ensemble lengths were studied. Using our eigenprocessing framework, real-time video-range throughput (24 fps) can be attained for CFI frames with full-view in azimuth direction (128 scanlines), up to a scan depth of 5 cm (λ pixel axial spacing) for slow-time ensemble length of 16 samples. The corresponding CFI image frames, with respect to the ones derived from non-adaptive polynomial regression clutter filtering, yielded enhanced flow detection sensitivity in vivo, as demonstrated in a carotid imaging case example. These findings indicate that GPU-enabled eigen-based clutter filtering can improve CFI flow detection performance in real time."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adrian",
+            "LastName": "Chee",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Billy",
+            "LastName": "Yiu",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alfred",
+            "LastName": "Yu",
+            "Initials": "A"
+          }
+        ]
+      },
+      "ArticleTitle": "A GPU-Parallelized Eigen-Based Clutter Filter Framework for Ultrasound Color Flow Imaging.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TUFFC.2016.2606598"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2016,
+            "Day": "07"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Ultrason Ferroelectr Freq Control",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1525-8955"
+        },
+        "Title": "IEEE transactions on ultrasonics, ferroelectrics, and frequency control"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113369
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113369,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TUFFC.2016.2606598",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

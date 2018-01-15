@@ -1,0 +1,299 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9100529,
+      "Country": "United States",
+      "ISSNLinking": "0897-1889",
+      "MedlineTA": "J Digit Imaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "08",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Electronic medical record (EMR) systems provide easy access to radiology reports and offer great potential to support quality improvement efforts and clinical research. Harnessing the full potential of the EMR requires scalable approaches such as natural language processing (NLP) to convert text into variables used for evaluation or analysis. Our goal was to determine the feasibility of using NLP to identify patients with Type 1 Modic endplate changes using clinical reports of magnetic resonance (MR) imaging examinations of the spine. Identifying patients with Type 1 Modic change who may be eligible for clinical trials is important as these findings may be important targets for intervention. Four annotators identified all reports that contained Type 1 Modic change, using N = 458 randomly selected lumbar spine MR reports. We then implemented a rule-based NLP algorithm in Java using regular expressions. The prevalence of Type 1 Modic change in the annotated dataset was 10%. Results were recall (sensitivity) 35/50 = 0.70 (95% confidence interval (C.I.) 0.52-0.82), specificity 404/408 = 0.99 (0.97-1.0), precision (positive predictive value) 35/39 = 0.90 (0.75-0.97), negative predictive value 404/419 = 0.96 (0.94-0.98), and F1-score 0.79 (0.43-1.0). Our evaluation shows the efficacy of rule-based NLP approach for identifying patients with Type 1 Modic change if the emphasis is on identifying only relevant cases with low concern regarding false negatives. As expected, our results show that specificity is higher than recall. This is due to the inherent difficulty of eliciting all possible keywords given the enormous variability of lumbar spine reporting, which decreases recall, while availability of good negation algorithms improves specificity."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hannu T",
+            "LastName": "Huhdanpaa",
+            "Initials": "HT",
+            "AffiliationInfo": {"Affiliation": "Radia, Inc., Lynwood, WA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "W Katherine",
+            "LastName": "Tan",
+            "Initials": "WK",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biostatistics, University of Washington, Seattle, WA, USA."},
+              {"Affiliation": "Center for Biomedical Statistics, University of Washington, Seattle, WA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sean D",
+            "LastName": "Rundell",
+            "Initials": "SD",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Rehabilitation Medicine, University of Washington, Seattle, WA, USA."},
+              {"Affiliation": "Comparative Effectiveness, Cost and Outcomes Research Center, University of Washington, Seattle, WA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pradeep",
+            "LastName": "Suri",
+            "Initials": "P",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Rehabilitation Medicine, University of Washington, Seattle, WA, USA."},
+              {"Affiliation": "Comparative Effectiveness, Cost and Outcomes Research Center, University of Washington, Seattle, WA, USA."},
+              {"Affiliation": "Division of Rehabilitation Care Services, Seattle Epidemiologic Research and Information Center, VA Puget Sound Health Care System, Seattle, WA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Falgun H",
+            "LastName": "Chokshi",
+            "Initials": "FH",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and Imaging Sciences, Emory University School of Medicine, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bryan A",
+            "LastName": "Comstock",
+            "Initials": "BA",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biostatistics, University of Washington, Seattle, WA, USA."},
+              {"Affiliation": "Center for Biomedical Statistics, University of Washington, Seattle, WA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patrick J",
+            "LastName": "Heagerty",
+            "Initials": "PJ",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biostatistics, University of Washington, Seattle, WA, USA."},
+              {"Affiliation": "Center for Biomedical Statistics, University of Washington, Seattle, WA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kathryn T",
+            "LastName": "James",
+            "Initials": "KT",
+            "AffiliationInfo": [
+              {"Affiliation": "Comparative Effectiveness, Cost and Outcomes Research Center, University of Washington, Seattle, WA, USA."},
+              {"Affiliation": "Department of Radiology, University of Washington, Box 359728, 325 Ninth Ave., Seattle, WA, 98104-2499, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew L",
+            "LastName": "Avins",
+            "Initials": "AL",
+            "AffiliationInfo": {"Affiliation": "Division of Research, Kaiser Permanente Northern California, Oakland, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Srdjan S",
+            "LastName": "Nedeljkovic",
+            "Initials": "SS",
+            "AffiliationInfo": {"Affiliation": "Department of Anesthesiology, Perioperative and Pain Medicine, Harvard Vanguard Medical Associates, Brigham and Women's Hospital and Spine Unit, Boston, MA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David R",
+            "LastName": "Nerenz",
+            "Initials": "DR",
+            "AffiliationInfo": {"Affiliation": "Henry Ford Hospital, Neuroscience Institute, Detroit, MI, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David F",
+            "LastName": "Kallmes",
+            "Initials": "DF",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Mayo Clinic, Rochester, MN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patrick H",
+            "LastName": "Luetmer",
+            "Initials": "PH",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Mayo Clinic, Rochester, MN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Karen J",
+            "LastName": "Sherman",
+            "Initials": "KJ",
+            "AffiliationInfo": {"Affiliation": "Kaiser Permanente of Washington Research Institute, Seattle, WA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nancy L",
+            "LastName": "Organ",
+            "Initials": "NL",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Biostatistics, University of Washington, Seattle, WA, USA."},
+              {"Affiliation": "Center for Biomedical Statistics, University of Washington, Seattle, WA, USA."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Brent",
+            "LastName": "Griffith",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Henry Ford Hospital, Detroit, MI, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Curtis P",
+            "LastName": "Langlotz",
+            "Initials": "CP",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Stanford University, Palo Alto, CA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Carrell",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Kaiser Permanente of Washington Research Institute, Seattle, WA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Saeed",
+            "LastName": "Hassanpour",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Biomedical Data Science, Dartmouth College, Lebanon, NH, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jeffrey G",
+            "LastName": "Jarvik",
+            "Initials": "JG",
+            "AffiliationInfo": [
+              {"Affiliation": "Comparative Effectiveness, Cost and Outcomes Research Center, University of Washington, Seattle, WA, USA. jarvikj@uw.edu."},
+              {"Affiliation": "Department of Radiology, University of Washington, Box 359728, 325 Ninth Ave., Seattle, WA, 98104-2499, USA. jarvikj@uw.edu."},
+              {"Affiliation": "Department of Neurological Surgery, University of Washington, Seattle, WA, USA. jarvikj@uw.edu."},
+              {"Affiliation": "Department of Health Services, University of Washington, Seattle, WA, USA. jarvikj@uw.edu."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Using Natural Language Processing of Free-Text Radiology Reports to Identify Type 1 Modic Endplate Changes.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10278-017-0013-3"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2017,
+            "Day": 14
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Digit Imaging",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1618-727X"
+        },
+        "Title": "Journal of digital imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Lumbar spine imaging"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Modic classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Natural language processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Radiology reporting"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 15
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 15
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28808792
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28808792,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10278-017-0013-3",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10278-017-0013-3",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

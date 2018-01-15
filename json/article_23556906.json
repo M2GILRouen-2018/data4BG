@@ -1,0 +1,311 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "09",
+      "Year": 2013,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "041912"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "PURPOSE",
+          "content": "Visual analysis of three-dimensional (3D) coronary computed tomography angiography (CCTA) remains challenging due to large number of image slices and tortuous character of the vessels. The authors aimed to develop a robust, automated algorithm for unsupervised computer detection of coronary artery lesions."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "The authors' knowledge-based algorithm consists of centerline extraction, vessel classification, vessel linearization, lumen segmentation with scan-specific lumen attenuation ranges, and lesion location detection. Presence and location of lesions are identified using a multi-pass algorithm which considers expected or \"normal\" vessel tapering and luminal stenosis from the segmented vessel. Expected luminal diameter is derived from the scan by automated piecewise least squares line fitting over proximal and mid segments (67%) of the coronary artery considering the locations of the small branches attached to the main coronary arteries."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The authors applied this algorithm to 42 CCTA patient datasets, acquired with dual-source CT, where 21 datasets had 45 lesions with stenosis ≥ 25%. The reference standard was provided by visual and quantitative identification of lesions with any stenosis ≥ 25% by three expert readers using consensus reading. The authors algorithm identified 42 lesions (93%) confirmed by the expert readers. There were 46 additional lesions detected; 23 out of 39 (59%) of these were less-stenosed lesions. When the artery was divided into 15 coronary segments according to standard cardiology reporting guidelines, per-segment basis, sensitivity was 93% and per-segment specificity was 81% using 10-fold cross-validation."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The authors' algorithm shows promising results in the detection of both obstructive and nonobstructive CCTA lesions."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dongwoo",
+            "LastName": "Kang",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, University of Southern California, Los Angeles, California 90089, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Piotr J",
+            "LastName": "Slomka",
+            "Initials": "PJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ryo",
+            "LastName": "Nakazato",
+            "Initials": "R"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Reza",
+            "LastName": "Arsanjani",
+            "Initials": "R"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Victor Y",
+            "LastName": "Cheng",
+            "Initials": "VY"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "James K",
+            "LastName": "Min",
+            "Initials": "JK"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Debiao",
+            "LastName": "Li",
+            "Initials": "D"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel S",
+            "LastName": "Berman",
+            "Initials": "DS"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C-C Jay",
+            "LastName": "Kuo",
+            "Initials": "CC"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Damini",
+            "LastName": "Dey",
+            "Initials": "D"
+          }
+        ]
+      },
+      "ArticleTitle": "Automated knowledge-based detection of nonobstructive and obstructive arterial lesions from coronary CT angiography.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1118/1.4794480"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 4,
+          "Volume": 40,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2013
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print"
+    },
+    "DateCreated": {
+      "Month": "04",
+      "Year": 2013,
+      "Day": "05"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D023921",
+          "MajorTopicYN": "N",
+          "content": "Coronary Stenosis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 14
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 23556906
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 4,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 4,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23556906,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1118/1.4794480",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

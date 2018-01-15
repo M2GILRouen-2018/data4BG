@@ -1,0 +1,275 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101204366,
+      "Country": "Switzerland",
+      "ISSNLinking": "1424-8220",
+      "MedlineTA": "Sensors (Basel)"
+    },
+    "Owner": "NLM",
+    "CoiStatement": "The authors declare no conflict of interest.",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 22
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "To understand driving environments effectively, it is important to achieve accurate detection and classification of objects detected by sensor-based intelligent vehicle systems, which are significantly important tasks. Object detection is performed for the localization of objects, whereas object classification recognizes object classes from detected object regions. For accurate object detection and classification, fusing multiple sensor information into a key component of the representation and perception processes is necessary. In this paper, we propose a new object-detection and classification method using decision-level fusion. We fuse the classification outputs from independent unary classifiers, such as 3D point clouds and image data using a convolutional neural network (CNN). The unary classifiers for the two sensors are the CNN with five layers, which use more than two pre-trained convolutional layers to consider local to global features as data representation. To represent data using convolutional layers, we apply region of interest (ROI) pooling to the outputs of each layer on the object candidate regions generated using object proposal generation to realize color flattening and semantic grouping for charge-coupled device and Light Detection And Ranging (LiDAR) sensors. We evaluate our proposed method on a KITTI benchmark dataset to detect and classify three object classes: cars, pedestrians and cyclists. The evaluation results show that the proposed method achieves better performance than the previous methods. Our proposed method extracted approximately 500 proposals on a 1226 × 370 image, whereas the original selective search method extracted approximately 10 6 × n proposals. We obtained classification performance with 77.72% mean average precision over the entirety of the classes in the moderate detection level of the KITTI benchmark dataset."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sang-Il",
+            "LastName": "Oh",
+            "Initials": "SI",
+            "AffiliationInfo": {"Affiliation": "Department of Media Engineering, Catholic University of Korea, 43-1, Yeoggok 2-dong, Wonmmi-gu, Bucheon-si, Gyeonggi-do 14662, Korea. nicolas0@catholic.ac.kr."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hang-Bong",
+            "LastName": "Kang",
+            "Initials": "HB",
+            "AffiliationInfo": {"Affiliation": "Department of Media Engineering, Catholic University of Korea, 43-1, Yeoggok 2-dong, Wonmmi-gu, Bucheon-si, Gyeonggi-do 14662, Korea. hbkang@catholic.ac.kr."}
+          }
+        ]
+      },
+      "ArticleTitle": "Object Detection and Classification by Decision-Level Fusion for Intelligent Vehicle Systems.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "E207"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.3390/s17010207"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 22
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Sensors (Basel)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1424-8220"
+        },
+        "Title": "Sensors (Basel, Switzerland)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "CCD"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "LiDAR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "decision level fusion"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "multiple sensor fusion"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "object classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "object detection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "object recognition"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "03"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2015 Nov;37(11):2232-45",
+        "PMID": {
+          "Version": 1,
+          "content": 26440264
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Jul 24;15(8):18080-101",
+        "PMID": {
+          "Version": 1,
+          "content": 26213939
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2016 Jun;38(6):1243-57",
+        "PMID": {
+          "Version": 1,
+          "content": 26336118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2010 Sep;32(9):1627-45",
+        "PMID": {
+          "Version": 1,
+          "content": 20634557
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2015 Nov 04;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 26552076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2015 Oct;37(10):2071-84",
+        "PMID": {
+          "Version": 1,
+          "content": 26353185
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2016 Jun 06;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 27295650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2012 Nov;34(11):2189-202",
+        "PMID": {
+          "Version": 1,
+          "content": 22248633
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sensors (Basel). 2015 Apr 20;15(4):9228-50",
+        "PMID": {
+          "Version": 1,
+          "content": 25903553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2012 Jul;34(7):1312-28",
+        "PMID": {
+          "Version": 1,
+          "content": 22144523
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Syst Man Cybern B Cybern. 2004 Feb;34(1):782-7",
+        "PMID": {
+          "Version": 1,
+          "content": 15369123
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28117742
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2016,
+        "Day": 13,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "06",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28117742,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "s17010207",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.3390/s17010207",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5298778",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

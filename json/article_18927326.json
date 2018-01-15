@@ -1,0 +1,611 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0217410",
+      "Country": "United States",
+      "ISSNLinking": "0161-5505",
+      "MedlineTA": "J Nucl Med"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": {
+      "NameOfSubstance": {
+        "UI": "D008670",
+        "content": "Metals"
+      },
+      "RegistryNumber": 0
+    }},
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2017,
+      "Day": "06"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "840-845"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 26
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2017 by the Society of Nuclear Medicine and Molecular Imaging.",
+        "AbstractText": "We present a novel technique for accurate whole-body attenuation correction in the presence of metallic endoprosthesis, on integrated non-time-of-flight (non-TOF) PET/MRI scanners. The proposed implant PET-based attenuation map completion (IPAC) method performs a joint reconstruction of radioactivity and attenuation from the emission data to determine the position, shape, and linear attenuation coefficient (LAC) of metallic implants. Methods: The initial estimate of the attenuation map was obtained using the MR Dixon method currently available on the Siemens Biograph mMR scanner. The attenuation coefficients in the area of the MR image subjected to metal susceptibility artifacts are then reconstructed from the PET emission data using the IPAC algorithm. The method was tested on 11 subjects presenting 13 different metallic implants, who underwent CT and PET/MR scans. Relative mean LACs and Dice similarity coefficients were calculated to determine the accuracy of the reconstructed attenuation values and the shape of the metal implant, respectively. The reconstructed PET images were compared with those obtained using the reference CT-based approach and the Dixon-based method. Absolute relative change (aRC) images were generated in each case, and voxel-based analyses were performed. Results: The error in implant LAC estimation, using the proposed IPAC algorithm, was 15.7% ± 7.8%, which was significantly smaller than the Dixon- (100%) and CT- (39%) derived values. A mean Dice similarity coefficient of 73% ± 9% was obtained when comparing the IPAC- with the CT-derived implant shape. The voxel-based analysis of the reconstructed PET images revealed quantification errors (aRC) of 13.2% ± 22.1% for the IPAC- with respect to CT-corrected images. The Dixon-based method performed substantially worse, with a mean aRC of 23.1% ± 38.4%. Conclusion: We have presented a non-TOF emission-based approach for estimating the attenuation map in the presence of metallic implants, to be used for whole-body attenuation correction in integrated PET/MR scanners. The Graphics Processing Unit implementation of the algorithm will be included in the open-source reconstruction toolbox Occiput.io."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Niccolo",
+            "LastName": "Fuin",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital and Harvard Medical School, Charlestown, Massachusetts nfuin@mgh.harvard.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stefano",
+            "LastName": "Pedemonte",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital and Harvard Medical School, Charlestown, Massachusetts."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Onofrio A",
+            "LastName": "Catalano",
+            "Initials": "OA",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital and Harvard Medical School, Charlestown, Massachusetts."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David",
+            "LastName": "Izquierdo-Garcia",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital and Harvard Medical School, Charlestown, Massachusetts."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrea",
+            "LastName": "Soricelli",
+            "Initials": "A",
+            "AffiliationInfo": [
+              {"Affiliation": "SDN-Istituto di Ricerca Diagnostica e Nucleare, IRCCS, Naples, Italy."},
+              {"Affiliation": "University of Naples Parthenope, Department of Motor Sciences and Healthiness, Naples, Italy."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marco",
+            "LastName": "Salvatore",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "SDN-Istituto di Ricerca Diagnostica e Nucleare, IRCCS, Naples, Italy."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Keith",
+            "LastName": "Heberlein",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Siemens Medical Solutions USA, MR RD Collaborations, Charlestown, Massachusetts; and."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jacob M",
+            "LastName": "Hooker",
+            "Initials": "JM",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital and Harvard Medical School, Charlestown, Massachusetts."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Koen",
+            "LastName": "Van Leemput",
+            "Initials": "K",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital and Harvard Medical School, Charlestown, Massachusetts."},
+              {"Affiliation": "Department of Applied Mathematics and Computer Science, Technical University of Denmark, Lyngby, Denmark."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ciprian",
+            "LastName": "Catana",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital and Harvard Medical School, Charlestown, Massachusetts."}
+          }
+        ]
+      },
+      "ArticleTitle": "PET/MRI in the Presence of Metal Implants: Completion of the Attenuation Map from PET Emission Data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.2967/jnumed.116.183343"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 58,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J. Nucl. Med.",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1535-5667"
+        },
+        "Title": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "MLAA"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "attenuation correction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "integrated PET/MR"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "metal implant"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "N",
+        "content": "Artifacts"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007089",
+          "MajorTopicYN": "N",
+          "content": "Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007090",
+          "MajorTopicYN": "N",
+          "content": "Image Interpretation, Computer-Assisted"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D008279",
+          "MajorTopicYN": "N",
+          "content": "Magnetic Resonance Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008670",
+        "MajorTopicYN": "Y",
+        "content": "Metals"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D064847",
+          "MajorTopicYN": "N",
+          "content": "Multimodal Imaging"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019047",
+        "MajorTopicYN": "N",
+        "content": "Phantoms, Imaging"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D049268",
+          "MajorTopicYN": "N",
+          "content": "Positron-Emission Tomography"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019736",
+        "MajorTopicYN": "Y",
+        "content": "Prostheses and Implants"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D051598",
+          "MajorTopicYN": "N",
+          "content": "Whole Body Imaging"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": "01"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2011 Mar;30(3):804-13",
+        "PMID": {
+          "Version": 1,
+          "content": 21118768
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Nucl Med Mol Imaging. 2002 Jul;29(7):922-7",
+        "PMID": {
+          "Version": 1,
+          "content": 12111133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2010 Sep;51(9):1431-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20810759
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2016 Jan;57(1):136-43",
+        "PMID": {
+          "Version": 1,
+          "content": 26493204
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2010 May;51(5):812-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20439508
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Magn Reson Med. 2009 Jul;62(1):66-76",
+        "PMID": {
+          "Version": 1,
+          "content": 19267347
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 2015 Jan;204(1):140-7",
+        "PMID": {
+          "Version": 1,
+          "content": 25539249
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2016 Apr 15;130:123-33",
+        "PMID": {
+          "Version": 1,
+          "content": 26853602
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2012 Dec;31(12 ):2224-33",
+        "PMID": {
+          "Version": 1,
+          "content": 22899574
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2016 Aug 7;61(15):5547-68",
+        "PMID": {
+          "Version": 1,
+          "content": 27384608
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2014 Nov;55(11):1825-30",
+        "PMID": {
+          "Version": 1,
+          "content": 25278515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2009 Apr;50(4):520-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19289430
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 1999 May;18(5):393-403",
+        "PMID": {
+          "Version": 1,
+          "content": 10416801
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Jan;29(1):196-205",
+        "PMID": {
+          "Version": 1,
+          "content": 19923044
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2013 Oct;54(10 ):1768-74",
+        "PMID": {
+          "Version": 1,
+          "content": 24009273
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Feb;32(2):237-46",
+        "PMID": {
+          "Version": 1,
+          "content": 23014717
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Nucl Med Mol Imaging. 2014 Aug;41(8):1574-84",
+        "PMID": {
+          "Version": 1,
+          "content": 24652234
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Phys Med Biol. 2012 Feb 21;57(4):885-99",
+        "PMID": {
+          "Version": 1,
+          "content": 22290428
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2014 Feb;55(2):329-36",
+        "PMID": {
+          "Version": 1,
+          "content": 24434291
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Invest Radiol. 2015 Jul;50(7):423-9",
+        "PMID": {
+          "Version": 1,
+          "content": 25756682
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Nucl Med Mol Imaging. 2013 Apr;40(4):594-601",
+        "PMID": {
+          "Version": 1,
+          "content": 23296642
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AJR Am J Roentgenol. 2011 Sep;197(3):547-55",
+        "PMID": {
+          "Version": 1,
+          "content": 21862795
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2014 Dec;33(12 ):2332-41",
+        "PMID": {
+          "Version": 1,
+          "content": 25055381
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2009 Feb;28(2):250-60",
+        "PMID": {
+          "Version": 1,
+          "content": 19188112
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2015 Apr;56(4):635-41",
+        "PMID": {
+          "Version": 1,
+          "content": 25745090
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2015 Sep;34(9):1808-21",
+        "PMID": {
+          "Version": 1,
+          "content": 25769148
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2013 May;54(5):815-24",
+        "PMID": {
+          "Version": 1,
+          "content": 23492887
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Nucl Med. 2008 Nov;49(11):1875-83",
+        "PMID": {
+          "Version": 1,
+          "content": 18927326
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28126884
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 29,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 26,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 7,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28126884,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "jnumed.116.183343",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.2967/jnumed.116.183343",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5414501",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,562 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 12
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0184370"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 14
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "This study applies unsupervised machine learning techniques for classification and clustering to a collection of descriptive variables from 10,442 lung cancer patient records in the Surveillance, Epidemiology, and End Results (SEER) program database. The goal is to automatically classify lung cancer patients into groups based on clinically measurable disease-specific variables in order to estimate survival. Variables selected as inputs for machine learning include Number of Primaries, Age, Grade, Tumor Size, Stage, and TNM, which are numeric or can readily be converted to numeric type. Minimal up-front processing of the data enables exploring the out-of-the-box capabilities of established unsupervised learning techniques, with little human intervention through the entire process. The output of the techniques is used to predict survival time, with the efficacy of the prediction representing a proxy for the usefulness of the classification. A basic single variable linear regression against each unsupervised output is applied, and the associated Root Mean Squared Error (RMSE) value is calculated as a metric to compare between the outputs. The results show that self-ordering maps exhibit the best performance, while k-Means performs the best of the simpler classification techniques. Predicting against the full data set, it is found that their respective RMSE values (15.591 for self-ordering maps and 16.193 for k-Means) are comparable to supervised regression techniques, such as Gradient Boosting Machine (RMSE of 15.048). We conclude that unsupervised data analysis techniques may be of use to classify patients by defining the classes as effective proxies for survival prediction."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Chip M",
+            "LastName": "Lynch",
+            "Initials": "CM",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering and Computer Science, University of Louisville, Louisville, KY, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Victor H",
+            "LastName": "van Berkel",
+            "Initials": "VH",
+            "AffiliationInfo": {"Affiliation": "Department of Cardiovascular and Thoracic Surgery, University of Louisville, Louisville, KY, United States of America."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0001-5959-4286"
+            },
+            "ForeName": "Hermann B",
+            "LastName": "Frieboes",
+            "Initials": "HB",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Bioengineering, University of Louisville, Louisville, KY, United States of America."},
+              {"Affiliation": "James Graham Brown Cancer Center, University of Louisville, Louisville, KY, United States of America."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Application of unsupervised analysis techniques to lung cancer patient data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0184370"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 9,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000368",
+        "MajorTopicYN": "N",
+        "content": "Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D000369",
+        "MajorTopicYN": "N",
+        "content": "Aged, 80 and over"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D016208",
+        "MajorTopicYN": "N",
+        "content": "Databases, Factual"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000145",
+            "MajorTopicYN": "Y",
+            "content": "classification"
+          },
+          {
+            "UI": "Q000401",
+            "MajorTopicYN": "Y",
+            "content": "mortality"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D008175",
+          "MajorTopicYN": "N",
+          "content": "Lung Neoplasms"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D060787",
+        "MajorTopicYN": "N",
+        "content": "Neoplasm Grading"
+      }},
+      {"DescriptorName": {
+        "UI": "D009367",
+        "MajorTopicYN": "N",
+        "content": "Neoplasm Staging"
+      }},
+      {"DescriptorName": {
+        "UI": "D018426",
+        "MajorTopicYN": "N",
+        "content": "SEER Program"
+      }},
+      {"DescriptorName": {
+        "UI": "D016019",
+        "MajorTopicYN": "N",
+        "content": "Survival Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D047368",
+        "MajorTopicYN": "N",
+        "content": "Tumor Burden"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069558",
+        "MajorTopicYN": "N",
+        "content": "Unsupervised Machine Learning"
+      }},
+      {"DescriptorName": {
+        "UI": "D055815",
+        "MajorTopicYN": "N",
+        "content": "Young Adult"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 12
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Oct 04;6:34817",
+        "PMID": {
+          "Version": 1,
+          "content": 27698459
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Surg Res. 2010 Jul;162(1):1-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20400118
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformation. 2011;7(3):142-6",
+        "PMID": {
+          "Version": 1,
+          "content": 22125385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Adv Exp Med Biol. 2010;680:11-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20865481
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2017 Feb 08;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28186907
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2017 Jan 4;45(D1):D135-D138",
+        "PMID": {
+          "Version": 1,
+          "content": 27543076
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lung Cancer. 2009 May;64(2):226-31",
+        "PMID": {
+          "Version": 1,
+          "content": 18835059
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Feb 1;32(3):362-9",
+        "PMID": {
+          "Version": 1,
+          "content": 26476782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2014 Apr;14(7-8):853-61",
+        "PMID": {
+          "Version": 1,
+          "content": 24273065
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Gastrointest Cancer Res. 2007 May;1(3):84-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19262713
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Comput Biol Med. 2015 Apr;59:125-33",
+        "PMID": {
+          "Version": 1,
+          "content": 25725446
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2006 Jan 06;7:3",
+        "PMID": {
+          "Version": 1,
+          "content": 16398926
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 1998 Feb;16(2):651-7",
+        "PMID": {
+          "Version": 1,
+          "content": 9469354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2017 Feb 21;8(8):13338-13343",
+        "PMID": {
+          "Version": 1,
+          "content": 28076851
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2015 Jun;16(6):321-32",
+        "PMID": {
+          "Version": 1,
+          "content": 25948244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Med. 2008 Sep 30;5(9):e185",
+        "PMID": {
+          "Version": 1,
+          "content": 18788891
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cancer Epidemiol Biomarkers Prev. 2004 Jul;13(7):1215-22",
+        "PMID": {
+          "Version": 1,
+          "content": 15247133
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncologist. 2007 Jan;12(1):20-37",
+        "PMID": {
+          "Version": 1,
+          "content": 17227898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2014 Sep 03;9(9):e106691",
+        "PMID": {
+          "Version": 1,
+          "content": 25184541
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomol Struct Dyn. 2017 Feb;35(3):683-687",
+        "PMID": {
+          "Version": 1,
+          "content": 26912125
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE/ACM Trans Comput Biol Bioinform. 2017 Feb 16;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28222000
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biomed Res Int. 2017;2017:3267325",
+        "PMID": {
+          "Version": 1,
+          "content": 28303250
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biosyst. 2016 Apr;12 (4):1269-75",
+        "PMID": {
+          "Version": 1,
+          "content": 26883492
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Chest. 2005 Mar;127(3):768-77",
+        "PMID": {
+          "Version": 1,
+          "content": 15764756
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2001 Oct;17(10):977-87",
+        "PMID": {
+          "Version": 1,
+          "content": 11673243
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genomics. 2012 Jun;99(6):323-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22546560
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2015 Jul 1;43(W1):W65-71",
+        "PMID": {
+          "Version": 1,
+          "content": 25958395
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Oncol. 2007 Dec 10;25(35):5570-7",
+        "PMID": {
+          "Version": 1,
+          "content": 18065729
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Jul 02;11:367",
+        "PMID": {
+          "Version": 1,
+          "content": 20598126
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Microbiol Methods. 2011 Jan;84(1):67-70",
+        "PMID": {
+          "Version": 1,
+          "content": 21044646
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pac Symp Biocomput. 2002;:564-75",
+        "PMID": {
+          "Version": 1,
+          "content": 11928508
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Biotechnol. 2009;2009:632786",
+        "PMID": {
+          "Version": 1,
+          "content": 19584918
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "OMICS. 2013 Dec;17(12):595-610",
+        "PMID": {
+          "Version": 1,
+          "content": 24116388
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2015 Dec;58:49-59",
+        "PMID": {
+          "Version": 1,
+          "content": 26423562
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Oncotarget. 2016 Oct 25;7(43):69783-69793",
+        "PMID": {
+          "Version": 1,
+          "content": 27626500
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2017 Feb 1;33(3):467-469",
+        "PMID": {
+          "Version": 1,
+          "content": 28171531
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Surg Oncol. 2015 May;111(6):657-62",
+        "PMID": {
+          "Version": 1,
+          "content": 25690414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2007 Nov;4(11):923-5",
+        "PMID": {
+          "Version": 1,
+          "content": 17952086
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28910336
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": 22,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 15,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28910336,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0184370",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-20898",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5598970",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

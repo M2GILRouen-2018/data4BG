@@ -1,0 +1,145 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 13
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2983-2996"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Deep convolutional neural networks (CNNs) have shown their great success on image classification. CNNs mainly consist of convolutional and pooling layers, both of which are performed on local image areas without considering the dependence among different image regions. However, such dependence is very important for generating explicit image representation. In contrast, recurrent neural networks (RNNs) are well known for their ability of encoding contextual information in sequential data, and they only require a limited number of network parameters. Thus, we proposed the hierarchical RNNs (HRNNs) to encode the contextual dependence in image representation. In HRNNs, each RNN layer focuses on modeling spatial dependence among image regions from the same scale but different locations. While the cross RNN scale connections target on modeling scale dependencies among regions from the same location but different scales. Specifically, we propose two RNN models: 1) hierarchical simple recurrent network (HSRN), which is fast and has low computational cost and 2) hierarchical long-short term memory recurrent network, which performs better than HSRN with the price of higher computational cost. In this paper, we integrate CNNs with HRNNs, and develop end-to-end convolutional hierarchical RNNs (C-HRNNs) for image classification. C-HRNNs not only utilize the discriminative representation power of CNNs, but also utilize the contextual dependence learning ability of our HRNNs. On four of the most challenging object/scene image classification benchmarks, our C-HRNNs achieve the state-of-the-art results on Places 205, SUN 397, and MIT indoor, and the competitive results on ILSVRC 2012."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Zhen",
+            "LastName": "Zuo",
+            "Initials": "Z"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bing",
+            "LastName": "Shuai",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gang",
+            "LastName": "Wang",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xiao",
+            "LastName": "Liu",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xingxing",
+            "LastName": "Wang",
+            "Initials": "X"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bing",
+            "LastName": "Wang",
+            "Initials": "B"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yushi",
+            "LastName": "Chen",
+            "Initials": "Y"
+          }
+        ]
+      },
+      "ArticleTitle": "Learning Contextual Dependence With Convolutional Hierarchical Recurrent Neural Networks.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2548241"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 7,
+          "Volume": 25,
+          "PubDate": {
+            "Month": "07",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 13
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113173
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113173,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2548241",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

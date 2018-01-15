@@ -1,0 +1,535 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D003596",
+          "content": "Cytosine"
+        },
+        "RegistryNumber": "8J337D1HZY"
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D043244",
+          "content": "Ribonuclease III"
+        },
+        "RegistryNumber": "EC 3.1.26.3"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 18
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 416},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "European Research Council",
+          "Country": "International",
+          "GrantID": 340642
+        }
+      },
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 18
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Cytosine methylation is widespread in most eukaryotic genomes and is known to play a substantial role in various regulatory pathways. Unmethylated cytosines may be converted to uracil through the addition of sodium bisulphite, allowing genome-wide quantification of cytosine methylation via high-throughput sequencing. The data thus acquired allows the discovery of methylation 'loci'; contiguous regions of methylation consistently methylated across biological replicates. The mapping of these loci allows for associations with other genomic factors to be identified, and for analyses of differential methylation to take place."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "The segmentSeq R package is extended to identify methylation loci from high-throughput sequencing data from multiple experimental conditions. A statistical model is then developed that accounts for biological replication and variable rates of non-conversion of cytosines in each sample to compute posterior likelihoods of methylation at each locus within an empirical Bayesian framework. The same model is used as a basis for analysis of differential methylation between multiple experimental conditions with the baySeq R package. We demonstrate the capability of this method to analyse complex data sets in an analysis of data derived from multiple Dicer-like mutants in Arabidopsis. This reveals several novel behaviours at distinct sets of loci in response to loss of one or more of the Dicer-like proteins that indicate an antagonistic relationship between the Dicer-like proteins at at least some methylation loci. Finally, we show in simulation studies that this approach can be significantly more powerful in the detection of differential methylation than many existing methods in data derived from both mammalian and plant systems."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The methods developed here make it possible to analyse high-throughput sequencing of the methylome of any given organism under a diverse set of experimental conditions. The methods are able to identify methylation loci and evaluate the likelihood that a region is truly methylated under any given experimental condition, allowing for downstream analyses that characterise differences between methylated and non-methylated regions of the genome. Futhermore, diverse patterns of differential methylation may also be characterised from these data."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": {
+          "ValidYN": "Y",
+          "Identifier": {
+            "Source": "ORCID",
+            "content": "http://orcid.org/0000-0002-9328-5011"
+          },
+          "ForeName": "Thomas J",
+          "LastName": "Hardcastle",
+          "Initials": "TJ",
+          "AffiliationInfo": {"Affiliation": "Department of Plant Sciences, University of Cambridge, Downing Street, Cambridge, CB2 3EA, UK. tjh48@cam.ac.uk."}
+        }
+      },
+      "ArticleTitle": "Methods for discovering genomic loci exhibiting complex patterns of differential methylation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1836-0"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 18
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "DMRs"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Dicer"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Epigenomics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "High-throughput sequencing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Methylation"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D017360",
+          "MajorTopicYN": "N",
+          "content": "Arabidopsis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "Y",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D003596",
+          "MajorTopicYN": "N",
+          "content": "Cytosine"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D019175",
+        "MajorTopicYN": "Y",
+        "content": "DNA Methylation"
+      }},
+      {"DescriptorName": {
+        "UI": "D056426",
+        "MajorTopicYN": "N",
+        "content": "Genetic Loci"
+      }},
+      {"DescriptorName": {
+        "UI": "D016678",
+        "MajorTopicYN": "N",
+        "content": "Genome"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D023281",
+          "MajorTopicYN": "N",
+          "content": "Genomics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D059014",
+        "MajorTopicYN": "Y",
+        "content": "High-Throughput Nucleotide Sequencing"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "N",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D043244",
+          "MajorTopicYN": "N",
+          "content": "Ribonuclease III"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017422",
+        "MajorTopicYN": "Y",
+        "content": "Sequence Analysis, DNA"
+      }},
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 18
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2014 Sep 1;30(17):2414-22",
+        "PMID": {
+          "Version": 1,
+          "content": 24836530
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Signal Behav. 2013 Aug;8(8):null",
+        "PMID": {
+          "Version": 1,
+          "content": 23759554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2009 Sep 17;461(7262):423-6",
+        "PMID": {
+          "Version": 1,
+          "content": 19734880
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Protoc. 2006;1(5):2353-64",
+        "PMID": {
+          "Version": 1,
+          "content": 17406479
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jun 1;27(11):1571-2",
+        "PMID": {
+          "Version": 1,
+          "content": 21493656
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cell Biol. 2014 Feb;24(2):100-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24012194
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2006 Sep 22;126(6):1189-201",
+        "PMID": {
+          "Version": 1,
+          "content": 16949657
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2015 Jan 20;112(3):917-22",
+        "PMID": {
+          "Version": 1,
+          "content": 25561534
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Mar 28;153(1):193-205",
+        "PMID": {
+          "Version": 1,
+          "content": 23540698
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2012 Oct;13(10):705-19",
+        "PMID": {
+          "Version": 1,
+          "content": 22986265
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2004;5(10):R80",
+        "PMID": {
+          "Version": 1,
+          "content": 15461798
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Front Genet. 2014 Sep 16;5:324",
+        "PMID": {
+          "Version": 1,
+          "content": 25278959
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2013 Jan 17;152(1-2):352-64",
+        "PMID": {
+          "Version": 1,
+          "content": 23313553
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2003 Dec 16;13(24):2212-7",
+        "PMID": {
+          "Version": 1,
+          "content": 14680640
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2015 Jul 15;31(14):2371-3",
+        "PMID": {
+          "Version": 1,
+          "content": 25777524
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2008 Oct 01;3(10):e3306",
+        "PMID": {
+          "Version": 1,
+          "content": 18827894
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Plant Biol. 2015;66:243-67",
+        "PMID": {
+          "Version": 1,
+          "content": 25494460
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Biol. 2005 Aug 23;15(16):1494-500",
+        "PMID": {
+          "Version": 1,
+          "content": 16040244
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "EMBO J. 2006 Jul 26;25(14):3347-56",
+        "PMID": {
+          "Version": 1,
+          "content": 16810317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Dec 06;8(12):e81148",
+        "PMID": {
+          "Version": 1,
+          "content": 24324667
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2012 Oct 03;13(10):R83",
+        "PMID": {
+          "Version": 1,
+          "content": 23034175
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2012 Oct 03;13(10):R87",
+        "PMID": {
+          "Version": 1,
+          "content": 23034086
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2007 Jul 24;104(30):12377-82",
+        "PMID": {
+          "Version": 1,
+          "content": 17640912
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2013 Apr 23;14:135",
+        "PMID": {
+          "Version": 1,
+          "content": 23617841
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2007 Nov;8(11):884-96",
+        "PMID": {
+          "Version": 1,
+          "content": 17943195
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2010 May 14;328(5980):916-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20395474
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2012 Feb 15;28(4):457-63",
+        "PMID": {
+          "Version": 1,
+          "content": 22171331
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Methods. 2013 Jun 07;9(1):16",
+        "PMID": {
+          "Version": 1,
+          "content": 23758782
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Jan 15;32(2):195-202",
+        "PMID": {
+          "Version": 1,
+          "content": 26428289
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28923005
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 11,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 19,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28923005,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1836-0",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1836-0",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5604413",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

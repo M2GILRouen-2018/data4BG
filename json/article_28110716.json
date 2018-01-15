@@ -1,0 +1,283 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8506513,
+      "Country": "Ireland",
+      "ISSNLinking": "0169-2607",
+      "MedlineTA": "Comput Methods Programs Biomed"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1-10"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2016 Elsevier Ireland Ltd. All rights reserved.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "BACKGROUND AND OBJECTIVES",
+            "content": "Macular diseases tend to damage macula within human retina due to which the central vision of a person is affected. Macular edema (ME) and central serous retinopathy (CSR) are two of the most common macular diseases. Many researchers worked on automated detection of ME from optical coherence tomography (OCT) and fundus images, whereas few researchers have worked on diagnosing central serous retinopathy. But this paper proposes a fully automated method for the classification of ME and CSR through robust reconstruction of 3D OCT retinal surfaces."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "The proposed system uses structure tensors to extract retinal layers from OCT images. The 3D retinal surface is then reconstructed by extracting the brightness scan (B-scan) thickness profile from each coherent tensor. The proposed system extracts 8 distinct features (3 based on retinal thickness profile of right side, 3 based on thickness profile of left side and 2 based on top surface and cyst spaces within retinal layers) from 30 labeled volumes (10 healthy, 10 CSR and 10 ME) which are used to train the supervised support vector machines (SVM) classifier."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "In this research we have considered 90 OCT volumes (30 Healthy, 30 CSR and 30 ME) of 73 patients to test the proposed system where our proposed system correctly classified 89 out of 90 cases and has promising receiver operator characteristics (ROC) ratings with accuracy, sensitivity and specificity of 98.88%, 100%, and 96.66% respectively."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The proposed system is quite fast and robust in detecting all the three types of retinal pathologies from volumetric OCT scans. The proposed system is fully automated and provides an early and on fly diagnosis of ME and CSR syndromes. 3D macular thickness surfaces can further be used as decision support parameter in clinical studies to check the volume of cyst."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Adeel M",
+            "LastName": "Syed",
+            "Initials": "AM",
+            "AffiliationInfo": {"Affiliation": "Department of Software Engineering, Bahria University, Islamabad, Pakistan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Taimur",
+            "LastName": "Hassan",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Bahria University, Islamabad, Pakistan. Electronic address: engr.taimoor@bui.edu.pk."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "M Usman",
+            "LastName": "Akram",
+            "Initials": "MU",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, National University of Sciences and Technology, Islamabad, Pakistan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Samra",
+            "LastName": "Naz",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, National University of Sciences and Technology, Islamabad, Pakistan."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shehzad",
+            "LastName": "Khalid",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Computer Engineering, Bahria University, Islamabad, Pakistan."}
+          }
+        ]
+      },
+      "ArticleTitle": "Automated diagnosis of macular edema and central serous retinopathy through robust reconstruction of 3D retinal surfaces.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S0169-2607(16)30435-7"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.cmpb.2016.09.004"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 137,
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Methods Programs Biomed",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1872-7565"
+        },
+        "Title": "Computer methods and programs in biomedicine"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Central serous retinopathy (CSR)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Macular edema (ME)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Medical image analysis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Optical coherence tomography"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Retinal surfaces"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Structure tensor"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "Y",
+        "content": "Automation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D056833",
+          "MajorTopicYN": "N",
+          "content": "Central Serous Chorioretinopathy"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D021621",
+        "MajorTopicYN": "N",
+        "content": "Imaging, Three-Dimensional"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D008269",
+          "MajorTopicYN": "N",
+          "content": "Macular Edema"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D012160",
+          "MajorTopicYN": "N",
+          "content": "Retina"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }},
+      {"DescriptorName": {
+        "UI": "D041623",
+        "MajorTopicYN": "N",
+        "content": "Tomography, Optical Coherence"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28110716
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": "03",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28110716,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0169-2607(16)30435-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.cmpb.2016.09.004",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,368 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101568200,
+      "Country": "Switzerland",
+      "ISSNLinking": "1664-462X",
+      "MedlineTA": "Front Plant Sci"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 2057},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "A promising method for characterizing the phenotype of a plant as an interaction between its genotype and its environment is to use refined organ-scale plant growth models that use the observation of architectural traits, such as leaf area, containing a lot of information on the whole history of the functioning of the plant. The Phenoscope, a high-throughput automated platform, allowed the acquisition of zenithal images of Arabidopsis thaliana over twenty one days for 4 different genotypes. A novel image processing algorithm involving both segmentation and tracking of the plant leaves allows to extract areas of the latter. First, all the images in the series are segmented independently using a watershed-based approach. A second step based on ellipsoid-shaped leaves is then applied on the segments found to refine the segmentation. Taking into account all the segments at every time, the whole history of each leaf is reconstructed by choosing recursively through time the most probable segment achieving the best score, computed using some characteristics of the segment such as its orientation, its distance to the plant mass center and its area. These results are compared to manually extracted segments, showing a very good accordance in leaf rank and that they therefore provide low-biased data in large quantity for leaf areas. Such data can therefore be exploited to design an organ-scale plant model adapted from the existing GreenLab model for A. thaliana and subsequently parameterize it. This calibration of the model parameters should pave the way for differentiation between the Arabidopsis genotypes."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Gautier",
+            "LastName": "Viaud",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Laboratory MICS, CentraleSupélec, University of Paris-Saclay Châtenay-Malabry, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Olivier",
+            "LastName": "Loudet",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Institut Jean-Pierre Bourgin, INRA, AgroParisTech, CNRS, Université Paris-Saclay Versailles, France."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul-Henry",
+            "LastName": "Cournède",
+            "Initials": "PH",
+            "AffiliationInfo": {"Affiliation": "Laboratory MICS, CentraleSupélec, University of Paris-Saclay Châtenay-Malabry, France."}
+          }
+        ]
+      },
+      "ArticleTitle": "Leaf Segmentation and Tracking in Arabidopsis thaliana Combined to an Organ-Scale Plant Model for Genotypic Differentiation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.3389/fpls.2016.02057"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 7,
+          "PubDate": {"Year": 2016},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Front Plant Sci",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1664-462X"
+        },
+        "Title": "Frontiers in plant science"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Arabidopsis"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "area"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "differentiation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "genotypic"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "leaf"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "phyllotaxy"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "tracking"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 16
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Bot. 2011 Apr;107(5):817-28",
+        "PMID": {
+          "Version": 1,
+          "content": 21247905
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Plant Biol. 2014 Apr;18:96-102",
+        "PMID": {
+          "Version": 1,
+          "content": 24637194
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 1986 Jun;8(6):679-98",
+        "PMID": {
+          "Version": 1,
+          "content": 21869365
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Bot. 2008 May;101(8):1243-54",
+        "PMID": {
+          "Version": 1,
+          "content": 17766844
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2006 Jan 31;103(5):1301-6",
+        "PMID": {
+          "Version": 1,
+          "content": 16432192
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Bot. 2011 Oct;108(6):1043-53",
+        "PMID": {
+          "Version": 1,
+          "content": 21593061
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell. 2009 Aug;21(8):2194-202",
+        "PMID": {
+          "Version": 1,
+          "content": 19654263
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2012 Mar;69(6):1094-101",
+        "PMID": {
+          "Version": 1,
+          "content": 22077701
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Plant Sci. 2003 Jan;8(1):9-14",
+        "PMID": {
+          "Version": 1,
+          "content": 12523994
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2004 Jul 6;101(27):10205-10",
+        "PMID": {
+          "Version": 1,
+          "content": 15199185
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Bot. 2010 May;61(8):2171-83",
+        "PMID": {
+          "Version": 1,
+          "content": 20051352
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Int J Dev Biol. 2005;49(5-6):547-55",
+        "PMID": {
+          "Version": 1,
+          "content": 16096964
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2015 May;82(4):693-706",
+        "PMID": {
+          "Version": 1,
+          "content": 25801304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2004 Apr;38(1):193-202",
+        "PMID": {
+          "Version": 1,
+          "content": 15053772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant J. 2013 May;74(3):534-44",
+        "PMID": {
+          "Version": 1,
+          "content": 23452317
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Plant Sci. 2006 Dec;11(12):587-93",
+        "PMID": {
+          "Version": 1,
+          "content": 17092764
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Sci. 2016 Oct;251:2-11",
+        "PMID": {
+          "Version": 1,
+          "content": 27593458
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Bot. 2010 May;61(8):2101-15",
+        "PMID": {
+          "Version": 1,
+          "content": 19995824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2003 Feb;131(2):664-75",
+        "PMID": {
+          "Version": 1,
+          "content": 12586890
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Physiol. 2011 Jun;156(2):832-43",
+        "PMID": {
+          "Version": 1,
+          "content": 21511989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Bot. 2004 May;93(5):591-602",
+        "PMID": {
+          "Version": 1,
+          "content": 15056562
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Plant Cell Environ. 2010 Nov;33(11):1875-87",
+        "PMID": {
+          "Version": 1,
+          "content": 20545881
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Plant Sci. 2014 Jan;19(1):52-61",
+        "PMID": {
+          "Version": 1,
+          "content": 24139902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Exp Bot. 2005 Dec;56(422):3083-92",
+        "PMID": {
+          "Version": 1,
+          "content": 16234283
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28123392
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2016,
+        "Day": 31,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 12,
+        "Year": 2016,
+        "Day": 23,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28123392,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.3389/fpls.2016.02057",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5225094",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

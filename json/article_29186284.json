@@ -1,0 +1,165 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Motivation",
+          "content": "Recent advancements in high-throughput sequencing technology have led to a rapid growth of genomic data. Several lossless compression schemes have been proposed for the coding of such data present in the form of raw FASTQ files and aligned SAM/BAM files. However, due to their high entropy, losslessly compressed quality values account for about 80% of the size of compressed files. For the quality values, we present a novel lossy compression scheme named CALQ. By controlling the coarseness of quality value quantization with a statistical genotyping model, we minimize the impact of the introduced distortion on downstream analyses."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "We analyze the performance of several lossy compressors for quality values in terms of trade-off between the achieved compressed size (in bits per quality value) and the Precision and Recall achieved after running a variant calling pipeline over sequencing data of the well-known NA12878 individual. By compressing and reconstructing quality values with CALQ, we observe a better average variant calling performance than with the original data while achieving a size reduction of about one order of magnitude with respect to the state-of-the-art lossless compressors. Furthermore, we show that CALQ performs as good as or better than the state-of-the-art lossy compressors in terms of variant calling Recall and Precision for most of the analyzed data sets."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Availability",
+          "content": "CALQ is written in C\u2009++ and can be downloaded from https://github.com/voges/calq."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Contact",
+          "content": "voges@tnt.uni-hannover.de."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Supplementary information",
+          "content": "Supplementary Data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jan",
+            "LastName": "Voges",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Institut für Informationsverarbeitung (TNT), Leibniz Universität Hannover, Hannover, 30167, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jörn",
+            "LastName": "Ostermann",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Institut für Informationsverarbeitung (TNT), Leibniz Universität Hannover, Hannover, 30167, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mikel",
+            "LastName": "Hernaez",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Institute for Genomic Biology, University of Illinois, Urbana-Champaign, IL 61801, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "CALQ: compression of quality values of aligned sequencing data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btx737"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 23
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2017,
+      "Day": 29
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 29186284
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2017,
+        "Day": 16,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 10,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29186284,
+        "IdType": "pubmed"
+      },
+      {
+        "content": 4653693,
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btx737",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

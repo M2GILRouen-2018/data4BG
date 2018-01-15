@@ -1,0 +1,496 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101516718,
+      "Country": "England",
+      "ISSNLinking": "1758-2946",
+      "MedlineTA": "J Cheminform"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 60},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM099842",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 GM080403",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "National Institutes of Health",
+            "Country": "United States",
+            "GrantID": "R01 GM099842"
+          },
+          {
+            "Agency": "National Institutes of Health",
+            "Country": "United States",
+            "GrantID": "R01 GM080403"
+          },
+          {
+            "Agency": "National Science Foundation",
+            "Country": "United States",
+            "GrantID": "CHE 1305874"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 28
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "In ligand-based virtual screening experiments, a known active ligand is used in similarity searches to find putative active compounds for the same protein target. When there are several known active molecules, screening using all of them is more powerful than screening using a single ligand. A consensus query can be created by either screening serially with different ligands before merging the obtained similarity scores, or by combining the molecular descriptors (i.e. chemical fingerprints) of those ligands."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We report on the discriminative power and speed of several consensus methods, on two datasets only made of experimentally verified molecules. The two datasets contain a total of 19 protein targets, 3776 known active and ~ 2 × 106 inactive molecules. Three chemical fingerprints are investigated: MACCS 166 bits, ECFP4 2048 bits and an unfolded version of MOLPRINT2D. Four different consensus policies and five consensus sizes were benchmarked."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "The best consensus method is to rank candidate molecules using the maximum score obtained by each candidate molecule versus all known actives. When the number of actives used is small, the same screening performance can be approached by a consensus fingerprint. However, if the computational exploration of the chemical space is limited by speed (i.e. throughput), a consensus fingerprint allows to outperform this consensus of scores."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0003-1377-944X"
+            },
+            "ForeName": "Francois",
+            "LastName": "Berenger",
+            "Initials": "F",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Chemistry, Vanderbilt University, Nashville, TN, USA. berenger@bioreg.kyushu-u.ac.jp."},
+              {"Affiliation": "Division of System Cohort, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan. berenger@bioreg.kyushu-u.ac.jp."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Oanh",
+            "LastName": "Vu",
+            "Initials": "O",
+            "AffiliationInfo": {"Affiliation": "Department of Chemistry, Vanderbilt University, Nashville, TN, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jens",
+            "LastName": "Meiler",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Department of Chemistry, Vanderbilt University, Nashville, TN, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Consensus queries in ligand-based virtual screening experiments.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13321-017-0248-5"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 9,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2017,
+            "Day": 28
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "J Cheminform",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1758-2946"
+        },
+        "Title": "Journal of cheminformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Chemical fingerprint"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Consensus query"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "ECFP4"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ligand-based virtual screening (LBVS)"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MACCS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "MOLPRINT2D"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Potency scaling"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Several bioactives"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Similarity search"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Tanimoto score"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2017 Feb 2;9:7",
+        "PMID": {
+          "Version": 1,
+          "content": 28203291
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2014 Apr 10;57(7):3117-25",
+        "PMID": {
+          "Version": 1,
+          "content": 24666037
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2008 Sep;48(9):1754-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18698839
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2007 May-Jun;47(3):805-17",
+        "PMID": {
+          "Version": 1,
+          "content": 17532665
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2006 Dec;11(23-24):1046-53",
+        "PMID": {
+          "Version": 1,
+          "content": 17129822
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2013 Jan 28;53(1):56-65",
+        "PMID": {
+          "Version": 1,
+          "content": 23259841
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2012 Jul 26;55(14):6582-94",
+        "PMID": {
+          "Version": 1,
+          "content": 22716043
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2006 Nov-Dec;46(6):2206-19",
+        "PMID": {
+          "Version": 1,
+          "content": 17125165
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Comput Sci. 2004 Sep-Oct;44(5):1708-18",
+        "PMID": {
+          "Version": 1,
+          "content": 15446830
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ACS Cent Sci. 2017 Apr 26;3(4):283-293",
+        "PMID": {
+          "Version": 1,
+          "content": 28470045
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Molecules. 2013 Jan 08;18(1):735-56",
+        "PMID": {
+          "Version": 1,
+          "content": 23299552
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Comput Sci. 2004 May-Jun;44(3):1177-85",
+        "PMID": {
+          "Version": 1,
+          "content": 15154787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2016 Mar 15;8:14",
+        "PMID": {
+          "Version": 1,
+          "content": 26981157
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2015 May 26;55(5):1030-44",
+        "PMID": {
+          "Version": 1,
+          "content": 25815783
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2014 Mar 21;6(1):7",
+        "PMID": {
+          "Version": 1,
+          "content": 24655571
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Nov 15;26(22):2918-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20870644
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2007 Mar-Apr;47(2):367-75",
+        "PMID": {
+          "Version": 1,
+          "content": 17300172
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2001 May 10;44(10):1564-75",
+        "PMID": {
+          "Version": 1,
+          "content": 11334566
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Comput Aided Mol Des. 2013 Aug;27(8):675-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23963658
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Comput Sci. 1996 Jul-Aug;36(4):862-71",
+        "PMID": {
+          "Version": 1,
+          "content": 8768771
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2015 Sep 30;7:47",
+        "PMID": {
+          "Version": 1,
+          "content": 26473018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Org Biomol Chem. 2004 Nov 21;2(22):3204-18",
+        "PMID": {
+          "Version": 1,
+          "content": 15534697
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2015 Nov 23;55(11):2324-37",
+        "PMID": {
+          "Version": 1,
+          "content": 26479676
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2011 Oct 07;3:33",
+        "PMID": {
+          "Version": 1,
+          "content": 21982300
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 Dec 11;350(6266):1332-8",
+        "PMID": {
+          "Version": 1,
+          "content": 26659050
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Comput Sci. 2001 May-Jun;41(3):746-53",
+        "PMID": {
+          "Version": 1,
+          "content": 11410055
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2017 Apr 24;57(4):627-631",
+        "PMID": {
+          "Version": 1,
+          "content": 28346786
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Chem. 2004 Nov 4;47(23):5608-11",
+        "PMID": {
+          "Version": 1,
+          "content": 15509158
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Model. 2010 May 24;50(5):771-84",
+        "PMID": {
+          "Version": 1,
+          "content": 20450209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Chem Inf Comput Sci. 2004 Jan-Feb;44(1):170-8",
+        "PMID": {
+          "Version": 1,
+          "content": 14741025
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "ACS Chem Neurosci. 2012 Sep 19;3(9):649-57",
+        "PMID": {
+          "Version": 1,
+          "content": 23019491
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29185065
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "06",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29185065,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13321-017-0248-5",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s13321-017-0248-5",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5705545",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

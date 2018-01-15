@@ -1,0 +1,305 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0361512",
+      "Country": "United States",
+      "ISSNLinking": "0090-6964",
+      "MedlineTA": "Ann Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2014,
+      "Day": "02"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "2448-62"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Pneumonia annually kills over 1,800,000 children throughout the world. The vast majority of these deaths occur in resource poor regions such as the sub-Saharan Africa and remote Asia. Prompt diagnosis and proper treatment are essential to prevent these unnecessary deaths. The reliable diagnosis of childhood pneumonia in remote regions is fraught with difficulties arising from the lack of field-deployable imaging and laboratory facilities as well as the scarcity of trained community healthcare workers. In this paper, we present a pioneering class of technology addressing both of these problems. Our approach is centred on the automated analysis of cough and respiratory sounds, collected via microphones that do not require physical contact with subjects. Cough is a cardinal symptom of pneumonia but the current clinical routines used in remote settings do not make use of coughs beyond noting its existence as a screening-in criterion. We hypothesized that cough carries vital information to diagnose pneumonia, and developed mathematical features and a pattern classifier system suited for the task. We collected cough sounds from 91 patients suspected of acute respiratory illness such as pneumonia, bronchiolitis and asthma. Non-contact microphones kept by the patient's bedside were used for data acquisition. We extracted features such as non-Gaussianity and Mel Cepstra from cough sounds and used them to train a Logistic Regression classifier. We used the clinical diagnosis provided by the paediatric respiratory clinician as the gold standard to train and validate our classifier. The methods proposed in this paper could separate pneumonia from other diseases at a sensitivity and specificity of 94 and 75% respectively, based on parameters extracted from cough sounds alone. The inclusion of other simple measurements such as the presence of fever further increased the performance. These results show that cough sounds indeed carry critical information on the lower respiratory tract, and can be used to diagnose pneumonia. The performance of our method is far superior to those of existing WHO clinical algorithms for resource-poor regions. To the best of our knowledge, this is the first attempt in the world to diagnose pneumonia in humans using cough sound analysis. Our method has the potential to revolutionize the management of childhood pneumonia in remote regions of the world."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Udantha R",
+            "LastName": "Abeyratne",
+            "Initials": "UR",
+            "AffiliationInfo": {"Affiliation": "School of Information Technology and Electrical Engineering, The University of Queensland, Brisbane, QLD, Australia, udantha@itee.uq.edu.au."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Vinayak",
+            "LastName": "Swarnkar",
+            "Initials": "V"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Amalia",
+            "LastName": "Setyati",
+            "Initials": "A"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rina",
+            "LastName": "Triasih",
+            "Initials": "R"
+          }
+        ]
+      },
+      "ArticleTitle": "Cough sound analysis can rapidly diagnose childhood pneumonia.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10439-013-0836-0"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 41,
+          "PubDate": {
+            "Month": "Nov",
+            "Year": 2013
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Ann Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1573-9686"
+        },
+        "Title": "Annals of biomedical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 10,
+      "Year": 2013,
+      "Day": 17
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000293",
+        "MajorTopicYN": "N",
+        "content": "Adolescent"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001249",
+          "MajorTopicYN": "N",
+          "content": "Asthma"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001988",
+          "MajorTopicYN": "N",
+          "content": "Bronchiolitis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {"DescriptorName": {
+        "UI": "D002675",
+        "MajorTopicYN": "N",
+        "content": "Child, Preschool"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003371",
+          "MajorTopicYN": "Y",
+          "content": "Cough"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007223",
+        "MajorTopicYN": "N",
+        "content": "Infant"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000175",
+            "MajorTopicYN": "N",
+            "content": "diagnosis"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D011014",
+          "MajorTopicYN": "Y",
+          "content": "Pneumonia"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D011237",
+        "MajorTopicYN": "N",
+        "content": "Predictive Value of Tests"
+      }},
+      {"DescriptorName": {
+        "UI": "D012135",
+        "MajorTopicYN": "Y",
+        "content": "Respiratory Sounds"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "N",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D013018",
+          "MajorTopicYN": "N",
+          "content": "Sound Spectrography"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2013,
+      "Day": 17
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 23743558
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2013,
+        "Day": 27,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2013,
+        "Day": 27,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 6,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 6,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 8,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23743558,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10439-013-0836-0",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

@@ -1,0 +1,393 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0425746",
+      "Country": "United States",
+      "ISSNLinking": "0094-2405",
+      "MedlineTA": "Med Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 20
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "426-436"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D023361",
+          "content": "Validation Studies"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 25
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "© 2016 American Association of Physicists in Medicine.",
+        "AbstractText": [
+          {
+            "NlmCategory": "OBJECTIVE",
+            "Label": "PURPOSE",
+            "content": "Electrical Impedance Tomography (EIT) is an imaging modality used to generate two-dimensional cross-sectional images representing impedance change in the thorax. The impedance of lung tissue changes with change in air content of the lungs; hence, EIT can be used to examine regional lung ventilation in patients with abnormal lungs. In lung EIT, electrodes are attached around the circumference of the thorax to inject small alternating currents and measure resulting voltages. In contrast to X-ray computed tomography (CT), EIT images do not depict a thorax slice of well defined thickness, but instead visualize a lens-shaped region around the electrode plane, which results from diffuse current propagation in the thorax. Usually, this is considered a drawback, since image interpretation is impeded if 'off-plane' conductivity changes are projected onto the reconstructed two-dimensional image. In this paper we describe an approach that takes advantage of current propagation below and above the electrode plane. The approach enables estimation of the individual conductivity change in each lung lobe from boundary voltage measurements. This could be used to monitor disease progression in patients with obstructive lung diseases, such as chronic obstructive pulmonary disease (COPD) or cystic fibrosis (CF) and to obtain a more comprehensive insight into the pathophysiology of the lung."
+          },
+          {
+            "NlmCategory": "METHODS",
+            "Label": "METHODS",
+            "content": "Electrode voltages resulting from different conductivities in each lung lobe were simulated utilizing a realistic 3D finite element model (FEM) of the human thorax and the lungs. Overall 200 different patterns of conductivity change were simulated. A 'lobe reconstruction' algorithm was developed, applying patient-specific anatomical information in the reconstruction process. A standard EIT image reconstruction algorithm and the proposed 'lobe reconstruction' algorithm were used to estimate conductivity change in the lobes. The agreement between simulated and reconstructed conductivity change in particular lobes were compared using Bland-Altman plots, correlation plots and linear regression. To test the applicability of the approach in a realistic scenario, EIT measurements of a patient suffering from cystic fibrosis (CF) were carried out."
+          },
+          {
+            "NlmCategory": "RESULTS",
+            "Label": "RESULTS",
+            "content": "Conductivity changes in each lobe generate specific patterns of voltage change. These can be used to estimate the conductivity change in lobes from measured boundary voltage. The correlation coefficient between simulated and reconstructed conductivity change in particular lobes is r > 0.89 for all lobes. Unknown position of the electrode plane leads to over- or underestimation of reconstructed conductivity change. Slight mismatches (± 5% of the forward model height) between the actual position of the electrode plane and the position used in the reconstruction model lead to regression coefficients of 0.7 to 1.3 between simulated and reconstructed conductivity change in the lobes."
+          },
+          {
+            "NlmCategory": "CONCLUSIONS",
+            "Label": "CONCLUSION",
+            "content": "The presented approach enhances common reconstruction methods by providing information about anatomically assignable units and thus facilitates image interpretation, since impedance change and thus ventilation of each lobe is directly determined in the reconstructions."
+          }
+        ]
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Benjamin",
+            "LastName": "Schullcke",
+            "Initials": "B",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute of Technical Medicine, Furtwangen University, 78045, VS-Schwenningen, Germany."},
+              {"Affiliation": "Department of Radiology, University of Munich, 80336, Munich, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bo",
+            "LastName": "Gong",
+            "Initials": "B",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute of Technical Medicine, Furtwangen University, 78045, VS-Schwenningen, Germany."},
+              {"Affiliation": "Department of Radiology, University of Munich, 80336, Munich, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sabine",
+            "LastName": "Krueger-Ziolek",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "Institute of Technical Medicine, Furtwangen University, 78045, VS-Schwenningen, Germany."},
+              {"Affiliation": "Department of Radiology, University of Munich, 80336, Munich, Germany."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Merryn",
+            "LastName": "Tawhai",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Auckland Bioengineering Institute, University of Auckland, Auckland, 1010, New Zealand."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andy",
+            "LastName": "Adler",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Systems and Computer Engineering, Carlton University, Ottawa, ON, K1S 5B6, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ullrich",
+            "LastName": "Mueller-Lisse",
+            "Initials": "U",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology, University of Munich, 80336, Munich, Germany."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Knut",
+            "LastName": "Moeller",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Institute of Technical Medicine, Furtwangen University, 78045, VS-Schwenningen, Germany."}
+          }
+        ]
+      },
+      "ArticleTitle": "Lobe based image reconstruction in Electrical Impedance Tomography.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1002/mp.12038"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 2,
+          "Volume": 44,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2473-4209"
+        },
+        "Title": "Medical physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "Y",
+          "content": "electrical impedance tomography"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "lobe ventilation"
+        },
+        {
+          "MajorTopicYN": "Y",
+          "content": "patient-specific functional imaging"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D003550",
+          "MajorTopicYN": "N",
+          "content": "Cystic Fibrosis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017097",
+        "MajorTopicYN": "N",
+        "content": "Electric Impedance"
+      }},
+      {"DescriptorName": {
+        "UI": "D004566",
+        "MajorTopicYN": "N",
+        "content": "Electrodes"
+      }},
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D020342",
+        "MajorTopicYN": "N",
+        "content": "Finite Element Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007091",
+          "MajorTopicYN": "N",
+          "content": "Image Processing, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D016014",
+        "MajorTopicYN": "N",
+        "content": "Linear Models"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "N",
+            "content": "physiology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D008168",
+          "MajorTopicYN": "N",
+          "content": "Lung"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {"DescriptorName": {
+        "UI": "D008875",
+        "MajorTopicYN": "N",
+        "content": "Middle Aged"
+      }},
+      {"DescriptorName": {
+        "UI": "D008953",
+        "MajorTopicYN": "N",
+        "content": "Models, Anatomic"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000502",
+            "MajorTopicYN": "N",
+            "content": "physiology"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "N",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D013909",
+          "MajorTopicYN": "N",
+          "content": "Thorax"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000295",
+            "MajorTopicYN": "N",
+            "content": "instrumentation"
+          },
+          {
+            "UI": "Q000379",
+            "MajorTopicYN": "Y",
+            "content": "methods"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D014054",
+          "MajorTopicYN": "N",
+          "content": "Tomography"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "03",
+      "Year": 2017,
+      "Day": 20
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28121374
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2016,
+        "Day": 17,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 22,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": 11,
+        "Year": 2016,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 3,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28121374,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1002/mp.12038",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

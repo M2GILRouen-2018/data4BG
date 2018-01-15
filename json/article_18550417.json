@@ -1,0 +1,259 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101492570,
+      "Country": "United States",
+      "ISSNLinking": "1945-7928",
+      "MedlineTA": "Proc IEEE Int Symp Biomed Imaging"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1284-1287"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NCI NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 CA140663",
+          "Acronym": "CA"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Automated profiling of nuclear architecture, in histology sections, can potentially help predict the clinical outcomes. However, the task is challenging as a result of nuclear pleomorphism and cellular states (e.g., cell fate, cell cycle), which are compounded by the batch effect (e.g., variations in fixation and staining). Present methods, for nuclear segmentation, are based on human-designed features that may not effectively capture intrinsic nuclear architecture. In this paper, we propose a novel approach, called sparsity constrained convolutional regression (SCCR), for nuclei segmentation. Specifically, given raw image patches and the corresponding annotated binary masks, our algorithm jointly learns a bank of convolutional filters and a sparse linear regressor, where the former is used for feature extraction, and the latter aims to produce a likelihood for each pixel being nuclear region or background. During classification, the pixel label is simply determined by a thresholding operation applied on the likelihood map. The method has been evaluated using the benchmark dataset collected from The Cancer Genome Atlas (TCGA). Experimental results demonstrate that our method outperforms traditional nuclei segmentation algorithms and is able to achieve competitive performance compared to the state-of-the-art algorithm built upon human-designed features with biological prior knowledge."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yin",
+            "LastName": "Zhou",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Life Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA, U.S.A; University of Delaware, Newark, DE, U.S.A."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hang",
+            "LastName": "Chang",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "Life Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA, U.S.A; Department of Electrical and Computer Engineering, University of California, Riverside, U.S.A."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kenneth E",
+            "LastName": "Barner",
+            "Initials": "KE",
+            "AffiliationInfo": {"Affiliation": "University of Delaware, Newark, DE, U.S.A."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bahram",
+            "LastName": "Parvin",
+            "Initials": "B",
+            "AffiliationInfo": {"Affiliation": "Life Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA, U.S.A; Biomedical Engineering Department, University of Nevada, Reno, NV, U.S.A; Department of Electrical and Computer Engineering, University of California, Riverside, U.S.A."}
+          }
+        ]
+      },
+      "ArticleTitle": "NUCLEI SEGMENTATION VIA SPARSITY CONSTRAINED CONVOLUTIONAL REGRESSION.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/ISBI.2015.7164109"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 2015,
+          "PubDate": {
+            "Month": "Apr",
+            "Year": 2015
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Proc IEEE Int Symp Biomed Imaging",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1945-7928"
+        },
+        "Title": "Proceedings. IEEE International Symposium on Biomedical Imaging"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "H&E tissue section"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Nuclear/Background classification"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "convolutional neural network"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "sparse coding"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Dec 20;12:484",
+        "PMID": {
+          "Version": 1,
+          "content": 22185703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2010 Apr;57(4):841-52",
+        "PMID": {
+          "Version": 1,
+          "content": 19884070
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc IEEE Comput Soc Conf Comput Vis Pattern Recognit. 2013 Jun 23;2013:null",
+        "PMID": {
+          "Version": 1,
+          "content": 24319324
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Conf Comput Vis Pattern Recognit Workshops. 2014 Jun;2014:3081-3088",
+        "PMID": {
+          "Version": 1,
+          "content": 25554749
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Quant Cytol Histol. 2003 Dec;25(6):321-31",
+        "PMID": {
+          "Version": 1,
+          "content": 14714298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Apr 15;25(8):1070-5",
+        "PMID": {
+          "Version": 1,
+          "content": 18703588
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2013;16(Pt 3):404-12",
+        "PMID": {
+          "Version": 1,
+          "content": 24505787
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Apr;32(4):670-82",
+        "PMID": {
+          "Version": 1,
+          "content": 23221815
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Biomed Eng. 2010 Jul;57(7):1676-89",
+        "PMID": {
+          "Version": 1,
+          "content": 20172780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Quant Cytol Histol. 2001 Aug;23(4):291-9",
+        "PMID": {
+          "Version": 1,
+          "content": 11531144
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2008 Dec;12(6):703-12",
+        "PMID": {
+          "Version": 1,
+          "content": 18550417
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28101301
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 20,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 4,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 0,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2015,
+        "Minute": 1,
+        "Hour": 0,
+        "Day": 1,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28101301,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/ISBI.2015.7164109",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5239217",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS840876",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

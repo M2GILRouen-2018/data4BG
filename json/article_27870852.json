@@ -1,0 +1,362 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 394},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIAID NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 AI112401",
+          "Acronym": "AI"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "09",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 13
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Detecting patterns in high-dimensional multivariate datasets is non-trivial. Clustering and dimensionality reduction techniques often help in discerning inherent structures. In biological datasets such as microbial community composition or gene expression data, observations can be generated from a continuous process, often unknown. Estimating data points' 'natural ordering' and their corresponding uncertainties can help researchers draw insights about the mechanisms involved."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We introduce a Bayesian Unidimensional Scaling (BUDS) technique which extracts dominant sources of variation in high dimensional datasets and produces their visual data summaries, facilitating the exploration of a hidden continuum. The method maps multivariate data points to latent one-dimensional coordinates along their underlying trajectory, and provides estimated uncertainty bounds. By statistically modeling dissimilarities and applying a DiSTATIS registration method to their posterior samples, we are able to incorporate visualizations of uncertainties in the estimated data trajectory across different regions using confidence contours for individual data points. We also illustrate the estimated overall data density across different areas by including density clouds. One-dimensional coordinates recovered by BUDS help researchers discover sample attributes or covariates that are factors driving the main variability in a dataset. We demonstrated usefulness and accuracy of BUDS on a set of published microbiome 16S and RNA-seq and roll call data."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "Our method effectively recovers and visualizes natural orderings present in datasets. Automatic visualization tools for data exploration and analysis are available at: https://nlhuong.shinyapps.io/visTrajectory/ ."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lan Huong",
+            "LastName": "Nguyen",
+            "Initials": "LH",
+            "AffiliationInfo": {"Affiliation": "Institute for Computational and Mathematical Engineering, Stanford University, Stanford, 94305, USA. lanhuong@stanford.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Susan",
+            "LastName": "Holmes",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Department of Statistics, Stanford University, Stanford, 94305, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Bayesian Unidimensional Scaling for visualizing uncertainty in high dimensional datasets with latent ordering of observations.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1790-x"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": "Suppl 10",
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 13
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Bayesian model"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Dimensionality reduction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Microbiome"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Ordering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Pseudotime"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Single cell"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Uncertainty"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000818",
+        "MajorTopicYN": "N",
+        "content": "Animals"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000196",
+            "MajorTopicYN": "N",
+            "content": "embryology"
+          },
+          {
+            "UI": "Q000235",
+            "MajorTopicYN": "N",
+            "content": "genetics"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001001",
+          "MajorTopicYN": "N",
+          "content": "Anura"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {"DescriptorName": {
+        "UI": "D016000",
+        "MajorTopicYN": "N",
+        "content": "Cluster Analysis"
+      }},
+      {"DescriptorName": {
+        "UI": "D019992",
+        "MajorTopicYN": "Y",
+        "content": "Databases as Topic"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069196",
+        "MajorTopicYN": "N",
+        "content": "Gastrointestinal Microbiome"
+      }},
+      {"DescriptorName": {
+        "UI": "D018507",
+        "MajorTopicYN": "N",
+        "content": "Gene Expression Regulation, Developmental"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D007223",
+        "MajorTopicYN": "N",
+        "content": "Infant"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "N",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D009792",
+        "MajorTopicYN": "N",
+        "content": "Oceans and Seas"
+      }},
+      {"DescriptorName": {
+        "UI": "D035501",
+        "MajorTopicYN": "Y",
+        "content": "Uncertainty"
+      }},
+      {"DescriptorName": {
+        "UI": "D014584",
+        "MajorTopicYN": "N",
+        "content": "User-Computer Interface"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2018,
+      "Day": "08"
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jul 27;44(13):e117",
+        "PMID": {
+          "Version": 1,
+          "content": 27179027
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2014 Apr;32(4):381-386",
+        "PMID": {
+          "Version": 1,
+          "content": 24658644
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Rep. 2016 Jan 26;14 (3):632-47",
+        "PMID": {
+          "Version": 1,
+          "content": 26774488
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2010 Jan 22;11:45",
+        "PMID": {
+          "Version": 1,
+          "content": 20096121
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Methods. 2010 May;7(5):335-6",
+        "PMID": {
+          "Version": 1,
+          "content": 20383131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2015 May 22;348(6237):1261359",
+        "PMID": {
+          "Version": 1,
+          "content": 25999513
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2016 May 5;165(4):1012-26",
+        "PMID": {
+          "Version": 1,
+          "content": 27062923
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Stem Cell. 2015 Sep 3;17(3):360-72",
+        "PMID": {
+          "Version": 1,
+          "content": 26299571
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2016 Oct 1;32(19):2973-80",
+        "PMID": {
+          "Version": 1,
+          "content": 27318198
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Host Microbe. 2015 Feb 11;17(2):260-73",
+        "PMID": {
+          "Version": 1,
+          "content": 25662751
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2016 Nov 21;12 (11):e1005212",
+        "PMID": {
+          "Version": 1,
+          "content": 27870852
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28929970
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2018,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28929970,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1790-x",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1790-x",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5606221",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

@@ -1,0 +1,323 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "01510020R",
+      "Country": "United States",
+      "ISSNLinking": "0162-1459",
+      "MedlineTA": "J Am Stat Assoc"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "169-187"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NCI NIH HHS",
+            "Country": "United States",
+            "GrantID": "P01 CA142538",
+            "Acronym": "CA"
+          },
+          {
+            "Agency": "NHLBI NIH HHS",
+            "Country": "United States",
+            "GrantID": "U01 HL080310",
+            "Acronym": "HL"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR000423",
+            "Acronym": "TR"
+          },
+          {
+            "Agency": "NCATS NIH HHS",
+            "Country": "United States",
+            "GrantID": "UL1 TR001111",
+            "Acronym": "TR"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "03"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Personalized medicine has received increasing attention among statisticians, computer scientists, and clinical practitioners. A major component of personalized medicine is the estimation of individualized treatment rules (ITRs). Recently, Zhao et al. (2012) proposed outcome weighted learning (OWL) to construct ITRs that directly optimize the clinical outcome. Although OWL opens the door to introducing machine learning techniques to optimal treatment regimes, it still has some problems in performance. (1) The estimated ITR of OWL is affected by a simple shift of the outcome. (2) The rule from OWL tries to keep treatment assignments that subjects actually received. (3) There is no variable selection mechanism with OWL. All of them weaken the finite sample performance of OWL. In this article, we propose a general framework, called Residual Weighted Learning (RWL), to alleviate these problems, and hence to improve finite sample performance. Unlike OWL which weights misclassification errors by clinical outcomes, RWL weights these errors by residuals of the outcome from a regression fit on clinical covariates excluding treatment assignment. We utilize the smoothed ramp loss function in RWL, and provide a difference of convex (d.c.) algorithm to solve the corresponding non-convex optimization problem. By estimating residuals with linear models or generalized linear models, RWL can effectively deal with different types of outcomes, such as continuous, binary and count outcomes. We also propose variable selection methods for linear and nonlinear rules, respectively, to further improve the performance. We show that the resulting estimator of the treatment rule is consistent. We further obtain a rate of convergence for the difference between the expected outcome using the estimated ITR and that of the optimal treatment rule. The performance of the proposed RWL methods is illustrated in simulation studies and in an analysis of cystic fibrosis clinical trial data."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xin",
+            "LastName": "Zhou",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, University of North Carolina at Chapel Hill, NC 27599 (xinzhou@live.unc.edu)."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Nicole",
+            "LastName": "Mayer-Hamblett",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Department of Pediatrics and Department of Biostatistics, University of Washington (nicole.hamblett@seattlechildrens.org)."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Umer",
+            "LastName": "Khan",
+            "Initials": "U",
+            "AffiliationInfo": {"Affiliation": "Cystic Fibrosis Foundation Therapeutics Development Network, Seattle Childrens Hospital (umer.khan@seattlechildrens.org)."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael R",
+            "LastName": "Kosorok",
+            "Initials": "MR",
+            "AffiliationInfo": {"Affiliation": "Department of Biostatistics, and Professor, Department of Statistics and Operations Research, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 (kosorok@unc.edu)."}
+          }
+        ]
+      },
+      "ArticleTitle": "Residual Weighted Learning for Estimating Individualized Treatment Rules.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1080/01621459.2015.1093947"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 517,
+          "Volume": 112,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "J Am Stat Assoc",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0162-1459"
+        },
+        "Title": "Journal of the American Statistical Association"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Convergence Rate"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Martingale residuals"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Optimal Treatment Regime"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "RKHS"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Residuals"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Universal consistency"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 28
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Contemp Clin Trials. 2009 May;30(3):256-68",
+        "PMID": {
+          "Version": 1,
+          "content": 19470318
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2005 May 30;24(10):1455-81",
+        "PMID": {
+          "Version": 1,
+          "content": 15586395
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Stat Assoc. 2015;110(510):583-598",
+        "PMID": {
+          "Version": 1,
+          "content": 26236062
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Med. 2009 Nov 20;28(26):3294-315",
+        "PMID": {
+          "Version": 1,
+          "content": 19750510
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arch Pediatr Adolesc Med. 2011 Sep;165(9):847-56",
+        "PMID": {
+          "Version": 1,
+          "content": 21893650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Methodol. 2011 Jan 30;1(8):42-55",
+        "PMID": {
+          "Version": 1,
+          "content": 21179592
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biostatistics. 2004 Jul;5(3):427-43",
+        "PMID": {
+          "Version": 1,
+          "content": 15208204
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Stat. 2011 Apr 1;39(2):1180-1210",
+        "PMID": {
+          "Version": 1,
+          "content": 21666835
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neural Comput. 2003 Apr;15(4):915-36",
+        "PMID": {
+          "Version": 1,
+          "content": 12689392
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2008 Feb 1;24(3):412-9",
+        "PMID": {
+          "Version": 1,
+          "content": 18175770
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2012 Dec;68(4):1010-8",
+        "PMID": {
+          "Version": 1,
+          "content": 22550953
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biometrics. 2011 Dec;67(4):1422-33",
+        "PMID": {
+          "Version": 1,
+          "content": 21385164
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med. 2013 Mar 27;11:84",
+        "PMID": {
+          "Version": 1,
+          "content": 23531230
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Stat Assoc. 2012 Sep 1;107(449):1106-1118",
+        "PMID": {
+          "Version": 1,
+          "content": 23630406
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2011 Oct 20;365(16):1482-91",
+        "PMID": {
+          "Version": 1,
+          "content": 22010914
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28943682
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "05",
+        "Year": 2018,
+        "Day": "03",
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 26,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28943682,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1080/01621459.2015.1093947",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5607057",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS714474",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

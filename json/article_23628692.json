@@ -1,0 +1,324 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9713490,
+      "Country": "Netherlands",
+      "ISSNLinking": "1361-8415",
+      "MedlineTA": "Med Image Anal"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "01",
+      "Year": 2014,
+      "Day": "08"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "698-709"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "03",
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2013 Elsevier B.V. All rights reserved.",
+        "AbstractText": "Accurate alignment of intra-operative X-ray coronary angiography (XA) and pre-operative cardiac CT angiography (CTA) may improve procedural success rates of minimally invasive coronary interventions for patients with chronic total occlusions. It was previously shown that incorporating patient specific coronary motion extracted from 4D CTA increases the robustness of the alignment. However, pre-operative CTA is often acquired with gating at end-diastole, in which case patient specific motion is not available. For such cases, we investigate the possibility of using population based coronary motion models to provide constraints for the 2D+t/3D registration. We propose a methodology for building statistical motion models of the coronary arteries from a training population of 4D CTA datasets. We compare the 2D+t/3D registration performance of the proposed statistical models with other motion estimates, including the patient specific motion extracted from 4D CTA, the mean motion of a population, the predicted motion based on the cardiac shape. The coronary motion models, constructed on a training set of 150 patients, had a generalization accuracy of 1mm root mean square point-to-point distance. Their 2D+t/3D registration accuracy on one cardiac cycle of 12 monoplane XA sequences was similar to, if not better than, the 4D CTA based motion, irrespective of which respiratory model and which feature based 2D/3D distance metric was used. The resulting model based coronary motion estimate showed good applicability for registration of a subsequent cardiac cycle."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "N",
+            "LastName": "Baka",
+            "Initials": "N",
+            "AffiliationInfo": {"Affiliation": "Biomedical Imaging Group Rotterdam, Department of Radiology, Erasmus MC, Rotterdam, The Netherlands. n.baka@erasmusmc.nl"}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C T",
+            "LastName": "Metz",
+            "Initials": "CT"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C",
+            "LastName": "Schultz",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "L",
+            "LastName": "Neefjes",
+            "Initials": "L"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "R J",
+            "LastName": "van Geuns",
+            "Initials": "RJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "B P F",
+            "LastName": "Lelieveldt",
+            "Initials": "BP"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "W J",
+            "LastName": "Niessen",
+            "Initials": "WJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "T",
+            "LastName": "van Walsum",
+            "Initials": "T"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "M",
+            "LastName": "de Bruijne",
+            "Initials": "M"
+          }
+        ]
+      },
+      "ArticleTitle": "Statistical coronary motion models for 2D+t/3D registration of X-ray coronary angiography and CTA.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.media.2013.03.003"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1361-8415(13)00033-9"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 17,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2013
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Image Anal",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1361-8423"
+        },
+        "Title": "Medical image analysis"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "06",
+      "Year": 2013,
+      "Day": "04"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D055424",
+          "MajorTopicYN": "N",
+          "content": "Cardiac-Gated Imaging Techniques"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "Y",
+            "content": "diagnostic imaging"
+          },
+          {
+            "UI": "Q000503",
+            "MajorTopicYN": "Y",
+            "content": "physiopathology"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D023921",
+          "MajorTopicYN": "N",
+          "content": "Coronary Stenosis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D007089",
+          "MajorTopicYN": "N",
+          "content": "Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008955",
+        "MajorTopicYN": "Y",
+        "content": "Models, Cardiovascular"
+      }},
+      {"DescriptorName": {
+        "UI": "D015233",
+        "MajorTopicYN": "Y",
+        "content": "Models, Statistical"
+      }},
+      {"DescriptorName": {
+        "UI": "D009068",
+        "MajorTopicYN": "N",
+        "content": "Movement"
+      }},
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 23628692
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "07",
+        "Year": 2012,
+        "Day": "05",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2013,
+        "Day": "06",
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "03",
+        "Year": 2013,
+        "Day": "06",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 5,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 23628692,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1361-8415(13)00033-9",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.media.2013.03.003",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

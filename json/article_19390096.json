@@ -1,0 +1,376 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 7806056,
+      "Country": "United States",
+      "ISSNLinking": "0148-5598",
+      "MedlineTA": "J Med Syst"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "07",
+      "Year": 2017,
+      "Day": 10
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 191},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "07",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 11
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Obesity is a chronic disease with an increasing impact on the world's population. In this work, we present a method of identifying obesity automatically using text mining techniques and information related to body weight measures and obesity comorbidities. We used a dataset of 3015 de-identified medical records that contain labels for two classification problems. The first classification problem distinguishes between obesity, overweight, normal weight, and underweight. The second classification problem differentiates between obesity types: super obesity, morbid obesity, severe obesity and moderate obesity. We used a Bag of Words approach to represent the records together with unigram and bigram representations of the features. We implemented two approaches: a hierarchical method and a nonhierarchical one. We used Support Vector Machine and Naïve Bayes together with ten-fold cross validation to evaluate and compare performances. Our results indicate that the hierarchical approach does not work as well as the nonhierarchical one. In general, our results show that Support Vector Machine obtains better performances than Naïve Bayes for both classification problems. We also observed that bigram representation improves performance compared with unigram representation."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rosa L",
+            "LastName": "Figueroa",
+            "Initials": "RL",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Faculty of Engineering, Universidad de Concepción, Concepción, Chile."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher A",
+            "LastName": "Flores",
+            "Initials": "CA",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical Engineering, Faculty of Engineering, Universidad de Concepción, Concepción, Chile. chrisflores@udec.cl."}
+          }
+        ]
+      },
+      "ArticleTitle": "Extracting Information from Electronic Medical Records to Identify the Obesity Status of a Patient Based on Comorbidities and Bodyweight Measures.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/s10916-016-0548-8"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 40,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2016
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Med Syst",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1573-689X"
+        },
+        "Title": "Journal of medical systems"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Comorbidities"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Machine learning"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Natural language processing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "07",
+      "Year": 2016,
+      "Day": 12
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001185",
+        "MajorTopicYN": "Y",
+        "content": "Artificial Intelligence"
+      }},
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {"DescriptorName": {
+        "UI": "D015897",
+        "MajorTopicYN": "N",
+        "content": "Comorbidity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D057225",
+          "MajorTopicYN": "N",
+          "content": "Data Mining"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000458",
+          "MajorTopicYN": "Y",
+          "content": "organization & administration"
+        },
+        "DescriptorName": {
+          "UI": "D057286",
+          "MajorTopicYN": "N",
+          "content": "Electronic Health Records"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D009323",
+        "MajorTopicYN": "N",
+        "content": "Natural Language Processing"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "Y",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D009765",
+          "MajorTopicYN": "N",
+          "content": "Obesity"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000175",
+          "MajorTopicYN": "N",
+          "content": "diagnosis"
+        },
+        "DescriptorName": {
+          "UI": "D050177",
+          "MajorTopicYN": "N",
+          "content": "Overweight"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "N",
+        "content": "Support Vector Machine"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 27
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Popul Health Manag. 2010 Jun;13(3):151-61",
+        "PMID": {
+          "Version": 1,
+          "content": 20521902
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2013 Sep 18;8(9):e73479",
+        "PMID": {
+          "Version": 1,
+          "content": 24058478
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2015 Apr;54:186-90",
+        "PMID": {
+          "Version": 1,
+          "content": 25746391
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Fam Med. 2005 May;37(5):360-3",
+        "PMID": {
+          "Version": 1,
+          "content": 15883903
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2009 Jul-Aug;16(4):580-4",
+        "PMID": {
+          "Version": 1,
+          "content": 19390101
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Online J Nurs Inform. 2015 Spring;19(1):null",
+        "PMID": {
+          "Version": 1,
+          "content": 26843807
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2012 May 28;12:45",
+        "PMID": {
+          "Version": 1,
+          "content": 22640398
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Syst. 2012 Aug;36(4):2449-54",
+        "PMID": {
+          "Version": 1,
+          "content": 21556898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Syst. 2009 Feb;33(1):67-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19238898
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Public Health. 2009 Mar 25;9:88",
+        "PMID": {
+          "Version": 1,
+          "content": 19320986
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Fam Med. 2007 Apr;39(4):274-9",
+        "PMID": {
+          "Version": 1,
+          "content": 17401772
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2013 Mar;131(3):e894-902",
+        "PMID": {
+          "Version": 1,
+          "content": 23382447
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Surg Obes Relat Dis. 2013 Nov-Dec;9(6):981-6",
+        "PMID": {
+          "Version": 1,
+          "content": 23561962
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Obesity (Silver Spring). 2013 Mar;21(3):576-82",
+        "PMID": {
+          "Version": 1,
+          "content": 23592666
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2009 Jul-Aug;16(4):596-600",
+        "PMID": {
+          "Version": 1,
+          "content": 19390098
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2009 Jul-Aug;16(4):561-70",
+        "PMID": {
+          "Version": 1,
+          "content": 19390096
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 27402260
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2016,
+        "Day": "04",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "06",
+        "Year": 2016,
+        "Day": 14,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 7,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 13,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 7,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 14,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 27402260,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/s10916-016-0548-8",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1007/s10916-016-0548-8",
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

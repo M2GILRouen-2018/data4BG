@@ -1,0 +1,557 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9884927,
+      "Country": "Netherlands",
+      "ISSNLinking": "0925-2312",
+      "MedlineTA": "Neurocomputing"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "3-12"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB006733",
+            "Acronym": "EB"
+          },
+          {
+            "Agency": "NIBIB NIH HHS",
+            "Country": "United States",
+            "GrantID": "R01 EB008374",
+            "Acronym": "EB"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "07"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Automatic labeling of the hippocampus in brain MR images is highly demanded, as it has played an important role in imaging-based brain studies. However, accurate labeling of the hippocampus is still challenging, partially due to the ambiguous intensity boundary between the hippocampus and surrounding anatomies. In this paper, we propose a concatenated set of spatially-localized random forests for multi-atlas-based hippocampus labeling of adult/infant brain MR images. The contribution in our work is two-fold. First, each forest classifier is trained to label just a specific sub-region of the hippocampus, thus enhancing the labeling accuracy. Second, a novel forest selection strategy is proposed, such that each voxel in the test image can automatically select a set of optimal forests, and then dynamically fuses their respective outputs for determining the final label. Furthermore, we enhance the spatially-localized random forests with the aid of the auto-context strategy. In this way, our proposed learning framework can gradually refine the tentative labeling result for better performance. Experiments show that, regarding the large datasets of both adult and infant brain MR images, our method owns satisfactory scalability by segmenting the hippocampus accurately and efficiently."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lichi",
+            "LastName": "Zhang",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "Med-X Research Institute, School of Biomedical Engineering, Shanghai Jiao Tong University."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Qian",
+            "LastName": "Wang",
+            "Initials": "Q",
+            "AffiliationInfo": {"Affiliation": "Med-X Research Institute, School of Biomedical Engineering, Shanghai Jiao Tong University."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yaozong",
+            "LastName": "Gao",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill; Department of Computer Science, University of North Carolina at Chapel Hill."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guorong",
+            "LastName": "Wu",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dinggang",
+            "LastName": "Shen",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill; Department of Brain and Cognitive Engineering, Korea University, Seoul 02841, Republic of Korea."}
+          }
+        ]
+      },
+      "ArticleTitle": "Concatenated Spatially-localized Random Forests for Hippocampus Labeling in Adult and Infant MR Brain Images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1016/j.neucom.2016.05.082"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 229,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017,
+            "Day": 15
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Neurocomputing",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "0925-2312"
+        },
+        "Title": "Neurocomputing"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Image segmentation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "atlas selection"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "brain MR images"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "clustering"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "random forest"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Feb 1;49(3):2352-65",
+        "PMID": {
+          "Version": 1,
+          "content": 19857578
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Feb 14;54(4):2750-63",
+        "PMID": {
+          "Version": 1,
+          "content": 20969966
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Phys. 2016 Mar;43(3):1175-86",
+        "PMID": {
+          "Version": 1,
+          "content": 26936703
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurobiol Aging. 1997 Mar-Apr;18(2):131-8",
+        "PMID": {
+          "Version": 1,
+          "content": 9258889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 Jan 15;49(2):1316-25",
+        "PMID": {
+          "Version": 1,
+          "content": 19815080
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2014;17(Pt 2):496-504",
+        "PMID": {
+          "Version": 1,
+          "content": 25485416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2013;16(Pt 3):66-73",
+        "PMID": {
+          "Version": 1,
+          "content": 24505745
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroinformatics. 2015 Apr;13(2):133-50",
+        "PMID": {
+          "Version": 1,
+          "content": 26022748
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuron. 2002 Jan 31;33(3):341-55",
+        "PMID": {
+          "Version": 1,
+          "content": 11832223
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2015 Mar;108:160-72",
+        "PMID": {
+          "Version": 1,
+          "content": 25541188
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Neurol Neurosurg Psychiatry. 1957 Feb;20(1):11-21",
+        "PMID": {
+          "Version": 1,
+          "content": 13406589
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2006 Oct 15;33(1):115-26",
+        "PMID": {
+          "Version": 1,
+          "content": 16860573
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Jul 1;46(3):726-38",
+        "PMID": {
+          "Version": 1,
+          "content": 19245840
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2012;15(Pt 3):369-76",
+        "PMID": {
+          "Version": 1,
+          "content": 23286152
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neurocomputing. 2016 Jan 15;173(2):317-331",
+        "PMID": {
+          "Version": 1,
+          "content": 26752809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2007 Feb 16;315(5814):972-6",
+        "PMID": {
+          "Version": 1,
+          "content": 17218491
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2007 Feb 15;34(4):1612-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17188896
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2011 Oct;30(10):1852-62",
+        "PMID": {
+          "Version": 1,
+          "content": 21606021
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2004 Apr;21(4):1428-42",
+        "PMID": {
+          "Version": 1,
+          "content": 15050568
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Jan 15;54(2):940-54",
+        "PMID": {
+          "Version": 1,
+          "content": 20851199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2011;14(Pt 3):272-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22003709
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2004 Aug;23(8):983-94",
+        "PMID": {
+          "Version": 1,
+          "content": 15338732
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hum Brain Mapp. 2009 Nov;30(11):3574-95",
+        "PMID": {
+          "Version": 1,
+          "content": 19387981
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2005 Oct 1;27(4):979-90",
+        "PMID": {
+          "Version": 1,
+          "content": 15990339
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2009 Jul 1;46(3):786-802",
+        "PMID": {
+          "Version": 1,
+          "content": 19195496
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Jan 2;59(1):422-30",
+        "PMID": {
+          "Version": 1,
+          "content": 21807102
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Dec;63(4):1782-9",
+        "PMID": {
+          "Version": 1,
+          "content": 22960084
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimaging Clin N Am. 2005 Nov;15(4):869-77, xi-xii",
+        "PMID": {
+          "Version": 1,
+          "content": 16443497
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2010 Oct;32(10):1744-57",
+        "PMID": {
+          "Version": 1,
+          "content": 20724753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2012 Sep;62(3):1499-509",
+        "PMID": {
+          "Version": 1,
+          "content": 22713673
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Trends Cogn Sci. 2011 May;15(5):210-7",
+        "PMID": {
+          "Version": 1,
+          "content": 21481629
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Learn Mem. 2011 Dec 16;19(1):15-25",
+        "PMID": {
+          "Version": 1,
+          "content": 22180053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Jun 15;56(4):1968-81",
+        "PMID": {
+          "Version": 1,
+          "content": 21440646
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 2013 Mar;35(3):611-23",
+        "PMID": {
+          "Version": 1,
+          "content": 22732662
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2009 Jul;28(7):1000-10",
+        "PMID": {
+          "Version": 1,
+          "content": 19131298
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2008 Dec;12(6):713-26",
+        "PMID": {
+          "Version": 1,
+          "content": 18640867
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2008 Dec;43(4):708-20",
+        "PMID": {
+          "Version": 1,
+          "content": 18761411
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2009 Aug;28(8):1266-77",
+        "PMID": {
+          "Version": 1,
+          "content": 19228554
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2014;17(Pt 2):308-15",
+        "PMID": {
+          "Version": 1,
+          "content": 25485393
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2010 Oct;29(10):1714-29",
+        "PMID": {
+          "Version": 1,
+          "content": 20562040
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2002 Nov;21(11):1421-39",
+        "PMID": {
+          "Version": 1,
+          "content": 12575879
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2014 Aug;18(6):881-90",
+        "PMID": {
+          "Version": 1,
+          "content": 24315359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2004 Jul;23(7):903-21",
+        "PMID": {
+          "Version": 1,
+          "content": 15250643
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hippocampus. 2009 Jun;19(6):549-57",
+        "PMID": {
+          "Version": 1,
+          "content": 19405131
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2010 May 1;50(4):1485-96",
+        "PMID": {
+          "Version": 1,
+          "content": 20097291
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28133417
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2018,
+        "Day": 15,
+        "PubStatus": "pmc-release"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 31,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28133417,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1016/j.neucom.2016.05.082",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5268165",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS801014",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

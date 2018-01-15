@@ -1,0 +1,566 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Process",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101566598,
+      "Country": "United States",
+      "ISSNLinking": "2160-1836",
+      "MedlineTA": "G3 (Bethesda)"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "1393-1404"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIGMS NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 GM101672",
+          "Acronym": "GM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "05"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 Maruki and Lynch.",
+        "AbstractText": "Genotype calling plays important roles in population-genomic studies, which have been greatly accelerated by sequencing technologies. To take full advantage of the resultant information, we have developed maximum-likelihood (ML) methods for calling genotypes from high-throughput sequencing data. As the statistical uncertainties associated with sequencing data depend on depths of coverage, we have developed two types of genotype callers. One approach is appropriate for low-coverage sequencing data, and incorporates population-level information on genotype frequencies and error rates pre-estimated by an ML method. Performance evaluation using computer simulations and human data shows that the proposed framework yields less biased estimates of allele frequencies and more accurate genotype calls than current widely used methods. Another type of genotype caller applies to high-coverage sequencing data, requires no prior genotype-frequency estimates, and makes no assumption on the number of alleles at a polymorphic site. Using computer simulations, we determine the depth of coverage necessary to accurately characterize polymorphisms using this second method. We applied the proposed method to high-coverage (mean 18×) sequencing data of 83 clones from a population of Daphnia pulex The results show that the proposed method enables conservative and reasonably powerful detection of polymorphisms with arbitrary numbers of alleles. We have extended the proposed method to the analysis of genomic data for polyploid organisms, showing that calling accurate polyploid genotypes requires much higher coverage than diploid genotypes."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Takahiro",
+            "LastName": "Maruki",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Department of Biology, Indiana University, Bloomington, Indiana 47405 tmaruki@indiana.edu."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Lynch",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Department of Biology, Indiana University, Bloomington, Indiana 47405."}
+          }
+        ]
+      },
+      "ArticleTitle": "Genotype Calling from Population-Genomic Sequencing Data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1534/g3.117.039008"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 5,
+          "Volume": 7,
+          "PubDate": {
+            "Month": "May",
+            "Year": 2017,
+            "Day": "05"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "G3 (Bethesda)",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "2160-1836"
+        },
+        "Title": "G3 (Bethesda, Md.)"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "genotype call"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "polymorphism"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "population genomics"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2014 Nov 25;15:356",
+        "PMID": {
+          "Version": 1,
+          "content": 25420514
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2015 Oct 1;526(7571):68-74",
+        "PMID": {
+          "Version": 1,
+          "content": 26432245
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2008 Nov;18(11):1851-8",
+        "PMID": {
+          "Version": 1,
+          "content": 18714091
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(7):e37558",
+        "PMID": {
+          "Version": 1,
+          "content": 22911679
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011 Jun 11;12:231",
+        "PMID": {
+          "Version": 1,
+          "content": 21663684
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Nov 1;27(21):2987-93",
+        "PMID": {
+          "Version": 1,
+          "content": 21903627
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2017 May;206(1):315-332",
+        "PMID": {
+          "Version": 1,
+          "content": 27932545
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Genet. 2010 Feb 26;6(2):e1000862",
+        "PMID": {
+          "Version": 1,
+          "content": 20195501
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2007 Oct 18;449(7164):851-61",
+        "PMID": {
+          "Version": 1,
+          "content": 17943122
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ecol. 2006 May;15(6):1455-66",
+        "PMID": {
+          "Version": 1,
+          "content": 16629803
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Genomics. 2012 Jul 24;13:341",
+        "PMID": {
+          "Version": 1,
+          "content": 22827831
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2014 Aug;197(4):1303-13",
+        "PMID": {
+          "Version": 1,
+          "content": 24875187
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2009 May;182(1):295-301",
+        "PMID": {
+          "Version": 1,
+          "content": 19293142
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cytogenet Genome Res. 2005;110(1-4):462-7",
+        "PMID": {
+          "Version": 1,
+          "content": 16093699
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 1985 Sep;111(1):147-64",
+        "PMID": {
+          "Version": 1,
+          "content": 4029609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetica. 1998-1999;104(3):207-14",
+        "PMID": {
+          "Version": 1,
+          "content": 10386384
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Protoc Bioinformatics. 2013;43:11.10.1-33",
+        "PMID": {
+          "Version": 1,
+          "content": 25431634
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2010 Sep;20(9):1297-303",
+        "PMID": {
+          "Version": 1,
+          "content": 20644199
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ecol. 2013 Jun;22(11):3028-35",
+        "PMID": {
+          "Version": 1,
+          "content": 23174005
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Annu Rev Entomol. 2001;46:441-69",
+        "PMID": {
+          "Version": 1,
+          "content": 11112176
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ecol Resour. 2011 Sep;11(5):759-69",
+        "PMID": {
+          "Version": 1,
+          "content": 21592312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Aug 15;25(16):2078-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19505943
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Evol. 2014 Mar;31(3):723-35",
+        "PMID": {
+          "Version": 1,
+          "content": 24288159
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2006 Apr;78(4):629-44",
+        "PMID": {
+          "Version": 1,
+          "content": 16532393
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2010 Mar;20(3):291-300",
+        "PMID": {
+          "Version": 1,
+          "content": 20067940
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Aug 1;27(15):2156-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21653522
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "G3 (Bethesda). 2011 Aug;1(3):171-82",
+        "PMID": {
+          "Version": 1,
+          "content": 22384329
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nature. 2010 Sep 2;467(7311):52-8",
+        "PMID": {
+          "Version": 1,
+          "content": 20811451
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2012 Jul 6;337(6090):100-4",
+        "PMID": {
+          "Version": 1,
+          "content": 22604722
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2016 Jan 4;44(D1):D717-25",
+        "PMID": {
+          "Version": 1,
+          "content": 26590259
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2011 May;43(5):491-8",
+        "PMID": {
+          "Version": 1,
+          "content": 21478889
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Biol. 2013 May 27;14(5):R47",
+        "PMID": {
+          "Version": 1,
+          "content": 23710727
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2014 Jan;196(1):295-311",
+        "PMID": {
+          "Version": 1,
+          "content": 24214345
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ecol. 2013 Jun;22(11):3124-40",
+        "PMID": {
+          "Version": 1,
+          "content": 23701397
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2015 Oct;201(2):473-86",
+        "PMID": {
+          "Version": 1,
+          "content": 26224735
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genet Epidemiol. 2010 Dec;34(8):816-34",
+        "PMID": {
+          "Version": 1,
+          "content": 21058334
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2009 Jun;19(6):1124-32",
+        "PMID": {
+          "Version": 1,
+          "content": 19420381
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 1993 Oct;53(4):943-52",
+        "PMID": {
+          "Version": 1,
+          "content": 8213824
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ecol. 2002 Apr;11(4):711-23",
+        "PMID": {
+          "Version": 1,
+          "content": 11972759
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Ecol. 2006 Nov;15(13):3885-93",
+        "PMID": {
+          "Version": 1,
+          "content": 17054490
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2007 Nov;81(5):1084-97",
+        "PMID": {
+          "Version": 1,
+          "content": 17924348
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetica. 1987 Aug 31;73(1-2):117-35",
+        "PMID": {
+          "Version": 1,
+          "content": 3505885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Evol Biol. 2008 Sep;21(5):1307-20",
+        "PMID": {
+          "Version": 1,
+          "content": 18624885
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "G3 (Bethesda). 2014 Mar 13;4(5):891-900",
+        "PMID": {
+          "Version": 1,
+          "content": 24626289
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 2016 Jan 7;98(1):116-26",
+        "PMID": {
+          "Version": 1,
+          "content": 26748515
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Evolution. 2001 Jun;55(6):1224-32",
+        "PMID": {
+          "Version": 1,
+          "content": 11475058
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Hum Genet. 1981 Nov;33(6):894-9",
+        "PMID": {
+          "Version": 1,
+          "content": 7325154
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genetics. 2010 Jan;184(1):233-41",
+        "PMID": {
+          "Version": 1,
+          "content": 19884308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Hum Genet. 2015 Jul;79(4):275-81",
+        "PMID": {
+          "Version": 1,
+          "content": 25907303
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Nov 15;26(22):2803-10",
+        "PMID": {
+          "Version": 1,
+          "content": 20861027
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Res. 2013 Nov;23(11):1852-61",
+        "PMID": {
+          "Version": 1,
+          "content": 23950147
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28108551
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28108551,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "g3.117.039008",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1534/g3.117.039008",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5427492",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

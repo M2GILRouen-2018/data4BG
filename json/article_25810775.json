@@ -1,0 +1,340 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 15
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 75},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 31
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "Information extraction in clinical texts enables medical workers to find out problems of patients faster as well as makes intelligent diagnosis possible in the future. There has been a lot of work about disorder mention recognition in clinical narratives. But recognition of some more complicated disorder mentions like overlapping ones is still an open issue. This paper proposes a multi-label structured Support Vector Machine (SVM) based method for disorder mention recognition. We present a multi-label scheme which could be used in complicated entity recognition tasks."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We performed three sets of experiments to evaluate our model. Our best F1-Score on the 2013 Conference and Labs of the Evaluation Forum data set is 0.7343. There are six types of labels in our multi-label scheme, all of which are represented by 24-bit binary numbers. The binary digits of each label contain information about different disorder mentions. Our multi-label method can recognize not only disorder mentions in the form of contiguous or discontiguous words but also mentions whose spans overlap with each other. The experiments indicate that our multi-label structured SVM model outperforms the condition random field (CRF) model for this disorder mention recognition task. The experiments show that our multi-label scheme surpasses the baseline. Especially for overlapping disorder mentions, the F1-Score of our multi-label scheme is 0.1428 higher than the baseline BIOHD1234 scheme."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "This multi-label structured SVM based approach is demonstrated to work well with this disorder recognition task. The novel multi-label scheme we presented is superior to the baseline and it can be used in other models to solve various types of complicated entity recognition tasks as well."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Wutao",
+            "LastName": "Lin",
+            "Initials": "W",
+            "AffiliationInfo": {"Affiliation": "School of Electronics Engineering and Computer Science, Peking University, Beijing, 100871, China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Donghong",
+            "LastName": "Ji",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "School of Computer, Wuhan University, Wuhan, 430072, China. dhji@whu.edu.cn."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yanan",
+            "LastName": "Lu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Computer, Wuhan University, Wuhan, 430072, China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Disorder recognition in clinical texts using multi-label structured SVM.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1476-4"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2017,
+            "Day": 31
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Clinical text"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Information extraction"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Multi-label"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Structured support vector machine"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D057225",
+          "MajorTopicYN": "N",
+          "content": "Data Mining"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D004194",
+        "MajorTopicYN": "Y",
+        "content": "Disease"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D060388",
+        "MajorTopicYN": "Y",
+        "content": "Support Vector Machine"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 15
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc AMIA Symp. 2001;:17-21",
+        "PMID": {
+          "Version": 1,
+          "content": 11825149
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2010 Sep-Oct;17(5):536-9",
+        "PMID": {
+          "Version": 1,
+          "content": 20819859
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 2011 Sep-Oct;18(5):601-6",
+        "PMID": {
+          "Version": 1,
+          "content": 21508414
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Med Inform Decis Mak. 2013;13 Suppl 1:S1",
+        "PMID": {
+          "Version": 1,
+          "content": 23566040
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2013 Jun 1;29(11):1433-9",
+        "PMID": {
+          "Version": 1,
+          "content": 23564842
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2012;7(6):e39230",
+        "PMID": {
+          "Version": 1,
+          "content": 22745720
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Inf Med. 1993 Aug;32(4):281-91",
+        "PMID": {
+          "Version": 1,
+          "content": 8412823
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2008 Nov 19;9 Suppl 11:S3",
+        "PMID": {
+          "Version": 1,
+          "content": 19025689
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2006 Feb 24;7:92",
+        "PMID": {
+          "Version": 1,
+          "content": 16504116
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2004 Dec;37(6):436-47",
+        "PMID": {
+          "Version": 1,
+          "content": 15542017
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Inform Assoc. 1994 Mar-Apr;1(2):161-74",
+        "PMID": {
+          "Version": 1,
+          "content": 7719797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "AMIA Annu Symp Proc. 2015 Nov 05;2015 :1184-93",
+        "PMID": {
+          "Version": 1,
+          "content": 26958258
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Med Rec Assoc. 1990 May;61(5):40-2",
+        "PMID": {
+          "Version": 1,
+          "content": 10104531
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Drug Discov Today. 2014 May;19(5):610-7",
+        "PMID": {
+          "Version": 1,
+          "content": 24140287
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cheminform. 2015 Jan 19;7(Suppl 1 Text mining for chemistry and the CHEMDNER track):S4",
+        "PMID": {
+          "Version": 1,
+          "content": 25810775
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28143488
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 12,
+        "Year": 2015,
+        "Day": 18,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "07",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 2,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 16,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28143488,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1476-4",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1476-4",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5282630",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

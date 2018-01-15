@@ -1,0 +1,305 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0012737",
+      "Country": "United States",
+      "ISSNLinking": "0018-9294",
+      "MedlineTA": "IEEE Trans Biomed Eng"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "1679-1687"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D023362",
+          "content": "Evaluation Studies"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "04",
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": 15
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "OBJECTIVE",
+          "Label": "GOAL",
+          "content": "Respiratory artefact removal for the forced oscillation technique can be treated as an anomaly detection problem. Manual removal is currently considered the gold standard, but this approach is laborious and subjective. Most existing automated techniques used simple statistics and/or rejected anomalous data points. Unfortunately, simple statistics are insensitive to numerous artefacts, leading to low reproducibility of results. Furthermore, rejecting anomalous data points causes an imbalance between the inspiratory and expiratory contributions."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "METHODS",
+          "content": "From a machine learning perspective, such methods are unsupervised and can be considered simple feature extraction. We hypothesize that supervised techniques can be used to find improved features that are more discriminative and more highly correlated with the desired output. Features thus found are then used for anomaly detection by applying quartile thresholding, which rejects complete breaths if one of its features is out of range. The thresholds are determined by both saliency and performance metrics rather than qualitative assumptions as in previous works."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Feature ranking indicates that our new landmark features are among the highest scoring candidates regardless of age across saliency criteria. F1-scores, receiver operating characteristic, and variability of the mean resistance metrics show that the proposed scheme outperforms previous simple feature extraction approaches. Our subject-independent detector, 1IQR-SU, demonstrated approval rates of 80.6% for adults and 98% for children, higher than existing methods."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Our new features are more relevant. Our removal is objective and comparable to the manual method."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "SIGNIFICANCE",
+          "content": "This is a critical work to automate forced oscillation technique quality control."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Thuy T",
+            "LastName": "Pham",
+            "Initials": "TT",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Information Engineering, The University of Sydney, Sydney, N.S.W., Australia."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Cindy",
+            "LastName": "Thamrin",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Woolcock Institute of Medical Research."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Paul D",
+            "LastName": "Robinson",
+            "Initials": "PD",
+            "AffiliationInfo": {"Affiliation": "Children's Hospital at Westmead."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Alistair L",
+            "LastName": "McEwan",
+            "Initials": "AL",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Information EngineeringThe University of Sydney."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Philip H W",
+            "LastName": "Leong",
+            "Initials": "PHW",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical and Information EngineeringThe University of Sydney."}
+          }
+        ]
+      },
+      "ArticleTitle": "Respiratory Artefact Removal in Forced Oscillation Measurements: A Machine Learning Approach.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TBME.2016.2554599"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 8,
+          "Volume": 64,
+          "PubDate": {
+            "Month": "Aug",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Biomed Eng",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1558-2531"
+        },
+        "Title": "IEEE transactions on bio-medical engineering"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000328",
+        "MajorTopicYN": "N",
+        "content": "Adult"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D000403",
+          "MajorTopicYN": "N",
+          "content": "Airway Resistance"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D016477",
+        "MajorTopicYN": "Y",
+        "content": "Artifacts"
+      }},
+      {"DescriptorName": {
+        "UI": "D002648",
+        "MajorTopicYN": "N",
+        "content": "Child"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D003936",
+          "MajorTopicYN": "N",
+          "content": "Diagnosis, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008297",
+        "MajorTopicYN": "N",
+        "content": "Male"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D009991",
+          "MajorTopicYN": "N",
+          "content": "Oscillometry"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D012129",
+          "MajorTopicYN": "N",
+          "content": "Respiratory Function Tests"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000502",
+          "MajorTopicYN": "Y",
+          "content": "physiology"
+        },
+        "DescriptorName": {
+          "UI": "D015656",
+          "MajorTopicYN": "N",
+          "content": "Respiratory Mechanics"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {"DescriptorName": {
+        "UI": "D000069553",
+        "MajorTopicYN": "Y",
+        "content": "Supervised Machine Learning"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 10,
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28113281
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28113281,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TBME.2016.2554599",
+        "IdType": "doi"
+      },
+      {
+        "content": 7453188,
+        "IdType": "pii"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

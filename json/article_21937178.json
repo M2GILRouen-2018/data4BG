@@ -1,0 +1,208 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101249582,
+      "Country": "Germany",
+      "MedlineTA": "Med Image Comput Comput Assist Interv"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "572-580"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIBIB NIH HHS",
+          "Country": "United States",
+          "GrantID": "R01 EB008374",
+          "Acronym": "EB"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The emerging era of ultra-high-field MRI using 7T MRI scanners dramatically improved sensitivity, image resolution, and tissue contrast when compared to 3T MRI scanners in examining various anatomical structures. The advantages of these high-resolution MR images include higher segmentation accuracy of MRI brain tissues. However, currently, accessibility to 7T MRI scanners remains much more limited than 3T MRI scanners due to technological and economical constraints. Hence, we propose in this work the first learning-based model that improves the segmentation of an input 3T MR image with any conventional segmentation method, through the reconstruction of a higher-quality 7T-like MR image, without actually acquiring an ultra-high-field 7T MRI. Our proposed framework comprises two main steps. First, we estimate a non-linear mapping from 3T MRI to 7T MRI space, using random forest regression model with novel weighting and ensembling schemes, to reconstruct initial 7T-like MR images. Second, we use a group sparse representation with a new pre-selection approach to further refine the 7T-like MR image reconstruction. We evaluated our 7T MRI reconstruction results along with their segmentation results using 13 subjects acquired with both 3T and 7T MR images. For tissue segmentation, we applied two widely used segmentation methods (FAST and SPM) to perform the experiments. Our results showed (1) the improvement of WM, GM and CSF brain tissues segmentation results when guided by reconstructed 7T-like images compared to 3T MR images, and (2) the outperformance of the proposed 7T MRI reconstruction method when compared to other state-of-the-art methods."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Khosro",
+            "LastName": "Bahrami",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Islem",
+            "LastName": "Rekik",
+            "Initials": "I",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Feng",
+            "LastName": "Shi",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yaozong",
+            "LastName": "Gao",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Dinggang",
+            "LastName": "Shen",
+            "Initials": "D",
+            "AffiliationInfo": {"Affiliation": "Department of Radiology and BRIC, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "7T-Guided Learning Framework for Improving the Segmentation of 3T MR Images.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1007/978-3-319-46723-8_66"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 9901,
+          "PubDate": {
+            "Month": "Oct",
+            "Year": 2016
+          },
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Med Image Comput Comput Assist Interv",
+        "Title": "Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 20
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Comput Comput Assist Interv. 2014;17(Pt 3):225-32",
+        "PMID": {
+          "Version": 1,
+          "content": 25320803
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2011 Aug 1;57(3):1015-21",
+        "PMID": {
+          "Version": 1,
+          "content": 21620980
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2001 Jan;20(1):45-57",
+        "PMID": {
+          "Version": 1,
+          "content": 11293691
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2010 Nov;19(11):2861-73",
+        "PMID": {
+          "Version": 1,
+          "content": 20483687
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Med Imaging. 2013 Dec;32(12 ):2348-63",
+        "PMID": {
+          "Version": 1,
+          "content": 24058022
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2005 Jul 1;26(3):839-51",
+        "PMID": {
+          "Version": 1,
+          "content": 15955494
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Eur J Radiol. 2013 May;82(5):708-18",
+        "PMID": {
+          "Version": 1,
+          "content": 21937178
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28149968
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 3,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 6,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28149968,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1007/978-3-319-46723-8_66",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC5278835",
+        "IdType": "pmc"
+      },
+      {
+        "content": "NIHMS833399",
+        "IdType": "mid"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

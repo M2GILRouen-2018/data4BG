@@ -1,0 +1,132 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "Publisher",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9886191,
+      "Country": "United States",
+      "ISSNLinking": "1057-7149",
+      "MedlineTA": "IEEE Trans Image Process"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 12,
+        "Year": 2016,
+        "DateType": "Electronic",
+        "Day": "02"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "We present a unified framework for image classification of image sets taken under varying modality conditions. Our method is motivated by a key observation that the image feature distribution is simultaneously influenced by the semantic-class and the modality category label, which limits the performance of conventional methods for that task. With this insight, we introduce modality uniqueness as a discriminative weight that divides each modality cluster from all other clusters. By leveraging the modality uniqueness, our framework is formulated as unsupervised modality clustering and classifier learning based on modality-invariant similarity kernel. Specifically, in the assignment step, each training image is first assigned to the most similar cluster according to its modality. In the update step, based on the current cluster hypothesis, the modality uniqueness and the sparse dictionary are updated. These two steps are formulated in an iterative manner. Based on the final clusters, a modalityinvariant marginalized kernel is then computed, where the similarities between the reconstructed features of each modality are aggregated across all clusters. Our framework enables the reliable inference of semantic-class category for an image, even across large photometric variations. Experimental results show that our method outperforms conventional methods on various benchmarks, such as landmark identification under severely varying weather conditions, domain-adapting image classification, and RGB and near-infrared (NIR) image classification."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Seungryong",
+            "LastName": "Kim",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Rui",
+            "LastName": "Cai",
+            "Initials": "R"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kihong",
+            "LastName": "Park",
+            "Initials": "K"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sunok",
+            "LastName": "Kim",
+            "Initials": "S"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Kwanghoon",
+            "LastName": "Sohn",
+            "Initials": "K"
+          }
+        ]
+      },
+      "ArticleTitle": "Modality-Invariant Image Classification Based on Modality Uniqueness and Dictionary Learning.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1109/TIP.2016.2635444"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "PubDate": {
+            "Month": "Dec",
+            "Year": 2016,
+            "Day": "02"
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "IEEE Trans Image Process",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1941-0042"
+        },
+        "Title": "IEEE transactions on image processing : a publication of the IEEE Signal Processing Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateRevised": {
+      "Month": "01",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28114018
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28114018,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1109/TIP.2016.2635444",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "aheadofprint"
+  }
+}}

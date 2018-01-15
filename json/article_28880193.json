@@ -1,0 +1,244 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0188039"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The iterative closest point (ICP) algorithm is efficient and accurate for rigid registration but it needs the good initial parameters. It is easily failed when the rotation angle between two point sets is large. To deal with this problem, a new objective function is proposed by introducing a rotation invariant feature based on the Euclidean distance between each point and a global reference point, where the global reference point is a rotation invariant. After that, this optimization problem is solved by a variant of ICP algorithm, which is an iterative method. Firstly, the accurate correspondence is established by using the weighted rotation invariant feature distance and position distance together. Secondly, the rigid transformation is solved by the singular value decomposition method. Thirdly, the weight is adjusted to control the relative contribution of the positions and features. Finally this new algorithm accomplishes the registration by a coarse-to-fine way whatever the initial rotation angle is, which is demonstrated to converge monotonically. The experimental results validate that the proposed algorithm is more accurate and robust compared with the original ICP algorithm."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shaoyi",
+            "LastName": "Du",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi Province, P.R., China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yiting",
+            "LastName": "Xu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi Province, P.R., China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Teng",
+            "LastName": "Wan",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi Province, P.R., China."}
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-3355-9391"
+            },
+            "ForeName": "Huaizhong",
+            "LastName": "Hu",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi Province, P.R., China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sirui",
+            "LastName": "Zhang",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "School of Software Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi Province, P.R., China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guanglin",
+            "LastName": "Xu",
+            "Initials": "G",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi Province, P.R., China."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Xuetao",
+            "LastName": "Zhang",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "School of Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an, Shaanxi Province, P.R., China."}
+          }
+        ]
+      },
+      "ArticleTitle": "Robust iterative closest point algorithm based on global reference point for rotation invariant registration.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0188039"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {"DescriptorName": {
+        "UI": "D007091",
+        "MajorTopicYN": "Y",
+        "content": "Image Processing, Computer-Assisted"
+      }},
+      {"DescriptorName": {
+        "UI": "D012399",
+        "MajorTopicYN": "Y",
+        "content": "Rotation"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Pattern Anal Mach Intell. 1987 May;9(5):698-700",
+        "PMID": {
+          "Version": 1,
+          "content": 21869429
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Neuroimage. 2014 Jan 1;84:626-38",
+        "PMID": {
+          "Version": 1,
+          "content": 24055505
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Image Process. 2012 Sep;21(9):4290-303",
+        "PMID": {
+          "Version": 1,
+          "content": 22614650
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Image Anal. 2015 Dec;26(1):256-67",
+        "PMID": {
+          "Version": 1,
+          "content": 26519794
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "IEEE Trans Neural Netw Learn Syst. 2017 Aug 31;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 28880193
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29176780
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 31,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29176780,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0188039",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-34203",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5703502",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

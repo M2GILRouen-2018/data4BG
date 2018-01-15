@@ -1,0 +1,294 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 8806104,
+      "Country": "United States",
+      "ISSNLinking": "0895-6111",
+      "MedlineTA": "Comput Med Imaging Graph"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "04",
+      "Year": 2012,
+      "Day": 17
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "11-24"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "05",
+        "Year": 2011,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2011 Elsevier Ltd. All rights reserved.",
+        "AbstractText": "Quantification of coronary arterial stenoses is useful for the diagnosis of several coronary heart diseases. Being noninvasive, economical and informative, computed tomographic angiography (CTA) has become a common modality for monitoring disease status and treatment effects. Here, we present a new method for detecting and quantifying coronary arterial stenosis in CTA using fuzzy distance transform (FDT) approach and a new coherence analysis of observed data for computing expected local diameter. FDT allows computing local depth at each image point in the presence of partial voluming and thus, eliminates the need for binarization, commonly, associated with inclusion of additional errors. In the current method, coronary arterial stenoses are detected and their severities are quantified by analyzing FDT values along the medial axis of an arterial tree obtained by its skeletonization. A new skeletal pruning algorithm has been developed toward improving the quality of medial axes and thereby, enhancing the accuracy of stenosis detection and quantification. Further, we have developed a new method to estimate \"expected diameter\" along a given arterial branch using a new coherence analysis of observed diameter values along the branch. The overall method is completed in the following steps--(1) fuzzy segmentation of coronary artery in CTA, (2) FDT computation of coronary arteries, (3) medial axis computation, (4) estimation of observed and expected diameters along arteries and (5) detection of stenoses and quantification of arterial blockage. The performance of this method has been quantitatively evaluated on a realistic coronary artery phantom dataset with randomly simulated stenoses and the results have been compared with a binary distance transform based and a conventional binary algorithm. The method has also been applied on a clinical CTA dataset from thirteen heart patients and the results have been compared with an expert's quantitative assessment of stenoses. Results of the phantom experiment indicate that the new method (error: 0.53%) is significantly more accurate as compared to both binary distance transform based (error 2.11%) and conventional binary (error 3.71%) methods. Also, the results of the clinical study indicate that the new FDT-based method (kappa coefficient = 87.9%) is highly in agreement with the expert's assessments and, in this respect, outperforms the other two methods (kappa coefficients = 75.2% and 69.5%)."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yan",
+            "LastName": "Xu",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "Department of Electrical & Computer Engineering, University of Iowa, Iowa, IA 52240, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guoyuan",
+            "LastName": "Liang",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guangshu",
+            "LastName": "Hu",
+            "Initials": "G"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yan",
+            "LastName": "Yang",
+            "Initials": "Y"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jinzhao",
+            "LastName": "Geng",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Punam K",
+            "LastName": "Saha",
+            "Initials": "PK"
+          }
+        ]
+      },
+      "ArticleTitle": "Quantification of coronary arterial stenoses in CTA using fuzzy distance transform.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1016/j.compmedimag.2011.03.004"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 36,
+          "PubDate": {
+            "Month": "Jan",
+            "Year": 2012
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Comput Med Imaging Graph",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1879-0771"
+        },
+        "Title": "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": 12,
+      "Year": 2011,
+      "Day": 19
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "N",
+        "content": "Algorithms"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D017023",
+          "MajorTopicYN": "N",
+          "content": "Coronary Angiography"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000000981",
+          "MajorTopicYN": "Y",
+          "content": "diagnostic imaging"
+        },
+        "DescriptorName": {
+          "UI": "D023921",
+          "MajorTopicYN": "N",
+          "content": "Coronary Stenosis"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D017143",
+        "MajorTopicYN": "Y",
+        "content": "Fuzzy Logic"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D021621",
+          "MajorTopicYN": "N",
+          "content": "Imaging, Three-Dimensional"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D010363",
+          "MajorTopicYN": "N",
+          "content": "Pattern Recognition, Automated"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011856",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Enhancement"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D011857",
+          "MajorTopicYN": "N",
+          "content": "Radiographic Image Interpretation, Computer-Assisted"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D015203",
+        "MajorTopicYN": "N",
+        "content": "Reproducibility of Results"
+      }},
+      {"DescriptorName": {
+        "UI": "D012680",
+        "MajorTopicYN": "N",
+        "content": "Sensitivity and Specificity"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D014057",
+          "MajorTopicYN": "N",
+          "content": "Tomography, X-Ray Computed"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 11,
+      "Year": 2016,
+      "Day": 25
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 21555207
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2010,
+        "Day": 19,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "03",
+        "Year": 2011,
+        "Day": 15,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "03",
+        "Year": 2011,
+        "Day": 24,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 5,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 5,
+        "Year": 2011,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 11,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 4,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 18,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 21555207,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S0895-6111(11)00060-7",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.compmedimag.2011.03.004",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

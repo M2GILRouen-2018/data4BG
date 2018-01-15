@@ -1,0 +1,388 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "05",
+      "Year": 2013,
+      "Day": 15
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 139},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D003160",
+          "content": "Comparative Study"
+        },
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013486",
+          "content": "Research Support, U.S. Gov't, Non-P.H.S."
+        }
+      ]},
+      "ArticleDate": {
+        "Month": "06",
+        "Year": 2012,
+        "DateType": "Electronic",
+        "Day": 21
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "High-throughput technologies such as DNA, RNA, protein, antibody and peptide microarrays are often used to examine differences across drug treatments, diseases, transgenic animals, and others. Typically one trains a classification system by gathering large amounts of probe-level data, selecting informative features, and classifies test samples using a small number of features. As new microarrays are invented, classification systems that worked well for other array types may not be ideal. Expression microarrays, arguably one of the most prevalent array types, have been used for years to help develop classification algorithms. Many biological assumptions are built into classifiers that were designed for these types of data. One of the more problematic is the assumption of independence, both at the probe level and again at the biological level. Probes for RNA transcripts are designed to bind single transcripts. At the biological level, many genes have dependencies across transcriptional pathways where co-regulation of transcriptional units may make many genes appear as being completely dependent. Thus, algorithms that perform well for gene expression data may not be suitable when other technologies with different binding characteristics exist. The immunosignaturing microarray is based on complex mixtures of antibodies binding to arrays of random sequence peptides. It relies on many-to-many binding of antibodies to the random sequence peptides. Each peptide can bind multiple antibodies and each antibody can bind multiple peptides. This technology has been shown to be highly reproducible and appears promising for diagnosing a variety of disease states. However, it is not clear what is the optimal classification algorithm for analyzing this new type of data."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "We characterized several classification algorithms to analyze immunosignaturing data. We selected several datasets that range from easy to difficult to classify, from simple monoclonal binding to complex binding patterns in asthma patients. We then classified the biological samples using 17 different classification algorithms. Using a wide variety of assessment criteria, we found 'Naïve Bayes' far more useful than other widely used methods due to its simplicity, robustness, speed and accuracy."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSIONS",
+          "content": "'Naïve Bayes' algorithm appears to accommodate the complex patterns hidden within multilayered immunosignaturing microarray data due to its fundamental mathematical properties."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Muskan",
+            "LastName": "Kukreja",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Center for Innovations in Medicine, Biodesign Institute, Arizona State University, Tempe, AZ 85281, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stephen Albert",
+            "LastName": "Johnston",
+            "Initials": "SA"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Phillip",
+            "LastName": "Stafford",
+            "Initials": "P"
+          }
+        ]
+      },
+      "ArticleTitle": "Comparative study of classification algorithms for immunosignaturing data.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/1471-2105-13-139"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 13,
+          "PubDate": {
+            "Month": "Jun",
+            "Year": 2012,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "DateCreated": {
+      "Month": "08",
+      "Year": 2012,
+      "Day": 30
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D001499",
+        "MajorTopicYN": "N",
+        "content": "Bayes Theorem"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "N",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D019295",
+          "MajorTopicYN": "N",
+          "content": "Computational Biology"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D057225",
+        "MajorTopicYN": "N",
+        "content": "Data Mining"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D020869",
+          "MajorTopicYN": "N",
+          "content": "Gene Expression Profiling"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D020411",
+          "MajorTopicYN": "N",
+          "content": "Oligonucleotide Array Sequence Analysis"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": "02",
+      "Year": 2015,
+      "Day": 24
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "N Engl J Med. 2001 Feb 22;344(8):539-48",
+        "PMID": {
+          "Version": 1,
+          "content": 11207349
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011;12:349",
+        "PMID": {
+          "Version": 1,
+          "content": 21854615
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Genome Inform. 2002;13:51-60",
+        "PMID": {
+          "Version": 1,
+          "content": 14571374
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2003 Nov;3(11):2116-22",
+        "PMID": {
+          "Version": 1,
+          "content": 14595810
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 Feb 12;20(3):374-80",
+        "PMID": {
+          "Version": 1,
+          "content": 14960464
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2004 Oct 12;20(15):2429-37",
+        "PMID": {
+          "Version": 1,
+          "content": 15087314
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1990 Aug;87(16):6378-82",
+        "PMID": {
+          "Version": 1,
+          "content": 2201029
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Apr 15;21(8):1509-15",
+        "PMID": {
+          "Version": 1,
+          "content": 15572470
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Jun;21 Suppl 1:i487-94",
+        "PMID": {
+          "Version": 1,
+          "content": 15961495
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Anal Biochem. 2007 Mar 1;362(1):44-54",
+        "PMID": {
+          "Version": 1,
+          "content": 17241609
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2007;35(10):e72",
+        "PMID": {
+          "Version": 1,
+          "content": 17478523
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Immunol Methods. 2007 Dec 1;328(1-2):1-13",
+        "PMID": {
+          "Version": 1,
+          "content": 17765917
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Analyst. 2009 Apr;134(4):650-2",
+        "PMID": {
+          "Version": 1,
+          "content": 19305911
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2009;4(6):e6053",
+        "PMID": {
+          "Version": 1,
+          "content": 19557135
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vaccine. 2010 Jun 17;28(28):4529-37",
+        "PMID": {
+          "Version": 1,
+          "content": 20450869
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2011 Mar;10(3):M110.000786",
+        "PMID": {
+          "Version": 1,
+          "content": 21062935
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Neurol. 2011 Aug;70(2):286-95",
+        "PMID": {
+          "Version": 1,
+          "content": 21823156
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Opin Biotechnol. 2002 Aug;13(4):315-20",
+        "PMID": {
+          "Version": 1,
+          "content": 12323352
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3430557"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 22720696
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "01",
+        "Year": 2012,
+        "Day": 20,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "05",
+        "Year": 2012,
+        "Day": 15,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 6,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 6,
+        "Year": 2012,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 23,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 5,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 17,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 22720696,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "1471-2105-13-139",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1186/1471-2105-13-139",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3430557",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

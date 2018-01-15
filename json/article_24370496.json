@@ -1,0 +1,352 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101209213,
+      "Country": "United States",
+      "ISSNLinking": "1559-4076",
+      "MedlineTA": "AMIA Annu Symp Proc"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": "07"
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "406-15"},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": [
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 GM008169",
+            "Acronym": "GM"
+          },
+          {
+            "Agency": "NIGMS NIH HHS",
+            "Country": "United States",
+            "GrantID": "T32 GM105490",
+            "Acronym": "GM"
+          }
+        ]
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2015,
+        "DateType": "Electronic",
+        "Day": "05"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "The predictive modeling process is time consuming and requires clinical researchers to handle complex electronic health record (EHR) data in restricted computational environments. To address this problem, we implemented a cloud-based predictive modeling system via a hybrid setup combining a secure private server with the Amazon Web Services (AWS) Elastic MapReduce platform. EHR data is preprocessed on a private server and the resulting de-identified event sequences are hosted on AWS. Based on user-specified modeling configurations, an on-demand web service launches a cluster of Elastic Compute 2 (EC2) instances on AWS to perform feature selection and classification algorithms in a distributed fashion. Afterwards, the secure private server aggregates results and displays them via interactive visualization. We tested the system on a pediatric asthma readmission task on a de-identified EHR dataset of 2,967 patients. We conduct a larger scale experiment on the CMS Linkable 2008-2010 Medicare Data Entrepreneurs' Synthetic Public Use File dataset of 2 million patients, which achieves over 25-fold speedup compared to sequential execution."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Robert",
+            "LastName": "Chen",
+            "Initials": "R",
+            "AffiliationInfo": {"Affiliation": "School of Computational Science and Engineering, Georgia Institute of Technology, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Hang",
+            "LastName": "Su",
+            "Initials": "H",
+            "AffiliationInfo": {"Affiliation": "School of Computational Science and Engineering, Georgia Institute of Technology, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Mohammed",
+            "LastName": "Khalilia",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "School of Computational Science and Engineering, Georgia Institute of Technology, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Sizhe",
+            "LastName": "Lin",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "School of Computational Science and Engineering, Georgia Institute of Technology, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yue",
+            "LastName": "Peng",
+            "Initials": "Y",
+            "AffiliationInfo": {"Affiliation": "School of Computational Science and Engineering, Georgia Institute of Technology, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Tod",
+            "LastName": "Davis",
+            "Initials": "T",
+            "AffiliationInfo": {"Affiliation": "Children's Healthcare of Atlanta, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel A",
+            "LastName": "Hirsh",
+            "Initials": "DA",
+            "AffiliationInfo": {"Affiliation": "Pediatric Emergency Medicine Associates, LLC, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Elizabeth",
+            "LastName": "Searles",
+            "Initials": "E",
+            "AffiliationInfo": {"Affiliation": "Children's Healthcare of Atlanta, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Javier",
+            "LastName": "Tejedor-Sojo",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Children's Healthcare of Atlanta, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Thompson",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Children's Healthcare of Atlanta, Atlanta, GA, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jimeng",
+            "LastName": "Sun",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "School of Computational Science and Engineering, Georgia Institute of Technology, Atlanta, GA, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "Cloud-based Predictive Modeling System and its Application to Asthma Readmission Prediction.",
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 2015,
+          "PubDate": {"MedlineDate": 2015},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "AMIA Annu Symp Proc",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1942-597X"
+        },
+        "Title": "AMIA ... Annual Symposium proceedings. AMIA Symposium"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "DateCreated": {
+      "Month": "03",
+      "Year": 2016,
+      "Day": "09"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000628",
+          "MajorTopicYN": "N",
+          "content": "therapy"
+        },
+        "DescriptorName": {
+          "UI": "D001249",
+          "MajorTopicYN": "Y",
+          "content": "Asthma"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D000067917",
+        "MajorTopicYN": "Y",
+        "content": "Cloud Computing"
+      }},
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "N",
+        "content": "Computational Biology"
+      }},
+      {"DescriptorName": {
+        "UI": "D003198",
+        "MajorTopicYN": "N",
+        "content": "Computer Simulation"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000458",
+          "MajorTopicYN": "Y",
+          "content": "organization & administration"
+        },
+        "DescriptorName": {
+          "UI": "D057286",
+          "MajorTopicYN": "N",
+          "content": "Electronic Health Records"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005544",
+        "MajorTopicYN": "N",
+        "content": "Forecasting"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "N",
+        "content": "Models, Biological"
+      }},
+      {"DescriptorName": {
+        "UI": "D010359",
+        "MajorTopicYN": "Y",
+        "content": "Patient Readmission"
+      }},
+      {"DescriptorName": {
+        "UI": "D011379",
+        "MajorTopicYN": "N",
+        "content": "Prognosis"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "05",
+      "Year": 2017,
+      "Day": 12
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "J Asthma. 2003 Sep;40(6):645-52",
+        "PMID": {
+          "Version": 1,
+          "content": 14579995
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Med Care. 2004 Jan;42(1):81-90",
+        "PMID": {
+          "Version": 1,
+          "content": 14713742
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 1989 May;83(5):875-82",
+        "PMID": {
+          "Version": 1,
+          "content": 2715548
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Intern Med. 2005 Jul 5;143(1):26-31",
+        "PMID": {
+          "Version": 1,
+          "content": 15998752
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Asthma. 2006 Jan-Feb;43(1):37-40",
+        "PMID": {
+          "Version": 1,
+          "content": 16448963
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatr Emerg Care. 2008 Nov;24(11):735-44",
+        "PMID": {
+          "Version": 1,
+          "content": 18955910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Pediatrics. 2009 Jan;123(1):286-93",
+        "PMID": {
+          "Version": 1,
+          "content": 19117894
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Allergy Clin Immunol. 2011 Jan;127(1):145-52",
+        "PMID": {
+          "Version": 1,
+          "content": 21211649
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Med Internet Res. 2011;13(3):e67",
+        "PMID": {
+          "Version": 1,
+          "content": 21937354
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Biomed Inform. 2014 Apr;48:160-70",
+        "PMID": {
+          "Version": 1,
+          "content": 24370496
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC4765612"
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 26958172
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 3,
+        "Year": 2016,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 10,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 1,
+        "Year": 2015,
+        "Minute": 0,
+        "Hour": 0,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 9,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 26958172,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "PMC4765612",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

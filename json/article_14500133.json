@@ -1,0 +1,506 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101285081,
+      "Country": "United States",
+      "ISSNLinking": "1932-6203",
+      "MedlineTA": "PLoS One"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "e0187606"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 30
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": "Reductionist approaches, where individual pieces of a process are examined in isolation, have been the mainstay of biomedical research. While these methods are effective in highly compartmentalized systems, they fail to account for the inherent plasticity and non-linearity within the signaling structure. In the current manuscript, we present the computational architecture for tracking an acute perturbation in a biologic system through a multiscale model that links gene dynamics to cell kinetics, with the overall goal of predicting tissue adaptation. Given the complexity of the genome, the problem is made tractable by clustering temporal changes in gene expression into unique patterns. These cluster elements form the core of an integrated network that serves as the driving force for the response of the biologic system. This modeling approach is illustrated using the clinical scenario of vein bypass graft adaptation. Vein segments placed in the arterial circulation for treatment of advanced occlusive disease can develop an aggressive hyperplastic response that narrows the lumen, reduces blood flow, and induces in situ thrombosis. Reducing this hyperplastic response has been a long-standing but unrealized goal of biologic researchers in the field. With repeated failures of single target therapies, the redundant response pathways are thought to be a fundamental issue preventing progress towards a solution. Using the current framework, we demonstrate how theoretical genomic manipulations can be introduced into the system to shift the adaptation to a more beneficial phenotype, where the hyperplastic response is mitigated and the risk of thrombosis reduced. Utilizing our previously published rabbit vein graft genomic data, where grafts were harvested at time points ranging from 2 hours to 28 days and under differential flow conditions, and a customized clustering algorithm, five gene clusters that differentiated the low flow (i.e., pro-hyperplastic) from high flow (i.e., anti-hyperplastic) response were identified. The current analysis advances these general associations to create a model that identifies those genes sets most likely to be of therapeutic benefit. Using this approach, we examine the range of potential opportunities for intervention via gene cluster over-expression or inhibition, delivered in isolation or combination, at the time of vein graft implantation."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "http://orcid.org/0000-0002-7416-2366"
+            },
+            "ForeName": "Stefano",
+            "LastName": "Casarin",
+            "Initials": "S",
+            "AffiliationInfo": [
+              {"Affiliation": "LASIE UMR 7356 CNRS, University of La Rochelle, La Rochelle, France."},
+              {"Affiliation": "Houston Methodist Hospital Research Institute, Houston, Texas, United States of America."},
+              {"Affiliation": "Department of Surgery, Houston Methodist Hospital, Houston, Texas, United States of America."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Scott A",
+            "LastName": "Berceli",
+            "Initials": "SA",
+            "AffiliationInfo": [
+              {"Affiliation": "Malcom Randall VAMC, Gainesville, Florida, United States of America."},
+              {"Affiliation": "Department of Surgery, University of Florida, Gainesville, Florida, United States of America."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marc",
+            "LastName": "Garbey",
+            "Initials": "M",
+            "AffiliationInfo": [
+              {"Affiliation": "LASIE UMR 7356 CNRS, University of La Rochelle, La Rochelle, France."},
+              {"Affiliation": "Houston Methodist Hospital Research Institute, Houston, Texas, United States of America."},
+              {"Affiliation": "Department of Surgery, Houston Methodist Hospital, Houston, Texas, United States of America."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Linking gene dynamics to vascular hyperplasia - Toward a predictive model of vein graft adaptation.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1371/journal.pone.0187606"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 12,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "PLoS ONE",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1932-6203"
+        },
+        "Title": "PloS one"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D001807",
+        "MajorTopicYN": "Y",
+        "content": "Blood Vessel Prosthesis"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D006965",
+          "MajorTopicYN": "N",
+          "content": "Hyperplasia"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D008954",
+        "MajorTopicYN": "Y",
+        "content": "Models, Biological"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000473",
+          "MajorTopicYN": "Y",
+          "content": "pathology"
+        },
+        "DescriptorName": {
+          "UI": "D009131",
+          "MajorTopicYN": "N",
+          "content": "Muscle, Smooth, Vascular"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000235",
+          "MajorTopicYN": "Y",
+          "content": "genetics"
+        },
+        "DescriptorName": {
+          "UI": "D014652",
+          "MajorTopicYN": "N",
+          "content": "Vascular Diseases"
+        }
+      }
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 26
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2013 Nov 20;310(19):2086-95",
+        "PMID": {
+          "Version": 1,
+          "content": 24240936
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 1999 Dec 1;282(21):2035-42",
+        "PMID": {
+          "Version": 1,
+          "content": 10591386
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Biomed Eng. 2004 Nov;32(11):1484-93",
+        "PMID": {
+          "Version": 1,
+          "content": 15636109
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Res. 1991 Dec;69(6):1557-65",
+        "PMID": {
+          "Version": 1,
+          "content": 1954675
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Arterioscler Thromb Vasc Biol. 2004 Mar;24(3):470-6",
+        "PMID": {
+          "Version": 1,
+          "content": 14726410
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Biomed Eng. 2017 Mar;45(3):644-655",
+        "PMID": {
+          "Version": 1,
+          "content": 27624660
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vasc Surg. 1994 Jun;19(6):970-8; discussion 978-9",
+        "PMID": {
+          "Version": 1,
+          "content": 8201716
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vasc Surg. 1987 Jan;5(1):126-36",
+        "PMID": {
+          "Version": 1,
+          "content": 3795379
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Curr Cardiol Rep. 2000 Jan;2(1):29-33",
+        "PMID": {
+          "Version": 1,
+          "content": 10980869
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vasc Surg. 1993 Mar;17(3):563-70",
+        "PMID": {
+          "Version": 1,
+          "content": 8445753
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Hypertension. 1995 Jul;26(1):38-43",
+        "PMID": {
+          "Version": 1,
+          "content": 7607730
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Theor Biol. 2013 Nov 7;336:209-20",
+        "PMID": {
+          "Version": 1,
+          "content": 23871714
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Clin Invest. 1995 Aug;96(2):1169-75",
+        "PMID": {
+          "Version": 1,
+          "content": 7635955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Thorac Cardiovasc Surg. 1985 Feb;89(2):248-58",
+        "PMID": {
+          "Version": 1,
+          "content": 2857209
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Thorac Cardiovasc Surg. 2006 May;131(5):1065-72",
+        "PMID": {
+          "Version": 1,
+          "content": 16678591
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2012 Mar;13(2):162-74",
+        "PMID": {
+          "Version": 1,
+          "content": 21746694
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 1993 May 15;90(10):4591-5",
+        "PMID": {
+          "Version": 1,
+          "content": 8506304
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Lab Invest. 2005 Jan;85(1):9-23",
+        "PMID": {
+          "Version": 1,
+          "content": 15568038
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vasc Surg. 2006 Apr;43(4):742-751; discussion 751",
+        "PMID": {
+          "Version": 1,
+          "content": 16616230
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Physiol Rev. 2011 Jan;91(1):327-87",
+        "PMID": {
+          "Version": 1,
+          "content": 21248169
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 2002 Mar 1;295(5560):1662-4",
+        "PMID": {
+          "Version": 1,
+          "content": 11872829
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Biomed Eng. 2008 Jul;36(7):1083-91",
+        "PMID": {
+          "Version": 1,
+          "content": 18415018
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 1998 Mar 10;97(9):916-31",
+        "PMID": {
+          "Version": 1,
+          "content": 9521341
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am Heart J. 1987 Oct;114(4 Pt 1):718-23",
+        "PMID": {
+          "Version": 1,
+          "content": 3499063
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Ann Surg. 2013 May;257(5):824-33",
+        "PMID": {
+          "Version": 1,
+          "content": 23574989
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Vasc Surg. 2010 Mar;51(3):736-46",
+        "PMID": {
+          "Version": 1,
+          "content": 19837532
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Surgery. 1989 Mar;105(3):393-400",
+        "PMID": {
+          "Version": 1,
+          "content": 2922677
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Vis. 2007 Feb 02;13:164-73",
+        "PMID": {
+          "Version": 1,
+          "content": 17293780
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2007 Jul;293(1):H482-8",
+        "PMID": {
+          "Version": 1,
+          "content": 17369455
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Chem Soc. 1967 Nov 22;89(24):6193-200",
+        "PMID": {
+          "Version": 1,
+          "content": 6055982
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Science. 1986 Jan 24;231(4736):405-7",
+        "PMID": {
+          "Version": 1,
+          "content": 3941904
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "JAMA. 2005 Nov 16;294(19):2446-54",
+        "PMID": {
+          "Version": 1,
+          "content": 16287955
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Coll Cardiol. 2004 Dec 7;44(11):2149-56",
+        "PMID": {
+          "Version": 1,
+          "content": 15582312
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Vascular. 2009 May-Jun;17 Suppl 1:S2-9",
+        "PMID": {
+          "Version": 1,
+          "content": 19426605
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circulation. 2000 Aug 8;102(6):617-23",
+        "PMID": {
+          "Version": 1,
+          "content": 10931800
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Am J Physiol Heart Circ Physiol. 2004 Jan;286(1):H240-5",
+        "PMID": {
+          "Version": 1,
+          "content": 14500133
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29190638
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "03",
+        "Year": 2017,
+        "Day": 24,
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 20,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 1,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 27,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29190638,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1371/journal.pone.0187606",
+        "IdType": "doi"
+      },
+      {
+        "content": "PONE-D-17-11589",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5708843",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

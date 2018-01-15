@@ -1,0 +1,252 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9422753,
+      "Country": "England",
+      "ISSNLinking": "1350-4533",
+      "MedlineTA": "Med Eng Phys"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 11
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": "46-54"},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "01",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 23
+      },
+      "Language": "eng",
+      "Abstract": {
+        "CopyrightInformation": "Copyright © 2017 IPEM. Published by Elsevier Ltd. All rights reserved.",
+        "AbstractText": "This paper presents a novel method for assessing apparent breast volume from trunk surface mesh without any manual intervention. The proposed method requires a closed and smooth triangular mesh of the trunk. It comprises four main steps: automatic nipple localization, automatic breasts delineation, chest-wall interpolation and volume computation. The mean curvature is computed for each vertex using a quadratic fitting approach and used as an indicator to determine the convex fold of the breasts. The delineation is modeled as an ellipse in the frontal plane and all the vertices inside it are removed. The remaining ones are used to interpolate the chest wall with radial basis functions. The voxels inside the resulting mesh without breasts are then subtracted from the original voxelized volume to generate the breasts volume. The validation is conducted on 30 adolescent female for each of which an MRI and a trunk surface (TS) acquisitions were available. Three breast volumes are considered: the anatomical volumes (AV) manually segmented on the MRI, the external volumes computed with the proposed method first in prone position (EVP) using the trunk mesh extracted from the MRI, and second, in standing position (EVS) using the TS's mesh. Significant correlations (R> 0.77) are found between each two of the three volumes. AVs are much larger than both EVS and EPS. In fact, the manual segmentation using MRI slices allows for a direct visualization of the breast posterior delineation. Computed automatically, EVS and EPS are highly similar, indicating that the proposed method is robust to changes from prone to standing position. No significant difference between the regressions on the left and right breasts is noted. Fully-automatic 3D breast volumetry from trunk surface mesh is feasible and provides measurements that are highly correlated to manual MRI volumetry and robust to changes in posture."
+      },
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Lama",
+            "LastName": "Seoud",
+            "Initials": "L",
+            "AffiliationInfo": {"Affiliation": "National Research Council, Canada. Electronic address: lama.seoud@nrc-cnrc.gc.ca."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Joyce",
+            "LastName": "Ramsay",
+            "Initials": "J",
+            "AffiliationInfo": {"Affiliation": "Sainte Justine University Hospital Research Center, Montreal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Stefan",
+            "LastName": "Parent",
+            "Initials": "S",
+            "AffiliationInfo": {"Affiliation": "Sainte Justine University Hospital Research Center, Montreal, Canada."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Farida",
+            "LastName": "Cheriet",
+            "Initials": "F",
+            "AffiliationInfo": {"Affiliation": "Department of Computer and Software Engineering, Polytechnique Montreal, Canada; Sainte Justine University Hospital Research Center, Montreal, Canada."}
+          }
+        ]
+      },
+      "ArticleTitle": "A novel fully automatic measurement of apparent breast volume from trunk surface mesh.",
+      "ELocationID": [
+        {
+          "ValidYN": "Y",
+          "EIdType": "pii",
+          "content": "S1350-4533(17)30005-X"
+        },
+        {
+          "ValidYN": "Y",
+          "EIdType": "doi",
+          "content": "10.1016/j.medengphy.2017.01.004"
+        }
+      ],
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 41,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2017
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Med Eng Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1873-4030"
+        },
+        "Title": "Medical engineering & physics"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Breast volumetry"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Curvature"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Surface mesh"
+        }
+      ]
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000293",
+        "MajorTopicYN": "N",
+        "content": "Adolescent"
+      }},
+      {"DescriptorName": {
+        "UI": "D001331",
+        "MajorTopicYN": "N",
+        "content": "Automation"
+      }},
+      {
+        "QualifierName": [
+          {
+            "UI": "Q000033",
+            "MajorTopicYN": "Y",
+            "content": "anatomy & histology"
+          },
+          {
+            "UI": "Q000000981",
+            "MajorTopicYN": "N",
+            "content": "diagnostic imaging"
+          }
+        ],
+        "DescriptorName": {
+          "UI": "D001940",
+          "MajorTopicYN": "N",
+          "content": "Breast"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D005260",
+        "MajorTopicYN": "N",
+        "content": "Female"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D021621",
+        "MajorTopicYN": "N",
+        "content": "Imaging, Three-Dimensional"
+      }},
+      {"DescriptorName": {
+        "UI": "D008279",
+        "MajorTopicYN": "N",
+        "content": "Magnetic Resonance Imaging"
+      }},
+      {"DescriptorName": {
+        "UI": "D009929",
+        "MajorTopicYN": "N",
+        "content": "Organ Size"
+      }},
+      {"DescriptorName": {
+        "UI": "D011187",
+        "MajorTopicYN": "N",
+        "content": "Posture"
+      }},
+      {"DescriptorName": {
+        "UI": "D060726",
+        "MajorTopicYN": "Y",
+        "content": "Torso"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 11
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28126421
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "04",
+        "Year": 2016,
+        "Day": "07",
+        "PubStatus": "received"
+      },
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 26,
+        "PubStatus": "revised"
+      },
+      {
+        "Month": "01",
+        "Year": 2017,
+        "Day": "01",
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 12,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      },
+      {
+        "Month": 1,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 28,
+        "PubStatus": "entrez"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28126421,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "S1350-4533(17)30005-X",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1016/j.medengphy.2017.01.004",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

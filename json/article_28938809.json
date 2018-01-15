@@ -1,0 +1,134 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "In-Data-Review",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": "0375360",
+      "Country": "United States",
+      "ISSNLinking": "0021-9606",
+      "MedlineTA": "J Chem Phys"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 114109},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "Language": "eng",
+      "Abstract": {"AbstractText": "In this work, we investigate a block Jacobi-Davidson (J-D) variant suitable for sparse symmetric eigenproblems where a substantial number of extremal eigenvalues are desired (e.g., ground-state real-space quantum chemistry). Most J-D algorithm variations tend to slow down as the number of desired eigenpairs increases due to frequent orthogonalization against a growing list of solved eigenvectors. In our specification of block J-D, all of the steps of the algorithm are performed in clusters, including the linear solves, which allows us to greatly reduce computational effort with blocked matrix-vector multiplies. In addition, we move orthogonalization against locked eigenvectors and working eigenvectors outside of the inner loop but retain the single Ritz vector projection corresponding to the index of the correction vector. Furthermore, we minimize the computational effort by constraining the working subspace to the current vectors being updated and the latest set of corresponding correction vectors. Finally, we incorporate accuracy thresholds based on the precision required by the Fermi-Dirac distribution. The net result is a significant reduction in the computational effort against most previous block J-D implementations, especially as the number of wanted eigenpairs grows. We compare our approach with another robust implementation of block J-D (JDQMR) and the state-of-the-art Chebyshev filter subspace (CheFSI) method for various real-space density functional theory systems. Versus CheFSI, for first-row elements, our method yields competitive timings for valence-only systems and 4-6× speedups for all-electron systems with up to 10× reduced matrix-vector multiplies. For all-electron calculations on larger elements (e.g., gold) where the wanted spectrum is quite narrow compared to the full spectrum, we observe 60× speedup with 200× fewer matrix-vector multiples vs. CheFSI."},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "M",
+            "LastName": "Lee",
+            "Initials": "M",
+            "AffiliationInfo": {"Affiliation": "Simulation Sciences Branch, U.S. Army Research Laboratory, Aberdeen Proving Ground, Maryland 21005, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "K",
+            "LastName": "Leiter",
+            "Initials": "K",
+            "AffiliationInfo": {"Affiliation": "Simulation Sciences Branch, U.S. Army Research Laboratory, Aberdeen Proving Ground, Maryland 21005, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "C",
+            "LastName": "Eisner",
+            "Initials": "C",
+            "AffiliationInfo": {"Affiliation": "Simulation Sciences Branch, U.S. Army Research Laboratory, Aberdeen Proving Ground, Maryland 21005, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "A",
+            "LastName": "Breuer",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Simulation Sciences Branch, U.S. Army Research Laboratory, Aberdeen Proving Ground, Maryland 21005, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "X",
+            "LastName": "Wang",
+            "Initials": "X",
+            "AffiliationInfo": {"Affiliation": "Simulation Sciences Branch, U.S. Army Research Laboratory, Aberdeen Proving Ground, Maryland 21005, USA."}
+          }
+        ]
+      },
+      "ArticleTitle": "A robust variant of block Jacobi-Davidson for extracting a large number of eigenpairs: Application to grid-based real-space density functional theory.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1063/1.5002655"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 11,
+          "Volume": 147,
+          "PubDate": {
+            "Month": "Sep",
+            "Year": 2017,
+            "Day": 21
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "J Chem Phys",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1089-7690"
+        },
+        "Title": "The Journal of chemical physics"
+      },
+      "PubModel": "Print"
+    },
+    "DateRevised": {
+      "Month": "09",
+      "Year": 2017,
+      "Day": 23
+    },
+    "PMID": {
+      "Version": 1,
+      "content": 28938809
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 24,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 9,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 25,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28938809,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1063/1.5002655",
+        "IdType": "doi"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

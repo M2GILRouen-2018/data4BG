@@ -1,0 +1,304 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "PubMed-not-MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 101245798,
+      "Country": "England",
+      "ISSNLinking": "1746-4811",
+      "MedlineTA": "Plant Methods"
+    },
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": 97},
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": 11,
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": "08"
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Background",
+          "content": "Automated species identification is a long term research subject. Contrary to flowers and fruits, leaves are available throughout most of the year. Offering margin and texture to characterize a species, they are the most studied organ for automated identification. Substantially matured machine learning techniques generate the need for more training data (aka leaf images). Researchers as well as enthusiasts miss guidance on how to acquire suitable training images in an efficient way."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Methods",
+          "content": "In this paper, we systematically study nine image types and three preprocessing strategies. Image types vary in terms of in-situ image recording conditions: perspective, illumination, and background, while the preprocessing strategies compare non-preprocessed, cropped, and segmented images to each other. Per image type-preprocessing combination, we also quantify the manual effort required for their implementation. We extract image features using a convolutional neural network, classify species using the resulting feature vectors and discuss classification accuracy in relation to the required effort per combination."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Results",
+          "content": "The most effective, non-destructive way to record herbaceous leaves is to take an image of the leaf's top side. We yield the highest classification accuracy using destructive back light images, i.e., holding the plucked leaf against the sky for image acquisition. Cropping the image to the leaf's boundary substantially improves accuracy, while precise segmentation yields similar accuracy at a substantially higher effort. The permanent use or disuse of a flash light has negligible effects. Imaging the typically stronger textured backside of a leaf does not result in higher accuracy, but notably increases the acquisition cost."
+        },
+        {
+          "NlmCategory": "UNASSIGNED",
+          "Label": "Conclusions",
+          "content": "In conclusion, the way in which leaf images are acquired and preprocessed does have a substantial effect on the accuracy of the classifier trained on them. For the first time, this study provides a systematic guideline allowing researchers to spend available acquisition resources wisely while yielding the optimal classification accuracy."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Michael",
+            "LastName": "Rzanny",
+            "Initials": "M",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0004 0491 7318"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.419500.9"
+                }
+              ],
+              "Affiliation": "Department Biogeochemical Integration, Max-Planck-Institute for Biogeochemistry, Hans-Knöll-Str. 10, 07745 Jena, Germany."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Marco",
+            "LastName": "Seeland",
+            "Initials": "M",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0001 1087 7453"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.6553.5"
+                }
+              ],
+              "Affiliation": "Institute for Computer and Systems Engineering, Technische Universität Ilmenau, Helmholtzplatz 5, 98693 Ilmenau, Germany."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "Identifier": {
+              "Source": "ORCID",
+              "content": "0000-0002-2631-1531"
+            },
+            "ForeName": "Jana",
+            "LastName": "Wäldchen",
+            "Initials": "J",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0004 0491 7318"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.419500.9"
+                }
+              ],
+              "Affiliation": "Department Biogeochemical Integration, Max-Planck-Institute for Biogeochemistry, Hans-Knöll-Str. 10, 07745 Jena, Germany."
+            }
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Patrick",
+            "LastName": "Mäder",
+            "Initials": "P",
+            "AffiliationInfo": {
+              "Identifier": [
+                {
+                  "Source": "ISNI",
+                  "content": "0000 0001 1087 7453"
+                },
+                {
+                  "Source": "GRID",
+                  "content": "grid.6553.5"
+                }
+              ],
+              "Affiliation": "Institute for Computer and Systems Engineering, Technische Universität Ilmenau, Helmholtzplatz 5, 98693 Ilmenau, Germany."
+            }
+          }
+        ]
+      },
+      "ArticleTitle": "Acquiring and preprocessing leaf images for automated plant identification: understanding the tradeoff between effort and information gain.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s13007-017-0245-8"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Volume": 13,
+          "PubDate": {"Year": 2017},
+          "CitedMedium": "Print"
+        },
+        "ISOAbbreviation": "Plant Methods",
+        "ISSN": {
+          "IssnType": "Print",
+          "content": "1746-4811"
+        },
+        "Title": "Plant methods"
+      },
+      "PubModel": "Electronic-eCollection"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "Back light"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Background"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "CNN"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Computer vision"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Cropping"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Effort"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Image acquisition"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Leaf image"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Leaf side"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Preprocessing"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Segmentation"
+        }
+      ]
+    },
+    "DateRevised": {
+      "Month": 12,
+      "Year": 2017,
+      "Day": 19
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Philos Trans R Soc Lond B Biol Sci. 2004 Apr 29;359(1444):655-67",
+        "PMID": {
+          "Version": 1,
+          "content": 15253351
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Adv. 2015 Jun 19;1(5):e1400253",
+        "PMID": {
+          "Version": 1,
+          "content": 26601195
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Sci Rep. 2016 Sep 20;6:33634",
+        "PMID": {
+          "Version": 1,
+          "content": 27644140
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS One. 2017 Feb 24;12 (2):e0170629",
+        "PMID": {
+          "Version": 1,
+          "content": 28234999
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 29151843
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "08",
+        "Year": 2017,
+        "Day": "02",
+        "PubStatus": "received"
+      },
+      {
+        "Month": 10,
+        "Year": 2017,
+        "Day": 25,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 11,
+        "Year": 2017,
+        "Minute": 1,
+        "Hour": 6,
+        "Day": 21,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 29151843,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s13007-017-0245-8",
+        "IdType": "doi"
+      },
+      {
+        "content": 245,
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5678587",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}

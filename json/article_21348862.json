@@ -1,0 +1,583 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "Owner": "NLM",
+    "Article": {
+      "Pagination": {"MedlinePgn": "808-14"},
+      "PublicationTypeList": {"PublicationType": [
+        {
+          "UI": "D016428",
+          "content": "Journal Article"
+        },
+        {
+          "UI": "D013485",
+          "content": "Research Support, Non-U.S. Gov't"
+        }
+      ]},
+      "ArticleDate": {
+        "Month": 10,
+        "Year": 2013,
+        "DateType": "Electronic",
+        "Day": 27
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "MOTIVATION",
+          "content": "With the advancement of high-throughput techniques, large-scale profiling of biological systems with multiple experimental perturbations is becoming more prevalent. Pathway analysis incorporates prior biological knowledge to analyze genes/proteins in groups in a biological context. However, the hypotheses under investigation are often confined to a 1D space (i.e. up, down, either or mixed regulation). Here, we develop direction pathway analysis (DPA), which can be applied to test hypothesis in a high-dimensional space for identifying pathways that display distinct responses across multiple perturbations."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Our DPA approach allows for the identification of pathways that display distinct responses across multiple perturbations. To demonstrate the utility and effectiveness, we evaluated DPA under various simulated scenarios and applied it to study insulin action in adipocytes. A major action of insulin in adipocytes is to regulate the movement of proteins from the interior to the cell surface membrane. Quantitative mass spectrometry-based proteomics was used to study this process on a large-scale. The combined dataset comprises four separate treatments. By applying DPA, we identified that several insulin responsive pathways in the plasma membrane trafficking are only partially dependent on the insulin-regulated kinase Akt. We subsequently validated our findings through targeted analysis of key proteins from these pathways using immunoblotting and live cell microscopy. Our results demonstrate that DPA can be applied to dissect pathway networks testing diverse hypotheses and integrating multiple experimental perturbations."
+        },
+        {
+          "NlmCategory": "METHODS",
+          "Label": "AVAILABILITY AND IMPLEMENTATION",
+          "content": "The R package 'directPA' is distributed from CRAN under GNU General Public License (GPL)-3 and can be downloaded from: http://cran.r-project.org/web/packages/directPA/index.html"
+        },
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "CONTACT",
+          "content": "jean.yang@sydney.edu.au"
+        },
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "SUPPLEMENTARY INFORMATION",
+          "content": "Supplementary data are available at Bioinformatics online."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Pengyi",
+            "LastName": "Yang",
+            "Initials": "P",
+            "AffiliationInfo": {"Affiliation": "Systems Biology Group, Biostatistics Branch, National Institute of Environmental Health Sciences, National Institute of Health, Research Triangle Park, NC 27709, USA, School of Mathematics and Statistics, University of Sydney, Diabetes and Obesity Program, Garvan Institute of Medical Research, NSW 2006, Australia and Metabolism in Human Disease Unit, Institute of Molecular and Cellular Biology, A*Star, 61 Biopolis Drive, Proteos 138673, Singapore."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Ellis",
+            "LastName": "Patrick",
+            "Initials": "E"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shi-Xiong",
+            "LastName": "Tan",
+            "Initials": "SX"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Daniel J",
+            "LastName": "Fazakerley",
+            "Initials": "DJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "James",
+            "LastName": "Burchfield",
+            "Initials": "J"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Christopher",
+            "LastName": "Gribben",
+            "Initials": "C"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Matthew J",
+            "LastName": "Prior",
+            "Initials": "MJ"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "David E",
+            "LastName": "James",
+            "Initials": "DE"
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Yee",
+            "LastName": "Hwa Yang",
+            "Initials": "Y"
+          }
+        ]
+      },
+      "ArticleTitle": "Direction pathway analysis of large-scale proteomics data reveals novel features of the insulin action pathway.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1093/bioinformatics/btt616"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 6,
+          "Volume": 30,
+          "PubDate": {
+            "Month": "Mar",
+            "Year": 2014,
+            "Day": 15
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1367-4811"
+        },
+        "Title": "Bioinformatics (Oxford, England)"
+      },
+      "PubModel": "Print-Electronic"
+    },
+    "DateCreated": {
+      "Month": "03",
+      "Year": 2014,
+      "Day": 19
+    },
+    "DateRevised": {
+      "Month": "04",
+      "Year": 2015,
+      "Day": 22
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "PLoS Comput Biol. 2011 May;7(5):e1002053",
+        "PMID": {
+          "Version": 1,
+          "content": 21637797
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Biol. 2010 Nov;30(21):5009-20",
+        "PMID": {
+          "Version": 1,
+          "content": 20733001
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Proteome Res. 2011 Nov 4;10(11):4970-82",
+        "PMID": {
+          "Version": 1,
+          "content": 21928809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2011;12:459",
+        "PMID": {
+          "Version": 1,
+          "content": 22118224
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2012 May;40(9):3785-99",
+        "PMID": {
+          "Version": 1,
+          "content": 22262733
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Traffic. 2013 Mar;14(3):259-73",
+        "PMID": {
+          "Version": 1,
+          "content": 23252720
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2013 Apr;41(8):4378-91",
+        "PMID": {
+          "Version": 1,
+          "content": 23444143
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem J. 2001 Sep 15;358(Pt 3):637-46",
+        "PMID": {
+          "Version": 1,
+          "content": 11535125
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Cell Proteomics. 2002 May;1(5):376-86",
+        "PMID": {
+          "Version": 1,
+          "content": 12118079
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Genet. 2003 Jul;34(3):267-73",
+        "PMID": {
+          "Version": 1,
+          "content": 12808457
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Mol Biol Cell. 2003 Jul;14(7):2946-58",
+        "PMID": {
+          "Version": 1,
+          "content": 12857877
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem J. 1993 Dec 1;296 ( Pt 2):297-301",
+        "PMID": {
+          "Version": 1,
+          "content": 8257416
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2005 Sep 15;21(18):3587-95",
+        "PMID": {
+          "Version": 1,
+          "content": 15994189
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proc Natl Acad Sci U S A. 2005 Oct 25;102(43):15545-50",
+        "PMID": {
+          "Version": 1,
+          "content": 16199517
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Chem Biol. 2005 Oct;1(5):252-62",
+        "PMID": {
+          "Version": 1,
+          "content": 16408053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Rev Genet. 2006 Aug;7(8):606-19",
+        "PMID": {
+          "Version": 1,
+          "content": 16847462
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2006 Oct 1;22(19):2373-80",
+        "PMID": {
+          "Version": 1,
+          "content": 16877751
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Feb 15;23(4):401-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17182697
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2007 Apr 15;23(8):980-7",
+        "PMID": {
+          "Version": 1,
+          "content": 17303618
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell. 2007 Jun 29;129(7):1261-74",
+        "PMID": {
+          "Version": 1,
+          "content": 17604717
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Bioinform Comput Biol. 2007 Oct;5(5):1139-53",
+        "PMID": {
+          "Version": 1,
+          "content": 17933015
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Cell Metab. 2008 Apr;7(4):348-56",
+        "PMID": {
+          "Version": 1,
+          "content": 18396141
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2008 May;9(3):189-97",
+        "PMID": {
+          "Version": 1,
+          "content": 18202032
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nat Biotechnol. 2008 Dec;26(12):1367-72",
+        "PMID": {
+          "Version": 1,
+          "content": 19029910
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Nucleic Acids Res. 2009 Jan;37(1):1-13",
+        "PMID": {
+          "Version": 1,
+          "content": 19033363
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2009;10:47",
+        "PMID": {
+          "Version": 1,
+          "content": 19192285
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Cell Sci. 2009 Oct 1;122(Pt 19):3472-80",
+        "PMID": {
+          "Version": 1,
+          "content": 19759285
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Methods Med Res. 2009 Dec;18(6):565-75",
+        "PMID": {
+          "Version": 1,
+          "content": 20048385
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 May 15;26(10):1316-23",
+        "PMID": {
+          "Version": 1,
+          "content": 20410053
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Biochem J. 2011 Apr 15;435(2):539-44",
+        "PMID": {
+          "Version": 1,
+          "content": 21348862
+        }
+      }
+    ]},
+    "OtherID": {
+      "Source": "NLM",
+      "content": "PMC3957074"
+    },
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 9808944,
+      "Country": "England",
+      "ISSNLinking": "1367-4803",
+      "MedlineTA": "Bioinformatics"
+    },
+    "CitationSubset": "IM",
+    "ChemicalList": {"Chemical": [
+      {
+        "NameOfSubstance": {
+          "UI": "D007328",
+          "content": "Insulin"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D020543",
+          "content": "Proteome"
+        },
+        "RegistryNumber": 0
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D019869",
+          "content": "Phosphatidylinositol 3-Kinases"
+        },
+        "RegistryNumber": "EC 2.7.1.-"
+      },
+      {
+        "NameOfSubstance": {
+          "UI": "D051057",
+          "content": "Proto-Oncogene Proteins c-akt"
+        },
+        "RegistryNumber": "EC 2.7.11.1"
+      }
+    ]},
+    "DateCompleted": {
+      "Month": "06",
+      "Year": 2014,
+      "Day": 11
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D017667",
+          "MajorTopicYN": "N",
+          "content": "Adipocytes"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D001692",
+        "MajorTopicYN": "N",
+        "content": "Biological Transport"
+      }},
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D002462",
+          "MajorTopicYN": "N",
+          "content": "Cell Membrane"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "Y",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D007328",
+          "MajorTopicYN": "N",
+          "content": "Insulin"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D019869",
+          "MajorTopicYN": "N",
+          "content": "Phosphatidylinositol 3-Kinases"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D020543",
+          "MajorTopicYN": "N",
+          "content": "Proteome"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000379",
+          "MajorTopicYN": "Y",
+          "content": "methods"
+        },
+        "DescriptorName": {
+          "UI": "D040901",
+          "MajorTopicYN": "N",
+          "content": "Proteomics"
+        }
+      },
+      {
+        "QualifierName": {
+          "UI": "Q000378",
+          "MajorTopicYN": "N",
+          "content": "metabolism"
+        },
+        "DescriptorName": {
+          "UI": "D051057",
+          "MajorTopicYN": "N",
+          "content": "Proto-Oncogene Proteins c-akt"
+        }
+      },
+      {"DescriptorName": {
+        "UI": "D012984",
+        "MajorTopicYN": "N",
+        "content": "Software"
+      }}
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 24167158
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": 10,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 10,
+        "Year": 2013,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 30,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 6,
+        "Year": 2014,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 12,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 24167158,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "btt616",
+        "IdType": "pii"
+      },
+      {
+        "content": "10.1093/bioinformatics/btt616",
+        "IdType": "doi"
+      },
+      {
+        "content": "PMC3957074",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "ppublish"
+  }
+}}

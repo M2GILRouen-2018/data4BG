@@ -1,0 +1,419 @@
+{"PubmedArticle": {
+  "MedlineCitation": {
+    "Status": "MEDLINE",
+    "MedlineJournalInfo": {
+      "NlmUniqueID": 100965194,
+      "Country": "England",
+      "ISSNLinking": "1471-2105",
+      "MedlineTA": "BMC Bioinformatics"
+    },
+    "Owner": "NLM",
+    "CitationSubset": "IM",
+    "DateCompleted": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 21
+    },
+    "Article": {
+      "Pagination": {"MedlinePgn": 114},
+      "GrantList": {
+        "CompleteYN": "Y",
+        "Grant": {
+          "Agency": "NIGMS NIH HHS",
+          "Country": "United States",
+          "GrantID": "P20 GM103492",
+          "Acronym": "GM"
+        }
+      },
+      "PublicationTypeList": {"PublicationType": {
+        "UI": "D016428",
+        "content": "Journal Article"
+      }},
+      "ArticleDate": {
+        "Month": "02",
+        "Year": 2017,
+        "DateType": "Electronic",
+        "Day": 20
+      },
+      "Language": "eng",
+      "Abstract": {"AbstractText": [
+        {
+          "NlmCategory": "BACKGROUND",
+          "Label": "BACKGROUND",
+          "content": "High throughput metabolomics makes it possible to measure the relative abundances of numerous metabolites in biological samples, which is useful to many areas of biomedical research. However, missing values (MVs) in metabolomics datasets are common and can arise due to both technical and biological reasons. Typically, such MVs are substituted by a minimum value, which may lead to different results in downstream analyses."
+        },
+        {
+          "NlmCategory": "RESULTS",
+          "Label": "RESULTS",
+          "content": "Here we present a modified version of the K-nearest neighbor (KNN) approach which accounts for truncation at the minimum value, i.e., KNN truncation (KNN-TN). We compare imputation results based on KNN-TN with results from other KNN approaches such as KNN based on correlation (KNN-CR) and KNN based on Euclidean distance (KNN-EU). Our approach assumes that the data follow a truncated normal distribution with the truncation point at the detection limit (LOD). The effectiveness of each approach was analyzed by the root mean square error (RMSE) measure as well as the metabolite list concordance index (MLCI) for influence on downstream statistical testing. Through extensive simulation studies and application to three real data sets, we show that KNN-TN has lower RMSE values compared to the other two KNN procedures as well as simpler imputation methods based on substituting missing values with the metabolite mean, zero values, or the LOD. MLCI values between KNN-TN and KNN-EU were roughly equivalent, and superior to the other four methods in most cases."
+        },
+        {
+          "NlmCategory": "CONCLUSIONS",
+          "Label": "CONCLUSION",
+          "content": "Our findings demonstrate that KNN-TN generally has improved performance in imputing the missing values of the different datasets compared to KNN-CR and KNN-EU when there is missingness due to missing at random combined with an LOD. The results shown in this study are in the field of metabolomics but this method could be applicable with any high throughput technology which has missing due to LOD."
+        }
+      ]},
+      "AuthorList": {
+        "CompleteYN": "Y",
+        "Author": [
+          {
+            "ValidYN": "Y",
+            "ForeName": "Jasmit S",
+            "LastName": "Shah",
+            "Initials": "JS",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Bioinformatics and Biostatistics, University of Louisville, Louisville, KY, 40202, USA. jasmit.shah@louisville.edu."},
+              {"Affiliation": "Department of Medicine, Division of Cardiovascular Medicine, Diabetes and Obesity Center, University of Louisville, Louisville, KY, 40202, USA. jasmit.shah@louisville.edu."}
+            ]
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Shesh N",
+            "LastName": "Rai",
+            "Initials": "SN",
+            "AffiliationInfo": {"Affiliation": "Department of Bioinformatics and Biostatistics, University of Louisville, Louisville, KY, 40202, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Andrew P",
+            "LastName": "DeFilippis",
+            "Initials": "AP",
+            "AffiliationInfo": {"Affiliation": "Department of Medicine, Division of Cardiovascular Medicine, Diabetes and Obesity Center, University of Louisville, Louisville, KY, 40202, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Bradford G",
+            "LastName": "Hill",
+            "Initials": "BG",
+            "AffiliationInfo": {"Affiliation": "Department of Medicine, Division of Cardiovascular Medicine, Diabetes and Obesity Center, University of Louisville, Louisville, KY, 40202, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Aruni",
+            "LastName": "Bhatnagar",
+            "Initials": "A",
+            "AffiliationInfo": {"Affiliation": "Department of Medicine, Division of Cardiovascular Medicine, Diabetes and Obesity Center, University of Louisville, Louisville, KY, 40202, USA."}
+          },
+          {
+            "ValidYN": "Y",
+            "ForeName": "Guy N",
+            "LastName": "Brock",
+            "Initials": "GN",
+            "AffiliationInfo": [
+              {"Affiliation": "Department of Bioinformatics and Biostatistics, University of Louisville, Louisville, KY, 40202, USA. Guy.Brock@osumc.edu."},
+              {"Affiliation": "Present Affiliation: Department of Biomedical Informatics, The Ohio State University, Columbus, OH, 43210, USA. Guy.Brock@osumc.edu."}
+            ]
+          }
+        ]
+      },
+      "ArticleTitle": "Distribution based nearest neighbor imputation for truncated high dimensional data with applications to pre-clinical and clinical metabolomics studies.",
+      "ELocationID": {
+        "ValidYN": "Y",
+        "EIdType": "doi",
+        "content": "10.1186/s12859-017-1547-6"
+      },
+      "Journal": {
+        "JournalIssue": {
+          "Issue": 1,
+          "Volume": 18,
+          "PubDate": {
+            "Month": "Feb",
+            "Year": 2017,
+            "Day": 20
+          },
+          "CitedMedium": "Internet"
+        },
+        "ISOAbbreviation": "BMC Bioinformatics",
+        "ISSN": {
+          "IssnType": "Electronic",
+          "content": "1471-2105"
+        },
+        "Title": "BMC bioinformatics"
+      },
+      "PubModel": "Electronic"
+    },
+    "KeywordList": {
+      "Owner": "NOTNLM",
+      "Keyword": [
+        {
+          "MajorTopicYN": "N",
+          "content": "High dimensional data"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Imputation"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "K-nearest neighbors"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Metabolomics"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Missing value"
+        },
+        {
+          "MajorTopicYN": "N",
+          "content": "Truncated normal"
+        }
+      ]
+    },
+    "DateCreated": {
+      "Month": "02",
+      "Year": 2017,
+      "Day": 21
+    },
+    "MeshHeadingList": {"MeshHeading": [
+      {"DescriptorName": {
+        "UI": "D000465",
+        "MajorTopicYN": "Y",
+        "content": "Algorithms"
+      }},
+      {"DescriptorName": {
+        "UI": "D035843",
+        "MajorTopicYN": "Y",
+        "content": "Biomedical Research"
+      }},
+      {"DescriptorName": {
+        "UI": "D019295",
+        "MajorTopicYN": "N",
+        "content": "Computational Biology"
+      }},
+      {"DescriptorName": {
+        "UI": "D006801",
+        "MajorTopicYN": "N",
+        "content": "Humans"
+      }},
+      {"DescriptorName": {
+        "UI": "D055432",
+        "MajorTopicYN": "Y",
+        "content": "Metabolomics"
+      }}
+    ]},
+    "DateRevised": {
+      "Month": "08",
+      "Year": 2017,
+      "Day": 21
+    },
+    "CommentsCorrectionsList": {"CommentsCorrections": [
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2011 Jan 1;27(1):78-86",
+        "PMID": {
+          "Version": 1,
+          "content": 21045072
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2008 Apr;8(7):1371-83",
+        "PMID": {
+          "Version": 1,
+          "content": 18383008
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2010 Jan 1;26(1):139-40",
+        "PMID": {
+          "Version": 1,
+          "content": 19910308
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2008 Jan 10;9:12",
+        "PMID": {
+          "Version": 1,
+          "content": 18186917
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Thromb Thrombolysis. 2016 Jul;42(1):61-76",
+        "PMID": {
+          "Version": 1,
+          "content": 26510751
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "MethodsX. 2016 Jul 20;3:490-6",
+        "PMID": {
+          "Version": 1,
+          "content": 27504267
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Circ Heart Fail. 2014 Jul;7(4):634-42",
+        "PMID": {
+          "Version": 1,
+          "content": 24762972
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "J Am Stat Assoc. 1949 Dec;44(248):518-25",
+        "PMID": {
+          "Version": 1,
+          "content": 15395359
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Appl Genet Mol Biol. 2013 Dec;12(6):703-22",
+        "PMID": {
+          "Version": 1,
+          "content": 24246290
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2009 Aug 15;25(16):2028-34",
+        "PMID": {
+          "Version": 1,
+          "content": 19535538
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Stat Appl Genet Mol Biol. 2004;3:Article3",
+        "PMID": {
+          "Version": 1,
+          "content": 16646809
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Proteomics. 2010 Mar;10(6):1202-11",
+        "PMID": {
+          "Version": 1,
+          "content": 20077407
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Dev Growth Differ. 2014 Aug;56(6):434-47",
+        "PMID": {
+          "Version": 1,
+          "content": 24849136
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Methods Mol Biol. 2011;708:277-98",
+        "PMID": {
+          "Version": 1,
+          "content": 21207297
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "BMC Bioinformatics. 2012;13 Suppl 16:S5",
+        "PMID": {
+          "Version": 1,
+          "content": 23176322
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Metabolites. 2014 Jun 16;4(2):433-52",
+        "PMID": {
+          "Version": 1,
+          "content": 24957035
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Brief Bioinform. 2016 Feb 19;:null",
+        "PMID": {
+          "Version": 1,
+          "content": 26896791
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Clin Chem. 1994 Jul;40(7 Pt 1):1233-8",
+        "PMID": {
+          "Version": 1,
+          "content": 8013092
+        }
+      },
+      {
+        "RefType": "Cites",
+        "RefSource": "Bioinformatics. 2001 Jun;17(6):520-5",
+        "PMID": {
+          "Version": 1,
+          "content": 11395428
+        }
+      }
+    ]},
+    "PMID": {
+      "Version": 1,
+      "content": 28219348
+    }
+  },
+  "PubmedData": {
+    "History": {"PubMedPubDate": [
+      {
+        "Month": "09",
+        "Year": 2016,
+        "Day": 15,
+        "PubStatus": "received"
+      },
+      {
+        "Month": "02",
+        "Year": 2017,
+        "Day": 13,
+        "PubStatus": "accepted"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "entrez"
+      },
+      {
+        "Month": 2,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "pubmed"
+      },
+      {
+        "Month": 8,
+        "Year": 2017,
+        "Minute": 0,
+        "Hour": 6,
+        "Day": 22,
+        "PubStatus": "medline"
+      }
+    ]},
+    "ArticleIdList": {"ArticleId": [
+      {
+        "content": 28219348,
+        "IdType": "pubmed"
+      },
+      {
+        "content": "10.1186/s12859-017-1547-6",
+        "IdType": "doi"
+      },
+      {
+        "content": "10.1186/s12859-017-1547-6",
+        "IdType": "pii"
+      },
+      {
+        "content": "PMC5319174",
+        "IdType": "pmc"
+      }
+    ]},
+    "PublicationStatus": "epublish"
+  }
+}}
